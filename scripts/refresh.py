@@ -85,7 +85,7 @@ def parse_page(html):
         src = clean(block.select_one(".opening_source").get_text()) if block.select_one(".opening_source") else ""
         jobs.append({
             "title": clean(a.get_text()),
-            "city": clean(block.select_one(".location").get_text()) if block.select_one(".location") else "",
+            "city": re.sub(r"(?i)^\[?unknown city\]?$", "Lane County", clean(block.select_one(".location").get_text())) if block.select_one(".location") else "Lane County",
             "url": a.get("href", "").replace("http://secure.emp", "https://secure.emp"),
             "source": src.replace("External Job Board - ", "").replace("Oregon Employment Department", "OED"),
             "days": days,
