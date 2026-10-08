@@ -52,6 +52,8 @@ PARAMS = {
 DAYS = 30            # pull postings from the last 30 days so open jobs are not dropped early
 MISSES_TO_CLOSE = 3  # a job closes after this many nightly runs without appearing
 PAUSE = 1.0          # seconds between page requests, to be polite
+SHOW_DAYS = 14       # the widget shows postings up to this many days old; older ones are often already filled
+SKIP_HOSTS = ("indeed.com", "simplyhired.com")  # reposts here are often expired or behind a "confirm you're human" check
 HEADERS = {"User-Agent": "LaneCountyHotJobs/0.1 (nonprofit workforce pilot; Collaborative Economic Development Oregon)"}
 
 
@@ -235,16 +237,23 @@ def main():
             if rec["misses"] >= MISSES_TO_CLOSE and "closed" not in rec:
                 rec["closed"] = today
 
+    def shown(j):
+        host = re.sub(r"^https?://([^/]+).*$", r"\1", j["url"] or "").lower()
+        return j["days"] <= SHOW_DAYS and not any(host == h or host.endswith("." + h) for h in SKIP_HOSTS)
+
+    show = sorted((j for j in jobs if shown(j)), key=lambda j: j["days"])
     out = {
         "updated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
         "source": "QualityInfo Job Finder, Oregon Employment Department",
         "area": "Lane County, Oregon",
         "window_days": DAYS,
         "reported_total": total,
-        "count": len(jobs),
+        "count": len(show),
+        "pulled": len(jobs),
+        "show_days": SHOW_DAYS,
         "jobs": [{k: j[k] for k in ("id", "title", "city", "employer", "type", "industries", "rural", "priority",
                                     "route", "source", "days", "first_seen", "soc", "occupation", "url")}
-                 | {"snippet": j["snippet"][:160]} for j in jobs],
+                 | {"snippet": j["snippet"][:160]} for j in show],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     STATE.parent.mkdir(parents=True, exist_ok=True)
@@ -252,6 +261,7 @@ def main():
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
     n_emp = update_employers(jobs, today)
     print(f"Employers on record: {n_emp}.")
+    print(f"Widget shows {len(show)} (up to {SHOW_DAYS} days old, direct links only).")
     print(f"QualityInfo reported {total}; parsed {len(raw)}; kept {len(jobs)} after duplicates; "
           f"{sum(1 for r in state.values() if 'closed' in r)} closed to date.")
 

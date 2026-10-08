@@ -5,7 +5,7 @@ A pilot index of open jobs in Lane County, Oregon, built by Collaborative Econom
 ## How it works
 
 1. **Every night** a scheduled GitHub Action runs `scripts/refresh.py`. It reads every Lane County posting from the [QualityInfo Job Finder](https://www.qualityinfo.org/jfind) (Oregon Employment Department), removes duplicates, and tags each job with its type of work, industry and employer.
-2. The results are saved to `docs/jobs.json`. `data/state.json` keeps the date each job was first and last seen; a job counts as closed after it misses three nightly runs.
+2. The widget's list, `docs/jobs.json`, holds postings up to 14 days old with a direct link (WorkSource Oregon or the employer's own hiring site), newest first. Indeed and SimplyHired reposts are left out because they are often expired or sit behind a "confirm you're human" check; both settings are at the top of `scripts/refresh.py`. Every posting still counts toward the employer lists below. `data/state.json` keeps the date each job was first and last seen; a job counts as closed after it misses three nightly runs.
 3. The run also keeps a record of every employer it has seen (`data/employers.json`) and publishes two lists for the Employer Registry Google Sheet: `docs/employers.csv` (each employer, its hiring platform and careers page when a posting reveals them, open postings, first and last seen) and `docs/to-trace.csv` (postings that do not name the employer).
 4. GitHub Pages publishes the `docs` folder. `docs/widget.js` is the embeddable widget, and it reads `jobs.json` from the same address.
 5. A partner pastes one line into their site, and every update here reaches every partner site on the next page load.
