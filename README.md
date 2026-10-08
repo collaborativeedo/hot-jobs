@@ -13,7 +13,7 @@ A pilot index of open jobs in Lane County, Oregon, built by Collaborative Econom
 ## Add the widget to a website
 
 ```html
-<script src="https://OWNER.github.io/hot-jobs/widget.js" defer></script>
+<script src="https://collaborativeedo.github.io/hot-jobs/widget.js" defer></script>
 ```
 
 Optional settings on the same tag:
@@ -33,14 +33,14 @@ In WordPress, use a Custom HTML block. Adding scripts usually requires an admini
 1. Push this repository to GitHub as a **public** repository named `hot-jobs`.
 2. In the repository, open **Settings > Pages** and set **Source** to **GitHub Actions**.
 3. Open **Actions > Refresh and publish > Run workflow** to run the first refresh by hand.
-4. The widget is then live at `https://OWNER.github.io/hot-jobs/widget.js`, and a demo page at `https://OWNER.github.io/hot-jobs/`.
+4. The widget is then live at `https://collaborativeedo.github.io/hot-jobs/widget.js`, and a demo page at `https://collaborativeedo.github.io/hot-jobs/`.
 
 ## Feeding the Employer Registry
 
 In the registry Google Sheet, add a tab with this formula in cell A1:
 
 ```
-=IMPORTDATA("https://OWNER.github.io/hot-jobs/employers.csv")
+=IMPORTDATA("https://collaborativeedo.github.io/hot-jobs/employers.csv")
 ```
 
 The tab refreshes itself, so new employers appear without anyone copying them. Staff review them and move them into the Employers tab, where people's edits are never overwritten. A second tab with `to-trace.csv` lists the postings whose employer still needs to be identified by hand.
