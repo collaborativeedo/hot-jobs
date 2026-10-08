@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lane County Hot Jobs</title>
+<meta name="robots" content="noindex">
+<style>
+  body{margin:0;background:#f3f5f4;color:#16231f;font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+  main{max-width:900px;margin:0 auto;padding:32px 16px 64px}
+  h1{font-size:30px;margin:0 0 6px}
+  p.lead{color:#56655f;max-width:65ch;margin:0 0 24px}
+  section.install{background:#fff;border:1px solid #d3dbd7;border-radius:10px;padding:16px 18px;margin-top:32px}
+  section.install h2{font-size:18px;margin:0 0 8px}
+  pre{background:#eef2f0;border:1px solid #d3dbd7;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:13px}
+  code{font-family:ui-monospace,Menlo,monospace}
+  ol li{margin-bottom:6px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Lane County Hot Jobs</h1>
+  <p class="lead">A pilot job list for Lane County, refreshed nightly from the Oregon Employment Department's QualityInfo Job Finder. Any partner website can show it with one line of code.</p>
+
+  <script src="widget.js" defer></script>
+
+  <section class="install">
+    <h2>Add it to your website</h2>
+    <ol>
+      <li>In WordPress, edit the page and add a <strong>Custom HTML</strong> block.</li>
+      <li>Paste this one line:
+        <pre><code id="snippet">&lt;script src="WIDGET_URL" defer&gt;&lt;/script&gt;</code></pre>
+      </li>
+      <li>Preview, then publish. The list updates by itself every night.</li>
+    </ol>
+    <p>To start the list on one type of work, add a setting, for example <code>data-type="Healthcare &amp; human services"</code>. Other settings: <code>data-industry</code>, <code>data-city</code>, <code>data-title</code>.</p>
+  </section>
+</main>
+<script>
+  var s = document.getElementById("snippet");
+  var url = new URL("widget.js", location.href).href;
+  s.textContent = '<script src="' + url + '" defer><\/script>';
+</script>
+</body>
+</html>
