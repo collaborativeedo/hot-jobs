@@ -23,6 +23,11 @@ import requests
 
 UA = "LaneCountyHotJobs/0.2 (nonprofit workforce pilot; Collaborative Economic Development Oregon)"
 PAUSE = 1.0
+# robots.txt is advisory. CEDO chose to collect public job postings even where a site's robots.txt asks
+# crawlers to stay away (decision of October 2026). The run still identifies itself honestly, pauses
+# between requests, and never works around an active block (a 401/403/429 answer) or a login.
+# Set to True to go back to honoring robots.txt.
+RESPECT_ROBOTS = False
 MAX_DETAILS = 80  # per source per night
 
 LANE_CITIES = ["Eugene", "Springfield", "Florence", "Cottage Grove", "Junction City", "Creswell", "Veneta",
@@ -62,6 +67,8 @@ class Fetcher:
         self.calls = 0
 
     def allowed(self, url):
+        if not RESPECT_ROBOTS:
+            return True
         p = urlparse(url)
         root = f"{p.scheme}://{p.netloc}"
         if root not in self.robots:
@@ -144,6 +151,9 @@ def posting_key(url):
     m = re.search(r"ultipro\.com/([a-z0-9]+)/jobboard/.*opportunityid=([0-9a-f-]{36})", u)
     if m:
         return f"ukg:{m.group(1)}:{m.group(2)}"
+    m = re.search(r"(?:governmentjobs|schooljobs)\.com/(?:careers/[^/]+/)?jobs/(\d+)", u)
+    if m:
+        return f"neogov:{m.group(1)}"
     m = re.search(r"careers\.peacehealth\.org/jobs/(\d+)", u)
     if m:
         return f"peacehealth:{m.group(1)}"
@@ -293,5 +303,38 @@ def pull_peacehealth(f, src):
     return jobs
 
 
-CONNECTORS = {"Workday": pull_workday, "Oracle Recruiting": pull_oracle, "UKG (UltiPro)": pull_ukg,
+NEOGOV_SEARCHES = [("Eugene, OR", 25), ("Florence, OR", 15), ("Oakridge, OR", 15), ("Cottage Grove, OR", 10)]
+NOT_LANE = re.compile(r"\b(Harrisburg|Brownsville|Halsey|Monroe|Sweet Home|Drain|Yoncalla|Corvallis|Albany|Lebanon|"
+                      r"Philomath|Roseburg|Salem|Newport|Reedsport|Waldport|Yachats|Sutherlin|Shedd|Tangent)\b", re.I)
+
+
+def pull_neogov(f, src):
+    """Public-sector jobs (cities, counties, school districts, special districts) from NEOGOV's location search."""
+    from bs4 import BeautifulSoup
+    jobs, seen = [], set()
+    for place, miles in NEOGOV_SEARCHES:
+        for page in range(1, 40):
+            h = f.get(f"https://{src['host']}/jobs", params={"page": page, "location": place, "distance": miles},
+                      headers={"X-Requested-With": "XMLHttpRequest"}).text
+            items = BeautifulSoup(h, "html.parser").select("li.job-item")
+            new = 0
+            for li in items:
+                jid = li.get("data-job-id", "")
+                a = li.select_one("a.job-details-link")
+                if not jid or not a or jid in seen:
+                    continue
+                seen.add(jid)
+                new += 1
+                loc = plain((li.select_one(".job-location") or a).get_text())
+                if NOT_LANE.search(loc):
+                    continue
+                org = plain((li.select_one(".job-organization") or a).get_text(), 120)
+                jobs.append({"title": plain(a.get_text(), 200), "city": lane_city(loc) or lane_city(loc + ", OR") or "Lane County",
+                             "url": f"https://{src['host']}{a['href']}", "days": None, "snippet": "", "org": org})
+            if not items or not new:
+                break
+    return jobs
+
+
+CONNECTORS = {"NEOGOV": pull_neogov, "Workday": pull_workday, "Oracle Recruiting": pull_oracle, "UKG (UltiPro)": pull_ukg,
               "PeaceHealth careers site": pull_peacehealth}

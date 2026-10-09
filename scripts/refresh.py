@@ -207,6 +207,9 @@ def pull_direct(qi_jobs, fetcher, today):
             rec["employer"] = rules.TENANT_NAMES[rec["tenant"].lower()]
         if not rec.get("employer") and j["employer"] and not j["employer"].startswith("Unnamed"):
             rec["employer"] = j["employer"]
+    for host in ("www.governmentjobs.com", "www.schooljobs.com"):  # public employers; one search covers all of them
+        sources.setdefault(f"neogov:{host}", {"platform": "NEOGOV", "host": host, "first_seen": today,
+                                              "employer": "", "multi": True})
     if "peacehealth" not in sources:
         sources["peacehealth"] = {"platform": "PeaceHealth careers site", "host": "careers.peacehealth.org",
                                   "first_seen": today, "employer": "PeaceHealth"}
@@ -243,9 +246,11 @@ def pull_direct(qi_jobs, fetcher, today):
             print(f"  {key}: {type(e).__name__}: {e}")
         print(f"  {key}: {len(rows)} Lane openings ({fetcher.calls - before} requests)")
         name = src.get("employer") or rules.employer_from_url(f"https://{src['host']}/{src.get('tenant', '')}")
+        if src.get("multi"):
+            name = ""
         for r in rows:
             emp = name or r.get("org") or ""
-            if not src.get("employer") and r.get("org"):
+            if not src.get("multi") and not src.get("employer") and r.get("org"):
                 src["employer"] = emp = r["org"]
             got.append({"title": r["title"], "city": r["city"], "url": r["url"],
                         "source": "Employer direct", "days": r["days"],
@@ -256,7 +261,7 @@ def pull_direct(qi_jobs, fetcher, today):
         w = csv.writer(fh)
         w.writerow(["Employer", "Hiring system", "Address", "Lane openings last night", "Status", "First seen", "Last run"])
         for key, src in sorted(sources.items(), key=lambda kv: -kv[1].get("lane_openings", 0)):
-            w.writerow([src.get("employer") or key, src["platform"], f"https://{src['host']}/{src.get('site', src.get('tenant', ''))}",
+            w.writerow([src.get("employer") or ("Public employers in Lane County" if src.get("multi") else key), src["platform"], f"https://{src['host']}/{src.get('site', src.get('tenant', ''))}",
                         src.get("lane_openings", 0), src.get("status", ""), src.get("first_seen", ""), src.get("last_run", "")])
 
     # Merge: one row per posting, direct first.

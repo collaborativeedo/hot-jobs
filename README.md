@@ -16,10 +16,10 @@ The run grows its own list of employers to pull from directly, with no review st
 
 1. When a QualityInfo posting links to an employer's hiring system (Workday, Oracle Recruiting, UKG), the run saves that system to `data/sources.json`. PeaceHealth's careers site is included from the start.
 2. Every night it pulls each saved system's Lane County openings straight from the employer, so the widget links to the employer's own posting. A direct posting replaces the QualityInfo copy of the same job, and any WorkSource Oregon copy with the same employer, title and city.
-3. Before every request it checks the site's robots.txt, and skips any employer whose site asks crawlers not to visit. `docs/sources.csv` lists every system, how many Lane openings it had last night, and whether it was pulled or skipped.
+3. `docs/sources.csv` lists every system, how many Lane openings it had last night, and whether it was pulled. A site that actively refuses automated requests (a 401, 403 or 429 answer) is recorded and left alone; the run never logs in, solves a challenge, or disguises itself as a person.
 4. Employers whose postings live on their own careers site are named from the site's own name, cached in `data/domain-names.json`. Known careers domains and hiring-platform account names are in `scripts/rules.py`.
 
-NEOGOV (governmentjobs.com, used by Lane County, the City of Eugene and 4J) asks crawlers not to visit, so those jobs still come through QualityInfo.
+Public employers on NEOGOV (governmentjobs.com and schooljobs.com: Lane County, the City of Eugene, school districts and others) are pulled with one location search around Eugene, Florence, Oakridge and Cottage Grove.
 
 ## Add the widget to a website
 
@@ -62,7 +62,8 @@ All rules live in `scripts/rules.py`: type of work by occupation code, industrie
 
 ## Ground rules for data collection
 
-- QualityInfo's robots.txt allows automated access. The script pauses one second between pages and identifies itself.
+- The script identifies itself as CEDO's job index and pauses one second between requests.
+- robots.txt is treated as advisory (CEDO decision, October 2026); the switch is `RESPECT_ROBOTS` in `scripts/direct.py`. Active blocks are always respected.
 - OED's own job site (`secure.emp.state.or.us`) does not allow automated access, so the script never visits it. It only records the links QualityInfo lists.
 - Indeed and SimplyHired are never crawled directly. Their postings appear only where QualityInfo lists them.
 
