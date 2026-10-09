@@ -58,6 +58,7 @@ class Fetcher:
         self.s.headers.update({"User-Agent": UA})
         self.robots = {}
         self.robots_text = {}
+        self.robots_status = {}
         self.calls = 0
 
     def allowed(self, url):
@@ -65,17 +66,21 @@ class Fetcher:
         root = f"{p.scheme}://{p.netloc}"
         if root not in self.robots:
             rp = urllib.robotparser.RobotFileParser()
+            # Follows the robots.txt standard (RFC 9309): a 4xx answer means there are no rules;
+            # a server error or no answer means "assume everything is off limits".
             try:
                 r = self.s.get(root + "/robots.txt", timeout=20)
-                if r.status_code in (401, 403):
+                self.robots_status[root] = r.status_code
+                if r.status_code >= 500:
                     rp.disallow_all = True
                 elif r.status_code >= 400:
                     rp.allow_all = True
                 else:
                     rp.parse(r.text.splitlines())
                     self.robots_text[root] = r.text
-            except requests.RequestException:
-                rp.disallow_all = True  # cannot check, so do not crawl
+            except requests.RequestException as e:
+                self.robots_status[root] = type(e).__name__
+                rp.disallow_all = True
             self.robots[root] = rp
         if not self.robots[root].can_fetch(UA, url):
             return False

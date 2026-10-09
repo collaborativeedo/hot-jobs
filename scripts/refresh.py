@@ -229,11 +229,15 @@ def pull_direct(qi_jobs, fetcher, today):
             src.update(status="ok", last_run=today, lane_openings=len(rows))
         except PermissionError as e:
             rows = []
-            src.update(status="skipped: site asks crawlers not to visit", last_run=today, lane_openings=0)
+            rs = fetcher.robots_status.get(f"https://{src['host']}")
+            why = "site asks crawlers not to visit" if rs in (200, None) else f"robots.txt unavailable ({rs})"
+            src.update(status=f"skipped: {why}", last_run=today, lane_openings=0)
             print(f"  {key}: {e}")
         except Exception as e:  # noqa: BLE001  one failing source never stops the run
             rows = []
-            src.update(status=f"error: {type(e).__name__}", last_run=today, lane_openings=0)
+            code = getattr(getattr(e, "response", None), "status_code", None)
+            why = "site blocks automated access" if code in (401, 403, 429) else type(e).__name__
+            src.update(status=f"error: {why}" + (f" ({code})" if code else ""), last_run=today, lane_openings=0)
             print(f"  {key}: {type(e).__name__}: {e}")
         print(f"  {key}: {len(rows)} Lane openings ({fetcher.calls - before} requests)")
         name = src.get("employer") or rules.employer_from_url(f"https://{src['host']}/{src.get('tenant', '')}")
