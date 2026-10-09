@@ -203,6 +203,8 @@ def pull_direct(qi_jobs, fetcher, today):
             continue
         key, src = found
         rec = sources.setdefault(key, dict(src, first_seen=today, employer=""))
+        if rec.get("tenant", "").lower() in rules.TENANT_NAMES:
+            rec["employer"] = rules.TENANT_NAMES[rec["tenant"].lower()]
         if not rec.get("employer") and j["employer"] and not j["employer"].startswith("Unnamed"):
             rec["employer"] = j["employer"]
     if "peacehealth" not in sources:

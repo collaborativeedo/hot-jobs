@@ -222,7 +222,11 @@ TENANT_NAMES = {"sunsrce": "SunSource", "boxlunch": "BoxLunch", "bannerbank": "B
                 "lithia": "Lithia Motors", "tti": "Techtronic Industries (TTI)", "hcmportal": "UPS", "lowes": "Lowe's",
                 "basspro": "Bass Pro Shops", "campingworld": "Camping World", "dickssportinggoods": "DICK'S Sporting Goods",
                 "guardianpharmacy": "Guardian Pharmacy", "oregon": "State of Oregon", "uhaul": "U-Haul",
-                "petersonholding": "Peterson Cat"}
+                "petersonholding": "Peterson Cat", "oreillyauto": "O'Reilly Auto Parts", "columbiabank": "Umpqua Bank (Columbia Banking System)",
+                "usbank": "U.S. Bank", "genpt": "NAPA Auto Parts (Genuine Parts Company)", "hdsupply": "HD Supply",
+                "firststudent": "First Student", "vfc": "Vans (VF Corporation)", "davita": "DaVita",
+                "equitylifestyleproperties": "Equity LifeStyle Properties", "sunrisegroup": "Sunrise Group",
+                "greystar": "Greystar", "bridgestone": "Bridgestone", "medtronic": "Medtronic"}
 _TENANT_RX = [
     r"^https?://jobs\.lever\.co/([^/?#]+)", r"fountain\.com/apply/([^/?#]+)", r"saashr\.com/ta/([A-Za-z0-9]+)\.careers",
     r"apply\.workable\.com/([^/?#]+)", r"careers\.hireology\.com/([^/?#]+)", r"^https?://([^./]+)\.(?:applytojob\.com|breezy\.hr|workbrightats\.com)",
