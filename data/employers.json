@@ -13,7 +13,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "Greenhouse",
-  "total_seen": 4
+  "total_seen": 5
  },
  "ABC Supply": {
   "careers_page": "",
@@ -28,7 +28,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "ABTS Inc": {
   "careers_page": "",
@@ -43,7 +43,7 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Advantage Solutions": {
   "careers_page": "",
@@ -60,7 +60,7 @@
   "last_seen": "2026-10-09",
   "open_now": 7,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Aggregate Resource Industries": {
   "careers_page": "",
@@ -75,28 +75,29 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Albertsons": {
   "careers_page": "https://eofd.fa.us6.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1001",
   "cities_now": [
    "Eugene",
+   "Springfield",
    "Florence",
    "Cottage Grove",
-   "Springfield",
    "Junction City"
   ],
   "example_posting": "https://eofd.fa.us6.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1001/job/776234",
   "first_seen": "2026-10-06",
   "found_via": [
    "Reposted by a job board",
-   "Employer's hiring site"
+   "Employer's hiring site",
+   "Pulled directly from its hiring system"
   ],
   "industry": "Retail",
   "last_seen": "2026-10-09",
-  "open_now": 26,
+  "open_now": 58,
   "platform": "Oracle Recruiting",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Alive Integrative Medicine": {
   "careers_page": "",
@@ -111,7 +112,7 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Allen Media Broadcasting": {
   "careers_page": "https://allenmediabroadcasting.com",
@@ -127,7 +128,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Allied Universal": {
   "careers_page": "",
@@ -143,7 +144,7 @@
   "last_seen": "2026-10-09",
   "open_now": 5,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "American Traveler": {
   "careers_page": "",
@@ -158,7 +159,23 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Atria Senior Living": {
+  "careers_page": "https://www.atriacareers.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://www.atriacareers.com/careers/cook-2026-282573",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 3,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "AutoZone": {
   "careers_page": "https://egud.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
@@ -177,7 +194,7 @@
   "last_seen": "2026-10-09",
   "open_now": 11,
   "platform": "Oracle Recruiting",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Avenue5 Residential": {
   "careers_page": "",
@@ -195,7 +212,23 @@
   "last_seen": "2026-10-09",
   "open_now": 5,
   "platform": "Hirebridge",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "BEST Crowd Management": {
+  "careers_page": "https://workatbest.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://workatbest.com/job/BEST-Crowd-Management-Event-Staff-University-of-Oregon-8215EventStaffUniversityofOregon_20260929---67KKeetFQ7yiRpxkDLgEq",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 2,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "BPAS": {
   "careers_page": "",
@@ -210,7 +243,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Baker Tilly": {
   "careers_page": "",
@@ -226,7 +259,39 @@
   "last_seen": "2026-10-09",
   "open_now": 11,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Bank of America": {
+  "careers_page": "https://careers.bankofamerica.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.bankofamerica.com/en-us/job-detail/26033015/senior-banker-bilingual-spanish-language-preferred-eugene-oregon-united-states",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "Banner Bank": {
+  "careers_page": "",
+  "cities_now": [
+   "Cottage Grove"
+  ],
+  "example_posting": "https://jobs.lever.co/bannerbank/d49cd4af-e99f-4eb6-b1e6-b8b76abd540d",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Lever",
+  "total_seen": 1
  },
  "Bass Pro Shops": {
   "careers_page": "https://basspro.wd1.myworkdayjobs.com/en-us/careers",
@@ -244,7 +309,7 @@
   "last_seen": "2026-10-09",
   "open_now": 15,
   "platform": "Workday",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Beauty Bar Salon": {
   "careers_page": "",
@@ -259,7 +324,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Benson Health Clinic": {
   "careers_page": "",
@@ -274,7 +339,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Bi-Mart": {
   "careers_page": "https://careers-bimart.icims.com/jobs",
@@ -293,7 +358,39 @@
   "last_seen": "2026-10-09",
   "open_now": 7,
   "platform": "iCIMS",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "BoxLunch": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://jobs.lever.co/boxlunch/f5d01471-1e07-4a08-88b3-d3dfd627dc50",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Lever",
+  "total_seen": 1
+ },
+ "Bridgestone": {
+  "careers_page": "https://bridgestone.wd5.myworkdayjobs.com/en-us/external",
+  "cities_now": [
+   "Lane County"
+  ],
+  "example_posting": "https://bridgestone.wd5.myworkdayjobs.com/en-us/external/job/automotive-maintenance-technician_2026_23895-1",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "Brink's Land Improvement": {
   "careers_page": "",
@@ -308,7 +405,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Broad River Retail": {
   "careers_page": "https://www.paycomonline.net/v4/ats/web.php/portal/E4C2B28D385EF20D6809512B89ECBCF4",
@@ -324,7 +421,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "Paycom",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Bureau of Land Management": {
   "careers_page": "https://www.usajobs.gov",
@@ -343,7 +440,7 @@
   "last_seen": "2026-10-09",
   "open_now": 4,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Bushnell University": {
   "careers_page": "",
@@ -358,7 +455,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "CBRE": {
   "careers_page": "https://careers.cbre.com",
@@ -375,7 +472,7 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "CDM Smith": {
   "careers_page": "",
@@ -390,7 +487,7 @@
   "last_seen": "2026-10-09",
   "open_now": 19,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Camping World": {
   "careers_page": "https://campingworld.wd5.myworkdayjobs.com/en-us/jobs",
@@ -402,13 +499,14 @@
   "found_via": [
    "WorkSource Oregon listing",
    "Reposted by a job board",
-   "Employer's hiring site"
+   "Employer's hiring site",
+   "Pulled directly from its hiring system"
   ],
   "industry": "Retail",
   "last_seen": "2026-10-09",
-  "open_now": 3,
+  "open_now": 5,
   "platform": "Workday",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Castle Megastore Group": {
   "careers_page": "",
@@ -423,7 +521,23 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Celsius": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://apply.workable.com/celsius/j/4552e43f48",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Workable",
+  "total_seen": 1
  },
  "Central Willamette Credit Union": {
   "careers_page": "",
@@ -438,7 +552,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Cinemark": {
   "careers_page": "https://careers.cinemark.com",
@@ -456,23 +570,25 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Cintas": {
-  "careers_page": "",
+  "careers_page": "https://careers.cintas.com",
   "cities_now": [
    "Eugene"
   ],
+  "example_posting": "https://careers.cintas.com/job/eugene-warehouse-associate-loaderunloader-2nd-shift-or-97402/1436706700",
   "first_seen": "2026-10-06",
   "found_via": [
    "WorkSource Oregon listing",
-   "Reposted by a job board"
+   "Reposted by a job board",
+   "Employer's hiring site"
   ],
   "industry": "Other",
   "last_seen": "2026-10-09",
-  "open_now": 2,
-  "platform": "",
-  "total_seen": 4
+  "open_now": 3,
+  "platform": "Employer website",
+  "total_seen": 5
  },
  "Circana": {
   "careers_page": "",
@@ -485,6 +601,22 @@
   "last_seen": "2026-10-06",
   "open_now": 0,
   "platform": "",
+  "total_seen": 1
+ },
+ "Circle K": {
+  "careers_page": "https://workwithus.circlek.com",
+  "cities_now": [
+   "Florence"
+  ],
+  "example_posting": "https://workwithus.circlek.com/global/en/job/cikcglobalr621906externalenglobal/customer-service-representative",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
   "total_seen": 1
  },
  "City of Eugene": {
@@ -502,7 +634,23 @@
   "last_seen": "2026-10-09",
   "open_now": 22,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Claire's": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://secure5.saashr.com/ta/ClairesStores.careers?ShowJob=537234240",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 2,
+  "platform": "UKG Ready",
+  "total_seen": 1
  },
  "Columbia Bank": {
   "careers_page": "",
@@ -517,7 +665,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Columbia Hospitality (Valley River Inn)": {
   "careers_page": "https://jobs.dayforcehcm.com/en-US/chi/CANDIDATEPORTAL",
@@ -534,7 +682,25 @@
   "last_seen": "2026-10-09",
   "open_now": 8,
   "platform": "Dayforce",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Columbiabank": {
+  "careers_page": "https://columbiabank.wd108.myworkdayjobs.com/columbia",
+  "cities_now": [
+   "Eugene",
+   "Florence",
+   "Springfield"
+  ],
+  "example_posting": "https://columbiabank.wd108.myworkdayjobs.com/columbia/job/Irvine-California/Senior-Wealth-Advisor_JR103682",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Pulled directly from its hiring system"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 10,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "Coquille Indian Tribe": {
   "careers_page": "",
@@ -549,7 +715,7 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Cornerstone Associates": {
   "careers_page": "",
@@ -564,7 +730,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Cove Church": {
   "careers_page": "",
@@ -579,7 +745,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Crete Carrier": {
   "careers_page": "",
@@ -594,7 +760,7 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "DICK'S Sporting Goods": {
   "careers_page": "https://dickssportinggoods.wd1.myworkdayjobs.com/en-us/dsg",
@@ -605,13 +771,46 @@
   "first_seen": "2026-10-06",
   "found_via": [
    "Reposted by a job board",
-   "Employer's hiring site"
+   "Employer's hiring site",
+   "Pulled directly from its hiring system"
   ],
   "industry": "Retail",
   "last_seen": "2026-10-09",
-  "open_now": 2,
+  "open_now": 7,
   "platform": "Workday",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Danaher": {
+  "careers_page": "https://jobs.danaher.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://jobs.danaher.com/global/en/job/r1318403/senior-research-associate",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "Davita": {
+  "careers_page": "https://davita.wd1.myworkdayjobs.com/en-US/DKC_External",
+  "cities_now": [
+   "Cottage Grove"
+  ],
+  "example_posting": "https://davita.wd1.myworkdayjobs.com/en-US/DKC_External/job/Facility-Administrator_R0478941",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "Didlake": {
   "careers_page": "https://myjobs.adp.com/didlakecareers/cx",
@@ -627,7 +826,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "ADP",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Dollar Tree": {
   "careers_page": "",
@@ -644,7 +843,7 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Done Right Trucking (Redgo)": {
   "careers_page": "",
@@ -661,7 +860,7 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Dungarvin": {
   "careers_page": "",
@@ -676,7 +875,23 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Dycomind": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://dycomind.jobs.hr.cloud.sap/northsky/job/splicer-ii-copper/14545-en_us",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "SAP SuccessFactors",
+  "total_seen": 1
  },
  "Early Autism Services": {
   "careers_page": "",
@@ -691,7 +906,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Eaton": {
   "careers_page": "https://fairygodboss.com",
@@ -702,13 +917,47 @@
   "first_seen": "2026-10-06",
   "found_via": [
    "WorkSource Oregon listing",
-   "Employer's hiring site"
+   "Employer's hiring site",
+   "Reposted by a job board"
   ],
   "industry": "Manufacturing",
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Equitylifestyleproperties": {
+  "careers_page": "https://equitylifestyleproperties.wd5.myworkdayjobs.com/els",
+  "cities_now": [
+   "Florence",
+   "Eugene"
+  ],
+  "example_posting": "https://equitylifestyleproperties.wd5.myworkdayjobs.com/els/job/Florence-OR/Ranger_R263453",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Pulled directly from its hiring system"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 4,
+  "platform": "Workday",
+  "total_seen": 1
+ },
+ "EssilorLuxottica": {
+  "careers_page": "https://careers.essilorluxottica.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.essilorluxottica.com/job/eugene-optician",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "Eugene School District 4J": {
   "careers_page": "",
@@ -725,7 +974,26 @@
   "last_seen": "2026-10-09",
   "open_now": 11,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Family Resource Home Care": {
+  "careers_page": "https://jobs.familyresourcehomecare.com",
+  "cities_now": [
+   "Eugene",
+   "Pleasant Hill",
+   "Vida",
+   "Creswell"
+  ],
+  "example_posting": "https://jobs.familyresourcehomecare.com/job/lead-on-call-float-eugene-or",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 5,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "Farmers Insurance (Tony Core agency)": {
   "careers_page": "",
@@ -740,7 +1008,7 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "FedEx": {
   "careers_page": "https://careers.fedex.com",
@@ -759,7 +1027,7 @@
   "last_seen": "2026-10-09",
   "open_now": 8,
   "platform": "Employer website",
-  "total_seen": 3
+  "total_seen": 4
  },
  "Federal Aviation Administration": {
   "careers_page": "",
@@ -775,7 +1043,41 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Federal government (USAJOBS)": {
+  "careers_page": "https://www.usajobs.gov",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://www.usajobs.gov/job/887572600",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 2,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "Firststudent": {
+  "careers_page": "https://firststudent.wd1.myworkdayjobs.com/firststudent",
+  "cities_now": [
+   "Oakridge",
+   "Elmira",
+   "Junction City"
+  ],
+  "example_posting": "https://firststudent.wd1.myworkdayjobs.com/firststudent/job/OAKRIDGE-OR/School-Bus-Driver_JR17080",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Pulled directly from its hiring system"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 3,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "Franz Family Bakeries": {
   "careers_page": "https://bakeryportal.rec.pro.ukg.net/uni1118ubake/jobboard/5324de7a-568a-4c02-b992-14593e5888be",
@@ -792,7 +1094,7 @@
   "last_seen": "2026-10-09",
   "open_now": 5,
   "platform": "UKG (UltiPro)",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Fresenius Kidney Care": {
   "careers_page": "https://jobs.freseniusmedicalcare.com",
@@ -811,7 +1113,7 @@
   "last_seen": "2026-10-09",
   "open_now": 9,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Frontier Dermatology": {
   "careers_page": "https://job-boards.greenhouse.io/frontierdermatologystaffcareers",
@@ -827,7 +1129,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "Greenhouse",
-  "total_seen": 4
+  "total_seen": 5
  },
  "GAF": {
   "careers_page": "",
@@ -843,7 +1145,7 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Gannett (The Register-Guard)": {
   "careers_page": "",
@@ -858,7 +1160,39 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Gap Inc.": {
+  "careers_page": "https://www.gapinc.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://www.gapinc.com/en-us/jobs/w12/39/seasonal-retail-sales-associate-oakway",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "Genpt": {
+  "careers_page": "https://genpt.wd1.myworkdayjobs.com/careers",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://genpt.wd1.myworkdayjobs.com/careers/job/Eugene-OR-USA/Sales-Enablement-Trainer_R26_0000029849",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Pulled directly from its hiring system"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 2,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "Gentle Dental": {
   "careers_page": "https://recruiting2.ultipro.com/int1061idsc/jobboard/01e1ba61-9460-43b1-988f-67da092f4d32",
@@ -875,7 +1209,7 @@
   "last_seen": "2026-10-09",
   "open_now": 4,
   "platform": "UKG (UltiPro)",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Globus Medical": {
   "careers_page": "",
@@ -890,7 +1224,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "GloryBee": {
   "careers_page": "",
@@ -906,7 +1240,7 @@
   "last_seen": "2026-10-09",
   "open_now": 4,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Gordon, Aylworth & Tami": {
   "careers_page": "",
@@ -921,7 +1255,24 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Greystar": {
+  "careers_page": "https://greystar.wd1.myworkdayjobs.com/external",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://greystar.wd1.myworkdayjobs.com/external/job/Parkside-Apartments-Eugene-OR/Assistant-Community-Manager---Parkside-Apartments_R0203258-1",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Pulled directly from its hiring system",
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 5,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "Guardian Pharmacy": {
   "careers_page": "https://guardianpharmacy.wd5.myworkdayjobs.com/en-us/guardian_pharmacy",
@@ -931,13 +1282,30 @@
   "example_posting": "https://guardianpharmacy.wd5.myworkdayjobs.com/en-us/guardian_pharmacy/job/pharmacy-technician---fulfillment--full-time-_r16307-1",
   "first_seen": "2026-10-06",
   "found_via": [
-   "Employer's hiring site"
+   "Employer's hiring site",
+   "Pulled directly from its hiring system"
   ],
   "industry": "Healthcare",
   "last_seen": "2026-10-09",
-  "open_now": 3,
+  "open_now": 5,
   "platform": "Workday",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Guitar Center": {
+  "careers_page": "https://careers.guitarcenter.com",
+  "cities_now": [
+   "Coburg"
+  ],
+  "example_posting": "https://careers.guitarcenter.com/jobs/18255744-gc-retail-seasonal-support-store-241",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 2,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "Hayward Inn": {
   "careers_page": "",
@@ -952,7 +1320,55 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Hdsupply": {
+  "careers_page": "https://hdsupply.wd1.myworkdayjobs.com/external",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://hdsupply.wd1.myworkdayjobs.com/external/job/OR017---Eugene-OR-XD/Delivery-Driver--Non-CDL-_R26005469",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Pulled directly from its hiring system"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Workday",
+  "total_seen": 1
+ },
+ "Heartland Dental": {
+  "careers_page": "https://jobs.heartland.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://jobs.heartland.com/job/38756/dental-hygienist-dental-hygienist-us-or-eugene-3647-w-18th-ave-3297",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "Higherring": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://higherring.applytojob.com/apply/vk3xjjgnbl/bookkeeping-specialist-parttime-must-have-canadian-bookkeeping-experience",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "JazzHR",
+  "total_seen": 1
  },
  "Hillside Heights Rehabilitation Center": {
   "careers_page": "",
@@ -967,7 +1383,7 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Hoban Associates": {
   "careers_page": "",
@@ -995,7 +1411,7 @@
   "last_seen": "2026-10-09",
   "open_now": 9,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Inner Parish Security": {
   "careers_page": "",
@@ -1010,7 +1426,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Insight Global (staffing)": {
   "careers_page": "",
@@ -1025,7 +1441,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Interstate Group": {
   "careers_page": "",
@@ -1040,7 +1456,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "J.P. Morgan Asset Management (timberland)": {
   "careers_page": "https://fairygodboss.com",
@@ -1051,13 +1467,14 @@
   "first_seen": "2026-10-06",
   "found_via": [
    "WorkSource Oregon listing",
-   "Employer's hiring site"
+   "Employer's hiring site",
+   "Reposted by a job board"
   ],
   "industry": "Wood products & forestry",
   "last_seen": "2026-10-09",
   "open_now": 4,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "JAJ Enterprises": {
   "careers_page": "",
@@ -1072,7 +1489,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "JPMorgan Chase": {
   "careers_page": "",
@@ -1088,7 +1505,7 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Jet Industries": {
   "careers_page": "",
@@ -1103,7 +1520,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Johnson Crushers International": {
   "careers_page": "",
@@ -1116,6 +1533,22 @@
   "last_seen": "2026-10-06",
   "open_now": 0,
   "platform": "",
+  "total_seen": 1
+ },
+ "KBS (Kellermeyer Bergensons Services)": {
+  "careers_page": "https://careers.kbs-services.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.kbs-services.com/janitorial-crew-lead/job/P1-5644116-1",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
   "total_seen": 1
  },
  "KeiperSpine": {
@@ -1131,7 +1564,39 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Kendall Auto Group": {
+  "careers_page": "https://www.kendallcareers.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://www.kendallcareers.com/jobs/kendall-value-lot-finance-insurance-salesperson-3",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 8,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "KinderCare": {
+  "careers_page": "https://www.kcecareers.com",
+  "cities_now": [
+   "Creswell"
+  ],
+  "example_posting": "https://www.kcecareers.com/job/KNOWA0054JR54398EXTERNALENUS/Before-After-School-Site-Director-at-Creslane-Elementary",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "Kroger (Fred Meyer)": {
   "careers_page": "https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001",
@@ -1151,7 +1616,7 @@
   "last_seen": "2026-10-09",
   "open_now": 20,
   "platform": "Oracle Recruiting",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Lane Community College": {
   "careers_page": "https://jobs.lanecc.edu",
@@ -1169,7 +1634,7 @@
   "last_seen": "2026-10-09",
   "open_now": 15,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Lane County": {
   "careers_page": "",
@@ -1192,7 +1657,7 @@
   "last_seen": "2026-10-09",
   "open_now": 75,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Lane Education Service District": {
   "careers_page": "https://www.applitrack.com",
@@ -1210,7 +1675,23 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Leaf Home": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://web.fountain.com/apply/leaf-home/opening/leaffilter-installer-eugene?brand_id=all",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 3,
+  "platform": "Fountain",
+  "total_seen": 1
  },
  "Linguava": {
   "careers_page": "",
@@ -1227,7 +1708,7 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "Trakstar Hire",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Lithia Motors": {
   "careers_page": "https://lithia.wd504.myworkdayjobs.com/en-US/LithiaCareers",
@@ -1240,13 +1721,14 @@
   "found_via": [
    "WorkSource Oregon listing",
    "Reposted by a job board",
-   "Employer's hiring site"
+   "Employer's hiring site",
+   "Pulled directly from its hiring system"
   ],
   "industry": "Retail",
   "last_seen": "2026-10-09",
-  "open_now": 21,
+  "open_now": 20,
   "platform": "Workday",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Little Sprouts": {
   "careers_page": "",
@@ -1261,7 +1743,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Looking Glass Community Services": {
   "careers_page": "",
@@ -1276,7 +1758,23 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Lovisa": {
+  "careers_page": "https://careers.lovisa.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.lovisa.com/en/jobs/8460468-retail-keyholder-valley-river-center",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 2,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "Lowe's": {
   "careers_page": "https://lowes.wd5.myworkdayjobs.com/en-us/lws_external_cs",
@@ -1294,7 +1792,7 @@
   "last_seen": "2026-10-09",
   "open_now": 7,
   "platform": "Workday",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Marquis Companies": {
   "careers_page": "https://careers.marquiscompanies.com",
@@ -1311,7 +1809,23 @@
   "last_seen": "2026-10-09",
   "open_now": 10,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Maxim Healthcare": {
+  "careers_page": "https://careers.maximhealthcare.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.maximhealthcare.com/job/eugene/rn-homecare/49382/100645218272",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "May Trucking": {
   "careers_page": "",
@@ -1331,7 +1845,7 @@
   "last_seen": "2026-10-09",
   "open_now": 6,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "McDonald's franchisee": {
   "careers_page": "",
@@ -1347,7 +1861,7 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 3
+  "total_seen": 4
  },
  "McKenzie-Willamette Medical Center": {
   "careers_page": "https://recruiting2.ultipro.com/qhc1000qhcs/jobboard/03176428-96f4-412f-8077-fe5445cc40f6",
@@ -1365,7 +1879,23 @@
   "last_seen": "2026-10-09",
   "open_now": 25,
   "platform": "UKG (UltiPro)",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Medtronic": {
+  "careers_page": "https://medtronic.wd1.myworkdayjobs.com/en-us/medtroniccareers",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://medtronic.wd1.myworkdayjobs.com/en-us/medtroniccareers/job/senior-clinical-specialist---pelvic-health--eugene--or_r78421-1",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "Merete Hotel Management (Residence Inn)": {
   "careers_page": "https://www.paycomonline.net/v4/ats/web.php/portal/E270EB1049950061B7DAF9586510E7E3",
@@ -1383,7 +1913,7 @@
   "last_seen": "2026-10-09",
   "open_now": 6,
   "platform": "Paycom",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Mondelez International (Nabisco)": {
   "careers_page": "https://hireveterans.com",
@@ -1400,7 +1930,23 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Monte Nido": {
+  "careers_page": "https://careers.montenidoaffiliates.com",
+  "cities_now": [
+   "Springfield"
+  ],
+  "example_posting": "https://careers.montenidoaffiliates.com/careershome/jobs/9447",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "Morrison Healthcare": {
   "careers_page": "https://careers.compass-usa.com",
@@ -1417,7 +1963,7 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Mount Pisgah Arboretum": {
   "careers_page": "",
@@ -1432,7 +1978,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Mountain Rose Herbs": {
   "careers_page": "",
@@ -1447,7 +1993,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "NW Industrial Staffing": {
   "careers_page": "",
@@ -1464,7 +2010,23 @@
   "last_seen": "2026-10-09",
   "open_now": 10,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Nike": {
+  "careers_page": "https://careers.nike.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.nike.com/retail-associate-seas-nike-eugene/job/R-93204",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "Northwest Premier": {
   "careers_page": "",
@@ -1479,7 +2041,23 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Nsh": {
+  "careers_page": "",
+  "cities_now": [
+   "Springfield"
+  ],
+  "example_posting": "https://nsh.workbrightats.com/jobs/1333704.html",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "WorkBright",
+  "total_seen": 1
  },
  "OEG (Everus)": {
   "careers_page": "https://everus.rec.pro.ukg.net/mdu1500mduc/jobboard/f9402b82-d385-4067-ab64-4e65b88ce602",
@@ -1498,7 +2076,23 @@
   "last_seen": "2026-10-09",
   "open_now": 9,
   "platform": "UKG (UltiPro)",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "One Medical": {
+  "careers_page": "https://careers.onemedical.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.onemedical.com/job/eugene/virtual-family-nurse-practitioner-or-licensed/45973/101044285744",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "Oregon Flight": {
   "careers_page": "",
@@ -1513,7 +2107,28 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Oreillyauto": {
+  "careers_page": "https://oreillyauto.wd1.myworkdayjobs.com/oreilly",
+  "cities_now": [
+   "Junction City",
+   "Springfield",
+   "Veneta",
+   "Eugene",
+   "Florence",
+   "Cottage Grove"
+  ],
+  "example_posting": "https://oreillyauto.wd1.myworkdayjobs.com/oreilly/job/Store-05541-Junction-City-OR/Parts-Specialist_R206297",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Pulled directly from its hiring system"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 24,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "Oxford Global Resources": {
   "careers_page": "",
@@ -1528,7 +2143,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Pacific Crest Bus Lines": {
   "careers_page": "",
@@ -1543,7 +2158,23 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Pacific Retirement Services": {
+  "careers_page": "https://jobs.retirement.org",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://jobs.retirement.org/main/jobs/15859",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 2,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "PacificSource": {
   "careers_page": "",
@@ -1560,7 +2191,7 @@
   "last_seen": "2026-10-09",
   "open_now": 12,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "PeaceHealth": {
   "careers_page": "https://careers.peacehealth.org",
@@ -1581,7 +2212,7 @@
   "last_seen": "2026-10-09",
   "open_now": 68,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "PeopleReady": {
   "careers_page": "https://skilled.peopleready.com",
@@ -1599,7 +2230,40 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Petco": {
+  "careers_page": "https://careers.petco.com",
+  "cities_now": [
+   "Springfield",
+   "Eugene"
+  ],
+  "example_posting": "https://careers.petco.com/job/springfield/junior-groomer/47428/101155601920",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 2,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "Peterson Cat": {
+  "careers_page": "https://petersonholding.wd1.myworkdayjobs.com/petersonjobs",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://petersonholding.wd1.myworkdayjobs.com/petersonjobs/job/Eugene-OR/Rental-Shop-Technician_REQ-2026-3446",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Pulled directly from its hiring system"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 9,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "Piercing Pagoda": {
   "careers_page": "",
@@ -1614,7 +2278,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Post Consumer Brands": {
   "careers_page": "https://jobs.postholdings.com",
@@ -1632,7 +2296,7 @@
   "last_seen": "2026-10-09",
   "open_now": 4,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Prism Biotech": {
   "careers_page": "",
@@ -1647,7 +2311,23 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "ProCare Therapy": {
+  "careers_page": "https://www.procaretherapy.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://www.procaretherapy.com/school-jobs/schools-slp-eugene-or/9652226-97402/j/?detail_cat=5590",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "Proactive Global": {
   "careers_page": "",
@@ -1662,7 +2342,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "RDO Equipment Co.": {
   "careers_page": "https://recruiting2.ultipro.com/rdo1000rdo/jobboard/b65401d2-4de5-4c2b-851f-556182926250",
@@ -1679,7 +2359,23 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "UKG (UltiPro)",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "RWC Group": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.hireology.com/rwcgroup/2895656/description",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Hireology",
+  "total_seen": 1
  },
  "Ross Stores": {
   "careers_page": "https://jobs.rossstores.com",
@@ -1697,7 +2393,7 @@
   "last_seen": "2026-10-09",
   "open_now": 4,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "SalonCentric": {
   "careers_page": "",
@@ -1712,7 +2408,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Schulte Hospitality Group": {
   "careers_page": "https://myjobs.adp.com/schultehotelcareers/cx",
@@ -1729,7 +2425,7 @@
   "last_seen": "2026-10-09",
   "open_now": 5,
   "platform": "ADP",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Sephora": {
   "careers_page": "https://join.sephora.com",
@@ -1748,7 +2444,7 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "ServiceMaster Clean": {
   "careers_page": "",
@@ -1764,7 +2460,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "CareerPlug",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Sherwin-Williams": {
   "careers_page": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2",
@@ -1777,13 +2473,31 @@
   "found_via": [
    "WorkSource Oregon listing",
    "Employer's hiring site",
-   "Reposted by a job board"
+   "Reposted by a job board",
+   "Pulled directly from its hiring system"
   ],
   "industry": "Retail",
   "last_seen": "2026-10-09",
-  "open_now": 13,
+  "open_now": 11,
   "platform": "Oracle Recruiting",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Sierra Pacific Industries": {
+  "careers_page": "https://www.spi-ind.com",
+  "cities_now": [
+   "Eugene",
+   "Noti"
+  ],
+  "example_posting": "https://www.spi-ind.com/Careers/Details/4067410012026",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 4,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "Signify Health": {
   "careers_page": "",
@@ -1798,7 +2512,39 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Spencer's and Spirit Halloween": {
+  "careers_page": "https://www.spencersandspiritjobs.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://www.spencersandspiritjobs.com/us/en/job/10936617/Store-Manager-Spirit",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 3,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "Sport Clips": {
+  "careers_page": "https://jobs.sportclips.com",
+  "cities_now": [
+   "Coburg"
+  ],
+  "example_posting": "https://jobs.sportclips.com/jobs/details/oregon/eugene/salon-manager/licensed-salon-manager/7089",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "Staszak Physical Therapy": {
   "careers_page": "",
@@ -1813,7 +2559,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "State of Oregon": {
   "careers_page": "https://oregon.wd5.myworkdayjobs.com/en-us/sor_external_career_site",
@@ -1830,7 +2576,7 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "Workday",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Stone Works International": {
   "careers_page": "",
@@ -1845,7 +2591,39 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "SunSource": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://jobs.lever.co/sunsrce/47469613-dd37-48c2-9c52-ba41d61e8e60",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Lever",
+  "total_seen": 1
+ },
+ "Sunrisegroup": {
+  "careers_page": "https://sunrisegroup.wd108.myworkdayjobs.com/en-us/sunrise_careers",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://sunrisegroup.wd108.myworkdayjobs.com/en-us/sunrise_careers/job/residential-manager_r-1029",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 2,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "Survey.com": {
   "careers_page": "",
@@ -1860,7 +2638,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Swanson Group (Springfield Plywood)": {
   "careers_page": "",
@@ -1889,7 +2667,45 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "Paycom",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Taco Bell": {
+  "careers_page": "https://jobs.tacobell.com",
+  "cities_now": [
+   "Junction City",
+   "Springfield",
+   "Eugene",
+   "Coburg",
+   "Creswell",
+   "Florence",
+   "Cottage Grove"
+  ],
+  "example_posting": "https://jobs.tacobell.com/job/crew-or/junction-city-or/302916699",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 14,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "Target": {
+  "careers_page": "https://corporate.target.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://corporate.target.com/jobs/w51/83/gm-and-food-general-merchandise",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "The Clorox Company": {
   "careers_page": "",
@@ -1905,7 +2721,7 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "The Home Depot": {
   "careers_page": "https://tti.wd1.myworkdayjobs.com/en-US/TeamTTI-Jobs",
@@ -1918,13 +2734,30 @@
   "found_via": [
    "WorkSource Oregon listing",
    "Reposted by a job board",
-   "Employer's hiring site"
+   "Employer's hiring site",
+   "Pulled directly from its hiring system"
   ],
   "industry": "Retail",
   "last_seen": "2026-10-09",
-  "open_now": 19,
+  "open_now": 18,
   "platform": "Workday",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "The Judge Group": {
+  "careers_page": "https://www.judge.com",
+  "cities_now": [
+   "Springfield"
+  ],
+  "example_posting": "https://www.judge.com/jobs/details/1152998",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "The Old Spaghetti Factory": {
   "careers_page": "",
@@ -1939,7 +2772,7 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "The Reveille Foundation": {
   "careers_page": "",
@@ -1954,7 +2787,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "The Salvation Army": {
   "careers_page": "",
@@ -1970,7 +2803,23 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "The Springs Living": {
+  "careers_page": "https://careers.thespringsliving.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.thespringsliving.com/jobs/13409354-resident-services-coordinator",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "The Traxler Group": {
   "careers_page": "",
@@ -1985,7 +2834,7 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "The Vitamin Shoppe": {
   "careers_page": "",
@@ -2001,7 +2850,23 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Thirdchannel Inc": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://thirdchannel-inc.breezy.hr/p/cc5c7aab3ad9-rock-and-roll-denim-brand-rep-30-hr",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Breezy HR",
+  "total_seen": 1
  },
  "Timber Pointe Senior Living": {
   "careers_page": "",
@@ -2016,7 +2881,23 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Tradesmen International": {
+  "careers_page": "https://careers.tradesmeninternational.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.tradesmeninternational.com/eugene-or/finish-carpenter/A68A1750F2674489A888396424FFD316/job",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "TravelCenters of America": {
   "careers_page": "https://travelcenters.csod.com",
@@ -2034,7 +2915,7 @@
   "last_seen": "2026-10-09",
   "open_now": 7,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Trinity Services Group": {
   "careers_page": "",
@@ -2049,7 +2930,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "U-Haul": {
   "careers_page": "https://uhaul.wd1.myworkdayjobs.com/en-us/uhauljobs",
@@ -2060,13 +2941,14 @@
   "first_seen": "2026-10-06",
   "found_via": [
    "WorkSource Oregon listing",
-   "Employer's hiring site"
+   "Employer's hiring site",
+   "Pulled directly from its hiring system"
   ],
   "industry": "Transportation & logistics",
   "last_seen": "2026-10-09",
   "open_now": 7,
   "platform": "Workday",
-  "total_seen": 4
+  "total_seen": 5
  },
  "UPS": {
   "careers_page": "https://hcmportal.wd5.myworkdayjobs.com/en-us/search",
@@ -2084,7 +2966,7 @@
   "last_seen": "2026-10-09",
   "open_now": 5,
   "platform": "Workday",
-  "total_seen": 4
+  "total_seen": 5
  },
  "US Foods": {
   "careers_page": "",
@@ -2100,7 +2982,7 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Ulta Beauty": {
   "careers_page": "https://careers.ulta.com",
@@ -2116,7 +2998,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Ultimate Staffing Services": {
   "careers_page": "",
@@ -2131,7 +3013,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Umbrella Properties": {
   "careers_page": "",
@@ -2146,7 +3028,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Unifi Aviation": {
   "careers_page": "https://careers.nmfonline.org",
@@ -2165,7 +3047,23 @@
   "last_seen": "2026-10-09",
   "open_now": 10,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "UnitedHealth Group": {
+  "careers_page": "https://careers.unitedhealthgroup.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.unitedhealthgroup.com/job/eugene/administrative-medical-assistant-remote-in-eugene-or/34088/100738927040",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
  },
  "University of Oregon": {
   "careers_page": "https://careers.uoregon.edu",
@@ -2183,7 +3081,7 @@
   "last_seen": "2026-10-09",
   "open_now": 11,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Unnamed employer (ADP)": {
   "careers_page": "",
@@ -2201,7 +3099,39 @@
   "last_seen": "2026-10-09",
   "open_now": 8,
   "platform": "ADP",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Unnamed employer (BrassRing)": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://xjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&jobid=123866&partnerid=26485&siteid=5009",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "BrassRing",
+  "total_seen": 1
+ },
+ "Unnamed employer (BrightMove)": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://j.brt.mv/PortalViewRequirement.do?reqGK=27785961",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 3,
+  "platform": "BrightMove",
+  "total_seen": 1
  },
  "Unnamed employer (Dayforce)": {
   "careers_page": "https://jobs.dayforcehcm.com/en-US/chi/CANDIDATEPORTAL",
@@ -2218,22 +3148,13 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "Dayforce",
-  "total_seen": 3
+  "total_seen": 4
  },
  "Unnamed employer (Employer website)": {
   "careers_page": "https://weyerhaeuser.taleo.net",
   "cities_now": [
    "Eugene",
-   "Creswell",
-   "Springfield",
-   "Coburg",
-   "Junction City",
-   "Florence",
-   "Cottage Grove",
-   "Oakridge",
-   "Pleasant Hill",
-   "Vida",
-   "Noti"
+   "Springfield"
   ],
   "example_posting": "https://weyerhaeuser.taleo.net/careersection/10000/jobdetail.ftl?job=01025070",
   "first_seen": "2026-10-08",
@@ -2242,9 +3163,26 @@
   ],
   "industry": "",
   "last_seen": "2026-10-09",
-  "open_now": 158,
+  "open_now": 6,
   "platform": "Employer website",
-  "total_seen": 3
+  "total_seen": 4
+ },
+ "Unnamed employer (Frontline (AppliTrack))": {
+  "careers_page": "",
+  "cities_now": [
+   "Springfield",
+   "Oakridge"
+  ],
+  "example_posting": "https://www.applitrack.com/southredford/onlineapp/JobPostings/view.asp?AppliTrackJobId=551+&AppliTrackLayoutMode=detail&AppliTrackViewPosting=1&all=1",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 2,
+  "platform": "Frontline (AppliTrack)",
+  "total_seen": 1
  },
  "Unnamed employer (Greenhouse)": {
   "careers_page": "https://job-boards.greenhouse.io/speechify",
@@ -2262,7 +3200,7 @@
   "last_seen": "2026-10-09",
   "open_now": 5,
   "platform": "Greenhouse",
-  "total_seen": 3
+  "total_seen": 4
  },
  "Unnamed employer (HRM Direct)": {
   "careers_page": "",
@@ -2278,7 +3216,7 @@
   "last_seen": "2026-10-09",
   "open_now": 5,
   "platform": "HRM Direct",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Unnamed employer (Hirebridge)": {
   "careers_page": "",
@@ -2310,26 +3248,26 @@
   "last_seen": "2026-10-09",
   "open_now": 11,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Unnamed employer (Oracle Recruiting)": {
   "careers_page": "https://eofd.fa.us6.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1001",
   "cities_now": [
-   "Springfield",
-   "Florence",
    "Eugene",
+   "Springfield",
    "Junction City"
   ],
   "example_posting": "https://eofd.fa.us6.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1001/job/775428",
   "first_seen": "2026-10-06",
   "found_via": [
-   "Employer's hiring site"
+   "Employer's hiring site",
+   "Pulled directly from its hiring system"
   ],
   "industry": "",
   "last_seen": "2026-10-09",
-  "open_now": 11,
+  "open_now": 14,
   "platform": "Oracle Recruiting",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Unnamed employer (Paychex)": {
   "careers_page": "",
@@ -2345,7 +3283,7 @@
   "last_seen": "2026-10-09",
   "open_now": 5,
   "platform": "Paychex",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Unnamed employer (Paycom)": {
   "careers_page": "https://www.paycomonline.net/v4/ats/web.php/portal/B0B584DECCA767F874B90195F6B816FF",
@@ -2363,7 +3301,7 @@
   "last_seen": "2026-10-09",
   "open_now": 15,
   "platform": "Paycom",
-  "total_seen": 3
+  "total_seen": 4
  },
  "Unnamed employer (Paylocity)": {
   "careers_page": "",
@@ -2381,7 +3319,7 @@
   "last_seen": "2026-10-09",
   "open_now": 10,
   "platform": "Paylocity",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Unnamed employer (SAP SuccessFactors)": {
   "careers_page": "",
@@ -2397,7 +3335,23 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "SAP SuccessFactors",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Unnamed employer (Taleo)": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://phe.tbe.taleo.net/phe01/ats/careers/v2/viewRequisition?cws=118&org=TILLCLOT&rid=39605",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Taleo",
+  "total_seen": 1
  },
  "Unnamed employer (UKG (UltiPro))": {
   "careers_page": "https://recruiting2.ultipro.com/con1039consh/jobboard/dfaeb5a3-4e9b-409b-a3ee-58878b2fbda9",
@@ -2416,18 +3370,11 @@
   "last_seen": "2026-10-09",
   "open_now": 12,
   "platform": "UKG (UltiPro)",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Unnamed employer (Workday)": {
   "careers_page": "https://petersonholding.wd1.myworkdayjobs.com/en-us/petersonjobs",
-  "cities_now": [
-   "Florence",
-   "Oakridge",
-   "Eugene",
-   "Lane County",
-   "Cottage Grove",
-   "Springfield"
-  ],
+  "cities_now": [],
   "example_posting": "https://petersonholding.wd1.myworkdayjobs.com/en-us/petersonjobs/job/rental-shop-technician_req-2026-3446",
   "first_seen": "2026-10-08",
   "found_via": [
@@ -2435,7 +3382,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-09",
-  "open_now": 15,
+  "open_now": 0,
   "platform": "Workday",
   "total_seen": 3
  },
@@ -2456,7 +3403,41 @@
   "last_seen": "2026-10-09",
   "open_now": 9,
   "platform": "iCIMS",
-  "total_seen": 3
+  "total_seen": 4
+ },
+ "Upstream Rehabilitation": {
+  "careers_page": "https://yourfuture.urpt.com",
+  "cities_now": [
+   "Springfield",
+   "Eugene"
+  ],
+  "example_posting": "https://yourfuture.urpt.com/job/5246572007/?gh_jid=5246572007",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 3,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "Usbank": {
+  "careers_page": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers",
+  "cities_now": [
+   "Eugene",
+   "Springfield"
+  ],
+  "example_posting": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Eugene-OR/Small-Business-Relationship-Banker-II---Eugene--OR_2026-0031409",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Pulled directly from its hiring system"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 7,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "VCA Delta Oaks Animal Hospital": {
   "careers_page": "",
@@ -2471,7 +3452,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "VSP Vision (Eugene Eyewear)": {
   "careers_page": "",
@@ -2487,7 +3468,39 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "VetCor": {
+  "careers_page": "https://careers.vetcor.com",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://careers.vetcor.com/jobs/15379",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "Vfc": {
+  "careers_page": "https://vfc.wd5.myworkdayjobs.com/en-us/vans_careers",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://vfc.wd5.myworkdayjobs.com/en-us/vans_careers/job/vans--seasonal-sales-associate---eugene_r-20260914-0288-1",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 1,
+  "platform": "Workday",
+  "total_seen": 1
  },
  "Walgreens": {
   "careers_page": "https://jobs.walgreens.com",
@@ -2506,7 +3519,7 @@
   "last_seen": "2026-10-09",
   "open_now": 13,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Waterhouse Ridge Memory Care": {
   "careers_page": "",
@@ -2521,7 +3534,7 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Wells Fargo": {
   "careers_page": "",
@@ -2537,7 +3550,40 @@
   "last_seen": "2026-10-09",
   "open_now": 4,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Wendy's": {
+  "careers_page": "https://wendys-careers.com",
+  "cities_now": [
+   "Eugene",
+   "Springfield"
+  ],
+  "example_posting": "https://wendys-careers.com/job-search/posting/restaurant-team-positions/65229",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 3,
+  "platform": "Employer website",
+  "total_seen": 1
+ },
+ "Weyerhaeuser": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "example_posting": "https://weyerhaeuser.taleo.net/careersection/10000/jobdetail.ftl?job=01025070",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 3,
+  "platform": "Taleo",
+  "total_seen": 1
  },
  "White Bird Clinic": {
   "careers_page": "",
@@ -2552,7 +3598,7 @@
   "last_seen": "2026-10-09",
   "open_now": 4,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Whole Foods Market": {
   "careers_page": "https://careers.wholefoods.com",
@@ -2569,7 +3615,7 @@
   "last_seen": "2026-10-09",
   "open_now": 5,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Willamette Valley Cancer Institute": {
   "careers_page": "https://careers.usoncology.com",
@@ -2588,7 +3634,7 @@
   "last_seen": "2026-10-09",
   "open_now": 16,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Wingstop": {
   "careers_page": "",
@@ -2603,7 +3649,24 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
+ },
+ "Wireless Vision": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene",
+   "Springfield"
+  ],
+  "example_posting": "https://us-3.fountain.com/apply/wireless-vision/opening/9895-valley-river-ctr-3-ram?utm_medium=ai-career-site",
+  "first_seen": "2026-10-09",
+  "found_via": [
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-09",
+  "open_now": 4,
+  "platform": "Fountain",
+  "total_seen": 1
  },
  "Worldwide TechServices": {
   "careers_page": "",
@@ -2619,7 +3682,7 @@
   "last_seen": "2026-10-09",
   "open_now": 2,
   "platform": "SmartRecruiters",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Zip-O-Log Mills": {
   "careers_page": "",
@@ -2634,7 +3697,7 @@
   "last_seen": "2026-10-09",
   "open_now": 3,
   "platform": "",
-  "total_seen": 4
+  "total_seen": 5
  },
  "lululemon": {
   "careers_page": "https://careers.lululemon.com",
@@ -2650,6 +3713,6 @@
   "last_seen": "2026-10-09",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  }
 }

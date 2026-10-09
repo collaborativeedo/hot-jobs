@@ -1,4 +1,13 @@
 {
+"000d1cc6ff5d": {
+"city": "Eugene",
+"employer": "Guardian Pharmacy",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533031",
+"title": "Backup Delivery Driver (Part-Time)"
+},
 "001a50557607": {
 "city": "Eugene",
 "employer": "",
@@ -52,6 +61,15 @@
 "misses": 0,
 "soc": "111021",
 "title": "RVP, MH Operations"
+},
+"0146c0062489": {
+"city": "Florence",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Service Specialist"
 },
 "01607b01fc73": {
 "city": "Eugene",
@@ -341,6 +359,15 @@
 "soc": "499071",
 "title": "Preventative Maintenance Technicians"
 },
+"052614d2707e": {
+"city": "Eugene",
+"employer": "DICK'S Sporting Goods",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Specialist Apparel"
+},
 "052a8fe49fd8": {
 "city": "Springfield",
 "employer": "PeaceHealth",
@@ -379,7 +406,7 @@
 },
 "057720ab13f7": {
 "city": "Junction City",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -454,7 +481,7 @@
 "employer": "Camping World",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "537061",
 "title": "Detailer"
 },
@@ -502,6 +529,15 @@
 "misses": 0,
 "soc": "493093",
 "title": "OTR Tire Service Technician"
+},
+"0754b30425d8": {
+"city": "Eugene",
+"employer": "U-Haul",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Customer Service Representative"
 },
 "0763e6fa27e6": {
 "city": "Eugene",
@@ -602,6 +638,15 @@
 "soc": "151252",
 "title": "Android Leads"
 },
+"0939bda0c66e": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Staff Pharmacist"
+},
 "093d4c5052ad": {
 "city": "Eugene",
 "employer": "PeopleReady",
@@ -667,7 +712,7 @@
 },
 "0a6b2d424f2f": {
 "city": "Creswell",
-"employer": "",
+"employer": "Family Resource Home Care",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -827,6 +872,15 @@
 "soc": "132011",
 "title": "Assistant Controller"
 },
+"0c8b40ad0cef": {
+"city": "Eugene",
+"employer": "Lithia Motors",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Snowflake Data Engineer"
+},
 "0c8e723c95a9": {
 "city": "Eugene",
 "employer": "NW Industrial Staffing",
@@ -877,7 +931,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412031",
 "title": "Sales Representative"
 },
@@ -1004,7 +1058,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "392021",
 "title": "Junior Groomer"
 },
@@ -1064,7 +1118,7 @@
 },
 "0f8500e5c5da": {
 "city": "Florence",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -1161,6 +1215,15 @@
 "soc": "537065",
 "title": "Warehouse Personnel (Night Picker)"
 },
+"11875c252bc2": {
+"city": "Eugene",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412022",
+"title": "Parts Specialist"
+},
 "11c4c9ca8e6f": {
 "city": "Eugene",
 "employer": "",
@@ -1188,6 +1251,15 @@
 "soc": "533032",
 "title": "Flatbed Truck Drivers"
 },
+"1210f9d0d48b": {
+"city": "Junction City",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales and Store Support"
+},
 "1250999c0385": {
 "city": "Springfield",
 "employer": "Bass Pro Shops",
@@ -1205,6 +1277,15 @@
 "misses": 0,
 "soc": "531047",
 "title": "Warehouse Supervisors"
+},
+"12530eb5737e": {
+"city": "Eugene",
+"employer": "DICK'S Sporting Goods",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412031",
+"title": "Seasonal Retail Sales Associate"
 },
 "1297ee30cde5": {
 "city": "Eugene",
@@ -1275,7 +1356,7 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "537065",
 "title": "Part Time - Fulfillment Associate - Flexible"
 },
@@ -1285,7 +1366,7 @@
 "employer": "Merete Hotel Management (Residence Inn)",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "434081",
 "title": "Front Desk Agents"
 },
@@ -1330,7 +1411,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
 },
@@ -1366,7 +1447,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "537065",
 "title": "Produce Fresh Cut Clerks"
 },
@@ -1424,6 +1505,15 @@
 "soc": "319092",
 "title": "Orthopedic Certified Medical Assistant Full Time"
 },
+"14f76e67842d": {
+"city": "Eugene",
+"employer": "Columbiabank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "132052",
+"title": "Senior Wealth Advisor"
+},
 "15191fffa8ce": {
 "city": "Springfield",
 "employer": "",
@@ -1465,7 +1555,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "493023",
 "title": "Automotive Technician"
 },
@@ -1507,7 +1597,7 @@
 },
 "163c22d07e95": {
 "city": "Eugene",
-"employer": "",
+"employer": "Claire's",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -1591,7 +1681,7 @@
 "employer": "Camping World",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "999999",
 "title": "Detailers"
 },
@@ -1651,7 +1741,7 @@
 },
 "1a13c91fe9cd": {
 "city": "Eugene",
-"employer": "",
+"employer": "Atria Senior Living",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -1675,6 +1765,15 @@
 "misses": 0,
 "soc": "272022",
 "title": "Assistant Track and Field Sprints Coach, Part-Time"
+},
+"1a5a4073a0f0": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Meat - Seafood Clerk"
 },
 "1a6af362a249": {
 "city": "River Road",
@@ -1750,7 +1849,7 @@
 },
 "1af9a7a48922": {
 "city": "Creswell",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -1883,6 +1982,15 @@
 "soc": "413091",
 "title": "Area Sales Coordinators"
 },
+"1cab63f9b21a": {
+"city": "Eugene",
+"employer": "DICK'S Sporting Goods",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Teammate - Sales"
+},
 "1cbe9cd52e85": {
 "city": "Cottage Grove",
 "employer": "",
@@ -1909,6 +2017,15 @@
 "misses": 0,
 "soc": "434051",
 "title": "Customer Service Advisor"
+},
+"1d306ff1c844": {
+"city": "Springfield",
+"employer": "Lithia Motors",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493023",
+"title": "Service Technician"
 },
 "1d3b216a9341": {
 "city": "Eugene",
@@ -1943,7 +2060,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "113013",
 "title": "Directors of Facilities"
 },
@@ -2018,6 +2135,15 @@
 "misses": 0,
 "soc": "292061",
 "title": "Licensed Practical Nurses"
+},
+"1ec575a35eef": {
+"city": "Eugene",
+"employer": "The Home Depot",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "419011",
+"title": "Field Sales and Marketing Representative - Eugene, OR"
 },
 "1ee972bcee62": {
 "city": "Springfield",
@@ -2114,7 +2240,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412031",
 "title": "Front End Managers"
 },
@@ -2126,6 +2252,15 @@
 "misses": 0,
 "soc": "112022",
 "title": "Regional Business Directors"
+},
+"2049ebb0da2d": {
+"city": "Eugene",
+"employer": "Lithia Motors",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Nissan Technician"
 },
 "20947c854f1e": {
 "city": "Eugene",
@@ -2393,13 +2528,13 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412022",
 "title": "Parts Specialists"
 },
 "2357000ab3c6": {
 "city": "Eugene",
-"employer": "",
+"employer": "Weyerhaeuser",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -2489,7 +2624,7 @@
 },
 "24905f733e9a": {
 "city": "Junction City",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -2514,6 +2649,24 @@
 "soc": "537065",
 "title": "temporary seasonal"
 },
+"24fc205dfef7": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Journeyman J-1 Pipefitter"
+},
+"251b595e0afb": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Staff Pharmacist"
+},
 "25326a611583": {
 "city": "Eugene",
 "employer": "",
@@ -2532,9 +2685,18 @@
 "soc": "291031",
 "title": "Food and Nutrition Services Assistants"
 },
+"259521f87b7a": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Front End Entry Level"
+},
 "2597f36be7b6": {
 "city": "Coburg",
-"employer": "",
+"employer": "Guitar Center",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -2576,6 +2738,15 @@
 "misses": 0,
 "soc": "292034",
 "title": "Radiology Technologists"
+},
+"25eb98741d3e": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "511011",
+"title": "Facilities First Line Leader"
 },
 "2604d0f97b3f": {
 "city": "Florence",
@@ -2703,6 +2874,15 @@
 "soc": "273091",
 "title": "Cantonese Interpreters"
 },
+"2809b1423e66": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales and Store Support"
+},
 "280d94ef0a5c": {
 "city": "Eugene",
 "employer": "",
@@ -2720,6 +2900,15 @@
 "misses": 0,
 "soc": "436012",
 "title": "Legal Secretaries"
+},
+"284fd6f85526": {
+"city": "Eugene",
+"employer": "U-Haul",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "113071",
+"title": "Traffic Control Manager"
 },
 "285000a5d0f6": {
 "city": "Eugene",
@@ -2858,7 +3047,7 @@
 },
 "2a71203df0fb": {
 "city": "Eugene",
-"employer": "",
+"employer": "Leaf Home",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -2882,6 +3071,15 @@
 "misses": 0,
 "soc": "412031",
 "title": "Footwear Sales Associates"
+},
+"2adda1b9a8c6": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412031",
+"title": "Front End Entry Level"
 },
 "2af7788f4e39": {
 "city": "Eugene",
@@ -2921,12 +3119,21 @@
 },
 "2bd771208c8d": {
 "city": "Eugene",
-"employer": "",
+"employer": "Kendall Auto Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "413091",
 "title": "Salespeople"
+},
+"2bf5260f5f0b": {
+"city": "Eugene",
+"employer": "Usbank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Mortgage Loan Originator"
 },
 "2bfd9392a4eb": {
 "city": "Springfield",
@@ -2966,12 +3173,21 @@
 },
 "2cbc579713fb": {
 "city": "Eugene",
-"employer": "",
+"employer": "Spencer's and Spirit Halloween",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "411011",
 "title": "Store Managers"
+},
+"2cc7f40e9ee9": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales and Store Support"
 },
 "2ce629273da1": {
 "city": "Eugene",
@@ -2987,7 +3203,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "533051",
 "title": "School Bus Drivers"
 },
@@ -3020,7 +3236,7 @@
 },
 "2db8eb4a5ade": {
 "city": "Eugene",
-"employer": "",
+"employer": "Pacific Retirement Services",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -3114,7 +3330,7 @@
 "employer": "White Bird Clinic",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "211018",
 "title": "Substance Use Disorder Counselors"
 },
@@ -3180,6 +3396,15 @@
 "misses": 0,
 "soc": "411012",
 "title": "Administrative Support Managers"
+},
+"3030fa476d6f": {
+"city": "Eugene",
+"employer": "Hdsupply",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "531043",
+"title": "Delivery Driver (Non CDL)"
 },
 "305a7ead47f3": {
 "city": "Eugene",
@@ -3359,7 +3584,7 @@
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "412031",
-"title": "Beauty Advisors"
+"title": "Beauty Advisor - Prestige Beauty, Eugene Valley River Center - Part Time"
 },
 "3408d03a69d3": {
 "city": "Eugene",
@@ -3387,6 +3612,15 @@
 "misses": 0,
 "soc": "434141",
 "title": "Roving Personal Banker Eugene Springfield"
+},
+"3488135a098f": {
+"city": "Eugene",
+"employer": "DICK'S Sporting Goods",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Teammate - Operations"
 },
 "34ba052fd9a3": {
 "city": "Eugene",
@@ -3510,7 +3744,7 @@
 "employer": "Lane Community College",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "434199",
 "title": "Assistant Registrar"
 },
@@ -3570,7 +3804,7 @@
 },
 "3794d4953662": {
 "city": "Eugene",
-"employer": "",
+"employer": "Celsius",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -3588,7 +3822,7 @@
 },
 "37c71769e2d5": {
 "city": "Eugene",
-"employer": "",
+"employer": "Sierra Pacific Industries",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -3712,6 +3946,15 @@
 "soc": "291215",
 "title": "Family Practice Physicians"
 },
+"3976c82ad07f": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Deli Clerk"
+},
 "399a89a6153f": {
 "city": "Eugene",
 "employer": "Columbia Hospitality (Valley River Inn)",
@@ -3777,7 +4020,7 @@
 },
 "3a4bedb02cbb": {
 "city": "Eugene",
-"employer": "",
+"employer": "SunSource",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -3801,6 +4044,24 @@
 "misses": 0,
 "soc": "291141",
 "title": "Registered Nurses/Home Care Case Managers"
+},
+"3abb67646f9c": {
+"city": "Eugene",
+"employer": "Greystar",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Maintenance Techncian - River Terrace"
+},
+"3ae3c68eb975": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales Associate, Eugene Valley River Center - Part Time"
 },
 "3af44afbb9f4": {
 "city": "Eugene",
@@ -3855,6 +4116,15 @@
 "misses": 0,
 "soc": "211021",
 "title": "Bilingual Outreach Specialists"
+},
+"3bdb6c132061": {
+"city": "Florence",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Parts Specialist"
 },
 "3bdee9366162": {
 "city": "Eugene",
@@ -3930,7 +4200,7 @@
 },
 "3ce80fe8dcc3": {
 "city": "Eugene",
-"employer": "",
+"employer": "Upstream Rehabilitation",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -4011,7 +4281,7 @@
 },
 "3e0d7c656b99": {
 "city": "Eugene",
-"employer": "",
+"employer": "Petco",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -4023,7 +4293,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
 },
@@ -4257,9 +4527,18 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
+},
+"41ca7ce75238": {
+"city": "Veneta",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Parts Specialist"
 },
 "41ceede4f6e1": {
 "city": "Eugene",
@@ -4378,6 +4657,15 @@
 "soc": "339032",
 "title": "Unarmed Security Officers"
 },
+"42b645ce7ad2": {
+"city": "Eugene",
+"employer": "Peterson Cat",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Facilities Maintenance"
+},
 "42d1290efc84": {
 "city": "Eugene",
 "employer": "",
@@ -4420,7 +4708,7 @@
 "employer": "PacificSource",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "",
 "title": "Processing Specialists"
 },
@@ -4478,6 +4766,24 @@
 "soc": "412031",
 "title": "Sales Associates"
 },
+"43fe004dde91": {
+"city": "Eugene",
+"employer": "Guardian Pharmacy",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292052",
+"title": "Pharmacy Technician - Reception"
+},
+"43fff481cbc4": {
+"city": "Eugene",
+"employer": "Columbiabank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Collections Specialist"
+},
 "441b87149c7c": {
 "city": "Eugene",
 "employer": "",
@@ -4525,7 +4831,7 @@
 },
 "44bc86dd09ab": {
 "city": "Florence",
-"employer": "",
+"employer": "Circle K",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -4586,6 +4892,15 @@
 "soc": "311131",
 "title": "Floaters"
 },
+"458e050d1bed": {
+"city": "Eugene",
+"employer": "Genpt",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "131151",
+"title": "Sales Enablement Trainer"
+},
 "4592e5490e74": {
 "city": "Creswell",
 "employer": "",
@@ -4594,6 +4909,15 @@
 "misses": 0,
 "soc": "352021",
 "title": "Sandwich Artists"
+},
+"45d5a5fc2cdf": {
+"city": "Springfield",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "537065",
+"title": "Night Crew Stocker"
 },
 "45da7f76d75f": {
 "city": "Eugene",
@@ -4651,7 +4975,7 @@
 },
 "4633b581e661": {
 "city": "Vida",
-"employer": "",
+"employer": "Family Resource Home Care",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -4730,6 +5054,15 @@
 "soc": "372012",
 "title": "Housekeepers"
 },
+"46a923041efa": {
+"city": "Eugene",
+"employer": "Greystar",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Leasing Professional - River Terrace"
+},
 "46bc5b06c9dd": {
 "city": "Eugene",
 "employer": "Schulte Hospitality Group",
@@ -4759,7 +5092,7 @@
 },
 "47356acc4fda": {
 "city": "Eugene",
-"employer": "",
+"employer": "Leaf Home",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -4828,6 +5161,15 @@
 "misses": 0,
 "soc": "311128",
 "title": "Memory Care Caregivers"
+},
+"47bd9a877378": {
+"city": "Oakridge",
+"employer": "Firststudent",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533051",
+"title": "School Bus Driver"
 },
 "47f77978627f": {
 "city": "Eugene",
@@ -4930,7 +5272,7 @@
 },
 "4911096c598c": {
 "city": "Cottage Grove",
-"employer": "",
+"employer": "Davita",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -4960,7 +5302,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291051",
 "title": "Staff Pharmacists"
 },
@@ -5005,7 +5347,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "493023",
 "title": "Master Technicians"
 },
@@ -5149,7 +5491,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "411011",
 "title": "Assistant Store Managers"
 },
@@ -5227,7 +5569,7 @@
 },
 "4f5ad90f73f8": {
 "city": "Eugene",
-"employer": "",
+"employer": "VetCor",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -5259,7 +5601,7 @@
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "434051",
-"title": "Bilingual Customer Service Specialists"
+"title": "Bilingual Multi-Location Customer Service Specialist (Spanish)"
 },
 "4fdfd57d3f10": {
 "city": "Eugene",
@@ -5324,6 +5666,15 @@
 "soc": "372012",
 "title": "Housekeepers"
 },
+"50bd3abced6c": {
+"city": "Florence",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Front End Entry Level"
+},
 "50d30a6c0653": {
 "city": "Eugene",
 "employer": "",
@@ -5332,6 +5683,15 @@
 "misses": 0,
 "soc": "414012",
 "title": "Outside Sales-Business Development Specialist-Fluid Power Products and Solutions"
+},
+"5114d351d58a": {
+"city": "Veneta",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Assistant Store Manager"
 },
 "51260dac5eef": {
 "city": "Springfield",
@@ -5369,6 +5729,15 @@
 "soc": "113031",
 "title": "Corporate Controllers"
 },
+"51a1e162a680": {
+"city": "Eugene",
+"employer": "U-Haul",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "499071",
+"title": "Preventive Maintenance Technician"
+},
 "52134d14e212": {
 "city": "Veneta",
 "employer": "",
@@ -5405,9 +5774,18 @@
 "soc": "113013",
 "title": "Directors of Facilities"
 },
+"524d30a6594b": {
+"city": "Springfield",
+"employer": "Columbiabank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "413031",
+"title": "Relationship Banker"
+},
 "5277b7fec723": {
 "city": "Eugene",
-"employer": "",
+"employer": "Federal government (USAJOBS)",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -5452,7 +5830,7 @@
 },
 "5335b2e0d12f": {
 "city": "Eugene",
-"employer": "",
+"employer": "Weyerhaeuser",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -5497,7 +5875,7 @@
 },
 "534e590eb0a8": {
 "city": "Eugene",
-"employer": "",
+"employer": "Thirdchannel Inc",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -5564,7 +5942,7 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "537065",
 "title": "Full Time - Receiver/Stocker - Day"
 },
@@ -5642,7 +6020,7 @@
 },
 "55223d7ec94d": {
 "city": "Eugene",
-"employer": "",
+"employer": "RWC Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -5723,7 +6101,7 @@
 },
 "55a8b6ec30d1": {
 "city": "Coburg",
-"employer": "",
+"employer": "Sport Clips",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -5865,6 +6243,15 @@
 "soc": "211019",
 "title": "Board Certified Behavior Analysts"
 },
+"57f506213b54": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Staff Pharmacist"
+},
 "5821bfa13c34": {
 "city": "Eugene",
 "employer": "Eaton",
@@ -5928,6 +6315,15 @@
 "soc": "132011",
 "title": "Payroll Accountants"
 },
+"58b38f2ec87f": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales and Store Support"
+},
 "58bc7719239f": {
 "city": "Eugene",
 "employer": "White Bird Clinic",
@@ -5963,6 +6359,15 @@
 "misses": 0,
 "soc": "414012",
 "title": "Pharmaceutical Sales Specialists"
+},
+"58d5de78b7cb": {
+"city": "Springfield",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412031",
+"title": "Retail Sales and Store Support"
 },
 "58dbb2af77e5": {
 "city": "Eugene",
@@ -6011,7 +6416,7 @@
 },
 "595d52ddfebe": {
 "city": "Eugene",
-"employer": "",
+"employer": "Wireless Vision",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -6038,7 +6443,7 @@
 },
 "59d5ab825e2c": {
 "city": "Springfield",
-"employer": "",
+"employer": "The Judge Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -6198,6 +6603,15 @@
 "soc": "431011",
 "title": "Administrative Coordinators"
 },
+"5b1edb781061": {
+"city": "Elmira",
+"employer": "Firststudent",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533051",
+"title": "School Bus Driver"
+},
 "5b245c5c5096": {
 "city": "Eugene",
 "employer": "",
@@ -6242,6 +6656,15 @@
 "misses": 0,
 "soc": "519199",
 "title": "Production Worker (Rotating Shifts)"
+},
+"5c044073398a": {
+"city": "Florence",
+"employer": "Equitylifestyleproperties",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Membership Specialist"
 },
 "5c04fb39bc8d": {
 "city": "Eugene",
@@ -6314,6 +6737,15 @@
 "misses": 0,
 "soc": "532021",
 "title": "Supervisory Air Traffic Control Specialists/Operations Supervisors"
+},
+"5cc01897bad7": {
+"city": "Coburg",
+"employer": "Camping World",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "537061",
+"title": "Detailer"
 },
 "5cd141156510": {
 "city": "Springfield",
@@ -6423,6 +6855,15 @@
 "soc": "372012",
 "title": "House Attendants"
 },
+"5deb5bcc323d": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Front End Entry Level"
+},
 "5e01cc282438": {
 "city": "Eugene",
 "employer": "",
@@ -6443,7 +6884,7 @@
 },
 "5e1ef3d688b1": {
 "city": "Coburg",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -6528,7 +6969,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "172111",
 "title": "Health, Safety, and Environmental Manager"
 },
@@ -6552,7 +6993,7 @@
 },
 "5eea066cbc82": {
 "city": "Eugene",
-"employer": "",
+"employer": "KBS (Kellermeyer Bergensons Services)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -6609,7 +7050,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "493023",
 "title": "Service Technician"
 },
@@ -6618,7 +7059,7 @@
 "employer": "The Home Depot",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "419011",
 "title": "Field Sales and Marketing Representative - Eugene, OR"
 },
@@ -6630,6 +7071,15 @@
 "misses": 0,
 "soc": "434081",
 "title": "Front Desk Agents"
+},
+"5fb653d4c71b": {
+"city": "Springfield",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Merchandising Specialist"
 },
 "5fe6008759da": {
 "city": "Eugene",
@@ -6658,6 +7108,15 @@
 "soc": "431011",
 "title": "Service Manager"
 },
+"602eb1108732": {
+"city": "Eugene",
+"employer": "Guardian Pharmacy",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Pharmacy Technician - Fulfillment (Part-time)"
+},
 "6068320c7456": {
 "city": "Eugene",
 "employer": "AutoZone",
@@ -6675,6 +7134,15 @@
 "misses": 0,
 "soc": "259045",
 "title": "Life Skills Instructors"
+},
+"60d7341b1aa4": {
+"city": "Florence",
+"employer": "Equitylifestyleproperties",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Housekeeper"
 },
 "60e164a03e9e": {
 "city": "Springfield",
@@ -6771,7 +7239,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "493023",
 "title": "Master Mopar Technician"
 },
@@ -6792,6 +7260,15 @@
 "misses": 0,
 "soc": "395012",
 "title": "Hair Stylists"
+},
+"62355c64db76": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "352021",
+"title": "Deli Clerk"
 },
 "627067024655": {
 "city": "Eugene",
@@ -6910,6 +7387,15 @@
 "soc": "292034",
 "title": "X-Ray Technologists"
 },
+"649d33e19e1d": {
+"city": "Eugene",
+"employer": "Peterson Cat",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Data Center EPG Traveling Technician"
+},
 "653536544f70": {
 "city": "Springfield",
 "employer": "",
@@ -6963,6 +7449,15 @@
 "misses": 0,
 "soc": "414011",
 "title": "Sales Consultants"
+},
+"6632ecce4490": {
+"city": "Junction City",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Staff Pharmacist"
 },
 "663b323e9f65": {
 "city": "Springfield",
@@ -7065,7 +7560,7 @@
 },
 "67d0eb283d27": {
 "city": "Eugene",
-"employer": "",
+"employer": "Sunrisegroup",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -7077,7 +7572,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "352021",
 "title": "Deli Cook"
 },
@@ -7149,7 +7644,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "499071",
 "title": "Preventive Maintenance Technician"
 },
@@ -7185,7 +7680,7 @@
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "434051",
 "title": "Bilingual Multi-Location Customer Service Specialist (Spanish)"
 },
@@ -7236,7 +7731,7 @@
 },
 "6a35995b6508": {
 "city": "Eugene",
-"employer": "",
+"employer": "Atria Senior Living",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -7296,6 +7791,15 @@
 "misses": 0,
 "soc": "434051",
 "title": "Customer Service Representatives"
+},
+"6b7296c2543f": {
+"city": "Cottage Grove",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "513011",
+"title": "Bakery Clerk"
 },
 "6b85752e294b": {
 "city": "Eugene",
@@ -7434,7 +7938,7 @@
 },
 "6e41a3835c57": {
 "city": "Springfield",
-"employer": "",
+"employer": "Petco",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -7470,7 +7974,7 @@
 },
 "6eab0f4059c6": {
 "city": "Springfield",
-"employer": "",
+"employer": "Upstream Rehabilitation",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -7596,12 +8100,21 @@
 },
 "6ff6cfc75fad": {
 "city": "Eugene",
-"employer": "",
+"employer": "Claire's",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "411011",
 "title": "Store Managers"
+},
+"701a7606d473": {
+"city": "Junction City",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Parts Specialist"
 },
 "70240d2aa83b": {
 "city": "Eugene",
@@ -7695,7 +8208,7 @@
 },
 "7145c6a31bbd": {
 "city": "Eugene",
-"employer": "",
+"employer": "Sierra Pacific Industries",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -7749,7 +8262,7 @@
 },
 "71ce7aa0508f": {
 "city": "Eugene",
-"employer": "",
+"employer": "Kendall Auto Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -7992,7 +8505,7 @@
 },
 "7496659f34a7": {
 "city": "Eugene",
-"employer": "",
+"employer": "Upstream Rehabilitation",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -8025,6 +8538,15 @@
 "misses": 0,
 "soc": "412031",
 "title": "Sales Associate (Hardware store)"
+},
+"74f5e099b00d": {
+"city": "Eugene",
+"employer": "Columbiabank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Customer Service Representative"
 },
 "750bfb15d79e": {
 "city": "Eugene",
@@ -8088,6 +8610,15 @@
 "misses": 0,
 "soc": "414012",
 "title": "Sales Representatives"
+},
+"762a96dffe97": {
+"city": "Florence",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Staff Pharmacist"
 },
 "763d407a9f82": {
 "city": "Eugene",
@@ -8211,7 +8742,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "412031",
 "title": "Sales Associate"
 },
@@ -8268,6 +8799,24 @@
 "misses": 0,
 "soc": "412031",
 "title": "Retail Sales Associate"
+},
+"7806b4751ff2": {
+"city": "Coburg",
+"employer": "Camping World",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "RV Sales Associate"
+},
+"780bbd9f6580": {
+"city": "Eugene",
+"employer": "Peterson Cat",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Shop Technician"
 },
 "782127b698bf": {
 "city": "Eugene",
@@ -8358,6 +8907,15 @@
 "misses": 0,
 "soc": "253031",
 "title": "Substitute Teachers"
+},
+"78fb1a221358": {
+"city": "Eugene",
+"employer": "Columbiabank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Insurance Claims Specialist"
 },
 "792bee7f67e3": {
 "city": "Springfield",
@@ -8467,6 +9025,15 @@
 "soc": "111021",
 "title": "General Managers"
 },
+"7ab462419cc9": {
+"city": "Junction City",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Parts Specialist"
+},
 "7ab4f1b2b6e0": {
 "city": "Springfield",
 "employer": "McKenzie-Willamette Medical Center",
@@ -8478,12 +9045,21 @@
 },
 "7adcc13256fa": {
 "city": "Eugene",
-"employer": "",
+"employer": "Lovisa",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "412031",
 "title": "Retail Sales Associates"
+},
+"7ae72c0bfe2a": {
+"city": "Eugene",
+"employer": "Equitylifestyleproperties",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Maintenance - Level I"
 },
 "7afe86fe79fd": {
 "city": "Noti",
@@ -8532,7 +9108,7 @@
 },
 "7b474bce2a05": {
 "city": "Pleasant Hill",
-"employer": "",
+"employer": "Family Resource Home Care",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -8649,7 +9225,7 @@
 },
 "7cc1f9f06e35": {
 "city": "Eugene",
-"employer": "",
+"employer": "Wireless Vision",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -8682,6 +9258,15 @@
 "misses": 0,
 "soc": "291071",
 "title": "Nurse Practitioner or Physician Assistant - Per Diem - Eugene, OR"
+},
+"7ce4cbf4e6c8": {
+"city": "Eugene",
+"employer": "U-Haul",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493031",
+"title": "Trailer/SRI Repair Specialist"
 },
 "7d0a22c8225a": {
 "city": "Coburg",
@@ -8745,6 +9330,15 @@
 "misses": 0,
 "soc": "431011",
 "title": "Commercial Insurance Account Managers"
+},
+"7e5e0351d3af": {
+"city": "Eugene",
+"employer": "Genpt",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Service Shop Manager"
 },
 "7e611110b489": {
 "city": "Springfield",
@@ -8811,7 +9405,7 @@
 },
 "7fd190188956": {
 "city": "Eugene",
-"employer": "",
+"employer": "Heartland Dental",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -8944,6 +9538,15 @@
 "soc": "499041",
 "title": "Mechanical Assemblers"
 },
+"8152bd0bc567": {
+"city": "Eugene",
+"employer": "Peterson Cat",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Rental Commercial Engine Shop Technician"
+},
 "817af2756bb8": {
 "city": "Eugene",
 "employer": "",
@@ -8989,6 +9592,15 @@
 "soc": "291141",
 "title": "Emergency Room Travel Registered Nurses"
 },
+"81f76573878e": {
+"city": "Eugene",
+"employer": "Usbank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Client Relationship Consultant 2-4 (Banker) - Eugene, OR"
+},
 "820fa6d28391": {
 "city": "Springfield",
 "employer": "",
@@ -8997,6 +9609,15 @@
 "misses": 0,
 "soc": "271026",
 "title": "Merchandise Associates"
+},
+"8225b20972c4": {
+"city": "Springfield",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Staff Pharmacist"
 },
 "822843b1080c": {
 "city": "Eugene",
@@ -9027,7 +9648,7 @@
 },
 "827408eea644": {
 "city": "Eugene",
-"employer": "",
+"employer": "Federal government (USAJOBS)",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -9120,7 +9741,7 @@
 "employer": "",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "191031",
 "title": "Rangers"
 },
@@ -9243,7 +9864,7 @@
 },
 "84f83663ef90": {
 "city": "Eugene",
-"employer": "",
+"employer": "Lovisa",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -9282,7 +9903,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "493031",
 "title": "Trailer/SRI Repair Specialist"
 },
@@ -9369,7 +9990,7 @@
 },
 "864de3e5f87f": {
 "city": "Cottage Grove",
-"employer": "",
+"employer": "Banner Bank",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -9417,7 +10038,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "493023",
 "title": "Used Car Technician"
 },
@@ -9466,6 +10087,24 @@
 "soc": "113071",
 "title": "Customer Service - Self Storage Manager"
 },
+"8776cb7bea3a": {
+"city": "Eugene",
+"employer": "Lithia Motors",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "434051",
+"title": "Service Advisor"
+},
+"878efb9266c7": {
+"city": "Springfield",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Parts Specialist"
+},
 "87ab872a938f": {
 "city": "Springfield",
 "employer": "",
@@ -9489,7 +10128,7 @@
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "434051",
 "title": "Bilingual Customer Service Specialist (Spanish)"
 },
@@ -9603,7 +10242,7 @@
 },
 "897947f19e74": {
 "city": "Springfield",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -9660,7 +10299,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "413031",
 "title": "Relationship Bankers"
 },
@@ -9675,7 +10314,7 @@
 },
 "8a007691cb84": {
 "city": "Eugene",
-"employer": "",
+"employer": "Target",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -9706,7 +10345,7 @@
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "434051",
 "title": "Bilingual Multi-Location Customer Service Specialist (Spanish)"
 },
@@ -9827,6 +10466,15 @@
 "soc": "291224",
 "title": "Radiology Registered Nurses"
 },
+"8baf02fb76e9": {
+"city": "Eugene",
+"employer": "Usbank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Small Business Relationship Banker II - Eugene, OR"
+},
 "8bb41e633596": {
 "city": "Junction City",
 "employer": "",
@@ -9842,7 +10490,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "292099",
 "title": "Patient Access Clerks"
 },
@@ -9945,6 +10593,15 @@
 "soc": "419031",
 "title": "Lead Sales Engineer"
 },
+"8cb2bd63d3b9": {
+"city": "Eugene",
+"employer": "Columbiabank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "433011",
+"title": "Collections Specialist -- Special Label"
+},
 "8ccde362bba4": {
 "city": "Springfield",
 "employer": "",
@@ -9990,6 +10647,15 @@
 "soc": "292052",
 "title": "Pharmacy Technician / Pharm Tech Apprenticeship"
 },
+"8d69ff224e6e": {
+"city": "Eugene",
+"employer": "Peterson Cat",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Lead Technician"
+},
 "8db10979b24a": {
 "city": "Eugene",
 "employer": "Whole Foods Market",
@@ -9999,9 +10665,36 @@
 "soc": "499071",
 "title": "Customer Service Team Members"
 },
+"8dedf92cd1f3": {
+"city": "Eugene",
+"employer": "Columbiabank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "413031",
+"title": "Financial Service Sales Assistant"
+},
+"8df17a7e5252": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales and Store Support"
+},
+"8df1cc9d19c7": {
+"city": "Eugene",
+"employer": "Guardian Pharmacy",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Delivery Scanner/Toter"
+},
 "8e1f78645290": {
 "city": "Eugene",
-"employer": "",
+"employer": "BEST Crowd Management",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -10121,9 +10814,18 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "132011",
 "title": "Dealership Accountant I"
+},
+"8f1b8fca0231": {
+"city": "Florence",
+"employer": "Equitylifestyleproperties",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "191031",
+"title": "Ranger"
 },
 "8f1e374b2027": {
 "city": "Eugene",
@@ -10148,9 +10850,18 @@
 "employer": "OEG (Everus)",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "119021",
 "title": "Electrical Construction Project Managers"
+},
+"8f8f3b910875": {
+"city": "Eugene",
+"employer": "Peterson Cat",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Field Technician"
 },
 "8f97f2f1fa5c": {
 "city": "Eugene",
@@ -10184,7 +10895,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "352021",
 "title": "Deli Clerks"
 },
@@ -10211,7 +10922,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "493042",
 "title": "Shop Technicians"
 },
@@ -10251,6 +10962,15 @@
 "soc": "311128",
 "title": "Direct Support Workers"
 },
+"90e8f026277d": {
+"city": "Springfield",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Front End Entry Level"
+},
 "91404b50b3e0": {
 "city": "Springfield",
 "employer": "PacificSource",
@@ -10262,7 +10982,7 @@
 },
 "9161bf96b9a7": {
 "city": "Springfield",
-"employer": "",
+"employer": "Nsh",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -10385,6 +11105,15 @@
 "misses": 0,
 "soc": "434131",
 "title": "Finance/Accounting Specialists"
+},
+"9298c8b5bc74": {
+"city": "Eugene",
+"employer": "Lithia Motors",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "132011",
+"title": "Dealership Accountant I"
 },
 "92a3e2dc7680": {
 "city": "Eugene",
@@ -10521,6 +11250,15 @@
 "soc": "533032",
 "title": "CDL-A Truck Drivers"
 },
+"9468b2925c05": {
+"city": "Springfield",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Person In Charge Springfield Oregon"
+},
 "949735becc1e": {
 "city": "Eugene",
 "employer": "",
@@ -10547,6 +11285,15 @@
 "misses": 0,
 "soc": "431011",
 "title": "Office Administrators"
+},
+"94c642e7a190": {
+"city": "Eugene",
+"employer": "U-Haul",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "372012",
+"title": "Facility Housekeeper"
 },
 "94ce8659c49b": {
 "city": "Springfield",
@@ -10581,7 +11328,7 @@
 "employer": "Swanson Group (Springfield Plywood)",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "537121",
 "title": "Shipping Loaders"
 },
@@ -10717,7 +11464,7 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "111021",
 "title": "Store Manager"
 },
@@ -10820,6 +11567,15 @@
 "soc": "411011",
 "title": "Assistant Store Managers"
 },
+"976fe7fda2f4": {
+"city": "Springfield",
+"employer": "Sherwin-Williams",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "434051",
+"title": "Bilingual Customer Service Specialist (Spanish)"
+},
 "9783d4c7e06d": {
 "city": "Eugene",
 "employer": "",
@@ -10901,6 +11657,24 @@
 "soc": "172071",
 "title": "Senior Substation Physical Engineer | Regional Technical Lead"
 },
+"9824f8df29d4": {
+"city": "Springfield",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales and Store Support"
+},
+"983601a91a81": {
+"city": "Springfield",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Assistant Store Manager"
+},
 "984a6eb973e1": {
 "city": "Eugene",
 "employer": "",
@@ -10918,6 +11692,15 @@
 "misses": 0,
 "soc": "372011",
 "title": "Porters"
+},
+"9884f5910373": {
+"city": "Springfield",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412031",
+"title": "Front End Entry Level"
 },
 "98b38782f0db": {
 "city": "Eugene",
@@ -11054,6 +11837,15 @@
 "soc": "499071",
 "title": "Power Generation Field Service Technicians"
 },
+"99f2725fadba": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales Associate, Eugene Valley River Center - Full Time"
+},
 "99f5fad01d25": {
 "city": "Eugene",
 "employer": "Albertsons",
@@ -11081,6 +11873,15 @@
 "soc": "211093",
 "title": "Milieu Supervisor-3rd Shift"
 },
+"9a4f1af5c4b5": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales and Store Support"
+},
 "9a8a18cc2b84": {
 "city": "Springfield",
 "employer": "",
@@ -11089,6 +11890,15 @@
 "misses": 0,
 "soc": "292018",
 "title": "Histotechnologists"
+},
+"9a9f3582c671": {
+"city": "Florence",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Service Specialist"
 },
 "9ac838b9c278": {
 "city": "Springfield",
@@ -11171,6 +11981,15 @@
 "soc": "113031",
 "title": "Finance and Insurance Managers"
 },
+"9b382c2784da": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales and Store Support"
+},
 "9b41252a6cb3": {
 "city": "Eugene",
 "employer": "Lane County",
@@ -11239,7 +12058,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "191031",
 "title": "Rangers"
 },
@@ -11250,7 +12069,7 @@
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "434051",
-"title": "Customer Service Specialists"
+"title": "Customer Service Specialist"
 },
 "9c3e471d9ce3": {
 "city": "Springfield",
@@ -11288,9 +12107,18 @@
 "soc": "414011",
 "title": "Bilingual Customer Service Sales Representatives"
 },
+"9d07eb7ee887": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Meat - Seafood Clerk"
+},
 "9d1a17d763d1": {
 "city": "Eugene",
-"employer": "",
+"employer": "Kendall Auto Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -11362,7 +12190,7 @@
 },
 "9de06b7551f9": {
 "city": "Eugene",
-"employer": "",
+"employer": "Gap Inc.",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -11377,6 +12205,15 @@
 "misses": 0,
 "soc": "311128",
 "title": "Drivers/Shift Managers"
+},
+"9e05bc2eae50": {
+"city": "Eugene",
+"employer": "Usbank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Sr. Relationship Banker - Eugene (Bethel - Danebo), OR"
 },
 "9e3668deeffe": {
 "city": "Eugene",
@@ -11468,6 +12305,15 @@
 "soc": "537062",
 "title": "Package Handler - Part Time (Warehouse like)"
 },
+"9f9bbf8ab008": {
+"city": "Florence",
+"employer": "Columbiabank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "433071",
+"title": "Teller"
+},
 "9fa0f1ee18ca": {
 "city": "Veneta",
 "employer": "",
@@ -11479,7 +12325,7 @@
 },
 "9fbd5e51e8ab": {
 "city": "Creswell",
-"employer": "",
+"employer": "KinderCare",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -11512,6 +12358,15 @@
 "misses": 0,
 "soc": "292099",
 "title": "Operating Room Supervisors"
+},
+"a02993f81ad7": {
+"city": "Eugene",
+"employer": "Lithia Motors",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493023",
+"title": "Used Car Technician"
 },
 "a029e32cb161": {
 "city": "Eugene",
@@ -11567,6 +12422,15 @@
 "soc": "292031",
 "title": "Pathology Laboratory Technicians"
 },
+"a0b41078021b": {
+"city": "Junction City",
+"employer": "Firststudent",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533051",
+"title": "School Bus Driver"
+},
 "a0ebfa169a13": {
 "city": "Springfield",
 "employer": "",
@@ -11599,7 +12463,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "353023",
 "title": "Baristas"
 },
@@ -11626,7 +12490,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "493023",
 "title": "Service Technicians"
 },
@@ -11677,7 +12541,7 @@
 },
 "a23a7e4390a7": {
 "city": "Eugene",
-"employer": "",
+"employer": "One Medical",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -11743,7 +12607,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "513011",
 "title": "Bakery Clerks"
 },
@@ -11783,9 +12647,18 @@
 "soc": "412011",
 "title": "Cashiers"
 },
+"a3386deced99": {
+"city": "Springfield",
+"employer": "Usbank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "434141",
+"title": "Relationship Banker II - Eugene (Mohawk-Northgate), OR (30hrs)"
+},
 "a340fa0198ac": {
 "city": "Eugene",
-"employer": "",
+"employer": "Kendall Auto Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -11819,6 +12692,15 @@
 "soc": "291229",
 "title": "Gynecologic Oncologists"
 },
+"a3a3799bc16a": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Front End Entry Level"
+},
 "a3b05c4d94f4": {
 "city": "Cottage Grove",
 "employer": "",
@@ -11846,6 +12728,15 @@
 "soc": "113031",
 "title": "Customer Relationship Officers"
 },
+"a448167b531c": {
+"city": "Eugene",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Merchandising Specialist"
+},
 "a4dcb7f3d46c": {
 "city": "Eugene",
 "employer": "",
@@ -11857,16 +12748,25 @@
 },
 "a50a8f63ee11": {
 "city": "Cottage Grove",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "351012",
 "title": "Servers/Shift Leaders"
 },
+"a52b9196d089": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "172111",
+"title": "Health, Safety, and Environmental Manager"
+},
 "a550242d7449": {
 "city": "Eugene",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -11911,7 +12811,7 @@
 },
 "a5789a6f103d": {
 "city": "Eugene",
-"employer": "",
+"employer": "Wendy's",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -11956,7 +12856,7 @@
 },
 "a5e9ba985206": {
 "city": "Noti",
-"employer": "",
+"employer": "Sierra Pacific Industries",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -11974,7 +12874,7 @@
 },
 "a5f530dce8b3": {
 "city": "Eugene",
-"employer": "",
+"employer": "Greystar",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -11986,7 +12886,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "513022",
 "title": "Meat Cutters"
 },
@@ -12163,7 +13063,7 @@
 },
 "a8fdf50aa56e": {
 "city": "Springfield",
-"employer": "",
+"employer": "Monte Nido",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12181,7 +13081,7 @@
 },
 "a934492f2434": {
 "city": "Eugene",
-"employer": "",
+"employer": "BoxLunch",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12197,13 +13097,22 @@
 "soc": "537062",
 "title": "Warehouse Associates/Drivers"
 },
+"a951663f52ca": {
+"city": "Junction City",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Delivery Specialist"
+},
 "a9719fea1697": {
 "city": "Eugene",
 "closed": "2026-10-09",
 "employer": "Johnson Crushers International",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "512099",
 "title": "Assembler Day Shift - Eugene Franklin Boulevard (Johnson Crushers Intl)"
 },
@@ -12245,7 +13154,7 @@
 },
 "aa18ab03cb52": {
 "city": "Springfield",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12269,6 +13178,15 @@
 "misses": 0,
 "soc": "292018",
 "title": "Medical Technologists/Medical Laboratory Technicians"
+},
+"aa4d920493d4": {
+"city": "Eugene",
+"employer": "Lithia Motors",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412031",
+"title": "Sales Representative"
 },
 "aa6a3b4a892c": {
 "city": "Eugene",
@@ -12299,7 +13217,7 @@
 },
 "aaad30119193": {
 "city": "Junction City",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12332,6 +13250,15 @@
 "misses": 0,
 "soc": "339032",
 "title": "Flex Officers"
+},
+"aac7ad7b7d2d": {
+"city": "Eugene",
+"employer": "Guardian Pharmacy",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292052",
+"title": "Pharmacy Technician - Fulfillment (Full-time)"
 },
 "aad79f99c8ba": {
 "city": "Eugene",
@@ -12378,6 +13305,15 @@
 "soc": "512022",
 "title": "Panel Shop - Entry Level"
 },
+"abb22bb482cf": {
+"city": "Springfield",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Delivery Specialist"
+},
 "abcdeb335337": {
 "city": "Creswell",
 "employer": "",
@@ -12387,13 +13323,22 @@
 "soc": "412011",
 "title": "Cashiers"
 },
+"abeea31ac8b0": {
+"city": "Eugene",
+"employer": "Peterson Cat",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Commercial Engine Shop Technician Trainee"
+},
 "ac1a8b981f28": {
 "city": "Eugene",
 "closed": "2026-10-09",
 "employer": "Allied Universal",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "339032",
 "title": "Unarmed Security Guards"
 },
@@ -12458,7 +13403,7 @@
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "519111",
-"title": "Baler Operators"
+"title": "Baler Operator 1"
 },
 "ad0be4eb8634": {
 "city": "Eugene",
@@ -12654,7 +13599,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412031",
 "title": "Front End Managers"
 },
@@ -12678,7 +13623,7 @@
 },
 "af86445fdbf5": {
 "city": "Eugene",
-"employer": "",
+"employer": "Medtronic",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12717,7 +13662,7 @@
 "employer": "The Home Depot",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "413091",
 "title": "Field Sales and Marketing Representatives"
 },
@@ -12765,6 +13710,15 @@
 "misses": 0,
 "soc": "513011",
 "title": "Clerks/Baristas"
+},
+"b0bb5140b91d": {
+"city": "Cottage Grove",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Delivery Specialist"
 },
 "b0c703b1b58e": {
 "city": "Eugene",
@@ -12849,7 +13803,7 @@
 },
 "b2bd65416d17": {
 "city": "Eugene",
-"employer": "",
+"employer": "Kendall Auto Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12879,7 +13833,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "372011",
 "title": "Janitorial Crew Members"
 },
@@ -12921,7 +13875,7 @@
 },
 "b3c746f5f239": {
 "city": "Eugene",
-"employer": "",
+"employer": "Pacific Retirement Services",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12948,7 +13902,7 @@
 },
 "b414824ca7fc": {
 "city": "Springfield",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -13000,9 +13954,18 @@
 "soc": "311128",
 "title": "Memory Care Caregivers"
 },
+"b4a8b451f4cd": {
+"city": "Eugene",
+"employer": "Lithia Motors",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493023",
+"title": "Automotive Technician"
+},
 "b4b995c06f2a": {
 "city": "Eugene",
-"employer": "",
+"employer": "Tradesmen International",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -13090,6 +14053,15 @@
 "soc": "291141",
 "title": "Nursery Registered Nurses"
 },
+"b611e094608a": {
+"city": "Eugene",
+"employer": "Greystar",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Housekeeper - Riverwalk"
+},
 "b61f4ac7f550": {
 "city": "Lane County",
 "employer": "Lane County",
@@ -13098,6 +14070,15 @@
 "misses": 0,
 "soc": "999999",
 "title": "Maintenance Specialists"
+},
+"b62b1df05996": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales and Store Support"
 },
 "b634c868393f": {
 "city": "Springfield",
@@ -13141,7 +14122,7 @@
 "employer": "AutoZone",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "411011",
 "title": "Part Sales Manager - Part Time"
 },
@@ -13244,6 +14225,15 @@
 "soc": "271026",
 "title": "Visual Merchandisers"
 },
+"b8f3a668e822": {
+"city": "Eugene",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Merchandiser/Stocker - Hub"
+},
 "b95ab7aa90c5": {
 "city": "Cottage Grove",
 "employer": "",
@@ -13318,7 +14308,7 @@
 },
 "b9f9182fc4bc": {
 "city": "Eugene",
-"employer": "",
+"employer": "UnitedHealth Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -13415,6 +14405,15 @@
 "soc": "412031",
 "title": "Retail Associates"
 },
+"bbd1f41e36aa": {
+"city": "Eugene",
+"employer": "Columbiabank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Senior Commercial Underwriter"
+},
 "bbf742280838": {
 "city": "Springfield",
 "employer": "",
@@ -13429,7 +14428,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "413091",
 "title": "Lead Sales Associates"
 },
@@ -13459,6 +14458,15 @@
 "misses": 0,
 "soc": "292052",
 "title": "Admixture Technicians"
+},
+"bc60a1e79f55": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "491011",
+"title": "Journeyman J-1 Millwright"
 },
 "bc6362f60b99": {
 "city": "Eugene",
@@ -13537,7 +14545,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "131151",
 "title": "Sales Enablement Managers"
 },
@@ -13627,7 +14635,7 @@
 "employer": "Guardian Pharmacy",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "533031",
 "title": "Pick-Up and Delivery Drivers"
 },
@@ -13642,7 +14650,7 @@
 },
 "befc1a311613": {
 "city": "Eugene",
-"employer": "",
+"employer": "Family Resource Home Care",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -13793,6 +14801,15 @@
 "soc": "211023",
 "title": "Bi-lingual Child and Family Therapist"
 },
+"c0b2feeccc80": {
+"city": "Eugene",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Installer Service Specialist"
+},
 "c0d186335036": {
 "city": "Noti",
 "employer": "",
@@ -13840,7 +14857,7 @@
 },
 "c120c343c4c1": {
 "city": "Eugene",
-"employer": "",
+"employer": "Maxim Healthcare",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -13903,7 +14920,7 @@
 },
 "c1946efdc0f3": {
 "city": "Springfield",
-"employer": "",
+"employer": "Wireless Vision",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -13939,7 +14956,7 @@
 },
 "c1ea2f033361": {
 "city": "Eugene",
-"employer": "",
+"employer": "The Springs Living",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -13954,6 +14971,15 @@
 "misses": 0,
 "soc": "291051",
 "title": "Float Pharmacist"
+},
+"c2525f0288df": {
+"city": "Eugene",
+"employer": "Lithia Motors",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493023",
+"title": "Master Mopar Technician"
 },
 "c27b57c4314d": {
 "city": "Eugene",
@@ -14131,7 +15157,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "372012",
 "title": "Facility Housekeeper"
 },
@@ -14176,7 +15202,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "434051",
 "title": "Service Advisors"
 },
@@ -14263,7 +15289,7 @@
 },
 "c6515496b36c": {
 "city": "Springfield",
-"employer": "",
+"employer": "Wendy's",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -14392,7 +15418,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "414012",
 "title": "Sales Representatives"
 },
@@ -14473,7 +15499,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "537065",
 "title": "Night Stockers"
 },
@@ -14576,6 +15602,15 @@
 "soc": "151255",
 "title": "Game Designers"
 },
+"c92e1dea6bab": {
+"city": "Eugene",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Merchandising Specialist"
+},
 "c94869790a99": {
 "city": "Eugene",
 "employer": "Post Consumer Brands",
@@ -14659,7 +15694,7 @@
 },
 "ca3185f6f133": {
 "city": "Eugene",
-"employer": "",
+"employer": "Vfc",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -14671,7 +15706,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "433071",
 "title": "Tellers"
 },
@@ -14702,12 +15737,21 @@
 "soc": "311121",
 "title": "Residential Care Associate II-5841"
 },
+"cad046242adb": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "537065",
+"title": "Fresh Cut Produce Clerk"
+},
 "cadba1a91179": {
 "city": "Springfield",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "291141",
 "title": "RN - M/S Tele"
 },
@@ -14807,7 +15851,7 @@
 "employer": "Whole Foods Market",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "353023",
 "title": "Prepared Foods Service Team Members"
 },
@@ -14870,7 +15914,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "537065",
 "title": "Night Stockers"
 },
@@ -14891,6 +15935,15 @@
 "misses": 0,
 "soc": "533033",
 "title": "Delivery Driver - Medical Equipment"
+},
+"cca1c0b0b988": {
+"city": "Cottage Grove",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412031",
+"title": "Retail Sales and Store Support"
 },
 "ccbd95d30558": {
 "city": "Lane County",
@@ -14957,7 +16010,7 @@
 },
 "cdc69557ec15": {
 "city": "Eugene",
-"employer": "",
+"employer": "Spencer's and Spirit Halloween",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -15086,7 +16139,7 @@
 "employer": "Guardian Pharmacy",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "292052",
 "title": "Pharmacy Technicians"
 },
@@ -15171,9 +16224,18 @@
 "soc": "412031",
 "title": "Front End Managers"
 },
+"d01b809b55b2": {
+"city": "Florence",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412031",
+"title": "Retail Sales and Store Support"
+},
 "d0256a6b1975": {
 "city": "Springfield",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -15191,7 +16253,7 @@
 },
 "d04a4d837d71": {
 "city": "Eugene",
-"employer": "",
+"employer": "Danaher",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -15209,12 +16271,21 @@
 },
 "d0779aab7d14": {
 "city": "Eugene",
-"employer": "",
+"employer": "Family Resource Home Care",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "311128",
 "title": "Floaters"
+},
+"d0cf5e8aaa89": {
+"city": "Eugene",
+"employer": "Greystar",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Assistant Community Manager - Parkside Apartments"
 },
 "d0fe1db1100d": {
 "city": "Springfield",
@@ -15299,7 +16370,7 @@
 },
 "d1dab7031252": {
 "city": "Eugene",
-"employer": "",
+"employer": "Sunrisegroup",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -15347,7 +16418,7 @@
 "employer": "Guardian Pharmacy",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "292052",
 "title": "Fulfillment Pharmacy Technicians"
 },
@@ -15477,6 +16548,15 @@
 "soc": "513011",
 "title": "Bakers"
 },
+"d3c878c430cd": {
+"city": "Eugene",
+"employer": "Usbank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "434141",
+"title": "Relationship Banker I - Eugene (29th & Willamette), OR (36hrs)"
+},
 "d3cbdd58c396": {
 "city": "Eugene",
 "employer": "",
@@ -15497,7 +16577,7 @@
 },
 "d3f2b36b463d": {
 "city": "Eugene",
-"employer": "",
+"employer": "Atria Senior Living",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -15506,12 +16586,21 @@
 },
 "d410fc174daf": {
 "city": "Eugene",
-"employer": "",
+"employer": "Dycomind",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "499052",
 "title": "Splicers"
+},
+"d41ac0f8da87": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Front End Entry Level"
 },
 "d426e746b109": {
 "city": "Eugene",
@@ -15527,7 +16616,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "173026",
 "title": "Quality Control Technician - Nights: Monday - Thursday"
 },
@@ -15567,9 +16656,18 @@
 "soc": "412031",
 "title": "Customer Service/Sales"
 },
+"d4990b05466f": {
+"city": "Eugene",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Merchandising Specialist"
+},
 "d49b402c5ccd": {
 "city": "Eugene",
-"employer": "",
+"employer": "Cintas",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -15587,7 +16685,7 @@
 },
 "d4de4df66129": {
 "city": "Eugene",
-"employer": "",
+"employer": "Kendall Auto Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -15639,6 +16737,15 @@
 "soc": "536031",
 "title": "Fuel Station Attendants"
 },
+"d5433ac024a3": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "537065",
+"title": "Night Crew Stocker"
+},
 "d552ecc21414": {
 "city": "Florence",
 "employer": "PeaceHealth",
@@ -15650,7 +16757,7 @@
 },
 "d5f12b116452": {
 "city": "Eugene",
-"employer": "",
+"employer": "Wireless Vision",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -15683,6 +16790,15 @@
 "misses": 0,
 "soc": "251072",
 "title": "Instructor Pool - Nursing Program"
+},
+"d626b1ec53e2": {
+"city": "Eugene",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Delivery Specialist"
 },
 "d6363a9d31d3": {
 "city": "Springfield",
@@ -15756,6 +16872,24 @@
 "soc": "533032",
 "title": "CDL-A Dry Van Truck Drivers"
 },
+"d709bbb34595": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Personnel Coordinator Bookkeeper"
+},
+"d7206b53e818": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291051",
+"title": "Staff Pharmacist"
+},
 "d765a8b2abee": {
 "city": "Florence",
 "employer": "Kroger (Fred Meyer)",
@@ -15806,7 +16940,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "113071",
 "title": "Traffic Control Managers"
 },
@@ -15893,7 +17027,7 @@
 },
 "d932e91b96e9": {
 "city": "Eugene",
-"employer": "",
+"employer": "Sierra Pacific Industries",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -15936,6 +17070,15 @@
 "soc": "513011",
 "title": "Bakery Clerks"
 },
+"d9b3a714ce6b": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412031",
+"title": "Retail Sales and Store Support"
+},
 "d9b60c4538f0": {
 "city": "Eugene",
 "employer": "The Vitamin Shoppe",
@@ -15947,7 +17090,7 @@
 },
 "d9b994a95a8f": {
 "city": "Eugene",
-"employer": "",
+"employer": "Kendall Auto Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -15983,7 +17126,7 @@
 },
 "da6becf6993a": {
 "city": "Eugene",
-"employer": "",
+"employer": "Spencer's and Spirit Halloween",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -16127,7 +17270,7 @@
 },
 "dc44b4262f28": {
 "city": "Eugene",
-"employer": "",
+"employer": "EssilorLuxottica",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -16181,7 +17324,7 @@
 },
 "dce192a754a2": {
 "city": "Eugene",
-"employer": "",
+"employer": "Wendy's",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -16223,6 +17366,15 @@
 "misses": 0,
 "soc": "371011",
 "title": "Housekeeping Managers"
+},
+"dd52b01205c0": {
+"city": "Eugene",
+"employer": "U-Haul",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "531043",
+"title": "Transfer Driver"
 },
 "dd94beb90306": {
 "city": "Eugene",
@@ -16271,7 +17423,7 @@
 },
 "de562f52ca4d": {
 "city": "Lane County",
-"employer": "",
+"employer": "Bridgestone",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -16400,7 +17552,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "351012",
 "title": "Shift Leaders"
 },
@@ -16412,6 +17564,15 @@
 "misses": 0,
 "soc": "291171",
 "title": "Psychiatric Nurse Practitioners"
+},
+"e0121650d002": {
+"city": "Eugene",
+"employer": "DICK'S Sporting Goods",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Team Captain Endzone & Loyalty"
 },
 "e025cb43f11a": {
 "city": "Springfield",
@@ -16577,12 +17738,21 @@
 },
 "e1ffccf8abcf": {
 "city": "Eugene",
-"employer": "",
+"employer": "BEST Crowd Management",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "419011",
 "title": "Alcohol Compliance Supervisors"
+},
+"e25164ba36f7": {
+"city": "Veneta",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Delivery Specialist"
 },
 "e2665a7dfc16": {
 "city": "Eugene",
@@ -16701,6 +17871,15 @@
 "soc": "419011",
 "title": "Part Time Product Demonstrator"
 },
+"e4a1652bcb53": {
+"city": "Eugene",
+"employer": "Peterson Cat",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Commercial Engine Field Service Technician"
+},
 "e50a3e4966c1": {
 "city": "Eugene",
 "employer": "OEG (Everus)",
@@ -16709,6 +17888,15 @@
 "misses": 0,
 "soc": "119021",
 "title": "Electrical Construction Project Managers"
+},
+"e51435bc11d4": {
+"city": "Eugene",
+"employer": "Peterson Cat",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493042",
+"title": "Rental Shop Technician"
 },
 "e528449d1753": {
 "city": "Eugene",
@@ -16890,6 +18078,15 @@
 "soc": "311121",
 "title": "Residential Care Associate II-5845"
 },
+"e6a7b2eaad58": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Front End Entry Level"
+},
 "e6f318ef9119": {
 "city": "Eugene",
 "employer": "GloryBee",
@@ -17006,6 +18203,15 @@
 "misses": 0,
 "soc": "112032",
 "title": "Communications Officers"
+},
+"e89c193f7b72": {
+"city": "Cottage Grove",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Parts Specialist-1"
 },
 "e8bc80eaba65": {
 "city": "Springfield",
@@ -17129,7 +18335,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "531043",
 "title": "Transfer Driver"
 },
@@ -17246,7 +18452,7 @@
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "434051",
 "title": "Customer Service Specialist"
 },
@@ -17273,7 +18479,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "172141",
 "title": "Process and Application Engineer"
 },
@@ -17358,6 +18564,15 @@
 "soc": "119141",
 "title": "Leasing Consultant"
 },
+"ec566c7d2ab5": {
+"city": "Eugene",
+"employer": "Columbiabank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Assistant Branch Manager"
+},
 "ec5fdbd07957": {
 "city": "Eugene",
 "employer": "",
@@ -17378,7 +18593,7 @@
 },
 "ec8a950595f2": {
 "city": "Eugene",
-"employer": "",
+"employer": "Leaf Home",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -17387,7 +18602,7 @@
 },
 "ecb95398638e": {
 "city": "Eugene",
-"employer": "",
+"employer": "ProCare Therapy",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -17444,13 +18659,13 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
 },
 "ee065cf71a24": {
 "city": "Junction City",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -17465,6 +18680,15 @@
 "misses": 0,
 "soc": "259042",
 "title": "Teacher's Assistant"
+},
+"ee215e0fc822": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Front End Entry Level"
 },
 "ee43a60bb05b": {
 "city": "Eugene",
@@ -17543,7 +18767,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "492094",
 "title": "Trailer/Sri Specialists"
 },
@@ -17819,7 +19043,7 @@
 },
 "f1b712955f1c": {
 "city": "Eugene",
-"employer": "",
+"employer": "Nike",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -17882,7 +19106,7 @@
 },
 "f23f37ad59a1": {
 "city": "Eugene",
-"employer": "",
+"employer": "Higherring",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -17912,7 +19136,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "372012",
 "title": "Storage Facility Housekeepers"
 },
@@ -18143,7 +19367,7 @@
 },
 "f574ecb919fb": {
 "city": "Coburg",
-"employer": "",
+"employer": "Guitar Center",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -18236,9 +19460,18 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "533032",
 "title": "Delivery Drivers"
+},
+"f6fcace5f7ae": {
+"city": "Coburg",
+"employer": "Camping World",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Maintenance Tech"
 },
 "f714a9b8ab31": {
 "city": "Eugene",
@@ -18357,6 +19590,15 @@
 "soc": "119111",
 "title": "Health and Wellness Directors"
 },
+"f861fa60ad8e": {
+"city": "Junction City",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "513022",
+"title": "Meat Cutter"
+},
 "f87c7b766ce6": {
 "city": "Eugene",
 "employer": "Allied Universal",
@@ -18380,7 +19622,7 @@
 "employer": "Lane County",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "111011",
 "title": "Public Works Directors"
 },
@@ -18431,7 +19673,7 @@
 },
 "f914f2211c74": {
 "city": "Springfield",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -18485,7 +19727,7 @@
 },
 "f9b0a21337c4": {
 "city": "Eugene",
-"employer": "",
+"employer": "Bank of America",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -18554,6 +19796,15 @@
 "misses": 0,
 "soc": "291141",
 "title": "Medical Surgical Registered Nurses"
+},
+"fa57e66a9b13": {
+"city": "Eugene",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "353023",
+"title": "Starbucks Barista"
 },
 "fa643df51984": {
 "city": "Springfield",
@@ -18629,7 +19880,7 @@
 },
 "fb64f9bfb1d0": {
 "city": "Eugene",
-"employer": "",
+"employer": "Kendall Auto Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -18857,7 +20108,7 @@
 "employer": "Advantage Solutions",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 1,
+"misses": 2,
 "soc": "537065",
 "title": "Traveling Retail Merchandiser - Overnight"
 },
@@ -18887,6 +20138,15 @@
 "misses": 0,
 "soc": "516011",
 "title": "Laundry Attendants"
+},
+"fdce11f957af": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Electrician"
 },
 "fde363f29b78": {
 "city": "Eugene",
@@ -18924,6 +20184,15 @@
 "soc": "211093",
 "title": "Program Support Coordinators"
 },
+"fe0d9b252b0e": {
+"city": "Eugene",
+"employer": "U-Haul",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Reservation Manager"
+},
 "fe365f8f2c8b": {
 "city": "Eugene",
 "employer": "Kroger (Fred Meyer)",
@@ -18951,6 +20220,15 @@
 "soc": "291217",
 "title": "Neurologists"
 },
+"fe6004548229": {
+"city": "Eugene",
+"employer": "Usbank",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Relationship Banker I - Eugene University Street, OR (20hrs)"
+},
 "fe683e1dbab9": {
 "city": "Springfield",
 "employer": "",
@@ -18959,6 +20237,15 @@
 "misses": 0,
 "soc": "193051",
 "title": "Renewal Specialists"
+},
+"fe76ccee61a1": {
+"city": "Coburg",
+"employer": "Camping World",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Service Advisor"
 },
 "fe9470c5bf7b": {
 "city": "Eugene",
@@ -18975,7 +20262,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 3,
+"misses": 4,
 "soc": "111021",
 "title": "RVP, MH Operations"
 },
@@ -18987,6 +20274,15 @@
 "misses": 0,
 "soc": "132072",
 "title": "Senior Home Lending Advisor Eugene, OR"
+},
+"fefd8d6727b2": {
+"city": "Veneta",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Service Specialist"
 },
 "ff06be5b118d": {
 "city": "Springfield",
@@ -19035,12 +20331,21 @@
 },
 "ff641585d988": {
 "city": "Eugene",
-"employer": "",
+"employer": "Weyerhaeuser",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "533032",
 "title": "Log Truck Drivers"
+},
+"ff6caf0c344d": {
+"city": "Veneta",
+"employer": "Oreillyauto",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Installer Service Specialist"
 },
 "ffc65c15f068": {
 "city": "Eugene",
