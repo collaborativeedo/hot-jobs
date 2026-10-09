@@ -73,11 +73,11 @@
   "employer": "",
   "first_seen": "2026-10-09",
   "host": "jpmc.fa.oraclecloud.com",
-  "lane_openings": 0,
+  "lane_openings": 2,
   "last_run": "2026-10-09",
   "platform": "Oracle Recruiting",
   "site": "CX_1001",
-  "status": "skipped: site asks crawlers not to visit"
+  "status": "ok"
  },
  "peacehealth": {
   "employer": "PeaceHealth",
@@ -86,7 +86,7 @@
   "lane_openings": 0,
   "last_run": "2026-10-09",
   "platform": "PeaceHealth careers site",
-  "status": "skipped: site asks crawlers not to visit"
+  "status": "error: site blocks automated access (403)"
  },
  "ukg:als1001alsco/0a8883de-4664-4282-8752-c5658e72bf32": {
   "board": "0a8883de-4664-4282-8752-c5658e72bf32",

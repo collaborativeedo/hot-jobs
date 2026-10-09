@@ -481,7 +481,7 @@
 "employer": "Camping World",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "537061",
 "title": "Detailer"
 },
@@ -644,7 +644,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "291051",
 "title": "Staff Pharmacist"
 },
 "093d4c5052ad": {
@@ -931,7 +931,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "412031",
 "title": "Sales Representative"
 },
@@ -1058,7 +1058,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "392021",
 "title": "Junior Groomer"
 },
@@ -1257,7 +1257,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Retail Sales and Store Support"
 },
 "1250999c0385": {
@@ -1356,7 +1356,7 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "537065",
 "title": "Part Time - Fulfillment Associate - Flexible"
 },
@@ -1366,7 +1366,7 @@
 "employer": "Merete Hotel Management (Residence Inn)",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "434081",
 "title": "Front Desk Agents"
 },
@@ -1411,7 +1411,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
 },
@@ -1447,7 +1447,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "537065",
 "title": "Produce Fresh Cut Clerks"
 },
@@ -1555,7 +1555,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "493023",
 "title": "Automotive Technician"
 },
@@ -1681,7 +1681,7 @@
 "employer": "Camping World",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "999999",
 "title": "Detailers"
 },
@@ -2060,7 +2060,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "113013",
 "title": "Directors of Facilities"
 },
@@ -2240,7 +2240,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "412031",
 "title": "Front End Managers"
 },
@@ -2528,7 +2528,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "412022",
 "title": "Parts Specialists"
 },
@@ -2664,7 +2664,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "291051",
 "title": "Staff Pharmacist"
 },
 "25326a611583": {
@@ -2691,7 +2691,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Front End Entry Level"
 },
 "2597f36be7b6": {
@@ -2880,7 +2880,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Retail Sales and Store Support"
 },
 "280d94ef0a5c": {
@@ -3186,7 +3186,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Retail Sales and Store Support"
 },
 "2ce629273da1": {
@@ -3203,7 +3203,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "533051",
 "title": "School Bus Drivers"
 },
@@ -3330,7 +3330,7 @@
 "employer": "White Bird Clinic",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "211018",
 "title": "Substance Use Disorder Counselors"
 },
@@ -3741,10 +3741,11 @@
 },
 "36f8762adfe4": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Lane Community College",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "434199",
 "title": "Assistant Registrar"
 },
@@ -3952,7 +3953,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "352021",
 "title": "Deli Clerk"
 },
 "399a89a6153f": {
@@ -4123,7 +4124,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412022",
 "title": "Parts Specialist"
 },
 "3bdee9366162": {
@@ -4293,7 +4294,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
 },
@@ -4527,7 +4528,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
 },
@@ -4537,7 +4538,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412022",
 "title": "Parts Specialist"
 },
 "41ceede4f6e1": {
@@ -4708,7 +4709,7 @@
 "employer": "PacificSource",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "",
 "title": "Processing Specialists"
 },
@@ -5302,7 +5303,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "291051",
 "title": "Staff Pharmacists"
 },
@@ -5347,7 +5348,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "493023",
 "title": "Master Technicians"
 },
@@ -5488,10 +5489,11 @@
 },
 "4def3ad76aeb": {
 "city": "Springfield",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "411011",
 "title": "Assistant Store Managers"
 },
@@ -5672,7 +5674,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Front End Entry Level"
 },
 "50d30a6c0653": {
@@ -5942,7 +5944,7 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "537065",
 "title": "Full Time - Receiver/Stocker - Day"
 },
@@ -6249,7 +6251,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "291051",
 "title": "Staff Pharmacist"
 },
 "5821bfa13c34": {
@@ -6321,7 +6323,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Retail Sales and Store Support"
 },
 "58bc7719239f": {
@@ -6861,7 +6863,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Front End Entry Level"
 },
 "5e01cc282438": {
@@ -6969,7 +6971,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "172111",
 "title": "Health, Safety, and Environmental Manager"
 },
@@ -7050,7 +7052,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "493023",
 "title": "Service Technician"
 },
@@ -7059,7 +7061,7 @@
 "employer": "The Home Depot",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "419011",
 "title": "Field Sales and Marketing Representative - Eugene, OR"
 },
@@ -7239,7 +7241,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "493023",
 "title": "Master Mopar Technician"
 },
@@ -7456,7 +7458,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "291051",
 "title": "Staff Pharmacist"
 },
 "663b323e9f65": {
@@ -7569,10 +7571,11 @@
 },
 "68068aadf418": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "352021",
 "title": "Deli Cook"
 },
@@ -7644,7 +7647,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "499071",
 "title": "Preventive Maintenance Technician"
 },
@@ -7680,7 +7683,7 @@
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "434051",
 "title": "Bilingual Multi-Location Customer Service Specialist (Spanish)"
 },
@@ -8113,7 +8116,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412022",
 "title": "Parts Specialist"
 },
 "70240d2aa83b": {
@@ -8617,7 +8620,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "291051",
 "title": "Staff Pharmacist"
 },
 "763d407a9f82": {
@@ -8739,10 +8742,11 @@
 },
 "7761f75f7cb8": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "412031",
 "title": "Sales Associate"
 },
@@ -9031,7 +9035,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412022",
 "title": "Parts Specialist"
 },
 "7ab4f1b2b6e0": {
@@ -9616,7 +9620,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "291051",
 "title": "Staff Pharmacist"
 },
 "822843b1080c": {
@@ -9741,7 +9745,7 @@
 "employer": "",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "191031",
 "title": "Rangers"
 },
@@ -9903,7 +9907,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "493031",
 "title": "Trailer/SRI Repair Specialist"
 },
@@ -10038,7 +10042,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "493023",
 "title": "Used Car Technician"
 },
@@ -10102,7 +10106,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412022",
 "title": "Parts Specialist"
 },
 "87ab872a938f": {
@@ -10128,7 +10132,7 @@
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "434051",
 "title": "Bilingual Customer Service Specialist (Spanish)"
 },
@@ -10299,7 +10303,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "413031",
 "title": "Relationship Bankers"
 },
@@ -10345,7 +10349,7 @@
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "434051",
 "title": "Bilingual Multi-Location Customer Service Specialist (Spanish)"
 },
@@ -10490,7 +10494,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "292099",
 "title": "Patient Access Clerks"
 },
@@ -10680,7 +10684,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Retail Sales and Store Support"
 },
 "8df1cc9d19c7": {
@@ -10814,7 +10818,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "132011",
 "title": "Dealership Accountant I"
 },
@@ -10847,10 +10851,11 @@
 },
 "8f89a56d2b6b": {
 "city": "Coburg",
+"closed": "2026-10-09",
 "employer": "OEG (Everus)",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "119021",
 "title": "Electrical Construction Project Managers"
 },
@@ -10895,7 +10900,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "352021",
 "title": "Deli Clerks"
 },
@@ -10910,19 +10915,19 @@
 },
 "90329c2133af": {
 "city": "Junction City",
-"employer": "",
+"employer": "J.P. Morgan Asset Management (timberland)",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "191032",
-"title": "Customer Experience Interns"
+"title": "2027 Forestry Field Office Internship – Emerging Talent Summer Experience Program"
 },
 "908b55bd92f6": {
 "city": "Eugene",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "493042",
 "title": "Shop Technicians"
 },
@@ -10968,7 +10973,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Front End Entry Level"
 },
 "91404b50b3e0": {
@@ -11328,7 +11333,7 @@
 "employer": "Swanson Group (Springfield Plywood)",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "537121",
 "title": "Shipping Loaders"
 },
@@ -11464,7 +11469,7 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "111021",
 "title": "Store Manager"
 },
@@ -11663,7 +11668,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Retail Sales and Store Support"
 },
 "983601a91a81": {
@@ -11879,7 +11884,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Retail Sales and Store Support"
 },
 "9a8a18cc2b84": {
@@ -11987,7 +11992,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Retail Sales and Store Support"
 },
 "9b41252a6cb3": {
@@ -12055,10 +12060,11 @@
 },
 "9c2014388d1d": {
 "city": "Florence",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "191031",
 "title": "Rangers"
 },
@@ -12463,7 +12469,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "353023",
 "title": "Baristas"
 },
@@ -12490,7 +12496,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "493023",
 "title": "Service Technicians"
 },
@@ -12607,7 +12613,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "513011",
 "title": "Bakery Clerks"
 },
@@ -12698,7 +12704,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Front End Entry Level"
 },
 "a3b05c4d94f4": {
@@ -12886,7 +12892,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "513022",
 "title": "Meat Cutters"
 },
@@ -13112,7 +13118,7 @@
 "employer": "Johnson Crushers International",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "512099",
 "title": "Assembler Day Shift - Eugene Franklin Boulevard (Johnson Crushers Intl)"
 },
@@ -13338,7 +13344,7 @@
 "employer": "Allied Universal",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "339032",
 "title": "Unarmed Security Guards"
 },
@@ -13599,7 +13605,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "412031",
 "title": "Front End Managers"
 },
@@ -13662,7 +13668,7 @@
 "employer": "The Home Depot",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "413091",
 "title": "Field Sales and Marketing Representatives"
 },
@@ -13830,10 +13836,11 @@
 },
 "b36a9da5c54f": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "372011",
 "title": "Janitorial Crew Members"
 },
@@ -14077,7 +14084,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Retail Sales and Store Support"
 },
 "b634c868393f": {
@@ -14122,7 +14129,7 @@
 "employer": "AutoZone",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "411011",
 "title": "Part Sales Manager - Part Time"
 },
@@ -14425,10 +14432,11 @@
 },
 "bc0aaf37137f": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "413091",
 "title": "Lead Sales Associates"
 },
@@ -14545,7 +14553,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "131151",
 "title": "Sales Enablement Managers"
 },
@@ -14635,7 +14643,7 @@
 "employer": "Guardian Pharmacy",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "533031",
 "title": "Pick-Up and Delivery Drivers"
 },
@@ -14972,6 +14980,15 @@
 "soc": "291051",
 "title": "Float Pharmacist"
 },
+"c23a7c6b571a": {
+"city": "Eugene",
+"employer": "JPMorgan Chase",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "132072",
+"title": "Senior Home Lending Advisor Eugene, OR"
+},
 "c2525f0288df": {
 "city": "Eugene",
 "employer": "Lithia Motors",
@@ -15157,7 +15174,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "372012",
 "title": "Facility Housekeeper"
 },
@@ -15202,7 +15219,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "434051",
 "title": "Service Advisors"
 },
@@ -15418,7 +15435,7 @@
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "414012",
 "title": "Sales Representatives"
 },
@@ -15499,7 +15516,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "537065",
 "title": "Night Stockers"
 },
@@ -15706,7 +15723,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "433071",
 "title": "Tellers"
 },
@@ -15748,10 +15765,11 @@
 },
 "cadba1a91179": {
 "city": "Springfield",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "291141",
 "title": "RN - M/S Tele"
 },
@@ -15851,7 +15869,7 @@
 "employer": "Whole Foods Market",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "353023",
 "title": "Prepared Foods Service Team Members"
 },
@@ -15914,7 +15932,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "537065",
 "title": "Night Stockers"
 },
@@ -16139,7 +16157,7 @@
 "employer": "Guardian Pharmacy",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "292052",
 "title": "Pharmacy Technicians"
 },
@@ -16418,7 +16436,7 @@
 "employer": "Guardian Pharmacy",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "292052",
 "title": "Fulfillment Pharmacy Technicians"
 },
@@ -16599,7 +16617,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Front End Entry Level"
 },
 "d426e746b109": {
@@ -16613,10 +16631,11 @@
 },
 "d431ca6480ef": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "173026",
 "title": "Quality Control Technician - Nights: Monday - Thursday"
 },
@@ -16940,7 +16959,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "113071",
 "title": "Traffic Control Managers"
 },
@@ -17549,10 +17568,11 @@
 },
 "df64b0755847": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "351012",
 "title": "Shift Leaders"
 },
@@ -18084,7 +18104,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Front End Entry Level"
 },
 "e6f318ef9119": {
@@ -18335,7 +18355,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "531043",
 "title": "Transfer Driver"
 },
@@ -18452,7 +18472,7 @@
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "434051",
 "title": "Customer Service Specialist"
 },
@@ -18476,10 +18496,11 @@
 },
 "eb76a4d8b053": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "172141",
 "title": "Process and Application Engineer"
 },
@@ -18659,7 +18680,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
 },
@@ -18687,7 +18708,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "412031",
 "title": "Front End Entry Level"
 },
 "ee43a60bb05b": {
@@ -18767,7 +18788,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "492094",
 "title": "Trailer/Sri Specialists"
 },
@@ -19136,7 +19157,7 @@
 "employer": "U-Haul",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "372012",
 "title": "Storage Facility Housekeepers"
 },
@@ -19460,7 +19481,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 1,
+"misses": 2,
 "soc": "533032",
 "title": "Delivery Drivers"
 },
@@ -19619,10 +19640,11 @@
 },
 "f88cc05744be": {
 "city": "Coburg",
+"closed": "2026-10-09",
 "employer": "Lane County",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "111011",
 "title": "Public Works Directors"
 },
@@ -20105,10 +20127,11 @@
 },
 "fd9801f8b185": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Advantage Solutions",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 2,
+"misses": 3,
 "soc": "537065",
 "title": "Traveling Retail Merchandiser - Overnight"
 },
@@ -20244,7 +20267,7 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "434051",
 "title": "Service Advisor"
 },
 "fe9470c5bf7b": {
@@ -20262,7 +20285,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 4,
+"misses": 5,
 "soc": "111021",
 "title": "RVP, MH Operations"
 },
