@@ -26,6 +26,15 @@
 "soc": "132011",
 "title": "Certified Public Accountants"
 },
+"007ac120d32b": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Cardiac Rehab Exercise Physiologist"
+},
 "00c08171f66d": {
 "city": "Springfield",
 "employer": "Lane County",
@@ -64,7 +73,7 @@
 },
 "0146c0062489": {
 "city": "Florence",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -440,6 +449,15 @@
 "soc": "271026",
 "title": "Retail Merchandisers"
 },
+"05ee39cb5551": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493031",
+"title": "Diesel Mechanics"
+},
 "06042d3a29f5": {
 "city": "Eugene",
 "employer": "",
@@ -478,10 +496,11 @@
 },
 "06ab43b9661a": {
 "city": "Coburg",
+"closed": "2026-10-09",
 "employer": "Camping World",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "537061",
 "title": "Detailer"
 },
@@ -620,6 +639,15 @@
 "soc": "999999",
 "title": "Automotive Product Specialists"
 },
+"08b8b4328af6": {
+"city": "Eugene",
+"employer": "Marquis Companies",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "311128",
+"title": "Memory Care Caregivers"
+},
 "08f5ff5dce3c": {
 "city": "Eugene",
 "employer": "",
@@ -665,12 +693,30 @@
 "soc": "311128",
 "title": "Direct Support Professionals"
 },
+"0955968f37a1": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533032",
+"title": "Delivery Drivers"
+},
+"095c89136307": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "273091",
+"title": "Developmental Disabilities Specialist, Bilingual"
+},
 "0967b58c4636": {
 "city": "Springfield",
 "employer": "Worldwide TechServices",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "151232",
 "title": "Customer Service Engineers"
 },
@@ -682,6 +728,15 @@
 "misses": 0,
 "soc": "271026",
 "title": "Retail Merchandisers"
+},
+"0995452babd9": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "211013",
+"title": "Mental Health Specialists"
 },
 "09a62a452b50": {
 "city": "Cottage Grove",
@@ -719,12 +774,21 @@
 "soc": "311128",
 "title": "In-Home Caregivers"
 },
+"0a6f570c4c73": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Nutrition Services Substitute-Pool"
+},
 "0aa5cb6768cf": {
 "city": "Eugene",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "433031",
 "title": "Accounting Specialists"
 },
@@ -742,7 +806,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "514033",
 "title": "Swing Shift Custodians"
 },
@@ -818,6 +882,15 @@
 "soc": "113071",
 "title": "Medical Equipment Delivery Drivers"
 },
+"0bcb75d5bdaf": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Senior Transportation & Structures Project Manager"
+},
 "0be701de9998": {
 "city": "Eugene",
 "employer": "Unifi Aviation",
@@ -845,6 +918,15 @@
 "soc": "432011",
 "title": "Answering Service Operators"
 },
+"0c159041ea2a": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533032",
+"title": "Drivers"
+},
 "0c528c70a259": {
 "city": "Junction City",
 "employer": "",
@@ -863,6 +945,15 @@
 "soc": "353023",
 "title": "Crew Member"
 },
+"0c7003a75052": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Mental Health Specialist 1 or 2"
+},
 "0c7d13f85290": {
 "city": "Eugene",
 "employer": "Lane County",
@@ -880,6 +971,15 @@
 "misses": 0,
 "soc": "",
 "title": "Snowflake Data Engineer"
+},
+"0c8d689b6db4": {
+"city": "Springfield",
+"employer": "Bass Pro Shops",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Gifts Sales Outfitter - Part Time"
 },
 "0c8e723c95a9": {
 "city": "Eugene",
@@ -908,6 +1008,24 @@
 "soc": "172051",
 "title": "Construction Engineering Inspectors"
 },
+"0cd854bd4789": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "414011",
+"title": "Sales Consultants"
+},
+"0cf0a8e95782": {
+"city": "Lane County",
+"employer": "Clinic Coordinator",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Clinic Coordinator"
+},
 "0d1cc3f5fc18": {
 "city": "Eugene",
 "employer": "ABC Supply",
@@ -928,12 +1046,22 @@
 },
 "0d65e166f8bb": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "412031",
 "title": "Sales Representative"
+},
+"0d6fa01511f4": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Registered Nurse - Emergency --Days (7am - 7:30pm)"
 },
 "0d8ec95ea97b": {
 "city": "Springfield",
@@ -949,7 +1077,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "537065",
 "title": "Fishing Team Leads"
 },
@@ -976,9 +1104,18 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "414012",
 "title": "Healthcare Sales Account Executives"
+},
+"0dc1387d39f5": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Bilingual Sales Representative (Sales, Customer Service)"
 },
 "0dc83070f782": {
 "city": "Eugene",
@@ -1021,7 +1158,7 @@
 "employer": "Gentle Dental",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "319091",
 "title": "Dental Assistants"
 },
@@ -1058,7 +1195,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "392021",
 "title": "Junior Groomer"
 },
@@ -1067,9 +1204,18 @@
 "employer": "Coquille Indian Tribe",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "211023",
 "title": "Behavioral Health Technicians"
+},
+"0ee35cf08854": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "519061",
+"title": "FE Metals Inspector I"
 },
 "0ee8c9095e04": {
 "city": "Eugene",
@@ -1124,6 +1270,15 @@
 "misses": 0,
 "soc": "351012",
 "title": "Shift Leaders"
+},
+"0f8eee685a0f": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "413091",
+"title": "Lead Sales Associates"
 },
 "0fb703e0f160": {
 "city": "Eugene",
@@ -1217,7 +1372,7 @@
 },
 "11875c252bc2": {
 "city": "Eugene",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -1242,6 +1397,33 @@
 "soc": "533032",
 "title": "Company Truck Drivers"
 },
+"11e6d87bb68e": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292061",
+"title": "Emergency Medical Technician Paramedics"
+},
+"11ec5e46cd77": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Business Development Manager"
+},
+"11f0ff34c38c": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Educational Assistant - Special Education - North Eugene High School"
+},
 "120312bfdad7": {
 "city": "Marcola",
 "employer": "",
@@ -1260,6 +1442,15 @@
 "soc": "412031",
 "title": "Retail Sales and Store Support"
 },
+"121179c82b46": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Payroll and Contracts Coordinator, Senior"
+},
 "1250999c0385": {
 "city": "Springfield",
 "employer": "Bass Pro Shops",
@@ -1277,6 +1468,15 @@
 "misses": 0,
 "soc": "531047",
 "title": "Warehouse Supervisors"
+},
+"12511c39a43b": {
+"city": "Springfield",
+"employer": "The Home Depot",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "516062",
+"title": "Swings"
 },
 "12530eb5737e": {
 "city": "Eugene",
@@ -1337,9 +1537,18 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "111011",
 "title": "Benefits Support Specialists"
+},
+"12da3a99bb14": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291229",
+"title": "Physician Associate"
 },
 "12e9f3cd3f7c": {
 "city": "Eugene",
@@ -1356,7 +1565,7 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "537065",
 "title": "Part Time - Fulfillment Associate - Flexible"
 },
@@ -1366,7 +1575,7 @@
 "employer": "Merete Hotel Management (Residence Inn)",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "434081",
 "title": "Front Desk Agents"
 },
@@ -1408,10 +1617,11 @@
 },
 "13cc2f309f81": {
 "city": "Springfield",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
 },
@@ -1420,9 +1630,18 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412011",
 "title": "Part Time - Head Cashier - Flexible"
+},
+"13fa3e2fc8a8": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "259045",
+"title": "Preschool Teacher Assistants"
 },
 "140e035345df": {
 "city": "Eugene",
@@ -1444,10 +1663,11 @@
 },
 "1451f7c14f93": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "537065",
 "title": "Produce Fresh Cut Clerks"
 },
@@ -1487,6 +1707,15 @@
 "soc": "291141",
 "title": "Hospice Admissions Registered Nurses"
 },
+"147c732cb5e3": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Peer Support Specialist"
+},
 "14c58cf744e9": {
 "city": "Springfield",
 "employer": "",
@@ -1507,7 +1736,7 @@
 },
 "14f76e67842d": {
 "city": "Eugene",
-"employer": "Columbiabank",
+"employer": "Umpqua Bank (Columbia Banking System)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -1541,6 +1770,15 @@
 "soc": "414012",
 "title": "Market Account Executives"
 },
+"15621b72355b": {
+"city": "Eugene",
+"employer": "Lowe's",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412011",
+"title": "Cashier Part Time"
+},
 "1570b2cb70c5": {
 "city": "Springfield",
 "employer": "PeaceHealth",
@@ -1552,10 +1790,11 @@
 },
 "157302bd93b3": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "493023",
 "title": "Automotive Technician"
 },
@@ -1676,12 +1915,22 @@
 "soc": "533051",
 "title": "School Bus Driver"
 },
+"183cde07b367": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Coder IP OP U"
+},
 "1870dc8165fd": {
 "city": "Coburg",
+"closed": "2026-10-09",
 "employer": "Camping World",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "999999",
 "title": "Detailers"
 },
@@ -1721,6 +1970,24 @@
 "soc": "311128",
 "title": "Youth Care Professionals"
 },
+"1931e3273af0": {
+"city": "Springfield",
+"employer": "Springfield Utility Board",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493023",
+"title": "Vehicle Technician/Utility Worker"
+},
+"194e0eaa204b": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Lateral Patrol Deputy"
+},
 "19be8b25c55c": {
 "city": "Springfield",
 "employer": "Bass Pro Shops",
@@ -1756,6 +2023,15 @@
 "misses": 0,
 "soc": "292034",
 "title": "Radiology Technologists"
+},
+"1a4bf4a4dce8": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Mental Health Associate - Swing Shift"
 },
 "1a58e370affa": {
 "city": "Eugene",
@@ -1829,6 +2105,15 @@
 "soc": "119111",
 "title": "Bariatric Coordinators"
 },
+"1ae0c85366c6": {
+"city": "Springfield",
+"employer": "PeaceHealth",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Registered Nurses Resident"
+},
 "1aeaf1262c71": {
 "city": "Eugene",
 "employer": "",
@@ -1843,7 +2128,7 @@
 "employer": "City of Eugene",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "399032",
 "title": "Recreation Staff"
 },
@@ -1855,6 +2140,15 @@
 "misses": 0,
 "soc": "351012",
 "title": "Shift Leaders"
+},
+"1b09f072efad": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Patient Access Clerk - Patient Registration - PRN"
 },
 "1b167eac8dae": {
 "city": "Eugene",
@@ -2047,12 +2341,21 @@
 },
 "1d891947a132": {
 "city": "Eugene",
-"employer": "",
+"employer": "Facilities Technician",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "113013",
-"title": "Facilities Technicians"
+"soc": "",
+"title": "Facilities Technician"
+},
+"1d9e7a24124a": {
+"city": "Eugene",
+"employer": "Lowe's",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "419011",
+"title": "In-Home Sales Specialist"
 },
 "1db9a06f4e30": {
 "city": "Eugene",
@@ -2060,7 +2363,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "113013",
 "title": "Directors of Facilities"
 },
@@ -2127,6 +2430,15 @@
 "soc": "399041",
 "title": "Residential Support Staff"
 },
+"1ea015885d12": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Bridge Design Engineer"
+},
 "1ebbf6fc4858": {
 "city": "Cottage Grove",
 "employer": "",
@@ -2138,7 +2450,7 @@
 },
 "1ec575a35eef": {
 "city": "Eugene",
-"employer": "The Home Depot",
+"employer": "Techtronic Industries (TTI)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -2172,14 +2484,32 @@
 "soc": "533031",
 "title": "Delivery Professionals"
 },
+"1f3eea87a74c": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Transportation Project Engineer - Mid Level"
+},
 "1f43fc8e76a6": {
 "city": "Coburg",
 "employer": "Lane County",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "111011",
 "title": "Public Works Directors"
+},
+"1f6deb31859a": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Senior Transportation Project Engineer 1"
 },
 "1fa6d53bbb78": {
 "city": "Eugene",
@@ -2237,10 +2567,11 @@
 },
 "2012462d0440": {
 "city": "Springfield",
+"closed": "2026-10-09",
 "employer": "Albertsons",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "412031",
 "title": "Front End Managers"
 },
@@ -2252,6 +2583,15 @@
 "misses": 0,
 "soc": "112022",
 "title": "Regional Business Directors"
+},
+"2038c7d8c5d9": {
+"city": "Eugene",
+"employer": "Coquille Indian Tribe",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "339032",
+"title": "Security Officers"
 },
 "2049ebb0da2d": {
 "city": "Eugene",
@@ -2307,6 +2647,15 @@
 "soc": "291141",
 "title": "Registered Nurses"
 },
+"2126934d9195": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "491011",
+"title": "Fleet Maintenance Supervisor"
+},
 "214cdd0f4f94": {
 "city": "Eugene",
 "employer": "",
@@ -2351,6 +2700,15 @@
 "misses": 0,
 "soc": "435032",
 "title": "Dispatchers"
+},
+"21bdd3911edd": {
+"city": "Lane County",
+"employer": "Facilities Engineer",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Facilities Engineer"
 },
 "21cde975f9f3": {
 "city": "Springfield",
@@ -2448,7 +2806,7 @@
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "434171",
+"soc": "119032",
 "title": "Participant Services Specialists"
 },
 "2280f7db55f6": {
@@ -2469,12 +2827,30 @@
 "soc": "537065",
 "title": "Night Stock Associates"
 },
+"2287fb431d04": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "353011",
+"title": "Bartenders"
+},
+"22b47740f4cc": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "211092",
+"title": "Parole and Probation Officer"
+},
 "22bf6388e717": {
 "city": "Eugene",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "353023",
 "title": "barista - Store# 17920, W 11TH & ACORN - EUGENE"
 },
@@ -2525,10 +2901,11 @@
 },
 "234501045454": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "412022",
 "title": "Parts Specialists"
 },
@@ -2555,7 +2932,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "533032",
 "title": "Route Drivers"
 },
@@ -2576,6 +2953,15 @@
 "misses": 0,
 "soc": "499071",
 "title": "Water Restoration Technicians"
+},
+"2432d89998d5": {
+"city": "Eugene",
+"employer": "Coquille Indian Tribe",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "499071",
+"title": "Custodial Maintenance Technicians"
 },
 "243769c6f6d7": {
 "city": "Eugene",
@@ -2685,6 +3071,15 @@
 "soc": "291031",
 "title": "Food and Nutrition Services Assistants"
 },
+"25720a19a8f8": {
+"city": "Lane County",
+"employer": "Associate Director of Ministerial Formation",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Associate Director of Ministerial Formation"
+},
 "259521f87b7a": {
 "city": "Eugene",
 "employer": "Albertsons",
@@ -2730,6 +3125,15 @@
 "soc": "319092",
 "title": "Certified Medical Assistants"
 },
+"25c0d9a33338": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "319091",
+"title": "Orthodontic Dental Assistants"
+},
 "25c92e85c231": {
 "city": "Springfield",
 "employer": "PeaceHealth",
@@ -2738,6 +3142,15 @@
 "misses": 0,
 "soc": "292034",
 "title": "Radiology Technologists"
+},
+"25d57ef7327d": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "211093",
+"title": "Life Enrichment Assistants"
 },
 "25eb98741d3e": {
 "city": "Springfield",
@@ -2856,6 +3269,15 @@
 "soc": "252059",
 "title": "Members-at-Large"
 },
+"27c941d7f587": {
+"city": "Coburg",
+"employer": "TravelCenters of America",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "359021",
+"title": "Restaurant Dishwashers"
+},
 "27d72923cc21": {
 "city": "Eugene",
 "employer": "",
@@ -2897,9 +3319,18 @@
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "436012",
 "title": "Legal Secretaries"
+},
+"28424e718aeb": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "BEST After School Program Educational Assistant (Pool)"
 },
 "284fd6f85526": {
 "city": "Eugene",
@@ -2991,6 +3422,24 @@
 "soc": "533053",
 "title": "Pupil Transport Assistants"
 },
+"28b6dbb67115": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "519022",
+"title": "Booth Managers"
+},
+"29a8403e04b6": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "319011",
+"title": "Licensed Massage Therapists"
+},
 "29c6e3afde99": {
 "city": "Springfield",
 "employer": "Willamette Valley Cancer Institute",
@@ -3050,7 +3499,7 @@
 "employer": "Leaf Home",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "414011",
 "title": "Outside Sales Representatives"
 },
@@ -3086,7 +3535,7 @@
 "employer": "PeaceHealth",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "211023",
 "title": "Licensed Health Agents"
 },
@@ -3128,7 +3577,7 @@
 },
 "2bf5260f5f0b": {
 "city": "Eugene",
-"employer": "Usbank",
+"employer": "U.S. Bank",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -3149,7 +3598,7 @@
 "employer": "TravelCenters of America",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "359021",
 "title": "Restaurant Dishwashers"
 },
@@ -3200,10 +3649,11 @@
 },
 "2d0040c9ea60": {
 "city": "Oakridge",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "533051",
 "title": "School Bus Drivers"
 },
@@ -3216,6 +3666,15 @@
 "soc": "413091",
 "title": "Automotive Salespeople"
 },
+"2d2589f1e75e": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "435061",
+"title": "Procedure Schedulers"
+},
 "2d4bad02750e": {
 "city": "Eugene",
 "employer": "",
@@ -3224,6 +3683,15 @@
 "misses": 0,
 "soc": "292081",
 "title": "optician, rainbow optics willakenzie"
+},
+"2d6f35def743": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "499051",
+"title": "Line Technician"
 },
 "2d981289cf26": {
 "city": "Springfield",
@@ -3260,6 +3728,24 @@
 "misses": 0,
 "soc": "472181",
 "title": "Roofers"
+},
+"2e138c942b3e": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Structural Plans Examiner"
+},
+"2e458a0b0c17": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292018",
+"title": "Paramedics"
 },
 "2e4b02637600": {
 "city": "Eugene",
@@ -3330,9 +3816,18 @@
 "employer": "White Bird Clinic",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "211018",
 "title": "Substance Use Disorder Counselors"
+},
+"2ef245e32d4d": {
+"city": "Eugene",
+"employer": "Federal government (USAJOBS)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291171",
+"title": "Primary Care Nurse Practitioners"
 },
 "2ef7c07ace34": {
 "city": "Eugene",
@@ -3361,6 +3856,15 @@
 "soc": "112032",
 "title": "National Organizers"
 },
+"2f3fe6022dbb": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Educational Assistant - Special Education - Awbrey Park Elementary"
+},
 "2f888cb9703e": {
 "city": "Eugene",
 "employer": "Hillside Heights Rehabilitation Center",
@@ -3375,7 +3879,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "131051",
 "title": "Estimators/Engineers"
 },
@@ -3399,7 +3903,7 @@
 },
 "3030fa476d6f": {
 "city": "Eugene",
-"employer": "Hdsupply",
+"employer": "HD Supply",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -3438,7 +3942,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "172051",
 "title": "Construction Engineering Inspectors"
 },
@@ -3459,6 +3963,15 @@
 "misses": 0,
 "soc": "291215",
 "title": "Family Practice Physicians"
+},
+"31767d1924d9": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Registered Nurse - Surgical Care Unit - Nights"
 },
 "317d3b13388c": {
 "city": "Eugene",
@@ -3505,6 +4018,15 @@
 "soc": "533032",
 "title": "Company Truck Drivers"
 },
+"3219e15ab3fb": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "399031",
+"title": "Group Exercise Instructors"
+},
 "32a1088017cd": {
 "city": "Eugene",
 "employer": "",
@@ -3522,6 +4044,15 @@
 "misses": 0,
 "soc": "271026",
 "title": "Merchandisers"
+},
+"32c64ee0b642": {
+"city": "Eugene",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "211094",
+"title": "Community Health Workers"
 },
 "333941652760": {
 "city": "Eugene",
@@ -3558,6 +4089,15 @@
 "misses": 0,
 "soc": "172071",
 "title": "Structural Engineers"
+},
+"33abb5e05e2f": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "271026",
+"title": "Night Merchandisers"
 },
 "33d3c2490f11": {
 "city": "Eugene",
@@ -3658,6 +4198,15 @@
 "soc": "319092",
 "title": "Health Room Aide, 1.0 FTE (8 hours per day), Siuslaw Elementary School"
 },
+"355a75636cd5": {
+"city": "Springfield",
+"employer": "Bass Pro Shops",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "434051",
+"title": "Seasonal Events Associate"
+},
 "355c131335d0": {
 "city": "Eugene",
 "employer": "Lane County",
@@ -3675,6 +4224,15 @@
 "misses": 0,
 "soc": "434051",
 "title": "Pharmacy Customer Service Associate"
+},
+"35a1d06569a9": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493023",
+"title": "Instrument and Controls Technicians"
 },
 "35eedd7cbf47": {
 "city": "Springfield",
@@ -3717,7 +4275,7 @@
 "employer": "Bass Pro Shops",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412011",
 "title": "Cashier - Seasonal"
 },
@@ -3739,13 +4297,22 @@
 "soc": "519199",
 "title": "Manufacturing Operator II"
 },
+"36efacbfe7c5": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533032",
+"title": "Regional Company Truck Drivers"
+},
 "36f8762adfe4": {
 "city": "Eugene",
 "closed": "2026-10-09",
 "employer": "Lane Community College",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 3,
+"misses": 4,
 "soc": "434199",
 "title": "Assistant Registrar"
 },
@@ -3772,7 +4339,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "119141",
 "title": "Community Managers"
 },
@@ -3835,7 +4402,7 @@
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "311133",
 "title": "Middle School Instructors"
 },
@@ -3874,6 +4441,15 @@
 "misses": 0,
 "soc": "412011",
 "title": "Guest Advocate (Cashier or Front of Store Attendant/Cart Attendant) (T0612)"
+},
+"3853552c1bd4": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "373011",
+"title": "Groundskeepers"
 },
 "387439b7ad74": {
 "city": "Springfield",
@@ -3956,6 +4532,15 @@
 "soc": "352021",
 "title": "Deli Clerk"
 },
+"39874a681dea": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "411011",
+"title": "Retail Sales Supervisors"
+},
 "399a89a6153f": {
 "city": "Eugene",
 "employer": "Columbia Hospitality (Valley River Inn)",
@@ -3983,12 +4568,21 @@
 "soc": "372012",
 "title": "Housekeepers"
 },
+"39c3d1cfe0bc": {
+"city": "Springfield",
+"employer": "PeaceHealth",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "319092",
+"title": "Cardiology Medical Assistants"
+},
 "39f803acbcfa": {
 "city": "Eugene",
 "employer": "Fresenius Kidney Care",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "292099",
 "title": "Patient Care Technicians"
 },
@@ -4042,7 +4636,7 @@
 "employer": "PeaceHealth",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291141",
 "title": "Registered Nurses/Home Care Case Managers"
 },
@@ -4120,7 +4714,7 @@
 },
 "3bdb6c132061": {
 "city": "Florence",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -4135,6 +4729,15 @@
 "misses": 0,
 "soc": "434081",
 "title": "Night Auditors"
+},
+"3be025cbba07": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "353023",
+"title": "Baristas"
 },
 "3c1c80dda5b1": {
 "city": "Springfield",
@@ -4168,7 +4771,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "292055",
 "title": "Surgical Technologists"
 },
@@ -4180,6 +4783,15 @@
 "misses": 0,
 "soc": "132011",
 "title": "Experienced Tax Professional"
+},
+"3c8f13bbd25f": {
+"city": "Eugene",
+"employer": "RDO Equipment Co.",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493023",
+"title": "Service Technician"
 },
 "3cac3a17c738": {
 "city": "Eugene",
@@ -4262,6 +4874,15 @@
 "soc": "112022",
 "title": "Community Sales Managers"
 },
+"3db55d9be593": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291171",
+"title": "Nurse Practitioners/Physician Assistants"
+},
 "3dc0d99c9a16": {
 "city": "Springfield",
 "employer": "",
@@ -4291,10 +4912,11 @@
 },
 "3e23e65be5de": {
 "city": "Cottage Grove",
+"closed": "2026-10-09",
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
 },
@@ -4377,32 +4999,50 @@
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "119041",
-"title": "City Engineers"
+"title": "City Engineer"
 },
 "3f5f6df6599d": {
 "city": "Eugene",
 "employer": "Kroger (Fred Meyer)",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412031",
 "title": "Retail Associates"
+},
+"3f85b7cf0e87": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Patient Access Clerk - Patient Registration - PRN"
 },
 "3f90cb821cd5": {
 "city": "Springfield",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "537065",
 "title": "Clothing Managers"
+},
+"3fae9534605b": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "131071",
+"title": "Talent Acquisition Specialists"
 },
 "3fb315a66620": {
 "city": "Springfield",
 "employer": "McKenzie-Willamette Medical Center",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291141",
 "title": "Business Services Managers"
 },
@@ -4438,7 +5078,7 @@
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "273091",
 "title": "Developmental Disabilities Specialists"
 },
@@ -4447,7 +5087,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "519199",
 "title": "Manufacturing Managers"
 },
@@ -4483,9 +5123,18 @@
 "employer": "PeaceHealth",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "319092",
 "title": "Cardiology Medical Assistants"
+},
+"40d0fcb66fe5": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291125",
+"title": "Life Enrichment Directors"
 },
 "40d11f6956a4": {
 "city": "Springfield",
@@ -4525,16 +5174,17 @@
 },
 "418171d078ef": {
 "city": "Florence",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
 },
 "41ca7ce75238": {
 "city": "Veneta",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -4543,12 +5193,12 @@
 },
 "41ceede4f6e1": {
 "city": "Eugene",
-"employer": "",
+"employer": "Auxiliary Program Activity Leader",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "399032",
-"title": "Auxiliaries"
+"title": "Auxiliary Program Activity Leader"
 },
 "41d80158d6b1": {
 "city": "Eugene",
@@ -4613,6 +5263,15 @@
 "soc": "353031",
 "title": "On-Demand: Guest Advocate (Cashier), General Merchandise, Fulfillment, Food and Beverage, Style (T06"
 },
+"4241edcd5bde": {
+"city": "Springfield",
+"employer": "Gentle Dental",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "319091",
+"title": "Dental Assistant"
+},
 "4242a4a9ff37": {
 "city": "Eugene",
 "employer": "",
@@ -4676,6 +5335,24 @@
 "soc": "131151",
 "title": "Sales Enablement Trainer"
 },
+"42da775a60ee": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "119199",
+"title": "Youth Development Leaders"
+},
+"42deb281559f": {
+"city": "Eugene",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412022",
+"title": "Parts Advisors"
+},
 "42f0cd91d168": {
 "city": "Florence",
 "employer": "PeaceHealth",
@@ -4708,9 +5385,9 @@
 "closed": "2026-10-09",
 "employer": "PacificSource",
 "first_seen": "2026-10-06",
-"last_seen": "2026-10-06",
-"misses": 5,
-"soc": "",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "999999",
 "title": "Processing Specialists"
 },
 "432de0c2d54a": {
@@ -4727,7 +5404,7 @@
 "employer": "RDO Equipment Co.",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "491011",
 "title": "Service Managers"
 },
@@ -4778,7 +5455,7 @@
 },
 "43fff481cbc4": {
 "city": "Eugene",
-"employer": "Columbiabank",
+"employer": "Umpqua Bank (Columbia Banking System)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -4907,7 +5584,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "352021",
 "title": "Sandwich Artists"
 },
@@ -4992,6 +5669,15 @@
 "soc": "195011",
 "title": "Environmental Health and Safety Managers"
 },
+"46550f4beb8c": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Intergovernmental Relations Officer"
+},
 "466254fa58f6": {
 "city": "Jasper",
 "employer": "",
@@ -5073,6 +5759,33 @@
 "soc": "351012",
 "title": "Restaurant Supervisors"
 },
+"46c275233357": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "537062",
+"title": "Warehouse Workers"
+},
+"46c397498407": {
+"city": "Eugene",
+"employer": "Coquille Indian Tribe",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "434171",
+"title": "Receptionists"
+},
+"46c93a29cd3a": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Registered Nurse - Emergency - Nights (9pm - 7:30am)"
+},
 "46e4d12a7742": {
 "city": "Florence",
 "employer": "Kroger (Fred Meyer)",
@@ -5096,7 +5809,7 @@
 "employer": "Leaf Home",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "999999",
 "title": "Installers"
 },
@@ -5126,6 +5839,15 @@
 "misses": 0,
 "soc": "396012",
 "title": "Directors of Women's and Children's Services"
+},
+"47a68e5272b1": {
+"city": "Cottage Grove",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Dental Director"
 },
 "47a9098c2a62": {
 "city": "Eugene",
@@ -5159,13 +5881,13 @@
 "employer": "Marquis Companies",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "311128",
 "title": "Memory Care Caregivers"
 },
 "47bd9a877378": {
 "city": "Oakridge",
-"employer": "Firststudent",
+"employer": "First Student",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -5180,6 +5902,15 @@
 "misses": 0,
 "soc": "537065",
 "title": "Night Stockers"
+},
+"480a1f7edb0b": {
+"city": "Eugene",
+"employer": "Gentle Dental",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Treatment Coordinator - Temporary"
 },
 "482d49cb5733": {
 "city": "Eugene",
@@ -5273,7 +6004,7 @@
 },
 "4911096c598c": {
 "city": "Cottage Grove",
-"employer": "Davita",
+"employer": "DaVita",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -5300,10 +6031,11 @@
 },
 "4a2cd53b6447": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "291051",
 "title": "Staff Pharmacists"
 },
@@ -5312,7 +6044,7 @@
 "employer": "Bass Pro Shops",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412011",
 "title": "Cashiers"
 },
@@ -5345,10 +6077,11 @@
 },
 "4acbccb86e5f": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "493023",
 "title": "Master Technicians"
 },
@@ -5397,6 +6130,15 @@
 "soc": "411011",
 "title": "Clothing Team Lead"
 },
+"4bda6f6a2c19": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "514121",
+"title": "Swing Shift Custodians"
+},
 "4c077ddc27f1": {
 "city": "Eugene",
 "employer": "Baker Tilly",
@@ -5411,9 +6153,18 @@
 "employer": "University of Oregon",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "119033",
 "title": "Directors of Assessment"
+},
+"4c4810e88164": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "211018",
+"title": "Addictions Counselors"
 },
 "4c598aefd17b": {
 "city": "Springfield",
@@ -5442,6 +6193,15 @@
 "soc": "414011",
 "title": "Associate Spine Specialist (Eugene, OR)"
 },
+"4cbb76bf09a4": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "CT Technologist - FT Night Shift"
+},
 "4cfcb529db65": {
 "city": "Coburg",
 "employer": "",
@@ -5459,6 +6219,15 @@
 "misses": 0,
 "soc": "372012",
 "title": "Housepeople"
+},
+"4d2034e24b79": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "353031",
+"title": "Servers"
 },
 "4d2c5b277c0d": {
 "city": "Eugene",
@@ -5493,7 +6262,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 3,
+"misses": 4,
 "soc": "411011",
 "title": "Assistant Store Managers"
 },
@@ -5514,6 +6283,24 @@
 "misses": 0,
 "soc": "499041",
 "title": "Millwright"
+},
+"4e2e1c29ece9": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Director Nursing Services (RN)"
+},
+"4e5fbdb083db": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Registered Nurse - Emergency - Nights (7pm - 7:30am)"
 },
 "4e6fa4540d94": {
 "city": "Eugene",
@@ -5578,6 +6365,33 @@
 "soc": "319096",
 "title": "Veterinary Assistants"
 },
+"4f778d25c9b6": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Public Works Director"
+},
+"4f7a1813e37c": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Structural Project Engineer"
+},
+"4f8cf21daf91": {
+"city": "Springfield",
+"employer": "Working at Performance Health Holdings",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "519022",
+"title": "Spray Technicians"
+},
 "4f943489854f": {
 "city": "Cottage Grove",
 "employer": "",
@@ -5596,6 +6410,15 @@
 "soc": "435071",
 "title": "Shipping Associates"
 },
+"4fd233fb1ac3": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Educational Assistant Sub Pool 2026/27"
+},
 "4fdc6ecc64a7": {
 "city": "Eugene",
 "employer": "Sherwin-Williams",
@@ -5610,7 +6433,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "499071",
 "title": "Maintenance Technicians"
 },
@@ -5628,18 +6451,18 @@
 "employer": "PacificSource",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "999999",
 "title": "Processing Specialists"
 },
 "5005b1e0c0be": {
 "city": "Eugene",
-"employer": "",
+"employer": "Middle School English and History Teacher",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "252031",
-"title": "Middle School English Teachers"
+"title": "Middle School English and History Teacher"
 },
 "500804026bbe": {
 "city": "Eugene",
@@ -5649,6 +6472,15 @@
 "misses": 0,
 "soc": "433011",
 "title": "Retail Data Collectors"
+},
+"50212c765d17": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292031",
+"title": "Cath Lab Tech - Days (Monday-Thursday)"
 },
 "5046e4430379": {
 "city": "Eugene",
@@ -5688,7 +6520,7 @@
 },
 "5114d351d58a": {
 "city": "Veneta",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -5712,6 +6544,24 @@
 "misses": 0,
 "soc": "372011",
 "title": "Cleaners"
+},
+"512e38f8f973": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "132011",
+"title": "Accounting Specialist (Corporate Shared Services)"
+},
+"513b12b6e22e": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Echo Lab - Echo Tech/Cardiac Sonographer - PRN"
 },
 "5142f9be77a8": {
 "city": "Coburg",
@@ -5742,12 +6592,21 @@
 },
 "52134d14e212": {
 "city": "Veneta",
-"employer": "",
+"employer": "City of Veneta, Oregon",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "273031",
-"title": "Press and Communication Interns"
+"title": "City Management and Communication Intern"
+},
+"521868a73e52": {
+"city": "Elmira",
+"employer": "First Student",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "School Bus Monitor"
 },
 "523cb4b4b8a2": {
 "city": "Springfield",
@@ -5774,16 +6633,25 @@
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "113013",
-"title": "Directors of Facilities"
+"title": "Facilities Director"
 },
 "524d30a6594b": {
 "city": "Springfield",
-"employer": "Columbiabank",
+"employer": "Umpqua Bank (Columbia Banking System)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "413031",
 "title": "Relationship Banker"
+},
+"5255e0c2cbd8": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "352011",
+"title": "Line Cooks"
 },
 "5277b7fec723": {
 "city": "Eugene",
@@ -5793,6 +6661,15 @@
 "misses": 0,
 "soc": "291031",
 "title": "Clinical Dietitians"
+},
+"528f7fe4dcde": {
+"city": "Eugene",
+"employer": "Lowe's",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "537065",
+"title": "Part Time - Fulfillment Associate - Flexible"
 },
 "52dfa2f799a3": {
 "city": "Springfield",
@@ -5844,7 +6721,7 @@
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291229",
 "title": "Physician Associates"
 },
@@ -5929,12 +6806,21 @@
 "soc": "533032",
 "title": "CDL-A - Jet-Set Dedicated truck driver - Dedicated Flex"
 },
+"53da27632c43": {
+"city": "Eugene",
+"employer": "Merete Hotel Management (Residence Inn)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "516011",
+"title": "Laundry Attendants"
+},
 "53f27f93fbf3": {
 "city": "Eugene",
 "employer": "Lowe's",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "413091",
 "title": "In Home Specialists"
 },
@@ -5944,7 +6830,7 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "537065",
 "title": "Full Time - Receiver/Stocker - Day"
 },
@@ -6025,7 +6911,7 @@
 "employer": "RWC Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "493031",
 "title": "Diesel Mechanics"
 },
@@ -6043,7 +6929,7 @@
 "employer": "McKenzie-Willamette Medical Center",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "292099",
 "title": "Admissions Specialists"
 },
@@ -6052,7 +6938,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "151232",
 "title": "Desktop Support Managers"
 },
@@ -6070,7 +6956,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "359011",
 "title": "Food Service Assistants"
 },
@@ -6128,6 +7014,15 @@
 "soc": "434051",
 "title": "Customer Support Specialists"
 },
+"55e2160b7b09": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Electrophysiology Tech III- Cardiac Cath Lab"
+},
 "560396249422": {
 "city": "Springfield",
 "employer": "",
@@ -6145,6 +7040,24 @@
 "misses": 0,
 "soc": "252031",
 "title": "High School Mathematics Teachers"
+},
+"5623ee181089": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "172141",
+"title": "Mechanical Design Engineers"
+},
+"56920a5afac3": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "151253",
+"title": "Agile Software Engineers"
 },
 "56aca0d73739": {
 "city": "Eugene",
@@ -6191,6 +7104,15 @@
 "soc": "396012",
 "title": "Community Ambassadors"
 },
+"572f4d3c2e4e": {
+"city": "Lane County",
+"employer": "Administrative Associate - Dean of Nursing",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Administrative Associate - Dean of Nursing"
+},
 "5752b72b10d6": {
 "city": "Eugene",
 "employer": "",
@@ -6235,6 +7157,15 @@
 "misses": 0,
 "soc": "352021",
 "title": "Sandwich Artists"
+},
+"579bbc2d3aa4": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "537072",
+"title": "Pump & Reservoir Technician"
 },
 "57c0763abfef": {
 "city": "Eugene",
@@ -6313,7 +7244,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "132011",
 "title": "Payroll Accountants"
 },
@@ -6331,7 +7262,7 @@
 "employer": "White Bird Clinic",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "211018",
 "title": "Mental Health Therapists"
 },
@@ -6394,9 +7325,18 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "312011",
 "title": "Certified Occupational Therapy Assistants"
+},
+"5946f9ddf55d": {
+"city": "Coburg",
+"employer": "TravelCenters of America",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412011",
+"title": "Fuel Cashiers"
 },
 "59578a944d6d": {
 "city": "Eugene",
@@ -6424,6 +7364,15 @@
 "misses": 0,
 "soc": "411011",
 "title": "Retail Associate Managers"
+},
+"5990e6c1ee9b": {
+"city": "Springfield",
+"employer": "PeaceHealth",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292018",
+"title": "Laboratory Assistants"
 },
 "5992cfeef57c": {
 "city": "Springfield",
@@ -6569,6 +7518,15 @@
 "soc": "352021",
 "title": "DELI/CLERK"
 },
+"5af8e16ece6e": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "411011",
+"title": "Laundromat Managers"
+},
 "5aff61300df8": {
 "city": "Eugene",
 "employer": "",
@@ -6577,6 +7535,15 @@
 "misses": 0,
 "soc": "132011",
 "title": "Payroll Accountants"
+},
+"5b03e802e9b1": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Librarian, On-call Temporary Applicant Pool"
 },
 "5b0649859392": {
 "city": "Coburg",
@@ -6607,7 +7574,7 @@
 },
 "5b1edb781061": {
 "city": "Elmira",
-"employer": "Firststudent",
+"employer": "First Student",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -6631,6 +7598,24 @@
 "misses": 0,
 "soc": "113031",
 "title": "M&A Tax Manager - Partnership Consulting & Modeling"
+},
+"5b5e386af859": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "352011",
+"title": "Line/Prep Cooks"
+},
+"5b6d0d75f968": {
+"city": "Springfield",
+"employer": "PeaceHealth",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Pediatric Registered Nurses"
 },
 "5b8186abecd8": {
 "city": "Eugene",
@@ -6673,7 +7658,7 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "419011",
 "title": "In-Home Sales Specialist"
 },
@@ -6706,19 +7691,19 @@
 },
 "5c59a98590cb": {
 "city": "Eugene",
-"employer": "Eugene School District 4J",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "272022",
-"title": "Cheerleading Coaches"
+"title": "Assistant Cheer Coach - Churchill HS"
 },
 "5c5ffbdda149": {
 "city": "Springfield",
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "119032",
 "title": "High School Assistant Principals"
 },
@@ -6778,12 +7763,12 @@
 },
 "5d1e24e0b79c": {
 "city": "Eugene",
-"employer": "",
+"employer": "U.S. District Court, District of Oregon",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "231023",
-"title": "Case Administrators"
+"title": "Case Administrator"
 },
 "5d402e22b8ff": {
 "city": "Eugene",
@@ -6857,6 +7842,15 @@
 "soc": "372012",
 "title": "House Attendants"
 },
+"5dd0b90b0ef4": {
+"city": "Eugene",
+"employer": "RDO Equipment Co.",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "431011",
+"title": "Service Manager"
+},
 "5deb5bcc323d": {
 "city": "Eugene",
 "employer": "Albertsons",
@@ -6871,7 +7865,7 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "431011",
 "title": "Sales and Customer Service Managers"
 },
@@ -6883,6 +7877,15 @@
 "misses": 0,
 "soc": "211092",
 "title": "Victim Advocates"
+},
+"5e11bdcec421": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "172051",
+"title": "Construction Engineering & Inspection Intern - Summer 2027"
 },
 "5e1ef3d688b1": {
 "city": "Coburg",
@@ -6971,9 +7974,18 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "172111",
 "title": "Health, Safety, and Environmental Manager"
+},
+"5eb96f51d0c4": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "434051",
+"title": "Dispatch Customer Service Representatives"
 },
 "5ed2950152fd": {
 "city": "Springfield",
@@ -6998,7 +8010,7 @@
 "employer": "KBS (Kellermeyer Bergensons Services)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "372011",
 "title": "Janitorial Crew Members"
 },
@@ -7049,10 +8061,11 @@
 },
 "5f3d8454a11e": {
 "city": "Springfield",
+"closed": "2026-10-09",
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "493023",
 "title": "Service Technician"
 },
@@ -7061,7 +8074,7 @@
 "employer": "The Home Depot",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 0,
 "soc": "419011",
 "title": "Field Sales and Marketing Representative - Eugene, OR"
 },
@@ -7076,7 +8089,7 @@
 },
 "5fb653d4c71b": {
 "city": "Springfield",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -7106,7 +8119,7 @@
 "employer": "RDO Equipment Co.",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "431011",
 "title": "Service Manager"
 },
@@ -7127,6 +8140,15 @@
 "misses": 0,
 "soc": "411011",
 "title": "Part Sales Manager - Full Time"
+},
+"6077add7aef4": {
+"city": "Eugene",
+"employer": "RDO Equipment Co.",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Regional Sales Manager"
 },
 "60a7e60bd4ef": {
 "city": "Lane County",
@@ -7238,10 +8260,11 @@
 },
 "620ef3ffdcff": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "493023",
 "title": "Master Mopar Technician"
 },
@@ -7280,6 +8303,15 @@
 "misses": 0,
 "soc": "412031",
 "title": "Budtenders"
+},
+"6279fa800e5f": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Evening Custodian Substitute Pool"
 },
 "627ced558abf": {
 "city": "Eugene",
@@ -7322,7 +8354,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412031",
 "title": "Retail Leads"
 },
@@ -7389,6 +8421,15 @@
 "soc": "292034",
 "title": "X-Ray Technologists"
 },
+"647f9e49a0ff": {
+"city": "Eugene",
+"employer": "Lithia Motors",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493023",
+"title": "Master Technicians"
+},
 "649d33e19e1d": {
 "city": "Eugene",
 "employer": "Peterson Cat",
@@ -7452,6 +8493,15 @@
 "soc": "414011",
 "title": "Sales Consultants"
 },
+"65e34a7a5d50": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493023",
+"title": "Automotive Technicians"
+},
 "6632ecce4490": {
 "city": "Junction City",
 "employer": "Albertsons",
@@ -7484,7 +8534,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "195011",
 "title": "Environmental Health and Safety Managers"
 },
@@ -7562,7 +8612,7 @@
 },
 "67d0eb283d27": {
 "city": "Eugene",
-"employer": "Sunrisegroup",
+"employer": "Sunrise Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -7575,7 +8625,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 3,
+"misses": 4,
 "soc": "352021",
 "title": "Deli Cook"
 },
@@ -7638,16 +8688,17 @@
 "employer": "Bass Pro Shops",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "434051",
 "title": "Customer Service Team Leads"
 },
 "68bddb1c6a27": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "499071",
 "title": "Preventive Maintenance Technician"
 },
@@ -7659,6 +8710,15 @@
 "misses": 0,
 "soc": "493042",
 "title": "Technicians"
+},
+"68dd037bfa25": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291031",
+"title": "Clinical Dietitians"
 },
 "692df8c13155": {
 "city": "Eugene",
@@ -7680,10 +8740,11 @@
 },
 "696b1df2fa88": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "434051",
 "title": "Bilingual Multi-Location Customer Service Specialist (Spanish)"
 },
@@ -7692,7 +8753,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "533032",
 "title": "Regional CDL-A Truck Drivers"
 },
@@ -7732,6 +8793,15 @@
 "soc": "533032",
 "title": "CDL-A Truck Drivers"
 },
+"6a109a7d205d": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "211099",
+"title": "Employment Specialist 1 or 2"
+},
 "6a35995b6508": {
 "city": "Eugene",
 "employer": "Atria Senior Living",
@@ -7740,6 +8810,15 @@
 "misses": 0,
 "soc": "352014",
 "title": "Cooks"
+},
+"6a376925d2d8": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "319092",
+"title": "Clinical Assistants/Medical Assistants"
 },
 "6a651e30e0c1": {
 "city": "Eugene",
@@ -7755,7 +8834,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "431011",
 "title": "Office Managers"
 },
@@ -7767,6 +8846,15 @@
 "misses": 0,
 "soc": "291141",
 "title": "RN Homecare"
+},
+"6aaa2e6f30ef": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Charge RN - Electrophysiology Lab"
 },
 "6abe4a422674": {
 "city": "Eugene",
@@ -7836,7 +8924,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "411011",
 "title": "Seasonal Associates"
 },
@@ -7845,7 +8933,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "173011",
 "title": "Transportation Interns"
 },
@@ -7903,6 +8991,15 @@
 "soc": "131071",
 "title": "Nurse Staffing Coordinators"
 },
+"6d1d38d5bb5d": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "372011",
+"title": "Stadium Operations Managers"
+},
 "6d3f6516c994": {
 "city": "Springfield",
 "employer": "",
@@ -7920,6 +9017,15 @@
 "misses": 0,
 "soc": "273091",
 "title": "School Sign Language Interpreters"
+},
+"6db85c6ce9fd": {
+"city": "Springfield",
+"employer": "American Traveler",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291123",
+"title": "Outpatient Travel Physical Therapists"
 },
 "6dc5648397cf": {
 "city": "Eugene",
@@ -8112,7 +9218,7 @@
 },
 "701a7606d473": {
 "city": "Junction City",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -8154,6 +9260,15 @@
 "misses": 0,
 "soc": "193091",
 "title": "Natural Resources Specialists"
+},
+"70e1361b2b3d": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Direct Support Worker (Caregiver)"
 },
 "70f64d2687ab": {
 "city": "Eugene",
@@ -8199,6 +9314,15 @@
 "misses": 0,
 "soc": "533033",
 "title": "Parts Driver"
+},
+"712995ef22f6": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "339099",
+"title": "Asset Protection Agents"
 },
 "713b77168b5f": {
 "city": "Springfield",
@@ -8268,7 +9392,7 @@
 "employer": "Kendall Auto Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "493023",
 "title": "Lube Technicians"
 },
@@ -8307,6 +9431,24 @@
 "misses": 0,
 "soc": "319092",
 "title": "Medical Assistants"
+},
+"7267f754e920": {
+"city": "Eugene",
+"employer": "PeaceHealth",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Registered Nurse Clinical Managers"
+},
+"727bb4de0988": {
+"city": "Eugene",
+"employer": "ABC Supply",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533032",
+"title": "Delivery Truck Drivers"
 },
 "72864c3b1d51": {
 "city": "Springfield",
@@ -8466,7 +9608,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "491011",
 "title": "Fleet Maintenance Supervisors"
 },
@@ -8544,7 +9686,7 @@
 },
 "74f5e099b00d": {
 "city": "Eugene",
-"employer": "Columbiabank",
+"employer": "Umpqua Bank (Columbia Banking System)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -8614,6 +9756,15 @@
 "soc": "414012",
 "title": "Sales Representatives"
 },
+"760fa05f7ab0": {
+"city": "Eugene",
+"employer": "Jobs at American Campus Communities",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "119141",
+"title": "Community Assistants"
+},
 "762a96dffe97": {
 "city": "Florence",
 "employer": "Albertsons",
@@ -8637,7 +9788,7 @@
 "employer": "University of Oregon",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "518099",
 "title": "Utility Plant Operators"
 },
@@ -8676,6 +9827,15 @@
 "misses": 0,
 "soc": "434051",
 "title": "Lot Attendants"
+},
+"76a6269cf057": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Registered Nurse - Emergency --Days (7am - 7:30pm)"
 },
 "76a8fc6fa88a": {
 "city": "Springfield",
@@ -8722,6 +9882,15 @@
 "soc": "291223",
 "title": "Child and Adolescent Psychiatrists"
 },
+"772375fe77e2": {
+"city": "Lane County",
+"employer": "K–12 Cybersecurity and School Safety Specialist, Montana Safe Schools Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "K–12 Cybersecurity and School Safety Specialist, Montana Safe Schools Center"
+},
 "7732e008c217": {
 "city": "Eugene",
 "employer": "The Home Depot",
@@ -8746,7 +9915,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 3,
+"misses": 4,
 "soc": "412031",
 "title": "Sales Associate"
 },
@@ -8785,6 +9954,15 @@
 "misses": 0,
 "soc": "119041",
 "title": "Vice Presidents of Safety"
+},
+"77a36e9f5621": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "119121",
+"title": "Clinical Research Coordinators"
 },
 "77de4b9a5ccc": {
 "city": "Springfield",
@@ -8848,6 +10026,24 @@
 "misses": 0,
 "soc": "533032",
 "title": "Regional CDL-A Truck Drivers"
+},
+"784574086c8c": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412031",
+"title": "Sales Associates"
+},
+"78487726ab0b": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Non-Ferrous Commercial Manager"
 },
 "785c7bac15b8": {
 "city": "Eugene",
@@ -8914,12 +10110,21 @@
 },
 "78fb1a221358": {
 "city": "Eugene",
-"employer": "Columbiabank",
+"employer": "Umpqua Bank (Columbia Banking System)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "",
 "title": "Insurance Claims Specialist"
+},
+"790fc53c24bf": {
+"city": "Eugene",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "372011",
+"title": "Janitorial Workers"
 },
 "792bee7f67e3": {
 "city": "Springfield",
@@ -8947,6 +10152,15 @@
 "misses": 0,
 "soc": "493023",
 "title": "Fleet Service Managers"
+},
+"7996cce167ff": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Building Maintenance Worker 2"
 },
 "799d7f0ac818": {
 "city": "Springfield",
@@ -9031,7 +10245,7 @@
 },
 "7ab462419cc9": {
 "city": "Junction City",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -9043,7 +10257,7 @@
 "employer": "McKenzie-Willamette Medical Center",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "292099",
 "title": "Patient Access Clerks"
 },
@@ -9124,7 +10338,7 @@
 "employer": "Eugene School District 4J",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "113031",
 "title": "Chief Financial Officers"
 },
@@ -9163,6 +10377,15 @@
 "misses": 0,
 "soc": "132051",
 "title": "Tax Consultants"
+},
+"7bd068384d5a": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "433031",
+"title": "Accounts Receivable Specialists"
 },
 "7bef005cd184": {
 "city": "Eugene",
@@ -9245,6 +10468,15 @@
 "soc": "514031",
 "title": "Press Brake Operators"
 },
+"7cc9ac63bc28": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "499098",
+"title": "Maintenance Worker 1 / 2"
+},
 "7cd2744ff907": {
 "city": "Eugene",
 "employer": "Jet Industries",
@@ -9286,7 +10518,7 @@
 "employer": "Gentle Dental",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291292",
 "title": "Dental Therapists"
 },
@@ -9367,9 +10599,18 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "352011",
 "title": "High School Cooks"
+},
+"7eb1adfeae6b": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "North Eugene High School - Assistant Dance Coach (Winter Season)"
 },
 "7eead71237b4": {
 "city": "Veneta",
@@ -9398,6 +10639,24 @@
 "soc": "252021",
 "title": "Infant/Toddler Teachers"
 },
+"7f9607952e84": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "151231",
+"title": "Test Center Administrators"
+},
+"7fb3bfaf1271": {
+"city": "Springfield",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "119032",
+"title": "High School Assistant Principals"
+},
 "7fca96025529": {
 "city": "Eugene",
 "employer": "",
@@ -9424,6 +10683,15 @@
 "misses": 0,
 "soc": "353023",
 "title": "barista - Store# 11201, CROSSROADS CENTER - SPRINGFIELD"
+},
+"8006cff0377b": {
+"city": "Eugene",
+"employer": "NW Industrial Staffing",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533032",
+"title": "Delivery Drivers"
 },
 "8012d5fe4074": {
 "city": "Cottage Grove",
@@ -9598,7 +10866,7 @@
 },
 "81f76573878e": {
 "city": "Eugene",
-"employer": "Usbank",
+"employer": "U.S. Bank",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -9682,7 +10950,7 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "434151",
 "title": "Fulfillment Associates"
 },
@@ -9691,7 +10959,7 @@
 "employer": "PeaceHealth",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291141",
 "title": "Registered Nurses Resident"
 },
@@ -9722,6 +10990,15 @@
 "soc": "291171",
 "title": "Nurse Practitioners/Physician Assistants"
 },
+"82fa5c4df0b8": {
+"city": "Eugene",
+"employer": "6-8 Grade Faculty",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "6-8 Grade Faculty"
+},
 "832ae1e27618": {
 "city": "Eugene",
 "employer": "Beauty Bar Salon",
@@ -9742,10 +11019,11 @@
 },
 "83508ba1bd66": {
 "city": "Florence",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "191031",
 "title": "Rangers"
 },
@@ -9775,6 +11053,15 @@
 "misses": 0,
 "soc": "413091",
 "title": "Student Business Development Representative - SpaceX"
+},
+"841268d88ce0": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Registered Nurse - Emergency - Nights (9pm - 7:30am)"
 },
 "8439a20cbf3e": {
 "city": "Eugene",
@@ -9875,6 +11162,15 @@
 "soc": "411011",
 "title": "Retail Store Key Holders"
 },
+"850fcd7ce77b": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "339032",
+"title": "Armed Guards - Driver"
+},
 "8512121f943b": {
 "city": "Eugene",
 "employer": "GAF",
@@ -9904,10 +11200,11 @@
 },
 "857f2918584b": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "493031",
 "title": "Trailer/SRI Repair Specialist"
 },
@@ -9929,6 +11226,15 @@
 "soc": "291171",
 "title": "Walk Managers"
 },
+"85b941ab3781": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Educational Assistant, Special Education (Significant Needs ) - Chávez Elementary"
+},
 "85c7b0328100": {
 "city": "Eugene",
 "employer": "Gentle Dental",
@@ -9943,7 +11249,7 @@
 "employer": "",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291141",
 "title": "RN - M/S Tele"
 },
@@ -9970,7 +11276,7 @@
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "319092",
 "title": "Clinical Assistants"
 },
@@ -10010,6 +11316,15 @@
 "soc": "413031",
 "title": "Relationship Bankers"
 },
+"86552fb79b21": {
+"city": "Eugene",
+"employer": "State of Oregon",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "111011",
+"title": "Benefits Support Specialists"
+},
 "8667caaf1b84": {
 "city": "Eugene",
 "employer": "",
@@ -10028,6 +11343,15 @@
 "soc": "413091",
 "title": "Retail Management Trainees"
 },
+"86ac36887b51": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291171",
+"title": "Addiction Medicine Physicians"
+},
 "86fae8616fa1": {
 "city": "Springfield",
 "employer": "",
@@ -10037,12 +11361,22 @@
 "soc": "274031",
 "title": "Videographers/Editors"
 },
+"8705f7737031": {
+"city": "Cottage Grove",
+"employer": "Careers at RDSolutions",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "271026",
+"title": "Store Scanning Specialists"
+},
 "87182bc4a23b": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "493023",
 "title": "Used Car Technician"
 },
@@ -10078,7 +11412,7 @@
 "employer": "PeaceHealth",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291229",
 "title": "Gastroenterology Physicians/Gastroenterologists"
 },
@@ -10102,7 +11436,7 @@
 },
 "878efb9266c7": {
 "city": "Springfield",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -10118,6 +11452,15 @@
 "soc": "252031",
 "title": "English Language Arts Teachers"
 },
+"87cbf49f9e39": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Respiratory Therapist - RRT - Days"
+},
 "8805b772f50c": {
 "city": "Springfield",
 "employer": "Kroger (Fred Meyer)",
@@ -10129,10 +11472,11 @@
 },
 "8808832a3e6a": {
 "city": "Springfield",
+"closed": "2026-10-09",
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "434051",
 "title": "Bilingual Customer Service Specialist (Spanish)"
 },
@@ -10141,7 +11485,7 @@
 "employer": "McKenzie-Willamette Medical Center",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291141",
 "title": "Emergency Registered Nurses"
 },
@@ -10217,6 +11561,15 @@
 "soc": "131071",
 "title": "Human Resources Specialists"
 },
+"88fefa723cb8": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "414012",
+"title": "Sales Representatives"
+},
 "8920906eba78": {
 "city": "Springfield",
 "employer": "",
@@ -10267,7 +11620,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "491011",
 "title": "Facilities Maintenance Mechanics"
 },
@@ -10276,7 +11629,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "339032",
 "title": "Security Guards"
 },
@@ -10285,7 +11638,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "411011",
 "title": "GC Retail Lessons Lead Store 241"
 },
@@ -10300,10 +11653,11 @@
 },
 "89e4fa8dd965": {
 "city": "Springfield",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "413031",
 "title": "Relationship Bankers"
 },
@@ -10314,7 +11668,7 @@
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "111011",
-"title": "Managers"
+"title": "Downtown Manager"
 },
 "8a007691cb84": {
 "city": "Eugene",
@@ -10349,7 +11703,7 @@
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "434051",
 "title": "Bilingual Multi-Location Customer Service Specialist (Spanish)"
 },
@@ -10425,6 +11779,15 @@
 "soc": "339032",
 "title": "Security Officers"
 },
+"8b25d99fa355": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291241",
+"title": "Ophthalmology Assistants"
+},
 "8b2f65864780": {
 "city": "Springfield",
 "employer": "Merete Hotel Management (Residence Inn)",
@@ -10442,6 +11805,15 @@
 "misses": 0,
 "soc": "291051",
 "title": "Floaters"
+},
+"8b38f7731b7f": {
+"city": "Veneta",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "311128",
+"title": "Direct Support Worker (Caregiver)"
 },
 "8b6023872392": {
 "city": "Springfield",
@@ -10472,7 +11844,7 @@
 },
 "8baf02fb76e9": {
 "city": "Eugene",
-"employer": "Usbank",
+"employer": "U.S. Bank",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -10494,9 +11866,27 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "292099",
 "title": "Patient Access Clerks"
+},
+"8bc93c4b60b7": {
+"city": "Eugene",
+"employer": "Lane Community College",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291215",
+"title": "Primary Care Physicians"
+},
+"8bd03c6ae522": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Direct Support Worker (Caregiver)"
 },
 "8bdfb77a1a0b": {
 "city": "Eugene",
@@ -10552,6 +11942,15 @@
 "soc": "413031",
 "title": "Business Banking Relationship Managers"
 },
+"8c2e8be3c3e4": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "119111",
+"title": "Pharmacists-in-Charge"
+},
 "8c33280bfb47": {
 "city": "Eugene",
 "employer": "",
@@ -10599,7 +11998,7 @@
 },
 "8cb2bd63d3b9": {
 "city": "Eugene",
-"employer": "Columbiabank",
+"employer": "Umpqua Bank (Columbia Banking System)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -10671,7 +12070,7 @@
 },
 "8dedf92cd1f3": {
 "city": "Eugene",
-"employer": "Columbiabank",
+"employer": "Umpqua Bank (Columbia Banking System)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -10704,6 +12103,15 @@
 "misses": 0,
 "soc": "131121",
 "title": "Event Staff"
+},
+"8e22daa7be2b": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Police Officer - Entry Level"
 },
 "8e291745e89a": {
 "city": "Eugene",
@@ -10746,9 +12154,18 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "519061",
 "title": "Metals Analysts"
+},
+"8e5056596d58": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Hydro Generation Supervisor"
 },
 "8e6363298018": {
 "city": "Springfield",
@@ -10764,7 +12181,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "519161",
 "title": "CNC Operators"
 },
@@ -10815,10 +12232,11 @@
 },
 "8efe584c1b2b": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Lithia Motors",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "132011",
 "title": "Dealership Accountant I"
 },
@@ -10855,7 +12273,7 @@
 "employer": "OEG (Everus)",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 3,
+"misses": 4,
 "soc": "119021",
 "title": "Electrical Construction Project Managers"
 },
@@ -10897,10 +12315,11 @@
 },
 "8ffdb7a17265": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "352021",
 "title": "Deli Clerks"
 },
@@ -10913,6 +12332,15 @@
 "soc": "434051",
 "title": "Dynamics Engineers"
 },
+"90224420ecc9": {
+"city": "Eugene",
+"employer": "RDO Equipment Co.",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "491011",
+"title": "Service Managers"
+},
 "90329c2133af": {
 "city": "Junction City",
 "employer": "J.P. Morgan Asset Management (timberland)",
@@ -10924,10 +12352,11 @@
 },
 "908b55bd92f6": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "493042",
 "title": "Shop Technicians"
 },
@@ -10994,12 +12423,21 @@
 "soc": "353011",
 "title": "Bartenders"
 },
+"91841a52d725": {
+"city": "Eugene",
+"employer": "Lowe's",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Retail Sales – Part Time"
+},
 "918a037299f4": {
 "city": "Eugene",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "131151",
 "title": "Sales Enablement Managers"
 },
@@ -11021,14 +12459,23 @@
 "soc": "319092",
 "title": "Certified Medical Assistants"
 },
+"91b15b739ab0": {
+"city": "Creswell",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "312011",
+"title": "Certified Occupational Therapy Assistants"
+},
 "91bb94413a69": {
-"city": "Eugene",
+"city": "Lane County",
 "employer": "Lane County",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "119111",
-"title": "Behavioral Health Supervisors"
+"title": "Behavioral Health Clinical Supervisor - Mobile Crisis Services"
 },
 "91dad2c07a36": {
 "city": "Veneta",
@@ -11107,7 +12554,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "434131",
 "title": "Finance/Accounting Specialists"
 },
@@ -11129,12 +12576,21 @@
 "soc": "291229",
 "title": "Home Care Physicians"
 },
+"930834b34ade": {
+"city": "Eugene",
+"employer": "Dollar Tree",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533032",
+"title": "Regional CDL-A Truck Drivers"
+},
 "930cb8b593c7": {
 "city": "Eugene",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "411011",
 "title": "Sleep Specialists"
 },
@@ -11146,6 +12602,15 @@
 "misses": 0,
 "soc": "311128",
 "title": "Direct Support Professionals"
+},
+"931ab647a2a8": {
+"city": "Eugene",
+"employer": "Mindoula Health Inc",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "311133",
+"title": "Behavioral Health Therapists"
 },
 "93675bac6d34": {
 "city": "Springfield",
@@ -11209,6 +12674,15 @@
 "misses": 0,
 "soc": "493023",
 "title": "Certified Service Technicians"
+},
+"940096395958": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "519022",
+"title": "Spray Technicians"
 },
 "9405be48ee72": {
 "city": "Cottage Grove",
@@ -11278,7 +12752,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "352011",
 "title": "Line Cooks"
 },
@@ -11333,7 +12807,7 @@
 "employer": "Swanson Group (Springfield Plywood)",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "537121",
 "title": "Shipping Loaders"
 },
@@ -11351,7 +12825,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "311128",
 "title": "Direct Support Workers"
 },
@@ -11409,6 +12883,15 @@
 "soc": "291221",
 "title": "Pediatricians"
 },
+"95bcdb14054d": {
+"city": "Eugene",
+"employer": "Comcast",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "414011",
+"title": "Outside Sales Representatives"
+},
 "95c78039594d": {
 "city": "Eugene",
 "employer": "Eugene School District 4J",
@@ -11463,13 +12946,22 @@
 "soc": "519199",
 "title": "Quality Control Agents"
 },
+"9641ec4e6dfc": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "331012",
+"title": "Deputy Sheriff"
+},
 "9646ff116ef2": {
 "city": "Eugene",
 "closed": "2026-10-09",
 "employer": "Lowe's",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "111021",
 "title": "Store Manager"
 },
@@ -11553,6 +13045,15 @@
 "misses": 0,
 "soc": "435061",
 "title": "Scheduling Clerks"
+},
+"9737ed8f7ee5": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291171",
+"title": "Nurse Practitioner"
 },
 "9758baa1bb78": {
 "city": "Eugene",
@@ -11640,9 +13141,18 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "533032",
 "title": "Route Relief Drivers"
+},
+"980c80e22ab9": {
+"city": "Eugene",
+"employer": "Lowe's",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "537065",
+"title": "Warehouse Part Time Days"
 },
 "980d0e0b7291": {
 "city": "Florence",
@@ -11673,12 +13183,21 @@
 },
 "983601a91a81": {
 "city": "Springfield",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "",
 "title": "Assistant Store Manager"
+},
+"983b3d89691f": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "433031",
+"title": "AP Clerk"
 },
 "984a6eb973e1": {
 "city": "Eugene",
@@ -11688,6 +13207,15 @@
 "misses": 0,
 "soc": "394021",
 "title": "Funeral Home Managers"
+},
+"984bd50aa2e2": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292099",
+"title": "Admissions Specialists"
 },
 "98849f927e8f": {
 "city": "Eugene",
@@ -11760,6 +13288,15 @@
 "misses": 0,
 "soc": "232011",
 "title": "Legal Assistants"
+},
+"99550d5f981f": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "399031",
+"title": "Group Fitness Instructors"
 },
 "9960b08133cf": {
 "city": "Junction City",
@@ -11887,6 +13424,15 @@
 "soc": "412031",
 "title": "Retail Sales and Store Support"
 },
+"9a527716a5de": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "519199",
+"title": "Manufacturing Managers"
+},
 "9a8a18cc2b84": {
 "city": "Springfield",
 "employer": "",
@@ -11898,12 +13444,21 @@
 },
 "9a9f3582c671": {
 "city": "Florence",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "",
 "title": "Retail Service Specialist"
+},
+"9aaa21bac13b": {
+"city": "Junction City",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "132011",
+"title": "Accountants"
 },
 "9ac838b9c278": {
 "city": "Springfield",
@@ -11922,6 +13477,15 @@
 "misses": 0,
 "soc": "291229",
 "title": "Otolaryngology Physicians"
+},
+"9ad55bcc469a": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Registered Nurse - Emergency --Days (3am - 3:30pm)"
 },
 "9ae537797b10": {
 "city": "Eugene",
@@ -12040,6 +13604,24 @@
 "soc": "319099",
 "title": "Wellness Worker - Registration Coordinator & Biometric Screener (CA, OR, WA, NV)"
 },
+"9bab2e35f103": {
+"city": "Eugene",
+"employer": "Merete Hotel Management (Residence Inn)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "372012",
+"title": "Room Attendants"
+},
+"9bbb174c3de3": {
+"city": "Eugene",
+"employer": "Merete Hotel Management (Residence Inn)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "119081",
+"title": "Area Maintenance Managers"
+},
 "9bc71350d7ef": {
 "city": "Springfield",
 "employer": "",
@@ -12063,8 +13645,8 @@
 "closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
-"last_seen": "2026-10-08",
-"misses": 3,
+"last_seen": "2026-10-09",
+"misses": 0,
 "soc": "191031",
 "title": "Rangers"
 },
@@ -12091,7 +13673,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "351012",
 "title": "shift supervisor - Store# 60461, JUNCTION CITY"
 },
@@ -12112,6 +13694,15 @@
 "misses": 0,
 "soc": "414011",
 "title": "Bilingual Customer Service Sales Representatives"
+},
+"9cfd8d11d2e5": {
+"city": "Springfield",
+"employer": "Bass Pro Shops",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412011",
+"title": "Cashier - Seasonal"
 },
 "9d07eb7ee887": {
 "city": "Eugene",
@@ -12214,7 +13805,7 @@
 },
 "9e05bc2eae50": {
 "city": "Eugene",
-"employer": "Usbank",
+"employer": "U.S. Bank",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12226,7 +13817,7 @@
 "employer": "GAF",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "151241",
 "title": "Lotus Notes Consultants"
 },
@@ -12293,6 +13884,15 @@
 "soc": "499071",
 "title": "Forklift Mechanic/MHE Technician"
 },
+"9f53f1ae9147": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "353023",
+"title": "Assistant Center Managers"
+},
 "9f5f567371a7": {
 "city": "Eugene",
 "employer": "",
@@ -12313,7 +13913,7 @@
 },
 "9f9bbf8ab008": {
 "city": "Florence",
-"employer": "Columbiabank",
+"employer": "Umpqua Bank (Columbia Banking System)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12337,6 +13937,15 @@
 "misses": 0,
 "soc": "453031",
 "title": "Before and After School Site Directors"
+},
+"9fccd9474e55": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "431011",
+"title": "Store Manager (Sales, Customer Service)"
 },
 "9fe25efa5e08": {
 "city": "Eugene",
@@ -12406,7 +14015,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "411011",
 "title": "Assistant Managers"
 },
@@ -12419,18 +14028,27 @@
 "soc": "533032",
 "title": "CDL-A Truck Drivers"
 },
+"a0703a1e5bce": {
+"city": "Eugene",
+"employer": "Lowe's",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Merchandising Part Time Days"
+},
 "a09c4fe03327": {
 "city": "Springfield",
 "employer": "McKenzie-Willamette Medical Center",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "292031",
 "title": "Pathology Laboratory Technicians"
 },
 "a0b41078021b": {
 "city": "Junction City",
-"employer": "Firststudent",
+"employer": "First Student",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12442,7 +14060,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "151252",
 "title": "Jira Developers"
 },
@@ -12466,10 +14084,11 @@
 },
 "a142fca80a4d": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "353023",
 "title": "Baristas"
 },
@@ -12478,7 +14097,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "272022",
 "title": "Boys Basketball Coaches"
 },
@@ -12493,10 +14112,11 @@
 },
 "a18f83c2d4b9": {
 "city": "Springfield",
+"closed": "2026-10-09",
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "493023",
 "title": "Service Technicians"
 },
@@ -12529,12 +14149,12 @@
 },
 "a22e2e1cf9ba": {
 "city": "Eugene",
-"employer": "",
+"employer": "K-5 Faculty",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "252031",
-"title": "Faculties"
+"soc": "",
+"title": "K-5 Faculty"
 },
 "a239456c1b73": {
 "city": "Eugene",
@@ -12586,7 +14206,7 @@
 "employer": "Advantage Solutions",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "271026",
 "title": "Traveling Retail Merchandisers"
 },
@@ -12608,12 +14228,22 @@
 "soc": "252011",
 "title": "Year 3 Teachers"
 },
+"a298bb61e991": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "399032",
+"title": "Recreation: Temporary Staff - All Programs"
+},
 "a29af0503469": {
 "city": "Cottage Grove",
+"closed": "2026-10-09",
 "employer": "Albertsons",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "513011",
 "title": "Bakery Clerks"
 },
@@ -12631,7 +14261,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "319091",
 "title": "Dental Assistants"
 },
@@ -12655,7 +14285,7 @@
 },
 "a3386deced99": {
 "city": "Springfield",
-"employer": "Usbank",
+"employer": "U.S. Bank",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12736,7 +14366,7 @@
 },
 "a448167b531c": {
 "city": "Eugene",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -12775,7 +14405,7 @@
 "employer": "Taco Bell",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "351012",
 "title": "Shift Leaders"
 },
@@ -12793,7 +14423,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "372011",
 "title": "Night Sanitors"
 },
@@ -12802,7 +14432,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "171022",
 "title": "Survey Interns"
 },
@@ -12860,6 +14490,15 @@
 "soc": "251121",
 "title": "Instructor Pool - Visual Arts"
 },
+"a5dd77e828b6": {
+"city": "Lane County",
+"employer": "Lab Facilities Supervisor - Engineering",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Lab Facilities Supervisor - Engineering"
+},
 "a5e9ba985206": {
 "city": "Noti",
 "employer": "Sierra Pacific Industries",
@@ -12871,12 +14510,12 @@
 },
 "a5f1a8c9eca6": {
 "city": "Eugene",
-"employer": "Eugene School District 4J",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "272022",
-"title": "Assistant Girls Basketball Coaches"
+"title": "Assistant Girls Basketball Coach - Churchill High School"
 },
 "a5f530dce8b3": {
 "city": "Eugene",
@@ -12889,10 +14528,11 @@
 },
 "a646f6190df8": {
 "city": "Junction City",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "513022",
 "title": "Meat Cutters"
 },
@@ -12913,6 +14553,15 @@
 "misses": 0,
 "soc": "433071",
 "title": "Floaters"
+},
+"a6a02abf66d8": {
+"city": "Springfield",
+"employer": "City of Springfield, Oregon",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Revenue Associate Program Manager"
 },
 "a6af1b43322e": {
 "city": "Eugene",
@@ -12955,7 +14604,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "119051",
 "title": "Restaurant General Managers"
 },
@@ -13013,6 +14662,15 @@
 "soc": "372011",
 "title": "Custodians"
 },
+"a7dd6d6a656c": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Transportation Specifications Specialist (Engineer-in-Training)"
+},
 "a7e661b3ecf8": {
 "city": "Eugene",
 "employer": "",
@@ -13021,6 +14679,24 @@
 "misses": 0,
 "soc": "439061",
 "title": "IT Office Assistants"
+},
+"a82187240270": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Plans Examiner, Senior"
+},
+"a84236786226": {
+"city": "Eugene",
+"employer": "Willamette Valley Cancer Institute",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292052",
+"title": "Admixture Technicians"
 },
 "a8432724af8a": {
 "city": "Eugene",
@@ -13039,6 +14715,15 @@
 "misses": 0,
 "soc": "431011",
 "title": "Customer Service Coordinator"
+},
+"a8a2e5c17232": {
+"city": "Cottage Grove",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "311131",
+"title": "Medication Aides"
 },
 "a8a93a7fd02e": {
 "city": "Eugene",
@@ -13076,12 +14761,21 @@
 "soc": "292061",
 "title": "Registered Nurses/Licensed Practical Nurses"
 },
+"a921a12dd6e0": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533032",
+"title": "CDL-A Truck Drivers"
+},
 "a92a23637f0c": {
 "city": "Springfield",
 "employer": "PeaceHealth",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291141",
 "title": "Medical Surgical Telemetry Travel Registered Nurses"
 },
@@ -13094,6 +14788,15 @@
 "soc": "411011",
 "title": "Store Managers"
 },
+"a937b953f9c1": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "171022",
+"title": "Survey Internship - Summer 2027"
+},
 "a940ed11d807": {
 "city": "Eugene",
 "employer": "",
@@ -13103,9 +14806,18 @@
 "soc": "537062",
 "title": "Warehouse Associates/Drivers"
 },
+"a94ac4eee105": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "172051",
+"title": "Construction Engineering & Inspection Intern - Summer 2027"
+},
 "a951663f52ca": {
 "city": "Junction City",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -13118,9 +14830,27 @@
 "employer": "Johnson Crushers International",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "512099",
 "title": "Assembler Day Shift - Eugene Franklin Boulevard (Johnson Crushers Intl)"
+},
+"a9902e0493a3": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Directors of Clinical Services/Registered Nurses"
+},
+"a9a3cc31b476": {
+"city": "Eugene",
+"employer": "Mindoula Health Inc",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "211023",
+"title": "Adolescent Therapists"
 },
 "a9b2c55e1cfa": {
 "city": "Coburg",
@@ -13313,11 +15043,11 @@
 },
 "abb22bb482cf": {
 "city": "Springfield",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "",
+"soc": "533031",
 "title": "Delivery Specialist"
 },
 "abcdeb335337": {
@@ -13344,7 +15074,7 @@
 "employer": "Allied Universal",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "339032",
 "title": "Unarmed Security Guards"
 },
@@ -13429,6 +15159,15 @@
 "soc": "291141",
 "title": "PACE Clinic Registered Nurse (RN) Casual"
 },
+"ad37e901d7ed": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Certified Surgical Tech - CVOR"
+},
 "ad6b0b130570": {
 "city": "Eugene",
 "employer": "",
@@ -13465,6 +15204,15 @@
 "soc": "435061",
 "title": "Facility Operations Coordinators"
 },
+"ad9aa2257164": {
+"city": "Springfield",
+"employer": "PeaceHealth",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Home Care Registered Nurses"
+},
 "adb469344790": {
 "city": "Eugene",
 "employer": "",
@@ -13488,7 +15236,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "372011",
 "title": "Carpet Cleaners"
 },
@@ -13564,6 +15312,15 @@
 "soc": "353023",
 "title": "Sanitation Team Members"
 },
+"aecc68f252cf": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Certified Surgical Tech - Operating Room"
+},
 "aeda92e60a8e": {
 "city": "Eugene",
 "employer": "",
@@ -13602,10 +15359,11 @@
 },
 "af60d129404f": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "412031",
 "title": "Front End Managers"
 },
@@ -13614,18 +15372,18 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "132052",
 "title": "Financial Advisors Associate"
 },
 "af829eb711ef": {
 "city": "Springfield",
-"employer": "",
+"employer": "City of Springfield, Oregon",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "372011",
-"title": "Custodians"
+"title": "Custodian"
 },
 "af86445fdbf5": {
 "city": "Eugene",
@@ -13654,6 +15412,15 @@
 "soc": "411011",
 "title": "Store Assistant Managers"
 },
+"afb673720118": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291126",
+"title": "Respiratory Therapist - PRN Nights"
+},
 "afc744b95274": {
 "city": "Springfield",
 "employer": "McKenzie-Willamette Medical Center",
@@ -13665,10 +15432,11 @@
 },
 "afec3c6d202b": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "The Home Depot",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "413091",
 "title": "Field Sales and Marketing Representatives"
 },
@@ -13690,6 +15458,15 @@
 "soc": "359011",
 "title": "Food and Beverage Attendants"
 },
+"b0166fbca306": {
+"city": "Springfield",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Mental Health Specialist 2"
+},
 "b028ed4c2982": {
 "city": "Springfield",
 "employer": "McKenzie-Willamette Medical Center",
@@ -13708,6 +15485,15 @@
 "soc": "119151",
 "title": "Grants & Reporting Manager (5 years Exp Required)"
 },
+"b087897f04c7": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "399031",
+"title": "Water Fitness Instructors"
+},
 "b09d57fc1bff": {
 "city": "Eugene",
 "employer": "",
@@ -13719,7 +15505,7 @@
 },
 "b0bb5140b91d": {
 "city": "Cottage Grove",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -13744,6 +15530,15 @@
 "soc": "353041",
 "title": "Food Servers"
 },
+"b12833c5c4db": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Program Supervisor - Willamette Treatment Plant"
+},
 "b13b3e954af7": {
 "city": "Eugene",
 "employer": "Didlake",
@@ -13752,6 +15547,15 @@
 "misses": 0,
 "soc": "394012",
 "title": "Crematory Operators"
+},
+"b1438b565e16": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291029",
+"title": "Pediatric Dentists"
 },
 "b15358dc86f4": {
 "city": "Coburg",
@@ -13780,6 +15584,15 @@
 "soc": "211093",
 "title": "Youth Care Professional 1st Shift"
 },
+"b1f3eb941a16": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "2026/2027 Bus Driver Sub/Trainee Pool"
+},
 "b248a67a1d61": {
 "city": "Eugene",
 "employer": "",
@@ -13803,7 +15616,7 @@
 "employer": "Lowe's",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "537065",
 "title": "Receivers/Stockers"
 },
@@ -13812,7 +15625,7 @@
 "employer": "Kendall Auto Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "112022",
 "title": "Ad Sales Managers"
 },
@@ -13839,8 +15652,8 @@
 "closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
-"last_seen": "2026-10-08",
-"misses": 3,
+"last_seen": "2026-10-09",
+"misses": 0,
 "soc": "372011",
 "title": "Janitorial Crew Members"
 },
@@ -13885,7 +15698,7 @@
 "employer": "Pacific Retirement Services",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "353031",
 "title": "Servers"
 },
@@ -13934,6 +15747,15 @@
 "soc": "311131",
 "title": "Certified Nursing Assistants"
 },
+"b4394b8b252a": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "119051",
+"title": "Dining Services District Managers"
+},
 "b442d9cf5b19": {
 "city": "Eugene",
 "employer": "",
@@ -13960,6 +15782,15 @@
 "misses": 0,
 "soc": "311128",
 "title": "Memory Care Caregivers"
+},
+"b496a9f4d7aa": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "414012",
+"title": "Agency Sales Representatives"
 },
 "b4a8b451f4cd": {
 "city": "Eugene",
@@ -13993,7 +15824,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "131199",
 "title": "Delivery Leads"
 },
@@ -14051,6 +15882,24 @@
 "soc": "434051",
 "title": "Service Advisors"
 },
+"b5c882ff40f3": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292018",
+"title": "Medical Specialists"
+},
+"b5ca96711b57": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "372011",
+"title": "Cleaners"
+},
 "b5f486dceeb5": {
 "city": "Eugene",
 "employer": "",
@@ -14087,6 +15936,15 @@
 "soc": "412031",
 "title": "Retail Sales and Store Support"
 },
+"b632a9aaaac9": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "311131",
+"title": "Graveyard Assistants"
+},
 "b634c868393f": {
 "city": "Springfield",
 "employer": "PeaceHealth",
@@ -14096,6 +15954,15 @@
 "soc": "291141",
 "title": "Medical Surgical Charge Nurses"
 },
+"b6434882cf7d": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "493042",
+"title": "Shop Technicians"
+},
 "b66d17e90d81": {
 "city": "Eugene",
 "employer": "",
@@ -14104,6 +15971,15 @@
 "misses": 0,
 "soc": "472031",
 "title": "Journeyman Carpenters"
+},
+"b66f2d97bc62": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412011",
+"title": "Cashier Stockers"
 },
 "b68649f9b851": {
 "city": "Eugene",
@@ -14119,7 +15995,7 @@
 "employer": "Bass Pro Shops",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "413011",
 "title": "Seasonal Associates"
 },
@@ -14129,7 +16005,7 @@
 "employer": "AutoZone",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "411011",
 "title": "Part Sales Manager - Part Time"
 },
@@ -14141,6 +16017,15 @@
 "misses": 0,
 "soc": "412011",
 "title": "Cart Attendants/Cashiers"
+},
+"b728543f47f1": {
+"city": "Eugene",
+"employer": "Nike",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412031",
+"title": "Retail Associates"
 },
 "b73b7822e896": {
 "city": "Eugene",
@@ -14187,6 +16072,15 @@
 "soc": "291041",
 "title": "Optometrists"
 },
+"b8151125e184": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "537062",
+"title": "Warehouse Associates"
+},
 "b81dceb62f96": {
 "city": "Springfield",
 "employer": "Lithia Motors",
@@ -14210,9 +16104,18 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "431011",
 "title": "Service Operations Managers"
+},
+"b8770cf21038": {
+"city": "Lane County",
+"employer": "Accounting Technician",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Accounting Technician"
 },
 "b88544bfff3a": {
 "city": "Florence",
@@ -14234,7 +16137,7 @@
 },
 "b8f3a668e822": {
 "city": "Eugene",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -14286,6 +16189,24 @@
 "soc": "537065",
 "title": "e-COMMERCE/CLERK"
 },
+"b9a60063c22b": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292099",
+"title": "Patient Access Clerk - Patient Registration - PRN"
+},
+"b9c438b9cb96": {
+"city": "Eugene",
+"employer": "Lowe's",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412011",
+"title": "Part Time - Head Cashier - Flexible"
+},
 "b9df757d0e77": {
 "city": "Springfield",
 "employer": "PeaceHealth",
@@ -14322,12 +16243,21 @@
 "soc": "319092",
 "title": "Medical Administrative Assistants"
 },
+"ba083e83a5c1": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Enrollment Specialist - OR"
+},
 "ba3cdaf38087": {
 "city": "Cottage Grove",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "511011",
 "title": "Production Supervisors/Team Leaders"
 },
@@ -14372,7 +16302,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "193033",
 "title": "Licensed Clinical Psychologists"
 },
@@ -14394,6 +16324,15 @@
 "soc": "292099",
 "title": "Medical Office Receptionists"
 },
+"bb846cd25a10": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "113031",
+"title": "Chief Financial Officer"
+},
 "bbb4a3f773a2": {
 "city": "Eugene",
 "employer": "",
@@ -14414,7 +16353,7 @@
 },
 "bbd1f41e36aa": {
 "city": "Eugene",
-"employer": "Columbiabank",
+"employer": "Umpqua Bank (Columbia Banking System)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -14436,7 +16375,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 3,
+"misses": 4,
 "soc": "413091",
 "title": "Lead Sales Associates"
 },
@@ -14494,6 +16433,24 @@
 "soc": "372011",
 "title": "Janitorial Supervisors"
 },
+"bc9b8eaaba64": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "512098",
+"title": "Production Engineering Technicians"
+},
+"bce80771c751": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Wastewater Maintenance Mechanic 1/2"
+},
 "bce8b17bb783": {
 "city": "Eugene",
 "employer": "",
@@ -14526,7 +16483,7 @@
 "employer": "The Old Spaghetti Factory",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "359021",
 "title": "Dishwashers"
 },
@@ -14550,10 +16507,11 @@
 },
 "bdbb3ed546c4": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "131151",
 "title": "Sales Enablement Managers"
 },
@@ -14617,7 +16575,7 @@
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
-"soc": "436014",
+"soc": "396012",
 "title": "Premium Services Managers"
 },
 "be638ac7d1c7": {
@@ -14634,18 +16592,37 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "499051",
 "title": "Line Technicians"
 },
+"be8c129c5502": {
+"city": "Eugene",
+"employer": "Gentle Dental",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291292",
+"title": "Dental Therapist"
+},
 "be9d86ee3fd4": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Guardian Pharmacy",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "533031",
 "title": "Pick-Up and Delivery Drivers"
+},
+"beb6f7b95a1c": {
+"city": "Springfield",
+"employer": "PeaceHealth",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292035",
+"title": "MRI Technicians"
 },
 "beccaac81eb5": {
 "city": "Eugene",
@@ -14683,6 +16660,15 @@
 "soc": "311131",
 "title": "Class 2 Drivers"
 },
+"bf0ef66a80d0": {
+"city": "Lane County",
+"employer": "TRIO Coordinator",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "TRIO Coordinator"
+},
 "bf40527a152a": {
 "city": "Eugene",
 "employer": "",
@@ -14697,9 +16683,18 @@
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "292053",
 "title": "Resident Care Associates"
+},
+"bf77b68a8695": {
+"city": "Eugene",
+"employer": "Gentle Dental",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "319091",
+"title": "Dental Assistants"
 },
 "bfcd4c3f158c": {
 "city": "Eugene",
@@ -14769,7 +16764,7 @@
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "211094",
 "title": "Community Health Workers"
 },
@@ -14811,12 +16806,21 @@
 },
 "c0b2feeccc80": {
 "city": "Eugene",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "",
 "title": "Installer Service Specialist"
+},
+"c0b32daf5bf6": {
+"city": "Florence",
+"employer": "Albertsons",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "352021",
+"title": "Deli Clerks"
 },
 "c0d186335036": {
 "city": "Noti",
@@ -14926,6 +16930,15 @@
 "soc": "252031",
 "title": "Mathematics Instructors"
 },
+"c181a3eed863": {
+"city": "Lane County",
+"employer": "Academic Resource Specialist - English",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Academic Resource Specialist - English"
+},
 "c1946efdc0f3": {
 "city": "Springfield",
 "employer": "Wireless Vision",
@@ -14970,6 +16983,15 @@
 "misses": 0,
 "soc": "291141",
 "title": "Resident Services Coordinators"
+},
+"c1f63137edd8": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Patient Access Clerk - Patient Registration - PRN"
 },
 "c20e95de8796": {
 "city": "Eugene",
@@ -15016,12 +17038,21 @@
 "soc": "339032",
 "title": "Security Officers"
 },
+"c2c39e18543c": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "537065",
+"title": "Floor Clerks"
+},
 "c2cdd1ca5cc1": {
 "city": "Cottage Grove",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "399031",
 "title": "Fitness Instructors"
 },
@@ -15077,7 +17108,7 @@
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "172051",
-"title": "Traffic/Civil Engineers"
+"title": "Civil Engineer 1, 2 - Traffic"
 },
 "c34d66f2c702": {
 "city": "Junction City",
@@ -15087,6 +17118,24 @@
 "misses": 0,
 "soc": "113051",
 "title": "Quality Supervisors"
+},
+"c35443b14df4": {
+"city": "Eugene",
+"employer": "Gentle Dental",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Dental Hygienist"
+},
+"c3b3b3604f38": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "352011",
+"title": "High St. Line Cook"
 },
 "c3b689ed0556": {
 "city": "Eugene",
@@ -15111,7 +17160,7 @@
 "employer": "Advantage Solutions",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "271026",
 "title": "Retail Merchandisers"
 },
@@ -15138,7 +17187,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "499052",
 "title": "Splicers"
 },
@@ -15156,7 +17205,7 @@
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291171",
 "title": "Nurse Practitioners"
 },
@@ -15171,10 +17220,11 @@
 },
 "c4e69da7c5d3": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "U-Haul",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "372012",
 "title": "Facility Housekeeper"
 },
@@ -15192,7 +17242,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291031",
 "title": "Clinical Dietitians"
 },
@@ -15216,10 +17266,11 @@
 },
 "c514093284a7": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "434051",
 "title": "Service Advisors"
 },
@@ -15231,6 +17282,24 @@
 "misses": 0,
 "soc": "311128",
 "title": "Direct Support Professionals"
+},
+"c52477d78f80": {
+"city": "Eugene",
+"employer": "Lane Community College",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291215",
+"title": "Primary Care Physician Assistants"
+},
+"c53e98f8d5bc": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Assistant County Counsel"
 },
 "c5495858ca83": {
 "city": "Eugene",
@@ -15249,6 +17318,15 @@
 "misses": 0,
 "soc": "414011",
 "title": "Senior Oncology Account Specialist Genitourinary Portland, OR"
+},
+"c55062ed1ecf": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Transportation & Structures Project Manager"
 },
 "c57cc715ed91": {
 "city": "Elmira",
@@ -15304,6 +17382,15 @@
 "soc": "119111",
 "title": "Medical Directors"
 },
+"c63e30486baa": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "WIC Nutritionist/Dietitian"
+},
 "c6515496b36c": {
 "city": "Springfield",
 "employer": "Wendy's",
@@ -15312,6 +17399,15 @@
 "misses": 0,
 "soc": "372011",
 "title": "Restaurant Team Leaders"
+},
+"c65755bf3e15": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "East 19th St. Pub Line Cook"
 },
 "c65d61e5c222": {
 "city": "Eugene",
@@ -15432,10 +17528,11 @@
 },
 "c7a31c96af0f": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Lithia Motors",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "414012",
 "title": "Sales Representatives"
 },
@@ -15447,6 +17544,15 @@
 "misses": 0,
 "soc": "259045",
 "title": "Assistant Teachers"
+},
+"c7fd0a47816a": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "111021",
+"title": "Transit Operators"
 },
 "c8079a2d244d": {
 "city": "Eugene",
@@ -15480,7 +17586,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "413091",
 "title": "Lead Sales Associates"
 },
@@ -15489,7 +17595,7 @@
 "employer": "Coquille Indian Tribe",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "292061",
 "title": "Licensed Practical Nurses"
 },
@@ -15513,10 +17619,11 @@
 },
 "c8b1d4d6cd79": {
 "city": "Springfield",
+"closed": "2026-10-09",
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "537065",
 "title": "Night Stockers"
 },
@@ -15547,6 +17654,15 @@
 "soc": "195012",
 "title": "Health and Safety Coordinators"
 },
+"c8b763a04f49": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291029",
+"title": "Locum Tenens Pediatrics Physicians"
+},
 "c8cdaaad0519": {
 "city": "Eugene",
 "employer": "",
@@ -15570,9 +17686,18 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "492022",
 "title": "Field Technicians"
+},
+"c8f56cb08acf": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Occupational Therapist - PRN"
 },
 "c8fb60d7aa0e": {
 "city": "Eugene",
@@ -15591,6 +17716,15 @@
 "misses": 0,
 "soc": "291141",
 "title": "RN - OR per diem"
+},
+"c90e623ef148": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "492094",
+"title": "Service/Repair Technicians"
 },
 "c9110724c13a": {
 "city": "Eugene",
@@ -15621,12 +17755,21 @@
 },
 "c92e1dea6bab": {
 "city": "Eugene",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "",
 "title": "Merchandising Specialist"
+},
+"c940d4a38174": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "172051",
+"title": "Building Engineers"
 },
 "c94869790a99": {
 "city": "Eugene",
@@ -15678,9 +17821,18 @@
 "employer": "Alive Integrative Medicine",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "436014",
 "title": "Front Office Medical Assistants"
+},
+"c9e77095f1a4": {
+"city": "Cottage Grove",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "333051",
+"title": "Customs and Border Protection Officers"
 },
 "c9f57676234c": {
 "city": "Eugene",
@@ -15711,7 +17863,7 @@
 },
 "ca3185f6f133": {
 "city": "Eugene",
-"employer": "Vfc",
+"employer": "Vans (VF Corporation)",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -15720,12 +17872,22 @@
 },
 "ca599869105c": {
 "city": "Florence",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "433071",
 "title": "Tellers"
+},
+"ca5f90b18b7f": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Custodian, Temporary"
 },
 "ca77a990bd81": {
 "city": "Eugene",
@@ -15744,6 +17906,15 @@
 "misses": 0,
 "soc": "434051",
 "title": "Hospital Service Representatives"
+},
+"cab83c74413c": {
+"city": "Springfield",
+"employer": "Worldwide TechServices",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "151232",
+"title": "Customer Service Engineers"
 },
 "cabc9d1eb64e": {
 "city": "Junction City",
@@ -15768,8 +17939,8 @@
 "closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
-"last_seen": "2026-10-08",
-"misses": 3,
+"last_seen": "2026-10-09",
+"misses": 0,
 "soc": "291141",
 "title": "RN - M/S Tele"
 },
@@ -15827,6 +17998,33 @@
 "soc": "319091",
 "title": "Traveling Ortho Dental Assistant"
 },
+"cb89d606d086": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "433031",
+"title": "Accounting Assistants"
+},
+"cb8e686575a1": {
+"city": "Eugene",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "396012",
+"title": "Front Desk Representatives"
+},
+"cbefbb2ce86c": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Shop Technician"
+},
 "cc04beabf39b": {
 "city": "Eugene",
 "employer": "Lithia Motors",
@@ -15869,7 +18067,7 @@
 "employer": "Whole Foods Market",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "353023",
 "title": "Prepared Foods Service Team Members"
 },
@@ -15905,7 +18103,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "492094",
 "title": "Service/Repair Technicians"
 },
@@ -15929,10 +18127,11 @@
 },
 "cc73726403cc": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "537065",
 "title": "Night Stockers"
 },
@@ -15954,6 +18153,15 @@
 "soc": "533033",
 "title": "Delivery Driver - Medical Equipment"
 },
+"cc993dcc3d6a": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Medical Surgical Telemetry Registered Nurses"
+},
 "cca1c0b0b988": {
 "city": "Cottage Grove",
 "employer": "Albertsons",
@@ -15971,6 +18179,15 @@
 "misses": 0,
 "soc": "999999",
 "title": "Victim Advocates"
+},
+"cccb6b8c2070": {
+"city": "Eugene",
+"employer": "Gentle Dental",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Orthodontist"
 },
 "ccec78200a5a": {
 "city": "Eugene",
@@ -16008,6 +18225,15 @@
 "soc": "113031",
 "title": "Financial Controllers"
 },
+"cd8a8e8f511d": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Temporary Special Education Teacher - Adams Elementary"
+},
 "cd9d4faf82b0": {
 "city": "Cottage Grove",
 "employer": "",
@@ -16025,6 +18251,15 @@
 "misses": 0,
 "soc": "132011",
 "title": "Accountants"
+},
+"cdb21c13d7a1": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "434051",
+"title": "Retail Customer Service Managers"
 },
 "cdc69557ec15": {
 "city": "Eugene",
@@ -16061,6 +18296,15 @@
 "misses": 0,
 "soc": "537062",
 "title": "Freight Handler Part-Time"
+},
+"ce40f86a0d84": {
+"city": "Eugene",
+"employer": "PeaceHealth",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "211023",
+"title": "Licensed Health Agents"
 },
 "ce44ae51a42c": {
 "city": "Springfield",
@@ -16130,9 +18374,18 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "339032",
 "title": "Unarmed Security Officers"
+},
+"ced5887905d3": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "173022",
+"title": "Engineering Permit Technician 1 /2"
 },
 "cef7b83ef145": {
 "city": "Eugene",
@@ -16154,10 +18407,11 @@
 },
 "cf3a43e67770": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Guardian Pharmacy",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "292052",
 "title": "Pharmacy Technicians"
 },
@@ -16175,7 +18429,7 @@
 "employer": "PeaceHealth",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291214",
 "title": "Emergency Medicine Physicians"
 },
@@ -16196,6 +18450,15 @@
 "misses": 0,
 "soc": "414012",
 "title": "Sales Representatives/Sales Associates"
+},
+"cfb1da203de5": {
+"city": "Springfield",
+"employer": "PeaceHealth",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "312021",
+"title": "Home Health Physical Therapy Assistants"
 },
 "cfc79acaaf7a": {
 "city": "Eugene",
@@ -16278,6 +18541,15 @@
 "soc": "192031",
 "title": "Research Associates"
 },
+"d06398fd4b6c": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "172051",
+"title": "Transportation Design Internship - Summer 2027"
+},
 "d072c70fed93": {
 "city": "Eugene",
 "employer": "",
@@ -16314,6 +18586,15 @@
 "soc": "533033",
 "title": "Courier/Swing Drvr/DOT-6"
 },
+"d10080e5a67e": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "412031",
+"title": "Seasonal Retail Associates"
+},
 "d1365cd96970": {
 "city": "Eugene",
 "employer": "",
@@ -16333,13 +18614,13 @@
 "title": "Dining Servers"
 },
 "d13c71e31e37": {
-"city": "Coburg",
+"city": "Lane County",
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "193051",
-"title": "Planners"
+"title": "Planner, Senior"
 },
 "d149ff9d9d73": {
 "city": "Springfield",
@@ -16388,7 +18669,7 @@
 },
 "d1dab7031252": {
 "city": "Eugene",
-"employer": "Sunrisegroup",
+"employer": "Sunrise Group",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -16433,10 +18714,11 @@
 },
 "d264b8b0d192": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Guardian Pharmacy",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "292052",
 "title": "Fulfillment Pharmacy Technicians"
 },
@@ -16568,7 +18850,7 @@
 },
 "d3c878c430cd": {
 "city": "Eugene",
-"employer": "Usbank",
+"employer": "U.S. Bank",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -16635,7 +18917,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 3,
+"misses": 4,
 "soc": "173026",
 "title": "Quality Control Technician - Nights: Monday - Thursday"
 },
@@ -16644,7 +18926,7 @@
 "employer": "University of Oregon",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "132011",
 "title": "Business Technicians"
 },
@@ -16677,7 +18959,7 @@
 },
 "d4990b05466f": {
 "city": "Eugene",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -16710,6 +18992,15 @@
 "misses": 0,
 "soc": "412022",
 "title": "Reconditioning Managers"
+},
+"d4f95bc492a7": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "411011",
+"title": "Sleep Specialists"
 },
 "d5033b63b0b3": {
 "city": "Junction City",
@@ -16756,6 +19047,15 @@
 "soc": "536031",
 "title": "Fuel Station Attendants"
 },
+"d53f1435ed9d": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Bilingual EA (English/Spanish)"
+},
 "d5433ac024a3": {
 "city": "Eugene",
 "employer": "Albertsons",
@@ -16773,6 +19073,15 @@
 "misses": 0,
 "soc": "291171",
 "title": "Primary Care Clinic Nurse Practitioners"
+},
+"d5ace82dacc1": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "359011",
+"title": "Food Service Assistant 1 Pool 2026-27"
 },
 "d5f12b116452": {
 "city": "Eugene",
@@ -16812,7 +19121,7 @@
 },
 "d626b1ec53e2": {
 "city": "Eugene",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -16842,9 +19151,18 @@
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412022",
 "title": "Parts Advisors"
+},
+"d64ed19eb5d5": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Surgical Tech First Asst U"
 },
 "d676338b6634": {
 "city": "Mapleton",
@@ -16880,7 +19198,7 @@
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "194071",
-"title": "Fuels Accountants"
+"title": "Fuels and Habitat Management Assistant"
 },
 "d6ebdcb325a5": {
 "city": "Swisshome",
@@ -16890,6 +19208,15 @@
 "misses": 0,
 "soc": "533032",
 "title": "CDL-A Dry Van Truck Drivers"
+},
+"d6efced64c2e": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Police Officer - Lateral"
 },
 "d709bbb34595": {
 "city": "Eugene",
@@ -16956,10 +19283,11 @@
 },
 "d7a3980c592d": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "U-Haul",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "113071",
 "title": "Traffic Control Managers"
 },
@@ -16980,6 +19308,15 @@
 "misses": 0,
 "soc": "359021",
 "title": "Dishwashers"
+},
+"d80ab7c13c05": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "119121",
+"title": "Ophthalmology Clinical Directors"
 },
 "d8635551eb12": {
 "city": "Eugene",
@@ -17040,7 +19377,7 @@
 "employer": "PacificSource",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291031",
 "title": "PACE Licensed Dietitian"
 },
@@ -17085,7 +19422,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "513011",
 "title": "Bakery Clerks"
 },
@@ -17121,7 +19458,7 @@
 "employer": "McKenzie-Willamette Medical Center",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "119111",
 "title": "Patient Access Supervisors"
 },
@@ -17130,7 +19467,7 @@
 "employer": "Albertsons",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "352021",
 "title": "Deli Clerks"
 },
@@ -17142,6 +19479,15 @@
 "misses": 0,
 "soc": "291171",
 "title": "Nurse Practitioners"
+},
+"da63d29ca05a": {
+"city": "Eugene",
+"employer": "Lowe's",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "537065",
+"title": "Warehouse Part Time Overnight"
 },
 "da6becf6993a": {
 "city": "Eugene",
@@ -17178,6 +19524,24 @@
 "misses": 0,
 "soc": "533032",
 "title": "CDL-A Truck Drivers"
+},
+"daf309d4868d": {
+"city": "Eugene",
+"employer": "Clean Harbors",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533032",
+"title": "Route Drivers"
+},
+"dafe1ed0f514": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Nursing Director (RN) - Emergency Services"
 },
 "db036d30bf58": {
 "city": "Eugene",
@@ -17242,6 +19606,15 @@
 "soc": "292061",
 "title": "School LPN"
 },
+"dba37778296f": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "211013",
+"title": "Mental Health Specialists"
+},
 "dbc4a5f97ee3": {
 "city": "Eugene",
 "employer": "",
@@ -17268,6 +19641,15 @@
 "misses": 0,
 "soc": "472221",
 "title": "Metal Fabricators"
+},
+"dbd31aded16d": {
+"city": "Springfield",
+"employer": "PeaceHealth",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Home Health Registered Nurses"
 },
 "dc299d76a411": {
 "city": "Eugene",
@@ -17337,7 +19719,7 @@
 "employer": "Unifi Aviation",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "414012",
 "title": "Enterprise Account Executives"
 },
@@ -17404,6 +19786,15 @@
 "soc": "493042",
 "title": "Service Shop Technicians"
 },
+"dda50f3e7bec": {
+"city": "Lane County",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Records Officer"
+},
 "dda68c4c173b": {
 "city": "Springfield",
 "employer": "",
@@ -17412,6 +19803,15 @@
 "misses": 0,
 "soc": "499071",
 "title": "Maintenance Technician"
+},
+"ddadf912f331": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Coder OP"
 },
 "de15ef962f45": {
 "city": "Eugene",
@@ -17481,7 +19881,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "292052",
 "title": "Pharmacy Technicians"
 },
@@ -17517,7 +19917,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "211022",
 "title": "Licensed Clinical Social Workers"
 },
@@ -17569,19 +19969,28 @@
 "df64b0755847": {
 "city": "Eugene",
 "closed": "2026-10-09",
-"employer": "",
+"employer": "Taco Bell",
 "first_seen": "2026-10-08",
-"last_seen": "2026-10-08",
-"misses": 3,
+"last_seen": "2026-10-09",
+"misses": 0,
 "soc": "351012",
 "title": "Shift Leaders"
+},
+"dfbe32819b68": {
+"city": "Eugene",
+"employer": "Baker Tilly",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "999999",
+"title": "Assurance Managers"
 },
 "dfe4e62aa864": {
 "city": "Eugene",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291171",
 "title": "Psychiatric Nurse Practitioners"
 },
@@ -17602,6 +20011,15 @@
 "misses": 0,
 "soc": "291141",
 "title": "Critical Care Unit Registered Nurses"
+},
+"e028cf018219": {
+"city": "Eugene",
+"employer": "Federal government (USAJOBS)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291215",
+"title": "Primary Care Physicians"
 },
 "e0bce3ccd914": {
 "city": "Eugene",
@@ -17671,7 +20089,7 @@
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "211092",
 "title": "Probation and Parole Officers"
 },
@@ -17680,7 +20098,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "413091",
 "title": "Sales Advisors"
 },
@@ -17767,7 +20185,7 @@
 },
 "e25164ba36f7": {
 "city": "Veneta",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -17791,6 +20209,15 @@
 "misses": 0,
 "soc": "291051",
 "title": "Floaters"
+},
+"e2a4c4796967": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "414012",
+"title": "Sales Executives"
 },
 "e317e442aeb2": {
 "city": "Eugene",
@@ -17878,7 +20305,7 @@
 "employer": "McKenzie-Willamette Medical Center",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "433031",
 "title": "Accounts Payable Clerks"
 },
@@ -18017,6 +20444,15 @@
 "soc": "291141",
 "title": "Special Care Unit Registered Nurses"
 },
+"e60931ed1365": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "433071",
+"title": "Tellers Associate"
+},
 "e612d465b987": {
 "city": "Eugene",
 "employer": "",
@@ -18044,6 +20480,15 @@
 "soc": "119033",
 "title": "Graduate Program Coordinator"
 },
+"e63c9d462806": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "319092",
+"title": "Medical Assistants"
+},
 "e658ccfff8b3": {
 "city": "Springfield",
 "employer": "McKenzie-Willamette Medical Center",
@@ -18061,6 +20506,15 @@
 "misses": 0,
 "soc": "499071",
 "title": "Repair and Tool Technician"
+},
+"e66d5cca1f70": {
+"city": "Eugene",
+"employer": "Gentle Dental",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "319091",
+"title": "Dental Assistant"
 },
 "e680d58cc674": {
 "city": "Eugene",
@@ -18107,6 +20561,15 @@
 "soc": "412031",
 "title": "Front End Entry Level"
 },
+"e6e2ef083317": {
+"city": "Eugene",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Skilled Nursing Facility Registered Nurses"
+},
 "e6f318ef9119": {
 "city": "Eugene",
 "employer": "GloryBee",
@@ -18121,7 +20584,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "271026",
 "title": "Retail Merchandising Specialists"
 },
@@ -18130,7 +20593,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "434081",
 "title": "Hotel Front Desk Clerks"
 },
@@ -18193,7 +20656,7 @@
 "employer": "McKenzie-Willamette Medical Center",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291141",
 "title": "Emergency Services Registered Nurses"
 },
@@ -18202,7 +20665,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "433031",
 "title": "Corporate Accounting Specialists"
 },
@@ -18216,17 +20679,26 @@
 "title": "Coordinator of Operations"
 },
 "e8605fb001bc": {
-"city": "Eugene",
+"city": "Lane County",
 "employer": "Lane County",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "112032",
-"title": "Communications Officers"
+"title": "Communications Officer"
+},
+"e87d00352ae2": {
+"city": "Junction City",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292053",
+"title": "Resident Care Associates"
 },
 "e89c193f7b72": {
 "city": "Cottage Grove",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -18352,10 +20824,11 @@
 },
 "e9f79e74251f": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "531043",
 "title": "Transfer Driver"
 },
@@ -18400,7 +20873,7 @@
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "271026",
 "title": "Summer Interns"
 },
@@ -18458,6 +20931,15 @@
 "soc": "434171",
 "title": "Medical Receptionist"
 },
+"eab2ba529ff6": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Boys Basketball JV Head Coach - Churchill High School"
+},
 "eac8bb392298": {
 "city": "Eugene",
 "employer": "",
@@ -18469,10 +20951,11 @@
 },
 "eae1d3314fd0": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "Sherwin-Williams",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "434051",
 "title": "Customer Service Specialist"
 },
@@ -18500,7 +20983,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 3,
+"misses": 4,
 "soc": "172141",
 "title": "Process and Application Engineer"
 },
@@ -18539,6 +21022,15 @@
 "misses": 0,
 "soc": "413091",
 "title": "Sales and Education Executives"
+},
+"ebc249235b27": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "119111",
+"title": "Supervisor - Patient Access"
 },
 "ebe9222b359a": {
 "city": "Springfield",
@@ -18587,7 +21079,7 @@
 },
 "ec566c7d2ab5": {
 "city": "Eugene",
-"employer": "Columbiabank",
+"employer": "Umpqua Bank (Columbia Banking System)",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -18617,7 +21109,7 @@
 "employer": "Leaf Home",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "474098",
 "title": "Gutter Installers"
 },
@@ -18629,6 +21121,15 @@
 "misses": 0,
 "soc": "291127",
 "title": "Speech Language Pathologists"
+},
+"ecc19b94d1a9": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Lead Electrophysiology Tech - Cath Lab"
 },
 "ecf3976c9434": {
 "city": "Coburg",
@@ -18666,6 +21167,15 @@
 "soc": "352014",
 "title": "Food and Beverage Team Members"
 },
+"ed857b6be5ea": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Water & Wastewater Project Engineer 1"
+},
 "edea4892d7fc": {
 "city": "Eugene",
 "employer": "",
@@ -18677,10 +21187,11 @@
 },
 "edf98a35bd85": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
 },
@@ -18725,9 +21236,18 @@
 "employer": "Eugene School District 4J",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "272022",
 "title": "Cheerleading Coaches"
+},
+"ee4e0008e8ce": {
+"city": "Lane County",
+"employer": "Admissions and Records Officer - Registrar (CS27-070) (2 Openings)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Admissions and Records Officer - Registrar (CS27-070) (2 Openings)"
 },
 "ee80f17e8083": {
 "city": "Eugene",
@@ -18755,6 +21275,15 @@
 "misses": 0,
 "soc": "533032",
 "title": "CDL-A Truck Drivers"
+},
+"eee36961ecc9": {
+"city": "Eugene",
+"employer": "Lane Community College",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291171",
+"title": "Primary Care Nurse Practitioners"
 },
 "ef02979ce8d9": {
 "city": "Eugene",
@@ -18785,10 +21314,11 @@
 },
 "ef40a97a83fc": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "U-Haul",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "492094",
 "title": "Trailer/Sri Specialists"
 },
@@ -18918,12 +21448,30 @@
 "soc": "434051",
 "title": "Customer Service Associate - Temporary"
 },
+"f05683259262": {
+"city": "Eugene",
+"employer": "Lowe's",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Full Time - Sales Associate - Paint - Opening"
+},
+"f05b8f2a89e3": {
+"city": "Eugene",
+"employer": "Lane County",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "211021",
+"title": "Connections Managers"
+},
 "f07b63b8609b": {
 "city": "Eugene",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "112022",
 "title": "Regional Solutions Managers"
 },
@@ -18986,7 +21534,7 @@
 "employer": "City of Eugene",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "173022",
 "title": "Permit Technicians"
 },
@@ -19031,7 +21579,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "537072",
 "title": "Reservoir Engineering Technicians"
 },
@@ -19043,6 +21591,15 @@
 "misses": 0,
 "soc": "512098",
 "title": "General Kitchen Workers"
+},
+"f18d01d38050": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "499052",
+"title": "Low Voltage Technicians"
 },
 "f1a5b2374a5b": {
 "city": "Springfield",
@@ -19067,7 +21624,7 @@
 "employer": "Nike",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412031",
 "title": "Retail Associates"
 },
@@ -19143,6 +21700,15 @@
 "soc": "435061",
 "title": "Surgery Schedulers"
 },
+"f261d437f12c": {
+"city": "Eugene",
+"employer": "Fresenius Kidney Care",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292099",
+"title": "Patient Care Technicians"
+},
 "f29e8e18623b": {
 "city": "Eugene",
 "employer": "",
@@ -19154,10 +21720,11 @@
 },
 "f2a7d0ef1f6c": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "U-Haul",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "372012",
 "title": "Storage Facility Housekeepers"
 },
@@ -19269,6 +21836,15 @@
 "soc": "414012",
 "title": "Sales Representative - Uniform"
 },
+"f3a02516066f": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Scheduling Clerk - Central Scheduling - Days"
+},
 "f3a42cbf010b": {
 "city": "Eugene",
 "employer": "",
@@ -19287,6 +21863,15 @@
 "soc": "319094",
 "title": "Medical Records Technicians"
 },
+"f3d91df04d97": {
+"city": "Eugene",
+"employer": "Bushnell University",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "211012",
+"title": "Undergraduate Admissions Counselors"
+},
 "f3f960ecda28": {
 "city": "Cottage Grove",
 "employer": "",
@@ -19301,16 +21886,25 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "534031",
 "title": "Flaggers"
+},
+"f43a70659831": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Scheduling Clerk / Advanced Surgery Scheduler - Summit Surgical Specialists"
 },
 "f43eecb79524": {
 "city": "Springfield",
 "employer": "McKenzie-Willamette Medical Center",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291126",
 "title": "Respiratory Therapists"
 },
@@ -19331,6 +21925,24 @@
 "misses": 0,
 "soc": "292099",
 "title": "Emergency Department Technicians"
+},
+"f472b3b2aa87": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291051",
+"title": "Staff Pharmacists"
+},
+"f4b00a373d2b": {
+"city": "Springfield",
+"employer": "Bass Pro Shops",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "411011",
+"title": "Customer Service Team Lead"
 },
 "f4b5e665b569": {
 "city": "Eugene",
@@ -19391,7 +22003,7 @@
 "employer": "Guitar Center",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "412031",
 "title": "Retail Leads"
 },
@@ -19400,7 +22012,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "291241",
 "title": "Ophthalmology Assistants"
 },
@@ -19458,6 +22070,15 @@
 "soc": "412031",
 "title": "Key Sales Associates"
 },
+"f6213fbccc16": {
+"city": "Florence",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "533032",
+"title": "Route Utility Relief Driver - FLORENCE DEPOT"
+},
 "f63a2404655e": {
 "city": "Eugene",
 "employer": "",
@@ -19478,10 +22099,11 @@
 },
 "f6b8a260bec6": {
 "city": "Eugene",
+"closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 2,
+"misses": 3,
 "soc": "533032",
 "title": "Delivery Drivers"
 },
@@ -19503,12 +22125,21 @@
 "soc": "319099",
 "title": "enter Medical Spec - EMTB Eugene 1"
 },
+"f73025bcc731": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291141",
+"title": "Registered Nurses"
+},
 "f73186918abe": {
 "city": "Eugene",
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "331012",
 "title": "Deputy Sheriffs"
 },
@@ -19565,6 +22196,15 @@
 "misses": 0,
 "soc": "359021",
 "title": "Dishwashers"
+},
+"f80e73816006": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "431011",
+"title": "Customer Experience Coordinators"
 },
 "f819de80ef74": {
 "city": "Eugene",
@@ -19643,8 +22283,8 @@
 "closed": "2026-10-09",
 "employer": "Lane County",
 "first_seen": "2026-10-06",
-"last_seen": "2026-10-08",
-"misses": 3,
+"last_seen": "2026-10-09",
+"misses": 0,
 "soc": "111011",
 "title": "Public Works Directors"
 },
@@ -19665,6 +22305,15 @@
 "misses": 0,
 "soc": "351011",
 "title": "Sushi Chefs"
+},
+"f8ba7a5c241d": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Commercial Plans Examiner"
 },
 "f8c3dbf66aeb": {
 "city": "Springfield",
@@ -19738,6 +22387,24 @@
 "soc": "516011",
 "title": "Hotel Laundry Attendants"
 },
+"f97f6c029e55": {
+"city": "Lane County",
+"employer": "Assistant Business Manager, Montana Digital Academy",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Assistant Business Manager, Montana Digital Academy"
+},
+"f992bd242208": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "292072",
+"title": "Billing Resolution Specialists"
+},
 "f99ab58b68ad": {
 "city": "Eugene",
 "employer": "University of Oregon",
@@ -19788,7 +22455,7 @@
 "employer": "Bass Pro Shops",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "434051",
 "title": "Seasonal Events Associate"
 },
@@ -19797,9 +22464,18 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "411011",
 "title": "Store Managers"
+},
+"fa478d47a494": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "353023",
+"title": "Culinary Team Members"
 },
 "fa4ceed4c282": {
 "city": "Eugene",
@@ -19837,6 +22513,15 @@
 "soc": "131161",
 "title": "Digital Marketing Specialists"
 },
+"fa70dfbe12e9": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Direct Support Worker (Caregiver)"
+},
 "fabad369983a": {
 "city": "Eugene",
 "employer": "",
@@ -19872,6 +22557,24 @@
 "misses": 0,
 "soc": "454022",
 "title": "Green Team Members"
+},
+"faf5525ca5c0": {
+"city": "Florence",
+"employer": "PeaceHealth",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "291127",
+"title": "Speech Language Pathologists"
+},
+"fafd463b8ead": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Registered Nurse - Medical Care Unit - Nights"
 },
 "fb1116e20cf0": {
 "city": "Springfield",
@@ -19929,7 +22632,7 @@
 },
 "fbaca3523545": {
 "city": "Springfield",
-"employer": "",
+"employer": "Kroger (Fred Meyer)",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -19950,7 +22653,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "474011",
 "title": "Construction Engineering Inspectors"
 },
@@ -19961,7 +22664,7 @@
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "172051",
-"title": "Civil Transportation Engineers"
+"title": "Civil Engineer 2, Transportation"
 },
 "fbee706e30c6": {
 "city": "Eugene",
@@ -19971,6 +22674,15 @@
 "misses": 0,
 "soc": "172051",
 "title": "Transportation Interns"
+},
+"fc043b0fb526": {
+"city": "Eugene",
+"employer": "City of Eugene",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Wastewater Operator 1 / 2"
 },
 "fc4511c5901a": {
 "city": "Eugene",
@@ -20035,6 +22747,15 @@
 "soc": "311131",
 "title": "Operating Room Surgical Technicians"
 },
+"fcd655c62d3c": {
+"city": "Eugene",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Meter Relay Technician or Trainee"
+},
 "fce075eaf7d0": {
 "city": "Junction City",
 "employer": "Ingersoll Rand",
@@ -20043,6 +22764,15 @@
 "misses": 0,
 "soc": "151299",
 "title": "IT Application Engineers"
+},
+"fcecea0a59e3": {
+"city": "Springfield",
+"employer": "McKenzie-Willamette Medical Center",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "CT Technologist - PRN"
 },
 "fd21fbc80fea": {
 "city": "Eugene",
@@ -20085,7 +22815,7 @@
 "employer": "PeaceHealth",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "292018",
 "title": "Laboratory Assistants"
 },
@@ -20131,7 +22861,7 @@
 "employer": "Advantage Solutions",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-08",
-"misses": 3,
+"misses": 4,
 "soc": "537065",
 "title": "Traveling Retail Merchandiser - Overnight"
 },
@@ -20203,7 +22933,7 @@
 "employer": "",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "211093",
 "title": "Program Support Coordinators"
 },
@@ -20245,7 +22975,7 @@
 },
 "fe6004548229": {
 "city": "Eugene",
-"employer": "Usbank",
+"employer": "U.S. Bank",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -20279,13 +23009,22 @@
 "soc": "319097",
 "title": "Phlebotomists"
 },
+"fea7d70d4696": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "Boys Varsity Assistant Soccer Coach - Sheldon"
+},
 "feb78dd0b8b0": {
 "city": "Eugene",
 "closed": "2026-10-09",
 "employer": "",
 "first_seen": "2026-10-06",
 "last_seen": "2026-10-06",
-"misses": 5,
+"misses": 6,
 "soc": "111021",
 "title": "RVP, MH Operations"
 },
@@ -20300,7 +23039,7 @@
 },
 "fefd8d6727b2": {
 "city": "Veneta",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
@@ -20315,6 +23054,15 @@
 "misses": 0,
 "soc": "434051",
 "title": "Customer Service Associate - Temporary"
+},
+"ff14307695db": {
+"city": "Springfield",
+"employer": "",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "319092",
+"title": "Dermatology Medical Assistants"
 },
 "ff1623703094": {
 "city": "Eugene",
@@ -20335,13 +23083,13 @@
 "title": "Driver Apprentice-City"
 },
 "ff457a84d2f9": {
-"city": "Eugene",
+"city": "Lane County",
 "employer": "Lane County",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "211018",
-"title": "Mental Health Specialists"
+"title": "Mental Health Specialist 1 or 2"
 },
 "ff5029d85499": {
 "city": "Springfield",
@@ -20357,18 +23105,27 @@
 "employer": "Weyerhaeuser",
 "first_seen": "2026-10-08",
 "last_seen": "2026-10-09",
-"misses": 0,
+"misses": 1,
 "soc": "533032",
 "title": "Log Truck Drivers"
 },
 "ff6caf0c344d": {
 "city": "Veneta",
-"employer": "Oreillyauto",
+"employer": "O'Reilly Auto Parts",
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09",
 "misses": 0,
 "soc": "",
 "title": "Installer Service Specialist"
+},
+"ff7a25a89a07": {
+"city": "Eugene",
+"employer": "Eugene School District 4J (dba Lane County School District) (OR)",
+"first_seen": "2026-10-09",
+"last_seen": "2026-10-09",
+"misses": 0,
+"soc": "",
+"title": "North Eugene High School - Speech/Debate Head Coach"
 },
 "ffc65c15f068": {
 "city": "Eugene",
