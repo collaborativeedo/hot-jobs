@@ -1,14 +1,15 @@
 Employer,Hiring system,Address,Lane openings last night,Status,First seen,Last run
-Public employers in Lane County,NEOGOV,https://www.governmentjobs.com/,66,ok,2026-10-09,2026-10-09
+Public employers in Lane County,NEOGOV,https://www.governmentjobs.com/,67,ok,2026-10-09,2026-10-09
 Albertsons,Oracle Recruiting,https://eofd.fa.us6.oraclecloud.com/cx_1001,42,ok,2026-10-09,2026-10-09
 McKenzie-Willamette Medical Center,UKG (UltiPro),https://recruiting2.ultipro.com/qhc1000qhcs,34,ok,2026-10-09,2026-10-09
-O'Reilly Auto Parts,Workday,https://oreillyauto.wd1.myworkdayjobs.com/oreilly,24,ok,2026-10-09,2026-10-09
-Public employers in Lane County,NEOGOV,https://www.schooljobs.com/,16,ok,2026-10-09,2026-10-09
+O'Reilly Auto Parts,Workday,https://oreillyauto.wd1.myworkdayjobs.com/oreilly,25,ok,2026-10-09,2026-10-09
+Public employers in Lane County,NEOGOV,https://www.schooljobs.com/,15,ok,2026-10-09,2026-10-09
 ukg:dow1001dowl/e88601aa-9d30-45ca-b6e4-610b5a4d6ead,UKG (UltiPro),https://recruiting2.ultipro.com/dow1001dowl,13,ok,2026-10-09,2026-10-09
 Umpqua Bank (Columbia Banking System),Workday,https://columbiabank.wd108.myworkdayjobs.com/columbia,10,ok,2026-10-09,2026-10-09
 Lithia Motors,Workday,https://lithia.wd504.myworkdayjobs.com/LithiaCareers,9,ok,2026-10-09,2026-10-09
 Lowe's,Workday,https://lowes.wd5.myworkdayjobs.com/lws_external_cs,9,ok,2026-10-09,2026-10-09
 Peterson Cat,Workday,https://petersonholding.wd1.myworkdayjobs.com/petersonjobs,9,ok,2026-10-09,2026-10-09
+Bass Pro Shops,Workday,https://basspro.wd1.myworkdayjobs.com/careers,7,ok,2026-10-09,2026-10-09
 U-Haul,Workday,https://uhaul.wd1.myworkdayjobs.com/uhauljobs,7,ok,2026-10-09,2026-10-09
 U.S. Bank,Workday,https://usbank.wd1.myworkdayjobs.com/us_bank_careers,7,ok,2026-10-09,2026-10-09
 oracle:iazbqy.fa.ocs.oraclecloud.com/cx_1,Oracle Recruiting,https://iazbqy.fa.ocs.oraclecloud.com/CX_1,6,ok,2026-10-09,2026-10-09
@@ -17,7 +18,6 @@ ukg:eug1001eweb/23d62d3c-f909-4124-8b2c-4aa0d61f4f1d,UKG (UltiPro),https://recru
 ukg:gti1000guad/9dfb5104-5c54-40ef-9fef-bdc8060ce73d,UKG (UltiPro),https://recruiting.ultipro.com/gti1000guad,5,ok,2026-10-09,2026-10-09
 DICK'S Sporting Goods,Workday,https://dickssportinggoods.wd1.myworkdayjobs.com/dsg,5,ok,2026-10-09,2026-10-09
 Guardian Pharmacy,Workday,https://guardianpharmacy.wd5.myworkdayjobs.com/guardian_pharmacy,5,ok,2026-10-09,2026-10-09
-Bass Pro Shops,Workday,https://basspro.wd1.myworkdayjobs.com/careers,4,ok,2026-10-09,2026-10-09
 Camping World,Workday,https://campingworld.wd5.myworkdayjobs.com/jobs,4,ok,2026-10-09,2026-10-09
 Equitylifestyleproperties,Workday,https://equitylifestyleproperties.wd5.myworkdayjobs.com/els,4,ok,2026-10-09,2026-10-09
 First Student,Workday,https://firststudent.wd1.myworkdayjobs.com/firststudent,4,ok,2026-10-09,2026-10-09
@@ -36,14 +36,14 @@ HD Supply,Workday,https://hdsupply.wd1.myworkdayjobs.com/external,1,ok,2026-10-0
 Techtronic Industries (TTI),Workday,https://tti.wd1.myworkdayjobs.com/TeamTTI-Jobs,1,ok,2026-10-09,2026-10-09
 AutoZone,Oracle Recruiting,https://egud.fa.us2.oraclecloud.com/CX_1,0,ok,2026-10-09,2026-10-09
 oracle:ehac.fa.us6.oraclecloud.com/cx_1,Oracle Recruiting,https://ehac.fa.us6.oraclecloud.com/CX_1,0,ok,2026-10-09,2026-10-09
+oracle:eiqg.fa.us2.oraclecloud.com/cx_1001,Oracle Recruiting,https://eiqg.fa.us2.oraclecloud.com/CX_1001,0,ok,2026-10-09,2026-10-09
 Kroger (Fred Meyer),Oracle Recruiting,https://eluq.fa.us2.oraclecloud.com/CX_2001,0,ok,2026-10-09,2026-10-09
 PeaceHealth,PeaceHealth careers site,https://careers.peacehealth.org/,0,error: site blocks automated access (403),2026-10-09,2026-10-09
 Bridgestone,Workday,https://bridgestone.wd5.myworkdayjobs.com/external,0,ok,2026-10-09,2026-10-09
+Comcast,Workday,https://comcast.wd115.myworkdayjobs.com/Comcast_Careers,0,ok,2026-10-09,2026-10-09
 DaVita,Workday,https://davita.wd1.myworkdayjobs.com/DKC_External,0,ok,2026-10-09,2026-10-09
 UPS,Workday,https://hcmportal.wd5.myworkdayjobs.com/search,0,ok,2026-10-09,2026-10-09
 Medtronic,Workday,https://medtronic.wd1.myworkdayjobs.com/medtroniccareers,0,ok,2026-10-09,2026-10-09
 State of Oregon,Workday,https://oregon.wd5.myworkdayjobs.com/sor_external_career_site,0,ok,2026-10-09,2026-10-09
 Sunrise Group,Workday,https://sunrisegroup.wd108.myworkdayjobs.com/sunrise_careers,0,ok,2026-10-09,2026-10-09
 Vans (VF Corporation),Workday,https://vfc.wd5.myworkdayjobs.com/vans_careers,0,ok,2026-10-09,2026-10-09
-oracle:eiqg.fa.us2.oraclecloud.com/cx_1001,Oracle Recruiting,https://eiqg.fa.us2.oraclecloud.com/CX_1001,0,ok,2026-10-09,2026-10-09
-Comcast,Workday,https://comcast.wd115.myworkdayjobs.com/Comcast_Careers,0,ok,2026-10-09,2026-10-09
