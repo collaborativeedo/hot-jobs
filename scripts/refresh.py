@@ -33,6 +33,7 @@ STATE = ROOT / "data" / "state.json"
 EMPLOYERS = ROOT / "data" / "employers.json"
 EMPLOYERS_CSV = ROOT / "docs" / "employers.csv"
 TRACE_CSV = ROOT / "docs" / "to-trace.csv"
+PULLED = ROOT / "data" / "pulled.json"  # every posting from the last pull, before the widget filter
 
 ENDPOINT = "https://www.qualityinfo.org/jfind"
 PARAMS = {
@@ -207,6 +208,8 @@ def main():
         t = ROOT / "tests" / "out"
         t.mkdir(parents=True, exist_ok=True)
         OUT, STATE, EMPLOYERS = t / "jobs.json", t / "state.json", t / "employers.json"
+        global PULLED
+        PULLED = t / "pulled.json"
         EMPLOYERS_CSV, TRACE_CSV = t / "employers.csv", t / "to-trace.csv"
         for f in (STATE, EMPLOYERS):
             f.unlink(missing_ok=True)
@@ -259,6 +262,8 @@ def main():
     STATE.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+    PULLED.write_text(json.dumps([{k: j.get(k) for k in ("id", "title", "city", "employer", "url", "days", "soc", "route")}
+                                  for j in jobs], ensure_ascii=False, indent=0), encoding="utf-8")
     n_emp = update_employers(jobs, today)
     print(f"Employers on record: {n_emp}.")
     print(f"Widget shows {len(show)} (up to {SHOW_DAYS} days old, direct links only).")
