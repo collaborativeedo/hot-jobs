@@ -195,8 +195,90 @@ def employer(text):
             return name
     return ""
 
+# ---- Employer from the posting link -----------------------------------------
+# Employers' own careers domains. Checked against real Lane County postings, October 2026.
+DOMAIN_EMPLOYERS = {
+    "jobs.tacobell.com": "Taco Bell", "www.kendallcareers.com": "Kendall Auto Group",
+    "jobs.familyresourcehomecare.com": "Family Resource Home Care", "weyerhaeuser.taleo.net": "Weyerhaeuser",
+    "www.atriacareers.com": "Atria Senior Living", "wendys-careers.com": "Wendy's", "careers.petco.com": "Petco",
+    "careers.lovisa.com": "Lovisa", "careers.guitarcenter.com": "Guitar Center", "careers.nike.com": "Nike",
+    "careers.cintas.com": "Cintas", "careers.kbs-services.com": "KBS (Kellermeyer Bergensons Services)",
+    "careers.thespringsliving.com": "The Springs Living", "jobs.sportclips.com": "Sport Clips",
+    "jobs.danaher.com": "Danaher", "corporate.target.com": "Target", "careers.vetcor.com": "VetCor",
+    "www.procaretherapy.com": "ProCare Therapy", "careers.onemedical.com": "One Medical",
+    "careers.essilorluxottica.com": "EssilorLuxottica", "www.judge.com": "The Judge Group",
+    "workwithus.circlek.com": "Circle K", "jobs.heartland.com": "Heartland Dental",
+    "careers.unitedhealthgroup.com": "UnitedHealth Group", "www.gapinc.com": "Gap Inc.",
+    "careers.maximhealthcare.com": "Maxim Healthcare", "careers.tradesmeninternational.com": "Tradesmen International",
+    "careers.bankofamerica.com": "Bank of America", "careers.montenidoaffiliates.com": "Monte Nido",
+    "www.spi-ind.com": "Sierra Pacific Industries", "jobs.retirement.org": "Pacific Retirement Services",
+    "www.spencersandspiritjobs.com": "Spencer's and Spirit Halloween", "workatbest.com": "BEST Crowd Management",
+    "www.kcecareers.com": "KinderCare", "www.usajobs.gov": "Federal government (USAJOBS)",
+    "careers.peacehealth.org": "PeaceHealth", "jobs.lanecc.edu": "Lane Community College",
+    "careers.uoregon.edu": "University of Oregon", "jobs.walgreens.com": "Walgreens",
+}
+TENANT_NAMES = {"sunsrce": "SunSource", "boxlunch": "BoxLunch", "bannerbank": "Banner Bank", "wireless-vision": "Wireless Vision",
+                "leaf-home": "Leaf Home", "clairesstores": "Claire's", "celsius": "Celsius", "rwcgroup": "RWC Group",
+                "lithia": "Lithia Motors", "tti": "Techtronic Industries (TTI)", "hcmportal": "UPS", "lowes": "Lowe's",
+                "basspro": "Bass Pro Shops", "campingworld": "Camping World", "dickssportinggoods": "DICK'S Sporting Goods",
+                "guardianpharmacy": "Guardian Pharmacy", "oregon": "State of Oregon", "uhaul": "U-Haul",
+                "petersonholding": "Peterson Cat"}
+_TENANT_RX = [
+    r"^https?://jobs\.lever\.co/([^/?#]+)", r"fountain\.com/apply/([^/?#]+)", r"saashr\.com/ta/([A-Za-z0-9]+)\.careers",
+    r"apply\.workable\.com/([^/?#]+)", r"careers\.hireology\.com/([^/?#]+)", r"^https?://([^./]+)\.(?:applytojob\.com|breezy\.hr|workbrightats\.com)",
+    r"^https?://([^./]+)\.taleo\.net", r"^https?://([^./]+)\.wd\d+\.myworkdayjobs\.com", r"^https?://([^./]+)\.jobs\.hr\.cloud\.sap",
+]
+_TENANT_RX = [re.compile(p, re.I) for p in _TENANT_RX]
+
+
+def _tenant_name(slug):
+    s = slug.lower()
+    if s in TENANT_NAMES:
+        return TENANT_NAMES[s]
+    if s in ("phe", "www", "jobs", "careers", "search", "external"):
+        return ""
+    return re.sub(r"[-_]+", " ", slug).title()
+
+
+def employer_from_url(url):
+    """Employer named by the posting link itself: a known careers domain or a hiring-platform account name."""
+    host = re.sub(r"^https?://([^/]+).*$", r"\1", url or "").lower()
+    if host in DOMAIN_EMPLOYERS:
+        return DOMAIN_EMPLOYERS[host]
+    for rx in _TENANT_RX:
+        m = rx.search(url or "")
+        if m:
+            return _tenant_name(m.group(1))
+    return ""
+
+
+# ---- Type of work from the job title (for postings without an occupation code) ----
+TITLE_TYPES = [
+    ("Healthcare & human services", r"\bnurs|\brn\b|\blpn\b|\bcna\b|medical|clinic|physician|therap|pharm|dental|hygien|caregiver|patient|health|counsel|social work|lab ass|phlebot|radiolog|surg|behavioral|psych"),
+    ("Childcare & education", r"teacher|teach|school|child ?care|preschool|tutor|instruct|educat|paraeducator|coach"),
+    ("Construction & trades", r"electric|plumb|carpent|hvac|construct|mechanic|technician|install|weld|maintenance|millwright|laborer|roof|paint"),
+    ("Transportation & logistics", r"driver|cdl|truck|deliver|warehouse|forklift|logistic|dispatch|freight|porter"),
+    ("Hospitality & leisure", r"cook|chef|server|bartend|barista|dishwash|host|housekeep|restaurant|kitchen|crew member|food|hotel|event staff"),
+    ("Retail & sales", r"sales|cashier|retail|store|merchandis|stocker|associate|clerk|shopper"),
+    ("Finance & accounting", r"account|bookkeep|payroll|finance|banker|teller|loan|underwrit|auditor|controller"),
+    ("Technology", r"software|developer|it support|desktop support|network|data|systems admin|cyber|\bit\b"),
+    ("Engineering & science", r"engineer|scientist|chemist|biolog|environmental|lab tech"),
+    ("Manufacturing", r"production|machin|assembl|manufactur|operator|fabricat"),
+    ("Office & customer service", r"receptionist|customer service|administrative|office|clerical|coordinator|call center|front desk"),
+    ("Management & business", r"manager|director|supervisor|lead\b|analyst|specialist"),
+]
+TITLE_TYPES = [(n, re.compile(p, re.I)) for n, p in TITLE_TYPES]
+
+
+def type_from_title(title):
+    for name, rx in TITLE_TYPES:
+        if rx.search(title or ""):
+            return name
+    return "Other"
+
+
 # ---- How a posting is reached -----------------------------------------------
-JOB_BOARDS = {"simplyhired.com","indeed.com","gr8jobs.net","disabledperson.com","joblinkapply.com","employeebenefitsjobs.com","dejobs.org","diversityjobs.com","healthecareers.com","careersinaudit.com","eugenejobs.net","academiccareers.com","planning.org","apwa.org","awwa.org","globaltalentpartners.com","madison.com","netimpact.org","federalgovernmentjobs.us","jobmonkeyjobs.com","equest.com","conbio.org"}
+JOB_BOARDS = {"simplyhired.com","indeed.com","gr8jobs.net","disabledperson.com","joblinkapply.com","employeebenefitsjobs.com","dejobs.org","diversityjobs.com","healthecareers.com","careersinaudit.com","eugenejobs.net","academiccareers.com","planning.org","apwa.org","awwa.org","globaltalentpartners.com","madison.com","netimpact.org","federalgovernmentjobs.us","jobmonkeyjobs.com","equest.com","conbio.org","careerarc.com","healthjobsnationwide.com","fairygodboss.com","jobit.com","jobtarget.com","chronicle.com","idealist.org","themuse.com","schoolspring.com","womensjoblist.com","conservationjobboard.com","dice.com","efinancialcareers.com","salesheads.com","constructionjobs.com","blazerjobs.com","partnersindiversity.org","gopromotive.com","nwppa.org"}
 
 def route(url):
     host = re.sub(r"^https?://([^/]+).*$", r"\1", url).lower()
@@ -217,6 +299,11 @@ PLATFORMS = [
     (r"successfactors", "SAP SuccessFactors"), (r"smartrecruiters", "SmartRecruiters"),
     (r"trakstar", "Trakstar Hire"), (r"careerplug", "CareerPlug"), (r"hrmdirect", "HRM Direct"),
     (r"governmentjobs\.com|schooljobs\.com", "NEOGOV (GovernmentJobs)"),
+    (r"taleo\.net", "Taleo"), (r"lever\.co", "Lever"), (r"fountain\.com", "Fountain"),
+    (r"saashr\.com", "UKG Ready"), (r"applitrack\.com", "Frontline (AppliTrack)"), (r"brassring\.com", "BrassRing"),
+    (r"breezy\.hr", "Breezy HR"), (r"workable\.com", "Workable"), (r"hireology\.com", "Hireology"),
+    (r"workbrightats\.com", "WorkBright"), (r"applytojob\.com", "JazzHR"), (r"hr\.cloud\.sap", "SAP SuccessFactors"),
+    (r"brt\.mv", "BrightMove"), (r"careers\.peacehealth\.org", "PeaceHealth careers site"),
 ]
 PLATFORMS = [(re.compile(p, re.I), n) for p, n in PLATFORMS]
 

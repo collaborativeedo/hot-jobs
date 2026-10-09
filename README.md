@@ -10,6 +10,17 @@ A pilot index of open jobs in Lane County, Oregon, built by Collaborative Econom
 4. GitHub Pages publishes the `docs` folder. `docs/widget.js` is the embeddable widget, and it reads `jobs.json` from the same address.
 5. A partner pastes one line into their site, and every update here reaches every partner site on the next page load.
 
+## Direct links from employers' hiring systems
+
+The run grows its own list of employers to pull from directly, with no review step:
+
+1. When a QualityInfo posting links to an employer's hiring system (Workday, Oracle Recruiting, UKG), the run saves that system to `data/sources.json`. PeaceHealth's careers site is included from the start.
+2. Every night it pulls each saved system's Lane County openings straight from the employer, so the widget links to the employer's own posting. A direct posting replaces the QualityInfo copy of the same job, and any WorkSource Oregon copy with the same employer, title and city.
+3. Before every request it checks the site's robots.txt, and skips any employer whose site asks crawlers not to visit. `docs/sources.csv` lists every system, how many Lane openings it had last night, and whether it was pulled or skipped.
+4. Employers whose postings live on their own careers site are named from the site's own name, cached in `data/domain-names.json`. Known careers domains and hiring-platform account names are in `scripts/rules.py`.
+
+NEOGOV (governmentjobs.com, used by Lane County, the City of Eugene and 4J) asks crawlers not to visit, so those jobs still come through QualityInfo.
+
 ## Add the widget to a website
 
 ```html

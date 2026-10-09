@@ -59,7 +59,10 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m];
     });
   }
-  function when(d) { return d <= 0 ? "Today" : d === 1 ? "1 day ago" : d + " days ago"; }
+  function when(d, dated) {
+    var w = d <= 0 ? "today" : d === 1 ? "1 day ago" : d + " days ago";
+    return dated === false ? "Added " + w : w.charAt(0).toUpperCase() + w.slice(1);
+  }
   function soc(s) { return s && s.length === 6 ? "SOC " + s.slice(0, 2) + "-" + s.slice(2) : ""; }
   function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
 
@@ -135,7 +138,7 @@
       $(".lchj-count").textContent = f.length + " of " + jobs.length + " openings";
       $(".lchj-jobs").innerHTML = f.length ? f.slice(0, st.shown).map(function (j) {
         return '<li class="lchj-job"><a class="lchj-t" href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + "</a>" +
-          '<span class="lchj-when">' + when(j.days) + "</span>" +
+          '<span class="lchj-when">' + when(j.days, j.dated) + "</span>" +
           '<div class="lchj-sub">' + (j.employer ? "<span>" + esc(j.employer) + "</span>" : "") + "<span>" + esc(j.city) + "</span>" +
           '<span class="lchj-tag">' + esc(j.type) + "</span>" +
           (j.industries || []).map(function (i) { return '<span class="lchj-tag ind">' + esc(i) + "</span>"; }).join("") +

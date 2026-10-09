@@ -26,6 +26,7 @@ from bs4 import BeautifulSoup
 
 sys.path.insert(0, str(Path(__file__).parent))
 import rules  # noqa: E402
+import direct  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "jobs.json"
@@ -33,7 +34,10 @@ STATE = ROOT / "data" / "state.json"
 EMPLOYERS = ROOT / "data" / "employers.json"
 EMPLOYERS_CSV = ROOT / "docs" / "employers.csv"
 TRACE_CSV = ROOT / "docs" / "to-trace.csv"
-PULLED = ROOT / "data" / "pulled.json"  # every posting from the last pull, before the widget filter
+PULLED = ROOT / "data" / "pulled.json"
+SOURCES = ROOT / "data" / "sources.json"        # hiring systems learned automatically, pulled directly each night
+DOMAIN_NAMES = ROOT / "data" / "domain-names.json"  # employer names read from careers sites' own pages
+SOURCES_CSV = ROOT / "docs" / "sources.csv"  # every posting from the last pull, before the widget filter
 
 ENDPOINT = "https://www.qualityinfo.org/jfind"
 PARAMS = {
@@ -136,13 +140,147 @@ def dedupe(jobs):
 
 def tag(j):
     text = f'{j["title"]} {j["snippet"]} {j["url"]}'
-    j["type"] = rules.type_of_work(j["soc"])
+    j["type"] = rules.type_of_work(j["soc"]) if j.get("soc") else rules.type_from_title(j["title"])
     j["industries"] = rules.industries(text)
-    j["employer"] = rules.employer(text)
+    j["employer"] = j.get("employer") or rules.employer(text) or rules.employer_from_url(j["url"])
     j["route"] = rules.route(j["url"])
     j["rural"] = j["city"] not in rules.METRO
     j["priority"] = j["type"] in rules.PRIORITY or any(i in rules.PRIORITY for i in j["industries"])
     return j
+
+
+def auto_name_domains(jobs, fetcher, today):
+    """Name employers on unfamiliar careers sites from the site's own name (og:site_name or page title).
+
+    Runs without anyone's review: results are cached in data/domain-names.json, and a site that
+    gave no usable name is retried after 30 days.
+    """
+    names = json.loads(DOMAIN_NAMES.read_text()) if DOMAIN_NAMES.exists() else {}
+    generic = re.compile(r"^(careers?|jobs?|home|job search|search jobs|join our team|current openings|"
+                         r"employment|opportunities|welcome|apply)( (page|site|portal))?$", re.I)
+    tried = 0
+    for j in jobs:
+        if j["employer"] or rules.platform(j["url"]) != "Employer website":
+            continue
+        host = re.sub(r"^https?://([^/]+).*$", r"\1", j["url"]).lower()
+        rec = names.get(host)
+        if rec is None or (not rec["name"] and (dt.date.fromisoformat(today) - dt.date.fromisoformat(rec["checked"])).days > 30):
+            if tried >= 40:
+                continue
+            tried += 1
+            name = ""
+            try:
+                h = fetcher.get(f"https://{host}/").text[:200000]
+                soup = BeautifulSoup(h, "html.parser")
+                og = soup.find("meta", attrs={"property": "og:site_name"})
+                cands = [og.get("content", "")] if og else []
+                if soup.title:
+                    cands += re.split(r"\s+[|\-–—:]\s+", soup.title.get_text())
+                for c in cands:
+                    c = clean(c)
+                    if c and not generic.match(c) and len(c) <= 60:
+                        name = re.sub(r"(?i)\s*(careers?|jobs?)( (at|with))?\s*$", "", c).strip() or c
+                        break
+            except Exception as e:  # noqa: BLE001
+                print(f"  name lookup skipped for {host}: {e}")
+            rec = names[host] = {"name": name, "checked": today}
+        if rec["name"]:
+            j["employer"] = rec["name"]
+    DOMAIN_NAMES.write_text(json.dumps(names, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+
+
+def pull_direct(qi_jobs, fetcher, today):
+    """Learn hiring systems from posting links, pull each one directly, and merge.
+
+    A direct posting replaces its QualityInfo copy (same posting on the same hiring system) and any
+    WorkSource Oregon copy with the same employer, title and city, so job seekers land on the employer's
+    own page.
+    """
+    sources = json.loads(SOURCES.read_text()) if SOURCES.exists() else {}
+    for j in qi_jobs:
+        found = direct.source_from_url(j["url"])
+        if not found:
+            continue
+        key, src = found
+        rec = sources.setdefault(key, dict(src, first_seen=today, employer=""))
+        if not rec.get("employer") and j["employer"] and not j["employer"].startswith("Unnamed"):
+            rec["employer"] = j["employer"]
+    if "peacehealth" not in sources:
+        sources["peacehealth"] = {"platform": "PeaceHealth careers site", "host": "careers.peacehealth.org",
+                                  "first_seen": today, "employer": "PeaceHealth"}
+
+    title_soc = {}
+    if STATE.exists():
+        for rec in json.loads(STATE.read_text()).values():
+            if rec.get("soc"):
+                title_soc.setdefault(rec["title"].lower(), rec["soc"])
+    for j in qi_jobs:
+        if j["soc"]:
+            title_soc.setdefault(j["title"].lower(), j["soc"])
+
+    got = []
+    for key, src in sorted(sources.items()):
+        fn = direct.CONNECTORS.get(src["platform"])
+        if not fn:
+            continue
+        before = fetcher.calls
+        try:
+            rows = fn(fetcher, src)
+            src.update(status="ok", last_run=today, lane_openings=len(rows))
+        except PermissionError as e:
+            rows = []
+            src.update(status="skipped: site asks crawlers not to visit", last_run=today, lane_openings=0)
+            print(f"  {key}: {e}")
+        except Exception as e:  # noqa: BLE001  one failing source never stops the run
+            rows = []
+            src.update(status=f"error: {type(e).__name__}", last_run=today, lane_openings=0)
+            print(f"  {key}: {type(e).__name__}: {e}")
+        print(f"  {key}: {len(rows)} Lane openings ({fetcher.calls - before} requests)")
+        name = src.get("employer") or rules.employer_from_url(f"https://{src['host']}/{src.get('tenant', '')}")
+        for r in rows:
+            emp = name or r.get("org") or ""
+            if not src.get("employer") and r.get("org"):
+                src["employer"] = emp = r["org"]
+            got.append({"title": r["title"], "city": r["city"], "url": r["url"],
+                        "source": "Employer direct", "days": r["days"],
+                        "soc": title_soc.get(r["title"].lower(), ""), "occupation": "",
+                        "snippet": r.get("snippet", ""), "employer": emp, "direct": True})
+    SOURCES.write_text(json.dumps(sources, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    with SOURCES_CSV.open("w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["Employer", "Hiring system", "Address", "Lane openings last night", "Status", "First seen", "Last run"])
+        for key, src in sorted(sources.items(), key=lambda kv: -kv[1].get("lane_openings", 0)):
+            w.writerow([src.get("employer") or key, src["platform"], f"https://{src['host']}/{src.get('site', src.get('tenant', ''))}",
+                        src.get("lane_openings", 0), src.get("status", ""), src.get("first_seen", ""), src.get("last_run", "")])
+
+    # Merge: one row per posting, direct first.
+    seen, merged = {}, []
+    for j in got:
+        k = direct.posting_key(j["url"])
+        if k not in seen:
+            seen[k] = j
+            merged.append(j)
+    norm = lambda t: re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()  # noqa: E731
+    direct_tc = {(j["employer"].lower(), norm(j["title"]), j["city"]) for j in merged if j["employer"]}
+    replaced = 0
+    for j in qi_jobs:
+        k = direct.posting_key(j["url"])
+        if k in seen:
+            d = seen[k]
+            d["soc"] = d["soc"] or j["soc"]
+            d["occupation"] = j.get("occupation", "")
+            d["snippet"] = d["snippet"] or j["snippet"]
+            d["days"] = j["days"] if d["days"] is None else d["days"]
+            replaced += 1
+            continue
+        if j["route"] == "WorkSource Oregon listing" and j["employer"] and \
+                (j["employer"].lower(), norm(j["title"]), j["city"]) in direct_tc:
+            replaced += 1
+            continue
+        merged.append(j)
+    print(f"Direct: {len(got)} postings from {sum(1 for s in sources.values() if s.get('status') == 'ok')} "
+          f"hiring systems; replaced {replaced} secondhand copies.")
+    return merged
 
 
 def update_employers(jobs, today):
@@ -169,8 +307,9 @@ def update_employers(jobs, today):
         e["open_now"] += 1
         if j["city"] not in e["cities_now"]:
             e["cities_now"].append(j["city"])
-        if j["route"] not in e["found_via"]:
-            e["found_via"].append(j["route"])
+        via = "Pulled directly from its hiring system" if j.get("direct") else j["route"]
+        if via not in e["found_via"]:
+            e["found_via"].append(via)
         if plat and not e["platform"]:
             e["platform"] = plat
             e["careers_page"] = rules.careers_page(j["url"], plat)
@@ -223,6 +362,10 @@ def main():
 
     jobs = [tag(j) for j in dedupe(raw)]
     today = dt.date.today().isoformat()
+    if not args.fixture:
+        fetcher = direct.Fetcher()
+        auto_name_domains(jobs, fetcher, today)
+        jobs = [tag(j) for j in pull_direct(jobs, fetcher, today)]
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
 
     live_ids = set()
@@ -234,6 +377,9 @@ def main():
         state[jid] = rec
         j["id"] = jid
         j["first_seen"] = rec["first_seen"]
+        j["dated"] = j.get("days") is not None
+        if not j["dated"]:  # hiring system gives no posting date: count from the night we first saw it
+            j["days"] = (dt.date.fromisoformat(today) - dt.date.fromisoformat(rec["first_seen"])).days
     for jid, rec in state.items():
         if jid not in live_ids:
             rec["misses"] = rec.get("misses", 0) + 1
@@ -254,8 +400,8 @@ def main():
         "count": len(show),
         "pulled": len(jobs),
         "show_days": SHOW_DAYS,
-        "jobs": [{k: j[k] for k in ("id", "title", "city", "employer", "type", "industries", "rural", "priority",
-                                    "route", "source", "days", "first_seen", "soc", "occupation", "url")}
+        "jobs": [{k: j.get(k, "") for k in ("id", "title", "city", "employer", "type", "industries", "rural", "priority",
+                                    "route", "source", "days", "dated", "first_seen", "soc", "occupation", "url")}
                  | {"snippet": j["snippet"][:160]} for j in show],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
