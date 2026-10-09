@@ -284,7 +284,7 @@ def pull_direct(qi_jobs, fetcher, today):
             d["days"] = j["days"] if d["days"] is None else d["days"]
             replaced += 1
             continue
-        if j["route"] == "WorkSource Oregon listing" and j["employer"] and \
+        if j["route"] != "Employer's hiring site" and j["employer"] and \
                 (j["employer"].lower(), norm(j["title"]), j["city"]) in direct_tc:
             replaced += 1
             continue

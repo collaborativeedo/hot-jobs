@@ -328,7 +328,10 @@ def pull_neogov(f, src):
                 loc = plain((li.select_one(".job-location") or a).get_text())
                 if NOT_LANE.search(loc):
                     continue
-                org = plain((li.select_one(".job-organization") or a).get_text(), 120)
+                o = li.select_one(".job-organization")
+                org = plain(o.get_text(), 120) if o else ""
+                org = re.sub(r"\s*\((dba [^)]*|OR|Oregon)\)", "", org)
+                org = re.sub(r",\s*(OR|Oregon)$", "", org).strip()
                 jobs.append({"title": plain(a.get_text(), 200), "city": lane_city(loc) or lane_city(loc + ", OR") or "Lane County",
                              "url": f"https://{src['host']}{a['href']}", "days": None, "snippet": "", "org": org})
             if not items or not new:
