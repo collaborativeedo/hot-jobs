@@ -1,4 +1,12 @@
 {
+ "apply.tailoredbrands.com": {
+  "checked": "2026-10-12",
+  "name": "Careers at Tailored Brands"
+ },
+ "ats.rippling.com": {
+  "checked": "2026-10-12",
+  "name": "Rippling"
+ },
  "careers.americancampus.com": {
   "checked": "2026-10-09",
   "name": "Jobs at American Campus Communities"
@@ -11,21 +19,53 @@
   "checked": "2026-10-09",
   "name": ""
  },
+ "careers.hibu.com": {
+  "checked": "2026-10-12",
+  "name": "Hibu"
+ },
+ "careers.mici.com": {
+  "checked": "2026-10-12",
+  "name": "Madden Industrial Craftsmen"
+ },
  "careers.oregonpa.org": {
   "checked": "2026-10-09",
   "name": ""
+ },
+ "careers.questdiagnostics.com": {
+  "checked": "2026-10-12",
+  "name": "Working at Quest Diagnostics"
+ },
+ "careers.usoncology.com": {
+  "checked": "2026-10-12",
+  "name": "US Oncology"
  },
  "jobs.performancehealth.com": {
   "checked": "2026-10-09",
   "name": "Working at Performance Health Holdings"
  },
+ "jobs.tjx.com": {
+  "checked": "2026-10-12",
+  "name": "TJX Companies"
+ },
  "rdsolutionscareers.workgr8.com": {
   "checked": "2026-10-09",
   "name": "Careers at RDSolutions"
  },
+ "recruiting.southernglazers.com": {
+  "checked": "2026-10-12",
+  "name": "Southern Glazers Wine and Spirits"
+ },
+ "www.careercircle.com": {
+  "checked": "2026-10-12",
+  "name": "Where Skills Go To Work"
+ },
  "www.gqr.com": {
   "checked": "2026-10-09",
   "name": ""
+ },
+ "www.jobsinlogistics.com": {
+  "checked": "2026-10-12",
+  "name": "JobsInLogistics.com"
  },
  "www.transittalent.com": {
   "checked": "2026-10-09",
