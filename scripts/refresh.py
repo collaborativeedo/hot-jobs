@@ -37,7 +37,9 @@ TRACE_CSV = ROOT / "docs" / "to-trace.csv"
 PULLED = ROOT / "data" / "pulled.json"
 SOURCES = ROOT / "data" / "sources.json"        # hiring systems learned automatically, pulled directly each night
 DOMAIN_NAMES = ROOT / "data" / "domain-names.json"  # employer names read from careers sites' own pages
-SOURCES_CSV = ROOT / "docs" / "sources.csv"  # every posting from the last pull, before the widget filter
+SOURCES_CSV = ROOT / "docs" / "sources.csv"
+RUNLOG = ROOT / "data" / "run-log.json"    # what each nightly run did, including errors
+QI_LAST = ROOT / "data" / "qualityinfo-last.json"  # last good QualityInfo pull, used if QualityInfo is down  # every posting from the last pull, before the widget filter
 
 ENDPOINT = "https://www.qualityinfo.org/jfind"
 PARAMS = {
@@ -101,16 +103,28 @@ def parse_page(html):
     return total, jobs
 
 
-def pull_live():
-    jobs, last_sig = [], None
+def pull_live(log):
+    """Every Lane County posting from QualityInfo. Retries each page before giving up."""
+    jobs, last_sig, total = [], None, None
     session = requests.Session()
     session.headers.update(HEADERS)
     for page in range(1, 500):
         params = dict(PARAMS, jobFindDays=str(DAYS), jobFindPageNumber=str(page))
-        r = session.get(ENDPOINT, params=params, timeout=60)
-        r.raise_for_status()
+        for attempt in range(1, 4):
+            try:
+                r = session.get(ENDPOINT, params=params, timeout=60)
+                r.raise_for_status()
+                break
+            except requests.RequestException as e:
+                log.append(f"QualityInfo page {page}, try {attempt}: {type(e).__name__}: {str(e)[:200]}")
+                if attempt == 3:
+                    raise
+                time.sleep(30 * attempt)
         total, batch = parse_page(r.text)
         if not batch:
+            if page == 1:
+                log.append(f"QualityInfo page 1 had no listings (HTTP {r.status_code}, {len(r.text)} bytes): "
+                           + re.sub(r"\s+", " ", r.text)[:300])
             break
         sig = "|".join(j["title"] + j["url"] for j in batch)
         if sig == last_sig:  # QualityInfo repeats the last page past the end
@@ -120,7 +134,15 @@ def pull_live():
         if total and len(jobs) >= total:
             break
         time.sleep(PAUSE)
+    log.append(f"QualityInfo: {len(jobs)} listings from {page} pages (reported {total}).")
     return total, jobs
+
+
+def write_run_log(entry):
+    runs = json.loads(RUNLOG.read_text()) if RUNLOG.exists() else []
+    runs = (runs + [entry])[-40:]
+    RUNLOG.parent.mkdir(parents=True, exist_ok=True)
+    RUNLOG.write_text(json.dumps(runs, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def job_id(j):
@@ -351,6 +373,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fixture", help="parse a saved results page instead of pulling live")
     args = ap.parse_args()
+    log = []
+    run_date = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
 
     if args.fixture:
         # Offline test: write to tests/out/ so real data is never touched.
@@ -365,10 +389,22 @@ def main():
             f.unlink(missing_ok=True)
         total, raw = parse_page(Path(args.fixture).read_text(encoding="utf-8"))
     else:
-        total, raw = pull_live()
+        try:
+            total, raw = pull_live(log)
+        except Exception as e:  # noqa: BLE001
+            log.append(f"QualityInfo pull failed: {type(e).__name__}: {str(e)[:300]}")
+            total, raw = None, []
+        if raw:
+            QI_LAST.write_text(json.dumps({"date": run_date, "total": total, "jobs": raw}, ensure_ascii=False), encoding="utf-8")
+        elif QI_LAST.exists():
+            # QualityInfo is down or changed: keep going with the last good list so direct pulls still refresh.
+            last = json.loads(QI_LAST.read_text())
+            total, raw = last["total"], last["jobs"]
+            log.append(f"Using the last good QualityInfo list from {last['date']} ({len(raw)} listings).")
 
     if not raw:
         # Never overwrite good data with an empty pull: fail loudly so the run shows red.
+        write_run_log({"date": run_date, "ok": False, "notes": log})
         sys.exit("No listings parsed. QualityInfo may have changed its page; check PARAMS and parse_page().")
 
     jobs = [tag(j) for j in dedupe(raw)]
@@ -423,6 +459,9 @@ def main():
                                   for j in jobs], ensure_ascii=False, indent=0), encoding="utf-8")
     n_emp = update_employers(jobs, today)
     print(f"Employers on record: {n_emp}.")
+    if not args.fixture:
+        log.append(f"Widget: {len(show)} shown of {len(jobs)} postings.")
+        write_run_log({"date": run_date, "ok": True, "notes": log})
     print(f"Widget shows {len(show)} (up to {SHOW_DAYS} days old, direct links only).")
     print(f"QualityInfo reported {total}; parsed {len(raw)}; kept {len(jobs)} after duplicates; "
           f"{sum(1 for r in state.values() if 'closed' in r)} closed to date.")

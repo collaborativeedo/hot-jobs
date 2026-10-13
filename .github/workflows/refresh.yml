@@ -36,7 +36,7 @@ jobs:
         run: python scripts/refresh.py
 
       - name: Save results to the repository
-        if: github.event_name != 'push'
+        if: always() && github.event_name != 'push'
         run: |
           git config user.name "hot-jobs-bot"
           git config user.email "hot-jobs-bot@users.noreply.github.com"
