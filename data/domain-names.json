@@ -7,6 +7,10 @@
   "checked": "2026-10-12",
   "name": "Rippling"
  },
+ "careercenter.rxinsider.com": {
+  "checked": "2026-10-19",
+  "name": "Pharmacy500 Career Center"
+ },
  "careers.amedisys.com": {
   "checked": "2026-10-13",
   "name": "Home Health and Hospice Careers | Amedisys"
@@ -27,6 +31,14 @@
   "checked": "2026-10-12",
   "name": "Hibu"
  },
+ "careers.hrblock.com": {
+  "checked": "2026-10-19",
+  "name": "H&R Block"
+ },
+ "careers.jamanetwork.com": {
+  "checked": "2026-10-19",
+  "name": ""
+ },
  "careers.mici.com": {
   "checked": "2026-10-12",
   "name": "Madden Industrial Craftsmen"
@@ -39,6 +51,10 @@
   "checked": "2026-10-12",
   "name": "Working at Quest Diagnostics"
  },
+ "careers.stryker.com": {
+  "checked": "2026-10-19",
+  "name": "Jobs and Careers at Stryker | Stryker"
+ },
  "careers.usoncology.com": {
   "checked": "2026-10-12",
   "name": "US Oncology"
@@ -47,13 +63,33 @@
   "checked": "2026-10-13",
   "name": "Walmart"
  },
+ "careers.wasteconnections.com": {
+  "checked": "2026-10-19",
+  "name": "Waste Connections"
+ },
+ "carelinxcareers.sharecare.com": {
+  "checked": "2026-10-19",
+  "name": ""
+ },
  "confidential.careers": {
   "checked": "2026-10-15",
   "name": "Confidential"
  },
+ "jobs.fastenal.com": {
+  "checked": "2026-10-19",
+  "name": "Fastenal"
+ },
+ "jobs.military.com": {
+  "checked": "2026-10-19",
+  "name": "Military.com Job Board"
+ },
  "jobs.performancehealth.com": {
   "checked": "2026-10-09",
   "name": "Working at Performance Health Holdings"
+ },
+ "jobs.spectrum.com": {
+  "checked": "2026-10-19",
+  "name": "Join Spectrum"
  },
  "jobs.statefarm.com": {
   "checked": "2026-10-16",
@@ -83,6 +119,10 @@
   "checked": "2026-10-13",
   "name": ""
  },
+ "www.att.jobs": {
+  "checked": "2026-10-19",
+  "name": "AT&T Careers: Shape the future of connectivity"
+ },
  "www.careercircle.com": {
   "checked": "2026-10-12",
   "name": "Where Skills Go To Work"
@@ -102,6 +142,10 @@
  "www.jobsinlogistics.com": {
   "checked": "2026-10-12",
   "name": "JobsInLogistics.com"
+ },
+ "www.mcsewon.com": {
+  "checked": "2026-10-19",
+  "name": "McKenzie SewOn"
  },
  "www.transittalent.com": {
   "checked": "2026-10-09",
