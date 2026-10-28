@@ -20,22 +20,22 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "4e467d84e52b",
-"title": "Mental Health Associate",
-"city": "Lane County",
-"employer": "Lane County",
-"url": "https://www.governmentjobs.com/jobs/5508926-0/mental-health-associate",
-"days": 7,
-"soc": "311133",
-"route": "Employer's hiring site"
-},
-{
 "id": "cd587211595c",
 "title": "Mental Health Associate",
 "city": "Lane County",
 "employer": "Lane County",
 "url": "https://www.governmentjobs.com/jobs/5509128-0/mental-health-associate",
 "days": 8,
+"soc": "311133",
+"route": "Employer's hiring site"
+},
+{
+"id": "4e467d84e52b",
+"title": "Mental Health Associate",
+"city": "Lane County",
+"employer": "Lane County",
+"url": "https://www.governmentjobs.com/jobs/5508926-0/mental-health-associate",
+"days": 7,
 "soc": "311133",
 "route": "Employer's hiring site"
 },
@@ -900,6 +900,16 @@
 "route": "Employer's hiring site"
 },
 {
+"id": "ca4c24f483f0",
+"title": "Deli Manger Springfield Oregon",
+"city": "Springfield",
+"employer": "Albertsons",
+"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/786580",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
 "id": "2aa09560ab09",
 "title": "Cake Decorator",
 "city": "Springfield",
@@ -987,6 +997,16 @@
 "url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/W724056",
 "days": 135,
 "soc": "291051",
+"route": "Employer's hiring site"
+},
+{
+"id": "440faefba602",
+"title": "General Merchandise Manager Florence Oregon",
+"city": "Florence",
+"employer": "Albertsons",
+"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/786592",
+"days": 0,
+"soc": "",
 "route": "Employer's hiring site"
 },
 {
