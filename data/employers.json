@@ -14,7 +14,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Workday",
-  "total_seen": 6
+  "total_seen": 7
  },
  "2020Companies": {
   "careers_page": "https://2020companies.wd1.myworkdayjobs.com/external_careers",
@@ -58,7 +58,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Greenhouse",
-  "total_seen": 33
+  "total_seen": 34
  },
  "ABC Supply": {
   "careers_page": "https://abcsupply.wd1.myworkdayjobs.com/abcsupplycareers",
@@ -75,7 +75,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "ABM US": {
   "careers_page": "https://eiqg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001",
@@ -92,50 +92,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Oracle Recruiting",
-  "total_seen": 8
- },
- "ABOUT GATEWAY ADULT RESIDENTIAL CARE We": {
-  "careers_page": "",
-  "cities_now": [
-   "Springfield"
-  ],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "Reposted by a job board"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 1,
-  "platform": "",
-  "total_seen": 8
- },
- "ABOUT SHELTERCARE ShelterCare": {
-  "careers_page": "",
-  "cities_now": [
-   "Eugene"
-  ],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "WorkSource Oregon listing"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 1,
-  "platform": "",
-  "total_seen": 8
- },
- "ABOUT THE POSITION The Quality Technician": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "Reposted by a job board"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 2
+  "total_seen": 9
  },
  "ABTS Inc": {
   "careers_page": "",
@@ -150,9 +107,9 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
- "AIC Insurance Agency AIC Insurance Agency": {
+ "AIC Insurance Agency": {
   "careers_page": "",
   "cities_now": [
    "Eugene"
@@ -164,6 +121,19 @@
   "industry": "",
   "last_seen": "2026-10-28",
   "open_now": 1,
+  "platform": "",
+  "total_seen": 1
+ },
+ "AIC Insurance Agency AIC Insurance Agency": {
+  "careers_page": "",
+  "cities_now": [],
+  "first_seen": "2026-10-28",
+  "found_via": [
+   "Reposted by a job board"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-28",
+  "open_now": 0,
   "platform": "",
   "total_seen": 8
  },
@@ -180,7 +150,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "AT&T Careers: Shape the future of connectivity": {
   "careers_page": "https://www.att.jobs",
@@ -209,7 +179,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Aaron's Sales Associates": {
   "careers_page": "",
@@ -294,7 +264,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Paylocity",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Advantage Solutions": {
   "careers_page": "",
@@ -311,7 +281,7 @@
   "last_seen": "2026-10-28",
   "open_now": 8,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Adventist Health Portland": {
   "careers_page": "",
@@ -326,7 +296,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Aggregate Resource Industries": {
   "careers_page": "",
@@ -341,7 +311,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Albertsons": {
   "careers_page": "https://eofd.fa.us6.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1001",
@@ -363,7 +333,7 @@
   "last_seen": "2026-10-28",
   "open_now": 64,
   "platform": "Oracle Recruiting",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Albertsons Companies": {
   "careers_page": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001",
@@ -381,7 +351,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Oracle Recruiting",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Alex's Garage": {
   "careers_page": "",
@@ -409,7 +379,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Allen Media Broadcasting": {
   "careers_page": "https://allenmediabroadcasting.com",
@@ -425,7 +395,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Allied Universal": {
   "careers_page": "https://jobs.aus.com",
@@ -443,7 +413,7 @@
   "last_seen": "2026-10-28",
   "open_now": 10,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Alsco": {
   "careers_page": "https://recruiting2.ultipro.com/als1001alsco/JobBoard/0a8883de-4664-4282-8752-c5658e72bf32",
@@ -461,7 +431,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "UKG (UltiPro)",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Amedisys": {
   "careers_page": "",
@@ -477,7 +447,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Amergis": {
   "careers_page": "",
@@ -493,7 +463,7 @@
   "last_seen": "2026-10-28",
   "open_now": 6,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "AmeriVet Veterinary Partners": {
   "careers_page": "https://amerivet.wd5.myworkdayjobs.com/amerivet",
@@ -509,7 +479,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Workday",
-  "total_seen": 6
+  "total_seen": 7
  },
  "American Red Cross": {
   "careers_page": "https://americanredcross.wd1.myworkdayjobs.com/american_red_cross_careers",
@@ -525,7 +495,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Workday",
-  "total_seen": 6
+  "total_seen": 7
  },
  "American Traveler": {
   "careers_page": "",
@@ -540,7 +510,7 @@
   "last_seen": "2026-10-28",
   "open_now": 6,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Americanredcross": {
   "careers_page": "https://americanredcross.wd1.myworkdayjobs.com/american_red_cross_careers",
@@ -584,7 +554,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Apex": {
   "careers_page": "",
@@ -600,7 +570,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Apply on NHS": {
   "careers_page": "https://www.jobs.nhs.uk",
@@ -616,7 +586,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 20
+  "total_seen": 21
  },
  "Arclin": {
   "careers_page": "",
@@ -631,7 +601,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Asplundh": {
   "careers_page": "https://careers.asplundh.com",
@@ -647,7 +617,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Assistant Business Manager, Montana Digital Academy": {
   "careers_page": "",
@@ -690,7 +660,22 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
+ },
+ "Astec": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "first_seen": "2026-10-28",
+  "found_via": [
+   "Reposted by a job board"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-28",
+  "open_now": 1,
+  "platform": "",
+  "total_seen": 1
  },
  "Atkore International": {
   "careers_page": "",
@@ -705,7 +690,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Atria Senior Living": {
   "careers_page": "https://www.atriacareers.com",
@@ -721,7 +706,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 30
+  "total_seen": 31
  },
  "Ausland Group": {
   "careers_page": "",
@@ -736,7 +721,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "AutoZone": {
   "careers_page": "https://egud.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
@@ -757,7 +742,7 @@
   "last_seen": "2026-10-28",
   "open_now": 16,
   "platform": "Oracle Recruiting",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Auxiliary Program Activity Leader": {
   "careers_page": "",
@@ -816,7 +801,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "BEST Crowd Management": {
   "careers_page": "https://workatbest.com",
@@ -832,7 +817,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 29
+  "total_seen": 30
  },
  "BPAS": {
   "careers_page": "",
@@ -847,22 +832,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
- },
- "BUILT TO CONNECT Astec": {
-  "careers_page": "",
-  "cities_now": [
-   "Eugene"
-  ],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "Reposted by a job board"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 1,
-  "platform": "",
-  "total_seen": 8
+  "total_seen": 34
  },
  "Baker Tilly": {
   "careers_page": "",
@@ -878,7 +848,7 @@
   "last_seen": "2026-10-28",
   "open_now": 8,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Bank of America": {
   "careers_page": "https://careers.bankofamerica.com",
@@ -907,7 +877,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Banner Bank": {
   "careers_page": "",
@@ -940,7 +910,7 @@
   "last_seen": "2026-10-28",
   "open_now": 11,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Batteries Plus": {
   "careers_page": "",
@@ -955,7 +925,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Batteries Plus Bulbs": {
   "careers_page": "",
@@ -970,7 +940,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Bayer": {
   "careers_page": "",
@@ -986,7 +956,7 @@
   "last_seen": "2026-10-28",
   "open_now": 5,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Beauty Bar Salon": {
   "careers_page": "",
@@ -1001,7 +971,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Benson Health Clinic": {
   "careers_page": "",
@@ -1016,7 +986,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Best Buy": {
   "careers_page": "",
@@ -1032,7 +1002,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Best Septic": {
   "careers_page": "",
@@ -1047,7 +1017,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Bethel Bethel Schools": {
   "careers_page": "",
@@ -1062,7 +1032,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Bethel School District": {
   "careers_page": "https://bethelor.tedk12.com",
@@ -1077,9 +1047,9 @@
   ],
   "industry": "",
   "last_seen": "2026-10-28",
-  "open_now": 9,
+  "open_now": 8,
   "platform": "Employer website",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Bethel Schools": {
   "careers_page": "",
@@ -1095,7 +1065,7 @@
   "last_seen": "2026-10-28",
   "open_now": 7,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Bi-Mart": {
   "careers_page": "https://careers-bimart.icims.com/jobs",
@@ -1115,7 +1085,7 @@
   "last_seen": "2026-10-28",
   "open_now": 5,
   "platform": "iCIMS",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Bigfoot Beverages": {
   "careers_page": "",
@@ -1130,7 +1100,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Birch Avenue Dental": {
   "careers_page": "",
@@ -1160,7 +1130,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Oracle Recruiting",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Blanton Turner": {
   "careers_page": "",
@@ -1176,7 +1146,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Paylocity",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Bounds Hay": {
   "careers_page": "",
@@ -1191,7 +1161,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "BoxLunch": {
   "careers_page": "",
@@ -1221,7 +1191,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Workday",
-  "total_seen": 26
+  "total_seen": 27
  },
  "Brightonhospice": {
   "careers_page": "https://careers-brightonhospice.icims.com/jobs",
@@ -1237,7 +1207,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "iCIMS",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Brightside Health": {
   "careers_page": "https://careers.hartfordbar.org",
@@ -1253,7 +1223,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Brightspring": {
   "careers_page": "https://careers-brightspring.icims.com/jobs",
@@ -1295,7 +1265,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Broad River Retail": {
   "careers_page": "https://www.paycomonline.net/v4/ats/web.php/portal/E4C2B28D385EF20D6809512B89ECBCF4",
@@ -1311,7 +1281,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Paycom",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Broadway Apothecary": {
   "careers_page": "",
@@ -1326,7 +1296,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Buc1007Bucc": {
   "careers_page": "https://recruiting2.ultipro.com/buc1007bucc/JobBoard/7bae581a-2d4c-4084-95b1-d533dea8a3b1",
@@ -1343,7 +1313,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "UKG (UltiPro)",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Built In: Job Search & Company Research": {
   "careers_page": "https://builtin.com",
@@ -1390,7 +1360,7 @@
   "last_seen": "2026-10-28",
   "open_now": 20,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "C&K Market": {
   "careers_page": "",
@@ -1405,7 +1375,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "C.R. England": {
   "careers_page": "",
@@ -1420,7 +1390,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "C0001096615P": {
   "careers_page": "",
@@ -1436,7 +1406,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "SAP SuccessFactors",
-  "total_seen": 8
+  "total_seen": 9
  },
  "CBRE": {
   "careers_page": "https://careers.cbre.com",
@@ -1454,7 +1424,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "CDM Smith": {
   "careers_page": "",
@@ -1469,7 +1439,7 @@
   "last_seen": "2026-10-28",
   "open_now": 13,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "CFH Controls": {
   "careers_page": "",
@@ -1484,7 +1454,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "COTTON ON": {
   "careers_page": "https://ekxm.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX",
@@ -1500,7 +1470,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Oracle Recruiting",
-  "total_seen": 8
+  "total_seen": 9
  },
  "CVS Health": {
   "careers_page": "",
@@ -1517,7 +1487,7 @@
   "last_seen": "2026-10-28",
   "open_now": 5,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Camping World": {
   "careers_page": "https://campingworld.wd5.myworkdayjobs.com/en-us/jobs",
@@ -1536,7 +1506,7 @@
   "last_seen": "2026-10-28",
   "open_now": 6,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Canyon Creek Financial": {
   "careers_page": "",
@@ -1551,7 +1521,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Careers at Bristol Hospice": {
   "careers_page": "https://bristolhospice.workgr8.com",
@@ -1567,7 +1537,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Employer website",
-  "total_seen": 14
+  "total_seen": 15
  },
  "Careers at Grifols": {
   "careers_page": "https://jobsearch.grifols.com",
@@ -1638,7 +1608,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Cascade Health": {
   "careers_page": "https://www.cascadehealth.org",
@@ -1655,7 +1625,7 @@
   "last_seen": "2026-10-28",
   "open_now": 14,
   "platform": "Employer website",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Castle Megastore Group": {
   "careers_page": "",
@@ -1670,7 +1640,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Cbtnuggets": {
   "careers_page": "",
@@ -1686,7 +1656,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Lever",
-  "total_seen": 13
+  "total_seen": 14
  },
  "Celsius": {
   "careers_page": "",
@@ -1716,7 +1686,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Channelpartners": {
   "careers_page": "https://careers-channelpartners.icims.com/jobs",
@@ -1732,7 +1702,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "iCIMS",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Charlie Health": {
   "careers_page": "",
@@ -1748,7 +1718,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Chick-fil-A Springfield (Gateway)": {
   "careers_page": "https://www.workstream.us",
@@ -1762,9 +1732,9 @@
   ],
   "industry": "",
   "last_seen": "2026-10-28",
-  "open_now": 3,
+  "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 1
+  "total_seen": 2
  },
  "Chipotle": {
   "careers_page": "",
@@ -1781,7 +1751,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Cinemark": {
   "careers_page": "https://careers.cinemark.com",
@@ -1799,7 +1769,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Cintas": {
   "careers_page": "https://careers.cintas.com",
@@ -1817,7 +1787,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Circana": {
   "careers_page": "",
@@ -1860,7 +1830,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 6
+  "total_seen": 7
  },
  "City of Eugene": {
   "careers_page": "",
@@ -1876,9 +1846,9 @@
   ],
   "industry": "Public sector",
   "last_seen": "2026-10-28",
-  "open_now": 29,
+  "open_now": 30,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 34
+  "total_seen": 35
  },
  "City of Springfield": {
   "careers_page": "",
@@ -1894,7 +1864,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 27
+  "total_seen": 28
  },
  "City of Springfield, Oregon": {
   "careers_page": "",
@@ -1953,7 +1923,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "UKG Ready",
-  "total_seen": 27
+  "total_seen": 28
  },
  "Clarvida": {
   "careers_page": "https://jobs.clarvida.com",
@@ -1971,7 +1941,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Clean Harbors": {
   "careers_page": "https://careers.cleanharbors.com",
@@ -1987,20 +1957,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 27
- },
- "Click HERE Providence": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "Reposted by a job board"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 1
+  "total_seen": 28
  },
  "Client": {
   "careers_page": "",
@@ -2015,7 +1972,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Client Service Representative We": {
   "careers_page": "",
@@ -2030,7 +1987,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Clinic Coordinator": {
   "careers_page": "",
@@ -2061,7 +2018,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "ADP",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Coconino Community College": {
   "careers_page": "",
@@ -2090,7 +2047,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Columbia Bank": {
   "careers_page": "",
@@ -2105,7 +2062,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Columbia Hospitality (Valley River Inn)": {
   "careers_page": "https://jobs.dayforcehcm.com/en-US/chi/CANDIDATEPORTAL",
@@ -2122,7 +2079,7 @@
   "last_seen": "2026-10-28",
   "open_now": 7,
   "platform": "Dayforce",
-  "total_seen": 34
+  "total_seen": 35
  },
  "ColumbiaCare Services": {
   "careers_page": "",
@@ -2137,7 +2094,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Columbiabank": {
   "careers_page": "https://columbiabank.wd108.myworkdayjobs.com/columbia",
@@ -2167,7 +2124,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Workday",
-  "total_seen": 28
+  "total_seen": 29
  },
  "Community Care Partners": {
   "careers_page": "",
@@ -2182,7 +2139,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Con1039Consh": {
   "careers_page": "https://recruiting2.ultipro.com/con1039consh/JobBoard/dfaeb5a3-4e9b-409b-a3ee-58878b2fbda9",
@@ -2198,7 +2155,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "UKG (UltiPro)",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Confidential": {
   "careers_page": "https://confidential.careers",
@@ -2214,7 +2171,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 21
+  "total_seen": 22
  },
  "Connections NW": {
   "careers_page": "",
@@ -2242,7 +2199,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Coquille Indian Tribe": {
   "careers_page": "",
@@ -2257,7 +2214,7 @@
   "last_seen": "2026-10-28",
   "open_now": 6,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Core Healing": {
   "careers_page": "",
@@ -2272,7 +2229,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Cornerstone Associates": {
   "careers_page": "",
@@ -2287,7 +2244,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Cove Church": {
   "careers_page": "",
@@ -2302,7 +2259,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Creative Alignments": {
   "careers_page": "https://www.creativealignments.com",
@@ -2331,7 +2288,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Crete Carrier": {
   "careers_page": "",
@@ -2346,7 +2303,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "DEPCOM Power": {
   "careers_page": "",
@@ -2362,7 +2319,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "DESCRIPTION Who We Are We": {
   "careers_page": "",
@@ -2378,7 +2335,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Paychex",
-  "total_seen": 8
+  "total_seen": 9
  },
  "DICK'S Sporting Goods": {
   "careers_page": "https://dickssportinggoods.wd1.myworkdayjobs.com/en-us/dsg",
@@ -2396,7 +2353,7 @@
   "last_seen": "2026-10-28",
   "open_now": 5,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "DOWL": {
   "careers_page": "https://recruiting2.ultipro.com/dow1001dowl/JobBoard/e88601aa-9d30-45ca-b6e4-610b5a4d6ead",
@@ -2412,7 +2369,7 @@
   "last_seen": "2026-10-28",
   "open_now": 14,
   "platform": "UKG (UltiPro)",
-  "total_seen": 8
+  "total_seen": 9
  },
  "DaVita": {
   "careers_page": "https://davita.wd1.myworkdayjobs.com/en-US/DKC_External",
@@ -2441,7 +2398,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Dal-Tile": {
   "careers_page": "",
@@ -2457,7 +2414,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Danaher": {
   "careers_page": "https://jobs.danaher.com",
@@ -2474,7 +2431,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 30
+  "total_seen": 31
  },
  "Danone": {
   "careers_page": "https://enusapply-danone.icims.com/jobs",
@@ -2490,7 +2447,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "iCIMS",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Datalogics": {
   "careers_page": "",
@@ -2506,7 +2463,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "SAP SuccessFactors",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Davies Risk Services": {
   "careers_page": "",
@@ -2521,7 +2478,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Davita": {
   "careers_page": "https://davita.wd1.myworkdayjobs.com/en-US/DKC_External",
@@ -2552,7 +2509,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Dayforce",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Devine Business Group": {
   "careers_page": "",
@@ -2567,7 +2524,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Didlake": {
   "careers_page": "https://myjobs.adp.com/didlakecareers/cx",
@@ -2596,7 +2553,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "DocuTRAK Imaging": {
   "careers_page": "",
@@ -2611,7 +2568,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Dollar General": {
   "careers_page": "https://ibxwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
@@ -2633,7 +2590,7 @@
   "last_seen": "2026-10-28",
   "open_now": 45,
   "platform": "Oracle Recruiting",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Dollar General Corporation": {
   "careers_page": "",
@@ -2677,7 +2634,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Domino's": {
   "careers_page": "",
@@ -2695,7 +2652,7 @@
   "last_seen": "2026-10-28",
   "open_now": 8,
   "platform": "SmartRecruiters",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Done Right Trucking (Redgo)": {
   "careers_page": "",
@@ -2712,7 +2669,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "DrHouse": {
   "careers_page": "",
@@ -2727,7 +2684,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Driveline": {
   "careers_page": "",
@@ -2742,7 +2699,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Drivers Wanted We": {
   "careers_page": "",
@@ -2757,7 +2714,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Duluth Trading Co.": {
   "careers_page": "https://careers-duluthtrading.icims.com/jobs",
@@ -2789,7 +2746,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "SmartRecruiters",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Dutch Bros": {
   "careers_page": "https://dutchbros.wd1.myworkdayjobs.com/dbshops",
@@ -2805,7 +2762,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Workday",
-  "total_seen": 6
+  "total_seen": 7
  },
  "Dutchbros": {
   "careers_page": "https://dutchbros.wd1.myworkdayjobs.com/dbshops",
@@ -2835,58 +2792,6 @@
   "platform": "SAP SuccessFactors",
   "total_seen": 4
  },
- "EEO Statement C&K Market Inc": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "Reposted by a job board"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 1
- },
- "EEO Statement HCSG": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "WorkSource Oregon listing"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 1
- },
- "EEOC Statement Batteries Plus": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "WorkSource Oregon listing"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 1
- },
- "EEOC Statement New Horizons": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "Reposted by a job board"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 1
- },
  "EWEB (Eugene Water & Electric Board)": {
   "careers_page": "https://recruiting.ultipro.com/eug1001eweb/JobBoard/23d62d3c-f909-4124-8b2c-4aa0d61f4f1d",
   "cities_now": [
@@ -2901,7 +2806,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "UKG (UltiPro)",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Early Autism Services": {
   "careers_page": "",
@@ -2916,7 +2821,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "East West Tea": {
   "careers_page": "",
@@ -2931,7 +2836,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "East West Tea Company": {
   "careers_page": "",
@@ -2962,7 +2867,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Elite Relocation Services": {
   "careers_page": "",
@@ -3005,7 +2910,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Paylocity",
-  "total_seen": 1
+  "total_seen": 2
  },
  "Enterprise Mobility": {
   "careers_page": "https://us-erac.icims.com/jobs",
@@ -3022,46 +2927,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "iCIMS",
-  "total_seen": 8
- },
- "Equal Employment Opportunity HD Supply": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "WorkSource Oregon listing"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 1
- },
- "Equal Employment Opportunity Policy We": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "Reposted by a job board"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 1
- },
- "Equal Employment Opportunity Verizon": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "WorkSource Oregon listing"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 1
+  "total_seen": 9
  },
  "Equity LifeStyle Properties": {
   "careers_page": "https://equitylifestyleproperties.wd5.myworkdayjobs.com/els",
@@ -3078,7 +2944,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Workday",
-  "total_seen": 26
+  "total_seen": 27
  },
  "Equitylifestyleproperties": {
   "careers_page": "https://equitylifestyleproperties.wd5.myworkdayjobs.com/els",
@@ -3109,7 +2975,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "SmartRecruiters",
-  "total_seen": 8
+  "total_seen": 9
  },
  "EssilorLuxottica": {
   "careers_page": "https://careers.essilorluxottica.com",
@@ -3141,9 +3007,9 @@
   ],
   "industry": "Public sector",
   "last_seen": "2026-10-28",
-  "open_now": 40,
+  "open_now": 41,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Eugene School District 4J (dba Lane County School District) (OR)": {
   "careers_page": "",
@@ -3172,7 +3038,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Facilities Engineer": {
   "careers_page": "",
@@ -3215,7 +3081,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Family Resource Home Care": {
   "careers_page": "https://jobs.familyresourcehomecare.com",
@@ -3246,7 +3112,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Farwest": {
   "careers_page": "",
@@ -3261,7 +3127,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Farweststeel": {
   "careers_page": "",
@@ -3277,7 +3143,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "JazzHR",
-  "total_seen": 17
+  "total_seen": 18
  },
  "Fastenal": {
   "careers_page": "https://jobs.fastenal.com",
@@ -3293,7 +3159,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 17
+  "total_seen": 18
  },
  "FedEx": {
   "careers_page": "https://careers.fedex.com",
@@ -3312,7 +3178,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Employer website",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Federal Aviation Administration": {
   "careers_page": "",
@@ -3342,7 +3208,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 30
+  "total_seen": 31
  },
  "Ferguson": {
   "careers_page": "",
@@ -3357,7 +3223,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Finance and Administration": {
   "careers_page": "",
@@ -3372,7 +3238,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "First Class RV & Marine": {
   "careers_page": "",
@@ -3387,7 +3253,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "First Student": {
   "careers_page": "https://firststudent.wd1.myworkdayjobs.com/firststudent",
@@ -3404,7 +3270,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Workday",
-  "total_seen": 28
+  "total_seen": 29
  },
  "Firststudent": {
   "careers_page": "https://firststudent.wd1.myworkdayjobs.com/firststudent",
@@ -3433,7 +3299,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Florence": {
   "careers_page": "",
@@ -3448,7 +3314,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Franz Family Bakeries": {
   "careers_page": "https://bakeryportal.rec.pro.ukg.net/uni1118ubake/jobboard/5324de7a-568a-4c02-b992-14593e5888be",
@@ -3466,7 +3332,7 @@
   "last_seen": "2026-10-28",
   "open_now": 7,
   "platform": "UKG (UltiPro)",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Fresenius Kidney Care": {
   "careers_page": "https://jobs.freseniusmedicalcare.com",
@@ -3485,7 +3351,7 @@
   "last_seen": "2026-10-28",
   "open_now": 10,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Frontier Dermatology": {
   "careers_page": "https://job-boards.greenhouse.io/frontierdermatologystaffcareers",
@@ -3502,7 +3368,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Greenhouse",
-  "total_seen": 33
+  "total_seen": 34
  },
  "GAF": {
   "careers_page": "",
@@ -3518,7 +3384,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "GT Independence": {
   "careers_page": "",
@@ -3533,7 +3399,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Gannett (The Register-Guard)": {
   "careers_page": "",
@@ -3548,7 +3414,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Gap Inc.": {
   "careers_page": "https://www.gapinc.com",
@@ -3592,7 +3458,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "UKG (UltiPro)",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Genoa": {
   "careers_page": "",
@@ -3608,7 +3474,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Genpt": {
   "careers_page": "https://genpt.wd1.myworkdayjobs.com/careers",
@@ -3641,7 +3507,7 @@
   "last_seen": "2026-10-28",
   "open_now": 12,
   "platform": "UKG (UltiPro)",
-  "total_seen": 34
+  "total_seen": 35
  },
  "GetHired.com": {
   "careers_page": "https://easyapply.co",
@@ -3657,7 +3523,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 13
+  "total_seen": 14
  },
  "Gheen": {
   "careers_page": "",
@@ -3672,7 +3538,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Ghr": {
   "careers_page": "https://ghr.wd1.myworkdayjobs.com/en-us/lateral-us",
@@ -3688,7 +3554,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Workday",
-  "total_seen": 10
+  "total_seen": 11
  },
  "Globus Medical": {
   "careers_page": "",
@@ -3704,7 +3570,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "GloryBee": {
   "careers_page": "https://glorybeefoods.applicantpro.com",
@@ -3723,7 +3589,7 @@
   "last_seen": "2026-10-28",
   "open_now": 8,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "GoInhouse.com": {
   "careers_page": "https://www.goinhouse.com",
@@ -3739,7 +3605,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 22
+  "total_seen": 23
  },
  "Good Food": {
   "careers_page": "https://www.goodfoodjobs.com",
@@ -3755,7 +3621,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 10
+  "total_seen": 11
  },
  "Gordon, Aylworth & Tami": {
   "careers_page": "",
@@ -3770,7 +3636,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Gr8ttek": {
   "careers_page": "",
@@ -3785,7 +3651,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Grand Canyon Education": {
   "careers_page": "https://gcu.wd1.myworkdayjobs.com/gce",
@@ -3802,7 +3668,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Workday",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Graybar": {
   "careers_page": "https://graybar.wd1.myworkdayjobs.com/careers",
@@ -3820,7 +3686,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Workday",
-  "total_seen": 10
+  "total_seen": 11
  },
  "Greer Gardens": {
   "careers_page": "",
@@ -3835,7 +3701,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Greystar": {
   "careers_page": "https://greystar.wd1.myworkdayjobs.com/external",
@@ -3853,7 +3719,7 @@
   "last_seen": "2026-10-28",
   "open_now": 7,
   "platform": "Workday",
-  "total_seen": 30
+  "total_seen": 31
  },
  "Grifols": {
   "careers_page": "",
@@ -3869,7 +3735,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Grow": {
   "careers_page": "",
@@ -3914,7 +3780,7 @@
   "last_seen": "2026-10-28",
   "open_now": 7,
   "platform": "UKG (UltiPro)",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Guardian Pharmacy": {
   "careers_page": "https://guardianpharmacy.wd5.myworkdayjobs.com/en-us/guardian_pharmacy",
@@ -3931,7 +3797,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Guitar Center": {
   "careers_page": "https://careers.guitarcenter.com",
@@ -3975,7 +3841,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 17
+  "total_seen": 18
  },
  "HD Supply": {
   "careers_page": "https://hdsupply.wd1.myworkdayjobs.com/external",
@@ -3992,7 +3858,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Workday",
-  "total_seen": 28
+  "total_seen": 29
  },
  "Hardscapes and Masonry": {
   "careers_page": "",
@@ -4007,7 +3873,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Harmony United": {
   "careers_page": "https://careers.hartfordbar.org",
@@ -4023,7 +3889,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Hayden Early Learning Center": {
   "careers_page": "",
@@ -4038,7 +3904,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Hayward Inn": {
   "careers_page": "",
@@ -4053,7 +3919,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Hdsupply": {
   "careers_page": "https://hdsupply.wd1.myworkdayjobs.com/external",
@@ -4082,7 +3948,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Heartland Dental": {
   "careers_page": "https://jobs.heartland.com",
@@ -4153,7 +4019,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Hoban Associates": {
   "careers_page": "",
@@ -4223,7 +4089,7 @@
   "platform": "Oracle Recruiting",
   "total_seen": 2
  },
- "Ideal Option Ideal Option": {
+ "Ideal Option": {
   "careers_page": "",
   "cities_now": [
    "Eugene"
@@ -4237,6 +4103,21 @@
   "industry": "",
   "last_seen": "2026-10-28",
   "open_now": 2,
+  "platform": "Paylocity",
+  "total_seen": 1
+ },
+ "Ideal Option Ideal Option": {
+  "careers_page": "",
+  "cities_now": [],
+  "example_posting": "https://recruiting.paylocity.com/recruiting/jobs/details/4566257",
+  "first_seen": "2026-10-28",
+  "found_via": [
+   "WorkSource Oregon listing",
+   "Employer's hiring site"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-28",
+  "open_now": 0,
   "platform": "Paylocity",
   "total_seen": 8
  },
@@ -4253,7 +4134,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Imh": {
   "careers_page": "https://imh.wd108.myworkdayjobs.com/en-US/IntermountainCareers",
@@ -4295,7 +4176,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Ingersoll Rand": {
   "careers_page": "",
@@ -4304,8 +4185,8 @@
    "Alvadore",
    "Junction City",
    "Cheshire",
-   "Eugene",
    "Springfield",
+   "Eugene",
    "Florence"
   ],
   "first_seen": "2026-10-06",
@@ -4316,7 +4197,7 @@
   "last_seen": "2026-10-28",
   "open_now": 24,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Inner Parish Security": {
   "careers_page": "",
@@ -4331,7 +4212,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Insight Global (staffing)": {
   "careers_page": "",
@@ -4346,7 +4227,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Intermountain Health": {
   "careers_page": "https://imh.wd108.myworkdayjobs.com/en-US/IntermountainCareers",
@@ -4362,7 +4243,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Workday",
-  "total_seen": 6
+  "total_seen": 7
  },
  "International Paper": {
   "careers_page": "https://iazbqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
@@ -4378,7 +4259,7 @@
   "last_seen": "2026-10-28",
   "open_now": 6,
   "platform": "Oracle Recruiting",
-  "total_seen": 6
+  "total_seen": 7
  },
  "Interstate Group": {
   "careers_page": "",
@@ -4393,7 +4274,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "J.P. Morgan Asset Management (timberland)": {
   "careers_page": "https://fairygodboss.com",
@@ -4412,7 +4293,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "JAJ Enterprises": {
   "careers_page": "",
@@ -4427,33 +4308,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
- },
- "JOB DESCRIPTION Adventist Health Portland": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "Reposted by a job board"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 1
- },
- "JOB DESCRIPTION Whittier": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "Reposted by a job board"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 1
+  "total_seen": 34
  },
  "JPMC Candidate Experience page": {
   "careers_page": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001",
@@ -4487,7 +4342,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Oracle Recruiting",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Jacksons": {
   "careers_page": "",
@@ -4502,7 +4357,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Jasper Mountain": {
   "careers_page": "",
@@ -4517,7 +4372,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Jet Industries": {
   "careers_page": "",
@@ -4532,7 +4387,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Job Listings": {
   "careers_page": "https://nrssinc.applicantpro.com",
@@ -4576,7 +4431,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 27
+  "total_seen": 28
  },
  "JobsInLogistics.com": {
   "careers_page": "https://www.jobsinlogistics.com",
@@ -4592,7 +4447,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 17
+  "total_seen": 18
  },
  "Johnson & Johnson": {
   "careers_page": "",
@@ -4607,7 +4462,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Johnson Crushers International": {
   "careers_page": "",
@@ -4625,7 +4480,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "BrightMove",
-  "total_seen": 21
+  "total_seen": 22
  },
  "Join Spectrum": {
   "careers_page": "https://jobs.spectrum.com",
@@ -4655,7 +4510,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Paycom",
-  "total_seen": 5
+  "total_seen": 6
  },
  "Junction City School District": {
   "careers_page": "",
@@ -4670,7 +4525,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 5
+  "total_seen": 6
  },
  "K&B Transportation": {
   "careers_page": "",
@@ -4685,7 +4540,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "K-5 Faculty": {
   "careers_page": "",
@@ -4715,7 +4570,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 23
+  "total_seen": 24
  },
  "KeiperSpine": {
   "careers_page": "",
@@ -4730,7 +4585,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Kelly": {
   "careers_page": "",
@@ -4745,7 +4600,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Kendall": {
   "careers_page": "",
@@ -4760,7 +4615,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Kendall Auto Group": {
   "careers_page": "https://www.kendallcareers.com",
@@ -4776,7 +4631,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 26
+  "total_seen": 27
  },
  "Kendall Ford of Eugene": {
   "careers_page": "",
@@ -4791,7 +4646,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Kendall Toyota of Eugene": {
   "careers_page": "",
@@ -4806,7 +4661,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Kentro": {
   "careers_page": "",
@@ -4821,7 +4676,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Key Consulting": {
   "careers_page": "",
@@ -4836,7 +4691,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Key Consulting LLC": {
   "careers_page": "",
@@ -4866,7 +4721,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Workday",
-  "total_seen": 8
+  "total_seen": 9
  },
  "KeyCorp": {
   "careers_page": "",
@@ -4879,9 +4734,9 @@
   ],
   "industry": "",
   "last_seen": "2026-10-28",
-  "open_now": 2,
+  "open_now": 3,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Keybank": {
   "careers_page": "https://keybank.wd5.myworkdayjobs.com/external_career_site",
@@ -4913,7 +4768,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 29
+  "total_seen": 30
  },
  "Kroger (Fred Meyer)": {
   "careers_page": "https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001",
@@ -4933,7 +4788,7 @@
   "last_seen": "2026-10-28",
   "open_now": 15,
   "platform": "Oracle Recruiting",
-  "total_seen": 34
+  "total_seen": 35
  },
  "K–12 Cybersecurity and School Safety Specialist, Montana Safe Schools Center": {
   "careers_page": "",
@@ -4962,7 +4817,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Lab Facilities Supervisor - Engineering": {
   "careers_page": "",
@@ -4995,7 +4850,7 @@
   "last_seen": "2026-10-28",
   "open_now": 26,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Lane County": {
   "careers_page": "",
@@ -5021,7 +4876,7 @@
   "last_seen": "2026-10-28",
   "open_now": 74,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Lane Education Service District": {
   "careers_page": "https://www.applitrack.com",
@@ -5039,7 +4894,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Lane Transit District": {
   "careers_page": "https://ltdjobs.applicantpool.com",
@@ -5055,7 +4910,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 1
+  "total_seen": 2
  },
  "Leaf Home": {
   "careers_page": "",
@@ -5085,7 +4940,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 10
+  "total_seen": 11
  },
  "Leavitts": {
   "careers_page": "",
@@ -5100,7 +4955,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Life Care Centers": {
   "careers_page": "",
@@ -5115,7 +4970,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Lincare": {
   "careers_page": "",
@@ -5130,7 +4985,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Linguava": {
   "careers_page": "",
@@ -5147,7 +5002,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Trakstar Hire",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Lithia Motors": {
   "careers_page": "https://lithia.wd504.myworkdayjobs.com/en-US/LithiaCareers",
@@ -5167,7 +5022,7 @@
   "last_seen": "2026-10-28",
   "open_now": 12,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Little Sprouts": {
   "careers_page": "",
@@ -5182,7 +5037,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Lochmead Dairy": {
   "careers_page": "",
@@ -5197,7 +5052,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Lokos Takos": {
   "careers_page": "",
@@ -5212,7 +5067,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Looking Glass Community Services": {
   "careers_page": "https://lookingglass.applicantpool.com",
@@ -5229,7 +5084,7 @@
   "last_seen": "2026-10-28",
   "open_now": 6,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Lovisa": {
   "careers_page": "https://careers.lovisa.com",
@@ -5262,7 +5117,7 @@
   "last_seen": "2026-10-28",
   "open_now": 11,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Macy's": {
   "careers_page": "https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001",
@@ -5279,7 +5134,7 @@
   "last_seen": "2026-10-28",
   "open_now": 5,
   "platform": "Oracle Recruiting",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Madden Industrial": {
   "careers_page": "",
@@ -5294,7 +5149,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Madden Industrial Craftsmen": {
   "careers_page": "https://careers.mici.com",
@@ -5310,7 +5165,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 24
+  "total_seen": 25
  },
  "Managed Healthcare Pharmacy": {
   "careers_page": "",
@@ -5325,7 +5180,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Marathon": {
   "careers_page": "",
@@ -5340,7 +5195,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Marathon Coach": {
   "careers_page": "",
@@ -5355,7 +5210,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Marathon Coach Inc": {
   "careers_page": "",
@@ -5383,7 +5238,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Market of Choice": {
   "careers_page": "",
@@ -5398,7 +5253,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Marquis Companies": {
   "careers_page": "https://careers.marquiscompanies.com",
@@ -5415,7 +5270,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Employer website",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Maxim Healthcare": {
   "careers_page": "https://careers.maximhealthcare.com",
@@ -5446,7 +5301,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "McDonald's franchisee": {
   "careers_page": "",
@@ -5462,7 +5317,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "McKenzie Feed & Pet Supply": {
   "careers_page": "",
@@ -5477,7 +5332,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "McKenzie SewOn": {
   "careers_page": "https://www.mcsewon.com",
@@ -5493,7 +5348,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 17
+  "total_seen": 18
  },
  "McKenzie-Willamette Medical Center": {
   "careers_page": "https://recruiting2.ultipro.com/qhc1000qhcs/jobboard/03176428-96f4-412f-8077-fe5445cc40f6",
@@ -5512,7 +5367,7 @@
   "last_seen": "2026-10-28",
   "open_now": 58,
   "platform": "UKG (UltiPro)",
-  "total_seen": 34
+  "total_seen": 35
  },
  "McMenamins": {
   "careers_page": "",
@@ -5527,7 +5382,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Mcm1001Mcmen": {
   "careers_page": "https://recruiting2.ultipro.com/mcm1001mcmen/JobBoard/cf27ce71-5418-48dc-a802-8a6e47a52b25",
@@ -5543,7 +5398,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "UKG (UltiPro)",
-  "total_seen": 8
+  "total_seen": 9
  },
  "MedCadre": {
   "careers_page": "",
@@ -5558,7 +5413,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Medline": {
   "careers_page": "https://medline.wd5.myworkdayjobs.com/en-us/medline",
@@ -5575,7 +5430,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Workday",
-  "total_seen": 20
+  "total_seen": 21
  },
  "Medtronic": {
   "careers_page": "https://medtronic.wd1.myworkdayjobs.com/en-us/medtroniccareers",
@@ -5606,7 +5461,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Paycom",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Merete Hotel Management (Residence Inn)": {
   "careers_page": "https://www.paycomonline.net/v4/ats/web.php/portal/E270EB1049950061B7DAF9586510E7E3",
@@ -5624,7 +5479,7 @@
   "last_seen": "2026-10-28",
   "open_now": 10,
   "platform": "Paycom",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Merrill Wealth Management": {
   "careers_page": "",
@@ -5639,7 +5494,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Middle School English and History Teacher": {
   "careers_page": "",
@@ -5668,7 +5523,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Middlefield Oaks Memory Care": {
   "careers_page": "",
@@ -5683,7 +5538,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Military.com Job Board": {
   "careers_page": "https://jobs.military.com",
@@ -5699,7 +5554,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Employer website",
-  "total_seen": 17
+  "total_seen": 18
  },
  "Mindoula Health Inc": {
   "careers_page": "",
@@ -5715,7 +5570,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Breezy HR",
-  "total_seen": 28
+  "total_seen": 29
  },
  "Mitchell Wine Group": {
   "careers_page": "",
@@ -5730,7 +5585,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Mondelez International (Nabisco)": {
   "careers_page": "https://hireveterans.com",
@@ -5747,7 +5602,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Monrovia Unified School District (CA)": {
   "careers_page": "",
@@ -5777,7 +5632,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 22
+  "total_seen": 23
  },
  "Morrison Healthcare": {
   "careers_page": "https://careers.compass-usa.com",
@@ -5794,7 +5649,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Mount Pisgah Arboretum": {
   "careers_page": "",
@@ -5809,7 +5664,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Mountain Rose Herbs": {
   "careers_page": "",
@@ -5824,7 +5679,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Mt. Hood Community College": {
   "careers_page": "",
@@ -5853,7 +5708,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Mvh": {
   "careers_page": "https://mvh.wd115.myworkdayjobs.com/bfcareers",
@@ -5869,7 +5724,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Workday",
-  "total_seen": 17
+  "total_seen": 18
  },
  "Myhrhome": {
   "careers_page": "https://myhrhome.wd1.myworkdayjobs.com/onemaincareers",
@@ -5899,7 +5754,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "HRM Direct",
-  "total_seen": 8
+  "total_seen": 9
  },
  "NAPA Auto Parts (Genuine Parts Company)": {
   "careers_page": "https://genpt.wd1.myworkdayjobs.com/careers",
@@ -5915,7 +5770,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Workday",
-  "total_seen": 6
+  "total_seen": 7
  },
  "NW Industrial Staffing": {
   "careers_page": "",
@@ -5933,7 +5788,7 @@
   "last_seen": "2026-10-28",
   "open_now": 16,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Nancy's": {
   "careers_page": "",
@@ -5948,7 +5803,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "National Staffing Solutions": {
   "careers_page": "",
@@ -5963,7 +5818,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Newman's": {
   "careers_page": "",
@@ -5978,7 +5833,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Nexdine": {
   "careers_page": "https://nexdine.wd1.myworkdayjobs.com/en-us/nexdine",
@@ -6008,7 +5863,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Workday",
-  "total_seen": 6
+  "total_seen": 7
  },
  "Nexus Family Healing": {
   "careers_page": "",
@@ -6023,7 +5878,7 @@
   "last_seen": "2026-10-28",
   "open_now": 9,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Nichols Trucking": {
   "careers_page": "",
@@ -6039,7 +5894,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Nichols Trucking Company": {
   "careers_page": "",
@@ -6068,7 +5923,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 29
+  "total_seen": 30
  },
  "Ninkasi Brewing": {
   "careers_page": "https://ninkasibrewing.com",
@@ -6097,7 +5952,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Northwest Hardwoods": {
   "careers_page": "",
@@ -6112,7 +5967,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Northwest Industrial Staffing": {
   "careers_page": "https://nwstaff.com",
@@ -6130,7 +5985,7 @@
   "last_seen": "2026-10-28",
   "open_now": 5,
   "platform": "Employer website",
-  "total_seen": 6
+  "total_seen": 7
  },
  "Northwest Premier": {
   "careers_page": "",
@@ -6178,7 +6033,7 @@
   "last_seen": "2026-10-28",
   "open_now": 26,
   "platform": "Workday",
-  "total_seen": 28
+  "total_seen": 29
  },
  "OEG (Everus)": {
   "careers_page": "https://everus.rec.pro.ukg.net/mdu1500mduc/jobboard/f9402b82-d385-4067-ab64-4e65b88ce602",
@@ -6197,7 +6052,7 @@
   "last_seen": "2026-10-28",
   "open_now": 10,
   "platform": "UKG (UltiPro)",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Oak Hill School": {
   "careers_page": "",
@@ -6213,13 +6068,11 @@
   "last_seen": "2026-10-28",
   "open_now": 5,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Oakridge School District": {
   "careers_page": "https://oakridge76.tedk12.com",
-  "cities_now": [
-   "Oakridge"
-  ],
+  "cities_now": [],
   "example_posting": "https://oakridge76.tedk12.com/hire/Login.aspx",
   "first_seen": "2026-10-28",
   "found_via": [
@@ -6227,7 +6080,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-28",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "Employer website",
   "total_seen": 1
  },
@@ -6259,7 +6112,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Workday",
-  "total_seen": 6
+  "total_seen": 7
  },
  "Open Jobs at ANDRITZ": {
   "careers_page": "https://careers.andritz.com",
@@ -6275,7 +6128,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 9
+  "total_seen": 10
  },
  "Optum": {
   "careers_page": "",
@@ -6292,7 +6145,7 @@
   "last_seen": "2026-10-28",
   "open_now": 7,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Orchid Health": {
   "careers_page": "",
@@ -6313,7 +6166,7 @@
   "last_seen": "2026-10-28",
   "open_now": 15,
   "platform": "JazzHR",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Ordell Construction": {
   "careers_page": "",
@@ -6328,7 +6181,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Oregon Flight": {
   "careers_page": "",
@@ -6343,7 +6196,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Oreillyauto": {
   "careers_page": "https://oreillyauto.wd1.myworkdayjobs.com/oreilly",
@@ -6375,7 +6228,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Outlier": {
   "careers_page": "",
@@ -6390,7 +6243,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 5
+  "total_seen": 6
  },
  "Outside Sales Representative Devine Business Group": {
   "careers_page": "",
@@ -6405,7 +6258,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Oxford Global Resources": {
   "careers_page": "",
@@ -6447,7 +6300,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Pacific Metal Fab": {
   "careers_page": "",
@@ -6476,7 +6329,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "HRM Direct",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Pacific Retirement Services": {
   "careers_page": "https://jobs.retirement.org",
@@ -6492,7 +6345,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 29
+  "total_seen": 30
  },
  "PacificSource": {
   "careers_page": "https://pacificsource.wd5.myworkdayjobs.com/pacificsource",
@@ -6509,9 +6362,9 @@
   ],
   "industry": "Healthcare",
   "last_seen": "2026-10-28",
-  "open_now": 18,
+  "open_now": 19,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Pap1001": {
   "careers_page": "https://recruiting2.ultipro.com/pap1001/JobBoard/7297d137-c573-4bf4-8ab4-09ad7dac6ec8",
@@ -6540,7 +6393,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "PeaceHealth": {
   "careers_page": "https://careers.peacehealth.org",
@@ -6561,7 +6414,7 @@
   "last_seen": "2026-10-28",
   "open_now": 93,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Peakcreditunion": {
   "careers_page": "https://job-boards.greenhouse.io/peakcreditunion",
@@ -6577,7 +6430,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Greenhouse",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Penske Logistics": {
   "careers_page": "",
@@ -6592,7 +6445,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "PeopleReady": {
   "careers_page": "https://skilled.peopleready.com",
@@ -6609,7 +6462,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Petco": {
   "careers_page": "https://careers.petco.com",
@@ -6638,7 +6491,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Peterson Cat": {
   "careers_page": "https://petersonholding.wd1.myworkdayjobs.com/petersonjobs",
@@ -6655,7 +6508,7 @@
   "last_seen": "2026-10-28",
   "open_now": 10,
   "platform": "Workday",
-  "total_seen": 30
+  "total_seen": 31
  },
  "Peterson Power Systems": {
   "careers_page": "",
@@ -6684,7 +6537,7 @@
   "last_seen": "2026-10-28",
   "open_now": 6,
   "platform": "Employer website",
-  "total_seen": 17
+  "total_seen": 18
  },
  "Piercing Pagoda": {
   "careers_page": "",
@@ -6699,7 +6552,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Pima Community College District (AZ)": {
   "careers_page": "",
@@ -6729,7 +6582,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 6
+  "total_seen": 7
  },
  "Planet Fitness": {
   "careers_page": "",
@@ -6745,7 +6598,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Policy We": {
   "careers_page": "",
@@ -6760,7 +6613,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Post Consumer Brands": {
   "careers_page": "https://jobs.postholdings.com",
@@ -6778,7 +6631,7 @@
   "last_seen": "2026-10-28",
   "open_now": 9,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Posted": {
   "careers_page": "",
@@ -6806,7 +6659,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Prism Biotech": {
   "careers_page": "",
@@ -6821,7 +6674,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "ProCare Therapy": {
   "careers_page": "https://www.procaretherapy.com",
@@ -6865,7 +6718,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Providence": {
   "careers_page": "",
@@ -6880,7 +6733,7 @@
   "last_seen": "2026-10-28",
   "open_now": 40,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Providence PACE": {
   "careers_page": "",
@@ -6895,7 +6748,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Prt": {
   "careers_page": "",
@@ -6911,7 +6764,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "SmartRecruiters",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Purakal Cylinders": {
   "careers_page": "",
@@ -6926,7 +6779,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Quest Diagnostics": {
   "careers_page": "https://hdox.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1",
@@ -6943,7 +6796,7 @@
   "last_seen": "2026-10-28",
   "open_now": 6,
   "platform": "Oracle Recruiting",
-  "total_seen": 8
+  "total_seen": 9
  },
  "RDO Equipment Co.": {
   "careers_page": "https://recruiting2.ultipro.com/rdo1000rdo/jobboard/b65401d2-4de5-4c2b-851f-556182926250",
@@ -6962,7 +6815,7 @@
   "last_seen": "2026-10-28",
   "open_now": 5,
   "platform": "UKG (UltiPro)",
-  "total_seen": 34
+  "total_seen": 35
  },
  "RISE Services": {
   "careers_page": "",
@@ -6977,7 +6830,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "RWC Group": {
   "careers_page": "",
@@ -7020,7 +6873,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Rears Manufacturing Company": {
   "careers_page": "",
@@ -7050,7 +6903,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 15
+  "total_seen": 16
  },
  "Relief Nursery": {
   "careers_page": "",
@@ -7066,7 +6919,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Research Administration": {
   "careers_page": "",
@@ -7081,7 +6934,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Rexel": {
   "careers_page": "https://careers.rexel.com",
@@ -7097,7 +6950,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 9
+  "total_seen": 10
  },
  "Rexius": {
   "careers_page": "",
@@ -7112,7 +6965,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Richardson Sports": {
   "careers_page": "",
@@ -7127,7 +6980,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Rippling": {
   "careers_page": "https://ats.rippling.com",
@@ -7143,7 +6996,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 24
+  "total_seen": 25
  },
  "Robert Half": {
   "careers_page": "",
@@ -7160,7 +7013,7 @@
   "last_seen": "2026-10-28",
   "open_now": 14,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Rosboro": {
   "careers_page": "https://rosboro.com",
@@ -7177,7 +7030,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Ross Stores": {
   "careers_page": "https://jobs.rossstores.com",
@@ -7195,7 +7048,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Rotech Healthcare": {
   "careers_page": "",
@@ -7210,7 +7063,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Rotech Healthcare Inc": {
   "careers_page": "",
@@ -7251,7 +7104,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 1
+  "total_seen": 2
  },
  "Sage Oak Charter Schools": {
   "careers_page": "",
@@ -7293,7 +7146,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "San Diego County Office of Education": {
   "careers_page": "",
@@ -7322,7 +7175,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Sashco": {
   "careers_page": "",
@@ -7337,7 +7190,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Sch1011Sstl": {
   "careers_page": "https://recruiting2.ultipro.com/sch1011sstl/JobBoard/02ac23c5-914c-4ab4-9851-dc1bc7bd9c94",
@@ -7353,7 +7206,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "UKG (UltiPro)",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Schools": {
   "careers_page": "",
@@ -7383,7 +7236,7 @@
   "last_seen": "2026-10-28",
   "open_now": 5,
   "platform": "ADP",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Seattle Public Schools": {
   "careers_page": "",
@@ -7414,7 +7267,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Oracle Recruiting",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Securitas USA": {
   "careers_page": "",
@@ -7429,7 +7282,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "See's Candies": {
   "careers_page": "https://sees.wd1.myworkdayjobs.com/Sees_Candies",
@@ -7446,7 +7299,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Workday",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Sees": {
   "careers_page": "https://sees.wd1.myworkdayjobs.com/Sees_Candies",
@@ -7480,7 +7333,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Serenity Lane": {
   "careers_page": "",
@@ -7495,7 +7348,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "ServiceMaster Clean": {
   "careers_page": "",
@@ -7512,9 +7365,9 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "CareerPlug",
-  "total_seen": 33
+  "total_seen": 34
  },
- "Sharp Sharp": {
+ "Sharp": {
   "careers_page": "",
   "cities_now": [
    "Eugene"
@@ -7527,7 +7380,35 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
+  "total_seen": 1
+ },
+ "Sharp Sharp": {
+  "careers_page": "",
+  "cities_now": [],
+  "first_seen": "2026-10-28",
+  "found_via": [
+   "Reposted by a job board"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-28",
+  "open_now": 0,
+  "platform": "",
   "total_seen": 8
+ },
+ "ShelterCare": {
+  "careers_page": "",
+  "cities_now": [
+   "Eugene"
+  ],
+  "first_seen": "2026-10-28",
+  "found_via": [
+   "WorkSource Oregon listing"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-28",
+  "open_now": 1,
+  "platform": "",
+  "total_seen": 1
  },
  "Sherwin-Williams": {
   "careers_page": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2",
@@ -7546,7 +7427,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Oracle Recruiting",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Sierra Pacific Industries": {
   "careers_page": "https://www.spi-ind.com",
@@ -7563,7 +7444,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 30
+  "total_seen": 31
  },
  "Signify Health": {
   "careers_page": "",
@@ -7578,7 +7459,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Simpson Strong-Tie": {
   "careers_page": "",
@@ -7593,7 +7474,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Sinclair Broadcast Group": {
   "careers_page": "https://edyy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002",
@@ -7610,7 +7491,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Oracle Recruiting",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Sonepar": {
   "careers_page": "https://career.sonepar.com",
@@ -7626,7 +7507,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 16
+  "total_seen": 17
  },
  "South Puget Sound Community College": {
   "careers_page": "",
@@ -7655,7 +7536,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Southern Glazers Wine and Spirits": {
   "careers_page": "https://recruiting.southernglazers.com",
@@ -7686,7 +7567,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "iCIMS",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Sparrow Nest": {
   "careers_page": "",
@@ -7701,7 +7582,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Speechify": {
   "careers_page": "https://job-boards.greenhouse.io/speechify",
@@ -7717,7 +7598,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Greenhouse",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Spencer's and Spirit Halloween": {
   "careers_page": "https://www.spencersandspiritjobs.com",
@@ -7747,7 +7628,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Paylocity",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Sport Clips": {
   "careers_page": "https://jobs.sportclips.com",
@@ -7766,9 +7647,7 @@
  },
  "Springfield Public Schools": {
   "careers_page": "https://sps.tedk12.com",
-  "cities_now": [
-   "Springfield"
-  ],
+  "cities_now": [],
   "example_posting": "https://sps.tedk12.com/hire/Login.aspx",
   "first_seen": "2026-10-28",
   "found_via": [
@@ -7776,7 +7655,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-28",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "Employer website",
   "total_seen": 1
  },
@@ -7794,7 +7673,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 21
+  "total_seen": 22
  },
  "St. Vincent de Paul Lane County": {
   "careers_page": "https://www.svdp.us",
@@ -7810,7 +7689,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 4
+  "total_seen": 5
  },
  "Staszak Physical Therapy": {
   "careers_page": "",
@@ -7825,7 +7704,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "State Center Community College District": {
   "careers_page": "",
@@ -7855,7 +7734,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 20
+  "total_seen": 21
  },
  "State of Oregon": {
   "careers_page": "https://oregon.wd5.myworkdayjobs.com/en-us/sor_external_career_site",
@@ -7873,7 +7752,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Stone Works International": {
   "careers_page": "",
@@ -7901,7 +7780,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Stryker": {
   "careers_page": "",
@@ -7916,7 +7795,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Stryker Corporation": {
   "careers_page": "",
@@ -7944,7 +7823,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Sun, Inc.": {
   "careers_page": "https://careers.suncommunities.com",
@@ -7987,7 +7866,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Sunrise Group": {
   "careers_page": "https://sunrisegroup.wd108.myworkdayjobs.com/en-us/sunrise_careers",
@@ -8003,7 +7882,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Workday",
-  "total_seen": 27
+  "total_seen": 28
  },
  "Sunrisegroup": {
   "careers_page": "https://sunrisegroup.wd108.myworkdayjobs.com/en-us/sunrise_careers",
@@ -8022,8 +7901,8 @@
  "Supercuts": {
   "careers_page": "",
   "cities_now": [
-   "Eugene",
-   "Springfield"
+   "Springfield",
+   "Eugene"
   ],
   "first_seen": "2026-10-28",
   "found_via": [
@@ -8033,7 +7912,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Supplemental Health Care": {
   "careers_page": "",
@@ -8048,7 +7927,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Survey.com": {
   "careers_page": "",
@@ -8063,7 +7942,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Swanson Group (Springfield Plywood)": {
   "careers_page": "",
@@ -8091,7 +7970,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Sweetbriar Villa": {
   "careers_page": "https://www.paycomonline.net/v4/ats/web.php/portal/EBAF78744751079C60EAB13521179107",
@@ -8107,7 +7986,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Paycom",
-  "total_seen": 33
+  "total_seen": 34
  },
  "System Transport": {
   "careers_page": "",
@@ -8123,7 +8002,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "T-Mobile": {
   "careers_page": "",
@@ -8138,7 +8017,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "TITLE On-Call Housekeeper EOE STATEMENT We": {
   "careers_page": "",
@@ -8154,7 +8033,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Paychex",
-  "total_seen": 8
+  "total_seen": 9
  },
  "TJX Companies": {
   "careers_page": "https://jobs.tjx.com",
@@ -8170,7 +8049,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 23
+  "total_seen": 24
  },
  "TRIO Coordinator": {
   "careers_page": "",
@@ -8212,19 +8091,6 @@
   "last_seen": "2026-10-28",
   "open_now": 0,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 1
- },
- "TalentMatch Robert Half": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "WorkSource Oregon listing"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
   "total_seen": 1
  },
  "Target": {
@@ -8269,7 +8135,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 8
+  "total_seen": 9
  },
  "The Clorox Company": {
   "careers_page": "",
@@ -8285,7 +8151,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "The Home Depot": {
   "careers_page": "https://tti.wd1.myworkdayjobs.com/en-US/TeamTTI-Jobs",
@@ -8307,7 +8173,7 @@
   "last_seen": "2026-10-28",
   "open_now": 23,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "The Judge Group": {
   "careers_page": "https://www.judge.com",
@@ -8323,7 +8189,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Employer website",
-  "total_seen": 30
+  "total_seen": 31
  },
  "The Kroger Co.": {
   "careers_page": "https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001",
@@ -8339,7 +8205,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Oracle Recruiting",
-  "total_seen": 8
+  "total_seen": 9
  },
  "The Old Spaghetti Factory": {
   "careers_page": "",
@@ -8354,7 +8220,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "The Papé Group": {
   "careers_page": "https://recruiting2.ultipro.com/pap1001/JobBoard/7297d137-c573-4bf4-8ab4-09ad7dac6ec8",
@@ -8370,7 +8236,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "UKG (UltiPro)",
-  "total_seen": 1
+  "total_seen": 2
  },
  "The Reveille Foundation": {
   "careers_page": "",
@@ -8385,7 +8251,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "The Salvation Army": {
   "careers_page": "",
@@ -8401,7 +8267,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "The Springs Living": {
   "careers_page": "https://careers.thespringsliving.com",
@@ -8417,7 +8283,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 30
+  "total_seen": 31
  },
  "The Traxler Group": {
   "careers_page": "",
@@ -8461,7 +8327,7 @@
   "last_seen": "2026-10-28",
   "open_now": 5,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Thirdchannel Inc": {
   "careers_page": "",
@@ -8477,7 +8343,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Breezy HR",
-  "total_seen": 29
+  "total_seen": 30
  },
  "Timber Pointe Senior Living": {
   "careers_page": "",
@@ -8494,9 +8360,7 @@
  },
  "Tip Tap Grow": {
   "careers_page": "",
-  "cities_now": [
-   "Cottage Grove"
-  ],
+  "cities_now": [],
   "example_posting": "https://tip-tap-grow-llc.careerplug.com/jobs?locale=en-US",
   "first_seen": "2026-10-28",
   "found_via": [
@@ -8504,7 +8368,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-28",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "CareerPlug",
   "total_seen": 1
  },
@@ -8521,7 +8385,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "TopBuild": {
   "careers_page": "https://topbuild.wd501.myworkdayjobs.com/en-us/di_external",
@@ -8537,7 +8401,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Workday",
-  "total_seen": 6
+  "total_seen": 7
  },
  "Topbuild": {
   "careers_page": "https://topbuild.wd501.myworkdayjobs.com/en-us/di_external",
@@ -8567,7 +8431,7 @@
   "platform": "Employer website",
   "total_seen": 8
  },
- "TransPonder TransPonder": {
+ "TransPonder": {
   "careers_page": "",
   "cities_now": [
    "Eugene"
@@ -8579,6 +8443,19 @@
   "industry": "",
   "last_seen": "2026-10-28",
   "open_now": 1,
+  "platform": "",
+  "total_seen": 1
+ },
+ "TransPonder TransPonder": {
+  "careers_page": "",
+  "cities_now": [],
+  "first_seen": "2026-10-28",
+  "found_via": [
+   "Reposted by a job board"
+  ],
+  "industry": "",
+  "last_seen": "2026-10-28",
+  "open_now": 0,
   "platform": "",
   "total_seen": 8
  },
@@ -8598,7 +8475,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Trinity Services Group": {
   "careers_page": "",
@@ -8627,7 +8504,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Trustwell": {
   "careers_page": "",
@@ -8642,7 +8519,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "U-Haul": {
   "careers_page": "https://uhaul.wd1.myworkdayjobs.com/en-us/uhauljobs",
@@ -8661,7 +8538,7 @@
   "last_seen": "2026-10-28",
   "open_now": 7,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "U.S. Bank": {
   "careers_page": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers",
@@ -8680,7 +8557,7 @@
   "last_seen": "2026-10-28",
   "open_now": 11,
   "platform": "Workday",
-  "total_seen": 28
+  "total_seen": 29
  },
  "U.S. District Court, District of Oregon": {
   "careers_page": "",
@@ -8712,7 +8589,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Workday",
-  "total_seen": 34
+  "total_seen": 35
  },
  "US Foods": {
   "careers_page": "",
@@ -8728,7 +8605,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "US Oncology": {
   "careers_page": "https://careers.usoncology.com",
@@ -8744,7 +8621,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 24
+  "total_seen": 25
  },
  "Ulta Beauty": {
   "careers_page": "https://careers.ulta.com",
@@ -8760,7 +8637,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Ultimate Staffing Services": {
   "careers_page": "",
@@ -8788,7 +8665,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Umpqua Bank (Columbia Banking System)": {
   "careers_page": "https://columbiabank.wd108.myworkdayjobs.com/columbia",
@@ -8806,7 +8683,7 @@
   "last_seen": "2026-10-28",
   "open_now": 7,
   "platform": "Workday",
-  "total_seen": 28
+  "total_seen": 29
  },
  "Unifi Aviation": {
   "careers_page": "https://careers.nmfonline.org",
@@ -8824,7 +8701,7 @@
   "last_seen": "2026-10-28",
   "open_now": 13,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "United Access": {
   "careers_page": "",
@@ -8839,7 +8716,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "United Wound Healing": {
   "careers_page": "",
@@ -8854,7 +8731,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "UnitedHealth Group": {
   "careers_page": "https://careers.unitedhealthgroup.com",
@@ -8871,7 +8748,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Employer website",
-  "total_seen": 30
+  "total_seen": 31
  },
  "University Health Services": {
   "careers_page": "",
@@ -8886,7 +8763,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "University Housing": {
   "careers_page": "",
@@ -8901,7 +8778,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "University of Oregon": {
   "careers_page": "https://careers.uoregon.edu",
@@ -8920,7 +8797,7 @@
   "last_seen": "2026-10-28",
   "open_now": 28,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Unnamed employer (ADP)": {
   "careers_page": "",
@@ -8939,7 +8816,7 @@
   "last_seen": "2026-10-28",
   "open_now": 6,
   "platform": "ADP",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Unnamed employer (BrassRing)": {
   "careers_page": "",
@@ -8955,7 +8832,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "BrassRing",
-  "total_seen": 30
+  "total_seen": 31
  },
  "Unnamed employer (BrightMove)": {
   "careers_page": "",
@@ -8971,7 +8848,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "BrightMove",
-  "total_seen": 30
+  "total_seen": 31
  },
  "Unnamed employer (Dayforce)": {
   "careers_page": "https://jobs.dayforcehcm.com/en-US/chi/CANDIDATEPORTAL",
@@ -9002,7 +8879,7 @@
   "last_seen": "2026-10-28",
   "open_now": 8,
   "platform": "Employer website",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Unnamed employer (Frontline (AppliTrack))": {
   "careers_page": "",
@@ -9060,7 +8937,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Hirebridge",
-  "total_seen": 25
+  "total_seen": 26
  },
  "Unnamed employer (NEOGOV (GovernmentJobs))": {
   "careers_page": "",
@@ -9077,7 +8954,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "NEOGOV (GovernmentJobs)",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Unnamed employer (Oracle Recruiting)": {
   "careers_page": "https://eofd.fa.us6.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1001",
@@ -9109,7 +8986,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Paychex",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Unnamed employer (Paycom)": {
   "careers_page": "https://www.paycomonline.net/v4/ats/web.php/portal/B0B584DECCA767F874B90195F6B816FF",
@@ -9126,7 +9003,7 @@
   "last_seen": "2026-10-28",
   "open_now": 10,
   "platform": "Paycom",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Unnamed employer (Paylocity)": {
   "careers_page": "",
@@ -9142,7 +9019,7 @@
   "last_seen": "2026-10-28",
   "open_now": 5,
   "platform": "Paylocity",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Unnamed employer (SAP SuccessFactors)": {
   "careers_page": "",
@@ -9186,7 +9063,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "Taleo",
-  "total_seen": 30
+  "total_seen": 31
  },
  "Unnamed employer (UKG (UltiPro))": {
   "careers_page": "https://recruiting2.ultipro.com/con1039consh/jobboard/dfaeb5a3-4e9b-409b-a3ee-58878b2fbda9",
@@ -9258,7 +9135,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Us One Medical": {
   "careers_page": "",
@@ -9273,7 +9150,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Us We": {
   "careers_page": "",
@@ -9288,7 +9165,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Usbank": {
   "careers_page": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers",
@@ -9320,7 +9197,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "VSP Vision (Eugene Eyewear)": {
   "careers_page": "",
@@ -9336,7 +9213,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Van1011Vanp": {
   "careers_page": "https://recruiting.ultipro.com/van1011vanp/JobBoard/71a647a6-b80b-48a6-b60f-7159443cfd30",
@@ -9352,7 +9229,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "UKG (UltiPro)",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Vans (VF Corporation)": {
   "careers_page": "https://vfc.wd5.myworkdayjobs.com/en-us/vans_careers",
@@ -9389,7 +9266,7 @@
   "last_seen": "2026-10-28",
   "open_now": 11,
   "platform": "Workday",
-  "total_seen": 24
+  "total_seen": 25
  },
  "VetCor": {
   "careers_page": "https://careers.vetcor.com",
@@ -9432,7 +9309,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Vincent Medical Center. This": {
   "careers_page": "",
@@ -9460,7 +9337,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Voyage Healthcare": {
   "careers_page": "",
@@ -9475,7 +9352,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Vyanet Operating Group": {
   "careers_page": "",
@@ -9490,20 +9367,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
- },
- "WHO WE ARE Azalea Bodycare": {
-  "careers_page": "",
-  "cities_now": [],
-  "first_seen": "2026-10-28",
-  "found_via": [
-   "Reposted by a job board"
-  ],
-  "industry": "",
-  "last_seen": "2026-10-28",
-  "open_now": 0,
-  "platform": "",
-  "total_seen": 1
+  "total_seen": 9
  },
  "Walgreens": {
   "careers_page": "https://jobs.walgreens.com",
@@ -9522,7 +9386,7 @@
   "last_seen": "2026-10-28",
   "open_now": 7,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "Walmart": {
   "careers_page": "https://careers.walmart.com",
@@ -9541,7 +9405,7 @@
   "last_seen": "2026-10-28",
   "open_now": 6,
   "platform": "Employer website",
-  "total_seen": 23
+  "total_seen": 24
  },
  "Waste Connections": {
   "careers_page": "https://careers.wasteconnections.com",
@@ -9583,7 +9447,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Wellpath": {
   "careers_page": "https://careers-wellpath.icims.com/jobs",
@@ -9599,7 +9463,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "iCIMS",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Wells Fargo": {
   "careers_page": "",
@@ -9614,7 +9478,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Wendy's": {
   "careers_page": "https://wendys-careers.com",
@@ -9658,7 +9522,7 @@
   "last_seen": "2026-10-28",
   "open_now": 4,
   "platform": "Employer website",
-  "total_seen": 24
+  "total_seen": 25
  },
  "White Bird Clinic": {
   "careers_page": "",
@@ -9673,7 +9537,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "White Label Extracts": {
   "careers_page": "",
@@ -9688,7 +9552,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Whittier": {
   "careers_page": "",
@@ -9703,7 +9567,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Whole Foods Market": {
   "careers_page": "https://careers.wholefoods.com",
@@ -9720,7 +9584,7 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Wildish Group of Companies": {
   "careers_page": "",
@@ -9735,7 +9599,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Willamalane Park and Recreation District": {
   "careers_page": "https://willamalanedistrict.bamboohr.com",
@@ -9751,7 +9615,7 @@
   "last_seen": "2026-10-28",
   "open_now": 10,
   "platform": "Employer website",
-  "total_seen": 1
+  "total_seen": 2
  },
  "Willamette Dental Group": {
   "careers_page": "https://job-boards.greenhouse.io/willamettedentalgroup",
@@ -9767,7 +9631,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Greenhouse",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Willamette Family": {
   "careers_page": "",
@@ -9784,7 +9648,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "Paylocity",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Willamette Valley Cancer Institute": {
   "careers_page": "https://careers.usoncology.com",
@@ -9803,7 +9667,7 @@
   "last_seen": "2026-10-28",
   "open_now": 19,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  },
  "WinCo Foods": {
   "careers_page": "https://careers-winco.icims.com/jobs",
@@ -9819,7 +9683,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "iCIMS",
-  "total_seen": 8
+  "total_seen": 9
  },
  "Wingstop": {
   "careers_page": "",
@@ -9834,7 +9698,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Wireless Vision": {
   "careers_page": "",
@@ -9865,7 +9729,7 @@
   "last_seen": "2026-10-28",
   "open_now": 10,
   "platform": "Paylocity",
-  "total_seen": 1
+  "total_seen": 2
  },
  "Working at Performance Health Holdings": {
   "careers_page": "https://jobs.performancehealth.com",
@@ -9908,7 +9772,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 7
+  "total_seen": 8
  },
  "Workplace Type This": {
   "careers_page": "",
@@ -9938,7 +9802,7 @@
   "last_seen": "2026-10-28",
   "open_now": 2,
   "platform": "SmartRecruiters",
-  "total_seen": 33
+  "total_seen": 34
  },
  "Zip-O-Log Mills": {
   "careers_page": "",
@@ -9953,7 +9817,7 @@
   "last_seen": "2026-10-28",
   "open_now": 1,
   "platform": "",
-  "total_seen": 33
+  "total_seen": 34
  },
  "lululemon": {
   "careers_page": "https://careers.lululemon.com",
@@ -9970,6 +9834,6 @@
   "last_seen": "2026-10-28",
   "open_now": 3,
   "platform": "Employer website",
-  "total_seen": 34
+  "total_seen": 35
  }
 }
