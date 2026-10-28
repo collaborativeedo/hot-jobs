@@ -161,9 +161,9 @@ _NAV = re.compile(r"^(careers?|jobs?|job search|search( jobs)?|apply( now)?|home
                   r"skip to( main)? content|general application|apply anytime|find a job|job shadows?.*|"
                   r"work at .*|applying for a job.*|view (open )?positions|all jobs|job openings|open jobs|"
                   r"english|español|espanol|français|deutsch|italiano|português|中文|日本語|한국어|tiếng việt|русский|العربية)$", re.I)
-_JUNK = re.compile(r"\b(application|applications|notify me|privacy|cookie|personal information|subscribe|newsletter|"
-                   r"openings|internal jobs|external jobs|polski|português|portugues|nederlands|svenska|türkçe|"
-                   r"accessibility|sitemap|donate|volunteer( opportunities)?|do not sell|terms of use)\b", re.I)
+_JUNK = re.compile(r"notify me|privacy|cookie|personal information|subscribe|newsletter|polski|português|portugues|"
+                   r"nederlands|svenska|türkçe|accessibility|sitemap|donate|do not sell|terms of use|"
+                   r"^(job |digital |online |general )?applications?$|(internal|external) jobs?|jobs? openings$", re.I)
 _ELSEWHERE = re.compile(r"\b(Portland|Bend|Hillsboro|Medford|Beaverton|Tigard|Gresham|Redmond|Klamath Falls|Grants Pass|"
                         r"Coos Bay|Astoria|Seaside|Tillamook|Roseburg|Salem|Corvallis|Albany|Lake Oswego|Wilsonville|"
                         r"Vancouver|Seattle|Boise)\b")
@@ -292,7 +292,7 @@ def pull_careers_page(f, src, browser):
                 continue
             t = _job_title(t, l["row"])
             if (not t or len(t) < 4 or len(t) > 120 or _NAV.match(t) or not re.search(r"[A-Za-z]{3}", t)
-                    or (len(t.split()) <= 4 and _JUNK.search(t)) or _ELSEWHERE.search(t)):
+                    or _JUNK.search(t) or _ELSEWHERE.search(t)):
                 continue
             seen.add(h)
             rows.append({"title": t, "url": h, "loc": l["row"], "days": None})
