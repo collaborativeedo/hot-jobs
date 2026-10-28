@@ -164,7 +164,9 @@ _NAV = re.compile(r"^(careers?|jobs?|job search|search( jobs)?|apply( now)?|home
 _JUNK = re.compile(r"notify me|privacy|cookie|personal information|subscribe|newsletter|polski|português|portugues|"
                    r"nederlands|svenska|türkçe|accessibility|sitemap|donate|do not sell|terms of use|"
                    r"^(job |digital |online |general )?applications?$|(internal|external) jobs?|jobs? openings$|"
-                   r"^job title$|^view\b|^start\b.*application|^apply\b|^click here", re.I)
+                   r"^job title$|^view\b|^start\b.*application|^apply\b|^click here|\bclosed\b|accepting applications|"
+                   r"^all categories$|^listing information$|\bvolunteer\b", re.I)
+_FILTER_QUERY = re.compile(r"(^|&)(department|dept|category|categories|catid|cat|filter|team|location|type)=", re.I)
 _ELSEWHERE = re.compile(r"\b(Portland|Bend|Hillsboro|Medford|Beaverton|Tigard|Gresham|Redmond|Klamath Falls|Grants Pass|"
                         r"Coos Bay|Astoria|Seaside|Tillamook|Roseburg|Salem|Corvallis|Albany|Lake Oswego|Wilsonville|"
                         r"Vancouver|Seattle|Boise)\b")
@@ -289,7 +291,8 @@ def pull_careers_page(f, src, browser):
                 continue
             if not (lh == host or lh.endswith("." + host) or host.endswith("." + lh) or _ATS_HOSTS.search(lh)):
                 continue
-            if not _JOBLINK.search(pu.path) or _BAD_PATH.search(pu.path) or h.rstrip("/") == url.split("#")[0].rstrip("/"):
+            if (not _JOBLINK.search(pu.path) or _BAD_PATH.search(pu.path) or _FILTER_QUERY.search(pu.query)
+                    or h.rstrip("/").lower() == url.split("#")[0].rstrip("/").lower()):
                 continue
             t = _job_title(t, l["row"])
             if (not t or len(t) < 4 or len(t) > 120 or _NAV.match(t) or not re.search(r"[A-Za-z]{3}", t)
