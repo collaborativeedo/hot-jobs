@@ -1,0 +1,276 @@
+"""More hiring systems, plus a browser-based reader for careers pages that need JavaScript.
+
+Used for employers found by name (data/employer-sites.json) as well as those learned from posting links.
+Each connector returns rows: {title, city, url, days, snippet, org, info}.
+
+The browser reader loads a careers page the way a person's browser would (it runs the page's JavaScript),
+identifies itself honestly, and stops if the site refuses automated visitors (401/403/429) or shows a
+challenge page. It never logs in or fills in forms.
+"""
+import json
+import re
+from urllib.parse import urljoin, urlparse
+
+from direct import (LANE_CITIES, NOT_LANE, UA, days_since, lane_city, plain)
+
+LOCAL_OK = re.compile(r"\b(OR|Oregon|Lane County|Remote)\b", re.I)
+
+
+def keep_city(location, local, home=""):
+    """Lane County town for a posting, or None to skip it.
+
+    National employers: keep only postings that name a Lane County town.
+    Lane County employers: also keep postings with no location, or an Oregon one that is not clearly elsewhere.
+    """
+    c = lane_city(location or "") or lane_city(f"{location or ''}, OR" if location and "," not in location else "")
+    if c:
+        return c
+    if not local:
+        return None
+    loc = location or ""
+    if NOT_LANE.search(loc) or (loc and not LOCAL_OK.search(loc) and re.search(r",\s*[A-Z]{2}\b", loc)):
+        return None
+    return home or "Lane County"
+
+
+# ---- Recognizing hiring systems from a careers page address -----------------------------------------
+
+def source_from_url(url):
+    u = (url or "").strip()
+    pats = [
+        (r"https?://(?:boards|job-boards)(?:\.eu)?\.greenhouse\.io/(?:embed/job_board\?for=)?([A-Za-z0-9_-]+)", "Greenhouse", "token"),
+        (r"https?://boards-api\.greenhouse\.io/v1/boards/([A-Za-z0-9_-]+)", "Greenhouse", "token"),
+        (r"https?://jobs\.lever\.co/([A-Za-z0-9_-]+)", "Lever", "token"),
+        (r"https?://(?:jobs|careers)\.smartrecruiters\.com/([A-Za-z0-9_-]+)", "SmartRecruiters", "token"),
+        (r"https?://([a-z0-9-]+)\.breezy\.hr", "Breezy HR", "token"),
+        (r"https?://apply\.workable\.com/([A-Za-z0-9_-]+)", "Workable", "token"),
+        (r"https?://([a-z0-9-]+)\.bamboohr\.com", "BambooHR", "token"),
+        (r"https?://recruiting\.paylocity\.com/recruiting/jobs/(?:All|Details/\d+)/([0-9a-f-]{36})", "Paylocity", "token"),
+        (r"https?://([a-z0-9-]+)\.applytojob\.com", "JazzHR", "token"),
+    ]
+    for rx, plat, field in pats:
+        m = re.match(rx, u, re.I)
+        if m and m.group(1).lower() not in ("www", "api", "jobs", "careers", "embed"):
+            tok = m.group(1)
+            return f"{plat.lower().split()[0]}:{tok.lower()}", {"platform": plat, field: tok, "host": urlparse(u).netloc.lower()}
+    return None
+
+
+# ---- Connectors for hiring systems with public job feeds ---------------------------------------------
+
+def _rows(items, local, home):
+    out = []
+    for it in items:
+        c = keep_city(it.get("loc", ""), local, home)
+        if c and it.get("title") and it.get("url"):
+            out.append({"title": plain(it["title"], 200), "city": c, "url": it["url"], "days": it.get("days"),
+                        "snippet": plain(it.get("snippet", ""), 300), "org": "", "info": it.get("info", "")})
+    return out
+
+
+def pull_greenhouse(f, src):
+    data = f.get(f"https://boards-api.greenhouse.io/v1/boards/{src['token']}/jobs", params={"content": "true"}).json()
+    return _rows([{"title": j.get("title"), "loc": (j.get("location") or {}).get("name", ""), "url": j.get("absolute_url"),
+                   "days": days_since(j.get("updated_at")), "snippet": j.get("content", "")}
+                  for j in data.get("jobs", [])], src.get("local"), src.get("home", ""))
+
+
+def pull_lever(f, src):
+    data = f.get(f"https://api.lever.co/v0/postings/{src['token']}", params={"mode": "json"}).json()
+    rows = []
+    for j in data if isinstance(data, list) else []:
+        cat = j.get("categories") or {}
+        created = j.get("createdAt")
+        rows.append({"title": j.get("text"), "loc": cat.get("location", ""), "url": j.get("hostedUrl"),
+                     "days": None if not created else days_since(__import__("datetime").datetime.utcfromtimestamp(created / 1000).isoformat()),
+                     "snippet": j.get("descriptionPlain", ""), "info": cat.get("commitment", "")})
+    return _rows(rows, src.get("local"), src.get("home", ""))
+
+
+def pull_smartrecruiters(f, src):
+    rows, offset = [], 0
+    while offset < 1000:
+        data = f.get(f"https://api.smartrecruiters.com/v1/companies/{src['token']}/postings",
+                     params={"limit": 100, "offset": offset, "country": "us", "region": "OR"}).json()
+        content = data.get("content") or []
+        for j in content:
+            loc = j.get("location") or {}
+            rows.append({"title": j.get("name"), "loc": f"{loc.get('city', '')}, {loc.get('region', '')}",
+                         "url": f"https://jobs.smartrecruiters.com/{src['token']}/{j.get('id')}",
+                         "days": days_since(j.get("releasedDate")), "info": (j.get("typeOfEmployment") or {}).get("label", "")})
+        offset += 100
+        if len(content) < 100:
+            break
+    return _rows(rows, src.get("local"), src.get("home", ""))
+
+
+def pull_breezy(f, src):
+    data = f.get(f"https://{src['token']}.breezy.hr/json").json()
+    return _rows([{"title": j.get("name"), "url": j.get("url"),
+                   "loc": f"{(j.get('location') or {}).get('city', '')}, {((j.get('location') or {}).get('state') or {}).get('id', '')}",
+                   "days": days_since(j.get("published_date")), "info": f"{(j.get('type') or {}).get('name', '')} {j.get('salary') or ''}"}
+                  for j in data if isinstance(j, dict)], src.get("local"), src.get("home", ""))
+
+
+def pull_workable(f, src):
+    data = f.get(f"https://apply.workable.com/api/v1/widget/accounts/{src['token']}").json()
+    return _rows([{"title": j.get("title"), "url": j.get("url") or j.get("application_url"),
+                   "loc": f"{j.get('city', '')}, {j.get('state', '')}", "days": days_since(j.get("created_at") or j.get("published_on")),
+                   "info": j.get("employment_type", "")} for j in data.get("jobs", [])], src.get("local"), src.get("home", ""))
+
+
+def pull_bamboohr(f, src):
+    base = f"https://{src['token']}.bamboohr.com"
+    data = f.get(f"{base}/careers/list", headers={"Accept": "application/json"}).json()
+    return _rows([{"title": j.get("jobOpeningName"), "url": f"{base}/careers/{j.get('id')}",
+                   "loc": f"{(j.get('location') or {}).get('city') or ''}, {(j.get('location') or {}).get('state') or ''}",
+                   "info": j.get("employmentStatusLabel", "")} for j in data.get("result", [])], src.get("local"), src.get("home", ""))
+
+
+def pull_paylocity(f, src):
+    data = f.get(f"https://recruiting.paylocity.com/recruiting/v2/api/feed/jobs/{src['token']}").json()
+    rows = []
+    for j in data.get("jobs", []) if isinstance(data, dict) else []:
+        loc = j.get("jobLocation") or {}
+        rows.append({"title": j.get("title"), "url": j.get("displayUrl") or j.get("applyUrl"),
+                     "loc": f"{loc.get('city', '')}, {loc.get('state', '')}", "days": days_since(j.get("publishedDate")),
+                     "snippet": j.get("description", "")})
+    return _rows(rows, src.get("local"), src.get("home", ""))
+
+
+def pull_jazzhr(f, src):
+    from bs4 import BeautifulSoup
+    base = f"https://{src['token']}.applytojob.com"
+    soup = BeautifulSoup(f.get(f"{base}/apply").text, "html.parser")
+    rows = []
+    for li in soup.select("li.list-group-item"):
+        a = li.select_one("a[href]")
+        if not a:
+            continue
+        rows.append({"title": a.get_text(" ", strip=True), "url": urljoin(base + "/", a["href"]),
+                     "loc": plain(li.get_text(" "), 300).replace(a.get_text(" ", strip=True), "")})
+    return _rows(rows, src.get("local"), src.get("home", ""))
+
+
+# ---- Browser reader for careers pages without a known hiring system ---------------------------------------
+
+_NAV = re.compile(r"^(careers?|jobs?|job search|search( jobs)?|apply( now)?|home|about( us)?|benefits|login|log in|sign in|"
+                  r"view (all|more|details|job)|learn more|read more|more|next|previous|back|contact( us)?|privacy|"
+                  r"terms|current openings|open positions|see (all )?(openings|jobs)|join (our|the) team|"
+                  r"employment( opportunities)?|why work (here|with us)|students?|internships?|culture|faq|news|blog)$", re.I)
+_JOBLINK = re.compile(r"/(jobs?|careers?|positions?|openings?|postings?|requisitions?|vacanc|opportunit|apply|job-details|jobdetail)", re.I)
+_CHALLENGE = re.compile(r"verify you are (a )?human|are you a robot|access denied|captcha|attention required|unusual traffic", re.I)
+_ATS_HOSTS = re.compile(r"greenhouse\.io|lever\.co|smartrecruiters\.com|breezy\.hr|workable\.com|bamboohr\.com|"
+                        r"paylocity\.com|applytojob\.com|myworkdayjobs\.com|oraclecloud\.com|ultipro\.com|"
+                        r"governmentjobs\.com|schooljobs\.com|icims\.com|paycomonline\.net|adp\.com", re.I)
+
+
+class Browser:
+    """One headless Chromium for the whole run, started only if a careers page needs it."""
+
+    def __init__(self):
+        self.pw = self.browser = None
+
+    def page(self):
+        if not self.browser:
+            from playwright.sync_api import sync_playwright
+            self.pw = sync_playwright().start()
+            self.browser = self.pw.chromium.launch()
+        ctx = self.browser.new_context(user_agent=f"Mozilla/5.0 (compatible; {UA})", viewport={"width": 1280, "height": 1600})
+        return ctx.new_page()
+
+    def close(self):
+        if self.browser:
+            self.browser.close()
+            self.pw.stop()
+
+
+def _jsonld_jobs(html, base):
+    rows = []
+    for block in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', html, re.S | re.I):
+        try:
+            data = json.loads(block.strip())
+        except ValueError:
+            continue
+        stack = data if isinstance(data, list) else [data]
+        while stack:
+            d = stack.pop()
+            if isinstance(d, dict):
+                if d.get("@type") == "JobPosting":
+                    loc = d.get("jobLocation") or {}
+                    loc = loc[0] if isinstance(loc, list) and loc else loc
+                    addr = (loc.get("address") if isinstance(loc, dict) else {}) or {}
+                    if isinstance(addr, str):
+                        addr = {"addressLocality": addr}
+                    pay = d.get("baseSalary") or {}
+                    val = pay.get("value") if isinstance(pay, dict) else {}
+                    pay_txt = ""
+                    if isinstance(val, dict) and (val.get("minValue") or val.get("value")):
+                        unit = (val.get("unitText") or "").lower()
+                        lo, hi = val.get("minValue") or val.get("value"), val.get("maxValue")
+                        pay_txt = f"${lo} to ${hi} per {unit}" if hi else f"${lo} per {unit}"
+                    rows.append({"title": d.get("title"), "url": urljoin(base, d.get("url") or base),
+                                 "loc": f"{addr.get('addressLocality', '')}, {addr.get('addressRegion', '')}",
+                                 "days": days_since(d.get("datePosted")), "snippet": d.get("description", ""),
+                                 "info": f"{d.get('employmentType', '')} {pay_txt}"})
+                stack.extend(v for v in d.values() if isinstance(v, (dict, list)))
+            elif isinstance(d, list):
+                stack.extend(d)
+    return rows
+
+
+def pull_careers_page(f, src, browser):
+    """Read a careers page with a real browser engine; hand off to a hiring-system connector if it uses one."""
+    url = src["url"]
+    page = browser.page()
+    try:
+        resp = page.goto(url, wait_until="networkidle", timeout=45000)
+        if resp is not None and resp.status in (401, 403, 429):
+            raise PermissionError(f"site refused automated visitors ({resp.status})")
+        page.wait_for_timeout(1500)
+        html = page.content()
+        if _CHALLENGE.search(page.title() or "") or _CHALLENGE.search(html[:5000]):
+            raise PermissionError("site shows a human-verification challenge")
+        links = page.eval_on_selector_all("a[href]", """els => els.map(a => {
+            const row = a.closest('li,tr,article,.job,.posting,[class*=job],[class*=posting],[class*=opening]') || a.parentElement;
+            return {href: a.href, text: (a.innerText || a.textContent || '').trim().replace(/\\s+/g,' '),
+                    row: ((row && row.innerText) || '').trim().replace(/\\s+/g,' ').slice(0, 300)};
+        })""")
+        frames = page.eval_on_selector_all("iframe[src]", "els => els.map(e => e.src)")
+    finally:
+        page.context.close()
+
+    # A careers page that embeds or links to a known hiring system: use that system's own connector next time.
+    for u in frames + [l["href"] for l in links]:
+        if _ATS_HOSTS.search(u or ""):
+            found = source_from_url(u)
+            if found:
+                return {"handoff": found}
+            import direct
+            found = direct.source_from_url(u)
+            if found:
+                return {"handoff": found}
+
+    rows = _jsonld_jobs(html, url)
+    if not rows:
+        host = (urlparse(url).hostname or "").lower().removeprefix("www.")
+        seen = set()
+        for l in links:
+            h, t = l["href"], l["text"]
+            lh = (urlparse(h).hostname or "").lower().removeprefix("www.")
+            if not t or len(t) < 4 or len(t) > 120 or _NAV.match(t) or h in seen:
+                continue
+            if not (lh == host or lh.endswith("." + host) or host.endswith("." + lh)):
+                continue
+            if not _JOBLINK.search(urlparse(h).path) or h.rstrip("/") == url.rstrip("/"):
+                continue
+            seen.add(h)
+            rows.append({"title": t, "url": h, "loc": l["row"], "days": None})
+            if len(rows) >= 60:
+                break
+    return _rows(rows, src.get("local", True), src.get("home", ""))
+
+
+CONNECTORS = {"Greenhouse": pull_greenhouse, "Lever": pull_lever, "SmartRecruiters": pull_smartrecruiters,
+              "Breezy HR": pull_breezy, "Workable": pull_workable, "BambooHR": pull_bamboohr,
+              "Paylocity": pull_paylocity, "JazzHR": pull_jazzhr}

@@ -28,6 +28,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import rules  # noqa: E402
 import direct  # noqa: E402
 import enrich  # noqa: E402
+import ats  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "jobs.json"
@@ -39,6 +40,7 @@ PULLED = ROOT / "data" / "pulled.json"
 SOURCES = ROOT / "data" / "sources.json"        # hiring systems learned automatically, pulled directly each night
 DOMAIN_NAMES = ROOT / "data" / "domain-names.json"  # employer names read from careers sites' own pages
 SOURCES_CSV = ROOT / "docs" / "sources.csv"
+EMPLOYER_SITES = ROOT / "data" / "employer-sites.json"  # employers found by name, with their careers pages
 RUNLOG = ROOT / "data" / "run-log.json"    # what each nightly run did, including errors
 WAGES = ROOT / "data" / "wages.json"            # average pay by occupation for Lane County and Oregon (QualityInfo)
 OED_DETAILS = ROOT / "data" / "oed-details.json"  # hours, pay and description from WorkSource Oregon listing pages
@@ -306,6 +308,18 @@ def pull_direct(qi_jobs, fetcher, today):
             rec["employer"] = rules.TENANT_NAMES[rec["tenant"].lower()]
         if not rec.get("employer") and j["employer"] and not j["employer"].startswith("Unnamed"):
             rec["employer"] = j["employer"]
+    # Employers found by name: add each careers page as a source. A page on a known hiring system uses that
+    # system's connector; any other page is read with the browser reader.
+    sites = json.loads(EMPLOYER_SITES.read_text()) if EMPLOYER_SITES.exists() else []
+    for site in sites:
+        url = site.get("careers_url") or ""
+        if not url:
+            continue
+        found = direct.source_from_url(url) or ats.source_from_url(url)
+        key, src = found if found else (f"page:{url.lower().rstrip('/')}", {"platform": "Careers page", "url": url,
+                                                                             "host": re.sub(r"^https?://([^/]+).*$", r"\1", url).lower()})
+        rec = sources.setdefault(key, dict(src, first_seen=today, employer=""))
+        rec.update(employer=site["employer"], local=bool(site.get("local")), home=site.get("home", ""), named=True)
     for host in ("www.governmentjobs.com", "www.schooljobs.com"):  # public employers; one search covers all of them
         sources.setdefault(f"neogov:{host}", {"platform": "NEOGOV", "host": host, "first_seen": today,
                                               "employer": "", "multi": True})
@@ -331,18 +345,35 @@ def pull_direct(qi_jobs, fetcher, today):
             title_soc.setdefault(j["title"].lower(), j["soc"])
 
     got = []
-    for key, src in sorted(sources.items()):
-        fn = direct.CONNECTORS.get(src["platform"])
+    connectors = dict(direct.CONNECTORS, **ats.CONNECTORS)
+    browser = ats.Browser()
+    queue = sorted(sources.items())
+    while queue:
+        key, src = queue.pop(0)
+        if src["platform"] == "Careers page":
+            fn = lambda f, s: ats.pull_careers_page(f, s, browser)  # noqa: E731
+        else:
+            fn = connectors.get(src["platform"])
         if not fn:
             continue
         before = fetcher.calls
         try:
             rows = fn(fetcher, src)
+            if isinstance(rows, dict) and rows.get("handoff"):
+                # The careers page runs on a hiring system we can read directly: switch to it from now on.
+                nkey, nsrc = rows["handoff"]
+                if nkey not in sources:
+                    sources[nkey] = dict(nsrc, first_seen=today, employer=src.get("employer", ""), local=src.get("local"),
+                                         home=src.get("home", ""), named=src.get("named", False))
+                    queue.append((nkey, sources[nkey]))
+                src.update(status=f"uses {nsrc['platform']}", last_run=today, lane_openings=0)
+                continue
             src.update(status="ok", last_run=today, lane_openings=len(rows))
         except PermissionError as e:
             rows = []
             rs = fetcher.robots_status.get(f"https://{src['host']}")
-            why = "site asks crawlers not to visit" if rs in (200, None) else f"robots.txt unavailable ({rs})"
+            why = str(e) if str(e).startswith("site ") else (
+                "site asks crawlers not to visit" if rs in (200, None) else f"robots.txt unavailable ({rs})")
             src.update(status=f"skipped: {why}", last_run=today, lane_openings=0)
             print(f"  {key}: {e}")
         except Exception as e:  # noqa: BLE001  one failing source never stops the run
@@ -365,12 +396,13 @@ def pull_direct(qi_jobs, fetcher, today):
                         "snippet": r.get("snippet", ""), "employer": emp, "direct": True,
                         "hours": r.get("hours") or enrich.job_hours(r.get("info", "")),
                         "pay": enrich.posted_pay(r.get("info", ""))})
+    browser.close()
     SOURCES.write_text(json.dumps(sources, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     with SOURCES_CSV.open("w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
         w.writerow(["Employer", "Hiring system", "Address", "Lane openings last night", "Status", "First seen", "Last run"])
         for key, src in sorted(sources.items(), key=lambda kv: -kv[1].get("lane_openings", 0)):
-            w.writerow([src.get("employer") or ("Public employers in Lane County" if src.get("multi") else key), src["platform"], f"https://{src['host']}/{src.get('site', src.get('tenant', ''))}",
+            w.writerow([src.get("employer") or ("Public employers in Lane County" if src.get("multi") else key), src["platform"], src.get("url") or f"https://{src['host']}/{src.get('site', src.get('tenant', src.get('token', '')))}",
                         src.get("lane_openings", 0), src.get("status", ""), src.get("first_seen", ""), src.get("last_run", "")])
 
     # Merge: one row per posting, direct first.
