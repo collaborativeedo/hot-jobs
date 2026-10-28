@@ -157,7 +157,23 @@ def pull_jazzhr(f, src):
 _NAV = re.compile(r"^(careers?|jobs?|job search|search( jobs)?|apply( now)?|home|about( us)?|benefits|login|log in|sign in|"
                   r"view (all|more|details|job)|learn more|read more|more|next|previous|back|contact( us)?|privacy|"
                   r"terms|current openings|open positions|see (all )?(openings|jobs)|join (our|the) team|"
-                  r"employment( opportunities)?|why work (here|with us)|students?|internships?|culture|faq|news|blog)$", re.I)
+                  r"employment( opportunities)?|why work (here|with us)|students?|internships?|culture|faq|news|blog|"
+                  r"skip to( main)? content|general application|apply anytime|find a job|job shadows?.*|"
+                  r"work at .*|applying for a job.*|view (open )?positions|all jobs|job openings|open jobs|"
+                  r"english|español|espanol|français|deutsch|italiano|português|中文|日本語|한국어|tiếng việt|русский|العربية)$", re.I)
+_LOCATION_ONLY = re.compile(r"^[A-Za-z .'-]+,\s*(OR|Oregon)\b[\s\d-]*$")
+_BAD_PATH = re.compile(r"/(category|categories|tag|department|departments|location|locations|search|login|benefits)(/|$)|"
+                       r"^/(es|fr|de|it|pt|zh|ja|ko|vi|ru|ar)(/|$)", re.I)
+
+
+def _job_title(text, row):
+    t = re.sub(r"^\{?\d{2,}\}?\s*", "", text).strip()
+    if _LOCATION_ONLY.match(t):  # the link text is the location; the title is elsewhere in the row
+        rest = row.replace(text, " ").strip()
+        t = re.split(r"\s{2,}|\s[|•·]\s", rest)[0].strip() if rest else ""
+    t = re.sub(r"\s*\{[^}]*\}.*$", "", t)                       # "Clerk {Springfield, OR} ..." -> "Clerk"
+    t = re.split(r"\s+(?=(?:" + "|".join(LANE_CITIES) + r"),\s*OR)", t)[0]  # drop trailing "Eugene, OR..."
+    return t.strip(" -|•·")
 _JOBLINK = re.compile(r"/(jobs?|careers?|positions?|openings?|postings?|requisitions?|vacanc|opportunit|apply|job-details|jobdetail)", re.I)
 _CHALLENGE = re.compile(r"verify you are (a )?human|are you a robot|access denied|captcha|attention required|unusual traffic", re.I)
 _ATS_HOSTS = re.compile(r"greenhouse\.io|lever\.co|smartrecruiters\.com|breezy\.hr|workable\.com|bamboohr\.com|"
@@ -258,11 +274,18 @@ def pull_careers_page(f, src, browser):
         for l in links:
             h, t = l["href"], l["text"]
             lh = (urlparse(h).hostname or "").lower().removeprefix("www.")
-            if not t or len(t) < 4 or len(t) > 120 or _NAV.match(t) or h in seen:
+            pu = urlparse(h)
+            if "#" in h and h.split("#")[0].rstrip("/") == url.split("#")[0].rstrip("/"):
+                continue  # a link to a spot on the same page
+            h = h.split("#")[0]
+            if not t or h in seen or _NAV.match(t):
                 continue
-            if not (lh == host or lh.endswith("." + host) or host.endswith("." + lh)):
+            if not (lh == host or lh.endswith("." + host) or host.endswith("." + lh) or _ATS_HOSTS.search(lh)):
                 continue
-            if not _JOBLINK.search(urlparse(h).path) or h.rstrip("/") == url.rstrip("/"):
+            if not _JOBLINK.search(pu.path) or _BAD_PATH.search(pu.path) or h.rstrip("/") == url.split("#")[0].rstrip("/"):
+                continue
+            t = _job_title(t, l["row"])
+            if not t or len(t) < 4 or len(t) > 120 or _NAV.match(t) or not re.search(r"[A-Za-z]{3}", t):
                 continue
             seen.add(h)
             rows.append({"title": t, "url": h, "loc": l["row"], "days": None})
