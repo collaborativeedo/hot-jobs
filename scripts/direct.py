@@ -157,7 +157,9 @@ def posting_key(url):
     m = re.search(r"careers\.peacehealth\.org/jobs/(\d+)", u)
     if m:
         return f"peacehealth:{m.group(1)}"
-    return u.split("?")[0].rstrip("/")
+    base, _, query = u.partition("?")
+    keep = "&".join(sorted(q for q in query.split("&") if q and not re.match(r"(utm_|source=|src=|ref=|lang=|ccid=|selectedmenukey=)", q)))
+    return base.rstrip("/") + ("?" + keep if keep else "")
 
 
 # ---- Connectors ----------------------------------------------------------------

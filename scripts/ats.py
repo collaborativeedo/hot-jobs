@@ -163,7 +163,8 @@ _NAV = re.compile(r"^(careers?|jobs?|job search|search( jobs)?|apply( now)?|home
                   r"english|español|espanol|français|deutsch|italiano|português|中文|日本語|한국어|tiếng việt|русский|العربية)$", re.I)
 _JUNK = re.compile(r"notify me|privacy|cookie|personal information|subscribe|newsletter|polski|português|portugues|"
                    r"nederlands|svenska|türkçe|accessibility|sitemap|donate|do not sell|terms of use|"
-                   r"^(job |digital |online |general )?applications?$|(internal|external) jobs?|jobs? openings$", re.I)
+                   r"^(job |digital |online |general )?applications?$|(internal|external) jobs?|jobs? openings$|"
+                   r"^job title$|^view\b|^start\b.*application|^apply\b|^click here", re.I)
 _ELSEWHERE = re.compile(r"\b(Portland|Bend|Hillsboro|Medford|Beaverton|Tigard|Gresham|Redmond|Klamath Falls|Grants Pass|"
                         r"Coos Bay|Astoria|Seaside|Tillamook|Roseburg|Salem|Corvallis|Albany|Lake Oswego|Wilsonville|"
                         r"Vancouver|Seattle|Boise)\b")
