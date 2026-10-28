@@ -173,7 +173,7 @@ _JUNK = re.compile(r"notify me|privacy|cookie|personal information|subscribe|new
                    r"^(job |digital |online |general )?applications?$|(internal|external) jobs?|jobs? openings$|"
                    r"^job title$|^view\b|^start\b.*application|^apply\b|^click here|\bclosed\b|accepting applications|"
                    r"^all categories$|^listing information$|\bvolunteer\b|^(all|show me all|find|see all|browse)\b.*\b(jobs|positions|openings)\b|"
-                   r"positions near me|job descriptions|^admin$|^events?$|^job details$|^more info$|^details$", re.I)
+                   r"positions near me|job descriptions|^admin$|^events?$|^job details$|^more info$|^details$|accepted anytime|^apply anytime", re.I)
 _FILTER_QUERY = re.compile(r"(^|&)(department|dept|category|categories|catid|cat|filter|team|location|type)=", re.I)
 _ELSEWHERE = re.compile(r"\b(Portland|Bend|Hillsboro|Medford|Beaverton|Tigard|Gresham|Redmond|Klamath Falls|Grants Pass|"
                         r"Coos Bay|Astoria|Seaside|Tillamook|Roseburg|Salem|Corvallis|Albany|Lake Oswego|Wilsonville|"
