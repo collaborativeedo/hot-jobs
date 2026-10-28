@@ -28,8 +28,8 @@ def keep_city(location, local, home=""):
     if not local:
         return None
     loc = location or ""
-    if NOT_LANE.search(loc) or (loc and not LOCAL_OK.search(loc) and re.search(r",\s*[A-Z]{2}\b", loc)):
-        return None
+    if NOT_LANE.search(loc) or re.search(r"[A-Za-z]\s*,\s*(?:[A-Z]{2}|Oregon)\b", loc):
+        return None  # names some other town ("Welches, OR", "Boise, ID")
     return home or "Lane County"
 
 
@@ -128,13 +128,20 @@ def pull_bamboohr(f, src):
 
 
 def pull_paylocity(f, src):
-    data = f.get(f"https://recruiting.paylocity.com/recruiting/v2/api/feed/jobs/{src['token']}").json()
+    """Paylocity boards embed their full job list in the page (window.pageData)."""
+    page = f.get(f"https://recruiting.paylocity.com/Recruiting/Jobs/All/{src['token']}").text
+    i = page.find("pageData")
+    j = page.find("{", i) if i >= 0 else -1
+    data = json.JSONDecoder().raw_decode(page[j:])[0] if j >= 0 else {}
     rows = []
-    for j in data.get("jobs", []) if isinstance(data, dict) else []:
-        loc = j.get("jobLocation") or {}
-        rows.append({"title": j.get("title"), "url": j.get("displayUrl") or j.get("applyUrl"),
-                     "loc": f"{loc.get('city', '')}, {loc.get('state', '')}", "days": days_since(j.get("publishedDate")),
-                     "snippet": j.get("description", "")})
+    for job in data.get("Jobs") or []:
+        loc = job.get("JobLocation") or {}
+        where = f"{loc.get('City', '')}, {loc.get('State', '')}"
+        if (loc.get("County") or "").upper() == "LANE" and not lane_city(where):
+            where = "Lane County, OR"
+        rows.append({"title": job.get("JobTitle"), "loc": where, "days": days_since(job.get("PublishedDate")),
+                     "url": f"https://recruiting.paylocity.com/Recruiting/Jobs/Details/{job.get('JobId')}",
+                     "snippet": job.get("Description", "")})
     return _rows(rows, src.get("local"), src.get("home", ""))
 
 
@@ -183,7 +190,8 @@ def _job_title(text, row):
     t = re.sub(r"\s*\{[^}]*\}.*$", "", t)                       # "Clerk {Springfield, OR} ..." -> "Clerk"
     t = re.split(r"\s+(?=(?:" + "|".join(LANE_CITIES) + r"),\s*OR)", t)[0]  # drop trailing "Eugene, OR..."
     return t.strip(" -|•·")
-_JOBLINK = re.compile(r"/(jobs?|careers?|positions?|openings?|postings?|requisitions?|vacanc|opportunit|apply|job-details|jobdetail)", re.I)
+_JOBLINK = re.compile(r"/(jobs?|careers?|positions?|openings?|postings?|requisitions?|vacanc|opportunit|apply|job-details|jobdetail)"
+                      r"|viewjob|job_?description|jobposting|/hire/|/employment/", re.I)
 _CHALLENGE = re.compile(r"verify you are (a )?human|are you a robot|access denied|captcha|attention required|unusual traffic", re.I)
 _ATS_HOSTS = re.compile(r"greenhouse\.io|lever\.co|smartrecruiters\.com|breezy\.hr|workable\.com|bamboohr\.com|"
                         r"paylocity\.com|applytojob\.com|myworkdayjobs\.com|oraclecloud\.com|ultipro\.com|"

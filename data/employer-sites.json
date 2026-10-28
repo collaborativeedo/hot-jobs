@@ -243,5 +243,110 @@
   "local": true,
   "home": "Eugene",
   "found": "2026-10-28"
+ },
+ {
+  "employer": "Relief Nursery",
+  "careers_url": "https://reliefnursery.org/employment/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Palo Alto Software",
+  "careers_url": "https://www.paloalto.com/about-us/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Tip Tap Grow",
+  "careers_url": "https://tip-tap-grow-llc.careerplug.com/jobs",
+  "local": true,
+  "home": "Cottage Grove",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "GloryBee",
+  "careers_url": "https://glorybeefoods.applicantpro.com/jobs/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Orchid Health",
+  "careers_url": "https://orchidhealth.applytojob.com/apply",
+  "local": true,
+  "home": "Oakridge",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Lane Transit District",
+  "careers_url": "https://ltdjobs.applicantpool.com/jobs/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Lane Community College",
+  "careers_url": "https://jobs.lanecc.edu/postings/search",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Bethel School District",
+  "careers_url": "https://bethelor.tedk12.com/hire/Index.aspx",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "City of Florence",
+  "careers_url": "https://cityofflorence.applytojob.com/apply",
+  "local": true,
+  "home": "Florence",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Emergence Addiction and Behavioral Therapies",
+  "careers_url": "https://recruiting.paylocity.com/Recruiting/Jobs/All/b4602a76-0a95-4038-8aa3-b04b19e24ad9",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Chick-fil-A Springfield (Gateway)",
+  "careers_url": "https://www.workstream.us/j/c34dd5f8/chick-fil-a",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Willamalane Park and Recreation District",
+  "careers_url": "https://willamalanedistrict.bamboohr.com/jobs/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "The Papé Group",
+  "careers_url": "https://recruiting2.ultipro.com/PAP1001/JobBoard/7297d137-c573-4bf4-8ab4-09ad7dac6ec8/",
+  "local": false,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Eugene Weekly",
+  "careers_url": "https://eugeneweekly.com/hiring/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Franz Bakery",
+  "careers_url": "https://franzbakery.com/careers/",
+  "local": false,
+  "home": "Springfield",
+  "found": "2026-10-28"
  }
 ]
