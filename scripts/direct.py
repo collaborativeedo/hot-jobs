@@ -310,6 +310,14 @@ NOT_LANE = re.compile(r"\b(Harrisburg|Brownsville|Halsey|Monroe|Sweet Home|Drain
                       r"Philomath|Roseburg|Salem|Newport|Reedsport|Waldport|Yachats|Sutherlin|Shedd|Tangent)\b", re.I)
 
 
+LANE_ORG = re.compile(r"\b(Lane County|City of (Eugene|Springfield|Florence|Cottage Grove|Junction City|Creswell|"
+                      r"Veneta|Oakridge|Coburg|Lowell|Westfir|Dunes City)|Eugene School District|\b4J\b|Bethel School|"
+                      r"Springfield (Public Schools|School District|Utility Board)|South Lane|Siuslaw|Fern Ridge|Crow-Applegate|"
+                      r"McKenzie School|Marcola|Pleasant Hill|Oakridge School|Lowell School|Junction City School|Creswell School|"
+                      r"Lane Education Service|Lane Transit|\bLTD\b|EWEB|Eugene Water|Lane Community College|"
+                      r"Willamalane|Lane Council of Governments|Eugene-Springfield Fire|Lane Fire)", re.I)
+
+
 def pull_neogov(f, src):
     """Public-sector jobs (cities, counties, school districts, special districts) from NEOGOV's location search."""
     from bs4 import BeautifulSoup
@@ -339,7 +347,12 @@ def pull_neogov(f, src):
                 org = plain(o.get_text(), 120) if o else ""
                 org = re.sub(r"\s*\((dba [^)]*|OR|Oregon)\)", "", org)
                 org = re.sub(r",\s*(OR|Oregon)$", "", org).strip()
-                jobs.append({"title": plain(a.get_text(), 200), "city": lane_city(loc) or lane_city(loc + ", OR") or "Lane County",
+                city = lane_city(loc) or next((c for c in map(lane_city, infos) if c), "")
+                # The location search is loose (schooljobs.com returns jobs nationwide), so keep a job only when
+                # it names a Lane County town, says Lane County, or comes from a Lane County public employer.
+                if not city and not re.search(r"\bLane County\b", loc) and not LANE_ORG.search(org):
+                    continue
+                jobs.append({"title": plain(a.get_text(), 200), "city": city or "Lane County",
                              "url": f"https://{src['host']}{a['href']}", "days": None, "snippet": "", "org": org,
                              "info": info})
             if not items or not new:
