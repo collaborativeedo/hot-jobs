@@ -400,21 +400,21 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "4fd233fb1ac3",
-"title": "Educational Assistant Sub Pool 2026/27",
-"city": "Eugene",
-"employer": "Eugene School District 4J",
-"url": "https://www.governmentjobs.com/jobs/5459248-0/educational-assistant-sub-pool-2026-27",
-"days": 19,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "0a6f570c4c73",
 "title": "Nutrition Services Substitute-Pool",
 "city": "Eugene",
 "employer": "Eugene School District 4J",
 "url": "https://www.governmentjobs.com/jobs/5459173-0/nutrition-services-substitute-pool",
+"days": 19,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "4fd233fb1ac3",
+"title": "Educational Assistant Sub Pool 2026/27",
+"city": "Eugene",
+"employer": "Eugene School District 4J",
+"url": "https://www.governmentjobs.com/jobs/5459248-0/educational-assistant-sub-pool-2026-27",
 "days": 19,
 "soc": "",
 "route": "Employer's hiring site"
@@ -1580,36 +1580,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "f7fe20e0880f",
-"title": "Polski",
-"city": "Eugene",
-"employer": "Avant Assessment",
-"url": "https://www.avantassessment.com/pl/about-avant/careers",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "fcdaf3011435",
-"title": "Português (Brasil)",
-"city": "Eugene",
-"employer": "Avant Assessment",
-"url": "https://www.avantassessment.com/pt-br/about-avant/careers",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "6dcf3998699e",
-"title": "Do Not Sell My Personal Information",
-"city": "Eugene",
-"employer": "Avant Assessment",
-"url": "https://www.avantassessment.com/about-avant/careers",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "f6ee98b775b5",
 "title": "Pro Tem Instructor/Lecturer (Education Studies) - Open Pool",
 "city": "Eugene",
@@ -1950,11 +1920,11 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "63ca6b44c253",
-"title": "Notify Me®",
+"id": "98628dd87ec1",
+"title": "Job Title",
 "city": "Cottage Grove",
 "employer": "City of Cottage Grove",
-"url": "https://cottagegroveor.gov/Jobs.aspx?CommunityJobs=False&Mode=Subscribe",
+"url": "https://cottagegroveor.gov/Jobs.aspx",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -2090,71 +2060,11 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "906fe8e80b1f",
-"title": "EBP Audit Manager - CPA Hot Job Full Time Hillsboro Office - Hillsboro, OR 97124; Eugene Office",
-"city": "Eugene",
-"employer": "Jones & Roth CPAs",
-"url": "https://www.paycomonline.net/v4/ats/web.php/portal/9E928BCDDB205F1708710753669E6DC4/jobs/121029",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "5a161b79c8e5",
-"title": "Senior Tax Accountant - CPA Hot Job Full Time Bend Office - Bend, OR 97702 a",
-"city": "Eugene",
-"employer": "Jones & Roth CPAs",
-"url": "https://www.paycomonline.net/v4/ats/web.php/portal/9E928BCDDB205F1708710753669E6DC4/jobs/602461",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "ea780eed6a59",
-"title": "Client Accounting Services - Manager Full Time Bend Office - Bend, OR 97702; Eugene Office",
-"city": "Eugene",
-"employer": "Jones & Roth CPAs",
-"url": "https://www.paycomonline.net/v4/ats/web.php/portal/9E928BCDDB205F1708710753669E6DC4/jobs/620850",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "e09bc3bb95c6",
 "title": "Tax Reviewer - Seasonal Part Time Eugene Office",
 "city": "Eugene",
 "employer": "Jones & Roth CPAs",
 "url": "https://www.paycomonline.net/v4/ats/web.php/portal/9E928BCDDB205F1708710753669E6DC4/jobs/558900",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "477e85c36077",
-"title": "Job Application",
-"city": "Springfield",
-"employer": "Springfield Utility Board",
-"url": "https://www.governmentjobs.com/careers/subutil/applications/submitted",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "0ffa10d237f6",
-"title": "View External Jobs Openings",
-"city": "Springfield",
-"employer": "Springfield Utility Board",
-"url": "https://www.governmentjobs.com/careers/subutil",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "3f43e0210fd7",
-"title": "View Internal Jobs Openings",
-"city": "Springfield",
-"employer": "Springfield Utility Board",
-"url": "https://www.governmentjobs.com/careers/subutil/promotionaljobs",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -2171,7 +2081,7 @@
 },
 {
 "id": "f2e878b62057",
-"title": "digital application",
+"title": "START YOUR APPLICATION",
 "city": "Eugene",
 "employer": "St. Vincent de Paul Lane County",
 "url": "https://www.svdp.us/apply/",
@@ -2597,16 +2507,6 @@
 "url": "https://recruiting2.ultipro.com/mcm1001mcmen/JobBoard/cf27ce71-5418-48dc-a802-8a6e47a52b25/OpportunityDetail?opportunityId=82a16772-37e1-47b6-8be2-69293f6b385f",
 "days": 47,
 "soc": "352011",
-"route": "Employer's hiring site"
-},
-{
-"id": "b139e99e0133",
-"title": "Project Admin (Onsite - Multiple Locations)",
-"city": "Eugene",
-"employer": "OEG (Everus)",
-"url": "https://everus.rec.pro.ukg.net/mdu1500mduc/JobBoard/f9402b82-d385-4067-ab64-4e65b88ce602/OpportunityDetail?opportunityId=09b17dd0-188d-44df-ba0d-c69bd95121e2",
-"days": 12,
-"soc": "436014",
 "route": "Employer's hiring site"
 },
 {
@@ -11467,6 +11367,16 @@
 "url": "https://secure.emp.state.or.us/jobs/index.cfm?location_content=jobdisplay.cfm&agency_menu=N&ord=4593045&system=WIOE&type=N&lang=E",
 "days": 12,
 "soc": "433071",
+"route": "WorkSource Oregon listing"
+},
+{
+"id": "a9af60e178df",
+"title": "Project Admin (Onsite - Multiple Locations)",
+"city": "Eugene",
+"employer": "OEG (Everus)",
+"url": "https://secure.emp.state.or.us/jobs/index.cfm?location_content=jobdisplay.cfm&agency_menu=N&ord=4593039&system=WIOE&type=N&lang=E",
+"days": 12,
+"soc": "436014",
 "route": "WorkSource Oregon listing"
 },
 {
