@@ -181,7 +181,7 @@
     defs.forEach(function (d) {
       var t = el("div", "tile"); t.appendChild(el("div", "k", d[0])); t.appendChild(el("div", "v", d[2](last[d[1]])));
       if (prev && prev[d[1]] != null && last[d[1]] != null) {
-        var ch = last[d[1]] - prev[d[1]], isPct = d[2] === pct;
+        var isPct = d[2] === pct, ch = isPct ? Math.round(last[d[1]] - prev[d[1]]) : last[d[1]] - prev[d[1]];
         var txt = (ch > 0 ? "+" : ch < 0 ? "−" : "±") + (isPct ? Math.abs(ch).toFixed(0) + " pts" : fmt(Math.abs(ch))) + " vs " + dlabel(prev.date);
         t.appendChild(el("div", "d" + (ch > 0 ? " up" : ch < 0 ? " down" : ""), txt));
       }
