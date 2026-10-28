@@ -139,13 +139,31 @@ _PATTERNS = [
 ]
 
 
+_LEAD_JUNK = re.compile(r"^(?:(?:click here|eeoc? statement|equal employment opportunity|job description|"
+                        r"talentmatch|about us|company overview|who we are)\s+)+", re.I)
+_TRAIL_JUNK = {"Sales", "Associates", "Associate", "Corporation", "Corp", "Inc", "LLC", "Ltd", "Co", "Company", "This", "The"}
+_BAD_NAMES = {"Inc", "LLC", "Posted", "Schools", "Workplace", "Click", "EEO", "EEOC", "Equal", "Job", "Company", "Corporation"}
+
+
+def _tidy_name(name):
+    name = re.split(r"(?<=\w{3})\. ", name)[0]
+    name = _LEAD_JUNK.sub("", name.strip(" .,'’-"))
+    words = name.replace(",", "").split()
+    while len(words) > 1 and words[-1].strip(".") in _TRAIL_JUNK:
+        words.pop()
+    return " ".join(words).strip(" .,'’-")
+
+
 def employer_from_text(text):
     for rx in _PATTERNS:
         for m in rx.finditer(text or ""):
-            name = m.group(1).strip(" .,'’-")
+            name = _tidy_name(m.group(1))
             name = re.sub(r"\s+(of|and|&|the)$", "", name)
+            if not name:
+                continue
             first = name.split()[0]
-            if first in _STOP or name.upper() == name or len(name) < 3 or len(name.split()) > 6:
+            if (first in _STOP or name in _BAD_NAMES or name.upper() == name or len(name) < 3
+                    or len(name.split()) > 6):
                 continue
             return name
     return ""
