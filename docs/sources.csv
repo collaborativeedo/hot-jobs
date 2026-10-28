@@ -52,8 +52,6 @@ KeyBank,Workday,https://keybank.wd5.myworkdayjobs.com/external_career_site,2,ok,
 See's Candies,Workday,https://sees.wd1.myworkdayjobs.com/Sees_Candies,2,ok,2026-10-26,2026-10-28
 Sinclair Broadcast Group,Oracle Recruiting,https://edyy.fa.us2.oraclecloud.com/CX_2002,1,ok,2026-10-16,2026-10-28
 Jones & Roth CPAs,Careers page,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=9E928BCDDB205F1708710753669E6DC4,1,ok,2026-10-28,2026-10-28
-Springfield Utility Board,Careers page,https://www.subutil.com/about-us/careers-with-sub/,1,ok,2026-10-28,2026-10-28
-St. Vincent de Paul Lane County,Careers page,https://www.svdp.us/?p=100,1,ok,2026-10-28,2026-10-28
 Alsco,UKG (UltiPro),https://recruiting2.ultipro.com/als1001alsco,1,ok,2026-10-09,2026-10-28
 ukg:gen1025/37481dc2-ddb2-1941-a0f9-befbbf45ab11,UKG (UltiPro),https://recruiting.ultipro.com/gen1025,1,ok,2026-10-12,2026-10-28
 ukg:pap1001/7297d137-c573-4bf4-8ab4-09ad7dac6ec8,UKG (UltiPro),https://recruiting2.ultipro.com/pap1001,1,ok,2026-10-09,2026-10-28
@@ -95,6 +93,8 @@ Chambers Construction,Careers page,https://www.chambersconstruction.com/careers.
 Emerald People's Utility District,Careers page,https://www.epud.org/about-us/careers/,0,ok,2026-10-28,2026-10-28
 Lane Council of Governments,Careers page,https://www.lcog.org/jobs,0,skipped: site refused automated visitors (403),2026-10-28,2026-10-28
 Rosen Aviation,Careers page,https://www.rosenaviation.com/about/careers/,0,skipped: site shows a human-verification challenge,2026-10-28,2026-10-28
+Springfield Utility Board,Careers page,https://www.subutil.com/about-us/careers-with-sub/,0,ok,2026-10-28,2026-10-28
+St. Vincent de Paul Lane County,Careers page,https://www.svdp.us/?p=100,0,ok,2026-10-28,2026-10-28
 Women's Care,Paylocity,https://recruiting.paylocity.com/c4032ffa-3cff-4c15-89a2-ee73af692b95,0,ok,2026-10-28,2026-10-28
 PeaceHealth,PeaceHealth careers site,https://careers.peacehealth.org/,0,error: site blocks automated access (403),2026-10-09,2026-10-28
 ukg:lam1000lac/82898216-ca7a-4621-b01b-bf3410c919b2,UKG (UltiPro),https://recruiting2.ultipro.com/lam1000lac,0,ok,2026-10-12,2026-10-28

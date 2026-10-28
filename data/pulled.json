@@ -20,22 +20,22 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "cd587211595c",
-"title": "Mental Health Associate",
-"city": "Lane County",
-"employer": "Lane County",
-"url": "https://www.governmentjobs.com/jobs/5509128-0/mental-health-associate",
-"days": 8,
-"soc": "311133",
-"route": "Employer's hiring site"
-},
-{
 "id": "4e467d84e52b",
 "title": "Mental Health Associate",
 "city": "Lane County",
 "employer": "Lane County",
 "url": "https://www.governmentjobs.com/jobs/5508926-0/mental-health-associate",
 "days": 7,
+"soc": "311133",
+"route": "Employer's hiring site"
+},
+{
+"id": "cd587211595c",
+"title": "Mental Health Associate",
+"city": "Lane County",
+"employer": "Lane County",
+"url": "https://www.governmentjobs.com/jobs/5509128-0/mental-health-associate",
+"days": 8,
 "soc": "311133",
 "route": "Employer's hiring site"
 },
@@ -1800,6 +1800,56 @@
 "route": "Employer's hiring site"
 },
 {
+"id": "caa6b31cb225",
+"title": "Hospice",
+"city": "Eugene",
+"employer": "Cascade Health",
+"url": "https://www.cascadehealth.org/careers?department=Hospice",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "06be3f70b7ab",
+"title": "Mobile Health",
+"city": "Eugene",
+"employer": "Cascade Health",
+"url": "https://www.cascadehealth.org/careers?department=Mobile%20Health",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "47ee6a246aee",
+"title": "Occupational Health",
+"city": "Eugene",
+"employer": "Cascade Health",
+"url": "https://www.cascadehealth.org/careers?department=Occupational%20Health",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "b34d74288d9f",
+"title": "Pete Moore Hospice House",
+"city": "Eugene",
+"employer": "Cascade Health",
+"url": "https://www.cascadehealth.org/careers?department=Pete%20Moore%20Hospice%20House",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "9fc978a035ac",
+"title": "Physical & Hand Therapy",
+"city": "Eugene",
+"employer": "Cascade Health",
+"url": "https://www.cascadehealth.org/careers?department=Physical%20%26%20Hand%20Therapy",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
 "id": "a0aaff2a1d5f",
 "title": "Patient Access Specialist",
 "city": "Eugene",
@@ -1921,10 +1971,70 @@
 },
 {
 "id": "98628dd87ec1",
-"title": "Job Title",
+"title": "Listing Information",
 "city": "Cottage Grove",
 "employer": "City of Cottage Grove",
 "url": "https://cottagegroveor.gov/Jobs.aspx",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "9e01f8739db2",
+"title": "Library Volunteer",
+"city": "Cottage Grove",
+"employer": "City of Cottage Grove",
+"url": "https://cottagegroveor.gov/Jobs.aspx?UniqueId=99&From=All&CommunityJobs=False&JobID=Library-Volunteer-17",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "744e06c0c024",
+"title": "Part-Time Commercial Building Inspector",
+"city": "Cottage Grove",
+"employer": "City of Cottage Grove",
+"url": "https://cottagegroveor.gov/Jobs.aspx?UniqueId=98&From=All&CommunityJobs=False&JobID=PartTime-Commercial-Building-Inspector-9",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "4eda9f8ebc49",
+"title": "Part-Time Maintenance Worker",
+"city": "Cottage Grove",
+"employer": "City of Cottage Grove",
+"url": "https://cottagegroveor.gov/Jobs.aspx?UniqueId=98&From=All&CommunityJobs=False&JobID=PartTime-Maintenance-Worker-18",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "a217330d4cd7",
+"title": "All Categories",
+"city": "Cottage Grove",
+"employer": "City of Cottage Grove",
+"url": "https://cottagegroveor.gov/jobs.aspx?CommunityJobs=False",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "58aacdb518a8",
+"title": "Closed No Longer Accepting Applications",
+"city": "Cottage Grove",
+"employer": "City of Cottage Grove",
+"url": "https://cottagegroveor.gov/jobs.aspx?CommunityJobs=False&CatID=Closed-No-Longer-Accepting-Applications-99",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "eb0e3130c03b",
+"title": "Open & Accepting Applications",
+"city": "Cottage Grove",
+"employer": "City of Cottage Grove",
+"url": "https://cottagegroveor.gov/jobs.aspx?CommunityJobs=False&CatID=Open-Accepting-Applications-98",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -2010,6 +2120,166 @@
 "route": "Employer's hiring site"
 },
 {
+"id": "02d503d82c1f",
+"title": "Adjunct Arts & Sciences Faculty Pool - Criminal Justice",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a7885a89f19777f019f3e7ec7016ab1&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "ffaf1ee64554",
+"title": "Adjunct Arts & Sciences Faculty Pool - Exercise Science",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a7883a8a0abfc6b01a0e9df62473be3&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "043e95949e5d",
+"title": "Adjunct Arts & Sciences Faculty Pool-Spanish",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a7885a8958c3c6d0195ca8bb2b80171&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "616dbc4bf0ad",
+"title": "Adjunct Arts & Sciences Faculty Pool-Writing",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a7885a8958c3c6d0195ca8ddd0f01cb&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "f0ed48682dd1",
+"title": "Adjunct Counseling Faculty Pool",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a7885a88afcf3a8018b4ee3b6ee4c53&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "1d38d5e514cf",
+"title": "Adjunct School of Business Leadership & Technology Faculty",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a7883ac8bd4f7ac018bf885842c6fc8&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "2d42ad9684b1",
+"title": "Education - Field Supervisor - Middle School/High School",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a7887ac8b729b48018b87676d06398a&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "307ce07f4cbb",
+"title": "Admissions Counselor-Online Undergraduate Programs",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a78879ea0f4259701a10cdca04e72cb&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "357bc6a8d8d0",
+"title": "Visit and Event Coordinator (Title & level commensurate with experience)",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a78879ea133543701a136c7b44e4499&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "78c9fc6f5d00",
+"title": "Director of Alumni and Donor Engagement",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a7887a8a0abfc8001a0ea0e33f85bcb&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "c204f581acb0",
+"title": "Director of Athletic Fundraising & Corporate Relations",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a78879e9f4435c7019f8714859d0fed&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "5413ebf7c3b4",
+"title": "Head Women's Wrestling Coach",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a7887ac9c2fd12b019c4e3693010829&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "ca43baf7c516",
+"title": "CMHC Clinic Manager and Field Experience Coordinator",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a78839e9f443598019f4ccbfdba427d&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "ee38cb439f3a",
+"title": "Professor of CMHC, CMHC Director, and CACREP Liaison",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a78839e9f443598019f712655901d18&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "b74dee577fc9",
+"title": "Adjunct Nursing Faculty",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a7883a8958c3cec0195c9a98a63510c&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
+"id": "3c028c051a63",
+"title": "Full-time Nursing Faculty (Accelerated Baccalaureate)",
+"city": "Eugene",
+"employer": "Bushnell University",
+"url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&id=8a7883a8958c3cec0195c9a282d94d65&source=&lang=en",
+"days": 0,
+"soc": "",
+"route": "Employer's hiring site"
+},
+{
 "id": "e7225f7da0bc",
 "title": "Shipping & Receiving Clerk",
 "city": "Springfield",
@@ -2065,26 +2335,6 @@
 "city": "Eugene",
 "employer": "Jones & Roth CPAs",
 "url": "https://www.paycomonline.net/v4/ats/web.php/portal/9E928BCDDB205F1708710753669E6DC4/jobs/558900",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "9854d401531c",
-"title": "View Job Descriptions",
-"city": "Springfield",
-"employer": "Springfield Utility Board",
-"url": "https://www.governmentjobs.com/careers/subutil/classspecs",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "f2e878b62057",
-"title": "START YOUR APPLICATION",
-"city": "Eugene",
-"employer": "St. Vincent de Paul Lane County",
-"url": "https://www.svdp.us/apply/",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
