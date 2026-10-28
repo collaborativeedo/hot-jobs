@@ -27,6 +27,7 @@ from bs4 import BeautifulSoup
 sys.path.insert(0, str(Path(__file__).parent))
 import rules  # noqa: E402
 import direct  # noqa: E402
+import enrich  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "jobs.json"
@@ -39,6 +40,8 @@ SOURCES = ROOT / "data" / "sources.json"        # hiring systems learned automat
 DOMAIN_NAMES = ROOT / "data" / "domain-names.json"  # employer names read from careers sites' own pages
 SOURCES_CSV = ROOT / "docs" / "sources.csv"
 RUNLOG = ROOT / "data" / "run-log.json"    # what each nightly run did, including errors
+WAGES = ROOT / "data" / "wages.json"            # average pay by occupation for Lane County and Oregon (QualityInfo)
+OED_DETAILS = ROOT / "data" / "oed-details.json"  # hours, pay and description from WorkSource Oregon listing pages
 QI_LAST = ROOT / "data" / "qualityinfo-last.json"  # last good QualityInfo pull, used if QualityInfo is down  # every posting from the last pull, before the widget filter
 
 ENDPOINT = "https://www.qualityinfo.org/jfind"
@@ -61,6 +64,8 @@ MISSES_TO_CLOSE = 3  # a job closes after this many nightly runs without appeari
 PAUSE = 1.0          # seconds between page requests, to be polite
 SHOW_DAYS = 14       # the widget shows postings up to this many days old; older ones are often already filled
 SKIP_HOSTS = ("indeed.com", "simplyhired.com")  # reposts here are often expired or behind a "confirm you're human" check
+MAX_OED_PAGES = 600  # WorkSource listing pages read per night (each is read once, then cached)
+WAGE_TABLE = {}      # filled while reading QualityInfo pages
 HEADERS = {"User-Agent": "LaneCountyHotJobs/0.1 (nonprofit workforce pilot; Collaborative Economic Development Oregon)"}
 
 
@@ -71,6 +76,7 @@ def clean(s):
 def parse_page(html):
     """Return (total_openings, [job dicts]) for one QualityInfo results page."""
     soup = BeautifulSoup(html, "html.parser")
+    WAGE_TABLE.update(enrich.parse_wage_boxes(soup))
     total = soup.find("input", id="totalOpenings")
     total = int(total["value"]) if total and total.get("value", "").isdigit() else None
     jobs = []
@@ -171,44 +177,115 @@ def tag(j):
     return j
 
 
-def auto_name_domains(jobs, fetcher, today):
-    """Name employers on unfamiliar careers sites from the site's own name (og:site_name or page title).
+_GENERIC_NAME = re.compile(r"^(careers?|jobs?|home|job search|search jobs|join our team|current openings|employment|"
+                           r"opportunities|welcome|apply|candidate experience|job board|career site|recruiting|"
+                           r"paycom|adp|workforce now|paychex|icims|oracle|ultipro|ukg|successfactors|"
+                           r"applicant tracking|login|sign in)( (page|site|portal|search))?$", re.I)
 
-    Runs without anyone's review: results are cached in data/domain-names.json, and a site that
+
+def site_name(fetcher, url):
+    """An organization's name from its own web page (og:site_name, then the page title), or ''."""
+    try:
+        h = fetcher.get(url).text[:200000]
+    except Exception as e:  # noqa: BLE001
+        print(f"  name lookup skipped for {url}: {e}")
+        return ""
+    soup = BeautifulSoup(h, "html.parser")
+    og = soup.find("meta", attrs={"property": "og:site_name"})
+    cands = [og.get("content", "")] if og else []
+    if soup.title:
+        cands += re.split(r"\s+[|\-–—:]\s+", soup.title.get_text())
+    for c in cands:
+        c = clean(c)
+        c = re.sub(r"(?i)^(careers?|jobs?)\s+(at|with)\s+", "", c)
+        c = re.sub(r"(?i)\s*(careers?|jobs?|job board|career site)( (at|with))?\s*$", "", c).strip()
+        if c and not _GENERIC_NAME.match(c) and len(c) <= 60:
+            return c
+    return ""
+
+
+def auto_name_domains(jobs, fetcher, today):
+    """Name employers on unfamiliar careers sites and hiring-platform pages from the page's own name.
+
+    Runs without anyone's review: results are cached in data/domain-names.json, and a page that
     gave no usable name is retried after 30 days.
     """
     names = json.loads(DOMAIN_NAMES.read_text()) if DOMAIN_NAMES.exists() else {}
-    generic = re.compile(r"^(careers?|jobs?|home|job search|search jobs|join our team|current openings|"
-                         r"employment|opportunities|welcome|apply)( (page|site|portal))?$", re.I)
     tried = 0
     for j in jobs:
-        if j["employer"] or rules.platform(j["url"]) != "Employer website":
+        plat = rules.platform(j["url"])
+        if j["employer"] or not plat:
             continue
-        host = re.sub(r"^https?://([^/]+).*$", r"\1", j["url"]).lower()
-        rec = names.get(host)
+        if plat == "Employer website":
+            key = re.sub(r"^https?://([^/]+).*$", r"\1", j["url"]).lower()
+            page = f"https://{key}/"
+        else:
+            page = rules.careers_page(j["url"], plat)
+            key = page
+        if not page:
+            continue
+        rec = names.get(key)
         if rec is None or (not rec["name"] and (dt.date.fromisoformat(today) - dt.date.fromisoformat(rec["checked"])).days > 30):
-            if tried >= 40:
+            if tried >= 60:
                 continue
             tried += 1
-            name = ""
-            try:
-                h = fetcher.get(f"https://{host}/").text[:200000]
-                soup = BeautifulSoup(h, "html.parser")
-                og = soup.find("meta", attrs={"property": "og:site_name"})
-                cands = [og.get("content", "")] if og else []
-                if soup.title:
-                    cands += re.split(r"\s+[|\-–—:]\s+", soup.title.get_text())
-                for c in cands:
-                    c = clean(c)
-                    if c and not generic.match(c) and len(c) <= 60:
-                        name = re.sub(r"(?i)\s*(careers?|jobs?)( (at|with))?\s*$", "", c).strip() or c
-                        break
-            except Exception as e:  # noqa: BLE001
-                print(f"  name lookup skipped for {host}: {e}")
-            rec = names[host] = {"name": name, "checked": today}
+            rec = names[key] = {"name": site_name(fetcher, page), "checked": today}
         if rec["name"]:
             j["employer"] = rec["name"]
     DOMAIN_NAMES.write_text(json.dumps(names, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+
+
+def read_oed_pages(jobs, fetcher, today, log):
+    """Hours, pay and full description from WorkSource Oregon listing pages (never the contact question)."""
+    cache = json.loads(OED_DETAILS.read_text()) if OED_DETAILS.exists() else {}
+    live, fetched, failed = set(), 0, 0
+    for j in jobs:
+        o = enrich.oed_ord(j["url"]) if j["route"] == "WorkSource Oregon listing" else ""
+        if not o:
+            continue
+        live.add(o)
+        if o not in cache and fetched < MAX_OED_PAGES:
+            fetched += 1
+            try:
+                cache[o] = dict(enrich.parse_oed_page(fetcher.get(j["url"]).text), fetched=today)
+            except Exception as e:  # noqa: BLE001
+                failed += 1
+                if failed <= 3:
+                    log.append(f"WorkSource page {o}: {type(e).__name__}: {str(e)[:150]}")
+                if failed >= 15 and fetched == failed:
+                    log.append("WorkSource pages: stopped after repeated failures.")
+                    break
+        if o in cache:
+            j["oed"] = cache[o]
+    cache = {k: v for k, v in cache.items() if k in live}
+    OED_DETAILS.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+    log.append(f"WorkSource pages: {fetched} read tonight, {failed} failed, {len(cache)} on file.")
+
+
+def add_details(jobs, wages):
+    """Employer, pay, hours and kind of workplace for each posting."""
+    for j in jobs:
+        oed = j.pop("oed", None) or {}
+        desc = oed.get("description", "")
+        text = f'{j["title"]}. {j["snippet"]}. {desc}'
+        if not j["employer"]:
+            j["employer"] = rules.employer(desc) if desc else ""
+        if not j["employer"]:
+            j["employer"] = enrich.employer_from_text(f'{j["snippet"]}. {desc}')
+        j["pay"] = j.get("pay") or enrich.posted_pay(oed.get("wage", "")) or enrich.posted_pay(text)
+        j["typical_pay"] = enrich.typical_pay(j.get("soc"), wages)
+        j["hours"] = j.get("hours") or enrich.oed_hours(oed) or enrich.job_hours(j["title"], j["snippet"], desc)
+        j["workplaces"] = enrich.workplaces(j["employer"], rules.employer_industry(j["employer"]), j["industries"])
+        j["apply_via"] = apply_label(j)
+
+
+def apply_label(j):
+    if j["route"] == "WorkSource Oregon listing":
+        return "Apply through WorkSource Oregon"
+    if j["route"] == "Reposted by a job board":
+        host = re.sub(r"^https?://(www\.)?([^/]+).*$", r"\2", j["url"]).lower()
+        return f"Apply on {host}"
+    return f"Apply on {j['employer']}'s site" if j["employer"] else "Apply on the employer's site"
 
 
 def pull_direct(qi_jobs, fetcher, today):
@@ -236,6 +313,14 @@ def pull_direct(qi_jobs, fetcher, today):
         sources["peacehealth"] = {"platform": "PeaceHealth careers site", "host": "careers.peacehealth.org",
                                   "first_seen": today, "employer": "PeaceHealth"}
 
+    for key, src in sources.items():
+        if src.get("multi") or src.get("employer") or src.get("name_checked") == today:
+            continue
+        src["name_checked"] = today
+        page = {"UKG (UltiPro)": f"https://{src['host']}/{src.get('tenant', '')}/JobBoard/{src.get('board', '')}",
+                "Oracle Recruiting": f"https://{src['host']}/hcmUI/CandidateExperience/en/sites/{src.get('site', '')}"}.get(src["platform"])
+        if page:
+            src["employer"] = site_name(fetcher, page)
     title_soc = {}
     if STATE.exists():
         for rec in json.loads(STATE.read_text()).values():
@@ -277,7 +362,9 @@ def pull_direct(qi_jobs, fetcher, today):
             got.append({"title": r["title"], "city": r["city"], "url": r["url"],
                         "source": "Employer direct", "days": r["days"],
                         "soc": title_soc.get(r["title"].lower(), ""), "occupation": "",
-                        "snippet": r.get("snippet", ""), "employer": emp, "direct": True})
+                        "snippet": r.get("snippet", ""), "employer": emp, "direct": True,
+                        "hours": r.get("hours") or enrich.job_hours(r.get("info", "")),
+                        "pay": enrich.posted_pay(r.get("info", ""))})
     SOURCES.write_text(json.dumps(sources, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     with SOURCES_CSV.open("w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
@@ -409,10 +496,15 @@ def main():
 
     jobs = [tag(j) for j in dedupe(raw)]
     today = dt.date.today().isoformat()
+    wages = json.loads(WAGES.read_text()) if WAGES.exists() and not args.fixture else {}
+    wages.update(WAGE_TABLE)
     if not args.fixture:
+        WAGES.write_text(json.dumps(wages, sort_keys=True), encoding="utf-8")
         fetcher = direct.Fetcher()
         auto_name_domains(jobs, fetcher, today)
         jobs = [tag(j) for j in pull_direct(jobs, fetcher, today)]
+        read_oed_pages(jobs, fetcher, today, log)
+    add_details(jobs, wages)
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
 
     live_ids = set()
@@ -447,8 +539,9 @@ def main():
         "count": len(show),
         "pulled": len(jobs),
         "show_days": SHOW_DAYS,
-        "jobs": [{k: j.get(k, "") for k in ("id", "title", "city", "employer", "type", "industries", "rural", "priority",
-                                    "route", "source", "days", "dated", "first_seen", "soc", "occupation", "url")}
+        "jobs": [{k: j.get(k, "") for k in ("id", "title", "city", "employer", "type", "workplaces", "hours", "pay",
+                                            "typical_pay", "apply_via", "industries", "rural", "priority", "route",
+                                            "source", "days", "dated", "first_seen", "soc", "occupation", "url")}
                  | {"snippet": j["snippet"][:160]} for j in show],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)

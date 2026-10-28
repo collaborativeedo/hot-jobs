@@ -250,7 +250,8 @@ def pull_oracle(f, src):
                 break
     return [{"title": q.get("Title", ""), "city": c,
              "url": f"{base}/hcmUI/CandidateExperience/en/sites/{src['site']}/job/{q['Id']}",
-             "days": days_since(q.get("PostedDate")), "snippet": plain(q.get("ShortDescriptionStr")), "org": ""}
+             "days": days_since(q.get("PostedDate")), "snippet": plain(q.get("ShortDescriptionStr")), "org": "",
+             "info": " ".join(str(q.get(k) or "") for k in ("JobSchedule", "JobShift", "WorkerType", "ContractType"))}
             for q, c in found.values()]
 
 
@@ -276,7 +277,8 @@ def pull_ukg(f, src):
             if c:
                 jobs.append({"title": o.get("Title", ""), "city": c,
                              "url": f"{base}/OpportunityDetail?opportunityId={o['Id']}",
-                             "days": days_since(o.get("PostedDate")), "snippet": plain(o.get("BriefDescription")), "org": ""})
+                             "days": days_since(o.get("PostedDate")), "snippet": plain(o.get("BriefDescription")), "org": "",
+                             "hours": {True: "Full-time", False: "Part-time"}.get(o.get("FullTime"), "")})
         skip += 50
         if len(opps) < 50 or skip >= (data.get("totalCount") or 0):
             break
@@ -329,11 +331,17 @@ def pull_neogov(f, src):
                 if NOT_LANE.search(loc):
                     continue
                 o = li.select_one(".job-organization")
+                infos = [plain(x.get_text(), 200) for x in li.select(".primaryInfo")]
+                info = " | ".join(x for x in infos if x and x != loc)
+                if not o:  # schooljobs.com lists the district in the first info line instead
+                    o = next((x for x in li.select(".primaryInfo") if not x.select_one(".job-location")
+                              and not re.search(r"\$|full|part|regular|temporary|seasonal|position description", x.get_text(), re.I)), None)
                 org = plain(o.get_text(), 120) if o else ""
                 org = re.sub(r"\s*\((dba [^)]*|OR|Oregon)\)", "", org)
                 org = re.sub(r",\s*(OR|Oregon)$", "", org).strip()
                 jobs.append({"title": plain(a.get_text(), 200), "city": lane_city(loc) or lane_city(loc + ", OR") or "Lane County",
-                             "url": f"https://{src['host']}{a['href']}", "days": None, "snippet": "", "org": org})
+                             "url": f"https://{src['host']}{a['href']}", "days": None, "snippet": "", "org": org,
+                             "info": info})
             if not items or not new:
                 break
     return jobs

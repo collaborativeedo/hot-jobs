@@ -31,8 +31,9 @@ Optional settings on the same tag:
 
 | Setting | Example | Effect |
 | --- | --- | --- |
-| `data-type` | `Healthcare & human services` | Starts filtered to one type of work |
-| `data-industry` | `Wood products & forestry` | Starts filtered to one industry |
+| `data-type` | `Healthcare & human services` | Starts filtered to a type of work (`A|B` for several) |
+| `data-workplace` | `Healthcare` | Starts filtered to a kind of workplace (`A|B` for several) |
+| `data-hours` | `Full-time` | Starts filtered to Full-time, Part-time or Temporary or seasonal |
 | `data-city` | `Florence` | Starts filtered to one city |
 | `data-title` | `Open healthcare jobs` | Changes the heading |
 | `data-target` | `jobs-box` | Draws inside an existing element with that id |
@@ -55,6 +56,16 @@ In the registry Google Sheet, add a tab with this formula in cell A1:
 ```
 
 The tab refreshes itself, so new employers appear without anyone copying them. Staff review them and move them into the Employers tab, where people's edits are never overwritten. A second tab with `to-trace.csv` lists the postings whose employer still needs to be identified by hand.
+
+## What each job shows
+
+- **Employer**: from the hiring system, the posting link, the careers site's own name, or the posting text. When none of these names it, the widget says "Employer not listed".
+- **Pay**: the pay stated in the posting when there is one. Otherwise the average pay for that occupation in Lane County (or Oregon) from the Oregon Employment Department wage figures that QualityInfo shows next to each listing, labeled as an average, not an offer.
+- **Hours**: full-time, part-time or temporary/seasonal when the hiring system, the WorkSource listing page or the posting text says so; otherwise "Not stated".
+- **Where you'd work**: the kind of workplace, from the employer. Filters combine as "any of" within a group and "all of" across groups, so *Finance & accounting* plus *Healthcare* finds finance jobs at healthcare employers.
+- **View and apply**: opens the original posting, with a note on where it leads.
+
+WorkSource Oregon listing pages are read for hours, pay and the full description; the run never answers their contact-information question.
 
 ## Editing the tagging rules
 

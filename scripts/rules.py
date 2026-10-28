@@ -216,6 +216,7 @@ DOMAIN_EMPLOYERS = {
     "www.kcecareers.com": "KinderCare", "www.usajobs.gov": "Federal government (USAJOBS)",
     "careers.peacehealth.org": "PeaceHealth", "jobs.lanecc.edu": "Lane Community College",
     "careers.uoregon.edu": "University of Oregon", "jobs.walgreens.com": "Walgreens",
+    "jobs.clarvida.com": "Clarvida", "careers.asplundh.com": "Asplundh", "careers.progressive.com": "Progressive",
 }
 TENANT_NAMES = {"sunsrce": "SunSource", "boxlunch": "BoxLunch", "bannerbank": "Banner Bank", "wireless-vision": "Wireless Vision",
                 "leaf-home": "Leaf Home", "clairesstores": "Claire's", "celsius": "Celsius", "rwcgroup": "RWC Group",
@@ -226,11 +227,17 @@ TENANT_NAMES = {"sunsrce": "SunSource", "boxlunch": "BoxLunch", "bannerbank": "B
                 "usbank": "U.S. Bank", "genpt": "NAPA Auto Parts (Genuine Parts Company)", "hdsupply": "HD Supply",
                 "firststudent": "First Student", "vfc": "Vans (VF Corporation)", "davita": "DaVita",
                 "equitylifestyleproperties": "Equity LifeStyle Properties", "sunrisegroup": "Sunrise Group",
-                "greystar": "Greystar", "bridgestone": "Bridgestone", "medtronic": "Medtronic"}
+                "greystar": "Greystar", "dominos": "Domino's", "hmgroup": "H&M", "willamettedentalgroup": "Willamette Dental Group",
+                "duluthtrading": "Duluth Trading Co.", "winco": "WinCo Foods", "pacificoffice": "Pacific Office Automation",
+                "datalogics": "Datalogics", "dow1001dowl": "DOWL", "eug1001eweb": "EWEB (Eugene Water & Electric Board)",
+                "als1001alsco": "Alsco", "qhc1000qhcs": "McKenzie-Willamette Medical Center", "rdo1000rdo": "RDO Equipment Co.",
+                "int1061idsc": "Gentle Dental", "bridgestone": "Bridgestone", "medtronic": "Medtronic"}
 _TENANT_RX = [
     r"^https?://jobs\.lever\.co/([^/?#]+)", r"fountain\.com/apply/([^/?#]+)", r"saashr\.com/ta/([A-Za-z0-9]+)\.careers",
     r"apply\.workable\.com/([^/?#]+)", r"careers\.hireology\.com/([^/?#]+)", r"^https?://([^./]+)\.(?:applytojob\.com|breezy\.hr|workbrightats\.com)",
-    r"^https?://([^./]+)\.taleo\.net", r"^https?://([^./]+)\.wd\d+\.myworkdayjobs\.com", r"^https?://([^./]+)\.jobs\.hr\.cloud\.sap",
+    r"^https?://([^./]+)\.taleo\.net", r"jobs\.smartrecruiters\.com/([^/?#]+)", r"greenhouse\.io/([^/?#]+)",
+    r"^https?://careers-([^./]+)\.icims\.com", r"^https?://([^./]+)\.hrmdirect\.com", r"successfactors\.[a-z]+/career\?.*company=([^&]+)",
+    r"ultipro\.com/([a-z0-9]+)/jobboard", r"^https?://([^./]+)\.wd\d+\.myworkdayjobs\.com", r"^https?://([^./]+)\.jobs\.hr\.cloud\.sap",
 ]
 _TENANT_RX = [re.compile(p, re.I) for p in _TENANT_RX]
 
@@ -282,7 +289,7 @@ def type_from_title(title):
 
 
 # ---- How a posting is reached -----------------------------------------------
-JOB_BOARDS = {"simplyhired.com","indeed.com","gr8jobs.net","disabledperson.com","joblinkapply.com","employeebenefitsjobs.com","dejobs.org","diversityjobs.com","healthecareers.com","careersinaudit.com","eugenejobs.net","academiccareers.com","planning.org","apwa.org","awwa.org","globaltalentpartners.com","madison.com","netimpact.org","federalgovernmentjobs.us","jobmonkeyjobs.com","equest.com","conbio.org","careerarc.com","healthjobsnationwide.com","fairygodboss.com","jobit.com","jobtarget.com","chronicle.com","idealist.org","themuse.com","schoolspring.com","womensjoblist.com","conservationjobboard.com","dice.com","efinancialcareers.com","salesheads.com","constructionjobs.com","blazerjobs.com","partnersindiversity.org","gopromotive.com","nwppa.org"}
+JOB_BOARDS = {"simplyhired.com","indeed.com","gr8jobs.net","disabledperson.com","joblinkapply.com","employeebenefitsjobs.com","dejobs.org","diversityjobs.com","healthecareers.com","careersinaudit.com","eugenejobs.net","academiccareers.com","planning.org","apwa.org","awwa.org","globaltalentpartners.com","madison.com","netimpact.org","federalgovernmentjobs.us","jobmonkeyjobs.com","equest.com","conbio.org","careerarc.com","healthjobsnationwide.com","fairygodboss.com","jobit.com","jobtarget.com","chronicle.com","idealist.org","themuse.com","schoolspring.com","womensjoblist.com","conservationjobboard.com","dice.com","efinancialcareers.com","salesheads.com","constructionjobs.com","blazerjobs.com","partnersindiversity.org","gopromotive.com","nwppa.org","avma.org"}
 
 def route(url):
     host = re.sub(r"^https?://([^/]+).*$", r"\1", url).lower()
