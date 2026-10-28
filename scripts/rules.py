@@ -231,7 +231,10 @@ TENANT_NAMES = {"sunsrce": "SunSource", "boxlunch": "BoxLunch", "bannerbank": "B
                 "duluthtrading": "Duluth Trading Co.", "winco": "WinCo Foods", "pacificoffice": "Pacific Office Automation",
                 "datalogics": "Datalogics", "dow1001dowl": "DOWL", "eug1001eweb": "EWEB (Eugene Water & Electric Board)",
                 "als1001alsco": "Alsco", "qhc1000qhcs": "McKenzie-Willamette Medical Center", "rdo1000rdo": "RDO Equipment Co.",
-                "int1061idsc": "Gentle Dental", "bridgestone": "Bridgestone", "medtronic": "Medtronic"}
+                "int1061idsc": "Gentle Dental", "dutchbros": "Dutch Bros", "americanredcross": "American Red Cross",
+                "sees": "See's Candies", "myhrhome": "OneMain Financial", "gcu": "Grand Canyon Education",
+                "imh": "Intermountain Health", "2020companies": "2020 Companies", "keybank": "KeyBank",
+                "amerivet": "AmeriVet Veterinary Partners", "topbuild": "TopBuild", "nexdine": "Nexdine Hospitality", "bridgestone": "Bridgestone", "medtronic": "Medtronic"}
 _TENANT_RX = [
     r"^https?://jobs\.lever\.co/([^/?#]+)", r"fountain\.com/apply/([^/?#]+)", r"saashr\.com/ta/([A-Za-z0-9]+)\.careers",
     r"apply\.workable\.com/([^/?#]+)", r"careers\.hireology\.com/([^/?#]+)", r"^https?://([^./]+)\.(?:applytojob\.com|breezy\.hr|workbrightats\.com)",

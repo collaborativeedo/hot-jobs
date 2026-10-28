@@ -308,13 +308,19 @@ def pull_direct(qi_jobs, fetcher, today):
             rec["employer"] = rules.TENANT_NAMES[rec["tenant"].lower()]
         if not rec.get("employer") and j["employer"] and not j["employer"].startswith("Unnamed"):
             rec["employer"] = j["employer"]
+    for src in sources.values():
+        t = (src.get("tenant") or "").lower()
+        if t in rules.TENANT_NAMES and not src.get("named"):
+            src["employer"] = rules.TENANT_NAMES[t]
     # Employers found by name: add each careers page as a source. A page on a known hiring system uses that
     # system's connector; any other page is read with the browser reader.
     sites = json.loads(EMPLOYER_SITES.read_text()) if EMPLOYER_SITES.exists() else []
     for site in sites:
         url = site.get("careers_url") or ""
-        if not url:
-            continue
+        if not url or re.search(r"governmentjobs\.com|schooljobs\.com", url, re.I):
+            continue  # public employers on NEOGOV are already covered by the location search
+        if re.search(r"\.icims\.com", url, re.I) and "in_iframe" not in url:
+            url = re.sub(r"^(https?://[^/]+).*$", r"\1", url) + "/jobs/search?ss=1&in_iframe=1"
         found = direct.source_from_url(url) or ats.source_from_url(url)
         key, src = found if found else (f"page:{url.lower().rstrip('/')}", {"platform": "Careers page", "url": url,
                                                                              "host": re.sub(r"^https?://([^/]+).*$", r"\1", url).lower()})
@@ -384,6 +390,11 @@ def pull_direct(qi_jobs, fetcher, today):
             print(f"  {key}: {type(e).__name__}: {e}")
         print(f"  {key}: {len(rows)} Lane openings ({fetcher.calls - before} requests)")
         name = src.get("employer") or rules.employer_from_url(f"https://{src['host']}/{src.get('tenant', '')}")
+        name = re.sub(r"\s+(External|Candidate Experience page|US)$", "", name or "").replace("JPMC", "JPMorgan Chase")
+        if name == "IP Global":
+            name = "International Paper"
+        if re.search(r"[A-Za-z]\d{3,}", name):  # an account code such as "Buc1007Bucc", not a name
+            name = ""
         if src.get("multi"):
             name = ""
         for r in rows:

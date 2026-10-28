@@ -1,1 +1,247 @@
-[]
+[
+ {
+  "employer": "Kaminski Construction",
+  "careers_url": "https://kaminskiconstruction.discovered.ai/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Chambers Construction",
+  "careers_url": "https://www.chambersconstruction.com/careers.html",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Cascade Health",
+  "careers_url": "https://cascadehealth.org/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Planned Parenthood Columbia Willamette",
+  "careers_url": "https://jobs.lever.co/ppcw",
+  "local": false,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Volunteers in Medicine",
+  "careers_url": "https://vim-clinic.org/employment/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Yogi Tea (East West Tea Company)",
+  "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=14d82ad4-a15d-4ade-81ef-220cc098e730",
+  "local": false,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Pipeworks Studios",
+  "careers_url": "https://pipeworks.pinpointhq.com/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Summit Bank",
+  "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=38269ab8-822d-4d7d-b8ab-1654fbaff910&ccId=19000101_000001&lang=en_US&selectedMenuKey=CurrentOpenings",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Emerald People's Utility District",
+  "careers_url": "https://www.epud.org/about-us/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Lane Council of Governments",
+  "careers_url": "https://www.lcog.org/jobs",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Lane Education Service District",
+  "careers_url": "https://www.applitrack.com/lesdk12or/onlineapp/default.aspx",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Oakridge School District",
+  "careers_url": "https://oakridge76.tedk12.com/hire/index.aspx",
+  "local": true,
+  "home": "Oakridge",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Ninkasi Brewing",
+  "careers_url": "https://ninkasibrewing.com/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Knife River",
+  "careers_url": "https://jobs.kniferiver.com",
+  "local": false,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Rosboro",
+  "careers_url": "https://rosboro.com/contact/careers",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Fortis Construction",
+  "careers_url": "https://fortisconstruction.wd12.myworkdayjobs.com/Fortis-Careers",
+  "local": false,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Women's Care",
+  "careers_url": "https://recruiting.paylocity.com/Recruiting/Jobs/All/c4032ffa-3cff-4c15-89a2-ee73af692b95",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Looking Glass Community Services",
+  "careers_url": "https://lookingglass.applicantpool.com/jobs/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Rosen Aviation",
+  "careers_url": "https://www.rosenaviation.com/about/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Lease Crutcher Lewis",
+  "careers_url": "https://lewispeople.rec.pro.ukg.net/WLE1000WLEA/JobBoard/60353c12-b038-4b4a-8417-40ec1fc90e07/",
+  "local": false,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Serenity Lane",
+  "careers_url": "https://serenity.breezy.hr/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Sierra Pacific Industries",
+  "careers_url": "https://spi-ind.com/Employment",
+  "local": false,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Modern Amenities",
+  "careers_url": "https://careers.hireology.com/modernamenities",
+  "local": true,
+  "home": "Coburg",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "WaFd Bank",
+  "careers_url": "https://careers-wafd.icims.com/jobs/search",
+  "local": false,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "University of Oregon",
+  "careers_url": "https://careers.uoregon.edu/en-us/listing/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Springfield Public Schools",
+  "careers_url": "https://sps.tedk12.com/hire/index.aspx",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Bi-Mart",
+  "careers_url": "https://careers-bimart.icims.com/jobs/search",
+  "local": false,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Northwest Industrial Staffing",
+  "careers_url": "https://www.nwstaff.com",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Avant Assessment",
+  "careers_url": "https://avantassessment.com/about-avant/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Jones & Roth CPAs",
+  "careers_url": "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=9E928BCDDB205F1708710753669E6DC4",
+  "local": false,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Springfield Utility Board",
+  "careers_url": "https://www.subutil.com/about-us/careers-with-sub/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "City of Cottage Grove",
+  "careers_url": "https://cottagegroveor.gov/jobs",
+  "local": true,
+  "home": "Cottage Grove",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Bushnell University",
+  "careers_url": "https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d0821e1a630182266519e502b6",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "Siuslaw School District",
+  "careers_url": "https://siuslaw.k12.or.us/o/siuslaw-school-district/page/job-openings",
+  "local": true,
+  "home": "Florence",
+  "found": "2026-10-28"
+ },
+ {
+  "employer": "St. Vincent de Paul Lane County",
+  "careers_url": "https://www.svdp.us/?p=100",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28"
+ }
+]

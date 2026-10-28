@@ -130,7 +130,7 @@ def source_from_url(url):
     if m:
         host, site = m.group(1).lower(), m.group(2)
         return f"oracle:{host}/{site.lower()}", {"platform": "Oracle Recruiting", "host": host, "site": site}
-    m = re.match(r"https://(recruiting\d*\.ultipro\.com)/([a-z0-9]+)/jobboard/([0-9a-f-]{36})", u, re.I)
+    m = re.match(r"https://(recruiting\d*\.ultipro\.com|[a-z0-9-]+\.rec\.pro\.ukg\.net)/([a-z0-9]+)/jobboard/([0-9a-f-]{36})", u, re.I)
     if m:
         host, tenant, board = m.group(1).lower(), m.group(2), m.group(3).lower()
         return f"ukg:{tenant.lower()}/{board}", {"platform": "UKG (UltiPro)", "host": host, "tenant": tenant, "board": board}
@@ -148,7 +148,7 @@ def posting_key(url):
     m = re.search(r"([a-z0-9.-]+\.oraclecloud\.com)/.*/job/(\d+)", u)
     if m:
         return f"oracle:{m.group(1)}:{m.group(2)}"
-    m = re.search(r"ultipro\.com/([a-z0-9]+)/jobboard/.*opportunityid=([0-9a-f-]{36})", u)
+    m = re.search(r"(?:ultipro\.com|rec\.pro\.ukg\.net)/([a-z0-9]+)/jobboard/.*opportunityid=([0-9a-f-]{36})", u)
     if m:
         return f"ukg:{m.group(1)}:{m.group(2)}"
     m = re.search(r"(?:governmentjobs|schooljobs)\.com/(?:careers/[^/]+/)?jobs/(\d+)", u)
