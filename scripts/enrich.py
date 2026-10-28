@@ -149,6 +149,14 @@ def _tidy_name(name):
     name = re.split(r"(?<=\w{3})\. ", name)[0]
     name = _LEAD_JUNK.sub("", name.strip(" .,'’-"))
     words = name.replace(",", "").split()
+    caps = 0
+    while caps < len(words) and words[caps].isupper() and len(words[caps]) > 1:
+        caps += 1
+    if 2 <= caps < len(words):
+        words = words[caps:]   # a heading run: "ABOUT SHELTERCARE ShelterCare" -> "ShelterCare"
+    half = len(words) // 2
+    if half and len(words) % 2 == 0 and words[:half] == words[half:]:
+        words = words[:half]   # "AIC Insurance Agency AIC Insurance Agency"
     while len(words) > 1 and words[-1].strip(".") in _TRAIL_JUNK:
         words.pop()
     return " ".join(words).strip(" .,'’-")

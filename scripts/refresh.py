@@ -29,6 +29,7 @@ import rules  # noqa: E402
 import direct  # noqa: E402
 import enrich  # noqa: E402
 import ats  # noqa: E402
+import dashboard  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "jobs.json"
@@ -446,6 +447,12 @@ def pull_direct(qi_jobs, fetcher, today):
     return merged
 
 
+def _rough_name(name):
+    """True for names an earlier text-reading pass produced with a heading or filler in front."""
+    t = enrich._tidy_name(name)
+    return not t or not name.startswith(t.split()[0])
+
+
 def update_employers(jobs, today):
     """Keep a running record of every employer the nightly run has seen.
 
@@ -479,6 +486,10 @@ def update_employers(jobs, today):
             e["example_posting"] = j["url"]
     for e in emps.values():
         e["total_seen"] = e.get("total_seen", 0) + (1 if e["open_now"] else 0)
+    # Drop names an earlier, rougher text-reading pass produced ("Click HERE Providence"), once they are not hiring.
+    for name in [k for k, e in emps.items() if not e["open_now"] and not k.startswith("Unnamed")
+                 and _rough_name(k)]:
+        del emps[name]
     EMPLOYERS.write_text(json.dumps(emps, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 
     cols = ["Employer", "Industry", "Hiring platform", "Careers page", "Lane postings open now", "Lane cities now",
@@ -596,6 +607,12 @@ def main():
     n_emp = update_employers(jobs, today)
     print(f"Employers on record: {n_emp}.")
     if not args.fixture:
+        try:
+            row = dashboard.update(out, json.loads(EMPLOYERS.read_text()),
+                                   json.loads(SOURCES.read_text()) if SOURCES.exists() else {})
+            log.append(f"Dashboard: {row['employers_hiring']} employers hiring, {row['employer_sources_searched']} sources.")
+        except Exception as e:  # noqa: BLE001  the dashboard never stops the job list from publishing
+            log.append(f"Dashboard update failed: {type(e).__name__}: {e}")
         log.append(f"Widget: {len(show)} shown of {len(jobs)} postings.")
         write_run_log({"date": run_date, "ok": True, "notes": log})
     print(f"Widget shows {len(show)} (up to {SHOW_DAYS} days old, direct links only).")
