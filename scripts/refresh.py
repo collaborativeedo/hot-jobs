@@ -266,6 +266,7 @@ def read_oed_pages(jobs, fetcher, today, log):
     log.append(f"WorkSource pages: {fetched} read tonight, {failed} failed, {len(cache)} on file.")
 
 
+BROWSER_BUDGET = 70 * 60  # seconds of careers-page reading per night; the rest use their last read
 POSTING_DETAILS = ROOT / "data" / "posting-details.json"  # pay and hours read from employers' own posting pages
 MAX_POSTING_PAGES = 500
 _JS_ONLY = re.compile(r"myworkdayjobs|oraclecloud|ultipro|ukg\.net|icims\.com|peacehealth|successfactors|taleo|"
@@ -367,7 +368,7 @@ def pull_direct(qi_jobs, fetcher, today):
                                                                              "host": re.sub(r"^https?://([^/]+).*$", r"\1", url).lower()})
         rec = sources.setdefault(key, dict(src, first_seen=today, employer=""))
         rec.update(employer=site["employer"], local=bool(site.get("local")), home=site.get("home", ""), named=True,
-                   weekly=bool(site.get("weekly")))
+                   weekly=bool(site.get("weekly")), rotate=site.get("list") == "QualityInfo employer database")
     for host in ("www.governmentjobs.com", "www.schooljobs.com"):  # public employers; one search covers all of them
         sources.setdefault(f"neogov:{host}", {"platform": "NEOGOV", "host": host, "first_seen": today,
                                               "employer": "", "multi": True})
@@ -395,22 +396,39 @@ def pull_direct(qi_jobs, fetcher, today):
     got = []
     connectors = dict(direct.CONNECTORS, **ats.CONNECTORS)
     browser = ats.Browser()
-    queue = sorted(sources.items())
+    # Hiring-system feeds first (fast); then careers pages, least recently read first, so the browser budget rotates.
+    queue = sorted(sources.items(), key=lambda kv: (kv[1].get("platform") == "Careers page",
+                                                    kv[1].get("cache_date") or "", kv[0]))
+    import time
+    import zlib
+    browser_secs, day_no = 0.0, dt.date.fromisoformat(today).toordinal()
     while queue:
         key, src = queue.pop(0)
+        turn = zlib.crc32(key.encode())
         # Pages that rarely have openings are read once a week, on a day set by their address, to keep the run short.
-        if src.get("weekly") and not src.get("lane_openings") and src.get("last_run") and \
-                __import__("zlib").crc32(key.encode()) % 7 != dt.date.fromisoformat(today).weekday():
+        if src.get("weekly") and not src.get("lane_openings") and src.get("last_run") and turn % 7 != day_no % 7:
             continue
         if src["platform"] == "Careers page":
             fn = lambda f, s: ats.pull_careers_page(f, s, browser)  # noqa: E731
+            # Careers pages found through the QualityInfo employer database are read every third night; in between,
+            # and once tonight's browser time is used up, the postings from the last read carry over (up to 4 days).
+            due = not (src.get("rotate") and src.get("last_run") and turn % 3 != day_no % 3)
+            if not due or browser_secs > BROWSER_BUDGET:
+                fresh = src.get("cache_date") and (day_no - dt.date.fromisoformat(src["cache_date"]).toordinal()) <= 4
+                fn = (lambda f, s: list(s.get("cache_rows") or [])) if fresh else None  # noqa: E731
+                if fn is None:
+                    continue
         else:
             fn = connectors.get(src["platform"])
         if not fn:
             continue
-        before = fetcher.calls
+        before, t0 = fetcher.calls, time.time()
         try:
             rows = fn(fetcher, src)
+            if src["platform"] == "Careers page":
+                browser_secs += time.time() - t0
+                if isinstance(rows, list) and fetcher.calls >= before and time.time() - t0 > 0.05:
+                    src["cache_rows"], src["cache_date"] = rows[:60], today
             if isinstance(rows, dict) and rows.get("handoff"):
                 # The careers page runs on a hiring system we can read directly: switch to it from now on.
                 nkey, nsrc = rows["handoff"]

@@ -151,20 +151,20 @@ def merge():
         rows += json.loads(f.read_text())
     done = json.loads(DONE.read_text()) if DONE.exists() else {}
     sites = json.loads(SITES.read_text()) if SITES.exists() else []
-    have = {domain(s.get("careers_url")) for s in sites} | {s["employer"].lower() for s in sites}
+    have = {(s.get("careers_url") or "").lower().rstrip("/") for s in sites} | {s["employer"].lower() for s in sites}
     added = []
     for r in rows:
         done[r["domain"]] = {"checked": TODAY, "outcome": r["outcome"], "employer": r["employer"]}
         if r["outcome"] not in ACCEPT or not r.get("careers_url"):
             continue
         name = enrich.clean_employer(enrich._tidy_name(r["employer"])) or r["employer"]
-        if domain(r["careers_url"]) in have or name.lower() in have:
+        if r["careers_url"].lower().rstrip("/") in have or name.lower() in have:
             continue
         chain = r.get("locations", 1) >= 3
         sites.append({"employer": name, "careers_url": r["careers_url"], "local": not chain,
                       "home": "" if chain else r.get("city", ""), "found": TODAY,
                       "list": "QualityInfo employer database", "weekly": ACCEPT[r["outcome"]]})
-        have |= {domain(r["careers_url"]), name.lower()}
+        have |= {r["careers_url"].lower().rstrip("/"), name.lower()}
         added.append(name)
     SITES.write_text(json.dumps(sites, ensure_ascii=False, indent=1), encoding="utf-8")
     DONE.write_text(json.dumps(done, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")

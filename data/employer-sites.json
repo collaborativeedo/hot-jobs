@@ -529,24 +529,6 @@
   "weekly": false
  },
  {
-  "employer": "Bennett Dave LO",
-  "careers_url": "https://recruiting.ultipro.com/GUI1001/JobBoard/634382fd-6424-ec1b-8e37-2aa4ce4c10de",
-  "local": false,
-  "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Berryman Scot",
-  "careers_url": "https://www.ubs.com/global/en/careers.html",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Bier Stein",
   "careers_url": "https://thebierstein.com/careers/",
   "local": true,
@@ -907,24 +889,6 @@
   "weekly": false
  },
  {
-  "employer": "Marlatt Richard F",
-  "careers_url": "https://alliancept.org/stay-current/get-involved/career-opportunities/",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
-  "employer": "Mary Kay Cosmetics",
-  "careers_url": "https://www.marykay.com/en/careers.html",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
   "employer": "Medic First Aid",
   "careers_url": "https://apply.workable.com/hsi-1/",
   "local": true,
@@ -1249,15 +1213,6 @@
   "weekly": true
  },
  {
-  "employer": "Aflac",
-  "careers_url": "https://careers.aflac.com/",
-  "local": true,
-  "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Airgas Store",
   "careers_url": "https://airliquidehr.wd3.myworkdayjobs.com/AirgasExternalCareer",
   "local": true,
@@ -1321,15 +1276,6 @@
   "weekly": true
  },
  {
-  "employer": "Boyce Jerry W CPA PC",
-  "careers_url": "https://capstone.bamboohr.com/careers",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Brenda K Hansen",
   "careers_url": "https://www.americannational.com/home/careers",
   "local": false,
@@ -1361,15 +1307,6 @@
   "careers_url": "https://burchsshoes.com/pages/employment-interest",
   "local": true,
   "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Buy 2",
-  "careers_url": "https://buytwostores.com/careers",
-  "local": false,
-  "home": "",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
@@ -1465,15 +1402,6 @@
   "weekly": false
  },
  {
-  "employer": "Employment Division-Worksource",
-  "careers_url": "https://worksourceoregon.org/jobseekers",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Enterprise Rent-A-Car",
   "careers_url": "https://www.enterprise.com/en/global-franchise-opportunities.html?icid=footer.businesses-_-global.franchise-_-ENUS.NULL",
   "local": false,
@@ -1523,15 +1451,6 @@
   "careers_url": "https://fntg.wd5.myworkdayjobs.com/FNF-Careers",
   "local": true,
   "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Fish & Wildlife Dept",
-  "careers_url": "https://oregon.wd5.myworkdayjobs.com/SOR_External_Career_Site",
-  "local": true,
-  "home": "Springfield",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
@@ -1780,15 +1699,6 @@
   "weekly": false
  },
  {
-  "employer": "Northwestern Mutual",
-  "careers_url": "https://www.northwesternmutual.com/careers/",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Oakridge Elementary School",
   "careers_url": "https://www.oakridge.k12.or.us/about-us/employment",
   "local": false,
@@ -1906,15 +1816,6 @@
   "weekly": true
  },
  {
-  "employer": "Reimers Loren S",
-  "careers_url": "https://careers.walmart.com/us/en/home",
-  "local": false,
-  "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Ross Dress For Less",
   "careers_url": "https://jobs.rossstores.com/",
   "local": true,
@@ -1985,15 +1886,6 @@
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
- },
- {
-  "employer": "State Farm Ins Jeff Krier Ins",
-  "careers_url": "https://jeffkrier.com/jobs",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
  },
  {
   "employer": "Supported Employment Svc",
@@ -2153,15 +2045,6 @@
   "careers_url": "https://cstmyhr.rec.pro.ukg.net/CON1501CSTEC/JobBoard/ca862638-d0ff-4764-abe3-e2a4aa0eed46/?q=&o=postedDateDesc",
   "local": true,
   "home": "Florence",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Ansari Parisa J DMD",
-  "careers_url": "https://www.lanecc.edu/programs-academics/areas-study/health-medical-and-fitness/medical-assistant/medical-assistant-ceu-opportunities",
-  "local": false,
-  "home": "",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
@@ -2356,15 +2239,6 @@
   "weekly": false
  },
  {
-  "employer": "Gill Preet K DMD",
-  "careers_url": "https://willamettedental.com/careers/",
-  "local": false,
-  "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Habitat For Humanity",
   "careers_url": "https://www.habitat.org/volunteer/long-term-opportunities",
   "local": false,
@@ -2408,15 +2282,6 @@
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
- },
- {
-  "employer": "J B Poindexter &",
-  "careers_url": "https://www.jbpoindexter.com/careers/",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
  },
  {
   "employer": "KLCC",
@@ -2543,15 +2408,6 @@
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": true
- },
- {
-  "employer": "Rossiter Matt",
-  "careers_url": "https://www.wpgoregon.com/careers",
-  "local": true,
-  "home": "Junction City",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
  },
  {
   "employer": "SERVPRO",
@@ -3409,24 +3265,6 @@
   "weekly": false
  },
  {
-  "employer": "Atkins Patricia",
-  "careers_url": "https://www.windermere.com/join-us",
-  "local": false,
-  "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Barnes Robert C MD",
-  "careers_url": "https://www.oregoncancer.com/careers",
-  "local": false,
-  "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
   "employer": "Bathcrest",
   "careers_url": "https://bathcrestofmidoregon.com/employment/",
   "local": true,
@@ -3629,15 +3467,6 @@
   "careers_url": "https://www.fallcreeknursery.com/careers",
   "local": true,
   "home": "Lowell",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Farmers Insurance District Ofc",
-  "careers_url": "https://recruitment.farmers.com/opportunities/search",
-  "local": true,
-  "home": "Eugene",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
@@ -4012,15 +3841,6 @@
   "weekly": false
  },
  {
-  "employer": "Rohr Candice M MD",
-  "careers_url": "https://www.oregonallergyassociates.com/join-our-team/",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Rotech Healthcare",
   "careers_url": "https://careers.rotech.com/careers-home",
   "local": true,
@@ -4073,15 +3893,6 @@
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
- },
- {
-  "employer": "State Farm Insurance",
-  "careers_url": "https://teamanne.com/jobs",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
  },
  {
   "employer": "Steve's Masonry",
@@ -4165,15 +3976,6 @@
   "weekly": false
  },
  {
-  "employer": "Watkins Products",
-  "careers_url": "https://www.watkins1868.com/pages/careers",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Zero Degrees",
   "careers_url": "https://www.zerodegreescompany.com/careers",
   "local": true,
@@ -4205,24 +4007,6 @@
   "careers_url": "https://www.examworks.com/careers",
   "local": true,
   "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Allstate Financial Svc",
-  "careers_url": "https://allstate.wd5.myworkdayjobs.com/allstate_careers/login?adobe_mc=MCORGID%3D97021C8B53295DF30A490D4D%2540AdobeOrg%7CTS%3D1793251813",
-  "local": false,
-  "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Andrews Kelly C DMD",
-  "careers_url": "https://capitaldentalgroup.com/about-us/careers/",
-  "local": true,
-  "home": "Springfield",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
@@ -4311,15 +4095,6 @@
  {
   "employer": "Chambers Kindercare",
   "careers_url": "https://www.kindercare.com/about-us/connect-with-us/careers",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Charles Little &",
-  "careers_url": "https://charleslittleandcompany.com/join-our-team",
   "local": true,
   "home": "Eugene",
   "found": "2026-10-29",
@@ -4475,15 +4250,6 @@
   "careers_url": "https://www.melindahandycpa.com/blog/retirement-planning-your-40s-and-50s-mid-career-financial-checkup",
   "local": true,
   "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
-  "employer": "Frost Nicholas M ATY",
-  "careers_url": "https://hershnerhunter.com/careers/",
-  "local": false,
-  "home": "",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": true
@@ -4696,15 +4462,6 @@
   "weekly": true
  },
  {
-  "employer": "Primerica",
-  "careers_url": "https://www.primerica.com/public/primerica-corporate-careers.html",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "QXO",
   "careers_url": "https://jobs.qxo.com/careers-home",
   "local": true,
@@ -4734,15 +4491,6 @@
  {
   "employer": "Ricoh Americas",
   "careers_url": "https://www.ricoh-usa.com/en/about-us/careers",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Roach Sean M",
-  "careers_url": "https://tensegrityphysicaltherapy.com/employment/",
   "local": true,
   "home": "Eugene",
   "found": "2026-10-29",
@@ -4966,15 +4714,6 @@
   "weekly": false
  },
  {
-  "employer": "American Income Life Ins",
-  "careers_url": "https://aoglobelife.com/careers/",
-  "local": true,
-  "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
   "employer": "Apria Healthcare",
   "careers_url": "https://accendra.wd504.myworkdayjobs.com/AccendraCareers?hiringCompany=ccf8e1d491bb1001fd44da1afc380000",
   "local": true,
@@ -5000,15 +4739,6 @@
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
- },
- {
-  "employer": "Balderston Keith D MD",
-  "careers_url": "https://stlukesonline.org/en/about/careers/",
-  "local": true,
-  "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
  },
  {
   "employer": "Barbers Coburg Station",
@@ -5135,15 +4865,6 @@
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
- },
- {
-  "employer": "David Hersch-State Farm Ins",
-  "careers_url": "https://davidherschinsurance.com/jobs",
-  "local": true,
-  "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
  },
  {
   "employer": "Elwood Staffing",
@@ -5348,15 +5069,6 @@
   "careers_url": "https://www.leiengineering.com/about/employment/",
   "local": true,
   "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Liberty Tax",
-  "careers_url": "https://www.libertytax.com/careers",
-  "local": false,
-  "home": "",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
@@ -5812,15 +5524,6 @@
   "weekly": true
  },
  {
-  "employer": "Cameron Stephanie",
-  "careers_url": "https://restoredconnections.org/services/#supported-employment",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
   "employer": "Cascade Distribution Group",
   "careers_url": "https://www.cascade-distribution.com/Careers/",
   "local": true,
@@ -5888,15 +5591,6 @@
   "careers_url": "https://www.crunch.com/careers",
   "local": true,
   "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
-  "employer": "Deann Mathison-State Farm Ins",
-  "careers_url": "https://deannmathison.com/jobs",
-  "local": true,
-  "home": "Eugene",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": true
@@ -6050,15 +5744,6 @@
   "careers_url": "https://www.hexion.com/join-the-team",
   "local": true,
   "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Hopkins Margaret AGT",
-  "careers_url": "https://margaretinsures.com/jobs",
-  "local": true,
-  "home": "Eugene",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
@@ -7063,15 +6748,6 @@
   "weekly": false
  },
  {
-  "employer": "Bullock Bryan AGT",
-  "careers_url": "https://goosehead.wd503.myworkdayjobs.com/en-US/Careers?landingPage=990aece2ed0210020985667f407d0002&t=w",
-  "local": false,
-  "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Caliber Collision",
   "careers_url": "https://careers.caliber.com/",
   "local": true,
@@ -7283,15 +6959,6 @@
   "careers_url": "https://www.mohawkmetal.com/employment/",
   "local": false,
   "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Moya Monique M",
-  "careers_url": "https://imhealth.bamboohr.com/careers",
-  "local": true,
-  "home": "Florence",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
@@ -7576,15 +7243,6 @@
   "weekly": false
  },
  {
-  "employer": "Arlie &",
-  "careers_url": "https://www.registerguard.com/marketplace/jobs/",
-  "local": false,
-  "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Ars",
   "careers_url": "https://www.ars.com/careers",
   "local": true,
@@ -7637,15 +7295,6 @@
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
- },
- {
-  "employer": "Carpenter Gary E Sr",
-  "careers_url": "https://www.ccdentistsociety.com/opportunities",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
  },
  {
   "employer": "Catcare",
@@ -7765,15 +7414,6 @@
   "weekly": true
  },
  {
-  "employer": "Hansen Jeremy L MD",
-  "careers_url": "https://www.oagpc.com/careers/",
-  "local": true,
-  "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Head Start Junction City",
   "careers_url": "https://headstartprograms.org/detail/united_migrant_opportunity_ser_milwaukee_wi.html",
   "local": true,
@@ -7828,15 +7468,6 @@
   "weekly": true
  },
  {
-  "employer": "Kazimirko Dmitriy N MD",
-  "careers_url": "https://www.rapc.com/careers/",
-  "local": false,
-  "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Kinder Morgan-Eugene Terminal",
   "careers_url": "https://careers.kindermorgan.com/careers-home/",
   "local": true,
@@ -7868,15 +7499,6 @@
   "careers_url": "https://www.mapletonwd.org/job-opportunities",
   "local": true,
   "home": "Mapleton",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Mcglade Chuck T MD",
-  "careers_url": "https://klamathhealth.org/khp-careers/",
-  "local": true,
-  "home": "Springfield",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
@@ -8089,24 +7711,6 @@
   "weekly": false
  },
  {
-  "employer": "Science Library",
-  "careers_url": "https://library.uoregon.edu/about-us/careers-and-internships",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Shaklee Distributor",
-  "careers_url": "https://us.shaklee.com/en_US/s/careers",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
   "employer": "Siso",
   "careers_url": "https://www.sisocare.com/job-postings/",
   "local": true,
@@ -8224,15 +7828,6 @@
   "weekly": true
  },
  {
-  "employer": "Air Pollution Complaint Line",
-  "careers_url": "https://www.lrapa-or.gov/air-quality-protection/about-lrapa/careers/",
-  "local": true,
-  "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Amigos III",
   "careers_url": "https://www.rlcgroup.com/careers-at-rlc/",
   "local": true,
@@ -8294,15 +7889,6 @@
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
- },
- {
-  "employer": "Brus William MD",
-  "careers_url": "https://www.oregonmedicalgroup.com/careers",
-  "local": false,
-  "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
  },
  {
   "employer": "Bunting Management Group",
@@ -8629,15 +8215,6 @@
   "weekly": true
  },
  {
-  "employer": "Nationwide Insurance",
-  "careers_url": "https://www.nationwide.com/personal/about-us/careers/",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Oakmont Family Dental",
   "careers_url": "https://www.oakmontfamilydental.com/careers/",
   "local": true,
@@ -8667,15 +8244,6 @@
  {
   "employer": "Pacific Office Automation",
   "careers_url": "https://www.pacificoffice.com/careers/",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Philpott Danielle",
-  "careers_url": "https://dcfinehomesre.com/join-our-team",
   "local": true,
   "home": "Eugene",
   "found": "2026-10-29",
@@ -8845,15 +8413,6 @@
   "weekly": false
  },
  {
-  "employer": "State Farm",
-  "careers_url": "https://mayraquaas.com/jobs",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Strasheim General Contracting",
   "careers_url": "https://www.strasheimcontracting.com/general-contracting-careers-eugene",
   "local": true,
@@ -8980,15 +8539,6 @@
   "weekly": true
  },
  {
-  "employer": "Allerdice Noni",
-  "careers_url": "https://www.c-f-d.org/careers",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Amazon Creek Dental",
   "careers_url": "https://www.amazoncreekdental.com/careers",
   "local": true,
@@ -9038,15 +8588,6 @@
   "careers_url": "https://www.blachlylane.coop/equal-opportunity-employer/",
   "local": true,
   "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
-  "employer": "Burbank Bruce",
-  "careers_url": "https://careers.edwardjones.com/?codes=EDWARD_JONES_WEBSITE&utm_source=EDWARD_JONES_WEBSITE",
-  "local": false,
-  "home": "",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": true
@@ -9268,28 +8809,10 @@
   "weekly": false
  },
  {
-  "employer": "Good",
-  "careers_url": "https://www.parametrix.com/careers/",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Green Hammer Landscape Mntnce",
   "careers_url": "https://laneforest.com/dig-deeper/careers/",
   "local": false,
   "home": "",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Jcpenney Portraits",
-  "careers_url": "https://jcpportraits.com/employment/",
-  "local": true,
-  "home": "Eugene",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
@@ -9353,15 +8876,6 @@
   "careers_url": "https://marcherestaurant.com/employment/",
   "local": true,
   "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
-  "employer": "Master Gardeners",
-  "careers_url": "https://oregonstate.wd501.myworkdayjobs.com/OSU_Careers_Site",
-  "local": false,
-  "home": "",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
