@@ -24,8 +24,9 @@ SYSTEMS = re.compile(r"greenhouse\.io|lever\.co|bamboohr\.com|applytojob\.com|ja
 CAREERS = re.compile(r"career|jobs?\b|employment|join.?(our|the)?.?team|work.?with.?us|openings|opportunit|hiring", re.I)
 
 
-def look(page, url):
+def look(ctx, url):
     r = {"url": url}
+    page = ctx.new_page()
     try:
         resp = page.goto(url, wait_until="domcontentloaded", timeout=30000)
         page.wait_for_timeout(2500)
@@ -33,16 +34,18 @@ def look(page, url):
         r["final"] = page.url
         r["title"] = (page.title() or "")[:120]
         links = page.eval_on_selector_all("a[href], iframe[src], script[src]", """els => els.map(e => ({
-            h: e.href || e.src || "", t: (e.innerText || e.title || "").trim().slice(0, 60)}))""")
+            h: e.href || e.src || "", t: String(e.innerText || e.getAttribute("title") || "").trim().slice(0, 60)}))""")
         html = page.content()
         r["systems"] = sorted({m.group(0).lower() for m in SYSTEMS.finditer(html)})
         r["system_links"] = list(dict.fromkeys(l["h"] for l in links if SYSTEMS.search(l["h"])))[:8]
         r["careers_links"] = list(dict.fromkeys(l["h"] for l in links
                                                 if l["h"].startswith("http") and (CAREERS.search(l["t"]) or
                                                 CAREERS.search(l["h"].split("?")[0].rsplit("/", 1)[-1] or ""))))[:8]
-        r["text"] = re.sub(r"\s+", " ", page.inner_text("body"))[:600]
+        r["text"] = re.sub(r"\s+", " ", page.inner_text("body"))[:2500]
     except Exception as e:  # noqa: BLE001 - report every failure as data
         r["error"] = str(e).splitlines()[0][:200]
+    finally:
+        page.close()
     return r
 
 
@@ -52,11 +55,10 @@ def main():
     with sync_playwright() as p:
         b = p.chromium.launch()
         ctx = b.new_context(user_agent=UA)
-        page = ctx.new_page()
         for item in todo:
             seen, results = set(), []
             for url in item["urls"]:
-                res = look(page, url)
+                res = look(ctx, url)
                 results.append(res)
                 seen.add(url)
                 # Follow the first careers link once, if the page itself doesn't show a hiring system.
@@ -64,7 +66,7 @@ def main():
                     for nxt in res.get("careers_links", [])[:2]:
                         if nxt not in seen:
                             seen.add(nxt)
-                            results.append(look(page, nxt))
+                            results.append(look(ctx, nxt))
             out.append({"employer": item["employer"], "results": results})
             print(item["employer"], [(r.get("status"), r.get("final"), r.get("systems")) for r in results])
         b.close()

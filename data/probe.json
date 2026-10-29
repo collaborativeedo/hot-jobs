@@ -1,16 +1,13 @@
 [
- {"employer": "Air-Weigh", "urls": ["https://www.air-weigh.com/", "https://www.air-weigh.com/careers"]},
- {"employer": "Avant Assessment", "urls": ["https://avantassessment.com/", "https://avantassessment.com/careers"]},
- {"employer": "CBT Nuggets", "urls": ["https://jobs.lever.co/cbtnuggets"]},
- {"employer": "Cognitopia", "urls": ["https://www.cognitopia.com/"]},
- {"employer": "Emberex", "urls": ["https://www.emberex.com/"]},
- {"employer": "IDX Broker", "urls": ["https://www.idxbroker.com/", "https://www.idxbroker.com/careers"]},
- {"employer": "Ksana Health", "urls": ["https://www.ksanahealth.com/"]},
- {"employer": "Lane Council of Governments", "urls": ["https://www.lcog-or.gov/", "https://www.lcog.org/jobs"]},
- {"employer": "Nulia", "urls": ["https://www.nulia.cloud/", "https://nulia.com/"]},
- {"employer": "Palo Alto Software", "urls": ["https://www.paloalto.com/careers", "https://www.paloalto.com/jobs"]},
+ {"employer": "Avant Assessment", "urls": ["https://www.avantassessment.com/about-avant/careers"]},
+ {"employer": "Ksana Health", "urls": ["https://ksanahealth.com/careers/"]},
+ {"employer": "Cognitopia", "urls": ["https://cognitopia.com/careers/"]},
+ {"employer": "IDX Broker", "urls": ["https://www.idxbroker.com/about", "https://www.lwolf.com/careers"]},
+ {"employer": "Nulia", "urls": ["https://www.nulia.ai/", "https://nulia.ai/careers"]},
+ {"employer": "Palo Alto Software", "urls": ["https://www.paloalto.com/about-us/careers"]},
  {"employer": "Trifoia", "urls": ["https://www.trifoia.com/"]},
- {"employer": "Twenty Ideas", "urls": ["https://twentyideas.com/", "https://www.twentyideas.com/"]},
+ {"employer": "Twenty Ideas", "urls": ["https://twentyideas.com/"]},
  {"employer": "Zynga", "urls": ["https://job-boards.greenhouse.io/zyngacareers"]},
- {"employer": "ProFocus Technology", "urls": ["https://www.profocustechnology.com/", "https://www.profocustechnology.com/jobs/"]}
+ {"employer": "ProFocus Technology", "urls": ["https://www.profocustechnology.com/"]},
+ {"employer": "Air-Weigh (ADP)", "urls": ["https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=288de5ed-1d89-4976-8634-9b1b87fe40eb&ccId=19000101_000001&type=JS&lang=en_US"]}
 ]
