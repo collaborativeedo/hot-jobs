@@ -58,9 +58,23 @@ jobs:
           npx --yes wrangler@3 deploy 2>&1 | tee deploy.log || true
           curl -s -X POST -H "$AUTH" -H "Content-Type: application/json" -d '{"enabled":true}' \
             "$API/workers/scripts/hot-jobs-analytics/subdomain" | head -c 300; echo
-          url=""
-          [ -n "$sub" ] && url="https://hot-jobs-analytics.$sub.workers.dev"
+          url=$(grep -oE 'https://hot-jobs-analytics\.[a-z0-9-]+\.workers\.dev' deploy.log | head -1 || true)
+          [ -z "$url" ] && [ -n "$sub" ] && url="https://hot-jobs-analytics.$sub.workers.dev"
+          [ -z "$sub" ] && sub=$(echo "$url" | sed -E 's#https://hot-jobs-analytics\.([^.]+)\.workers\.dev#\1#')
+          echo "SUB=$sub" >> "$GITHUB_ENV"
           echo "URL=$url" >> "$GITHUB_ENV"
+          # Self-test: one event from a test host, then confirm it landed in D1 and remove it.
+          if [ -n "$url" ]; then
+            sleep 5
+            code=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$url/e" -H "Content-Type: text/plain" \
+              -H "User-Agent: Mozilla/5.0 (deploy self-test)" -d '{"e":"load","h":"selftest.invalid"}')
+            n=$(npx --yes wrangler@3 d1 execute hot-jobs-analytics --remote --json \
+              --command "SELECT COALESCE(SUM(n),0) AS n FROM daily WHERE host='selftest.invalid'" 2>/dev/null \
+              | python3 -c "import sys,json; d=json.load(sys.stdin); print(d[0]['results'][0]['n'])" || echo "?")
+            npx --yes wrangler@3 d1 execute hot-jobs-analytics --remote \
+              --command "DELETE FROM daily WHERE host='selftest.invalid'; DELETE FROM visitors WHERE host='selftest.invalid'" >/dev/null 2>&1 || true
+            echo "SELFTEST=http $code, rows counted $n" >> "$GITHUB_ENV"
+          fi
           tail -c 600 deploy.log | tr '\n"' '  ' > deploy.tail
           echo "NOTE=$(cat deploy.tail)" >> "$GITHUB_ENV"
           if ! npx --yes wrangler@3 secret list 2>/dev/null | grep -q '"SALT"'; then
@@ -70,7 +84,7 @@ jobs:
       - name: Record the counter address
         run: |
           mkdir -p data
-          python3 -c "import json,os; json.dump({'endpoint': os.environ.get('URL',''), 'database_id': os.environ.get('DB_ID',''), 'subdomain': os.environ.get('SUB',''), 'deploy_note': os.environ.get('NOTE','')[-500:]}, open('data/analytics.json','w'), indent=1)"
+          python3 -c "import json,os; json.dump({'endpoint': os.environ.get('URL',''), 'database_id': os.environ.get('DB_ID',''), 'subdomain': os.environ.get('SUB',''), 'selftest': os.environ.get('SELFTEST',''), 'deploy_note': os.environ.get('NOTE','')[-300:]}, open('data/analytics.json','w'), indent=1)"
           cat data/analytics.json
           git config user.name "hot-jobs-bot"
           git config user.email "hot-jobs-bot@users.noreply.github.com"

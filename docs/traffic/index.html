@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Hot Jobs Widget Traffic</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,.10); --series: #2a78d6; --series-soft: rgba(42,120,214,.12);
+    --up: #006300; --down: #b3261e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+      --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10); --series: #3987e5; --series-soft: rgba(57,135,229,.18);
+      --up: #0ca30c; --down: #ef6b5f;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10); --series: #3987e5; --series-soft: rgba(57,135,229,.18);
+    --up: #0ca30c; --down: #ef6b5f;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1180px; margin: 0 auto; padding: 28px 16px 64px; }
+  header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 12px; margin-bottom: 18px; }
+  h1 { font-size: 24px; margin: 0; }
+  .sub { color: var(--ink-2); margin: 4px 0 0; font-size: 14px; }
+  .filters { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .filters span { font-size: 13px; color: var(--ink-2); margin-right: 4px; }
+  .filters button { font: inherit; font-size: 13px; border: 1px solid var(--ring); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+  .filters button[aria-pressed=true] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+  section { margin-top: 26px; }
+  h2 { font-size: 16px; margin: 0 0 10px; }
+  .note { font-size: 13px; color: var(--ink-2); margin: -4px 0 12px; max-width: 75ch; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; }
+  .tile { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 12px 14px; }
+  .tile .k { font-size: 12px; color: var(--ink-2); }
+  .tile .v { font-size: 28px; font-weight: 650; line-height: 1.15; margin-top: 4px; }
+  .tile .d { font-size: 12px; margin-top: 2px; color: var(--muted); }
+  .tile .d.up { color: var(--up); } .tile .d.down { color: var(--down); }
+  #trends { grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); }
+  .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 12px; }
+  .card { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 14px; min-width: 0; position: relative; }
+  .card h3 { font-size: 14px; margin: 0 0 2px; }
+  .card .cap { font-size: 12px; color: var(--ink-2); margin: 0 0 8px; }
+  svg { display: block; width: 100%; height: auto; overflow: visible; }
+  svg text { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--ring); border-radius: 8px; padding: 6px 9px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.12); white-space: nowrap; }
+  .tip b { font-size: 14px; display: block; color: var(--ink); }
+  .tip span { color: var(--ink-2); }
+  .bars { display: grid; grid-template-columns: minmax(110px, 38%) 1fr; gap: 5px 10px; align-items: center; font-size: 13px; }
+  .bars .lab { color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bars .trk { display: flex; align-items: center; gap: 6px; min-width: 0; }
+  .bars .bar { height: 14px; background: var(--series); border-radius: 0 4px 4px 0; min-width: 2px; }
+  .bars .val { color: var(--ink-2); font-variant-numeric: tabular-nums; font-size: 12px; white-space: nowrap; }
+  .bars .chg.up { color: var(--up); } .bars .chg.down { color: var(--down); }
+  details { margin-top: 8px; font-size: 13px; }
+  summary { cursor: pointer; color: var(--ink-2); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+  th { color: var(--ink-2); font-weight: 600; font-size: 12px; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .scroll { max-height: 420px; overflow: auto; }
+  .status-ok { color: var(--up); } .status-bad { color: var(--down); }
+  footer { margin-top: 32px; font-size: 12px; color: var(--muted); max-width: 90ch; }
+  footer a, .sub a { color: var(--series); }
+  .hidden { display: none; }
+  .empty { background: var(--surface); border: 1px dashed var(--axis); border-radius: 10px; padding: 18px; color: var(--ink-2); }
+  td.host { font-weight: 600; white-space: nowrap; }
+  #sites { overflow-x: auto; } #sites table { min-width: 640px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>Lane County Hot Jobs: Widget Traffic</h1>
+      <p class="sub">Where the job widget is embedded and how it is used. Updated after each nightly refresh. <span id="updated"></span> <a href="../dashboard/">Staff dashboard</a></p>
+    </div>
+    <div class="filters" role="group" aria-label="Date range">
+      <span>Range:</span>
+      <button type="button" data-days="7" aria-pressed="false">Last 7 days</button>
+      <button type="button" data-days="30" aria-pressed="true">Last 30 days</button>
+      <button type="button" data-days="90" aria-pressed="false">Last 90 days</button>
+      <button type="button" data-days="0" aria-pressed="false">All</button>
+    </div>
+  </header>
+
+  <div id="empty" class="empty hidden">No widget traffic has been recorded yet. Counts begin once a page with the widget is opened; this page fills in after the next nightly refresh.</div>
+
+  <div id="content">
+  <section>
+    <h2>Across all sites</h2>
+    <p class="note" id="rangeNote"></p>
+    <div class="tiles" id="tiles"></div>
+  </section>
+
+  <section>
+    <h2>Over time</h2>
+    <div class="grid2" id="trends"></div>
+  </section>
+
+  <section>
+    <h2>Sites hosting the widget</h2>
+    <p class="note">Each website the widget has loaded on, for the selected range. "Visitors per day" is the average number of distinct visitors on the days the site had traffic. "Seen" is the share of loads where the widget was scrolled into view; "apply rate" is apply clicks per view.</p>
+    <div class="card"><div class="scroll" id="sites"></div></div>
+  </section>
+
+  <section>
+    <h2>What people click to apply for (last 30 days)</h2>
+    <p class="note">Clicks on a posting's title or its "View and apply" button, across all sites.</p>
+    <div class="grid2">
+      <div id="byType"></div>
+      <div id="byEmp"></div>
+    </div>
+  </section>
+
+  </div>
+
+  <footer>
+    How this is counted: the widget sends three anonymous signals to CEDO's own counter on Cloudflare: the widget loaded, the widget scrolled into view, and an apply click (with the employer and type of work of that posting). No cookies are set and no IP addresses are stored.
+    A visitor is counted once per site per day using a one-way code built from a secret, the date, the network address and the browser, so the same person on two different days counts twice, and two people sharing one network and browser type can count once. Network-wide visitors count a person once per day across all sites.
+    Visitors who have turned on Global Privacy Control or Do Not Track are not counted, and neither are search-engine robots, so these figures run low. The hosting site is taken from what the browser reports and is not verified.
+    This page is not linked from the job seeker widget.
+  </footer>
+</main>
+<script>
+(function () {
+  "use strict";
+  var D = null, H = [], range = 30;
+  var $ = function (s) { return document.querySelector(s); };
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function fmt(n) { return n == null ? "–" : Number(n).toLocaleString("en-US"); }
+  function pct(n) { return n == null || !isFinite(n) ? "–" : n.toFixed(0) + "%"; }
+  function dlabel(d) { var x = new Date(d + "T12:00:00"); return x.toLocaleDateString("en-US", { month: "short", day: "numeric" }); }
+  function iso(d) { return d.toISOString().slice(0, 10); }
+
+  fetch("data.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(function (d) { D = d; draw(); })
+    .catch(function () { D = { by_day: [], sites: [] }; draw(); });
+
+  document.querySelector(".filters").addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    range = +b.dataset.days;
+    document.querySelectorAll(".filters button").forEach(function (x) { x.setAttribute("aria-pressed", x === b); });
+    draw();
+  });
+
+  // Fill in days with no traffic so the charts show gaps as zeros.
+  function days() {
+    var rows = D.by_day || []; if (!rows.length) return [];
+    var map = {}; rows.forEach(function (r) { map[r.date] = r; });
+    var end = new Date(rows[rows.length - 1].date + "T12:00:00"), start = new Date(rows[0].date + "T12:00:00");
+    if (range) { start = new Date(end); start.setDate(start.getDate() - range + 1); }
+    var out = [];
+    for (var t = new Date(start); t <= end; t.setDate(t.getDate() + 1)) {
+      var k = iso(t); out.push(map[k] || { date: k, loads: 0, views: 0, applies: 0, visitors: 0, sites: 0 });
+    }
+    return out;
+  }
+
+  function draw() {
+    if (D.updated) $("#updated").textContent = "Last refresh: " + new Date(D.updated).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" }) + ".";
+    var has = !!(D.by_day && D.by_day.length);
+    $("#empty").classList.toggle("hidden", has); $("#content").classList.toggle("hidden", !has);
+    if (!has) return;
+    H = days();
+    var sum = function (k) { return H.reduce(function (a, r) { return a + (r[k] || 0); }, 0); };
+    var active = H.filter(function (r) { return r.loads; }).length;
+    var from = H.length ? H[0].date : null, to = H.length ? H[H.length - 1].date : null;
+    $("#rangeNote").textContent = from ? "Totals from " + dlabel(from) + " to " + dlabel(to) + "." : "";
+    var hosts = siteRows();
+    var t = [
+      ["Sites hosting the widget", fmt(hosts.length)],
+      ["Widget loads", fmt(sum("loads"))],
+      ["Seen on screen", fmt(sum("views"))],
+      ["Apply clicks", fmt(sum("applies"))],
+      ["Visitors per day (all sites)", active ? fmt(Math.round(sum("visitors") / active)) : "–"],
+      ["Apply clicks per 100 views", sum("views") ? (100 * sum("applies") / sum("views")).toFixed(1) : "–"]
+    ];
+    var box = $("#tiles"); box.textContent = "";
+    t.forEach(function (d) { var x = el("div", "tile"); x.appendChild(el("div", "k", d[0])); x.appendChild(el("div", "v", d[1])); box.appendChild(x); });
+
+    var tr = $("#trends"); tr.textContent = "";
+    [["Widget loads", "loads", "Times a page with the widget was opened, all sites"],
+     ["Visitors", "visitors", "Distinct visitors per day across all sites"],
+     ["Apply clicks", "applies", "Clicks through to a posting, all sites"],
+     ["Sites with traffic", "sites", "Websites where the widget loaded that day"]].forEach(function (d) {
+      tr.appendChild(lineCard(d[0], d[2], H, d[1]));
+    });
+
+    table("#sites", [
+      { h: "Website", k: "host", cls: function () { return "host"; } },
+      { h: "Loads", k: "loads", n: 1, f: function (r) { return fmt(r.loads); } },
+      { h: "Visitors per day", n: 1, f: function (r) { return r.active ? (r.visitors / r.active).toFixed(1) : "–"; } },
+      { h: "Seen", n: 1, f: function (r) { return r.loads ? pct(100 * r.views / r.loads) : "–"; } },
+      { h: "Apply clicks", n: 1, f: function (r) { return fmt(r.applies); } },
+      { h: "Apply rate", n: 1, f: function (r) { return r.views ? (100 * r.applies / r.views).toFixed(1) + "%" : "–"; } },
+      { h: "First seen", k: "first_seen" }, { h: "Last seen", k: "last_seen" }], hosts);
+
+    var bt = $("#byType"), be = $("#byEmp"); bt.textContent = ""; be.textContent = "";
+    bt.appendChild(barCard("By type of work", "Top types of work by apply clicks", toMap(D.apply_by_type_30), null, 15));
+    be.appendChild(barCard("By employer", "Top 15 employers by apply clicks", toMap(D.apply_by_employer_30), null, 15));
+  }
+
+  function toMap(list) { var m = {}; (list || []).forEach(function (r) { m[r.name] = r.clicks; }); return m; }
+
+  // Per-site totals for the selected range come from data.json's per-site daily rows.
+  function siteRows() {
+    var from = H.length ? H[0].date : "", rows = {};
+    (D.site_days || []).forEach(function (r) {
+      if (r.date < from) return;
+      var s = rows[r.host] || (rows[r.host] = { host: r.host, loads: 0, views: 0, applies: 0, visitors: 0, active: 0 });
+      s.loads += r.loads; s.views += r.views; s.applies += r.applies; s.visitors += r.visitors; if (r.loads) s.active++;
+    });
+    var meta = {}; (D.sites || []).forEach(function (s) { meta[s.host] = s; });
+    return Object.keys(rows).map(function (h) { var s = rows[h]; s.first_seen = (meta[h] || {}).first_seen || ""; s.last_seen = (meta[h] || {}).last_seen || ""; return s; })
+      .sort(function (a, b) { return b.loads - a.loads || a.host.localeCompare(b.host); });
+  }
+
+  function lineCard(title, cap, rows, key) {
+    var card = el("div", "card"); card.appendChild(el("h3", null, title)); card.appendChild(el("p", "cap", cap));
+    var pts = rows.filter(function (r) { return r[key] != null; });
+    var W = 520, Hh = 190, L = 44, R = 12, Tp = 10, B = 26;
+    var ns = "http://www.w3.org/2000/svg";
+    var svg = document.createElementNS(ns, "svg"); svg.setAttribute("viewBox", "0 0 " + W + " " + Hh); svg.setAttribute("role", "img");
+    svg.setAttribute("aria-label", title + " over time");
+    card.appendChild(svg);
+    if (!pts.length) { card.appendChild(el("p", "cap", "No data yet.")); return card; }
+    var vals = pts.map(function (p) { return p[key]; });
+    var max = Math.max.apply(null, vals), niceMax = nice(max * 1.08 || 1);
+    if (niceMax < 8) niceMax = 4 * Math.max(1, Math.ceil(max * 1.08 / 4));  // whole-number gridlines for small counts
+    var x = function (i) { return L + (pts.length === 1 ? (W - L - R) / 2 : i * (W - L - R) / (pts.length - 1)); };
+    var y = function (v) { return Tp + (Hh - Tp - B) * (1 - v / niceMax); };
+    function add(tag, attrs, parent) { var e = document.createElementNS(ns, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); (parent || svg).appendChild(e); return e; }
+    for (var g = 0; g <= 4; g++) {
+      var gv = niceMax * g / 4, gy = y(gv);
+      add("line", { x1: L, x2: W - R, y1: gy, y2: gy, stroke: g === 0 ? "var(--axis)" : "var(--grid)", "stroke-width": 1 });
+      var tx = add("text", { x: L - 6, y: gy + 4, "text-anchor": "end" }); tx.textContent = fmt(Math.round(gv));
+    }
+    var every = Math.max(1, Math.ceil(pts.length / 6));
+    pts.forEach(function (p, i) { if ((i % every === 0 && pts.length - 1 - i >= every * 0.6) || i === pts.length - 1) { var t = add("text", { x: x(i), y: Hh - 6, "text-anchor": "middle" }); t.textContent = dlabel(p.date); } });
+    var d = pts.map(function (p, i) { return (i ? "L" : "M") + x(i).toFixed(1) + " " + y(p[key]).toFixed(1); }).join(" ");
+    add("path", { d: d + " L" + x(pts.length - 1) + " " + y(0) + " L" + x(0) + " " + y(0) + " Z", fill: "var(--series-soft)", stroke: "none" });
+    add("path", { d: d, fill: "none", stroke: "var(--series)", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" });
+    var lastI = pts.length - 1;
+    add("circle", { cx: x(lastI), cy: y(pts[lastI][key]), r: 4, fill: "var(--series)", stroke: "var(--surface)", "stroke-width": 2 });
+    var lab = add("text", { x: x(lastI) - 6, y: y(pts[lastI][key]) - 9, "text-anchor": "end", style: "fill:var(--ink);font-weight:600;font-size:12px" }); lab.textContent = fmt(pts[lastI][key]);
+    var hair = add("line", { y1: Tp, y2: Hh - B, stroke: "var(--axis)", "stroke-width": 1, visibility: "hidden" });
+    var dot = add("circle", { r: 4, fill: "var(--series)", stroke: "var(--surface)", "stroke-width": 2, visibility: "hidden" });
+    var tip = el("div", "tip hidden"); card.appendChild(tip);
+    var hit = add("rect", { x: L, y: Tp, width: W - L - R, height: Hh - Tp - B, fill: "transparent", tabindex: 0 });
+    function show(i) {
+      var p = pts[i], px = x(i), py = y(p[key]);
+      hair.setAttribute("x1", px); hair.setAttribute("x2", px); hair.setAttribute("visibility", "visible");
+      dot.setAttribute("cx", px); dot.setAttribute("cy", py); dot.setAttribute("visibility", "visible");
+      tip.textContent = ""; tip.appendChild(el("b", null, fmt(p[key]))); tip.appendChild(el("span", null, dlabel(p.date)));
+      tip.classList.remove("hidden");
+      var rect = svg.getBoundingClientRect(), sc = rect.width / W;
+      var left = svg.offsetLeft + px * sc + 10, top = svg.offsetTop + py * sc - 30;
+      if (left + 120 > card.clientWidth) left = svg.offsetLeft + px * sc - 130;
+      tip.style.left = left + "px"; tip.style.top = Math.max(0, top) + "px";
+    }
+    function hide() { hair.setAttribute("visibility", "hidden"); dot.setAttribute("visibility", "hidden"); tip.classList.add("hidden"); }
+    var cur = lastI;
+    hit.addEventListener("pointermove", function (e) {
+      var r = svg.getBoundingClientRect(), mx = (e.clientX - r.left) * W / r.width;
+      var best = 0, bd = 1e9; pts.forEach(function (p, i) { var dd = Math.abs(x(i) - mx); if (dd < bd) { bd = dd; best = i; } });
+      cur = best; show(best);
+    });
+    hit.addEventListener("pointerleave", hide);
+    hit.addEventListener("focus", function () { show(cur); });
+    hit.addEventListener("blur", hide);
+    hit.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowLeft") { cur = Math.max(0, cur - 1); show(cur); e.preventDefault(); }
+      if (e.key === "ArrowRight") { cur = Math.min(lastI, cur + 1); show(cur); e.preventDefault(); }
+    });
+    var det = el("details"); det.appendChild(el("summary", null, "View data"));
+    var tb = el("table"); var hr = el("tr"); hr.appendChild(el("th", null, "Date")); hr.appendChild(el("th", "n", title)); tb.appendChild(hr);
+    pts.slice().reverse().forEach(function (p) { var tr = el("tr"); tr.appendChild(el("td", null, p.date)); tr.appendChild(el("td", "n", fmt(p[key]))); tb.appendChild(tr); });
+    det.appendChild(tb); card.appendChild(det);
+    return card;
+  }
+
+  function nice(v) { var p = Math.pow(10, Math.floor(Math.log10(v))), m = v / p; return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 2.5 ? 2.5 : m <= 5 ? 5 : 10) * p; }
+
+  function barCard(title, cap, cur, prev, limit) {
+    var card = el("div", "card"); card.appendChild(el("h3", null, title)); card.appendChild(el("p", "cap", cap));
+    var keys = Object.keys(cur).sort(function (a, b) { return (a === "Other" || a === "Not stated") - (b === "Other" || b === "Not stated") || cur[b] - cur[a]; });
+    if (limit) keys = keys.slice(0, limit);
+    if (!keys.length) { card.appendChild(el("p", "cap", "Not collected yet for this day.")); return card; }
+    var max = Math.max.apply(null, keys.map(function (k) { return cur[k]; }));
+    var g = el("div", "bars");
+    keys.forEach(function (k) {
+      g.appendChild(el("div", "lab", k)).title = k;
+      var trk = el("div", "trk"); var bar = el("div", "bar"); bar.style.width = (88 * cur[k] / max) + "%";
+      bar.setAttribute("role", "img"); bar.setAttribute("aria-label", k + ": " + cur[k]);
+      trk.appendChild(bar); var v = el("span", "val", fmt(cur[k]));
+      if (prev && prev[k] != null) {
+        var ch = cur[k] - prev[k];
+        var c = el("span", "chg" + (ch > 0 ? " up" : ch < 0 ? " down" : ""), " (" + (ch > 0 ? "+" : ch < 0 ? "−" : "±") + Math.abs(ch) + ")");
+        v.appendChild(c);
+      }
+      trk.appendChild(v); g.appendChild(trk);
+    });
+    card.appendChild(g);
+    return card;
+  }
+
+  function table(target, cols, rows) {
+    var box = $(target); box.textContent = "";
+    if (!rows.length) { box.appendChild(el("p", "cap", "None.")); return; }
+    var t = el("table"), hr = el("tr");
+    cols.forEach(function (c) { hr.appendChild(el("th", c.n ? "n" : null, c.h)); }); t.appendChild(hr);
+    rows.forEach(function (r) {
+      var tr = el("tr");
+      cols.forEach(function (c) { var td = el("td", c.n ? "n" : (c.cls ? c.cls(r) : null), c.f ? c.f(r) : r[c.k]); tr.appendChild(td); });
+      t.appendChild(tr);
+    });
+    box.appendChild(t);
+  }
+
+})();
+</script>
+</body>
+</html>

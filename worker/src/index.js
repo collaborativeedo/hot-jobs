@@ -41,11 +41,14 @@ export default {
     if (!host || !/^[a-z0-9.-]+$/.test(host)) return new Response(null, { status: 400, headers: CORS });
     const day = new Date().toLocaleDateString("en-CA", { timeZone: "America/Los_Angeles" });  // Pacific calendar day
     const label = ev === "apply" ? `${clip(b.emp, 100)}|${clip(b.t, 60)}` : "";
-    const v = await visitorKey(env.SALT || "", day, req.headers.get("CF-Connecting-IP") || "", ua, host);
+    const ip = req.headers.get("CF-Connecting-IP") || "";
+    const v = await visitorKey(env.SALT || "", day, ip, ua, host);
+    const all = await visitorKey(env.SALT || "", day, ip, ua, "*");  // same person across every hosting site
     ctx.waitUntil(env.DB.batch([
       env.DB.prepare("INSERT INTO daily (day, host, event, label, n) VALUES (?1, ?2, ?3, ?4, 1) " +
                      "ON CONFLICT (day, host, event, label) DO UPDATE SET n = n + 1").bind(day, host, ev, label),
       env.DB.prepare("INSERT OR IGNORE INTO visitors (day, host, event, v) VALUES (?1, ?2, ?3, ?4)").bind(day, host, ev, v),
+      env.DB.prepare("INSERT OR IGNORE INTO visitors (day, host, event, v) VALUES (?1, '*', ?2, ?3)").bind(day, ev, all),
     ]));
     return new Response(null, { status: 204, headers: CORS });
   },

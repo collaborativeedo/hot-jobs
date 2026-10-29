@@ -17,6 +17,20 @@
   var me = document.currentScript;
   if (!me) return;
   var base = me.src.replace(/[^\/]*$/, "");
+  // Anonymous counts for the staff traffic page: widget shown, scrolled into view, apply clicks.
+  // No cookies and nothing stored in the browser. Skipped when the browser asks not to be tracked.
+  var COUNTER = "https://hot-jobs-analytics.collaborativeedo.workers.dev";
+  function signal(ev, extra) {
+    try {
+      if (!/^https:/.test(COUNTER) || navigator.globalPrivacyControl || navigator.doNotTrack === "1") return;
+      if (!/^https?:$/.test(location.protocol) || /^(localhost|127\.)/.test(location.hostname)) return;
+      var body = JSON.stringify(Object.assign({ e: ev, h: location.hostname }, extra || {}));
+      var blob = new Blob([body], { type: "text/plain" });
+      if (!(navigator.sendBeacon && navigator.sendBeacon(COUNTER + "/e", blob))) {
+        fetch(COUNTER + "/e", { method: "POST", body: body, keepalive: true, mode: "no-cors" });
+      }
+    } catch (e) { /* counting must never affect the widget */ }
+  }
   var opt = me.dataset || {};
 
   var CSS = [
@@ -207,5 +221,20 @@
     $(".lchj-q").addEventListener("input", function (e) { st.q = e.target.value; refresh(); });
     $(".lchj-city").addEventListener("change", function (e) { st.city = e.target.value; refresh(); });
     refresh();
+
+    var byUrl = {}; jobs.forEach(function (j) { byUrl[j.url] = j; });
+    root.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest("a.lchj-apply, a.lchj-t");
+      if (!a || !root.contains(a)) return;
+      var j = byUrl[a.getAttribute("href")] || {};
+      signal("apply", { emp: j.employer || "Employer not listed", t: j.type || "" });
+    });
+    signal("load");
+    if ("IntersectionObserver" in window) {
+      var seen = new IntersectionObserver(function (entries) {
+        if (entries.some(function (x) { return x.isIntersecting; })) { signal("view"); seen.disconnect(); }
+      }, { threshold: 0.25 });
+      seen.observe(root);
+    }
   }
 })();
