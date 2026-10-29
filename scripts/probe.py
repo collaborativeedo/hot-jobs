@@ -41,7 +41,7 @@ def look(ctx, url):
         r["careers_links"] = list(dict.fromkeys(l["h"] for l in links
                                                 if l["h"].startswith("http") and (CAREERS.search(l["t"]) or
                                                 CAREERS.search(l["h"].split("?")[0].rsplit("/", 1)[-1] or ""))))[:8]
-        r["text"] = re.sub(r"\s+", " ", page.inner_text("body"))[:2500]
+        r["text"] = re.sub(r"\s+", " ", page.inner_text("body"))[:4000]
     except Exception as e:  # noqa: BLE001 - report every failure as data
         r["error"] = str(e).splitlines()[0][:200]
     finally:
