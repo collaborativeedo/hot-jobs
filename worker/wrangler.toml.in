@@ -1,0 +1,12 @@
+name = "hot-jobs-analytics"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = true
+
+[triggers]
+crons = ["40 11 * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hot-jobs-analytics"
+database_id = "__DATABASE_ID__"

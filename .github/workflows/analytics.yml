@@ -1,0 +1,61 @@
+name: Deploy traffic counter
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["worker/**", ".github/workflows/analytics.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh   # shares the lock with the nightly refresh so the two never push at once
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Create the database if needed
+        working-directory: worker
+        run: |
+          set -e
+          id=$(npx --yes wrangler@3 d1 list --json | python3 -c "import sys,json; print(next((d['uuid'] for d in json.load(sys.stdin) if d['name']=='hot-jobs-analytics'),''))")
+          if [ -z "$id" ]; then
+            npx --yes wrangler@3 d1 create hot-jobs-analytics
+            id=$(npx --yes wrangler@3 d1 list --json | python3 -c "import sys,json; print(next(d['uuid'] for d in json.load(sys.stdin) if d['name']=='hot-jobs-analytics'))")
+          fi
+          sed "s/__DATABASE_ID__/$id/" wrangler.toml.in > wrangler.toml
+          echo "DB_ID=$id" >> "$GITHUB_ENV"
+          npx --yes wrangler@3 d1 execute hot-jobs-analytics --remote --file schema.sql
+
+      - name: Publish the counter
+        working-directory: worker
+        run: |
+          set -e
+          npx --yes wrangler@3 deploy 2>&1 | tee deploy.log
+          url=$(grep -oE 'https://[a-z0-9.-]+\.workers\.dev' deploy.log | head -1)
+          echo "URL=$url" >> "$GITHUB_ENV"
+          if ! npx --yes wrangler@3 secret list | grep -q '"SALT"'; then
+            python3 -c "import secrets; print(secrets.token_hex(32))" | npx --yes wrangler@3 secret put SALT
+          fi
+
+      - name: Record the counter address
+        run: |
+          mkdir -p data
+          printf '{"endpoint": "%s", "database_id": "%s"}\n' "$URL" "$DB_ID" > data/analytics.json
+          cat data/analytics.json
+          git config user.name "hot-jobs-bot"
+          git config user.email "hot-jobs-bot@users.noreply.github.com"
+          git add data/analytics.json
+          git diff --cached --quiet || (git commit -m "Record traffic counter address" && git pull --rebase origin main && git push)
