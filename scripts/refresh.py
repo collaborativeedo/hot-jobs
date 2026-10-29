@@ -249,7 +249,7 @@ def read_oed_pages(jobs, fetcher, today, log):
         if not o:
             continue
         live.add(o)
-        if o not in cache and fetched < MAX_OED_PAGES:
+        if o not in cache and fetched < MAX_OED_PAGES and not late(0.8):
             fetched += 1
             try:
                 cache[o] = dict(enrich.parse_oed_page(fetcher.get(page).text), fetched=today)
@@ -265,6 +265,25 @@ def read_oed_pages(jobs, fetcher, today, log):
     cache = {k: v for k, v in cache.items() if k in live}
     OED_DETAILS.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
     log.append(f"WorkSource pages: {fetched} read tonight, {failed} failed, {len(cache)} on file.")
+
+
+RUN_START = time.time()
+RUN_LIMIT = float(__import__("os").environ.get("HOTJOBS_RUN_MINUTES", "200")) * 60  # soft limit; the workflow's is 300
+PROGRESS = ROOT / "data" / "run-progress.json"  # saved as the run goes, so a run that is stopped still shows where
+
+
+def late(share=1.0):
+    """True once this run has used the given share of its time limit; later steps then use saved results."""
+    return time.time() - RUN_START > RUN_LIMIT * share
+
+
+def progress(step, **kw):
+    try:
+        PROGRESS.write_text(json.dumps({"step": step, "minutes": round((time.time() - RUN_START) / 60, 1),
+                                        "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"), **kw}),
+                            encoding="utf-8")
+    except Exception:  # noqa: BLE001
+        pass
 
 
 BROWSER_BUDGET = 70 * 60  # seconds of careers-page reading per night; the rest use their last read
@@ -283,7 +302,7 @@ def read_posting_pages(jobs, fetcher, today, log):
             continue
         k = direct.posting_key(j["url"])
         live.add(k)
-        if k not in cache and fetched < MAX_POSTING_PAGES:
+        if k not in cache and fetched < MAX_POSTING_PAGES and not late(0.8):
             fetched += 1
             try:
                 from bs4 import BeautifulSoup
@@ -383,6 +402,9 @@ def drop_dead_links(jobs, log):
     reported closed. Postings read tonight from a hiring system are skipped: the system just listed them."""
     from concurrent.futures import ThreadPoolExecutor
     check = [j for j in jobs if not j.get("direct") and j.get("url")]
+    if late(0.9):
+        log.append("Dead links: not checked tonight (time limit).")
+        check = []
     with ThreadPoolExecutor(max_workers=24) as pool:
         verdicts = dict(zip([j["url"] for j in check], pool.map(_is_dead, [j["url"] for j in check])))
     feedback = json.loads(FEEDBACK.read_text()) if FEEDBACK.exists() else {}
@@ -511,8 +533,58 @@ def pull_direct(qi_jobs, fetcher, today):
     import time
     import zlib
     browser_secs, day_no = 0.0, dt.date.fromisoformat(today).toordinal()
+
+    def fresh_cache(src):
+        return src.get("cache_date") and (day_no - dt.date.fromisoformat(src["cache_date"]).toordinal()) <= 4
+
+    # Hiring-system feeds are read in parallel (each site still gets one request at a time, a second apart);
+    # their results are then handled in order below. A feed not finished by the time limit uses its last read.
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    prefetched = {}
+    api = [(k, s, connectors[s["platform"]]) for k, s in queue
+           if s["platform"] != "Careers page" and s["platform"] in connectors
+           and not (s.get("weekly") and not s.get("lane_openings") and s.get("last_run")
+                    and zlib.crc32(k.encode()) % 7 != day_no % 7)]
+
+    def _fetch(item):
+        k, s, f = item
+        try:
+            return k, f(fetcher, s), None
+        except Exception as e:  # noqa: BLE001
+            return k, None, e
+    pool = ThreadPoolExecutor(max_workers=16)
+    futs = [pool.submit(_fetch, it) for it in api]
+    try:
+        for n, fut in enumerate(as_completed(futs, timeout=max(60.0, RUN_LIMIT * 0.45 - (time.time() - RUN_START)))):
+            k, rows, err = fut.result()
+            prefetched[k] = (rows, err)
+            if n % 50 == 0:
+                progress("Employer hiring systems", done=n, of=len(api))
+    except Exception:  # noqa: BLE001 - time limit: the rest use their last read
+        pass
+    pool.shutdown(wait=False, cancel_futures=True)
+    unfinished = {k for k, _, _ in api if k not in prefetched}
+
+    def take(key, fn, src):
+        if key in unfinished:
+            if fresh_cache(src):
+                return list(src.get("cache_rows") or [])
+            raise TimeoutError("not read tonight (time limit)")
+        if key in prefetched:
+            rows, err = prefetched.pop(key)
+            if err:
+                raise err
+            return rows
+        return fn(fetcher, src)
+
+    handled = 0
     while queue:
         key, src = queue.pop(0)
+        handled += 1
+        if handled % 50 == 0:
+            progress("Employer hiring sites and careers pages", handled=handled, left=len(queue),
+                     browser_minutes=round(browser_secs / 60, 1))
+            SOURCES.write_text(json.dumps(sources, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
         turn = zlib.crc32(key.encode())
         # Pages that rarely have openings are read once a week, on a day set by their address, to keep the run short.
         if src.get("weekly") and not src.get("lane_openings") and src.get("last_run") and turn % 7 != day_no % 7:
@@ -522,9 +594,8 @@ def pull_direct(qi_jobs, fetcher, today):
             # Careers pages found through the QualityInfo employer database are read every third night; in between,
             # and once tonight's browser time is used up, the postings from the last read carry over (up to 4 days).
             due = not (src.get("rotate") and src.get("last_run") and turn % 3 != day_no % 3)
-            if not due or browser_secs > BROWSER_BUDGET:
-                fresh = src.get("cache_date") and (day_no - dt.date.fromisoformat(src["cache_date"]).toordinal()) <= 4
-                fn = (lambda f, s: list(s.get("cache_rows") or [])) if fresh else None  # noqa: E731
+            if not due or browser_secs > BROWSER_BUDGET or late(0.7):
+                fn = (lambda f, s: list(s.get("cache_rows") or [])) if fresh_cache(src) else None  # noqa: E731
                 if fn is None:
                     continue
         else:
@@ -533,11 +604,11 @@ def pull_direct(qi_jobs, fetcher, today):
             continue
         before, t0 = fetcher.calls, time.time()
         try:
-            rows = fn(fetcher, src)
+            rows = take(key, fn, src)
             if src["platform"] == "Careers page":
                 browser_secs += time.time() - t0
                 if isinstance(rows, list) and fetcher.calls >= before and time.time() - t0 > 0.05:
-                    src["cache_rows"], src["cache_date"] = rows[:60], today
+                    src["cache_rows"], src["cache_date"] = rows[:200], today
             if isinstance(rows, dict) and rows.get("handoff"):
                 # The careers page runs on a hiring system we can read directly: switch to it from now on.
                 nkey, nsrc = rows["handoff"]
@@ -547,6 +618,8 @@ def pull_direct(qi_jobs, fetcher, today):
                     queue.append((nkey, sources[nkey]))
                 src.update(status=f"uses {nsrc['platform']}", last_run=today, lane_openings=0)
                 continue
+            if src["platform"] != "Careers page" and key not in unfinished and isinstance(rows, list):
+                src["cache_rows"], src["cache_date"] = rows[:400], today  # used if a later night runs out of time
             src.update(status="ok", last_run=today, lane_openings=len(rows))
         except PermissionError as e:
             rows = []
@@ -698,6 +771,7 @@ def main():
 
     def mark(name):
         marks.append((name, time.time()))
+        progress(f"finished {name}", steps=minutes())
 
     def minutes():
         return [{"step": n, "minutes": round((t - marks[i][1]) / 60, 1)} for i, (n, t) in enumerate(marks[1:])]

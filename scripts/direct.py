@@ -14,6 +14,7 @@ it never stops the run.
 import html
 import json
 import re
+import threading
 import time
 import urllib.robotparser
 from datetime import date, datetime
@@ -65,6 +66,8 @@ class Fetcher:
         self.robots_text = {}
         self.robots_status = {}
         self.calls = 0
+        self._lock = threading.Lock()
+        self._next = {}  # host -> earliest time of the next request (a pause per site, so sites can be read in parallel)
 
     def allowed(self, url):
         if not RESPECT_ROBOTS:
@@ -109,8 +112,14 @@ class Fetcher:
     def _go(self, method, url, **kw):
         if not self.allowed(url):
             raise PermissionError(f"robots.txt does not allow {url}")
-        time.sleep(PAUSE)
-        self.calls += 1
+        host = urlparse(url).netloc.lower()
+        with self._lock:
+            now = time.time()
+            at = max(now, self._next.get(host, 0.0))
+            self._next[host] = at + PAUSE
+            self.calls += 1
+        if at > now:
+            time.sleep(at - now)
         r = self.s.request(method, url, timeout=40, **kw)
         r.raise_for_status()
         return r
