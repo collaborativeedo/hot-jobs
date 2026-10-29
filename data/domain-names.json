@@ -87,6 +87,10 @@
   "checked": "2026-10-27",
   "name": "Rexel"
  },
+ "careers.sca.health": {
+  "checked": "2026-10-29",
+  "name": "SCA"
+ },
  "careers.stryker.com": {
   "checked": "2026-10-19",
   "name": "Jobs and Careers at Stryker | Stryker"
@@ -258,6 +262,10 @@
  "jobsearch.grifols.com": {
   "checked": "2026-10-20",
   "name": "Careers at Grifols"
+ },
+ "linde.csod.com": {
+  "checked": "2026-10-29",
+  "name": "SAML Authentication Request"
  },
  "nrssinc.applicantpro.com": {
   "checked": "2026-10-14",
