@@ -1,0 +1,31 @@
+name: Read National Labor Exchange (Lane County)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nlx
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - run: python scripts/nlx.py --snapshot
+      - if: always()
+        run: |
+          git config user.name "hot-jobs-bot"
+          git config user.email "hot-jobs-bot@users.noreply.github.com"
+          git add data/nlx-lane.json data/nlx-cache.json
+          git diff --cached --quiet || (git commit -m "National Labor Exchange: Lane County snapshot" && git pull --rebase -X theirs origin main && git push)
