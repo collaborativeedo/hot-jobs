@@ -1,0 +1,39 @@
+name: Read QualityInfo employer database
+
+on:
+  workflow_dispatch:
+    inputs:
+      details:
+        description: "Employer detail records to read this run"
+        default: "16000"
+  push:
+    branches: [main]
+    paths: ["scripts/empdb.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: empdb
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Read list and details
+        run: |
+          python scripts/empdb.py --list --details ${{ github.event.inputs.details || '16000' }}
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "hot-jobs-bot"
+          git config user.email "hot-jobs-bot@users.noreply.github.com"
+          git add data/empdb-lane.json
+          git diff --cached --quiet || (git commit -m "QualityInfo employer database: Lane County harvest" && git pull --rebase -X theirs origin main && git push)
