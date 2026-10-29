@@ -1,0 +1,405 @@
+{
+"updated": "2026-10-29T21:34+00:00",
+"workflows": [
+{
+"workflow": "Refresh and publish",
+"about": "Nightly: pulls every Lane County posting, checks links, publishes the widget and dashboards",
+"last": {
+"started": "2026-10-29 14:33",
+"minutes": 0.7,
+"result": "running",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40958811344"
+},
+"failures": 0,
+"finished": 2,
+"median_minutes": 34.0,
+"runs": [
+{
+"started": "2026-10-29 14:33",
+"minutes": 0.7,
+"result": "running",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40958811344"
+},
+{
+"started": "2026-10-29 14:31",
+"minutes": 2.7,
+"result": "running",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40958529935"
+},
+{
+"started": "2026-10-29 13:31",
+"minutes": 61.0,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40949856696"
+},
+{
+"started": "2026-10-29 12:07",
+"minutes": 84.6,
+"result": "cancelled",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40937177962"
+},
+{
+"started": "2026-10-29 12:03",
+"minutes": 3.7,
+"result": "cancelled",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40936611156"
+},
+{
+"started": "2026-10-29 11:57",
+"minutes": 6.7,
+"result": "cancelled",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40935570286"
+},
+{
+"started": "2026-10-29 11:31",
+"minutes": 180.4,
+"result": "cancelled",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40931579541"
+},
+{
+"started": "2026-10-29 11:22",
+"minutes": 7.1,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40930221258"
+},
+{
+"started": "2026-10-29 11:22",
+"minutes": 0.3,
+"result": "cancelled",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40930180479"
+},
+{
+"started": "2026-10-29 11:11",
+"minutes": 11.2,
+"result": "cancelled",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40928411279"
+}
+]
+},
+{
+"workflow": "Discover employer job pages",
+"about": "Looks for careers pages of employers in the QualityInfo database",
+"last": {
+"started": "2026-10-29 13:09",
+"minutes": 84.8,
+"result": "running",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40946489815"
+},
+"failures": 0,
+"finished": 0,
+"median_minutes": null,
+"runs": [
+{
+"started": "2026-10-29 13:09",
+"minutes": 84.8,
+"result": "running",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40946489815"
+},
+{
+"started": "2026-10-29 01:30",
+"minutes": 180.8,
+"result": "cancelled",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40842657113"
+},
+{
+"started": "2026-10-28 22:27",
+"minutes": 181.1,
+"result": "cancelled",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40823477726"
+}
+]
+},
+{
+"workflow": "Read chamber of commerce directories",
+"about": "",
+"last": {
+"started": "2026-10-29 12:07",
+"minutes": 62.1,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40937187239"
+},
+"failures": 0,
+"finished": 2,
+"median_minutes": 31.9,
+"runs": [
+{
+"started": "2026-10-29 12:07",
+"minutes": 62.1,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40937187239"
+},
+{
+"started": "2026-10-29 12:03",
+"minutes": 1.7,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40936623718"
+}
+]
+},
+{
+"workflow": "Deploy traffic counter",
+"about": "Updates the anonymous widget counter (runs when its code changes)",
+"last": {
+"started": "2026-10-29 11:57",
+"minutes": 0.7,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40935570328"
+},
+"failures": 0,
+"finished": 6,
+"median_minutes": 1.4,
+"runs": [
+{
+"started": "2026-10-29 11:57",
+"minutes": 0.7,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40935570328"
+},
+{
+"started": "2026-10-29 11:22",
+"minutes": 0.7,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40930221273"
+},
+{
+"started": "2026-10-29 11:08",
+"minutes": 0.0,
+"result": "cancelled",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40927899855"
+},
+{
+"started": "2026-10-28 17:21",
+"minutes": 1.6,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40793568585"
+},
+{
+"started": "2026-10-28 17:19",
+"minutes": 1.6,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40793345043"
+},
+{
+"started": "2026-10-28 17:14",
+"minutes": 1.5,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40792701993"
+},
+{
+"started": "2026-10-28 17:12",
+"minutes": 1.2,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40792502538"
+}
+]
+},
+{
+"workflow": "Read National Labor Exchange (Lane County)",
+"about": "Snapshot of NLx postings (by hand; the nightly run reads NLx itself)",
+"last": {
+"started": "2026-10-29 11:11",
+"minutes": 8.2,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40928409698"
+},
+"failures": 0,
+"finished": 1,
+"median_minutes": 8.2,
+"runs": [
+{
+"started": "2026-10-29 11:11",
+"minutes": 8.2,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40928409698"
+}
+]
+},
+{
+"workflow": "Refresh reference data (education levels, LTD stops, geocodes)",
+"about": "Education levels, LTD bus stops and employer addresses",
+"last": {
+"started": "2026-10-29 11:08",
+"minutes": 2.6,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40927911786"
+},
+"failures": 0,
+"finished": 1,
+"median_minutes": 2.6,
+"runs": [
+{
+"started": "2026-10-29 11:08",
+"minutes": 2.6,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40927911786"
+}
+]
+},
+{
+"workflow": "Read QualityInfo employer database",
+"about": "Reads the QualityInfo employer database",
+"last": {
+"started": "2026-10-28 19:46",
+"minutes": 160.3,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40808292412"
+},
+"failures": 0,
+"finished": 1,
+"median_minutes": 160.3,
+"runs": [
+{
+"started": "2026-10-28 19:46",
+"minutes": 160.3,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40808292412"
+}
+]
+},
+{
+"workflow": "Find careers pages",
+"about": "Looks for careers pages of named employers",
+"last": {
+"started": "2026-10-28 19:39",
+"minutes": 1.0,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40807638035"
+},
+"failures": 0,
+"finished": 5,
+"median_minutes": 1.5,
+"runs": [
+{
+"started": "2026-10-28 19:39",
+"minutes": 1.0,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40807638035"
+},
+{
+"started": "2026-10-28 19:36",
+"minutes": 1.5,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40807381652"
+},
+{
+"started": "2026-10-28 19:33",
+"minutes": 2.9,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40807053486"
+},
+{
+"started": "2026-10-28 19:29",
+"minutes": 1.5,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40806614137"
+},
+{
+"started": "2026-10-28 19:26",
+"minutes": 2.3,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40806345471"
+}
+]
+}
+],
+"nightly": [
+{
+"date": "2026-10-28 19:51",
+"ok": true,
+"steps": [],
+"warnings": []
+},
+{
+"date": "2026-10-28 14:29",
+"ok": true,
+"steps": [],
+"warnings": []
+},
+{
+"date": "2026-10-28 13:59",
+"ok": true,
+"steps": [],
+"warnings": []
+},
+{
+"date": "2026-10-28 09:39",
+"ok": true,
+"steps": [],
+"warnings": []
+},
+{
+"date": "2026-10-28 08:39",
+"ok": true,
+"steps": [],
+"warnings": []
+},
+{
+"date": "2026-10-28 08:12",
+"ok": true,
+"steps": [],
+"warnings": []
+},
+{
+"date": "2026-10-28 07:44",
+"ok": true,
+"steps": [],
+"warnings": []
+},
+{
+"date": "2026-10-28 07:15",
+"ok": true,
+"steps": [],
+"warnings": []
+},
+{
+"date": "2026-10-27 22:07",
+"ok": true,
+"steps": [],
+"warnings": []
+},
+{
+"date": "2026-10-27 21:34",
+"ok": true,
+"steps": [],
+"warnings": []
+}
+]
+}
