@@ -125,6 +125,9 @@ def read_springfield(page, log, deadline):
                 return a ? a.href : ''; }""")
             cats = page.evaluate("""() => [...document.querySelectorAll('a[href*="/list/ql/"], .gz-member-cats a, [class*="category"] a')]
                 .map(a => a.innerText.trim()).filter(Boolean)""")
+            h1 = page.evaluate("() => { const h = document.querySelector('h1'); return h ? h.innerText.trim() : ''; }")
+            if h1 and len(h1) > len(rec["name"]) and h1.lower().startswith(rec["name"].rstrip(". (").lower()[:20]):
+                rec["name"] = h1  # the A-to-Z list cuts long names short; the member's own page has the full name
             rec["web"] = web
             rec["categories"] = sorted(set(cats))[:6]
         except Exception as e:  # noqa: BLE001
