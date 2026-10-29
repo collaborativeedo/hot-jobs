@@ -145,6 +145,34 @@ ACCEPT = {"hiring system": False, "careers page with openings": False, "careers 
           "careers page, no openings today": True}   # value: check weekly instead of nightly
 
 
+GIVEN = set("""matt scot scott patricia stephanie bruce danielle noni monique sean richard gary kelly robert keith william
+candice jeremy dmitriy chuck nicholas loren jerry dave david john james michael mary susan linda karen lisa nancy jennifer
+sarah emily jessica amanda brian kevin mark paul steven stephen thomas daniel joseph charles christopher anthony donald
+margaret barbara elizabeth patrick peter laura julie amy anne ann jean carol deborah sandra donna ruth sharon cynthia
+kathleen helen andrea rachel heather nicole melissa michelle rebecca timothy jason jeffrey ryan eric jacob gregory frank
+larry dennis jerry tyler aaron jose adam henry douglas nathan zachary kyle walter harold carl arthur roger joe terry
+preet parisa bryan""".split())
+CRED = re.compile(r"\b(MD|DMD|DDS|DO|ATY|AGT|LO|OD|DC|LCSW|LPC|PhD|CPA PC)\b\.?$")
+FRANCHISE = re.compile(r"state farm|farmers insurance|allstate|edward jones|american income life|new york life|primerica|"
+                       r"northwestern mutual|mary kay|shaklee|watkins products|liberty tax|nationwide insurance|aflac", re.I)
+JUNK = re.compile(r"&$|^(?![A-Z]{2,5}$)[A-Za-z]{1,4}$|^good$|complaint line|worksource|employment division|fish & wildlife|^buy \d|science library|"
+                  r"master gardeners|portraits$", re.I)
+
+
+def not_an_employer(name):
+    """Why a QualityInfo listing should not be searched as an employer, or "" if it should."""
+    w = name.replace(",", "").split()
+    if JUNK.search(name):
+        return "fragment or not an employer"
+    if CRED.search(name):
+        return "individual practitioner"
+    if FRANCHISE.search(name):
+        return "franchise agent (careers page is the national company)"
+    if 2 <= len(w) <= 4 and w[0] not in ("St", "Saint") and w[1].lower() in GIVEN and w[0][0].isupper() and all(len(x) <= 2 or x.isalpha() for x in w):
+        return "a person's name"
+    return ""
+
+
 def merge():
     rows = []
     for f in sorted(OUTDIR.glob("shard-*.json")):
@@ -158,6 +186,9 @@ def merge():
         if r["outcome"] not in ACCEPT or not r.get("careers_url"):
             continue
         name = enrich.clean_employer(enrich._tidy_name(r["employer"])) or r["employer"]
+        if not_an_employer(name):
+            done[r["domain"]]["outcome"] += f" (not added: {not_an_employer(name)})"
+            continue
         if r["careers_url"].lower().rstrip("/") in have or name.lower() in have:
             continue
         chain = r.get("locations", 1) >= 3
