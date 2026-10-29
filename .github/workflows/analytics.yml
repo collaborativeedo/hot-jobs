@@ -81,10 +81,17 @@ jobs:
             python3 -c "import secrets; print(secrets.token_hex(32))" | npx --yes wrangler@3 secret put SALT || true
           fi
 
+      - name: Check the nightly traffic pull can read the counter
+        continue-on-error: true
+        run: |
+          python3 scripts/traffic.py 2>&1 | tail -3 | tee traffic.check
+          echo "READCHECK=$(tr '\n"' '  ' < traffic.check)" >> "$GITHUB_ENV"
+          git checkout -- docs data 2>/dev/null || true
+
       - name: Record the counter address
         run: |
           mkdir -p data
-          python3 -c "import json,os; json.dump({'endpoint': os.environ.get('URL',''), 'database_id': os.environ.get('DB_ID',''), 'subdomain': os.environ.get('SUB',''), 'selftest': os.environ.get('SELFTEST',''), 'deploy_note': os.environ.get('NOTE','')[-300:]}, open('data/analytics.json','w'), indent=1)"
+          python3 -c "import json,os; json.dump({'endpoint': os.environ.get('URL',''), 'database_id': os.environ.get('DB_ID',''), 'subdomain': os.environ.get('SUB',''), 'selftest': os.environ.get('SELFTEST',''), 'readcheck': os.environ.get('READCHECK',''), 'deploy_note': os.environ.get('NOTE','')[-300:]}, open('data/analytics.json','w'), indent=1)"
           cat data/analytics.json
           git config user.name "hot-jobs-bot"
           git config user.email "hot-jobs-bot@users.noreply.github.com"
