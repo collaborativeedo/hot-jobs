@@ -1,13 +1,15 @@
 [
- {"employer": "Avant Assessment", "urls": ["https://www.avantassessment.com/about-avant/careers"]},
- {"employer": "Ksana Health", "urls": ["https://ksanahealth.com/careers/"]},
- {"employer": "Cognitopia", "urls": ["https://cognitopia.com/careers/"]},
- {"employer": "IDX Broker", "urls": ["https://www.idxbroker.com/about", "https://www.lwolf.com/careers"]},
- {"employer": "Nulia", "urls": ["https://www.nulia.ai/", "https://nulia.ai/careers"]},
- {"employer": "Palo Alto Software", "urls": ["https://www.paloalto.com/about-us/careers"]},
- {"employer": "Trifoia", "urls": ["https://www.trifoia.com/"]},
- {"employer": "Twenty Ideas", "urls": ["https://twentyideas.com/"]},
- {"employer": "Zynga", "urls": ["https://job-boards.greenhouse.io/zyngacareers"]},
- {"employer": "ProFocus Technology", "urls": ["https://www.profocustechnology.com/"]},
- {"employer": "Air-Weigh (ADP)", "urls": ["https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=288de5ed-1d89-4976-8634-9b1b87fe40eb&ccId=19000101_000001&type=JS&lang=en_US"]}
+ {"employer": "Adasa", "urls": ["https://www.adasa.com/"]},
+ {"employer": "Broadcast Software International", "urls": ["https://www.bsiusa.com/"]},
+ {"employer": "GeoTerra", "urls": ["https://www.geoterra.com/", "https://geoterrainc.com/"]},
+ {"employer": "Emerald Broadband", "urls": ["https://emeraldbroadband.com/careers"]},
+ {"employer": "Alpha IT", "urls": ["https://alphaitoregon.com/"]},
+ {"employer": "Nulia", "urls": ["https://www.nulia.com/"]},
+ {"employer": "FRONTSTEPS", "urls": ["https://frontsteps.com/careers/", "https://frontsteps.com/"]},
+ {"employer": "Moonshadow Mobile", "urls": ["https://www.moonshadowmobile.com/"]},
+ {"employer": "StepUP IT Services", "urls": ["https://www.stepupitservices.com/"]},
+ {"employer": "Pipeworks Studios", "urls": ["https://www.pipeworks.com/careers", "https://www.pipeworks.com/"]},
+ {"employer": "Ksana Health jobs", "urls": ["https://ksanahealth.com/careers/#open-positions"]},
+ {"employer": "Air-Weigh ADP feed", "urls": ["https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions?cid=288de5ed-1d89-4976-8634-9b1b87fe40eb&timeStamp=1&lang=en_US&ccId=19000101_000001&locale=en_US&$top=20"]},
+ {"employer": "ADP feed sample (Rexius)", "urls": ["https://www.rexius.com/careers/"]}
 ]
