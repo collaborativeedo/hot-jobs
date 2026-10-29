@@ -342,7 +342,8 @@ def norm_title(t):
 _TITLE_SOC = [(re.compile(p, re.I), c) for p, c in [
     (r"\bprep cook|food prep", "352021"), (r"\b(line |grill |kitchen )?cook\b", "352014"), (r"dishwasher", "359021"),
     (r"bartender", "353011"), (r"\bbarista|crew member|team member.*(restaurant|cafe)|counter (staff|worker)", "353023"),
-    (r"\bserver\b(?!.*(sql|data|web|network|system))|waitstaff|waitress|waiter", "353031"), (r"\bhost(ess)?\b(?!.*(web|server))", "359031"),
+    (r"^(?!.*\b(sql|data|web|network|systems?|it|cloud|windows|linux|application)\b).*\bserver\b|waitstaff|waitress|waiter", "353031"),
+    (r"^(?!.*\b(web|server|sql|cloud|network)\b).*\bhost(ess)?\b", "359031"),
     (r"cashier", "412011"), (r"(retail )?sales associate|sales floor", "412031"), (r"stocker|stock associate|overnight stock", "537065"),
     (r"housekeep", "372012"), (r"janitor|custodian|custodial", "372011"), (r"groundskeep|landscap", "373011"),
     (r"\b(cna|certified nursing assistant|nursing assistant)\b", "311131"),
