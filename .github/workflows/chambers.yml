@@ -1,0 +1,37 @@
+name: Read chamber of commerce directories
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dump (sample pages) or harvest"
+        default: "harvest"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: chambers
+  cancel-in-progress: false
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - if: inputs.mode == 'dump'
+        run: python scripts/chambers_dump.py
+      - if: always()
+        run: |
+          git config user.name "hot-jobs-bot"
+          git config user.email "hot-jobs-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "Chamber directories: ${{ inputs.mode }}" && git pull --rebase -X theirs origin main && git push)
