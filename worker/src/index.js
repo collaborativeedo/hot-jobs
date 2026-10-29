@@ -1,13 +1,15 @@
 /**
  * Lane County Hot Jobs traffic counter (Cloudflare Worker + D1).
  *
- * The widget sends three anonymous signals: "load" (widget drawn), "view" (scrolled into view) and
- * "apply" (a "View and apply" click, with the employer and type of work). Nothing is stored that
+ * The widget sends anonymous signals: "load" (widget drawn), "view" (scrolled into view), "apply" (a
+ * "View and apply" click, with the employer and type of work), "quickreturn" (back on the list within a
+ * minute of opening a posting), "stillopen" (the answer to "Was this job still open?") and "shortlist"
+ * (a case manager copied, printed or showed a list). Nothing is stored that
  * identifies a person: no cookies, no IP addresses. A visitor key is a hash of a secret, the date, the
  * IP address, the browser and the site, so the same person counts once per site per day and cannot be
  * followed across days or sites.
  */
-const EVENTS = new Set(["load", "view", "apply"]);
+const EVENTS = new Set(["load", "view", "apply", "quickreturn", "stillopen", "shortlist"]);
 const BOT = /bot|crawl|spider|slurp|headless|lighthouse|pingdom|monitor|preview/i;
 const CORS = { "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Methods": "POST, OPTIONS",
                "Access-Control-Allow-Headers": "Content-Type", "Access-Control-Max-Age": "86400" };
@@ -40,7 +42,12 @@ export default {
     const host = (hostOf(req.headers.get("Referer")) || hostOf(req.headers.get("Origin")) || clip(b.h, 100).toLowerCase()).slice(0, 100);
     if (!host || !/^[a-z0-9.-]+$/.test(host)) return new Response(null, { status: 400, headers: CORS });
     const day = new Date().toLocaleDateString("en-CA", { timeZone: "America/Los_Angeles" });  // Pacific calendar day
-    const label = ev === "apply" ? `${clip(b.emp, 100)}|${clip(b.t, 60)}` : "";
+    const id = String(b.id || "").replace(/[^0-9a-f]/g, "").slice(0, 12);
+    const label = ev === "apply" ? `${clip(b.emp, 100)}|${clip(b.t, 60)}`
+      : ev === "stillopen" ? `${b.a === "yes" ? "yes" : "no"}|${id}|${clip(b.emp, 100)}`
+      : ev === "quickreturn" ? id
+      : ev === "shortlist" ? `${clip(b.act, 20)}|${Math.min(50, parseInt(b.n, 10) || 0)}`
+      : "";
     const ip = req.headers.get("CF-Connecting-IP") || "";
     const v = await visitorKey(env.SALT || "", day, ip, ua, host);
     const all = await visitorKey(env.SALT || "", day, ip, ua, "*");  // same person across every hosting site

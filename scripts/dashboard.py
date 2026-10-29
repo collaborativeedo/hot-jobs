@@ -5,11 +5,19 @@ docs/dashboard/today.json. The dashboard page reads both; the job seeker widget 
 
 Backfill earlier days from the repository's own history:
     python scripts/dashboard.py --backfill
+
+Three measures read the posting record (data/state.json: posting id -> first_seen, last_seen, closed, ...):
+  * days open: how long postings closed in the last 30 days stayed open, and how old open postings are now;
+  * postings added and removed by employer over the last 7 days, with flagged employers worth a call;
+  * share of today's postings that state pay, by type of work (from docs/jobs.json).
+Dates in the record are the nights the run first saw or stopped seeing a posting; the run began Oct 6, 2026.
 """
 import argparse
+import datetime as dt
 import json
+import statistics
 import subprocess
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -20,6 +28,164 @@ TODAY = DASH / "today.json"
 
 def _share(n, d):
     return round(100 * n / d, 1) if d else None
+
+
+def _date(s):
+    try:
+        return dt.date.fromisoformat((s or "")[:10])
+    except ValueError:
+        return None
+
+
+def _median(xs):
+    return float(round(statistics.median(xs), 1)) if xs else None
+
+
+def _type_of(rec):
+    """Type of work for a posting record. Records written before Oct 30, 2026 carry no "type": derive it
+    the same way the nightly run does (occupation code, else job title); "Other" if that is not possible."""
+    if rec.get("type"):
+        return rec["type"]
+    try:
+        import rules
+        return rules.type_of_work(rec["soc"]) if rec.get("soc") else rules.type_from_title(rec.get("title", ""))
+    except Exception:  # noqa: BLE001
+        return "Other"
+
+
+def _skip_employer(name):
+    return not (name or "").strip() or name.startswith("Unnamed")
+
+
+def _is_open(rec, day):
+    """True when the posting was open on `day`: first seen on or before it and not closed by then."""
+    fs, cl = _date(rec.get("first_seen")), _date(rec.get("closed"))
+    return fs is not None and fs <= day and (cl is None or cl > day)
+
+
+def days_open(state, today, longest=20):
+    """How long postings stay open.
+
+    Closed in the last 30 days: days open = closed - first_seen. Median overall and by type of work
+    (types with at least 5 such postings). Open now: median age (today - first_seen) by type, and the
+    `longest` oldest open postings.
+    """
+    today = _date(today) if isinstance(today, str) else today
+    since = today - dt.timedelta(days=30)
+    closed, by_type = [], defaultdict(list)
+    ages, open_rows = defaultdict(list), []
+    for rec in state.values():
+        fs, cl = _date(rec.get("first_seen")), _date(rec.get("closed"))
+        if fs is None:
+            continue
+        t = _type_of(rec)
+        if cl is not None:
+            if since < cl <= today:
+                d = max(0, (cl - fs).days)
+                closed.append(d)
+                by_type[t].append(d)
+        elif fs <= today:
+            age = (today - fs).days
+            ages[t].append(age)
+            open_rows.append({"title": rec.get("title", ""), "employer": rec.get("employer", ""),
+                              "city": rec.get("city", ""), "type": t, "first_seen": rec.get("first_seen", ""),
+                              "days_open": age})
+    open_rows.sort(key=lambda r: (-r["days_open"], r["title"].lower()))
+    return {
+        "closed_30d": len(closed),
+        "median_days_open_30d": _median(closed),
+        "by_type": sorted(({"type": t, "closed": len(v), "median_days": _median(v)} for t, v in by_type.items()
+                           if len(v) >= 5), key=lambda r: (-r["median_days"], r["type"])),
+        "open_now": sum(len(v) for v in ages.values()),
+        "open_age_by_type": sorted(({"type": t, "open": len(v), "median_age": _median(v)} for t, v in ages.items()),
+                                   key=lambda r: (-r["median_age"], -r["open"], r["type"])),
+        "longest_open": open_rows[:longest],
+        "open_at_longest": sum(1 for r in open_rows if r["days_open"] == open_rows[0]["days_open"]) if open_rows else 0,
+    }
+
+
+def weekly_flow(state, today):
+    """Postings added (first seen) and removed (closed) in the 7 days ending `today`, all employers."""
+    today = _date(today) if isinstance(today, str) else today
+    start = today - dt.timedelta(days=7)
+    added = sum(1 for r in state.values() if (d := _date(r.get("first_seen"))) and start < d <= today)
+    removed = sum(1 for r in state.values() if (d := _date(r.get("closed"))) and start < d <= today)
+    return added, removed
+
+
+def employer_flow(state, today):
+    """Postings added and removed by employer over the 7 days ending `today`, with two flagged lists.
+
+    Both lists use net change (open now minus open a week ago), so big employers that simply turn postings over
+    are not flagged. Possible expansion: net +3 or more, and open postings up by at least half (or from none).
+    Watch list: net -3 or more, and open postings down by at least half (or to none).
+    Employers with a blank name or an "Unnamed ..." placeholder are left out. These are signals worth a call,
+    not conclusions: postings close for many reasons, including positions being filled.
+    """
+    today = _date(today) if isinstance(today, str) else today
+    start = today - dt.timedelta(days=7)
+    emp = defaultdict(lambda: {"added": 0, "removed": 0, "open_week_ago": 0, "open_now": 0})
+    for rec in state.values():
+        name = (rec.get("employer") or "").strip()
+        if _skip_employer(name):
+            continue
+        fs, cl = _date(rec.get("first_seen")), _date(rec.get("closed"))
+        if fs is None or fs > today:
+            continue
+        e = emp[name]
+        if start < fs:
+            e["added"] += 1
+        if cl is not None and start < cl <= today:
+            e["removed"] += 1
+        if _is_open(rec, start):
+            e["open_week_ago"] += 1
+        if _is_open(rec, today):
+            e["open_now"] += 1
+    rows = [{"employer": k} | v for k, v in emp.items() if v["added"] or v["removed"]]
+
+    def net(r):
+        return r["open_now"] - r["open_week_ago"]
+
+    def expansion(r):
+        return net(r) >= 3 and (r["open_week_ago"] == 0 or r["open_now"] >= 1.5 * r["open_week_ago"])
+
+    def watch(r):
+        return net(r) <= -3 and (r["open_now"] == 0 or r["open_now"] <= 0.5 * r["open_week_ago"])
+
+    key = lambda r: r["employer"].lower()  # noqa: E731
+    return {
+        "added_7d": sum(r["added"] for r in rows),
+        "removed_7d": sum(r["removed"] for r in rows),
+        "employers_adding": sum(1 for r in rows if r["added"]),
+        "employers_removing": sum(1 for r in rows if r["removed"]),
+        "expansion": sorted((r for r in rows if expansion(r)), key=lambda r: (-net(r), key(r))),
+        "watch": sorted((r for r in rows if watch(r)), key=lambda r: (net(r), key(r))),
+        "movers": sorted(rows, key=lambda r: (-(r["added"] + r["removed"]), key(r)))[:40],
+    }
+
+
+def pay_by_type(jobs):
+    """Share of postings shown today whose employer stated pay ("pay"; "typical_pay" is an occupation
+    average and does not count), by type of work."""
+    n, k = Counter(), Counter()
+    for j in jobs:
+        t = j.get("type") or "Other"
+        n[t] += 1
+        if (j.get("pay") or "").strip():
+            k[t] += 1
+    return sorted(({"type": t, "shown": n[t], "posted_pay": k[t], "share": _share(k[t], n[t])} for t in n),
+                  key=lambda r: (r["type"] == "Other", -(r["share"] or 0), -r["shown"], r["type"]))
+
+
+def state_metrics(state, day):
+    """History-row fields that come from the posting record for one day (None when there is no record)."""
+    d = _date(day)
+    if not state or d is None:
+        return {"added_7d": None, "removed_7d": None, "median_days_open_30d": None, "closed_30d": None}
+    added, removed = weekly_flow(state, d)
+    do = days_open(state, d, longest=0)
+    return {"added_7d": added, "removed_7d": removed, "median_days_open_30d": do["median_days_open_30d"],
+            "closed_30d": do["closed_30d"]}
 
 
 def metrics(jobs_doc, employers, sources, pulled=None):
@@ -48,6 +214,8 @@ def metrics(jobs_doc, employers, sources, pulled=None):
         "by_city": dict(Counter(j.get("city") or "Lane County" for j in jobs)),
         "by_hours": dict(Counter(j.get("hours") or "Not stated" for j in jobs)) if n and "hours" in jobs[0] else {},
         "by_route": dict(Counter(j.get("route") or "" for j in jobs)),
+        "by_type_posted_pay": dict(Counter(j.get("type") or "Other" for j in jobs if (j.get("pay") or "").strip())),
+        "dead_links_dropped": jobs_doc.get("dead_links_dropped"),
     }
 
 
@@ -85,15 +253,53 @@ def _days_before(day, n):
         return ""
 
 
-def update(jobs_doc, employers, sources, pulled=None):
+def _state_day(jobs_doc, state):
+    day = (jobs_doc.get("updated") or "")[:10]
+    if _date(day):
+        return day
+    seen = [r.get("last_seen", "") for r in (state or {}).values()]
+    return max(seen) if seen else ""
+
+
+def fill_history(history, state):
+    """Add posting-record fields to earlier history rows that lack them, recomputed as of each row's date.
+    Weekly figures are left empty for the first week the run was going, when every posting was new to it."""
+    if not state:
+        return history
+    starts = [d for r in state.values() if (d := _date(r.get("first_seen")))]
+    first = min(starts) if starts else None
+    for h in history:
+        if "added_7d" in h or not _date(h.get("date")):
+            continue
+        h.update(state_metrics(state, h["date"]))
+        if first and _date(h["date"]) < first + dt.timedelta(days=7):
+            h["added_7d"] = h["removed_7d"] = None
+    return history
+
+
+def update(jobs_doc, employers, sources, pulled=None, state=None):
+    """Append today's row to history.json and rewrite today.json.
+
+    state: the dict from data/state.json (posting id -> record). Optional: without it the days-open and
+    added/removed measures are left out and everything else works as before.
+    """
     DASH.mkdir(parents=True, exist_ok=True)
     history = json.loads(HISTORY.read_text()) if HISTORY.exists() else []
     row = metrics(jobs_doc, employers, sources, pulled)
+    if state:
+        if not row["date"]:
+            row["date"] = _state_day(jobs_doc, state)
+        row.update(state_metrics(state, row["date"]))
     history = [h for h in history if h["date"] != row["date"]] + [row]
     history.sort(key=lambda h: h["date"])
+    fill_history(history, state)
+    detail = today_detail(jobs_doc, employers, sources, history)
+    detail["pay_by_type"] = pay_by_type(jobs_doc.get("jobs", []))
+    if state and _date(row["date"]):
+        detail["days_open"] = days_open(state, row["date"])
+        detail["employer_flow"] = employer_flow(state, row["date"])
     HISTORY.write_text(json.dumps(history, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    TODAY.write_text(json.dumps(today_detail(jobs_doc, employers, sources, history), ensure_ascii=False,
-                                separators=(",", ":")), encoding="utf-8")
+    TODAY.write_text(json.dumps(detail, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     return row
 
 

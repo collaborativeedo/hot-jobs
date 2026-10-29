@@ -18,6 +18,8 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "traffic" / "data.json"
 UNIQUES = ROOT / "data" / "traffic-uniques.json"
 CONFIG = ROOT / "data" / "analytics.json"
+FEEDBACK = ROOT / "data" / "listing-feedback.json"  # per-listing "still open?" answers, read by the nightly refresh
+CORE = {"load", "view", "apply"}
 TEST_HOSTS = {"selftest.invalid"}
 
 
@@ -39,8 +41,10 @@ def build(daily, uniq_rows, kept):
     uniq = {(r["day"], r["host"], r["event"]): r["u"] for r in kept}
     for r in uniq_rows:
         uniq[(r["day"], r["host"], r["event"])] = r["u"]
-    uniq = {k: v for k, v in uniq.items() if k[1] not in TEST_HOSTS}
-    daily = [r for r in daily if r["host"] not in TEST_HOSTS]
+    uniq = {k: v for k, v in uniq.items() if k[1] not in TEST_HOSTS and k[2] in CORE}
+    rows = [r for r in daily if r["host"] not in TEST_HOSTS]
+    daily = [r for r in rows if r["event"] in CORE]
+    feedback, quality = listing_feedback(rows)
 
     days = sorted({r["day"] for r in daily} | {k[0] for k in uniq})
     by_day = {d: {"date": d, "loads": 0, "views": 0, "applies": 0, "visitors": 0, "sites": 0} for d in days}
@@ -109,7 +113,40 @@ def build(daily, uniq_rows, kept):
         "site_days": [dict(date=d, host=h, **v) for (d, h), v in sorted(per.items())],
         "apply_by_employer": top(employers, 40), "apply_by_type": top(types, 30),
         "apply_by_employer_30": top(employers_30, 40), "apply_by_type_30": top(types_30, 30),
-    }, [{"day": d, "host": h, "event": e, "u": u} for (d, h, e), u in sorted(uniq.items())]
+        **quality,
+    }, feedback, [{"day": d, "host": h, "event": e, "u": u} for (d, h, e), u in sorted(uniq.items())]
+
+
+def listing_feedback(rows):
+    """Per-listing answers to "Was this job still open?", quick returns, and case-manager list use."""
+    per = defaultdict(lambda: {"yes": 0, "no": 0, "quick": 0, "last": "", "employer": ""})
+    lists = defaultdict(lambda: defaultdict(int))
+    for r in rows:
+        ev, label, n, day = r["event"], r["label"] or "", r["n"], r["day"]
+        if ev == "stillopen":
+            ans, _, rest = label.partition("|")
+            jid, _, emp = rest.partition("|")
+            if jid:
+                rec = per[jid]
+                rec["yes" if ans == "yes" else "no"] += n
+                rec["employer"] = rec["employer"] or emp
+                rec["last"] = max(rec["last"], day)
+        elif ev == "quickreturn" and label:
+            per[label]["quick"] += n
+            per[label]["last"] = max(per[label]["last"], day)
+        elif ev == "shortlist":
+            act = label.partition("|")[0] or "other"
+            lists[day][act] += n
+    feedback = {k: v for k, v in per.items()}
+    flagged = sorted(({"id": k, **v} for k, v in per.items() if v["no"] > v["yes"]),
+                     key=lambda r: (-r["no"], r["id"]))[:50]
+    quality = {
+        "still_open": {"yes": sum(v["yes"] for v in per.values()), "no": sum(v["no"] for v in per.values()),
+                       "quick_returns": sum(v["quick"] for v in per.values())},
+        "flagged_listings": flagged,
+        "shortlists_by_day": [{"date": d, **dict(v)} for d, v in sorted(lists.items())],
+    }
+    return feedback, quality
 
 
 def main():
@@ -121,7 +158,8 @@ def main():
     daily = query("SELECT day, host, event, label, n FROM daily", token, account, db)
     uniq_rows = query("SELECT day, host, event, COUNT(*) AS u FROM visitors GROUP BY day, host, event", token, account, db)
     kept = json.loads(UNIQUES.read_text()) if UNIQUES.exists() else []
-    doc, uniq = build(daily, uniq_rows, kept)
+    doc, feedback, uniq = build(daily, uniq_rows, kept)
+    FEEDBACK.write_text(json.dumps(feedback, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     UNIQUES.write_text(json.dumps(uniq, separators=(",", ":")), encoding="utf-8")

@@ -9,21 +9,21 @@
   :root {
     color-scheme: light;
     --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
-    --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,.10); --series: #2a78d6; --series-soft: rgba(42,120,214,.12);
+    --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,.10); --series: #2a78d6; --series-soft: rgba(42,120,214,.12); --series-2: #eb6834;
     --up: #006300; --down: #b3261e;
   }
   @media (prefers-color-scheme: dark) {
     :root:where(:not([data-theme="light"])) {
       color-scheme: dark;
       --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
-      --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10); --series: #3987e5; --series-soft: rgba(57,135,229,.18);
+      --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10); --series: #3987e5; --series-soft: rgba(57,135,229,.18); --series-2: #d95926;
       --up: #0ca30c; --down: #ef6b5f;
     }
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
     --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
-    --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10); --series: #3987e5; --series-soft: rgba(57,135,229,.18);
+    --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10); --series: #3987e5; --series-soft: rgba(57,135,229,.18); --series-2: #d95926;
     --up: #0ca30c; --down: #ef6b5f;
   }
   * { box-sizing: border-box; }
@@ -45,6 +45,7 @@
   .tile .v { font-size: 28px; font-weight: 650; line-height: 1.15; margin-top: 4px; }
   .tile .d { font-size: 12px; margin-top: 2px; color: var(--muted); }
   .tile .d.up { color: var(--up); } .tile .d.down { color: var(--down); }
+  #opentrend, #flowtrend { grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); }
   #trends { grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); }
   .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 12px; }
   .card { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 14px; min-width: 0; position: relative; }
@@ -72,6 +73,13 @@
   footer { margin-top: 32px; font-size: 12px; color: var(--muted); max-width: 90ch; }
   footer a, .sub a { color: var(--series); }
   .hidden { display: none; }
+  .legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--ink-2); margin: 0 0 6px; }
+  .legend i { display: inline-block; width: 14px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 6px; }
+  .tip .row { display: block; color: var(--ink); } .tip .row i { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+  .flag { font-size: 13px; color: var(--ink-2); margin: 10px 0; max-width: 90ch; }
+  .flag:empty { display: none; }
+  .card .scroll table td:first-child { min-width: 8em; }
+  @media (max-width: 480px) { .card .scroll th, .card .scroll td { padding: 6px 4px; } }
 </style>
 </head>
 <body>
@@ -105,6 +113,34 @@
     <h2>Openings today by sector and place</h2>
     <p class="note">Openings shown to job seekers today (postings up to 14 days old). The change column compares with the same day one week earlier.</p>
     <div class="grid2" id="breakdowns"></div>
+  </section>
+
+  <section aria-labelledby="h-open">
+    <h2 id="h-open">How long postings stay open</h2>
+    <p class="note">A posting counts as closed once the nightly run has missed it 3 nights in a row; days open runs from the night it was first seen to the night it was marked closed. Dates are when the nightly run first saw a posting, and the run only began Oct 6, 2026, so early figures understate how long postings stay open (anything already posted before then looks newer than it is).</p>
+    <div class="tiles" id="opentiles"></div>
+    <div class="grid2" id="opencards" style="margin-top:12px"></div>
+    <div class="grid2" id="opentrend" style="margin-top:12px"></div>
+    <div class="card" style="margin-top:12px"><h3>Longest-open postings now</h3><p class="cap" id="longcap">The 20 open postings first seen longest ago. Long-open postings can mean hard-to-fill roles, or standing "always hiring" posts.</p><div class="scroll" id="longest"></div></div>
+  </section>
+
+  <section aria-labelledby="h-flow">
+    <h2 id="h-flow">Postings added and removed by employer</h2>
+    <p class="note">Added: postings first seen in the last 7 days. Removed: postings marked closed in the last 7 days. The flagged employers below are signals worth a call, not conclusions: postings close for many reasons, including positions being filled, and a burst of new postings can be a re-post. Employers that are not named on their postings are left out.</p>
+    <div class="tiles" id="flowtiles"></div>
+    <div class="grid2" id="flowtrend" style="margin-top:12px"></div>
+    <div class="grid2" style="margin-top:12px">
+      <div class="card"><h3>Possible expansion</h3><p class="cap">Open postings up by 3 or more since a week ago, and by at least half (or from none).</p><div class="scroll" id="expansion"></div></div>
+      <div class="card"><h3>Watch list</h3><p class="cap">Open postings down by 3 or more since a week ago, and by at least half (or to none).</p><div class="scroll" id="watch"></div></div>
+    </div>
+    <p class="flag" id="bothflag"></p>
+    <div class="card"><h3>Most change this week</h3><p class="cap">Employers with the most postings added plus removed in the last 7 days. "Open wk ago" is what each had open 7 days ago; "Net" is the change in open postings since then.</p><div class="scroll" id="movers"></div></div>
+  </section>
+
+  <section aria-labelledby="h-pay">
+    <h2 id="h-pay">Pay stated by employers</h2>
+    <p class="note">Share of postings shown today where the employer states the pay. The typical pay for an occupation that the widget shows when a posting gives none does not count here.</p>
+    <div class="grid2" id="paycards"></div>
   </section>
 
   <section>
@@ -165,6 +201,8 @@
     trends();
     breakdowns(last, weekAgo());
     tables();
+    openSection(last);
+    flowSection(last);
   }
 
   function tiles(last, prev) {
@@ -205,52 +243,88 @@
      ["Employers on record", "employers_on_record", "All employers the run has seen since the pilot began"]].forEach(function (d) {
       box.appendChild(lineCard(d[0], d[2], slice(), d[1]));
     });
+    rangeCharts();
   }
 
-  function lineCard(title, cap, rows, key) {
+  // series: optional [{k, label, color}] for more than one line on one axis; f: value formatter.
+  function lineCard(title, cap, rows, key, opt) {
+    opt = opt || {};
+    var multi = !!opt.series, f = opt.f || fmt;
+    var series = opt.series || [{ k: key, label: title, color: "var(--series)" }];
     var card = el("div", "card"); card.appendChild(el("h3", null, title)); card.appendChild(el("p", "cap", cap));
-    var pts = rows.filter(function (r) { return r[key] != null; });
+    if (multi) {
+      var lg = el("div", "legend");
+      series.forEach(function (s) { var it = el("span"); var sw = el("i"); sw.style.background = s.color; it.appendChild(sw); it.appendChild(document.createTextNode(s.label)); lg.appendChild(it); });
+      card.appendChild(lg);
+    }
+    var pts = rows.filter(function (r) { return series.some(function (s) { return r[s.k] != null; }); });
     var W = 520, Hh = 190, L = 44, R = 12, Tp = 10, B = 26;
     var ns = "http://www.w3.org/2000/svg";
     var svg = document.createElementNS(ns, "svg"); svg.setAttribute("viewBox", "0 0 " + W + " " + Hh); svg.setAttribute("role", "img");
     svg.setAttribute("aria-label", title + " over time");
     card.appendChild(svg);
     if (!pts.length) { card.appendChild(el("p", "cap", "No data yet.")); return card; }
-    var vals = pts.map(function (p) { return p[key]; });
-    var max = Math.max.apply(null, vals), niceMax = nice(max * 1.08 || 1);
+    var vals = []; pts.forEach(function (p) { series.forEach(function (s) { if (p[s.k] != null) vals.push(p[s.k]); }); });
+    var max = Math.max.apply(null, vals), niceMax = nice(opt.max || max * 1.08 || 1);
     var x = function (i) { return L + (pts.length === 1 ? (W - L - R) / 2 : i * (W - L - R) / (pts.length - 1)); };
     var y = function (v) { return Tp + (Hh - Tp - B) * (1 - v / niceMax); };
     function add(tag, attrs, parent) { var e = document.createElementNS(ns, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); (parent || svg).appendChild(e); return e; }
     for (var g = 0; g <= 4; g++) {
       var gv = niceMax * g / 4, gy = y(gv);
       add("line", { x1: L, x2: W - R, y1: gy, y2: gy, stroke: g === 0 ? "var(--axis)" : "var(--grid)", "stroke-width": 1 });
-      var tx = add("text", { x: L - 6, y: gy + 4, "text-anchor": "end" }); tx.textContent = fmt(Math.round(gv));
+      var tx = add("text", { x: L - 6, y: gy + 4, "text-anchor": "end" }); tx.textContent = f(Math.round(gv * 10) / 10);
     }
     var every = Math.max(1, Math.ceil(pts.length / 6));
     pts.forEach(function (p, i) { if ((i % every === 0 && pts.length - 1 - i >= every * 0.6) || i === pts.length - 1) { var t = add("text", { x: x(i), y: Hh - 6, "text-anchor": "middle" }); t.textContent = dlabel(p.date); } });
-    var d = pts.map(function (p, i) { return (i ? "L" : "M") + x(i).toFixed(1) + " " + y(p[key]).toFixed(1); }).join(" ");
-    add("path", { d: d + " L" + x(pts.length - 1) + " " + y(0) + " L" + x(0) + " " + y(0) + " Z", fill: "var(--series-soft)", stroke: "none" });
-    add("path", { d: d, fill: "none", stroke: "var(--series)", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" });
-    var lastI = pts.length - 1;
-    add("circle", { cx: x(lastI), cy: y(pts[lastI][key]), r: 4, fill: "var(--series)", stroke: "var(--surface)", "stroke-width": 2 });
-    var lab = add("text", { x: x(lastI) - 6, y: y(pts[lastI][key]) - 9, "text-anchor": "end", style: "fill:var(--ink);font-weight:600;font-size:12px" }); lab.textContent = fmt(pts[lastI][key]);
+    var ends = [];
+    series.forEach(function (s) {
+      var d = "", first = -1, lastI = -1, pen = false;
+      pts.forEach(function (p, i) {
+        if (p[s.k] == null) { pen = false; return; }
+        d += (pen ? "L" : "M") + x(i).toFixed(1) + " " + y(p[s.k]).toFixed(1) + " "; pen = true;
+        if (first < 0) first = i; lastI = i;
+      });
+      if (lastI < 0) return;
+      if (!multi && first === 0 && pts.every(function (p) { return p[s.k] != null; }))
+        add("path", { d: d + "L" + x(lastI) + " " + y(0) + " L" + x(0) + " " + y(0) + " Z", fill: "var(--series-soft)", stroke: "none" });
+      add("path", { d: d, fill: "none", stroke: s.color, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" });
+      add("circle", { cx: x(lastI), cy: y(pts[lastI][s.k]), r: 4, fill: s.color, stroke: "var(--surface)", "stroke-width": 2 });
+      ends.push({ s: s, i: lastI, v: pts[lastI][s.k] });
+    });
+    ends.sort(function (a, b) { return b.v - a.v; });
+    ends.forEach(function (e, n) {
+      var below = n > 0 && Math.abs(y(e.v) - y(ends[n - 1].v)) < 16;
+      var lab = add("text", { x: x(e.i) - 6, y: y(e.v) + (below ? 17 : -9), "text-anchor": "end", style: "fill:var(--ink);font-weight:600;font-size:12px" });
+      lab.textContent = f(e.v);
+    });
+    var lastIdx = pts.length - 1;
     var hair = add("line", { y1: Tp, y2: Hh - B, stroke: "var(--axis)", "stroke-width": 1, visibility: "hidden" });
-    var dot = add("circle", { r: 4, fill: "var(--series)", stroke: "var(--surface)", "stroke-width": 2, visibility: "hidden" });
+    var dots = series.map(function (s) { return add("circle", { r: 4, fill: s.color, stroke: "var(--surface)", "stroke-width": 2, visibility: "hidden" }); });
     var tip = el("div", "tip hidden"); card.appendChild(tip);
     var hit = add("rect", { x: L, y: Tp, width: W - L - R, height: Hh - Tp - B, fill: "transparent", tabindex: 0 });
+    hit.setAttribute("aria-label", title + ": use left and right arrow keys to read values");
     function show(i) {
-      var p = pts[i], px = x(i), py = y(p[key]);
+      var p = pts[i], px = x(i), top = Hh;
       hair.setAttribute("x1", px); hair.setAttribute("x2", px); hair.setAttribute("visibility", "visible");
-      dot.setAttribute("cx", px); dot.setAttribute("cy", py); dot.setAttribute("visibility", "visible");
-      tip.textContent = ""; tip.appendChild(el("b", null, fmt(p[key]))); tip.appendChild(el("span", null, dlabel(p.date)));
+      tip.textContent = "";
+      series.forEach(function (s, n) {
+        var v = p[s.k];
+        if (v == null) { dots[n].setAttribute("visibility", "hidden"); return; }
+        dots[n].setAttribute("cx", px); dots[n].setAttribute("cy", y(v)); dots[n].setAttribute("visibility", "visible");
+        top = Math.min(top, y(v));
+        if (multi) { var r = el("span", "row"); var sw = el("i"); sw.style.background = s.color; r.appendChild(sw); r.appendChild(el("b", null, f(v))); r.lastChild.style.display = "inline"; r.appendChild(document.createTextNode(" " + s.label)); tip.appendChild(r); }
+        else tip.appendChild(el("b", null, f(v)));
+      });
+      tip.appendChild(el("span", null, dlabel(p.date)));
       tip.classList.remove("hidden");
       var rect = svg.getBoundingClientRect(), sc = rect.width / W;
-      var left = svg.offsetLeft + px * sc + 10, top = svg.offsetTop + py * sc - 30;
-      if (left + 120 > card.clientWidth) left = svg.offsetLeft + px * sc - 130;
-      tip.style.left = left + "px"; tip.style.top = Math.max(0, top) + "px";
+      var tw = tip.offsetWidth || 120;
+      var left = svg.offsetLeft + px * sc + 10, tp = svg.offsetTop + top * sc - 30;
+      if (left + tw > card.clientWidth) left = svg.offsetLeft + px * sc - tw - 10;
+      tip.style.left = Math.max(0, left) + "px"; tip.style.top = Math.max(0, tp) + "px";
     }
-    function hide() { hair.setAttribute("visibility", "hidden"); dot.setAttribute("visibility", "hidden"); tip.classList.add("hidden"); }
-    var cur = lastI;
+    function hide() { hair.setAttribute("visibility", "hidden"); dots.forEach(function (d) { d.setAttribute("visibility", "hidden"); }); tip.classList.add("hidden"); }
+    var cur = lastIdx;
     hit.addEventListener("pointermove", function (e) {
       var r = svg.getBoundingClientRect(), mx = (e.clientX - r.left) * W / r.width;
       var best = 0, bd = 1e9; pts.forEach(function (p, i) { var dd = Math.abs(x(i) - mx); if (dd < bd) { bd = dd; best = i; } });
@@ -261,13 +335,100 @@
     hit.addEventListener("blur", hide);
     hit.addEventListener("keydown", function (e) {
       if (e.key === "ArrowLeft") { cur = Math.max(0, cur - 1); show(cur); e.preventDefault(); }
-      if (e.key === "ArrowRight") { cur = Math.min(lastI, cur + 1); show(cur); e.preventDefault(); }
+      if (e.key === "ArrowRight") { cur = Math.min(lastIdx, cur + 1); show(cur); e.preventDefault(); }
     });
     var det = el("details"); det.appendChild(el("summary", null, "View data"));
-    var tb = el("table"); var hr = el("tr"); hr.appendChild(el("th", null, "Date")); hr.appendChild(el("th", "n", title)); tb.appendChild(hr);
-    pts.slice().reverse().forEach(function (p) { var tr = el("tr"); tr.appendChild(el("td", null, p.date)); tr.appendChild(el("td", "n", fmt(p[key]))); tb.appendChild(tr); });
+    var tb = el("table"); var hr = el("tr"); hr.appendChild(el("th", null, "Date"));
+    series.forEach(function (s) { hr.appendChild(el("th", "n", multi ? s.label : title)); }); tb.appendChild(hr);
+    pts.slice().reverse().forEach(function (p) { var tr = el("tr"); tr.appendChild(el("td", null, p.date)); series.forEach(function (s) { tr.appendChild(el("td", "n", f(p[s.k]))); }); tb.appendChild(tr); });
     det.appendChild(tb); card.appendChild(det);
     return card;
+  }
+
+  // rows: [{label, value, text}] drawn as horizontal bars; value sets the length, text is what is printed.
+  function listBars(title, cap, rows, max, empty) {
+    var card = el("div", "card"); card.appendChild(el("h3", null, title)); card.appendChild(el("p", "cap", cap));
+    if (!rows.length) { card.appendChild(el("p", "cap", empty || "Not enough data yet.")); return card; }
+    max = max || Math.max.apply(null, rows.map(function (r) { return r.value; })) || 1;
+    var g = el("div", "bars");
+    rows.forEach(function (r) {
+      g.appendChild(el("div", "lab", r.label)).title = r.label;
+      var trk = el("div", "trk"); var bar = el("div", "bar"); bar.style.width = (80 * r.value / max) + "%";
+      bar.setAttribute("role", "img"); bar.setAttribute("aria-label", r.label + ": " + r.text);
+      trk.appendChild(bar); trk.appendChild(el("span", "val", r.text)); g.appendChild(trk);
+    });
+    card.appendChild(g);
+    return card;
+  }
+
+  function days(n) { return n == null ? "–" : (Math.round(n * 10) / 10) + (n === 1 ? " day" : " days"); }
+  function num1(n) { return n == null ? "–" : String(Math.round(n * 10) / 10); }
+
+  function tileRow(target, defs) {
+    var box = $(target); box.textContent = "";
+    defs.forEach(function (d) {
+      var t = el("div", "tile"); t.appendChild(el("div", "k", d[0])); t.appendChild(el("div", "v", d[1]));
+      if (d[2]) t.appendChild(el("div", "d", d[2]));
+      box.appendChild(t);
+    });
+  }
+
+  function openSection(last) {
+    var D = T.days_open;
+    if (!D) { $("#opentiles").textContent = "Not collected yet: this measure starts with the next nightly refresh."; return; }
+    tileRow("#opentiles", [
+      ["Median days open", days(D.median_days_open_30d), "Postings closed in the last 30 days"],
+      ["Postings closed", fmt(D.closed_30d), "In the last 30 days"],
+      ["Open postings now", fmt(D.open_now), "All the run is tracking, not only those shown"]
+    ]);
+    var box = $("#opencards"); box.textContent = "";
+    var bt = D.by_type || [], mx = Math.max.apply(null, bt.map(function (r) { return r.median_days; }).concat([1]));
+    box.appendChild(listBars("Median days open by type of work", "Postings closed in the last 30 days; types with at least 5 closed postings. Longest first.",
+      bt.map(function (r) { return { label: r.type, value: r.median_days, text: days(r.median_days) + " · " + fmt(r.closed) + " closed" }; }), mx));
+    var oa = D.open_age_by_type || [];
+    box.appendChild(listBars("Hardest to fill now", "Median age of postings still open, by type of work. Oldest first.",
+      oa.map(function (r) { return { label: r.type, value: r.median_age, text: days(r.median_age) + " · " + fmt(r.open) + " open" }; })));
+    var lo = D.longest_open || [];
+    if (lo.length > 1 && lo[0].days_open === lo[lo.length - 1].days_open)
+      $("#longcap").textContent = fmt(D.open_at_longest || lo.length) + " open postings tie at " + days(lo[0].days_open) + ", most likely because they were already open when the nightly run began, so their real age is unknown. " + lo.length + " are listed, alphabetically.";
+    table("#longest", [{ h: "Job title", k: "title" }, { h: "Employer", f: function (r) { return r.employer || "Not named"; } },
+      { h: "Town", k: "city" }, { h: "Days open", k: "days_open", n: 1 }], D.longest_open || []);
+  }
+
+  function flowSection(last) {
+    var F = T.employer_flow;
+    if (!F) { $("#flowtiles").textContent = "Not collected yet: this measure starts with the next nightly refresh."; return; }
+    tileRow("#flowtiles", [
+      ["Postings added", fmt(last.added_7d != null ? last.added_7d : F.added_7d), "Last 7 days; " + fmt(F.added_7d) + " at named employers"],
+      ["Postings removed", fmt(last.removed_7d != null ? last.removed_7d : F.removed_7d), "Last 7 days; " + fmt(F.removed_7d) + " at named employers"],
+      ["Employers adding", fmt(F.employers_adding), null],
+      ["Employers removing", fmt(F.employers_removing), null]
+    ]);
+    var cols = [{ h: "Employer", k: "employer" }, { h: "Added", k: "added", n: 1 }, { h: "Removed", k: "removed", n: 1 },
+      { h: "Open wk ago", k: "open_week_ago", n: 1 }, { h: "Open now", k: "open_now", n: 1 },
+      { h: "Net", n: 1, f: function (r) { var d = r.open_now - r.open_week_ago; return (d > 0 ? "+" : d < 0 ? "−" : "±") + Math.abs(d); } }];
+    table("#expansion", cols, F.expansion || []);
+    table("#watch", cols, F.watch || []);
+    var exp = {}; (F.expansion || []).forEach(function (r) { exp[r.employer] = 1; });
+    var both = (F.watch || []).filter(function (r) { return exp[r.employer]; }).map(function (r) { return r.employer; });
+    $("#bothflag").textContent = both.length ? "On both lists (turning over many postings at once, so neither signal is clear on its own): " + both.join(", ") + "." : "";
+    table("#movers", cols, F.movers || []);
+  }
+
+  function paySection(last) {
+    var P = T.pay_by_type || [], box = $("#paycards"); box.textContent = "";
+    box.appendChild(listBars("Employer states pay, by type of work", "Share of today's postings in each type that state pay, with the count. Highest share first.",
+      P.map(function (r) { return { label: r.type, value: r.share || 0, text: pct(r.share) + " · " + fmt(r.posted_pay) + " of " + fmt(r.shown) }; }), 100));
+    box.appendChild(lineCard("Postings that state pay", "Share of postings shown each day where the employer states pay", slice(), "share_posted_pay", { f: pct, max: 100 }));
+  }
+
+  function rangeCharts() {
+    var box = $("#flowtrend"); if (!box) return; box.textContent = "";
+    box.appendChild(lineCard("Postings added and removed per week", "Rolling 7-day totals from the posting record. All postings, named employer or not. The first week the run was going is left out, when every posting was new to it; a large jump usually means the run began reading a new source.", slice(), null,
+      { series: [{ k: "added_7d", label: "Added", color: "var(--series)" }, { k: "removed_7d", label: "Removed", color: "var(--series-2)" }] }));
+    var ob = $("#opentrend"); ob.textContent = "";
+    ob.appendChild(lineCard("Median days open over time", "Postings closed in the 30 days up to each date", slice(), "median_days_open_30d", { f: num1 }));
+    paySection();
   }
 
   function nice(v) { var p = Math.pow(10, Math.floor(Math.log10(v))), m = v / p; return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 2.5 ? 2.5 : m <= 5 ? 5 : 10) * p; }

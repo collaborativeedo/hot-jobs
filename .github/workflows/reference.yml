@@ -1,0 +1,33 @@
+name: Refresh reference data (education levels, LTD stops, geocodes)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reference
+  cancel-in-progress: false
+
+jobs:
+  reference:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Read BLS table and LTD stops, geocode employer addresses
+        run: python scripts/reference.py --refresh --geocode-all
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "hot-jobs-bot"
+          git config user.email "hot-jobs-bot@users.noreply.github.com"
+          for f in data/soc-education.json data/ltd-stops.json data/geocode-cache.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          git diff --cached --quiet || (git commit -m "Reference data: BLS education levels, LTD stops, geocodes" && git pull --rebase -X theirs origin main && git push)

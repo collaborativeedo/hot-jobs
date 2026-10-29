@@ -402,3 +402,56 @@ def soc_for_title(title, title_soc):
         if rx.search(title or ""):
             return code
     return ""
+
+
+# ---- Fewer barriers: no degree needed, paid training, fair-chance employer ---------------------------------
+
+_DEGREE_REQUIRED = re.compile(r"\b(bachelor'?s|master'?s|doctoral|doctorate|associate'?s|ph\.?d|b\.?s\.?n|b\.?a\.?/b\.?s|"
+                              r"\bba\b|\bbs\b|\bmba\b|\bmsw\b|\blcsw\b)\b[^.;]{0,60}\b(degree|required|in)\b|"
+                              r"\bdegree (is )?required\b|\brequires? an? [a-z' ]{0,20}degree\b|"
+                              r"\bmust (have|hold|possess) an? [a-z' ]{0,25}degree\b", re.I)
+_DEGREE_PREFERRED = re.compile(r"degree[^.;]{0,30}\b(preferred|a plus|helpful|desired|not required|optional)\b", re.I)
+_NO_DEGREE = re.compile(r"\bno (college )?degree (is )?(required|needed|necessary)\b|\bdegree not required\b|"
+                        r"\bhigh school diploma\b|\b(ged|hse)\b|\bno experience (is )?(required|necessary|needed)\b|"
+                        r"\bentry[- ]level\b", re.I)
+_TRAINING = re.compile(r"\bpaid training\b|\btraining (is )?(provided|available|included)\b|\bwe (will|'ll) train\b|"
+                       r"\bwill train\b|\bon[- ]the[- ]job training\b|\bapprentice(ship)?s?\b|\bearn while you learn\b|"
+                       r"\bfull training\b|\btrain you\b", re.I)
+_FAIR_CHANCE = re.compile(r"\bfair[- ]chance\b|\bsecond[- ]chance (employer|hiring|program|friendly)\b|"
+                          r"\bbackground[- ]friendly\b|\bfelony[- ]friendly\b|\bjustice[- ]involved\b|"
+                          r"\bre-?entry (program|friendly|candidates|population)\b|"
+                          r"\bcriminal (history|record|background)[^.;]{0,40}\bnot (an )?(automatic|automatically)[^.;]{0,20}disqualif|"
+                          r"\bconviction[^.;]{0,40}\bnot (an )?(automatic|automatically)[^.;]{0,20}(bar|disqualif)", re.I)
+
+
+def text_flags(text):
+    """What a posting's own words say: degree required or not, training provided, fair-chance hiring."""
+    t = text or ""
+    req = bool(_DEGREE_REQUIRED.search(t)) and not _DEGREE_PREFERRED.search(t)
+    return {"degree_required": req, "no_degree": (not req) and bool(_NO_DEGREE.search(t)),
+            "training": bool(_TRAINING.search(t)), "fair_chance": bool(_FAIR_CHANCE.search(t))}
+
+
+def eases(text, occ_no_degree=None, page_flags=None, near_bus=None):
+    """Labels for the widget's "Fewer barriers" filters.
+
+    no_degree: the posting says so, or (when it doesn't ask for a degree) the occupation usually needs no more
+    than a high school diploma, per the Bureau of Labor Statistics (occ_no_degree). A degree requirement in the
+    text always wins.
+    """
+    f = text_flags(text)
+    if page_flags:  # words from the employer's own posting page, read once and cached
+        for k in ("degree_required", "no_degree", "training", "fair_chance"):
+            f[k] = f[k] or bool(page_flags.get(k))
+        if f["degree_required"]:
+            f["no_degree"] = False
+    out = []
+    if near_bus:
+        out.append("bus")
+    if not f["degree_required"] and (f["no_degree"] or occ_no_degree is True):
+        out.append("no_degree")
+    if f["training"]:
+        out.append("training")
+    if f["fair_chance"]:
+        out.append("fair_chance")
+    return out

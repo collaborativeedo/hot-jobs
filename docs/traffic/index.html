@@ -122,10 +122,17 @@
     </div>
   </section>
 
+  <section>
+    <h2>Listing quality and lists made for clients</h2>
+    <p class="note">When someone opens a posting and comes back within two minutes, the widget asks that one listing "Was this job still open?" A listing with two or more "No" answers (and more than twice as many as "Yes") is dropped the next night. "Lists" counts case managers copying, showing as a QR code, or printing a list of jobs they picked, and clients opening one. All time, all sites.</p>
+    <div class="tiles" id="qtiles"></div>
+    <div class="card" style="margin-top:12px"><h3>Listings people said were closed</h3><p class="cap">More "No" than "Yes" answers. Titles show while the posting is still listed.</p><div class="scroll" id="flagged"></div></div>
+  </section>
+
   </div>
 
   <footer>
-    How this is counted: the widget sends three anonymous signals to CEDO's own counter on Cloudflare: the widget loaded, the widget scrolled into view, and an apply click (with the employer and type of work of that posting). No cookies are set and no IP addresses are stored.
+    How this is counted: the widget sends anonymous signals to CEDO's own counter on Cloudflare: the widget loaded, the widget scrolled into view, an apply click (with the employer and type of work of that posting), a quick return and any “still open” answer (with the listing's ID), and use of a client list (copied, shown, printed or opened). No cookies are set and no IP addresses are stored.
     A visitor is counted once per site per day using a one-way code built from a secret, the date, the network address and the browser, so the same person on two different days counts twice, and two people sharing one network and browser type can count once. Network-wide visitors count a person once per day across all sites.
     Visitors who have turned on Global Privacy Control or Do Not Track are not counted, and neither are search-engine robots, so these figures run low. The hosting site is taken from what the browser reports and is not verified.
     This page is not linked from the job seeker widget.
@@ -208,6 +215,29 @@
     var bt = $("#byType"), be = $("#byEmp"); bt.textContent = ""; be.textContent = "";
     bt.appendChild(barCard("By type of work", "Top types of work by apply clicks", toMap(D.apply_by_type_30), null, 15));
     be.appendChild(barCard("By employer", "Top 15 employers by apply clicks", toMap(D.apply_by_employer_30), null, 15));
+    quality();
+  }
+
+  var titles = null;
+  function quality() {
+    var so = D.still_open || {}, lists = {};
+    (D.shortlists_by_day || []).forEach(function (r) { Object.keys(r).forEach(function (k) { if (k !== "date") lists[k] = (lists[k] || 0) + r[k]; }); });
+    var made = (lists.copy || 0) + (lists.qr || 0) + (lists.print || 0);
+    var q = [["Answered “still open”: yes", fmt(so.yes || 0)], ["Answered “still open”: no", fmt(so.no || 0)],
+             ["Came back within two minutes", fmt(so.quick_returns || 0)], ["Lists copied, shown or printed", fmt(made)],
+             ["Lists opened by clients", fmt(lists.open || 0)]];
+    var box = $("#qtiles"); box.textContent = "";
+    q.forEach(function (d) { var x = el("div", "tile"); x.appendChild(el("div", "k", d[0])); x.appendChild(el("div", "v", d[1])); box.appendChild(x); });
+    var draw = function () {
+      table("#flagged", [
+        { h: "Listing", f: function (r) { return (titles && titles[r.id]) || "No longer listed"; } },
+        { h: "Employer", k: "employer" }, { h: "No", n: 1, k: "no" }, { h: "Yes", n: 1, k: "yes" },
+        { h: "Came back fast", n: 1, k: "quick" }, { h: "Last answer", k: "last" }], D.flagged_listings || []);
+    };
+    if (titles) return draw();
+    fetch("../jobs.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
+      titles = {}; (d.jobs || []).forEach(function (j) { titles[j.id] = j.title; }); draw();
+    }).catch(function () { titles = {}; draw(); });
   }
 
   function toMap(list) { var m = {}; (list || []).forEach(function (r) { m[r.name] = r.clicks; }); return m; }

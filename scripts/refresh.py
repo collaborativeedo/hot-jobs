@@ -13,6 +13,7 @@ Run: python scripts/refresh.py            (live pull)
 """
 import argparse
 import csv
+from collections import Counter
 import datetime as dt
 import hashlib
 import json
@@ -282,7 +283,7 @@ def read_posting_pages(jobs, fetcher, today, log):
             continue
         k = direct.posting_key(j["url"])
         live.add(k)
-        if k not in cache and not j.get("pay") and fetched < MAX_POSTING_PAGES:
+        if k not in cache and fetched < MAX_POSTING_PAGES:
             fetched += 1
             try:
                 from bs4 import BeautifulSoup
@@ -292,13 +293,14 @@ def read_posting_pages(jobs, fetcher, today, log):
                     t.decompose()
                 text = re.sub(r"\s+", " ", soup.get_text(" "))
                 cache[k] = {"pay": enrich.posted_pay(text), "hours": enrich.job_hours(j["title"], "", text[:4000]),
-                            "fetched": today}
+                            "flags": enrich.text_flags(text[:20000]), "fetched": today}
             except Exception:  # noqa: BLE001 - blocked or gone; try again another night
                 failed += 1
         rec = cache.get(k)
         if rec:
             j["pay"] = j.get("pay") or rec.get("pay", "")
             j["hours"] = j.get("hours") or rec.get("hours", "")
+            j["_page_flags"] = rec.get("flags")
     cache = {k: v for k, v in cache.items() if k in live}
     POSTING_DETAILS.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
     log.append(f"Employer posting pages: {fetched} read tonight, {failed} failed, "
@@ -321,6 +323,82 @@ def add_details(jobs, wages):
         j["hours"] = j.get("hours") or enrich.oed_hours(oed) or enrich.job_hours(j["title"], j["snippet"], desc)
         j["workplaces"] = enrich.workplaces(j["employer"], rules.employer_industry(j["employer"]), j["industries"])
         j["apply_via"] = apply_label(j)
+        j["_text"] = text
+
+
+# ---- Fewer barriers and dead links ---------------------------------------------------------------------------
+
+FEEDBACK = ROOT / "data" / "listing-feedback.json"  # "Was this job still open?" answers, from scripts/traffic.py
+_GONE = re.compile(r"no longer (available|accepting|open|exists|active|posted)|position has been filled|"
+                   r"(job|posting|position|requisition) (has )?(expired|closed|been removed)|"
+                   r"this job (is )?(closed|unavailable)|job not found|page not found", re.I)
+
+
+def tag_barriers(jobs, log, offline=False):
+    """Labels for the "Fewer barriers" filters: near an LTD stop, no degree needed, training, fair chance."""
+    levels, no_degree = {}, (lambda soc, lv: None)
+    try:
+        import reference
+        levels, no_degree = reference.soc_education(log), reference.no_degree
+        if not offline:
+            reference.transit_tags(jobs, log)
+    except Exception as e:  # noqa: BLE001 - the tags are extras; the run goes on without them
+        log.append(f"Reference data unavailable: {type(e).__name__}: {str(e)[:120]}")
+    for j in jobs:
+        occ = no_degree(j.get("soc"), levels) if j.get("soc") and levels else None
+        j["eases"] = enrich.eases(j.pop("_text", j["title"]), occ, j.pop("_page_flags", None), j.get("near_bus"))
+    n = lambda k: sum(1 for j in jobs if k in j["eases"])  # noqa: E731
+    log.append(f"Fewer barriers: near bus {n('bus')}, no degree {n('no_degree')}, training {n('training')}, "
+               f"fair chance {n('fair_chance')} of {len(jobs)} postings.")
+
+
+def _is_dead(url):
+    import requests
+    from urllib.parse import urlparse
+    try:
+        r = requests.get(url, headers={"User-Agent": direct.UA}, timeout=15, allow_redirects=True, stream=True)
+        try:
+            if r.status_code in (404, 410):
+                return f"gone ({r.status_code})"
+            if r.status_code >= 400:
+                return ""  # blocked or erroring: not proof the job is gone
+            a, b = urlparse(url), urlparse(r.url)
+            if r.history and a.netloc.split(".")[-2:] == b.netloc.split(".")[-2:]:
+                segs_a = [x for x in a.path.split("/") if x]
+                segs_b = [x for x in b.path.split("/") if x]
+                if len(segs_a) >= 2 and len(segs_b) < len(segs_a) and segs_a[-1] not in r.url and a.query not in b.query:
+                    return "redirected to a general page"
+            head = r.raw.read(150000, decode_content=True).decode("utf-8", "ignore")
+            if _GONE.search(re.sub(r"<[^>]+>", " ", head)[:60000]):
+                return "page says the job is closed"
+            return ""
+        finally:
+            r.close()
+    except Exception:  # noqa: BLE001 - timeouts and network errors are not proof either
+        return ""
+
+
+def drop_dead_links(jobs, log):
+    """Drop postings whose link is gone, redirects to a general page, says the job is closed, or that job seekers
+    reported closed. Postings read tonight from a hiring system are skipped: the system just listed them."""
+    from concurrent.futures import ThreadPoolExecutor
+    check = [j for j in jobs if not j.get("direct") and j.get("url")]
+    with ThreadPoolExecutor(max_workers=24) as pool:
+        verdicts = dict(zip([j["url"] for j in check], pool.map(_is_dead, [j["url"] for j in check])))
+    feedback = json.loads(FEEDBACK.read_text()) if FEEDBACK.exists() else {}
+    keep, why = [], Counter()
+    for j in jobs:
+        v = verdicts.get(j["url"], "")
+        fb = feedback.get(job_id(j), {})
+        if not v and fb.get("no", 0) >= 2 and fb.get("no", 0) > 2 * fb.get("yes", 0):
+            v = "job seekers said it was closed"
+        if v:
+            why[v.split(" (")[0]] += 1
+        else:
+            keep.append(j)
+    dropped = len(jobs) - len(keep)
+    log.append(f"Dead links: checked {len(check)}, dropped {dropped} ({dict(why)}).")
+    return keep, dropped
 
 
 def apply_label(j):
@@ -329,7 +407,9 @@ def apply_label(j):
     if j["route"] == "Reposted by a job board":
         host = re.sub(r"^https?://(www\.)?([^/]+).*$", r"\2", j["url"]).lower()
         return f"Apply on {host}"
-    return f"Apply on {j['employer']}'s site" if j["employer"] else "Apply on the employer's site"
+    if not j["employer"]:
+        return "Apply on the employer's site"
+    return f"Apply on {j['employer']}' site" if j["employer"].endswith("s") else f"Apply on {j['employer']}'s site"
 
 
 def pull_direct(qi_jobs, fetcher, today):
@@ -629,6 +709,10 @@ def main():
         read_oed_pages(jobs, fetcher, today, log)
         read_posting_pages(jobs, fetcher, today, log)
     add_details(jobs, wages)
+    tag_barriers(jobs, log, offline=bool(args.fixture))
+    dead_dropped = 0
+    if not args.fixture:
+        jobs, dead_dropped = drop_dead_links(jobs, log)
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
 
     live_ids = set()
@@ -636,7 +720,9 @@ def main():
         jid = job_id(j)
         live_ids.add(jid)
         rec = state.get(jid, {"first_seen": today})
-        rec.update(last_seen=today, misses=0, title=j["title"], employer=j["employer"], city=j["city"], soc=j["soc"])
+        rec.update(last_seen=today, misses=0, title=j["title"], employer=j["employer"], city=j["city"], soc=j["soc"],
+                   type=j.get("type", ""), posted_pay=bool(j.get("pay")), route=j.get("route", ""),
+                   source=j.get("source", ""))
         state[jid] = rec
         j["id"] = jid
         j["first_seen"] = rec["first_seen"]
@@ -663,8 +749,9 @@ def main():
         "count": len(show),
         "pulled": len(jobs),
         "show_days": SHOW_DAYS,
+        "dead_links_dropped": dead_dropped,
         "jobs": [{k: j.get(k, "") for k in ("id", "title", "city", "employer", "type", "workplaces", "hours", "pay",
-                                            "typical_pay", "apply_via", "industries", "rural", "priority", "route",
+                                            "typical_pay", "apply_via", "eases", "industries", "rural", "priority", "route",
                                             "source", "days", "dated", "first_seen", "soc", "occupation", "url")}
                  | {"snippet": j["snippet"][:160]} for j in show],
     }
@@ -679,10 +766,12 @@ def main():
     if not args.fixture:
         try:
             row = dashboard.update(out, json.loads(EMPLOYERS.read_text()),
-                                   json.loads(SOURCES.read_text()) if SOURCES.exists() else {})
+                                   json.loads(SOURCES.read_text()) if SOURCES.exists() else {}, state=state)
             log.append(f"Dashboard: {row['employers_hiring']} employers hiring, {row['employer_sources_searched']} sources.")
         except Exception as e:  # noqa: BLE001  the dashboard never stops the job list from publishing
             log.append(f"Dashboard update failed: {type(e).__name__}: {e}")
+        import archive  # every posting pulled tonight, kept for later analysis (data/archive/)
+        archive.save(jobs, today, employers=json.loads(EMPLOYERS.read_text()))
         log.append(f"Widget: {len(show)} shown of {len(jobs)} postings.")
         write_run_log({"date": run_date, "ok": True, "notes": log})
     print(f"Widget shows {len(show)} (up to {SHOW_DAYS} days old, direct links only).")
