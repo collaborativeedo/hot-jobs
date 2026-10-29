@@ -117,28 +117,49 @@ def classify(item, results):
 
 
 def shard(i, n):
+    import signal
+
     import probe
     from playwright.sync_api import sync_playwright
     queue = json.loads(QUEUE.read_text())[i::n]
+    OUTDIR.mkdir(parents=True, exist_ok=True)
+    path = OUTDIR / f"shard-{i}.json"
     out = []
+
+    def too_slow(*_):
+        raise TimeoutError("site took over a minute")
+
+    signal.signal(signal.SIGALRM, too_slow)
     with sync_playwright() as p:
         b = p.chromium.launch()
         ctx = b.new_context(user_agent=probe.UA)
         ctx.set_default_timeout(20000)
         for k, item in enumerate(queue):
-            results = [probe.look(ctx, f"https://{item['domain']}/")]
-            if results[0].get("error") and "ERR_" in results[0]["error"]:
-                results = [probe.look(ctx, f"http://www.{item['domain']}/")]
-            if not results[0].get("system_links"):
-                for nxt in results[0].get("careers_links", [])[:2]:
-                    results.append(probe.look(ctx, nxt))
-            dec = classify(item, results)
+            signal.alarm(60)  # hard limit per website, whatever the page does
+            try:
+                results = [probe.look(ctx, f"https://{item['domain']}/")]
+                if results[0].get("error") and "ERR_" in results[0]["error"]:
+                    results = [probe.look(ctx, f"http://www.{item['domain']}/")]
+                if not results[0].get("system_links"):
+                    for nxt in results[0].get("careers_links", [])[:2]:
+                        results.append(probe.look(ctx, nxt))
+                dec = classify(item, results)
+            except TimeoutError:
+                dec = {"outcome": "site did not load", "detail": "over a minute"}
+                try:  # start fresh in case the page is wedged
+                    ctx.close()
+                except Exception:  # noqa: BLE001
+                    pass
+                ctx = b.new_context(user_agent=probe.UA)
+                ctx.set_default_timeout(20000)
+            finally:
+                signal.alarm(0)
             out.append(dict(item, **dec))
-            if k % 25 == 0:
+            if k % 10 == 0:  # save as we go, so a timed-out worker keeps what it found
+                path.write_text(json.dumps(out, ensure_ascii=False, indent=0), encoding="utf-8")
                 print(f"shard {i}: {k}/{len(queue)}", flush=True)
         b.close()
-    OUTDIR.mkdir(parents=True, exist_ok=True)
-    (OUTDIR / f"shard-{i}.json").write_text(json.dumps(out, ensure_ascii=False, indent=0), encoding="utf-8")
+    path.write_text(json.dumps(out, ensure_ascii=False, indent=0), encoding="utf-8")
 
 
 ACCEPT = {"hiring system": False, "careers page with openings": False, "careers page, unclear": True,
