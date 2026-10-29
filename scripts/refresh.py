@@ -243,14 +243,15 @@ def read_oed_pages(jobs, fetcher, today, log):
     cache = json.loads(OED_DETAILS.read_text()) if OED_DETAILS.exists() else {}
     live, fetched, failed = set(), 0, 0
     for j in jobs:
-        o = enrich.oed_ord(j["url"]) if j["route"] == "WorkSource Oregon listing" else ""
+        page = j.get("oed_url") or (j["url"] if j["route"] == "WorkSource Oregon listing" else "")
+        o = enrich.oed_ord(page) if page else ""
         if not o:
             continue
         live.add(o)
         if o not in cache and fetched < MAX_OED_PAGES:
             fetched += 1
             try:
-                cache[o] = dict(enrich.parse_oed_page(fetcher.get(j["url"]).text), fetched=today)
+                cache[o] = dict(enrich.parse_oed_page(fetcher.get(page).text), fetched=today)
             except Exception as e:  # noqa: BLE001
                 failed += 1
                 if failed <= 3:
@@ -263,6 +264,44 @@ def read_oed_pages(jobs, fetcher, today, log):
     cache = {k: v for k, v in cache.items() if k in live}
     OED_DETAILS.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
     log.append(f"WorkSource pages: {fetched} read tonight, {failed} failed, {len(cache)} on file.")
+
+
+POSTING_DETAILS = ROOT / "data" / "posting-details.json"  # pay and hours read from employers' own posting pages
+MAX_POSTING_PAGES = 500
+_JS_ONLY = re.compile(r"myworkdayjobs|oraclecloud|ultipro|ukg\.net|icims\.com|peacehealth|successfactors|taleo|"
+                      r"governmentjobs|schooljobs|workforcenow\.adp|paylocity", re.I)
+
+
+def read_posting_pages(jobs, fetcher, today, log):
+    """Posted pay and hours from the employer's own posting page, when the hiring system's list leaves them out."""
+    cache = json.loads(POSTING_DETAILS.read_text()) if POSTING_DETAILS.exists() else {}
+    live, fetched, failed = set(), 0, 0
+    for j in jobs:
+        if not j.get("direct") or _JS_ONLY.search(j["url"]):
+            continue
+        k = direct.posting_key(j["url"])
+        live.add(k)
+        if k not in cache and not j.get("pay") and fetched < MAX_POSTING_PAGES:
+            fetched += 1
+            try:
+                from bs4 import BeautifulSoup
+                html = fetcher.get(j["url"]).text
+                soup = BeautifulSoup(html, "html.parser")
+                for t in soup(["script", "style", "nav", "footer", "header"]):
+                    t.decompose()
+                text = re.sub(r"\s+", " ", soup.get_text(" "))
+                cache[k] = {"pay": enrich.posted_pay(text), "hours": enrich.job_hours(j["title"], "", text[:4000]),
+                            "fetched": today}
+            except Exception:  # noqa: BLE001 - blocked or gone; try again another night
+                failed += 1
+        rec = cache.get(k)
+        if rec:
+            j["pay"] = j.get("pay") or rec.get("pay", "")
+            j["hours"] = j.get("hours") or rec.get("hours", "")
+    cache = {k: v for k, v in cache.items() if k in live}
+    POSTING_DETAILS.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+    log.append(f"Employer posting pages: {fetched} read tonight, {failed} failed, "
+               f"{sum(1 for v in cache.values() if v.get('pay'))} of {len(cache)} on file state pay.")
 
 
 def add_details(jobs, wages):
@@ -405,7 +444,7 @@ def pull_direct(qi_jobs, fetcher, today):
                 src["employer"] = emp = r["org"]
             got.append({"title": r["title"], "city": r["city"], "url": r["url"],
                         "source": "Employer direct", "days": r["days"],
-                        "soc": title_soc.get(r["title"].lower(), ""), "occupation": "",
+                        "soc": enrich.soc_for_title(r["title"], title_soc), "occupation": "",
                         "snippet": r.get("snippet", ""), "employer": emp, "direct": True,
                         "hours": r.get("hours") or enrich.job_hours(r.get("info", "")),
                         "pay": enrich.posted_pay(r.get("info", ""))})
@@ -426,7 +465,7 @@ def pull_direct(qi_jobs, fetcher, today):
             seen[k] = j
             merged.append(j)
     norm = lambda t: re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()  # noqa: E731
-    direct_tc = {(j["employer"].lower(), norm(j["title"]), j["city"]) for j in merged if j["employer"]}
+    direct_tc = {(j["employer"].lower(), norm(j["title"]), j["city"]): j for j in merged if j["employer"]}
     replaced = 0
     for j in qi_jobs:
         k = direct.posting_key(j["url"])
@@ -438,8 +477,14 @@ def pull_direct(qi_jobs, fetcher, today):
             d["days"] = j["days"] if d["days"] is None else d["days"]
             replaced += 1
             continue
-        if j["route"] != "Employer's hiring site" and j["employer"] and \
-                (j["employer"].lower(), norm(j["title"]), j["city"]) in direct_tc:
+        d = direct_tc.get((j["employer"].lower(), norm(j["title"]), j["city"])) if j["employer"] else None
+        if j["route"] != "Employer's hiring site" and d is not None:
+            # Keep what the secondhand copy knew: occupation code (for typical pay) and its WorkSource page (posted pay).
+            d["soc"] = d["soc"] or j["soc"]
+            d["occupation"] = d.get("occupation") or j.get("occupation", "")
+            d["snippet"] = d["snippet"] or j["snippet"]
+            if j["route"] == "WorkSource Oregon listing":
+                d["oed_url"] = j["url"]
             replaced += 1
             continue
         merged.append(j)
@@ -559,6 +604,7 @@ def main():
         auto_name_domains(jobs, fetcher, today)
         jobs = [tag(j) for j in pull_direct(jobs, fetcher, today)]
         read_oed_pages(jobs, fetcher, today, log)
+        read_posting_pages(jobs, fetcher, today, log)
     add_details(jobs, wages)
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
 

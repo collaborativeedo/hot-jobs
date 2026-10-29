@@ -324,3 +324,80 @@ def oed_hours(rec):
     if 0 < h < 30:
         return "Part-time"
     return ""
+
+
+# ---- Occupation code for a job title, from titles QualityInfo has already coded -------------------------
+
+_TITLE_NOISE = re.compile(r"\([^)]*\)|\[[^\]]*\]|\s[-|–—:]\s.*$|\b(part[- ]?time|full[- ]?time|per[- ]?diem|prn|temporary|temp|"
+                          r"seasonal|remote|hybrid|on[- ]?call|w/.*|with .*bonus|sign[- ]?on.*|\$[\d,.]+.*|"
+                          r"i{1,3}|iv|1|2|3)\b", re.I)
+
+
+def norm_title(t):
+    t = _TITLE_NOISE.sub(" ", (t or "").lower())
+    return re.sub(r"[^a-z0-9]+", " ", t).strip()
+
+
+# High-confidence title words -> 2018 SOC code. Checked in order; first match wins. Used only when coded titles miss.
+_TITLE_SOC = [(re.compile(p, re.I), c) for p, c in [
+    (r"\bprep cook|food prep", "352021"), (r"\b(line |grill |kitchen )?cook\b", "352014"), (r"dishwasher", "359021"),
+    (r"bartender", "353011"), (r"\bbarista|crew member|team member.*(restaurant|cafe)|counter (staff|worker)", "353023"),
+    (r"\bserver\b(?!.*(sql|data|web|network|system))|waitstaff|waitress|waiter", "353031"), (r"\bhost(ess)?\b(?!.*(web|server))", "359031"),
+    (r"cashier", "412011"), (r"(retail )?sales associate|sales floor", "412031"), (r"stocker|stock associate|overnight stock", "537065"),
+    (r"housekeep", "372012"), (r"janitor|custodian|custodial", "372011"), (r"groundskeep|landscap", "373011"),
+    (r"\b(cna|certified nursing assistant|nursing assistant)\b", "311131"),
+    (r"caregiver|home care aide|personal care (aide|assistant)|direct support professional|\bdsp\b", "311122"),
+    (r"\b(registered nurse|rn)\b", "291141"), (r"\b(lpn|licensed practical nurse)\b", "292061"),
+    (r"medical assistant", "319092"), (r"dental hygienist", "292021"), (r"dental assistant", "319091"),
+    (r"pharmacy tech", "292052"), (r"community health worker|\bchw\b", "211094"),
+    (r"behavioral health clinician|mental health (therapist|counselor|clinician)|\b(lpc|lcsw|qmhp)\b", "211018"),
+    (r"patient (support|access|services) (specialist|representative)|medical receptionist|front desk|receptionist", "434171"),
+    (r"customer service (rep|representative|associate|specialist)|call center", "434051"),
+    (r"administrative assistant|office assistant", "436014"), (r"bookkeep", "433031"), (r"\baccountant\b", "132011"),
+    (r"software (engineer|developer)|web developer|full[- ]stack", "151252"), (r"help ?desk|it support|desktop support", "151232"),
+    (r"security (officer|guard)", "339032"), (r"\bcdl\b|truck driver|tractor[- ]trailer", "533032"),
+    (r"delivery driver|courier", "533033"), (r"forklift", "537051"),
+    (r"warehouse (associate|worker)|material handler|order picker|picker|packer", "537062"),
+    (r"welder|welding", "514121"), (r"electrician", "472111"), (r"plumber", "472152"), (r"\bhvac", "499021"),
+    (r"diesel (tech|mechanic)", "493031"), (r"auto(motive)? (tech|technician|mechanic)|lube tech", "493023"),
+    (r"carpenter", "472031"), (r"construction laborer|general laborer", "472061"),
+    (r"maintenance (tech|technician|worker|mechanic)", "499071"),
+    (r"paraeducator|instructional assistant|teaching assistant|educational assistant", "259042"),
+    (r"preschool teacher", "252011"), (r"child ?care (worker|provider|teacher|assistant)|daycare", "399011"),
+]]
+
+
+def soc_for_title(title, title_soc):
+    """Exact title match first, then the same title without schedule/bonus/level words, then the longest coded title
+    contained in this one ("Medical Assistant - Pediatrics" -> Medical Assistant)."""
+    t = (title or "").lower()
+    if t in title_soc:
+        return title_soc[t]
+    idx = getattr(soc_for_title, "_idx", None)
+    if idx is None or idx[0] is not title_soc:
+        norm = {}
+        for k, v in title_soc.items():
+            n = norm_title(k)
+            if n:
+                norm.setdefault(n, v)
+        idx = soc_for_title._idx = (title_soc, norm, sorted((k for k in norm if len(k.split()) >= 2), key=len, reverse=True))
+    n = norm_title(title)
+    if n in idx[1]:
+        return idx[1][n]
+    padded = f" {n} "
+    for k in idx[2]:
+        if f" {k} " in padded:
+            return idx[1][k]
+    # This title inside longer coded ones ("medical assistant" in "certified medical assistant"): take the most
+    # common code among them, if it clearly leads.
+    if len(n.split()) >= 2:
+        from collections import Counter
+        votes = Counter(v for k, v in idx[1].items() if f" {n} " in f" {k} ")
+        if votes:
+            (code, top), total = votes.most_common(1)[0], sum(votes.values())
+            if top >= 2 and top / total >= 0.6:
+                return code
+    for rx, code in _TITLE_SOC:
+        if rx.search(title or ""):
+            return code
+    return ""
