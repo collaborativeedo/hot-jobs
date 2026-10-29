@@ -10427,5 +10427,878 @@
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": true
+ },
+ {
+  "employer": "Ferguson Alliance",
+  "careers_url": "https://ferguson-alliance.com/careers/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "The Salvation Army",
+  "careers_url": "https://www.salvationarmyusa.org/usa-western-territory/employment-opportunites-us-west/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "911 Restoration of the Willamette",
+  "careers_url": "https://www.911restoration.com/careers",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Alliant Insurance Services",
+  "careers_url": "https://alliant.com/about/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Banner Bank",
+  "careers_url": "https://www.bannerbank.com/about-us/careers",
+  "local": false,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "Champion Family Therapy",
+  "careers_url": "https://www.championfamilytherapy.com/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "ConnectionsNW",
+  "careers_url": "https://www.connections-nw.org/employment-services/",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Hayden Homes",
+  "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7e7d3a6b-c286-4efd-819c-f4e12d5ed448&ccId=557557171_2073&lang=en_US",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Morel Ink",
+  "careers_url": "https://morelink.com/about-us/careers/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "Summit Cleaning & Restoration",
+  "careers_url": "https://www.summitclean.com/careers",
+  "local": true,
+  "home": "Junction City",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "The Shoppes at Gateway",
+  "careers_url": "https://www.theshoppesatgateway.com/jobs/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "USI Insurance Services",
+  "careers_url": "https://www.usi.com/about-usi/the-power-of-one/developing-talent-careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "ZenBusiness",
+  "careers_url": "https://job-boards.greenhouse.io/zenbusiness",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "FFA",
+  "careers_url": "https://recruiting.paylocity.com/recruiting/jobs/All/4a4472d7-945f-4f34-b423-d4ab47288f62/National-FFA-Organization",
+  "local": true,
+  "home": "Pleasant Hill",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "Hanan Insurance and Financial Service",
+  "careers_url": "https://mitchhanan.com/jobs",
+  "local": false,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "High Ridge Roofing and Gutters",
+  "careers_url": "https://www.highridgepro.com/careers",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Insurance Auto Auctions",
+  "careers_url": "https://www.iaai.com/marketing/Careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": true
+ },
+ {
+  "employer": "Signature Landscapes",
+  "careers_url": "http://siglandscapes.com/employment/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "The Junkluggers of Willamette Valley",
+  "careers_url": "https://www.junkluggers.com/about-us/careers/",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Tribal One",
+  "careers_url": "https://www.tribal.one/careers/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Afiya Apartments",
+  "careers_url": "https://www.rentalhousingdeals.com/equal-opportunity-housing",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": true
+ },
+ {
+  "employer": "BBSI",
+  "careers_url": "https://www.bbsi.com/talent-acquisition/jobs",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Cascade Home",
+  "careers_url": "https://elderhealthandliving.com/employment/",
+  "local": false,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "Commercial Dehydrator Systs",
+  "careers_url": "https://www.dryer.com/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "Ford Family Foundation",
+  "careers_url": "https://www.tfff.org/scholarships/ford-opportunity/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "Kairos",
+  "careers_url": "https://kairosnw.org/career-opportunities-2/",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Lane Regional Air Protection Agency (",
+  "careers_url": "https://www.lrapa-or.gov/air-quality-protection/about-lrapa/careers/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Nation's Mini-Mix",
+  "careers_url": "https://www.nationsminimix.com/join-our-concrete-company",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "SLLEA - Smart Living Learning & Earn",
+  "careers_url": "https://www.sllea.org/employment",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Technology Association of Oregon",
+  "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=57277703-45c0-4e1a-8db6-3bfa4b30f628&ccId=9200063795075_2&lang=en_US&jobId=522020",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Cascade Medical",
+  "careers_url": "https://cascademedassociates.com/careers/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Commonstreet Consulting",
+  "careers_url": "https://www.csrow.com/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Happy's Car Wash",
+  "careers_url": "https://www.happyswash.com/careers",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Singing Creek Educational Center",
+  "careers_url": "https://www.singingcreekcenter.org/volunteering-jobs/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Comparion Insurance",
+  "careers_url": "https://www.comparioninsurance.com/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Early Childhood Hub of Lane County",
+  "careers_url": "https://earlychildhoodlane.org/grant-opportunities/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "Grand Canyon Education",
+  "careers_url": "https://gcu.wd1.myworkdayjobs.com/GCU",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Turtle Shell Pressure Washing",
+  "careers_url": "https://www.turtleshellpressurewashing.com/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "Baker Tilly",
+  "careers_url": "https://bakertilly.wd5.myworkdayjobs.com/BTCareers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Cascadia Mobility",
+  "careers_url": "https://casmob.bamboohr.com/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Cal's Moving & Storage",
+  "careers_url": "https://calsmovinghelp.com/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Emerald Behavioral Health",
+  "careers_url": "https://www.ebhoregon.com/careers.html",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "GT Landscape Solutions",
+  "careers_url": "https://gtlandscapesolutions.com/employment/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Life Flight Network/ FireMed Ambulanc",
+  "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6fd3b46c-43dd-44a2-9cfc-105047c7227d",
+  "local": true,
+  "home": "Cottage Grove",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "The UPS Store #2576 (Pioneer Pkwy & Q...",
+  "careers_url": "https://theupsstore.com/about/careers",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Ziply Fiber",
+  "careers_url": "https://ziplyfiber.com/careers",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Ascot Park Senior Living",
+  "careers_url": "https://sinceriseniorliving.com/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Chick-fil-A Gateway",
+  "careers_url": "https://www.cfagateway.com/careers/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Bend Metro Park & Rec Dist",
+  "careers_url": "https://www.bendparksandrec.org/about/employment/",
+  "local": true,
+  "home": "Cottage Grove",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "First Bank of the Lake",
+  "careers_url": "https://www.fblake.bank/about-us/join-our-team/",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Hotworx",
+  "careers_url": "https://www.hotworx.net/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Ko-Kwel Wellness Center",
+  "careers_url": "https://kokwelwellness.org/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Melaleuca",
+  "careers_url": "https://recruiting2.ultipro.com/MEL1001MEL/JobBoard/d5ffce96-7247-41c4-831b-454b3454c233/?q=&o=postedDateDesc",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Mr Nice Guy",
+  "careers_url": "https://mrniceguys.com/stores/mr-nice-guy-harbor?mng_pick=1#mng/about/careers",
+  "local": true,
+  "home": "Veneta",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "exp Realty",
+  "careers_url": "https://ats.rippling.com/exp-jobs/jobs",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Capstone Accounting and Tax",
+  "careers_url": "https://capstone.bamboohr.com/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Energy Trust of Oregon",
+  "careers_url": "https://apply.workable.com/energy-trust-of-oregon/",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "First Baptist Church of Eugene",
+  "careers_url": "https://fbceugene.com/resources/#joblistings",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "Heidi Pollock Insurance Agency",
+  "careers_url": "https://heidipollock.com/jobs",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "Oregon Business & Industry",
+  "careers_url": "https://oregonbusinessindustry.com/q32026jobreport/",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Quantum Recruiters",
+  "careers_url": "https://quantumrecruiters.net/employment/",
+  "local": false,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "Servicemen Painting & Construction LL",
+  "careers_url": "https://www.servicemenpc.com/about/careers",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Urban Restaurant Group",
+  "careers_url": "https://urban-restaurants.com/jobs",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Western OR Conference Assn",
+  "careers_url": "https://oregonconference.bamboohr.com/careers/44",
+  "local": true,
+  "home": "Pleasant Hill",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "American Cancer Society",
+  "careers_url": "https://acs.wd5.myworkdayjobs.com/en-US/ACSCareers",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Douglas Fast Net (DFN)",
+  "careers_url": "https://dfn.bamboohr.com/careers",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Enterprise Bank & Trust",
+  "careers_url": "https://osv-enterprise.wd1.myworkdayjobs.com/en-US/EnterpriseBankTrust_Jobs",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "Eugene Sprinkler Service",
+  "careers_url": "https://eugenesprinkler.com/employment/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Pfeifer Roofing",
+  "careers_url": "https://www.pfeiferroofing.com/careers/",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "Ronald McDonald House Oregon",
+  "careers_url": "https://recruiting.paylocity.com/recruiting/jobs/All/8aeb6a53-b6f9-4f82-96e0-f37524dd8daf/Ronald-McDonald-House-Charities-of-Oregon",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Seven Feathers Casino Resort",
+  "careers_url": "https://recruiting.paylocity.com/recruiting/jobs/All/ea17ede4-817b-4ed5-b477-644b7b625b05/Umpqua-Creative-Services-Corp?location=All%20Locations&department=Seven%20Feathers%20Casino%20Resort",
+  "local": false,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Addus Homecare",
+  "careers_url": "https://addus.com/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "Automatic Heat",
+  "careers_url": "https://automaticheatco.com/career/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Cornerstone",
+  "careers_url": "https://www.cornerstoneassociates.org/employment-programs",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Driftwood Shores Resrt-Cnfrnc",
+  "careers_url": "https://www.driftwoodshores.com/careers/",
+  "local": true,
+  "home": "Florence",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "Evenflo Plumbing",
+  "careers_url": "https://evenfloplumbing.com/about-us/careers/",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Heritage Bank",
+  "careers_url": "https://careers.heritagebanknw.com/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "Mereté Hotel Management",
+  "careers_url": "https://meretehotels.com/hospitality-careers/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Northwest Community Credit Union",
+  "careers_url": "https://job-boards.greenhouse.io/peakcreditunion/jobs/6184751004",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "T. Mann Financial",
+  "careers_url": "https://www.tmannfinancial.com/careersinternships",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "Evergreen Home Loans",
+  "careers_url": "https://mortgagemarketplace.loans/join-our-team/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "Fish",
+  "careers_url": "https://www.fishofwalton.org/employment",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "Halbert Hargrove Global Advisors",
+  "careers_url": "https://www.halberthargrove.com/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Innova NW",
+  "careers_url": "https://innovanw.com/careers/",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "KBF Advisory",
+  "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2168ab3c-e6f1-454d-a91a-16a4b19a7e86&ccId=19000101_000001&type=MP&lang=en_US&selectedMenuKey=SignIn",
+  "local": true,
+  "home": "Pleasant Hill",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Northwest Media",
+  "careers_url": "https://northwestmedia.com/employment-opportunities/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": true
+ },
+ {
+  "employer": "Springfield Public Library Foundation",
+  "careers_url": "https://splforegon.org/job-openings/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Cascade Employers Association",
+  "careers_url": "https://www.cascadeemployers.com/employment-posters/",
+  "local": true,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Evo",
+  "careers_url": "https://www.evobusinesspartners.com/join-our-team",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
+ },
+ {
+  "employer": "Hamilton Construction",
+  "careers_url": "https://www.hamilton1939.com/join-our-team1.html",
+  "local": true,
+  "home": "Coburg",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "KCL Engineering",
+  "careers_url": "https://www.kclengineering.com/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Lane County Human Resource Associatio",
+  "careers_url": "https://lchra.org/jobs",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Macaroni KID Eugene",
+  "careers_url": "https://eugene.macaronikid.com/jobs",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "NOVA Home Loans",
+  "careers_url": "https://www.novahomeloans.com/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-29",
+  "list": "Springfield Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "St Michael Parish",
+  "careers_url": "https://www.stmichaelchurch.net/coffee-and-careers",
+  "local": true,
+  "home": "Oakridge",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": true
+ },
+ {
+  "employer": "The John G. Shedd Institute for the Arts",
+  "careers_url": "https://theshedd.org/sheddbusiness/jobpostings.aspx",
+  "local": false,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Eugene Chamber of Commerce directory",
+  "weekly": false
+ },
+ {
+  "employer": "Triad Machinery",
+  "careers_url": "https://triadmachinery.com/careers/",
+  "local": true,
+  "home": "Coburg",
+  "found": "2026-10-29",
+  "list": "QualityInfo employer database",
+  "weekly": false
  }
 ]
