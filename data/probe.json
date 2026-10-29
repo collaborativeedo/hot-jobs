@@ -1,15 +1,14 @@
 [
- {"employer": "Pipeworks Studios", "urls": ["https://www.pipeworks.com/"]},
- {"employer": "Zynga", "urls": ["https://www.zynga.com/careers/"]},
- {"employer": "Palo Alto Software", "urls": ["https://paloaltosoftware.com/"]},
- {"employer": "SheerID", "urls": ["https://www.sheerid.com/careers/", "https://www.sheerid.com/"]},
- {"employer": "FRONTSTEPS", "urls": ["https://frontsteps.com/"]},
- {"employer": "Nulia", "urls": ["https://www.nulia.com/"]},
- {"employer": "1BitSquared", "urls": ["https://1bitsquared.com/"]},
- {"employer": "Adasa", "urls": ["https://adasainc.com/"]},
- {"employer": "InVivo Biosystems", "urls": ["https://invivobiosystems.com/"]},
- {"employer": "IEQ Technology", "urls": ["https://ieqtechnology.com/"]},
- {"employer": "StepUP IT Services", "urls": ["https://www.stepupitservices.com/"]},
- {"employer": "Ksana Health", "urls": ["https://ksanahealth.com/careers/"]},
- {"employer": "Air-Weigh ADP feed", "urls": ["https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions?cid=288de5ed-1d89-4976-8634-9b1b87fe40eb&timeStamp=1&lang=en_US&ccId=19000101_000001&locale=en_US&$top=20"]}
+ {
+  "employer": "Pipeworks feed",
+  "urls": [
+   "https://pipeworks.pinpointhq.com/postings.json"
+  ]
+ },
+ {
+  "employer": "SheerID feed",
+  "urls": [
+   "https://api.rippling.com/platform/api/ats/v1/board/sheerid/jobs"
+  ]
+ }
 ]

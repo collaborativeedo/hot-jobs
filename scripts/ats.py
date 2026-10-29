@@ -47,12 +47,19 @@ def source_from_url(url):
         (r"https?://([a-z0-9-]+)\.bamboohr\.com", "BambooHR", "token"),
         (r"https?://recruiting\.paylocity\.com/recruiting/jobs/(?:All|Details/\d+)/([0-9a-f-]{36})", "Paylocity", "token"),
         (r"https?://([a-z0-9-]+)\.applytojob\.com", "JazzHR", "token"),
+        (r"https?://([a-z0-9-]+)\.pinpointhq\.com", "Pinpoint", "token"),
+        (r"https?://ats\.rippling\.com/(?:[a-z-]+/)?([A-Za-z0-9_-]+)/jobs", "Rippling", "token"),
+        (r"https?://workforcenow\.adp\.com/.*[?&]cid=([0-9a-f-]{36})", "ADP Workforce Now", "token"),
     ]
     for rx, plat, field in pats:
         m = re.match(rx, u, re.I)
         if m and m.group(1).lower() not in ("www", "api", "jobs", "careers", "embed"):
             tok = m.group(1)
-            return f"{plat.lower().split()[0]}:{tok.lower()}", {"platform": plat, field: tok, "host": urlparse(u).netloc.lower()}
+            src = {"platform": plat, field: tok, "host": urlparse(u).netloc.lower()}
+            if plat == "ADP Workforce Now":
+                cc = re.search(r"[?&]ccId=([^&]+)", u)
+                src["ccid"] = cc.group(1) if cc else "19000101_000001"
+            return f"{plat.lower().split()[0]}:{tok.lower()}", src
     return None
 
 
@@ -181,6 +188,55 @@ _ELSEWHERE = re.compile(r"\b(Portland|Bend|Hillsboro|Medford|Beaverton|Tigard|Gr
 _LOCATION_ONLY = re.compile(r"^[A-Za-z .'-]+,\s*(OR|Oregon)\b[\s\d-]*$")
 _BAD_PATH = re.compile(r"/(category|categories|tag|department|departments|location|locations|search|login|benefits)(/|$)|"
                        r"^/(es|fr|de|it|pt|zh|ja|ko|vi|ru|ar)(/|$)", re.I)
+
+
+def pull_pinpoint(f, src):
+    data = f.get(f"https://{src['token']}.pinpointhq.com/postings.json").json()
+    rows = []
+    for j in (data.get("data") if isinstance(data, dict) else data) or []:
+        loc = j.get("location") or {}
+        where = loc.get("name") or ", ".join(x for x in (loc.get("city"), loc.get("province")) if x) if isinstance(loc, dict) else str(loc)
+        rows.append({"title": j.get("title"), "loc": where or "", "url": j.get("url") or j.get("path"),
+                     "days": days_since(j.get("published_at") or j.get("created_at")),
+                     "snippet": j.get("description") or "", "info": j.get("employment_type_text") or j.get("employment_type") or ""})
+    return _rows(rows, src.get("local"), src.get("home", ""))
+
+
+def pull_rippling(f, src):
+    data = f.get(f"https://api.rippling.com/platform/api/ats/v1/board/{src['token']}/jobs").json()
+    rows = []
+    for j in (data if isinstance(data, list) else data.get("items") or data.get("jobs") or []):
+        locs = j.get("workLocations") or ([j["workLocation"]] if j.get("workLocation") else [])
+        names = [(l.get("label") or l.get("name") or "") if isinstance(l, dict) else str(l) for l in locs]
+        url = j.get("url") or f"https://ats.rippling.com/{src['token']}/jobs/{j.get('uuid') or j.get('id')}"
+        for where in names or [""]:
+            rows.append({"title": j.get("name") or j.get("title"), "loc": where, "url": url,
+                         "info": (j.get("employmentType") or {}).get("label", "") if isinstance(j.get("employmentType"), dict) else ""})
+    return _rows(rows, src.get("local"), src.get("home", ""))
+
+
+def pull_adp(f, src):
+    cid, cc = src["token"], src.get("ccid", "19000101_000001")
+    base = "https://workforcenow.adp.com/mascsr/default"
+    rows, skip = [], 0
+    while skip < 500:
+        data = f.get(f"{base}/careercenter/public/events/staffing/v1/job-requisitions",
+                     params={"cid": cid, "ccId": cc, "lang": "en_US", "locale": "en_US", "timeStamp": "1",
+                             "$top": 50, "$skip": skip}).json()
+        reqs = data.get("jobRequisitions") or []
+        for j in reqs:
+            locs = []
+            for l in j.get("requisitionLocations") or []:
+                a = l.get("address") or {}
+                st = (a.get("countrySubdivisionLevel1") or {}).get("codeValue", "")
+                locs.append(f"{a.get('cityName', '')}, {st}".strip(", ") or (l.get("nameCode") or {}).get("shortName", ""))
+            rows.append({"title": j.get("requisitionTitle"), "loc": locs[0] if locs else "",
+                         "url": f"{base}/mdf/recruitment/recruitment.html?cid={cid}&ccId={cc}&jobId={j.get('itemID')}&lang=en_US",
+                         "days": days_since(j.get("postDate")), "info": (j.get("workLevelCode") or {}).get("shortName", "")})
+        skip += 50
+        if len(reqs) < 50:
+            break
+    return _rows(rows, src.get("local"), src.get("home", ""))
 
 
 def _job_title(text, row):
@@ -316,4 +372,5 @@ def pull_careers_page(f, src, browser):
 
 CONNECTORS = {"Greenhouse": pull_greenhouse, "Lever": pull_lever, "SmartRecruiters": pull_smartrecruiters,
               "Breezy HR": pull_breezy, "Workable": pull_workable, "BambooHR": pull_bamboohr,
-              "Paylocity": pull_paylocity, "JazzHR": pull_jazzhr}
+              "Paylocity": pull_paylocity, "JazzHR": pull_jazzhr, "Pinpoint": pull_pinpoint,
+              "Rippling": pull_rippling, "ADP Workforce Now": pull_adp}

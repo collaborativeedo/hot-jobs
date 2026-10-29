@@ -42,13 +42,6 @@
   "found": "2026-10-28"
  },
  {
-  "employer": "Pipeworks Studios",
-  "careers_url": "https://pipeworks.pinpointhq.com/",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-28"
- },
- {
   "employer": "Summit Bank",
   "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=38269ab8-822d-4d7d-b8ab-1654fbaff910&ccId=19000101_000001&lang=en_US&selectedMenuKey=CurrentOpenings",
   "local": true,
@@ -196,13 +189,6 @@
   "found": "2026-10-28"
  },
  {
-  "employer": "Avant Assessment",
-  "careers_url": "https://avantassessment.com/about-avant/careers",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-28"
- },
- {
   "employer": "Jones & Roth CPAs",
   "careers_url": "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=9E928BCDDB205F1708710753669E6DC4",
   "local": false,
@@ -247,13 +233,6 @@
  {
   "employer": "Relief Nursery",
   "careers_url": "https://reliefnursery.org/employment/",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-28"
- },
- {
-  "employer": "Palo Alto Software",
-  "careers_url": "https://www.paloalto.com/about-us/careers",
   "local": true,
   "home": "Eugene",
   "found": "2026-10-28"
@@ -348,5 +327,133 @@
   "local": false,
   "home": "Springfield",
   "found": "2026-10-28"
+ },
+ {
+  "employer": "Pipeworks Studios",
+  "careers_url": "https://pipeworks.pinpointhq.com/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Zynga",
+  "careers_url": "https://job-boards.greenhouse.io/zyngacareers",
+  "local": false,
+  "home": "",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Palo Alto Software",
+  "careers_url": "https://www.paloalto.com/about-us/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "SheerID",
+  "careers_url": "https://ats.rippling.com/sheerid/jobs",
+  "local": false,
+  "home": "",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Lone Wolf Technologies (IDX Broker)",
+  "careers_url": "https://jobs.lever.co/lwolf",
+  "local": false,
+  "home": "",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "FRONTSTEPS",
+  "careers_url": "https://frontsteps.applytojob.com/apply",
+  "local": false,
+  "home": "",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Air-Weigh",
+  "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=288de5ed-1d89-4976-8634-9b1b87fe40eb&ccId=19000101_000001&type=JS&lang=en_US",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "CBT Nuggets",
+  "careers_url": "https://jobs.lever.co/cbtnuggets",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Avant Assessment",
+  "careers_url": "https://www.avantassessment.com/about-avant/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Trifoia",
+  "careers_url": "https://www.trifoia.com/about-us/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Ksana Health",
+  "careers_url": "https://ksanahealth.com/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Cognitopia",
+  "careers_url": "https://cognitopia.com/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "IEQ Technology",
+  "careers_url": "https://ieqtechnology.com/careers/",
+  "local": true,
+  "home": "Springfield",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Twenty Ideas",
+  "careers_url": "https://twentyideas.com/careers",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Emberex",
+  "careers_url": "https://www.emberex.com/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "StepUP IT Services",
+  "careers_url": "https://stepupitservices.com/careers/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-28",
+  "list": "Eugene tech (Matt)"
  }
 ]
