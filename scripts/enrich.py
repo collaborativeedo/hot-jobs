@@ -162,6 +162,40 @@ def _tidy_name(name):
     return " ".join(words).strip(" .,'’-")
 
 
+# ---- Final check on every employer name, whatever produced it -------------------------------------
+
+_WRAP_LEAD = re.compile(r"^(?:(?i:careers? at|open jobs at|jobs at|work at|working at|join|learn about)|Us)\s+")
+_WRAP_TRAIL = re.compile(r"\s+(?:(?i:and explore our.*|careers?|jobs|job openings)|We|Us)$")
+_BAD_FIRST = {"We", "You", "Our", "Your", "This", "These", "Who", "What", "Apply", "Click", "Position", "Job", "Where",
+              "Seeking", "Join", "About"}
+_HEADING = re.compile(r"\b(?:DESCRIPTION|TITLE|EOE|STATEMENT|SUMMARY|POSITION|OVERVIEW|REQUIREMENTS)\b")
+_CODE = re.compile(r"[A-Za-z]\d{3,}|\d{3,}[A-Za-z]")          # hiring-system tenant codes: "Mcm1001Mcmen"
+_ROLE = re.compile(r"\b(?:wanted|representative|caregiver|dispatcher|driver|technician|assistant|specialist|"
+                   r"coordinator|manager|nurse|housekeeper|cashier|clerk)s?\b", re.I)
+_NOT_EMPLOYERS = {n.lower() for n in """Adoption Client Clients Collaboration Others Other They Weekends Sponsors Policy
+Florence Eugene Springfield Oregon Finance Research Workplace Dayforce GetHired.com Ghr Prt Sparinc Myoccu
+Indeed SimplyHired ZipRecruiter LinkedIn Glassdoor Monster Workday Paylocity Paychex iCIMS UKG""".split()} | {
+    "finance and administration", "research administration", "workplace type", "human resources", "talent acquisition",
+    "who we are", "about us", "our company", "equal opportunity employer"}
+
+
+def clean_employer(name):
+    """Return a usable employer name, or "" when the text is a fragment, heading, code or job title."""
+    name = re.sub(r"\s+", " ", (name or "")).strip(" ,;:'’-")
+    if not name:
+        return ""
+    for _ in range(2):
+        name = _WRAP_TRAIL.sub("", _WRAP_LEAD.sub("", name)).strip(" ,;:'’-")
+    words = name.split()
+    words = [w for i, w in enumerate(words) if i == 0 or w.lower() != words[i - 1].lower()]   # "Bethel Bethel Schools"
+    name = " ".join(words)
+    if (len(name) < 3 or name.lower() in _NOT_EMPLOYERS or _HEADING.search(name) or _CODE.search(name)
+            or (_ROLE.search(name) and not re.search(r"\b(?:inc|llc|group|company|services|staffing)\b", name, re.I))
+            or len(words) > 7 or words[0] in _BAD_FIRST):
+        return ""
+    return name
+
+
 def employer_from_text(text):
     for rx in _PATTERNS:
         for m in rx.finditer(text or ""):

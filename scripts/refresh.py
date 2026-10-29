@@ -273,8 +273,9 @@ def add_details(jobs, wages):
         text = f'{j["title"]}. {j["snippet"]}. {desc}'
         if not j["employer"]:
             j["employer"] = rules.employer(desc) if desc else ""
+        j["employer"] = enrich.clean_employer(j["employer"])
         if not j["employer"]:
-            j["employer"] = enrich.employer_from_text(f'{j["snippet"]}. {desc}')
+            j["employer"] = enrich.clean_employer(enrich.employer_from_text(f'{j["snippet"]}. {desc}'))
         j["pay"] = j.get("pay") or enrich.posted_pay(oed.get("wage", "")) or enrich.posted_pay(text)
         j["typical_pay"] = enrich.typical_pay(j.get("soc"), wages)
         j["hours"] = j.get("hours") or enrich.oed_hours(oed) or enrich.job_hours(j["title"], j["snippet"], desc)
@@ -488,7 +489,7 @@ def update_employers(jobs, today):
         e["total_seen"] = e.get("total_seen", 0) + (1 if e["open_now"] else 0)
     # Drop names an earlier, rougher text-reading pass produced ("Click HERE Providence"), once they are not hiring.
     for name in [k for k, e in emps.items() if not e["open_now"] and not k.startswith("Unnamed")
-                 and _rough_name(k)]:
+                 and (_rough_name(k) or enrich.clean_employer(k) != k)]:
         del emps[name]
     EMPLOYERS.write_text(json.dumps(emps, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 

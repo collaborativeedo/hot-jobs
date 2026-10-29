@@ -111,7 +111,7 @@
     <h2>Employers</h2>
     <div class="grid2">
       <div class="card"><h3>Most openings today</h3><p class="cap">Employers named on the most postings shown today.</p><div class="scroll" id="top"></div></div>
-      <div class="card"><h3>New to the registry this week</h3><p class="cap">Employers first seen in the last 7 days.</p><div class="scroll" id="newemp"></div></div>
+      <div class="card"><h3>New to the registry this week</h3><p class="cap" id="newcap">Employers first seen in the last 7 days, most openings first.</p><div class="scroll" id="newemp"></div></div>
     </div>
   </section>
 
@@ -320,7 +320,9 @@
 
   function tables() {
     table("#top", [{ h: "Employer", k: "employer" }, { h: "Openings", k: "openings_shown", n: 1 }, { h: "First seen", k: "first_seen" }], T.top_employers || []);
-    table("#newemp", [{ h: "Employer", k: "employer" }, { h: "Open now", k: "open_now", n: 1 }, { h: "First seen", k: "first_seen" }], T.new_employers || []);
+    var ne = T.new_employers || [];
+    $("#newcap").textContent = fmt(ne.length) + " employers first seen in the last 7 days, most openings first. A large one-day jump usually means the run got better at naming employers on postings it already had, not that new employers started hiring.";
+    table("#newemp", [{ h: "Employer", k: "employer" }, { h: "Open now", k: "open_now", n: 1 }, { h: "First seen", k: "first_seen" }], ne);
     table("#sources", [
       { h: "Employer", k: "employer" }, { h: "Hiring system", k: "system" },
       { h: "Lane openings", k: "openings", n: 1 },

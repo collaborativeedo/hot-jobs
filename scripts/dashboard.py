@@ -57,10 +57,12 @@ def today_detail(jobs_doc, employers, sources, history):
     shown = Counter(j.get("employer") for j in jobs_doc.get("jobs", []) if j.get("employer"))
     top = [{"employer": k, "openings_shown": v, "industry": (employers.get(k) or {}).get("industry", ""),
             "first_seen": (employers.get(k) or {}).get("first_seen", "")} for k, v in shown.most_common(25)]
+    from enrich import clean_employer
     new = sorted(({"employer": k, "first_seen": v.get("first_seen", ""), "open_now": v.get("open_now", 0),
-                   "platform": v.get("platform", "")} for k, v in employers.items()
-                  if not k.startswith("Unnamed") and v.get("open_now") and v.get("first_seen", "") >= _days_before(day, 7)),
-                 key=lambda r: (r["first_seen"], -r["open_now"]), reverse=True)[:40]
+                   "industry": v.get("industry", ""), "platform": v.get("platform", "")} for k, v in employers.items()
+                  if not k.startswith("Unnamed") and v.get("open_now") and clean_employer(k) == k
+                  and v.get("first_seen", "") >= _days_before(day, 7)),
+                 key=lambda r: (-r["open_now"], r["employer"].lower()))
     src = sorted(({"employer": _clean_name(s.get("employer")) or ("Public employers (NEOGOV)" if s.get("multi") else k),
                    "system": s.get("platform", ""), "openings": s.get("lane_openings", 0), "status": s.get("status", ""),
                    "added_by_name": bool(s.get("named")), "first_seen": s.get("first_seen", "")}
