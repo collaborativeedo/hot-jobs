@@ -231,9 +231,13 @@
     });
     signal("load");
     if ("IntersectionObserver" in window) {
+      // Counted as seen once 200px of it (or half, if it is shorter) is on screen. A share-of-widget threshold
+      // never trips on a phone, because the full job list is several screens tall.
       var seen = new IntersectionObserver(function (entries) {
-        if (entries.some(function (x) { return x.isIntersecting; })) { signal("view"); seen.disconnect(); }
-      }, { threshold: 0.25 });
+        if (entries.some(function (x) {
+          return x.isIntersecting && x.intersectionRect.height >= Math.min(200, x.boundingClientRect.height / 2);
+        })) { signal("view"); seen.disconnect(); }
+      }, { threshold: [0, 0.02, 0.05, 0.1, 0.2, 0.4] });
       seen.observe(root);
     }
   }
