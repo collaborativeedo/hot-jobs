@@ -21,7 +21,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 300   # first nights after adding many sources run long; the dashboard shows step times
     steps:
       - uses: actions/checkout@v4
         with:
