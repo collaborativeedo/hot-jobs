@@ -200,5 +200,16 @@
    "Dashboard: 456 employers hiring, 129 sources.",
    "Widget: 817 shown of 2561 postings."
   ]
+ },
+ {
+  "date": "2026-10-29T02:51+00:00",
+  "ok": true,
+  "notes": [
+   "QualityInfo: 2250 listings from 225 pages (reported 2250).",
+   "WorkSource pages: 42 read tonight, 0 failed, 428 on file.",
+   "Employer posting pages: 114 read tonight, 0 failed, 37 of 114 on file state pay.",
+   "Dashboard: 424 employers hiring, 146 sources.",
+   "Widget: 799 shown of 2571 postings."
+  ]
  }
 ]
