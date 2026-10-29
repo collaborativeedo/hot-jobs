@@ -173,7 +173,7 @@ margaret barbara elizabeth patrick peter laura julie amy anne ann jean carol deb
 kathleen helen andrea rachel heather nicole melissa michelle rebecca timothy jason jeffrey ryan eric jacob gregory frank
 larry dennis jerry tyler aaron jose adam henry douglas nathan zachary kyle walter harold carl arthur roger joe terry
 preet parisa bryan""".split())
-CRED = re.compile(r"\b(MD|DMD|DDS|DO|ATY|AGT|LO|OD|DC|LCSW|LPC|PhD|CPA PC)\b\.?$")
+CRED = re.compile(r"\b(MD|DMD|DDS|DO|ATY|AGT|LO|OD|DC|LCSW|LPC|PhD|CPA PC|DNP|NP|PA-C)\b\.?$")
 FRANCHISE = re.compile(r"state farm|farmers insurance|allstate|edward jones|american income life|new york life|primerica|"
                        r"northwestern mutual|mary kay|shaklee|watkins products|liberty tax|nationwide insurance|aflac", re.I)
 JUNK = re.compile(r"&$|^(?![A-Z]{2,5}$)[A-Za-z]{1,4}$|^good$|complaint line|worksource|employment division|fish & wildlife|^buy \d|science library|"
