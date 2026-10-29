@@ -24,6 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main          # always publish the newest data, even when this run was queued behind a refresh
           fetch-depth: 0
 
       - uses: actions/setup-python@v5
