@@ -366,7 +366,8 @@ def pull_direct(qi_jobs, fetcher, today):
         key, src = found if found else (f"page:{url.lower().rstrip('/')}", {"platform": "Careers page", "url": url,
                                                                              "host": re.sub(r"^https?://([^/]+).*$", r"\1", url).lower()})
         rec = sources.setdefault(key, dict(src, first_seen=today, employer=""))
-        rec.update(employer=site["employer"], local=bool(site.get("local")), home=site.get("home", ""), named=True)
+        rec.update(employer=site["employer"], local=bool(site.get("local")), home=site.get("home", ""), named=True,
+                   weekly=bool(site.get("weekly")))
     for host in ("www.governmentjobs.com", "www.schooljobs.com"):  # public employers; one search covers all of them
         sources.setdefault(f"neogov:{host}", {"platform": "NEOGOV", "host": host, "first_seen": today,
                                               "employer": "", "multi": True})
@@ -397,6 +398,10 @@ def pull_direct(qi_jobs, fetcher, today):
     queue = sorted(sources.items())
     while queue:
         key, src = queue.pop(0)
+        # Pages that rarely have openings are read once a week, on a day set by their address, to keep the run short.
+        if src.get("weekly") and not src.get("lane_openings") and src.get("last_run") and \
+                __import__("zlib").crc32(key.encode()) % 7 != dt.date.fromisoformat(today).weekday():
+            continue
         if src["platform"] == "Careers page":
             fn = lambda f, s: ats.pull_careers_page(f, s, browser)  # noqa: E731
         else:
