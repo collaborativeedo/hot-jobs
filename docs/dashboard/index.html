@@ -157,6 +157,16 @@
     <div class="card"><div class="scroll" id="sources"></div></div>
   </section>
 
+  <section aria-labelledby="h-runs">
+    <h2 id="h-runs">Nightly processes</h2>
+    <p class="note" id="runsnote">The automated jobs behind Hot Jobs: when each last ran, how long it took, and whether it finished cleanly. A failed or missing nightly run means the widget is showing the previous day's listings.</p>
+    <div class="card"><h3>Automated jobs</h3><p class="cap">Last 10 runs of each. "Problems" counts runs that ended in failure or timed out; cancelled runs are left out. Times are Pacific.</p><div class="scroll" id="runs"></div></div>
+    <div class="grid2">
+      <div class="card"><h3>Last nightly refresh, step by step</h3><p class="cap" id="stepcap">Minutes spent on each part of the most recent nightly run.</p><div class="scroll" id="steps"></div></div>
+      <div class="card"><h3>Warnings from recent nightly runs</h3><p class="cap">Notes the run logged about sources that failed, refused automated visits or were skipped. Most are routine; the same warning night after night is worth a look.</p><div class="scroll" id="warns"></div></div>
+    </div>
+  </section>
+
   <footer>
     Data: Oregon Employment Department QualityInfo Job Finder and WorkSource Oregon listings, plus employers' own hiring systems, collected nightly by Collaborative Economic Development Oregon for Lane Workforce Partnership.
     Sector ("type of work") comes from each posting's federal occupation code where available, otherwise from the job title. Counts are of postings, not positions; one posting can cover several hires, and not every opening is posted online.
@@ -177,7 +187,48 @@
   Promise.all([fetch("history.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
                fetch("today.json", { cache: "no-cache" }).then(function (r) { return r.json(); })])
     .then(function (res) { H = res[0]; T = res[1]; draw(); })
-    .catch(function () { $("#tiles").textContent = "Dashboard data is not available right now."; });
+    .catch(function () { $("#tiles").textContent = "Dashboard data is not available right now."; })
+    .then(loadRuns);
+
+  function loadRuns() {
+    fetch("runs.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(processes)
+      .catch(function () { $("#runs").textContent = "Not recorded yet; this fills in after the next nightly run."; });
+  }
+
+  function processes(R) {
+    var wf = R.workflows || [];
+    var res = function (r) { return r.result === "success" ? "Finished" : r.result === "running" ? "Running now" : r.result === "cancelled" ? "Cancelled" : r.result === "failure" ? "Failed" : r.result === "timed_out" ? "Timed out" : r.result; };
+    var cls = function (r) { return r.result === "success" ? "status-ok" : (/fail|timed/.test(r.result) ? "status-bad" : null); };
+    table("#runs", [
+      { h: "Process", f: function (w) { return w.workflow; } },
+      { h: "What it does", f: function (w) { return w.about; } },
+      { h: "Last run", f: function (w) { return w.last.started + " (" + w.last.trigger + ")"; } },
+      { h: "Result", f: function (w) { return res(w.last); }, cls: function (w) { return cls(w.last); } },
+      { h: "Minutes", f: function (w) { return w.last.minutes == null ? "–" : String(w.last.minutes); }, n: 1 },
+      { h: "Typical", f: function (w) { return w.median_minutes == null ? "–" : String(w.median_minutes); }, n: 1 },
+      { h: "Problems", f: function (w) { return w.failures + " of " + w.finished; }, n: 1 }], wf);
+    var nightly = wf.filter(function (w) { return w.workflow === "Refresh and publish"; })[0];
+    if (nightly) {
+      var lastNight = nightly.runs.filter(function (r) { return r.trigger !== "code change" && r.result !== "cancelled"; })[0];
+      var bad = lastNight && /fail|timed/.test(lastNight.result);
+      var stale = T.updated && (Date.now() - new Date(T.updated)) > 30 * 3600 * 1000;
+      if (bad || stale) {
+        var warn = el("p", "status-bad", bad ? "The last nightly refresh did not finish (" + res(lastNight) + ", " + lastNight.started + "). The widget is showing older listings." : "No successful refresh in over 30 hours. The widget is showing older listings.");
+        $("#runsnote").parentNode.insertBefore(warn, $("#runsnote"));
+        var top = el("p", "status-bad", warn.textContent + " See Nightly processes at the bottom of this page."); $("#updated").closest("p").after(top);
+      }
+    }
+    var N = R.nightly || [];
+    if (N[0]) {
+      $("#stepcap").textContent = "Minutes spent on each part of the nightly run of " + N[0].date + " (Pacific)" + (N[0].ok ? "." : ", which stopped early.");
+      var total = (N[0].steps || []).reduce(function (a, s) { return a + s.minutes; }, 0);
+      table("#steps", [{ h: "Step", k: "step" }, { h: "Minutes", f: function (s) { return String(s.minutes); }, n: 1 }],
+            (N[0].steps || []).concat(N[0].steps && N[0].steps.length ? [{ step: "Total", minutes: Math.round(total * 10) / 10 }] : []));
+    } else { $("#steps").textContent = "Not recorded yet."; }
+    var rows = [];
+    N.forEach(function (n) { (n.warnings || []).forEach(function (w) { rows.push({ date: n.date.slice(0, 10), w: w }); }); });
+    table("#warns", [{ h: "Night", k: "date" }, { h: "Warning", k: "w" }], rows.slice(0, 40));
+  }
 
   document.querySelector(".filters").addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (!b) return;

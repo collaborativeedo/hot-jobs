@@ -121,6 +121,7 @@ def listing_feedback(rows):
     """Per-listing answers to "Was this job still open?", quick returns, and case-manager list use."""
     per = defaultdict(lambda: {"yes": 0, "no": 0, "quick": 0, "last": "", "employer": ""})
     lists = defaultdict(lambda: defaultdict(int))
+    reports = {}
     for r in rows:
         ev, label, n, day = r["event"], r["label"] or "", r["n"], r["day"]
         if ev == "stillopen":
@@ -134,6 +135,14 @@ def listing_feedback(rows):
         elif ev == "quickreturn" and label:
             per[label]["quick"] += n
             per[label]["last"] = max(per[label]["last"], day)
+        elif ev == "report":
+            kind, _, rest = label.partition("|")
+            jid, _, emp = rest.partition("|")
+            if jid:
+                rec = reports.setdefault(jid, {"id": jid, "employer": emp, "closed": 0, "link": 0, "details": 0, "other": 0, "last": ""})
+                rec[kind if kind in ("closed", "link", "details", "other") else "other"] += n
+                rec["employer"] = rec["employer"] or emp
+                rec["last"] = max(rec["last"], day)
         elif ev == "shortlist":
             act = label.partition("|")[0] or "other"
             lists[day][act] += n
@@ -145,6 +154,8 @@ def listing_feedback(rows):
                        "quick_returns": sum(v["quick"] for v in per.values())},
         "flagged_listings": flagged,
         "shortlists_by_day": [{"date": d, **dict(v)} for d, v in sorted(lists.items())],
+        "reports": sorted(reports.values(), key=lambda r: (r["last"], r["closed"] + r["link"] + r["details"] + r["other"]),
+                          reverse=True)[:100],
     }
     return feedback, quality
 

@@ -12,6 +12,8 @@
  *   data-target="my-div-id"                   draw inside an existing element
  * The widget reads jobs.json from the same folder as this file, so updating
  * that file updates every site that embeds the widget.
+ * "See a problem with a listing?" opens a short form inside the widget; reports go to the anonymous counter
+ * (no email address is shown and nothing leaves the page).
  * A link ending in #hotjobs=<id>.<id>... opens a list of jobs someone picked (see "Make a list for someone").
  */
 (function () {
@@ -22,7 +24,6 @@
   // Anonymous counts for the staff traffic page: widget shown, scrolled into view, apply clicks, "still open?"
   // answers and list use. No cookies. Skipped when the browser asks not to be tracked.
   var COUNTER = "https://hot-jobs-analytics.collaborativeedo.workers.dev";
-  var REPORT = "mailto:info@collaborativeedo.org?subject=" + encodeURIComponent("Hot Jobs: problem with a listing");
   var QR_LIB = "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js";
   var MAX_LIST = 12;
   function signal(ev, extra) {
@@ -60,7 +61,7 @@
           '<a href="https://www.qualityinfo.org/jfind" target="_blank" rel="noopener">QualityInfo Job Finder</a> and employers\' own hiring sites' +
           (upd ? ". Updated " + upd : "") +
           ". Average pay figures come from Oregon Employment Department wage data for the occupation, not from the posting. Not every opening is posted online. This is a pilot." +
-          ' See a problem with a listing? <a href="' + REPORT + '">Let us know</a>.';
+          ' See a problem with a listing? <button type="button" class="lchj-link" data-report="open">Let us know</button>.';
       },
       ask: "Was this job still open?", yes: "Yes", no: "No", thanks: "Thanks. That helps keep the list accurate.",
       makeList: "Make a list for someone", listHint: "Pick up to " + MAX_LIST + " jobs, then copy a link, show a QR code, or print a one-page list.",
@@ -69,7 +70,11 @@
       listFor: function (n) { return "A list of " + n + " job" + (n === 1 ? "" : "s") + " picked for you"; },
       gone: function (k) { return k + (k === 1 ? " job on this list is" : " jobs on this list are") + " no longer listed."; },
       showAll: "Show all jobs", sheetTitle: "Jobs picked for you", scan: "Scan for the latest version of this list",
-      daily: "Listings change daily. Check the link for the latest.", applyAt: "Apply:"
+      daily: "Listings change daily. Check the link for the latest.", applyAt: "Apply:",
+      rTitle: "Report a problem with a listing", rJob: "Which job?", rChoose: "Choose a job", rRecent: "Jobs you opened", rAll: "All listings",
+      rKind: "What's wrong?", rKinds: { closed: "The job is closed", link: "The link doesn't work", details: "Pay, location or employer is wrong", other: "Something else is wrong" },
+      rSend: "Send report", rCancel: "Cancel", rNeed: "Choose a job and what's wrong.",
+      rThanks: "Thanks. We review reports and fix or remove listings that are wrong."
     },
     es: {
       title: "Empleos disponibles en el condado de Lane", loading: "Cargando empleos…", lang: "English", langLabel: "View in English",
@@ -91,7 +96,7 @@
           '<a href="https://www.qualityinfo.org/jfind" target="_blank" rel="noopener">Job Finder de QualityInfo</a> del Departamento de Empleo de Oregón y de los sitios de contratación de los empleadores' +
           (upd ? ". Actualizado el " + upd : "") +
           ". Los promedios de pago provienen de los datos salariales del Departamento de Empleo de Oregón para la ocupación, no del anuncio. No todas las vacantes se publican en línea. Los anuncios aparecen tal como los publicó cada empleador, por lo general en inglés. Este es un proyecto piloto." +
-          ' ¿Ve un problema con un anuncio? <a href="' + REPORT + '">Avísenos</a>.';
+          ' ¿Ve un problema con un anuncio? <button type="button" class="lchj-link" data-report="open">Avísenos</button>.';
       },
       ask: "¿Seguía abierto este empleo?", yes: "Sí", no: "No", thanks: "Gracias. Eso nos ayuda a mantener la lista al día.",
       makeList: "Hacer una lista para alguien", listHint: "Elija hasta " + MAX_LIST + " empleos y luego copie un enlace, muestre un código QR o imprima una lista de una página.",
@@ -100,7 +105,11 @@
       listFor: function (n) { return "Una lista de " + n + (n === 1 ? " empleo elegido" : " empleos elegidos") + " para usted"; },
       gone: function (k) { return k + (k === 1 ? " empleo de esta lista ya no aparece." : " empleos de esta lista ya no aparecen."); },
       showAll: "Ver todos los empleos", sheetTitle: "Empleos elegidos para usted", scan: "Escanee para ver la versión más reciente de esta lista",
-      daily: "Los anuncios cambian a diario. Consulte el enlace para ver lo más reciente.", applyAt: "Solicitar:"
+      daily: "Los anuncios cambian a diario. Consulte el enlace para ver lo más reciente.", applyAt: "Solicitar:",
+      rTitle: "Reportar un problema con un anuncio", rJob: "¿Qué empleo?", rChoose: "Elija un empleo", rRecent: "Empleos que abrió", rAll: "Todos los anuncios",
+      rKind: "¿Cuál es el problema?", rKinds: { closed: "El empleo ya está cerrado", link: "El enlace no funciona", details: "El pago, el lugar o el empleador están mal", other: "Otro problema" },
+      rSend: "Enviar reporte", rCancel: "Cancelar", rNeed: "Elija un empleo y cuál es el problema.",
+      rThanks: "Gracias. Revisamos los reportes y corregimos o quitamos los anuncios con errores."
     }
   };
   var ES_VALUES = {
@@ -197,6 +206,16 @@
     ".lchj .lchj-qr img,.lchj .lchj-qr canvas{width:180px;height:180px}",
     ".lchj .lchj-foot{font-size:12px;color:var(--mu);border-top:1px solid var(--ln);padding-top:10px;margin:0}",
     ".lchj .lchj-foot a{color:var(--a)}",
+    ".lchj .lchj-foot button.lchj-link{font-size:12px;font-weight:400;display:inline}",
+    ".lchj .lchj-report{border:1px solid var(--ln);border-radius:10px;padding:12px;font-size:14px;display:flex;flex-direction:column;gap:10px}",
+    ".lchj .lchj-report select{font:inherit;font-size:14px;padding:6px;border:1px solid var(--ln);border-radius:6px;max-width:100%;width:100%}",
+    ".lchj .lchj-report fieldset{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}",
+    ".lchj .lchj-report legend{font-weight:600;padding:0;margin-bottom:2px}",
+    ".lchj .lchj-report label{display:flex;gap:8px;align-items:center;font-weight:400;margin:0}",
+    ".lchj .lchj-report .lchj-rbtns{display:flex;gap:8px;flex-wrap:wrap;align-items:center}",
+    ".lchj .lchj-report .lchj-rbtns button{font:inherit;font-size:13px;font-weight:600;border:1px solid var(--a);border-radius:8px;padding:5px 14px;margin:0;cursor:pointer;width:auto;min-height:0;text-transform:none;box-shadow:none;background:var(--a);color:#fff}",
+    ".lchj .lchj-report .lchj-rbtns button.alt{background:#fff;color:var(--a)}",
+    ".lchj .lchj-report .lchj-rmsg{color:var(--mu);font-size:13px}",
     "@media (max-width:520px){.lchj .lchj-controls{grid-template-columns:1fr}.lchj{padding:12px}.lchj .lchj-when{margin-left:0}}"
   ].join("\n");
 
@@ -279,7 +298,8 @@
       hours: list(opt.hours), ease: [],
       shared: hashIds(),      // a list someone picked, opened from a link
       picking: false, picked: [], qrOpen: false, copied: false, linkShown: false,
-      ask: null, answered: {}  // "Was this job still open?"
+      ask: null, answered: {},  // "Was this job still open?"
+      reporting: false, reported: false, recent: []  // "See a problem?" form; jobs opened this visit
     };
     if (st.shared.length) signal("shortlist", { act: "open", n: st.shared.length });
 
@@ -306,7 +326,7 @@
         '<div class="lchj-active" hidden><span class="lchj-sum"></span><button type="button" class="lchj-clear">' + esc(t("clear")) + "</button></div></div>" +
         '<ul class="lchj-jobs"></ul><button type="button" class="lchj-more">' + esc(t("more")) + "</button>" +
         '<div class="lchj-tray" hidden></div>' +
-        '<p class="lchj-foot"></p>';
+        '<p class="lchj-foot"></p><div class="lchj-report" hidden></div>';
       $(".lchj-h").textContent = opt.title || t("title");
       $(".lchj-filters").style.cssText = "display:flex;flex-direction:column;gap:12px";
       $(".lchj-q").value = st.q;
@@ -396,6 +416,27 @@
       if (st.qrOpen && n) qrInto(tr.querySelector(".lchj-qrbox"), shareLink());
       var inp = tr.querySelector("input[readonly]");
       if (inp) { inp.focus(); inp.select(); }
+    }
+    function reportPanel() {
+      var box = $(".lchj-report");
+      if (!st.reporting) { box.hidden = true; box.innerHTML = ""; return; }
+      box.hidden = false;
+      if (st.reported) { box.innerHTML = '<div class="lchj-rmsg" role="status">' + esc(t("rThanks")) + "</div>"; return; }
+      var opt1 = function (j) { return '<option value="' + esc(j.id) + '">' + esc(j.title + (j.employer ? " — " + j.employer : "") + (j.city ? ", " + j.city : "")) + "</option>"; };
+      var recent = st.recent.map(function (id) { return byId[id]; }).filter(Boolean);
+      var all = jobs.filter(function (j) { return j.id; }).slice().sort(function (a, b) { return a.title.localeCompare(b.title); });
+      var kinds = t("rKinds");
+      box.innerHTML = "<b>" + esc(t("rTitle")) + "</b>" +
+        '<label style="flex-direction:column;align-items:stretch;gap:4px"><span style="font-weight:600">' + esc(t("rJob")) + "</span>" +
+        '<select class="lchj-rjob"><option value="">' + esc(t("rChoose")) + "</option>" +
+        (recent.length ? '<optgroup label="' + esc(t("rRecent")) + '">' + recent.map(opt1).join("") + "</optgroup>" : "") +
+        '<optgroup label="' + esc(t("rAll")) + '">' + all.map(opt1).join("") + "</optgroup></select></label>" +
+        "<fieldset><legend>" + esc(t("rKind")) + "</legend>" +
+        Object.keys(kinds).map(function (k) { return '<label><input type="radio" name="lchj-rk" value="' + k + '"> ' + esc(kinds[k]) + "</label>"; }).join("") +
+        "</fieldset>" +
+        '<div class="lchj-rbtns"><button type="button" data-report="send">' + esc(t("rSend")) + '</button><button type="button" class="alt" data-report="cancel">' +
+        esc(t("rCancel")) + '</button><span class="lchj-rmsg" role="status"></span></div>';
+      if (recent.length) box.querySelector(".lchj-rjob").value = recent[0].id;
     }
     function render() {
       var f;
@@ -503,6 +544,17 @@
         if (act === "print") printSheet();
         signal("shortlist", { act: act, n: st.picked.length });
         return;
+      } else if (b.dataset.report) {
+        var r = b.dataset.report;
+        if (r === "open") { st.reporting = true; st.reported = false; reportPanel(); var s1 = $(".lchj-rjob"); if (s1) s1.focus(); return; }
+        if (r === "cancel") { st.reporting = false; reportPanel(); return; }
+        if (r === "send") {
+          var jid = $(".lchj-rjob").value, k = root.querySelector('input[name="lchj-rk"]:checked');
+          if (!jid || !k) { $(".lchj-rmsg").textContent = t("rNeed"); return; }
+          signal("report", { id: jid, k: k.value, emp: (byId[jid] || {}).employer || "" });
+          st.reported = true; reportPanel(); return;
+        }
+        return;
       } else if (b.dataset.ask) {
         var j = byId[st.ask] || {};
         st.answered[st.ask] = true;
@@ -521,7 +573,10 @@
       if (!a || !root.contains(a)) return;
       var j = byUrl[a.getAttribute("href")] || {};
       signal("apply", { emp: j.employer || "Employer not listed", t: j.type || "" });
-      if (j.id) opened = { id: j.id, at: Date.now() };
+      if (j.id) {
+        opened = { id: j.id, at: Date.now() };
+        st.recent = [j.id].concat(st.recent.filter(function (x) { return x !== j.id; })).slice(0, 5);
+      }
     });
     function back() {
       if (document.visibilityState === "hidden" || !opened) return;

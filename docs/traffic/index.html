@@ -127,6 +127,7 @@
     <p class="note">When someone opens a posting and comes back within two minutes, the widget asks that one listing "Was this job still open?" A listing with two or more "No" answers (and more than twice as many as "Yes") is dropped the next night. "Lists" counts case managers copying, showing as a QR code, or printing a list of jobs they picked, and clients opening one. All time, all sites.</p>
     <div class="tiles" id="qtiles"></div>
     <div class="card" style="margin-top:12px"><h3>Listings people said were closed</h3><p class="cap">More "No" than "Yes" answers. Titles show while the posting is still listed.</p><div class="scroll" id="flagged"></div></div>
+    <div class="card" style="margin-top:12px"><h3>Problems reported</h3><p class="cap">From the "See a problem with a listing?" form at the bottom of the widget, newest first. People pick a listing and a problem from a fixed list; no messages or contact details are collected.</p><div class="scroll" id="reports"></div></div>
   </section>
 
   </div>
@@ -233,6 +234,10 @@
         { h: "Listing", f: function (r) { return (titles && titles[r.id]) || "No longer listed"; } },
         { h: "Employer", k: "employer" }, { h: "No", n: 1, k: "no" }, { h: "Yes", n: 1, k: "yes" },
         { h: "Came back fast", n: 1, k: "quick" }, { h: "Last answer", k: "last" }], D.flagged_listings || []);
+      table("#reports", [
+        { h: "Listing", f: function (r) { return (titles && titles[r.id]) || "No longer listed"; } },
+        { h: "Employer", k: "employer" }, { h: "Closed", n: 1, k: "closed" }, { h: "Broken link", n: 1, k: "link" },
+        { h: "Wrong details", n: 1, k: "details" }, { h: "Other", n: 1, k: "other" }, { h: "Last report", k: "last" }], D.reports || []);
     };
     if (titles) return draw();
     fetch("../jobs.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {

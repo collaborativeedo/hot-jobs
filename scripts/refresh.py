@@ -694,6 +694,13 @@ def main():
     args = ap.parse_args()
     log = []
     run_date = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
+    marks = [("start", time.time())]  # phase timings for the staff dashboard's "Nightly processes" section
+
+    def mark(name):
+        marks.append((name, time.time()))
+
+    def minutes():
+        return [{"step": n, "minutes": round((t - marks[i][1]) / 60, 1)} for i, (n, t) in enumerate(marks[1:])]
 
     if args.fixture:
         # Offline test: write to tests/out/ so real data is never touched.
@@ -723,11 +730,14 @@ def main():
 
     if not raw:
         # Never overwrite good data with an empty pull: fail loudly so the run shows red.
-        write_run_log({"date": run_date, "ok": False, "notes": log})
+        mark("QualityInfo")
+        write_run_log({"date": run_date, "ok": False, "notes": log, "steps": minutes()})
         sys.exit("No listings parsed. QualityInfo may have changed its page; check PARAMS and parse_page().")
 
+    mark("QualityInfo")
     if not args.fixture:
         raw += national_labor_exchange(raw, log)
+        mark("National Labor Exchange")
     jobs = [tag(j) for j in dedupe(raw)]
     today = dt.date.today().isoformat()
     wages = json.loads(WAGES.read_text()) if WAGES.exists() and not args.fixture else {}
@@ -737,13 +747,17 @@ def main():
         fetcher = direct.Fetcher()
         auto_name_domains(jobs, fetcher, today)
         jobs = [tag(j) for j in pull_direct(jobs, fetcher, today)]
+        mark("Employer hiring sites")
         read_oed_pages(jobs, fetcher, today, log)
         read_posting_pages(jobs, fetcher, today, log)
+        mark("Posting pages (pay, details)")
     add_details(jobs, wages)
     tag_barriers(jobs, log, offline=bool(args.fixture))
+    mark("Barrier tags")
     dead_dropped = 0
     if not args.fixture:
         jobs, dead_dropped = drop_dead_links(jobs, log)
+        mark("Dead-link check")
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
 
     live_ids = set()
@@ -804,7 +818,8 @@ def main():
         import archive  # every posting pulled tonight, kept for later analysis (data/archive/)
         archive.save(jobs, today, employers=json.loads(EMPLOYERS.read_text()))
         log.append(f"Widget: {len(show)} shown of {len(jobs)} postings.")
-        write_run_log({"date": run_date, "ok": True, "notes": log})
+        mark("Dashboard and archive")
+        write_run_log({"date": run_date, "ok": True, "notes": log, "steps": minutes()})
     print(f"Widget shows {len(show)} (up to {SHOW_DAYS} days old, direct links only).")
     print(f"QualityInfo reported {total}; parsed {len(raw)}; kept {len(jobs)} after duplicates; "
           f"{sum(1 for r in state.values() if 'closed' in r)} closed to date.")
