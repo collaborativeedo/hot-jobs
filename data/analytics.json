@@ -1,1 +1,6 @@
-{"endpoint": "", "database_id": "26eb89b4-c158-42cf-b11e-13ca5f9bf78c"}
+{
+ "endpoint": "",
+ "database_id": "26eb89b4-c158-42cf-b11e-13ca5f9bf78c",
+ "subdomain": "",
+ "deploy_note": "e latest version.   After installation, run Wrangler with `npx wrangler`.   Total Upload: 3.00 KiB / gzip: 1.39 KiB Worker Startup Time: 1 ms Your worker has access to the following bindings: - D1 Databases:   - DB: hot-jobs-analytics (26eb89b4-c158-42cf-b11e-13ca5f9bf78c) Uploaded hot-jobs-analytics (2.81 sec) Deployed hot-jobs-analytics triggers (0.76 sec)   https://hot-jobs-analytics.collaborativeedo.workers.dev   schedule: 40 11 * * * Current Version ID: 0ec7bc96-cb72-40c1-9f1b-4849a4611097 "
+}
