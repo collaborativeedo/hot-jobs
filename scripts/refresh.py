@@ -401,6 +401,35 @@ def drop_dead_links(jobs, log):
     return keep, dropped
 
 
+def national_labor_exchange(raw, log):
+    """Lane County postings from the National Labor Exchange that QualityInfo doesn't already list.
+    A posting counts as already listed when QualityInfo has the same title in the same town (and, when both name
+    an employer, the same employer) or the same link."""
+    try:
+        import nlx
+        found = nlx.pull(log)
+    except Exception as e:  # noqa: BLE001 - NLx is an extra source; the run goes on without it
+        log.append(f"NLx pull failed: {type(e).__name__}: {str(e)[:150]}")
+        return []
+    norm = lambda t: re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()  # noqa: E731
+    emp = lambda t: re.sub(r"[^a-z0-9]", "", re.sub(r"\b(inc|llc|co|corp|company|the|usa)\b", "", (t or "").lower()))  # noqa: E731
+    have_title = {}
+    for j in raw:
+        have_title.setdefault((norm(j["title"]), j["city"]), set()).add(emp(rules.employer(f'{j["title"]} {j["snippet"]}') or ""))
+    have_url = {direct.posting_key(j["url"]) for j in raw if j.get("url")}
+    keep = []
+    for j in found:
+        names = have_title.get((norm(j["title"]), j["city"]))
+        e = emp(j.get("employer"))
+        if direct.posting_key(j["url"]) in have_url:
+            continue
+        if names is not None and (not e or "" in names or any(n and (n in e or e in n) for n in names)):
+            continue
+        keep.append(j)
+    log.append(f"NLx: {len(found)} Lane County postings, {len(found) - len(keep)} already on QualityInfo, {len(keep)} added.")
+    return keep
+
+
 def apply_label(j):
     if j["route"] == "WorkSource Oregon listing":
         return "Apply through WorkSource Oregon"
@@ -697,6 +726,8 @@ def main():
         write_run_log({"date": run_date, "ok": False, "notes": log})
         sys.exit("No listings parsed. QualityInfo may have changed its page; check PARAMS and parse_page().")
 
+    if not args.fixture:
+        raw += national_labor_exchange(raw, log)
     jobs = [tag(j) for j in dedupe(raw)]
     today = dt.date.today().isoformat()
     wages = json.loads(WAGES.read_text()) if WAGES.exists() and not args.fixture else {}

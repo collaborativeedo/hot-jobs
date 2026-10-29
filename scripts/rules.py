@@ -292,7 +292,7 @@ def type_from_title(title):
 
 
 # ---- How a posting is reached -----------------------------------------------
-JOB_BOARDS = {"simplyhired.com","indeed.com","gr8jobs.net","disabledperson.com","joblinkapply.com","employeebenefitsjobs.com","dejobs.org","diversityjobs.com","healthecareers.com","careersinaudit.com","eugenejobs.net","academiccareers.com","planning.org","apwa.org","awwa.org","globaltalentpartners.com","madison.com","netimpact.org","federalgovernmentjobs.us","jobmonkeyjobs.com","equest.com","conbio.org","careerarc.com","healthjobsnationwide.com","fairygodboss.com","jobit.com","jobtarget.com","chronicle.com","idealist.org","themuse.com","schoolspring.com","womensjoblist.com","conservationjobboard.com","dice.com","efinancialcareers.com","salesheads.com","constructionjobs.com","blazerjobs.com","partnersindiversity.org","gopromotive.com","nwppa.org","avma.org"}
+JOB_BOARDS = {"dejobs.org","usnlx.com","jobsyn.org","simplyhired.com","indeed.com","gr8jobs.net","disabledperson.com","joblinkapply.com","employeebenefitsjobs.com","dejobs.org","diversityjobs.com","healthecareers.com","careersinaudit.com","eugenejobs.net","academiccareers.com","planning.org","apwa.org","awwa.org","globaltalentpartners.com","madison.com","netimpact.org","federalgovernmentjobs.us","jobmonkeyjobs.com","equest.com","conbio.org","careerarc.com","healthjobsnationwide.com","fairygodboss.com","jobit.com","jobtarget.com","chronicle.com","idealist.org","themuse.com","schoolspring.com","womensjoblist.com","conservationjobboard.com","dice.com","efinancialcareers.com","salesheads.com","constructionjobs.com","blazerjobs.com","partnersindiversity.org","gopromotive.com","nwppa.org","avma.org"}
 
 def route(url):
     host = re.sub(r"^https?://([^/]+).*$", r"\1", url).lower()
