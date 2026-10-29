@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-29",
+ "log": [
+  "Eugene: 486 categories.",
+  "Eugene: 659 member listings.",
+  "Springfield: 790 members listed A to Z."
+ ],
+ "members": 1449,
+ "by_chamber": {
+  "Eugene": 659,
+  "Springfield": 790
+ },
+ "status": {
+  "new": 551,
+  "website checked 2026-10-29": 521,
+  "already searched for jobs": 303,
+  "in QualityInfo employer database, queued there": 9,
+  "already an employer on record": 65
+ },
+ "new_this_run": []
+}
