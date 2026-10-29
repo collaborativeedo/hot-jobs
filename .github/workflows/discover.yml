@@ -76,4 +76,4 @@ jobs:
           git config user.name "hot-jobs-bot"
           git config user.email "hot-jobs-bot@users.noreply.github.com"
           git add data/employer-sites.json data/discover-done.json data/discover-summary.json
-          git diff --cached --quiet || (git commit -m "Discovery: employers with job pages from the QualityInfo employer database" && git pull --rebase -X theirs origin main && git push)
+          git diff --cached --quiet || (git commit -m "Discovery: employers with job pages (QualityInfo employer database and chamber directories)" && git pull --rebase -X theirs origin main && git push)

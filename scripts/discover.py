@@ -1,4 +1,5 @@
-"""Find employers' own job listings from the websites in QualityInfo's Employer Database.
+"""Find employers' own job listings from the websites in QualityInfo's Employer Database and the Eugene and
+Springfield chamber of commerce directories (data/chamber-members.json, from scripts/chambers.py).
 
     python scripts/discover.py --build            # queue websites not already searched (data/discover-queue.json)
     python scripts/discover.py --shard 3 --of 15  # visit one slice of the queue (data/discover-out/shard-3.json)
@@ -63,6 +64,12 @@ def covered_domains():
 
 def build():
     db = json.loads(EMPDB.read_text())
+    chambers = DATA / "chamber-members.json"
+    if chambers.exists():  # chamber of commerce members, after the QualityInfo database so its details win
+        for k, v in json.loads(chambers.read_text()).items():
+            db.setdefault(k, {"name": v.get("name", ""), "web": v.get("web", ""), "city": v.get("city", ""),
+                              "business": ", ".join(v.get("categories", [])[:2]),
+                              "list": f"{v.get('chamber', '')} Chamber of Commerce directory"})
     done = json.loads(DONE.read_text()) if DONE.exists() else {}
     covered = covered_domains()
     counts = Counter(domain(v.get("web")) for v in db.values() if v.get("web"))
@@ -83,7 +90,8 @@ def build():
             skipped["checked in the last 90 days"] += 1
         else:
             queue.append({"domain": d, "employer": v.get("name", ""), "city": v.get("city", ""),
-                          "business": v.get("business", ""), "naics": v.get("naics", ""), "locations": counts[d]})
+                          "business": v.get("business", ""), "naics": v.get("naics", ""), "locations": counts[d],
+                          "list": v.get("list", "QualityInfo employer database")})
     QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=0), encoding="utf-8")
     print(f"{len(db)} employers; {len(seen)} distinct websites; queued {len(queue)}; skipped {dict(skipped)}")
 
@@ -215,7 +223,7 @@ def merge():
         chain = r.get("locations", 1) >= 3
         sites.append({"employer": name, "careers_url": r["careers_url"], "local": not chain,
                       "home": "" if chain else r.get("city", ""), "found": TODAY,
-                      "list": "QualityInfo employer database", "weekly": ACCEPT[r["outcome"]]})
+                      "list": r.get("list", "QualityInfo employer database"), "weekly": ACCEPT[r["outcome"]]})
         have |= {r["careers_url"].lower().rstrip("/"), name.lower()}
         added.append(name)
     SITES.write_text(json.dumps(sites, ensure_ascii=False, indent=1), encoding="utf-8")
