@@ -3,6 +3,6 @@
  "database_id": "26eb89b4-c158-42cf-b11e-13ca5f9bf78c",
  "subdomain": "collaborativeedo",
  "selftest": "http 204, rows counted 1",
- "readcheck": "Traffic: 2 sites, 41 loads, 27 views, 10 apply clicks ",
- "deploy_note": "abases:   - DB: hot-jobs-analytics (26eb89b4-c158-42cf-b11e-13ca5f9bf78c) Uploaded hot-jobs-analytics (2.64 sec) Deployed hot-jobs-analytics triggers (0.60 sec)   https://hot-jobs-analytics.collaborativeedo.workers.dev   schedule: 40 11 * * * Current Version ID: c250e86b-abac-44da-9868-d229b089e125 "
+ "readcheck": "Traffic: 2 sites, 48 loads, 32 views, 10 apply clicks ",
+ "deploy_note": "abases:   - DB: hot-jobs-analytics (26eb89b4-c158-42cf-b11e-13ca5f9bf78c) Uploaded hot-jobs-analytics (1.85 sec) Deployed hot-jobs-analytics triggers (0.41 sec)   https://hot-jobs-analytics.collaborativeedo.workers.dev   schedule: 40 11 * * * Current Version ID: 334f204c-474a-48fe-87b6-4e852b2eb02a "
 }
