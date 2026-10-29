@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: refresh   # shares the lock with the nightly refresh so the two never push at once
+  group: counter   # its one commit rebases before pushing, so it no longer waits on (or cancels) the nightly run
   cancel-in-progress: false
 
 jobs:
