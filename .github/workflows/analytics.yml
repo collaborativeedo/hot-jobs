@@ -42,18 +42,35 @@ jobs:
       - name: Publish the counter
         working-directory: worker
         run: |
-          set -e
-          npx --yes wrangler@3 deploy 2>&1 | tee deploy.log
-          url=$(grep -oE 'https://[a-z0-9.-]+\.workers\.dev' deploy.log | head -1)
+          set -o pipefail
+          API=https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID
+          AUTH="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          # The account needs a workers.dev subdomain; create one named after CEDO if it has none.
+          sub=$(curl -s -H "$AUTH" "$API/workers/subdomain" | python3 -c "import sys,json; print((json.load(sys.stdin).get('result') or {}).get('subdomain') or '')")
+          if [ -z "$sub" ]; then
+            for name in collaborativeedo cedo-hotjobs cedo-lane-hotjobs; do
+              r=$(curl -s -X PUT -H "$AUTH" -H "Content-Type: application/json" -d "{\"subdomain\":\"$name\"}" "$API/workers/subdomain")
+              echo "$r" | head -c 300; echo
+              if echo "$r" | grep -q '"success":true'; then sub=$name; break; fi
+            done
+          fi
+          echo "SUB=$sub" >> "$GITHUB_ENV"
+          npx --yes wrangler@3 deploy 2>&1 | tee deploy.log || true
+          curl -s -X POST -H "$AUTH" -H "Content-Type: application/json" -d '{"enabled":true}' \
+            "$API/workers/scripts/hot-jobs-analytics/subdomain" | head -c 300; echo
+          url=""
+          [ -n "$sub" ] && url="https://hot-jobs-analytics.$sub.workers.dev"
           echo "URL=$url" >> "$GITHUB_ENV"
-          if ! npx --yes wrangler@3 secret list | grep -q '"SALT"'; then
-            python3 -c "import secrets; print(secrets.token_hex(32))" | npx --yes wrangler@3 secret put SALT
+          tail -c 600 deploy.log | tr '\n"' '  ' > deploy.tail
+          echo "NOTE=$(cat deploy.tail)" >> "$GITHUB_ENV"
+          if ! npx --yes wrangler@3 secret list 2>/dev/null | grep -q '"SALT"'; then
+            python3 -c "import secrets; print(secrets.token_hex(32))" | npx --yes wrangler@3 secret put SALT || true
           fi
 
       - name: Record the counter address
         run: |
           mkdir -p data
-          printf '{"endpoint": "%s", "database_id": "%s"}\n' "$URL" "$DB_ID" > data/analytics.json
+          python3 -c "import json,os; json.dump({'endpoint': os.environ.get('URL',''), 'database_id': os.environ.get('DB_ID',''), 'subdomain': os.environ.get('SUB',''), 'deploy_note': os.environ.get('NOTE','')[-500:]}, open('data/analytics.json','w'), indent=1)"
           cat data/analytics.json
           git config user.name "hot-jobs-bot"
           git config user.email "hot-jobs-bot@users.noreply.github.com"
