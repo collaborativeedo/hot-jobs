@@ -339,7 +339,9 @@ def add_details(jobs, wages):
         if not j["employer"]:
             j["employer"] = enrich.clean_employer(enrich.employer_from_text(f'{j["snippet"]}. {desc}'))
         j["pay"] = j.get("pay") or enrich.posted_pay(oed.get("wage", "")) or enrich.posted_pay(text)
-        j["typical_pay"] = enrich.typical_pay(j.get("soc"), wages)
+        # An occupation average would mislead for interns and trainees, so none is shown for them.
+        j["typical_pay"] = "" if re.search(r"\b(intern|internship|trainee|apprentice|student)\b", j["title"], re.I) \
+            else enrich.typical_pay(j.get("soc"), wages)
         j["hours"] = j.get("hours") or enrich.oed_hours(oed) or enrich.job_hours(j["title"], j["snippet"], desc)
         j["workplaces"] = enrich.workplaces(j["employer"], rules.employer_industry(j["employer"]), j["industries"])
         if j.get("remote") or (j["city"] == "Remote") or ats.is_remote(j["title"], ""):

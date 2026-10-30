@@ -386,7 +386,7 @@ _TITLE_SOC = [(re.compile(p, re.I), c) for p, c in [
     (r"assistant teacher|teacher'?s? (aide|assistant)", "259042"), (r"childcare|child care", "399011"),
     (r"\b(adjunct|instructor pool|faculty)\b", "251199"),
     (r"(assistant )?store manager|shift (lead|leader|supervisor)|retail (supervisor|manager)", "411011"),
-    (r"\bgeneral manager\b|club manager", "111021"),
+    (r"\bgeneral manager\b", "111021"),
     (r"logistics manager|warehouse manager|distribution manager", "113071"), (r"\bbuyer\b|purchasing (agent|specialist)", "131023"),
     (r"sourcing manager|purchasing manager|procurement manager", "113061"),
     (r"receiving supervisor|warehouse supervisor|shipping supervisor", "531047"),
