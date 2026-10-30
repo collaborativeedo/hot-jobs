@@ -197,7 +197,7 @@
 
   function processes(R) {
     var wf = R.workflows || [];
-    var res = function (r) { return r.result === "success" ? "Finished" : r.result === "running" ? "Running now" : r.result === "cancelled" ? "Cancelled" : r.result === "failure" ? "Failed" : r.result === "timed_out" ? "Timed out" : r.result; };
+    var res = function (r) { return r.result === "success" ? "Finished" : r.result === "running" ? "Running now" : r.result === "waiting" ? "Waiting to start" : r.result === "cancelled" ? "Cancelled" : r.result === "failure" ? "Failed" : r.result === "timed_out" ? "Timed out" : r.result; };
     var cls = function (r) { return r.result === "success" ? "status-ok" : (/fail|timed/.test(r.result) ? "status-bad" : null); };
     table("#runs", [
       { h: "Process", f: function (w) { return w.workflow; } },

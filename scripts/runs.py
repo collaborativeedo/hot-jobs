@@ -51,7 +51,9 @@ def runs_by_workflow(rows, keep=10):
         start, end = _t(r.get("run_started_at") or r.get("created_at")), _t(r.get("updated_at"))
         running = r.get("status") != "completed"
         mins = round(((now if running else end) - start).total_seconds() / 60, 1) if start and end else None
-        result = "running" if running else (r.get("conclusion") or "unknown")
+        result = ("waiting" if r.get("status") in ("queued", "pending", "waiting") else "running") if running else (r.get("conclusion") or "unknown")
+        if result == "cancelled" and mins and mins >= 175:  # GitHub reports a run stopped at its time limit as cancelled
+            result = "timed_out"
         by.setdefault(name, []).append({"started": _pacific(start) if start else "", "minutes": mins, "result": result,
                                         "trigger": {"schedule": "nightly", "workflow_dispatch": "by hand",
                                                     "push": "code change"}.get(r.get("event"), r.get("event")),
@@ -59,7 +61,7 @@ def runs_by_workflow(rows, keep=10):
     out = []
     for name, rs in by.items():
         rs = rs[:keep]
-        done = [x for x in rs if x["result"] not in ("running", "cancelled", "skipped")]
+        done = [x for x in rs if x["result"] not in ("running", "waiting", "cancelled", "skipped")]
         mins = [x["minutes"] for x in done if x["result"] == "success" and x["minutes"] is not None]
         out.append({"workflow": name, "about": ABOUT.get(name, ""), "last": rs[0],
                     "failures": sum(1 for x in done if x["result"] != "success"), "finished": len(done),
