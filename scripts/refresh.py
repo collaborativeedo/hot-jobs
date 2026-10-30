@@ -417,10 +417,19 @@ def tag_barriers(jobs, log, offline=False):
             reference.transit_tags(jobs, log)
     except Exception as e:  # noqa: BLE001 - the tags are extras; the run goes on without them
         log.append(f"Reference data unavailable: {type(e).__name__}: {str(e)[:120]}")
+    # Employers known to hire with a fair-chance policy (data/fair-chance-employers.json, confirmed by staff):
+    # every posting of theirs gets the tag, whatever the posting itself says.
+    fair = []
+    try:
+        fair = [re.compile(e["match"], re.I) for e in json.loads((ROOT / "data" / "fair-chance-employers.json").read_text())]
+    except Exception:  # noqa: BLE001
+        pass
     for j in jobs:
         occ = no_degree(j.get("soc"), levels) if j.get("soc") and levels else None
         j["eases"] = enrich.eases(j.pop("_text", j["title"]), occ, j.pop("_page_flags", None),
                                   None if j.get("remote") else j.get("near_bus"))
+        if "fair_chance" not in j["eases"] and any(rx.search(j.get("employer") or "") for rx in fair):
+            j["eases"].append("fair_chance")
     n = lambda k: sum(1 for j in jobs if k in j["eases"])  # noqa: E731
     log.append(f"Fewer barriers: near bus {n('bus')}, no degree {n('no_degree')}, training {n('training')}, "
                f"fair chance {n('fair_chance')} of {len(jobs)} postings.")
