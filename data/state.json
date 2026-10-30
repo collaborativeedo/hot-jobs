@@ -267,32 +267,6 @@
 "soc": "131151",
 "title": "Early Childhood Mental Health Consultants"
 },
-"00f150f8c14f": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Junior Staff … Adult & Teen Challenge of Texas",
-"type": "Other"
-},
-"00f27845b42a": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Job Market Outlook",
-"type": "Other"
-},
 "00feebf88188": {
 "city": "Eugene",
 "employer": "",
@@ -427,19 +401,6 @@
 "misses": 26,
 "soc": "",
 "title": "Work Study - LCC Foundation Office Assistant"
-},
-"0179ba7f3777": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant",
-"type": "Other"
 },
 "0183b4471d6f": {
 "city": "Springfield",
@@ -1032,19 +993,6 @@
 "soc": "211093",
 "title": "Milieu Supervisor-2nd Shift"
 },
-"0369a4633eef": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Sacramento, CA",
-"type": "Childcare & education"
-},
 "036edb1cd329": {
 "city": "Oakridge",
 "closed": "2026-10-20",
@@ -1277,19 +1225,6 @@
 "misses": 21,
 "soc": "999999",
 "title": "Park Maintenance Supervisors"
-},
-"04a454589d0c": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Test-optional Admission",
-"type": "Other"
 },
 "04b03dfdd388": {
 "city": "Eugene",
@@ -1544,19 +1479,6 @@
 "soc": "119051",
 "title": "Assistant Managers"
 },
-"0587417d289d": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Education Coordinator",
-"type": "Childcare & education"
-},
 "058eafc26a39": {
 "city": "Springfield",
 "closed": "2026-10-14",
@@ -1579,19 +1501,6 @@
 "source": "OED",
 "title": "Entry Project Controls Specialist",
 "type": "Management & business"
-},
-"059b67999ed6": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Regina, SK",
-"type": "Childcare & education"
 },
 "059f858cfdd8": {
 "city": "Eugene",
@@ -1684,19 +1593,6 @@
 "source": "simplyhired",
 "title": "Maintenance Technicians",
 "type": "Construction & trades"
-},
-"05dd88e136b0": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "SUD California Group Facilitator",
-"type": "Other"
 },
 "05ee39cb5551": {
 "city": "Eugene",
@@ -1813,19 +1709,6 @@
 "soc": "419022",
 "title": "Leasing Professional - Parkside Apartments"
 },
-"0656eec5f013": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Supervisor - Ritz Carlton Residences",
-"type": "Management & business"
-},
 "065842c0e6ef": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -1852,19 +1735,6 @@
 "source": "simplyhired",
 "title": "Shift Leaders",
 "type": "Hospitality & leisure"
-},
-"067f130094c2": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Student Life Coordinator",
-"type": "Office & customer service"
 },
 "068fd407094b": {
 "city": "Eugene",
@@ -2154,19 +2024,6 @@
 "soc": "252011",
 "title": "Child Care Professionals"
 },
-"0772f1a63f6b": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Maintenance Supervisor",
-"type": "Construction & trades"
-},
 "07787580eba4": {
 "city": "Eugene",
 "employer": "UnitedHealth Group",
@@ -2266,19 +2123,6 @@
 "title": "Service Technicians",
 "type": "Construction & trades"
 },
-"07c2be5cdd5f": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Seabrook, NH",
-"type": "Childcare & education"
-},
 "07d4b1206524": {
 "city": "Lane County",
 "closed": "2026-10-21",
@@ -2332,19 +2176,6 @@
 "soc": "433011",
 "title": "Retail Data Collectors"
 },
-"07e9fc5f4594": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "439021",
-"source": "Employer direct",
-"title": "Data Entry Clerk",
-"type": "Office & customer service"
-},
 "07ed393ff5fc": {
 "city": "Creswell",
 "employer": "Tractor Supply Company",
@@ -2367,19 +2198,6 @@
 "misses": 20,
 "soc": "291171",
 "title": "Urgent Care Nurse Practitioners"
-},
-"07f20b8f343e": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Attendant / Ambassador - Wailua River",
-"type": "Other"
 },
 "07f590ad0939": {
 "city": "Lane County",
@@ -2577,19 +2395,6 @@
 "title": "Hospice Medical Social Workers",
 "type": "Healthcare & human services"
 },
-"08a777f072a2": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Millville/Vineland, NJ",
-"type": "Childcare & education"
-},
 "08ab674b057e": {
 "city": "Eugene",
 "employer": "Post Holdings Inc.",
@@ -2671,32 +2476,6 @@
 "source": "greenhouse",
 "title": "Android Leads",
 "type": "Technology"
-},
-"08f9d6534b4a": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Enforcement Officer",
-"type": "Office & customer service"
-},
-"09059cb02fa2": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Bloomington, IN",
-"type": "Childcare & education"
 },
 "09125275c544": {
 "city": "Eugene",
@@ -2847,19 +2626,6 @@
 "title": "Direct Support Professionals/Caregivers",
 "type": "Healthcare & human services"
 },
-"096a776ef75b": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Dispatcher",
-"type": "Transportation & logistics"
-},
 "09717879c1b0": {
 "city": "Springfield",
 "closed": "2026-10-20",
@@ -2911,19 +2677,6 @@
 "source": "disabledperson",
 "title": "Nursing Assistants",
 "type": "Healthcare & human services"
-},
-"09aa6934ba18": {
-"city": "Eugene",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Outreach Coordinator",
-"type": "Office & customer service"
 },
 "09b0fffc4261": {
 "city": "Florence",
@@ -3083,19 +2836,6 @@
 "misses": 1,
 "soc": "414012",
 "title": "University Development Counselors"
-},
-"0a8020faab3f": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "111021",
-"source": "Employer direct",
-"title": "Thrift Store Manager",
-"type": "Management & business"
 },
 "0aa5cb6768cf": {
 "city": "Eugene",
@@ -3466,19 +3206,6 @@
 "title": "Wholesale Merchant Operations Supervisor",
 "type": "Transportation & logistics"
 },
-"0bb02a25f9d7": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Admissions Therapist (Kentucky)",
-"type": "Healthcare & human services"
-},
 "0bb6dde8bfb2": {
 "city": "Eugene",
 "closed": "2026-10-27",
@@ -3698,19 +3425,6 @@
 "misses": 16,
 "soc": "292061",
 "title": "Licensed Practical Nurses/Licensed Vocational Nurses"
-},
-"0c4e52045d8f": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Integrative Group Facilitator",
-"type": "Other"
 },
 "0c528c70a259": {
 "city": "Junction City",
@@ -3997,19 +3711,6 @@
 "title": "Assistant Teachers",
 "type": "Childcare & education"
 },
-"0d3661467f7f": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical",
-"type": "Healthcare & human services"
-},
 "0d3efb774b73": {
 "city": "Springfield",
 "employer": "Sephora",
@@ -4189,19 +3890,6 @@
 "source": "Employer direct",
 "title": "Bilingual Sales Representative (Sales, Customer Service)",
 "type": "Retail & sales"
-},
-"0dc5e93e0c62": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Memphis, TN",
-"type": "Childcare & education"
 },
 "0dc83070f782": {
 "city": "Eugene",
@@ -4406,19 +4094,6 @@
 "title": "Medical Equipment Project Manager",
 "type": "Healthcare & human services"
 },
-"0e86ff1bd0f4": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Corporate Paralegal",
-"type": "Other"
-},
 "0e8a11513e33": {
 "city": "Cottage Grove",
 "employer": "Albertsons",
@@ -4556,19 +4231,6 @@
 "source": "OED",
 "title": "Relationship Banking Assistant I",
 "type": "Finance & accounting"
-},
-"0f1f4c691f98": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Attendant",
-"type": "Other"
 },
 "0f369bbb7641": {
 "city": "Springfield",
@@ -4843,19 +4505,6 @@
 "title": "Fuel Transport Drivers",
 "type": "Transportation & logistics"
 },
-"10056baab4fc": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Smiths Falls, ON",
-"type": "Childcare & education"
-},
 "100dd6b46113": {
 "city": "Eugene",
 "employer": "CDM Smith",
@@ -5039,19 +4688,6 @@
 "source": "simplyhired",
 "title": "Outside Sales Representatives",
 "type": "Retail & sales"
-},
-"10d5ace9662a": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Construction Coordinator",
-"type": "Construction & trades"
 },
 "10e10b8a0cfe": {
 "city": "Eugene",
@@ -5270,19 +4906,6 @@
 "title": "Preschool Teacher Aide (Part Time)",
 "type": "Childcare & education"
 },
-"11c461fb7197": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Corporate",
-"type": "Other"
-},
 "11c4c9ca8e6f": {
 "city": "Eugene",
 "closed": "2026-10-13",
@@ -5292,19 +4915,6 @@
 "misses": 28,
 "soc": "412011",
 "title": "Retail Cashier"
-},
-"11c687bd37b5": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Signia by Hilton ( Part Time )",
-"type": "Other"
 },
 "11d17b178332": {
 "city": "Eugene",
@@ -5799,19 +5409,6 @@
 "title": "B2B Sales Representatives",
 "type": "Retail & sales"
 },
-"130e6b511220": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Financial Analyst",
-"type": "Management & business"
-},
 "13130f2f8467": {
 "city": "Eugene",
 "employer": "",
@@ -5847,19 +5444,6 @@
 "misses": 15,
 "soc": "533032",
 "title": "CDL-A Flatbed Truck Drivers"
-},
-"1325df5238da": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "352014",
-"source": "Employer direct",
-"title": "Kitchen Cook/DC PM",
-"type": "Hospitality & leisure"
 },
 "132c2c4ec55d": {
 "city": "Springfield",
@@ -5982,19 +5566,6 @@
 "soc": "436014",
 "title": "Project Assistants"
 },
-"13b91086dfc5": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Direct Care - Live‑In Position",
-"type": "Other"
-},
 "13cc2f309f81": {
 "city": "Springfield",
 "closed": "2026-10-09",
@@ -6014,19 +5585,6 @@
 "misses": 31,
 "soc": "412011",
 "title": "Part Time - Head Cashier - Flexible"
-},
-"13dc59cbd7bd": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Winnipeg Richardson International Airport (Seasonal, Full-time)",
-"type": "Other"
 },
 "13ef60bc279f": {
 "city": "Eugene",
@@ -6331,19 +5889,6 @@
 "title": "Blood Collection Staff – Customer Service",
 "type": "Office & customer service"
 },
-"1505bfd30fa4": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "132011",
-"source": "Employer direct",
-"title": "Sr. Accountant",
-"type": "Finance & accounting"
-},
 "1517e96a6651": {
 "city": "Eugene",
 "employer": "Hub International",
@@ -6491,32 +6036,6 @@
 "title": "Cashier Part Time",
 "type": "Retail & sales"
 },
-"156ce3eaf2db": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Supervisor - Miami Cancer Institute",
-"type": "Management & business"
-},
-"156d7cd104a8": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Manhattan, KS",
-"type": "Childcare & education"
-},
 "1570b2cb70c5": {
 "city": "Springfield",
 "closed": "2026-10-28",
@@ -6621,32 +6140,6 @@
 "source": "indeed",
 "title": "Sanitation Managers",
 "type": "Transportation & logistics"
-},
-"15bce6b40ac7": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Hospital Parking Ambassador",
-"type": "Other"
-},
-"15bd46b3edf1": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Saskatoon, SK",
-"type": "Childcare & education"
 },
 "15cd8872e227": {
 "city": "Eugene",
@@ -7024,19 +6517,6 @@
 "title": "Residential Care Associate II-5858",
 "type": "Healthcare & human services"
 },
-"1751be8f3745": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Leonardtown, MD",
-"type": "Childcare & education"
-},
 "1756e06358d1": {
 "city": "Eugene",
 "employer": "Selectemp",
@@ -7301,19 +6781,6 @@
 "title": "Customer Service Associate - Temporary",
 "type": "Office & customer service"
 },
-"18981990e3b8": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Senior Learning Architect",
-"type": "Other"
-},
 "189ee80d528e": {
 "city": "Eugene",
 "closed": "2026-10-21",
@@ -7526,32 +6993,6 @@
 "soc": "",
 "title": "Lateral Patrol Deputy"
 },
-"194ea75321e2": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Kalamazoo, MI",
-"type": "Childcare & education"
-},
-"195540e0b0ca": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Process Overview",
-"type": "Other"
-},
 "19691f5f6329": {
 "city": "Springfield",
 "closed": "2026-10-18",
@@ -7597,19 +7038,6 @@
 "source": "Employer direct",
 "title": "Account Executive – The Dalles/Columbia River",
 "type": "Retail & sales"
-},
-"1993ac834751": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Bolingbrook, IL",
-"type": "Childcare & education"
 },
 "19a366844b0e": {
 "city": "Eugene",
@@ -7823,19 +7251,6 @@
 "source": "simplyhired",
 "title": "Desktop Support Specialists",
 "type": "Technology"
-},
-"1a518bdecf96": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "113013",
-"source": "Employer direct",
-"title": "Facilities Manager",
-"type": "Management & business"
 },
 "1a57f9dd5adb": {
 "city": "Creswell",
@@ -8140,19 +7555,6 @@
 "title": "Patient Access Clerk - Patient Registration - PRN",
 "type": "Healthcare & human services"
 },
-"1b11a7ba151a": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Toscano at Dadeland",
-"type": "Other"
-},
 "1b133ee68651": {
 "city": "Eugene",
 "employer": "",
@@ -8185,19 +7587,6 @@
 "misses": 20,
 "soc": "",
 "title": "Registered Professional Nurse III - Kealakehe Intermediate"
-},
-"1b3399accf78": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Dispatcher",
-"type": "Transportation & logistics"
 },
 "1b3afe84b51b": {
 "city": "Eugene",
@@ -8400,19 +7789,6 @@
 "source": "paycomonline",
 "title": "Medical Technicians",
 "type": "Healthcare & human services"
-},
-"1bd68f0fce24": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Our Business",
-"type": "Other"
 },
 "1bde215a1081": {
 "city": "Eugene",
@@ -9247,19 +8623,6 @@
 "soc": "419099",
 "title": "In Store Shoppers"
 },
-"1eeae5c80ab2": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Mentorship & Coaching",
-"type": "Childcare & education"
-},
 "1ef17b80d9fc": {
 "city": "Lane County",
 "closed": "2026-10-22",
@@ -9642,19 +9005,6 @@
 "title": "Security Officers/Drivers",
 "type": "Transportation & logistics"
 },
-"1ff8ca7dd438": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - St Regis Residences Sales Center ( Sunny Isles )",
-"type": "Retail & sales"
-},
 "1ffe9643746e": {
 "city": "Lane County",
 "closed": "2026-10-21",
@@ -9711,19 +9061,6 @@
 "misses": 15,
 "soc": "112022",
 "title": "Regional Business Directors"
-},
-"201cb15578f6": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Admissions Therapist (Colorado)",
-"type": "Healthcare & human services"
 },
 "201d1da44192": {
 "city": "Springfield",
@@ -9796,19 +9133,6 @@
 "source": "Employer direct",
 "title": "Patient Care Technician - PCT",
 "type": "Healthcare & human services"
-},
-"207826755725": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Transfer Applicants",
-"type": "Other"
 },
 "207b30b74897": {
 "city": "Springfield",
@@ -9980,19 +9304,6 @@
 "misses": 28,
 "soc": "",
 "title": "Teacher Grade 1 - Lyon"
-},
-"2107f63184c3": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Admissions Therapist (Virginia)",
-"type": "Healthcare & human services"
 },
 "2109d1e0cc03": {
 "city": "Eugene",
@@ -10335,19 +9646,6 @@
 "source": "OED",
 "title": "Pain Management PA/NP | Oregon Medical Group, Eugene, OR",
 "type": "Healthcare & human services"
-},
-"226287e562b7": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "119151",
-"source": "Employer direct",
-"title": "Women's Center Program Director",
-"type": "Management & business"
 },
 "2263d8267c55": {
 "city": "Springfield",
@@ -10892,19 +10190,6 @@
 "title": "Apparel Team Supervisor",
 "type": "Management & business"
 },
-"24412579be93": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Patient Care Specialist",
-"type": "Healthcare & human services"
-},
 "244b10e27276": {
 "city": "Eugene",
 "employer": "Hillside Heights Rehabilitation Center",
@@ -11124,19 +10409,6 @@
 "soc": "537065",
 "title": "temporary seasonal"
 },
-"24fb15353fa7": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Share on Mastodon (Opens in new window) Mastodon",
-"type": "Other"
-},
 "24fc205dfef7": {
 "city": "Springfield",
 "employer": "International Paper",
@@ -11355,19 +10627,6 @@
 "misses": 24,
 "soc": "431011",
 "title": "Manager, Customer Service"
-},
-"25b3a6e75370": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Admissions Therapist (California)",
-"type": "Healthcare & human services"
 },
 "25b3c3d8972f": {
 "city": "Lane County",
@@ -11678,19 +10937,6 @@
 "title": "Property Managers",
 "type": "Management & business"
 },
-"265ee9638403": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Career Areas",
-"type": "Other"
-},
 "266b5f061dff": {
 "city": "Eugene",
 "employer": "Yogi Tea (East West Tea Company)",
@@ -11739,19 +10985,6 @@
 "source": "diversityjobs",
 "title": "Kitchen Team Members",
 "type": "Hospitality & leisure"
-},
-"268a1be3a1e7": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Escondido, CA",
-"type": "Childcare & education"
 },
 "26a80477dd82": {
 "city": "Eugene",
@@ -11832,19 +11065,6 @@
 "soc": "319099",
 "title": "School Speech Language Pathology Assistant (SLPA)"
 },
-"271bd8410435": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Addiction Services Support Staff Men’s Recovery Program",
-"type": "Other"
-},
 "271df5bedfc7": {
 "city": "Coburg",
 "closed": "2026-10-20",
@@ -11900,19 +11120,6 @@
 "title": "Federal Benefits",
 "type": "Other"
 },
-"274281b05108": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach- Benton Harbor, MI",
-"type": "Childcare & education"
-},
 "27525fefa8cf": {
 "city": "Lane County",
 "closed": "2026-10-28",
@@ -11935,19 +11142,6 @@
 "source": "simplyhired",
 "title": "Commercial Account Managers",
 "type": "Retail & sales"
-},
-"27650becfb7e": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Perth, ON",
-"type": "Childcare & education"
 },
 "2772b83ea5bb": {
 "city": "Eugene",
@@ -12040,19 +11234,6 @@
 "source": "oraclecloud",
 "title": "Meat Cutters",
 "type": "Manufacturing"
-},
-"278df8ae0181": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Engagement & Communications Manager",
-"type": "Management & business"
 },
 "279559824263": {
 "city": "Springfield",
@@ -12195,19 +11376,6 @@
 "title": "Radiology Tech - Varied Shifts",
 "type": "Healthcare & human services"
 },
-"27ece1ac9638": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Teacher/Educational Support",
-"type": "Childcare & education"
-},
 "2802b5d673b9": {
 "city": "Eugene",
 "employer": "CDM Smith",
@@ -12243,19 +11411,6 @@
 "misses": 28,
 "soc": "533032",
 "title": "CDL-A Truck Drivers"
-},
-"281b2dcadd5c": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet / Jockey Parking Attendant - Downtown Ottawa",
-"type": "Other"
 },
 "281c44eb472d": {
 "city": "Lane County",
@@ -12564,19 +11719,6 @@
 "source": "National Labor Exchange",
 "title": "Senior Enterprise Architect",
 "type": "Other"
-},
-"293cb330c5a6": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Gibbon , NE",
-"type": "Childcare & education"
 },
 "294a3f758f1e": {
 "city": "Eugene",
@@ -12920,19 +12062,6 @@
 "title": "CDI, HCT",
 "type": "Other"
 },
-"2a5bcb87fa79": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Missoula, MT",
-"type": "Childcare & education"
-},
 "2a71203df0fb": {
 "city": "Eugene",
 "closed": "2026-10-10",
@@ -13007,19 +12136,6 @@
 "soc": "412031",
 "title": "Sporting Goods Managers"
 },
-"2acf3e798ddb": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "412031",
-"source": "Employer direct",
-"title": "Retail Associate, SEAS - Nike Barstow",
-"type": "Retail & sales"
-},
 "2ad333c4d226": {
 "city": "Eugene",
 "employer": "AutoZone",
@@ -13042,19 +12158,6 @@
 "misses": 24,
 "soc": "412031",
 "title": "Footwear Sales Associates"
-},
-"2adb509a7c84": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Crisis Intervention Specialist",
-"type": "Management & business"
 },
 "2adda1b9a8c6": {
 "city": "Eugene",
@@ -13157,19 +12260,6 @@
 "source": "indeed",
 "title": "Toddler Teachers",
 "type": "Childcare & education"
-},
-"2b0e247e809b": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Outreach",
-"type": "Other"
 },
 "2b1d74e0484e": {
 "city": "Eugene",
@@ -13389,19 +12479,6 @@
 "title": "Entry Level Outside Sales Trainee",
 "type": "Retail & sales"
 },
-"2beda3de30ee": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Stylist",
-"type": "Other"
-},
 "2bf5260f5f0b": {
 "city": "Eugene",
 "employer": "Tergesen Randy MLO",
@@ -13414,19 +12491,6 @@
 "source": "Employer direct",
 "title": "Mortgage Loan Originator",
 "type": "Finance & accounting"
-},
-"2bf6a8567f92": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Quality Analyst",
-"type": "Healthcare & human services"
 },
 "2bfd9392a4eb": {
 "city": "Springfield",
@@ -13595,19 +12659,6 @@
 "title": "STORE MANAGER CANDIDATE IN CRESWELL OR",
 "type": "Retail & sales"
 },
-"2c69c10db844": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Graduate Application Fees",
-"type": "Other"
-},
 "2c85fc65690c": {
 "city": "Eugene",
 "closed": "2026-10-23",
@@ -13627,19 +12678,6 @@
 "misses": 22,
 "soc": "413021",
 "title": "Insurance Sales Representatives"
-},
-"2cacba305d7d": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "131121",
-"source": "Employer direct",
-"title": "Event Staff - Calgary Sports & Entertainment",
-"type": "Management & business"
 },
 "2cbc579713fb": {
 "city": "Eugene",
@@ -13896,19 +12934,6 @@
 "misses": 12,
 "soc": "499051",
 "title": "Line Technician"
-},
-"2d7bea3ee140": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "SUD Group Facilitator",
-"type": "Other"
 },
 "2d981289cf26": {
 "city": "Springfield",
@@ -14248,19 +13273,6 @@
 "soc": "252011",
 "title": "Preschool Teachers"
 },
-"2e88747a0d97": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Dover, NH",
-"type": "Childcare & education"
-},
 "2e8cd4e0aa1c": {
 "city": "Cottage Grove",
 "employer": "",
@@ -14377,19 +13389,6 @@
 "misses": 29,
 "soc": "274021",
 "title": "News Photojournalists"
-},
-"2f14cdc15660": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Share on Pinterest (Opens in new window) Pinterest",
-"type": "Other"
 },
 "2f1e0a8eabe6": {
 "city": "Springfield",
@@ -14580,19 +13579,6 @@
 "misses": 18,
 "soc": "413011",
 "title": "Marketing Coordinators"
-},
-"2fff9511d89f": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Early Careers",
-"type": "Other"
 },
 "300484cf4d52": {
 "city": "Springfield",
@@ -14940,19 +13926,6 @@
 "title": "Account Manager II, Commercial Enterprise",
 "type": "Retail & sales"
 },
-"31c5b6c7acde": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Education Coordinator",
-"type": "Childcare & education"
-},
 "31ca6b41297d": {
 "city": "Springfield",
 "closed": "2026-10-17",
@@ -15046,19 +14019,6 @@
 "misses": 1,
 "soc": "533032",
 "title": "Company Truck Drivers"
-},
-"32171a49bbc2": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Direct Care Worker",
-"type": "Other"
 },
 "3219e15ab3fb": {
 "city": "Springfield",
@@ -15436,19 +14396,6 @@
 "soc": "537062",
 "title": "General Laborers"
 },
-"33955bf83e88": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Freshman Admission Standards",
-"type": "Other"
-},
 "33975ac95d03": {
 "city": "Lane County",
 "closed": "2026-10-18",
@@ -15685,19 +14632,6 @@
 "title": "Deputy Chief Accountants",
 "type": "Other"
 },
-"3467f17b251b": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "131071",
-"source": "Employer direct",
-"title": "Human Resources (HR) Assistant",
-"type": "Management & business"
-},
 "346f84bbe40c": {
 "city": "Eugene",
 "employer": "Mazzetti Gba",
@@ -15710,19 +14644,6 @@
 "source": "Employer direct",
 "title": "Senior Electrical Designer/Engineer Project Manager",
 "type": "Construction & trades"
-},
-"347f0a7a31dd": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Overnight Hospital Parking Ambassador",
-"type": "Other"
 },
 "3488135a098f": {
 "city": "Eugene",
@@ -15944,19 +14865,6 @@
 "soc": "499098",
 "title": "Maintenance Specialists"
 },
-"355c36c85bee": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Overnight Hospital Parking Ambassador",
-"type": "Other"
-},
 "3565713f811f": {
 "city": "Eugene",
 "employer": "",
@@ -15979,19 +14887,6 @@
 "misses": 24,
 "soc": "414011",
 "title": "Outside Sales Representatives"
-},
-"357410a17be0": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Massage Therapist",
-"type": "Healthcare & human services"
 },
 "357bc6a8d8d0": {
 "city": "Eugene",
@@ -16241,19 +15136,6 @@
 "soc": "311131",
 "title": "Operating Room Surgical Technicians"
 },
-"361af1f3c2e7": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Care Experience Specialist",
-"type": "Management & business"
-},
 "362a3532460c": {
 "city": "Eugene",
 "employer": "CDM Smith",
@@ -16266,32 +15148,6 @@
 "source": "OED",
 "title": "Lead, Product Management, AEC Technology Solutions",
 "type": "Creative & media"
-},
-"36302910ca10": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Director of Partner Relations",
-"type": "Management & business"
-},
-"36311247fe21": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Winnipeg Richardson International Airport (On-call)",
-"type": "Other"
 },
 "36325c7caf3d": {
 "city": "Eugene",
@@ -16348,19 +15204,6 @@
 "soc": "",
 "title": "Child Nutrition Field Supervisor"
 },
-"368ecb19a9e0": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Dispatcher",
-"type": "Transportation & logistics"
-},
 "369058876740": {
 "city": "Eugene",
 "closed": "2026-10-22",
@@ -16380,19 +15223,6 @@
 "misses": 16,
 "soc": "499071",
 "title": "Maintenance Technicians"
-},
-"36b890e5d997": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Program Support Staff",
-"type": "Other"
 },
 "36c628bdff49": {
 "city": "Eugene",
@@ -16453,19 +15283,6 @@
 "soc": "516093",
 "title": "Detailers"
 },
-"36deda09f5fe": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Job Directory",
-"type": "Management & business"
-},
 "36e0b5569934": {
 "city": "Eugene",
 "closed": "2026-10-13",
@@ -16475,19 +15292,6 @@
 "misses": 28,
 "soc": "519199",
 "title": "Manufacturing Operator II"
-},
-"36eee5867842": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant ( Evenings )",
-"type": "Other"
 },
 "36efacbfe7c5": {
 "city": "Eugene",
@@ -16544,19 +15348,6 @@
 "misses": 25,
 "soc": "",
 "title": "Part-time Program Manager A - Fitness Center"
-},
-"371dea4c64d8": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Admissions Therapist (Florida)",
-"type": "Healthcare & human services"
 },
 "372671ade6c5": {
 "city": "Eugene",
@@ -17016,32 +15807,6 @@
 "title": "Client Success Coordinator",
 "type": "Office & customer service"
 },
-"38acb190dae3": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant (Weekends) - Montreal",
-"type": "Other"
-},
-"38b0f85b8d2d": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Kitchen Manager",
-"type": "Hospitality & leisure"
-},
 "38c03a47c9d3": {
 "city": "Eugene",
 "closed": "2026-10-21",
@@ -17321,19 +16086,6 @@
 "soc": "319092",
 "title": "Cardiology Medical Assistants"
 },
-"39d7bfc31c29": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Cornwall, ON",
-"type": "Childcare & education"
-},
 "39f803acbcfa": {
 "city": "Eugene",
 "closed": "2026-10-10",
@@ -17542,19 +16294,6 @@
 "soc": "",
 "title": "Retail Sales Associate, Eugene Valley River Center - Part Time"
 },
-"3ae568c5b688": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Intern Mens Program Staff",
-"type": "Other"
-},
 "3af44afbb9f4": {
 "city": "Eugene",
 "closed": "2026-10-14",
@@ -17597,19 +16336,6 @@
 "misses": 18,
 "soc": "537065",
 "title": "Apparel Clerks"
-},
-"3b41dd0ef7f7": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Campbell, CA",
-"type": "Childcare & education"
 },
 "3b4971e350d8": {
 "city": "Eugene",
@@ -17873,32 +16599,6 @@
 "soc": "516093",
 "title": "Detailers"
 },
-"3c34b80a57ae": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "119141",
-"source": "Employer direct",
-"title": "Facilities & Property Manager",
-"type": "Management & business"
-},
-"3c35f7c70caa": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach- Elgin, IL",
-"type": "Childcare & education"
-},
 "3c3dd13ed469": {
 "city": "Junction City",
 "closed": "2026-10-14",
@@ -18023,19 +16723,6 @@
 "source": "OED",
 "title": "Substitute Special Services Transportation Aide",
 "type": "Other"
-},
-"3cd6945a867c": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "132011",
-"source": "Employer direct",
-"title": "Accountant - Entry Level",
-"type": "Finance & accounting"
 },
 "3ce1ab8a5bb7": {
 "city": "Eugene",
@@ -18221,19 +16908,6 @@
 "title": "Machine Tenders",
 "type": "Manufacturing"
 },
-"3d9707db4212": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Tyler, TX",
-"type": "Childcare & education"
-},
 "3d9e0aad6af9": {
 "city": "Eugene",
 "employer": "Zoomcare",
@@ -18246,19 +16920,6 @@
 "source": "Employer direct",
 "title": "Imaging View Jobs",
 "type": "Other"
-},
-"3da917a0baa5": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Dispatcher",
-"type": "Transportation & logistics"
 },
 "3db55d9be593": {
 "city": "Eugene",
@@ -18315,19 +16976,6 @@
 "source": "lifepointhealth",
 "title": "Rehabilitation Technicians",
 "type": "Healthcare & human services"
-},
-"3df009b48b32": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Direct Care PM",
-"type": "Other"
 },
 "3df196269b83": {
 "city": "Eugene",
@@ -18404,19 +17052,6 @@
 "misses": 1,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
-},
-"3e2cf0495dd6": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Accounts Specialist",
-"type": "Finance & accounting"
 },
 "3e3b627f77ae": {
 "city": "Eugene",
@@ -18722,19 +17357,6 @@
 "misses": 20,
 "soc": "",
 "title": "Chromebook Sales Specialist"
-},
-"3f5a7f4bbb4f": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "537061",
-"source": "Employer direct",
-"title": "Parking Lot Attendant Parcade",
-"type": "Transportation & logistics"
 },
 "3f5f6df6599d": {
 "city": "Eugene",
@@ -19247,19 +17869,6 @@
 "soc": "351012",
 "title": "Shift Leaders"
 },
-"4102bdb6af99": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "533032",
-"source": "Employer direct",
-"title": "Non- CDL Shuttle Driver - UHealth",
-"type": "Transportation & logistics"
-},
 "4109825f05d6": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -19424,19 +18033,6 @@
 "title": "SALES ASSOCIATE in SPRINGFIELD OR S20660",
 "type": "Transportation & logistics"
 },
-"41bb783355ee": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Hairstylist",
-"type": "Other"
-},
 "41c55a29ee27": {
 "city": "Eugene",
 "employer": "",
@@ -19498,19 +18094,6 @@
 "misses": 8,
 "soc": "413031",
 "title": "Acquisition Specialists"
-},
-"41ca1b9481be": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Ambassador Supervisor Disney Springs ( Evening shift )",
-"type": "Management & business"
 },
 "41ca7ce75238": {
 "city": "Veneta",
@@ -20076,19 +18659,6 @@
 "misses": 1,
 "soc": "291123",
 "title": "Home Health Physical Therapists"
-},
-"43164c1a66af": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Office Coordinator (Peabody, Massachusetts)",
-"type": "Office & customer service"
 },
 "432de0c2d54a": {
 "city": "Florence",
@@ -21668,19 +20238,6 @@
 "title": "Warehouse Representative",
 "type": "Transportation & logistics"
 },
-"485b3ec9904f": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Transfer from an IU Campus",
-"type": "Other"
-},
 "485e7210a665": {
 "city": "Eugene",
 "closed": "2026-10-18",
@@ -21713,19 +20270,6 @@
 "source": "OED",
 "title": "Medical Equipment Driver & Customer Service",
 "type": "Healthcare & human services"
-},
-"488efbdd3cdf": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant at UTSW",
-"type": "Other"
 },
 "48a5e3ffb9eb": {
 "city": "Springfield",
@@ -21957,19 +20501,6 @@
 "soc": "",
 "title": "School Cook I, II - Kamalii Elementary"
 },
-"495f4c856d01": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Admissions Therapist (Washington)",
-"type": "Healthcare & human services"
-},
 "4981060b1a25": {
 "city": "Eugene",
 "closed": "2026-10-23",
@@ -22118,19 +20649,6 @@
 "soc": "412011",
 "title": "Cashiers"
 },
-"4a4e618798a5": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Junior Staff/Vocation",
-"type": "Other"
-},
 "4a61c86d7486": {
 "city": "Eugene",
 "employer": "",
@@ -22252,19 +20770,6 @@
 "misses": 18,
 "soc": "252011",
 "title": "Early Childhood Teachers"
-},
-"4ac6f1654d74": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Bozeman, MT",
-"type": "Childcare & education"
 },
 "4aca6e7d4912": {
 "city": "Eugene",
@@ -22391,19 +20896,6 @@
 "title": "Qualified Mental Health Professional",
 "type": "Healthcare & human services"
 },
-"4b0848b4aa7c": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Junior Staff @ Adult & Teen Challenge of Texas",
-"type": "Other"
-},
 "4b0a66761200": {
 "city": "Eugene",
 "employer": "",
@@ -22492,19 +20984,6 @@
 "source": "OED",
 "title": "Assurance Manager",
 "type": "Finance & accounting"
-},
-"4b37faa6b3f2": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Supervisor - Trump Royale",
-"type": "Management & business"
 },
 "4b4615eaa8e2": {
 "city": "Springfield",
@@ -22681,19 +21160,6 @@
 "soc": "352021",
 "title": "Team Members"
 },
-"4be6bbf66423": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Property Accountant",
-"type": "Finance & accounting"
-},
 "4bebaf073dd5": {
 "city": "Eugene",
 "closed": "2026-10-19",
@@ -22743,19 +21209,6 @@
 "misses": 12,
 "soc": "132011",
 "title": "Audit Senior Associate"
-},
-"4c0a1a8be3c3": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Maintenance Attendant - Design District",
-"type": "Construction & trades"
 },
 "4c0da0571b7a": {
 "city": "Eugene",
@@ -23265,19 +21718,6 @@
 "soc": "411011",
 "title": "Assistant Store Managers"
 },
-"4dfadb78df97": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Field Manager",
-"type": "Management & business"
-},
 "4e081305319a": {
 "city": "Eugene",
 "employer": "Lane Community College",
@@ -23486,19 +21926,6 @@
 "source": "simplyhired",
 "title": "Football Coaches/High School Teachers",
 "type": "Other"
-},
-"4e827dcc8baf": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Counselor (Adolescent Girls)",
-"type": "Healthcare & human services"
 },
 "4e8e158dd463": {
 "city": "Eugene",
@@ -23750,19 +22177,6 @@
 "soc": "536061",
 "title": "Transportation Aides"
 },
-"4f952ebcdd45": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Braider",
-"type": "Other"
-},
 "4f9c2738196f": {
 "city": "Eugene",
 "employer": "",
@@ -23846,19 +22260,6 @@
 "soc": "211021",
 "source": "simplyhired",
 "title": "Bilingual Case Managers",
-"type": "Healthcare & human services"
-},
-"4fc4f366ca0d": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Behavioral Health Operations",
 "type": "Healthcare & human services"
 },
 "4fcd8c2e462c": {
@@ -24101,19 +22502,6 @@
 "source": "Employer direct",
 "title": "Maintenance Technician C Shift Graveyard",
 "type": "Construction & trades"
-},
-"506f0264a6fb": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Senior Data Engineer",
-"type": "Technology"
 },
 "5070ec109838": {
 "city": "Eugene",
@@ -24605,19 +22993,6 @@
 "soc": "",
 "title": "IT System Administrator - Journey"
 },
-"5248c04ed042": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Freshman Applicants",
-"type": "Other"
-},
 "524d30a6594b": {
 "city": "Springfield",
 "closed": "2026-10-18",
@@ -24716,19 +23091,6 @@
 "soc": "112032",
 "title": "Directors of Athletic Communications"
 },
-"52ae85b4deb8": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Impark Parking Healthcare Services, Director – Vancouver, BC (Local Candidates Only)",
-"type": "Healthcare & human services"
-},
 "52c96ebcbdf3": {
 "city": "Eugene",
 "employer": "",
@@ -24794,19 +23156,6 @@
 "title": "Assistants/Helpers",
 "type": "Manufacturing"
 },
-"5306bdfed1f9": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Second Undergraduate Applicants",
-"type": "Other"
-},
 "5309b2168d43": {
 "city": "Eugene",
 "closed": "2026-10-18",
@@ -24839,19 +23188,6 @@
 "misses": 16,
 "soc": "511011",
 "title": "Production Superintendents"
-},
-"532618a204ce": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - La Verne, CA",
-"type": "Childcare & education"
 },
 "5330b19ddeb4": {
 "city": "Eugene",
@@ -24968,19 +23304,6 @@
 "source": "indeed",
 "title": "Count Room Attendants",
 "type": "Hospitality & leisure"
-},
-"53ab458176f2": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Maintenance Attendant - Lexington Blue Grass Airport",
-"type": "Construction & trades"
 },
 "53ab568f00f5": {
 "city": "Springfield",
@@ -25106,19 +23429,6 @@
 "misses": 17,
 "soc": "413091",
 "title": "In Home Specialists"
-},
-"53f6e2eede41": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Dubuque, IA",
-"type": "Childcare & education"
 },
 "540b18d61284": {
 "city": "Eugene",
@@ -25253,19 +23563,6 @@
 "misses": 18,
 "soc": "271026",
 "title": "Traveling Retail Merchandisers"
-},
-"547a35202f97": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "131071",
-"source": "Employer direct",
-"title": "Human Resources (HR) Recruiter",
-"type": "Management & business"
 },
 "547ebfeda91d": {
 "city": "Eugene",
@@ -25480,19 +23777,6 @@
 "misses": 20,
 "soc": "431011",
 "title": "Office Managers"
-},
-"5555eb894b0e": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Anderson, IN",
-"type": "Childcare & education"
 },
 "5561f27d78e8": {
 "city": "Eugene",
@@ -25778,19 +24062,6 @@
 "title": "Night Crew Stocker",
 "type": "Transportation & logistics"
 },
-"5616e7565292": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Dispatcher",
-"type": "Transportation & logistics"
-},
 "561df678d2d8": {
 "city": "Eugene",
 "employer": "",
@@ -25816,19 +24087,6 @@
 "source": "simplyhired",
 "title": "Mechanical Design Engineers",
 "type": "Engineering & science"
-},
-"569142c3d5f8": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Abbott Northwestrn Hospital",
-"type": "Other"
 },
 "56920a5afac3": {
 "city": "Springfield",
@@ -25941,19 +24199,6 @@
 "source": "simplyhired",
 "title": "Packagers",
 "type": "Transportation & logistics"
-},
-"56d97afb75ec": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Wyndham Grand Jupiter",
-"type": "Other"
 },
 "56dd016cca05": {
 "city": "Springfield",
@@ -26117,19 +24362,6 @@
 "source": "governmentjobs",
 "title": "Fleet Maintenance Supervisors",
 "type": "Construction & trades"
-},
-"57425cda1c2c": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Portsmouth, NH",
-"type": "Childcare & education"
 },
 "574aa29d1aae": {
 "city": "Eugene",
@@ -26660,32 +24892,6 @@
 "soc": "272022",
 "title": "Head Girls Golf Coaches"
 },
-"58ebb4f6c982": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Bowling Green, KY",
-"type": "Childcare & education"
-},
-"58fb5d0bda33": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Care Coach (Part-Time)",
-"type": "Childcare & education"
-},
 "58fd7b9651da": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -26837,19 +25043,6 @@
 "title": "LEAD SALES ASSOCIATE-PT in VENETA OR S21478",
 "type": "Retail & sales"
 },
-"596b4bf45201": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Buckeye, AZ",
-"type": "Childcare & education"
-},
 "5990e6c1ee9b": {
 "city": "Springfield",
 "closed": "2026-10-20",
@@ -26895,19 +25088,6 @@
 "source": "simplyhired",
 "title": "Sales Outfitters",
 "type": "Hospitality & leisure"
-},
-"59aae8ad58c7": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - La Baia South Residences ( Evening )",
-"type": "Other"
 },
 "59ba4c6a98c6": {
 "city": "Eugene",
@@ -26992,19 +25172,6 @@
 "soc": "119041",
 "title": "Chief Engineers"
 },
-"5a017463f181": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - ETARU Restaurant",
-"type": "Hospitality & leisure"
-},
 "5a01763b576b": {
 "city": "Springfield",
 "closed": "2026-10-21",
@@ -27038,19 +25205,6 @@
 "soc": "",
 "title": "Senior Tax Accountant - CPA Hot Job Full Time Bend Office - Bend, OR 97702 a"
 },
-"5a16da4144db": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Operations Specialist",
-"type": "Management & business"
-},
 "5a1f8955e328": {
 "city": "Eugene",
 "employer": "Honorable Mustafa T Kasubhai",
@@ -27073,19 +25227,6 @@
 "misses": 17,
 "soc": "431011",
 "title": "Client Relations Managers"
-},
-"5a2bee95c11f": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Facebook",
-"type": "Other"
 },
 "5a31e56e1dcf": {
 "city": "Eugene",
@@ -27614,32 +25755,6 @@
 "soc": "514041",
 "title": "CNC Machinists"
 },
-"5b9c2fe77d17": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Adult & Teen Challenge 4 States",
-"type": "Other"
-},
-"5b9d96680178": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Senior Hair Stylist Chair Rental",
-"type": "Other"
-},
 "5baf4887c1e0": {
 "city": "Springfield",
 "employer": "The Clorox Company",
@@ -27714,19 +25829,6 @@
 "misses": 15,
 "soc": "419011",
 "title": "In-Home Sales Specialist"
-},
-"5c0943068117": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Senior Staff … Adult & Teen Challenge of Texas",
-"type": "Other"
 },
 "5c16493c37c4": {
 "city": "Eugene",
@@ -28034,19 +26136,6 @@
 "title": "Personal Trainer",
 "type": "Other"
 },
-"5d093d580c16": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - St Cloud, MN",
-"type": "Childcare & education"
-},
 "5d09bbe9dc6a": {
 "city": "Eugene",
 "closed": "2026-10-21",
@@ -28056,19 +26145,6 @@
 "misses": 20,
 "soc": "119111",
 "title": "Healthcare Facility Administrators"
-},
-"5d0b05e5c89b": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Garage Maintenance",
-"type": "Construction & trades"
 },
 "5d0f5f01594b": {
 "city": "Eugene",
@@ -28385,19 +26461,6 @@
 "title": "Office Coordinators",
 "type": "Office & customer service"
 },
-"5e3289ee6e35": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "434051",
-"source": "Employer direct",
-"title": "Temporary Customer Service Representative (Afternoon) - Hullmark Centre",
-"type": "Office & customer service"
-},
 "5e376d82ee02": {
 "city": "Eugene",
 "closed": "2026-10-12",
@@ -28492,19 +26555,6 @@
 "source": "indeed",
 "title": "Memory Care Caregivers",
 "type": "Healthcare & human services"
-},
-"5e73d48a6735": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant Resort World Hotel NYC",
-"type": "Hospitality & leisure"
 },
 "5e760e60296b": {
 "city": "Eugene",
@@ -28859,19 +26909,6 @@
 "soc": "291229",
 "title": "Pediatric Cardiologist Clinical Associate in the Community of Eugene / River Bend, Oregon"
 },
-"5f224efc3803": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Calgary Sports & Entertainment",
-"type": "Other"
-},
 "5f35e1300eed": {
 "city": "Eugene",
 "closed": "2026-10-18",
@@ -28963,19 +27000,6 @@
 "title": "Radiologic Technologists",
 "type": "Healthcare & human services"
 },
-"5f87a5c6ab91": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "VP, Assistant GC - Marketing",
-"type": "Other"
-},
 "5f8f0db3bb24": {
 "city": "Eugene",
 "employer": "Merete Hotel Management (Residence Inn)",
@@ -29037,19 +27061,6 @@
 "misses": 22,
 "soc": "",
 "title": "School Security Attendant I - Ho'okele Elementary"
-},
-"5fd17592ece0": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Kitchen/Direct Care Staff",
-"type": "Hospitality & leisure"
 },
 "5fd85dd2fe48": {
 "city": "Eugene",
@@ -29310,19 +27321,6 @@
 "title": "SALES ASSOCIATE in VENETA OR S21478",
 "type": "Transportation & logistics"
 },
-"60d24d7b1040": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Accounts Receivable Clerk",
-"type": "Retail & sales"
-},
 "60d6762dab8f": {
 "city": "Creswell",
 "employer": "Dollar General",
@@ -29398,19 +27396,6 @@
 "title": "Electrical Estimators",
 "type": "Management & business"
 },
-"60fed1b59b91": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Director of Advancement",
-"type": "Management & business"
-},
 "611b8573a79b": {
 "city": "Eugene",
 "employer": "Nexus Family Healing",
@@ -29453,19 +27438,6 @@
 "misses": 15,
 "soc": "291141",
 "title": "Registered Nurse (RN) FT Night"
-},
-"61488ff32b36": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Admissions Coordinator/DC (Adolescent Girls)",
-"type": "Office & customer service"
 },
 "6156bd726af2": {
 "city": "Eugene",
@@ -29695,19 +27667,6 @@
 "title": "JEWELRY/SALES SPECIALIST",
 "type": "Retail & sales"
 },
-"61cf8c92879d": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Enforcement Officer / Patroller ( Part Time )",
-"type": "Office & customer service"
-},
 "61d4cd8d2eb8": {
 "city": "Lane County",
 "closed": "2026-10-21",
@@ -29763,19 +27722,6 @@
 "source": "National Labor Exchange",
 "title": "Assistant Manager I",
 "type": "Management & business"
-},
-"61fbb6daf94f": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Attendant - Millennium Library",
-"type": "Other"
 },
 "61fd18accf3b": {
 "city": "Lane County",
@@ -29988,19 +27934,6 @@
 "soc": "493042",
 "title": "Apprentice Technicians"
 },
-"62bd98ccf79c": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Fargo, ND",
-"type": "Childcare & education"
-},
 "62cac36a98a9": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -30167,19 +28100,6 @@
 "misses": 1,
 "soc": "291126",
 "title": "Respiratory Care Practitioners"
-},
-"63395fc769c8": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Threads",
-"type": "Other"
 },
 "6344d2004225": {
 "city": "Eugene",
@@ -30377,19 +28297,6 @@
 "misses": 1,
 "soc": "436014",
 "title": "Project Administrators"
-},
-"63f19930425e": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "132011",
-"source": "Employer direct",
-"title": "Accountant",
-"type": "Finance & accounting"
 },
 "64002703b328": {
 "city": "Lane County",
@@ -30591,19 +28498,6 @@
 "title": "ICU Registered Nurses",
 "type": "Healthcare & human services"
 },
-"64d215cf7d6c": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Kearney, NE",
-"type": "Childcare & education"
-},
 "64e00941b2d2": {
 "city": "Eugene",
 "employer": "Hyundai",
@@ -30742,19 +28636,6 @@
 "title": "IT Instructor - Online",
 "type": "Childcare & education"
 },
-"658fa14a148e": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Enforcement Officer - Spokane ( Part Time )",
-"type": "Office & customer service"
-},
 "6590f74c8a57": {
 "city": "Eugene",
 "employer": "CVS Health",
@@ -30834,19 +28715,6 @@
 "soc": "414011",
 "title": "Sales Consultants"
 },
-"65d31472c2f6": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Sales & Purchasing Assistant",
-"type": "Retail & sales"
-},
 "65e34a7a5d50": {
 "city": "Springfield",
 "employer": "",
@@ -30885,19 +28753,6 @@
 "source": "simplyhired",
 "title": "Intake Coordinators",
 "type": "Healthcare & human services"
-},
-"65fbb294eddf": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Senior Manager, Accounting",
-"type": "Finance & accounting"
 },
 "66013ee09468": {
 "city": "Eugene",
@@ -31017,19 +28872,6 @@
 "misses": 20,
 "soc": "434081",
 "title": "Front Desk Agents"
-},
-"664aeefc4385": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Booth rental available",
-"type": "Other"
 },
 "66538b8588fa": {
 "city": "Junction City",
@@ -31296,19 +29138,6 @@
 "source": "simplyhired",
 "title": "Behavioral Health Supervisors",
 "type": "Healthcare & human services"
-},
-"6767ffb00470": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Office Coordinator (Syracuse, New York)",
-"type": "Office & customer service"
 },
 "676f1d2c6dd7": {
 "city": "Springfield",
@@ -31664,19 +29493,6 @@
 "misses": 31,
 "soc": "434051",
 "title": "Customer Service Team Leads"
-},
-"68aed8659e9d": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Senior Parking Manager",
-"type": "Management & business"
 },
 "68bddb1c6a27": {
 "city": "Eugene",
@@ -32096,19 +29912,6 @@
 "title": "In Store Shoppers",
 "type": "Transportation & logistics"
 },
-"6a202ed4c188": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "412011",
-"source": "Employer direct",
-"title": "Valet Cashier Parkland Memorial Hospital",
-"type": "Retail & sales"
-},
 "6a2470f89f69": {
 "city": "Springfield",
 "employer": "Pacificsource Health Plans",
@@ -32239,19 +30042,6 @@
 "source": "National Labor Exchange",
 "title": "Host",
 "type": "Hospitality & leisure"
-},
-"6a73d527abae": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Search Distribution Careers",
-"type": "Other"
 },
 "6a7718084b26": {
 "city": "Cottage Grove",
@@ -32734,19 +30524,6 @@
 "soc": "411011",
 "title": "LEAD SALES ASSOCIATE-FT in EUGENE OR S19661"
 },
-"6c6a7afb5606": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Admissions Therapist (Bakersfield, California)",
-"type": "Healthcare & human services"
-},
 "6c823cd657cb": {
 "city": "Eugene",
 "employer": "",
@@ -32824,19 +30601,6 @@
 "source": "Employer direct",
 "title": "PACE Clinic Registered Nurse (RN) Casual",
 "type": "Healthcare & human services"
-},
-"6cc815df700c": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Plainfield, IL",
-"type": "Childcare & education"
 },
 "6ccd303461f3": {
 "city": "Eugene",
@@ -33083,19 +30847,6 @@
 "soc": "273091",
 "title": "School Sign Language Interpreters"
 },
-"6d98a2d6a4e0": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Tandem Parking Attendant - Directors Guild of America",
-"type": "Management & business"
-},
 "6d9d5b1af4be": {
 "city": "Junction City",
 "employer": "Mat Transportation",
@@ -33177,19 +30928,6 @@
 "misses": 7,
 "soc": "",
 "title": "Do Not Sell My Personal Information"
-},
-"6ddd74eb422b": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "352014",
-"source": "Employer direct",
-"title": "Kitchen Cook PM",
-"type": "Hospitality & leisure"
 },
 "6de2992fddf2": {
 "city": "Springfield",
@@ -33557,19 +31295,6 @@
 "title": "Veterinary Assistant - Willakenzie Animal Clinic",
 "type": "Healthcare & human services"
 },
-"6f0cabec8050": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Internship-MIRA Home For Women",
-"type": "Other"
-},
 "6f147717bad5": {
 "city": "Cottage Grove",
 "employer": "",
@@ -33671,19 +31396,6 @@
 "misses": 13,
 "soc": "411011",
 "title": "Store Managers"
-},
-"6fa66a6f2904": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Ritz Carlton Residences",
-"type": "Other"
 },
 "6fa841f6a42e": {
 "city": "Eugene",
@@ -34321,19 +32033,6 @@
 "title": "Medical Assistant, Eugene OR",
 "type": "Healthcare & human services"
 },
-"71d3220ee4ca": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Avondale, AZ",
-"type": "Childcare & education"
-},
 "71d4abde32cf": {
 "city": "Springfield",
 "employer": "",
@@ -34424,19 +32123,6 @@
 "misses": 1,
 "soc": "291141",
 "title": "Production Quality Assurance Managers"
-},
-"72195c36fcaf": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant",
-"type": "Other"
 },
 "7224c8272741": {
 "city": "Eugene",
@@ -35510,19 +33196,6 @@
 "soc": "",
 "title": "Substitute Department Assistant Facilities (Short-Term/Temporary)"
 },
-"758a3568b709": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Project Coordinator",
-"type": "Office & customer service"
-},
 "7594e3529961": {
 "city": "Springfield",
 "closed": "2026-10-20",
@@ -35591,19 +33264,6 @@
 "source": "indeed",
 "title": "Bartenders",
 "type": "Hospitality & leisure"
-},
-"75ce29ab1e3a": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Growth Marketing Manager",
-"type": "Management & business"
 },
 "75e6050fd151": {
 "city": "Springfield",
@@ -35739,19 +33399,6 @@
 "soc": "251072",
 "title": "Part-Time Nursing Assistant Program Director and Instructor"
 },
-"76477f629b2e": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - St John, NB",
-"type": "Childcare & education"
-},
 "7649916e731d": {
 "city": "Eugene",
 "employer": "CDM Smith",
@@ -35836,19 +33483,6 @@
 "source": "simplyhired",
 "title": "Dermatology Medical Assistants",
 "type": "Healthcare & human services"
-},
-"767a70a7d25a": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant",
-"type": "Other"
 },
 "7683a59d4aa3": {
 "city": "Springfield",
@@ -36164,19 +33798,6 @@
 "soc": "353023",
 "title": "barista - Store# 60461, JUNCTION CITY"
 },
-"778253571704": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Student Research Opportunities",
-"type": "Other"
-},
 "778550cd77c8": {
 "city": "Eugene",
 "employer": "Grand Canyon Education",
@@ -36249,19 +33870,6 @@
 "title": "$19.90*/HR Prep Team Member Dave's Hot Chicken (1047)",
 "type": "Other"
 },
-"77a7239070d3": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Shelby, MI",
-"type": "Childcare & education"
-},
 "77a89e8c825e": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -36305,19 +33913,6 @@
 "source": "governmentjobs",
 "title": "Assistant Wrestling Coaches",
 "type": "Other"
-},
-"77c0b5c19622": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "436014",
-"source": "Employer direct",
-"title": "Office Assistant",
-"type": "Office & customer service"
 },
 "77c0eb3866b6": {
 "city": "Eugene",
@@ -36375,19 +33970,6 @@
 "soc": "412031",
 "title": "Retail Sales Associate"
 },
-"77ec2f3f5781": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Share on Telegram (Opens in new window) Telegram",
-"type": "Other"
-},
 "77f7561c5897": {
 "city": "Springfield",
 "employer": "Insight Global (staffing)",
@@ -36400,19 +33982,6 @@
 "source": "OED",
 "title": "Medical Receptionist",
 "type": "Office & customer service"
-},
-"77fa53d18474": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Job Alerts",
-"type": "Other"
 },
 "77fc1fc7121e": {
 "city": "Springfield",
@@ -36494,19 +34063,6 @@
 "misses": 29,
 "soc": "273031",
 "title": "Communications Coordinators"
-},
-"7826956a7221": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Share on X (Opens in new window) X",
-"type": "Other"
 },
 "782c13553bfa": {
 "city": "Eugene",
@@ -36866,19 +34422,6 @@
 "soc": "372011",
 "title": "Janitorial Workers"
 },
-"791e8ef78e11": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "412011",
-"source": "Employer direct",
-"title": "Cashier Reser Stadium OSU",
-"type": "Retail & sales"
-},
 "792bee7f67e3": {
 "city": "Springfield",
 "closed": "2026-10-24",
@@ -36950,19 +34493,6 @@
 "source": "indeed",
 "title": "Radiologic Technologists",
 "type": "Healthcare & human services"
-},
-"796a94391f11": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "412031",
-"source": "Employer direct",
-"title": "Inside Sales Associate",
-"type": "Retail & sales"
 },
 "79777c4ae728": {
 "city": "Springfield",
@@ -37040,19 +34570,6 @@
 "soc": "519199",
 "title": "Sign Fabricators"
 },
-"79c7c5833abb": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Chair For Rent",
-"type": "Other"
-},
 "79d4ae510ca7": {
 "city": "Eugene",
 "closed": "2026-10-14",
@@ -37108,19 +34625,6 @@
 "source": "simplyhired",
 "title": "Fine Jewelry Sales Associates",
 "type": "Retail & sales"
-},
-"79ee2948dfa7": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Share on Tumblr (Opens in new window) Tumblr",
-"type": "Other"
 },
 "79ef49f22b44": {
 "city": "Eugene",
@@ -37620,19 +35124,6 @@
 "soc": "291141",
 "title": "Operating Room Nurse Managers"
 },
-"7b66123f24ec": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Principal Product Manager, Member Experience",
-"type": "Management & business"
-},
 "7b687ac262e9": {
 "city": "Eugene",
 "employer": "",
@@ -37905,19 +35396,6 @@
 "title": "Care Specialists",
 "type": "Other"
 },
-"7c6fc20a2eec": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "433031",
-"source": "Employer direct",
-"title": "Accounting Clerk",
-"type": "Finance & accounting"
-},
 "7c7956fe2fe9": {
 "city": "Springfield",
 "employer": "Les Schwab",
@@ -37982,19 +35460,6 @@
 "source": "Employer direct",
 "title": "SALES ASSOCIATE in OAKRIDGE OR S17448",
 "type": "Transportation & logistics"
-},
-"7c98407127f3": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Administrator (Part-Time)",
-"type": "Healthcare & human services"
 },
 "7caea847f6b3": {
 "city": "Springfield",
@@ -38252,32 +35717,6 @@
 "soc": "",
 "title": "Psychology Instructor, Full-Time Faculty"
 },
-"7da6261ba495": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Garage Porter Clifton Center",
-"type": "Transportation & logistics"
-},
-"7db3cee31314": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Tulsa, OK",
-"type": "Childcare & education"
-},
 "7db6555c9fcd": {
 "city": "Eugene",
 "employer": "",
@@ -38339,19 +35778,6 @@
 "misses": 14,
 "soc": "351012",
 "title": "shift supervisor - Store# 81322, HWY 101 & 20TH ST - FLORENCE"
-},
-"7e20ec486ec9": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "412011",
-"source": "Employer direct",
-"title": "Cashier SUNY Medical ( Part Time )",
-"type": "Retail & sales"
 },
 "7e2ef4d24296": {
 "city": "Springfield",
@@ -38575,19 +36001,6 @@
 "title": "Security Officers",
 "type": "Other"
 },
-"7eff2fbfcf70": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet / Bell Attendant - Legoland Hotel ( Part Time )",
-"type": "Hospitality & leisure"
-},
 "7f00f282e100": {
 "city": "Eugene",
 "employer": "Looking Glass Community Services",
@@ -38613,19 +36026,6 @@
 "source": "simplyhired",
 "title": "Computer Repair Technicians",
 "type": "Construction & trades"
-},
-"7f0f86431e55": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Technology",
-"type": "Other"
 },
 "7f16c71c0147": {
 "city": "Lane County",
@@ -38757,19 +36157,6 @@
 "misses": 25,
 "soc": "252021",
 "title": "Infant/Toddler Teachers"
-},
-"7f8b3a020a4e": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Part-time Jobs",
-"type": "Other"
 },
 "7f9607952e84": {
 "city": "Eugene",
@@ -38919,19 +36306,6 @@
 "soc": "431011",
 "title": "Sales and Customer Service Managers"
 },
-"801ca3e7056b": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "433031",
-"source": "Employer direct",
-"title": "Bookkeeper",
-"type": "Finance & accounting"
-},
 "80239133f5ee": {
 "city": "Cottage Grove",
 "closed": "2026-10-28",
@@ -38974,19 +36348,6 @@
 "misses": 23,
 "soc": "111021",
 "title": "Multi-Office Leader"
-},
-"804f37d70ff4": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - West Columbia, SC",
-"type": "Childcare & education"
 },
 "805a3f38dde6": {
 "city": "Eugene",
@@ -39322,32 +36683,6 @@
 "title": "Custodian",
 "type": "Other"
 },
-"816b58bb7c29": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant",
-"type": "Other"
-},
-"8173c981d00a": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Resumes",
-"type": "Other"
-},
 "817af2756bb8": {
 "city": "Eugene",
 "closed": "2026-10-15",
@@ -39403,19 +36738,6 @@
 "source": "indeed",
 "title": "Business Account Executives",
 "type": "Retail & sales"
-},
-"81aa3180b95b": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Product Manager, Growth",
-"type": "Management & business"
 },
 "81b89cc651de": {
 "city": "Springfield",
@@ -39869,19 +37191,6 @@
 "source": "indeed",
 "title": "Volunteer Coordinators",
 "type": "Healthcare & human services"
-},
-"8338e482d9ac": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Next Results Page",
-"type": "Other"
 },
 "834987ebcc13": {
 "city": "Eugene",
@@ -41084,19 +38393,6 @@
 "title": "Veterinary Technician Assistants",
 "type": "Healthcare & human services"
 },
-"8741d77cc965": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Account Manager",
-"type": "Finance & accounting"
-},
 "874fd742c198": {
 "city": "Eugene",
 "employer": "Target",
@@ -41237,32 +38533,6 @@
 "source": "OED",
 "title": "Equipment Operator",
 "type": "Manufacturing"
-},
-"87b56525feab": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Admissions Therapist (Delaware)",
-"type": "Healthcare & human services"
-},
-"87ca186bd2f8": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Syracuse, NY",
-"type": "Childcare & education"
 },
 "87cbf49f9e39": {
 "city": "Springfield",
@@ -41452,19 +38722,6 @@
 "title": "Nursing Shift Supervisors",
 "type": "Manufacturing"
 },
-"885cae5392d2": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - State College, PA",
-"type": "Childcare & education"
-},
 "885d44f86cf2": {
 "city": "Eugene",
 "employer": "",
@@ -41530,19 +38787,6 @@
 "title": "Team Member",
 "type": "Other"
 },
-"887814fbac38": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Search Corporate Careers",
-"type": "Other"
-},
 "887d62aa541d": {
 "city": "Springfield",
 "employer": "",
@@ -41565,19 +38809,6 @@
 "misses": 12,
 "soc": "499071",
 "title": "Forklift Operators"
-},
-"88a7e97e09a4": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Create a job alert",
-"type": "Other"
 },
 "88b28788d8e8": {
 "city": "Eugene",
@@ -41624,19 +38855,6 @@
 "misses": 28,
 "soc": "131071",
 "title": "Human Resources Specialists"
-},
-"88f9318fa651": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Edmonton, AB",
-"type": "Childcare & education"
 },
 "88fefa723cb8": {
 "city": "Eugene",
@@ -42150,19 +39368,6 @@
 "soc": "537065",
 "title": "Night Stock Associates"
 },
-"8a7bcaa17d81": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "University of Houston- Maintenance",
-"type": "Construction & trades"
-},
 "8a8b998586b4": {
 "city": "Eugene",
 "closed": "2026-10-24",
@@ -42198,19 +39403,6 @@
 "source": "National Labor Exchange",
 "title": "Associate Dentist",
 "type": "Retail & sales"
-},
-"8aa51944b50d": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Joliet, IL",
-"type": "Childcare & education"
 },
 "8aa6dc32d620": {
 "city": "Eugene",
@@ -42459,19 +39651,6 @@
 "title": "Direct Support Worker (Caregiver)",
 "type": "Healthcare & human services"
 },
-"8b45bb368e61": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Admissions Therapist (Maryland)",
-"type": "Healthcare & human services"
-},
 "8b4a2792215c": {
 "city": "Springfield",
 "closed": "2026-10-23",
@@ -42485,19 +39664,6 @@
 "source": "simplyhired",
 "title": "Respiratory Therapists",
 "type": "Healthcare & human services"
-},
-"8b4fc28a8b77": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Stylist",
-"type": "Other"
 },
 "8b6023872392": {
 "city": "Springfield",
@@ -42772,19 +39938,6 @@
 "title": "IT Sales Managers",
 "type": "Management & business"
 },
-"8c18a90d3b3c": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Coconut Grove",
-"type": "Other"
-},
 "8c1ea5028971": {
 "city": "Eugene",
 "employer": "Sherwin-Williams",
@@ -42891,19 +40044,6 @@
 "misses": 14,
 "soc": "372012",
 "title": "Housekeepers"
-},
-"8c7b4922c00a": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Senior iOS Engineer",
-"type": "Engineering & science"
 },
 "8c81cf6b322f": {
 "city": "Eugene",
@@ -43173,19 +40313,6 @@
 "soc": "472131",
 "title": "Installers"
 },
-"8d7413fe53dd": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Colorado Springs, CO",
-"type": "Childcare & education"
-},
 "8d789e6aef56": {
 "city": "Eugene",
 "employer": "",
@@ -43230,19 +40357,6 @@
 "misses": 20,
 "soc": "499071",
 "title": "Customer Service Team Members"
-},
-"8dc83575cd4a": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Share on X (Opens in new window) X",
-"type": "Other"
 },
 "8dcbe1a2f953": {
 "city": "Eugene",
@@ -43335,19 +40449,6 @@
 "title": "Retail Cashiers",
 "type": "Retail & sales"
 },
-"8e0dc15797fd": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "434051",
-"source": "Employer direct",
-"title": "Temporary Customer Service Representative (Weekends) - Maple Leaf Square",
-"type": "Office & customer service"
-},
 "8e0fd7c233d1": {
 "city": "Springfield",
 "closed": "2026-10-28",
@@ -43436,19 +40537,6 @@
 "title": "Fuel Cashier",
 "type": "Retail & sales"
 },
-"8e348b94d295": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "533032",
-"source": "Employer direct",
-"title": "Shuttle Driver CDL - 3600 Civic Center Blvd Garage",
-"type": "Transportation & logistics"
-},
 "8e3ca9befbad": {
 "city": "Eugene",
 "employer": "CCS",
@@ -43460,19 +40548,6 @@
 "soc": "",
 "source": "Employer direct",
 "title": "Automation and Controls Designer",
-"type": "Other"
-},
-"8e42109859fa": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Event Ambassador - RiverCentre Parking Ramp ( Part Time )",
 "type": "Other"
 },
 "8e47fe6f50c6": {
@@ -44143,19 +41218,6 @@
 "title": "Who We Are",
 "type": "Other"
 },
-"9037b0b7edf7": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "412031",
-"source": "Employer direct",
-"title": "Retail Associate, SEAS - Nike Clinton",
-"type": "Retail & sales"
-},
 "90426e1b45ff": {
 "city": "Springfield",
 "employer": "Walmart",
@@ -44223,19 +41285,6 @@
 "misses": 23,
 "soc": "119141",
 "title": "Unit Managers"
-},
-"90854ed467d4": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Join Our Talent Community",
-"type": "Other"
 },
 "908b55bd92f6": {
 "city": "Eugene",
@@ -44427,19 +41476,6 @@
 "title": "Spiritual Care Coordinators",
 "type": "Healthcare & human services"
 },
-"9127fda9c2f3": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Athlete Nike (vendeur en magasin) - H/F - CDI 30h",
-"type": "Other"
-},
 "91280b877842": {
 "city": "Cottage Grove",
 "employer": "Walmart",
@@ -44604,19 +41640,6 @@
 "title": "Behavioral Health Supervisors",
 "type": "Healthcare & human services"
 },
-"91bf5ac76803": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Tax Accountant",
-"type": "Finance & accounting"
-},
 "91c5c59b5f49": {
 "city": "Cottage Grove",
 "employer": "Adaptiva Enterprises",
@@ -44668,19 +41691,6 @@
 "misses": 17,
 "soc": "431011",
 "title": "Manager, Premium Seating & Parking"
-},
-"91f2fc054470": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Career Areas",
-"type": "Other"
 },
 "9206e5af5989": {
 "city": "Eugene",
@@ -44936,19 +41946,6 @@
 "misses": 12,
 "soc": "339032",
 "title": "Security Guards"
-},
-"92bc9b4c20b5": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Enterprise Transformation Lead",
-"type": "Management & business"
 },
 "92c12605bb47": {
 "city": "Florence",
@@ -45292,19 +42289,6 @@
 "soc": "519022",
 "title": "Spray Technicians"
 },
-"9400eb63fe0f": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Licensing Specialist",
-"type": "Healthcare & human services"
-},
 "9401cbaf5082": {
 "city": "Eugene",
 "employer": "Pipeworks Studios",
@@ -45646,19 +42630,6 @@
 "soc": "111021",
 "title": "District Manager"
 },
-"94eb930f24b4": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Belleville, ON",
-"type": "Childcare & education"
-},
 "94f26e74eaa2": {
 "city": "Lane County",
 "closed": "2026-10-15",
@@ -45757,19 +42728,6 @@
 "misses": 10,
 "soc": "",
 "title": "Director, Disabled Students Programs and Services (DSPS)"
-},
-"954eac906456": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Financial Representative",
-"type": "Other"
 },
 "9553ad347998": {
 "city": "Veneta",
@@ -45897,19 +42855,6 @@
 "soc": "533031",
 "title": "Parts Drivers"
 },
-"95b2ed5f737a": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Transfer Student Admission Standards",
-"type": "Other"
-},
 "95b4af88f300": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -45989,19 +42934,6 @@
 "soc": "339032",
 "title": "Security Guards"
 },
-"95d0acd0328b": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Tuscaloosa, AL",
-"type": "Childcare & education"
-},
 "95d2f76b39cd": {
 "city": "Eugene",
 "employer": "Lane County",
@@ -46076,19 +43008,6 @@
 "misses": 24,
 "soc": "533033",
 "title": "Commercial Driver - Part Time"
-},
-"95f439c9ba06": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Jordan Careers",
-"type": "Other"
 },
 "9604481cc98b": {
 "city": "Springfield",
@@ -46175,32 +43094,6 @@
 "title": "CDL Driver",
 "type": "Transportation & logistics"
 },
-"96242c1d81f5": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Galesburg, IL",
-"type": "Childcare & education"
-},
-"962a5f55fa61": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Carbonear, NL",
-"type": "Childcare & education"
-},
 "9636d2d9c705": {
 "city": "Eugene",
 "employer": "Bicoastal Media",
@@ -46226,19 +43119,6 @@
 "source": "National Labor Exchange",
 "title": "Rare Disease Account Manager - Oregon/Southern Washington (WA State Employee)",
 "type": "Finance & accounting"
-},
-"963bccd5de04": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Direct Care Staff",
-"type": "Other"
 },
 "963c44c52028": {
 "city": "Eugene",
@@ -46484,19 +43364,6 @@
 "source": "indeed",
 "title": "Subway Managers",
 "type": "Hospitality & leisure"
-},
-"96b0aea4db14": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Carleton Place, ON",
-"type": "Childcare & education"
 },
 "96bc74c064a4": {
 "city": "Cottage Grove",
@@ -46964,32 +43831,6 @@
 "title": "CDL-A Truck Drivers",
 "type": "Transportation & logistics"
 },
-"980640c1ef5a": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Recovery Coach",
-"type": "Childcare & education"
-},
-"980a0cfd18b4": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Hyatt Regency ( Part Time )",
-"type": "Other"
-},
 "980c80e22ab9": {
 "city": "Eugene",
 "employer": "Lowe's",
@@ -47022,19 +43863,6 @@
 "misses": 15,
 "soc": "172071",
 "title": "Senior Substation Physical Engineer | Regional Team Lead"
-},
-"981be59ae8d1": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Accounts Payable Clerk",
-"type": "Retail & sales"
 },
 "981e773ffe4f": {
 "city": "Eugene",
@@ -47918,19 +44746,6 @@
 "title": "Retail Service Specialist",
 "type": "Retail & sales"
 },
-"9aa5c993289b": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Experienced Stylist",
-"type": "Other"
-},
 "9aaa21bac13b": {
 "city": "Junction City",
 "employer": "Bounds Hay",
@@ -47943,19 +44758,6 @@
 "source": "indeed",
 "title": "Accountants",
 "type": "Finance & accounting"
-},
-"9abd12ec13da": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - South Bend, IN",
-"type": "Childcare & education"
 },
 "9ac838b9c278": {
 "city": "Springfield",
@@ -48449,19 +45251,6 @@
 "title": "Computed Tomography Technologists",
 "type": "Healthcare & human services"
 },
-"9bd437c3279e": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "434051",
-"source": "Employer direct",
-"title": "Customer Service Representative 1640 Jackson Blvd ( Temporary )",
-"type": "Office & customer service"
-},
 "9bd56524d43a": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -48471,19 +45260,6 @@
 "misses": 8,
 "soc": "",
 "title": "Eugene, OR 97402"
-},
-"9bdd1aeda192": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Outdoor Adventure Staff",
-"type": "Other"
 },
 "9be19eb98ec7": {
 "city": "Eugene",
@@ -48691,19 +45467,6 @@
 "source": "Employer direct",
 "title": "Personal Banker",
 "type": "Finance & accounting"
-},
-"9cda5be5dc9a": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "399041",
-"source": "Employer direct",
-"title": "Residential Support Staff - Live‑In Position (Housing Included)",
-"type": "Other"
 },
 "9cdb8a757f3c": {
 "city": "Springfield",
@@ -48941,19 +45704,6 @@
 "source": "indeed",
 "title": "Wireless Retail Sales Associates",
 "type": "Retail & sales"
-},
-"9da58039c3b0": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Interview Tips",
-"type": "Other"
 },
 "9db35844d077": {
 "city": "Eugene",
@@ -49365,32 +46115,6 @@
 "source": "ashbyhq",
 "title": "Installers",
 "type": "Construction & trades"
-},
-"9f3070dd5792": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Castle Rock, CO",
-"type": "Childcare & education"
-},
-"9f33e09c0fda": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "How to Apply",
-"type": "Other"
 },
 "9f3db635a2f9": {
 "city": "Eugene",
@@ -50016,19 +46740,6 @@
 "soc": "291171",
 "title": "Primary Care Nurse Practitioners/Physician Assistants"
 },
-"a07c8808bd33": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Admissions Therapist (Arizona)",
-"type": "Healthcare & human services"
-},
 "a08d84253894": {
 "city": "Lane County",
 "closed": "2026-10-18",
@@ -50038,19 +46749,6 @@
 "misses": 23,
 "soc": "",
 "title": "Writing Center Coordinator (Reassign Time)"
-},
-"a0915d9536c3": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Cheyenne, WY",
-"type": "Childcare & education"
 },
 "a09211469bbb": {
 "city": "Springfield",
@@ -50063,19 +46761,6 @@
 "soc": "373011",
 "source": "adp",
 "title": "Groundskeepers",
-"type": "Other"
-},
-"a097531c54b7": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Information Technology",
 "type": "Other"
 },
 "a09c4fe03327": {
@@ -50161,19 +46846,6 @@
 "source": "indeed",
 "title": "Substitute Aides",
 "type": "Transportation & logistics"
-},
-"a0dcb92d266d": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Education Assistant/DC",
-"type": "Childcare & education"
 },
 "a0ebfa169a13": {
 "city": "Springfield",
@@ -50549,19 +47221,6 @@
 "soc": "395094",
 "title": "Estheticians"
 },
-"a214f77c1295": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Women's Program Intern",
-"type": "Other"
-},
 "a217330d4cd7": {
 "city": "Cottage Grove",
 "closed": "2026-10-29",
@@ -50743,19 +47402,6 @@
 "soc": "172199",
 "title": "Director, Automation & Controls"
 },
-"a26557377ad9": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant 175 W Jackson Blvd ( Temporary )",
-"type": "Other"
-},
 "a2715cc6a8ab": {
 "city": "Junction City",
 "employer": "",
@@ -50788,19 +47434,6 @@
 "misses": 22,
 "soc": "252011",
 "title": "Year 3 Teachers"
-},
-"a2944f191be9": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Office Coordinator (Stamford, Connecticut)",
-"type": "Office & customer service"
 },
 "a298bb61e991": {
 "city": "Eugene",
@@ -50952,19 +47585,6 @@
 "misses": 25,
 "soc": "434051",
 "title": "Customer Service Associates"
-},
-"a308b5de67d3": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Rochester Hills, MI",
-"type": "Childcare & education"
 },
 "a30954aed147": {
 "city": "Eugene",
@@ -51164,19 +47784,6 @@
 "title": "HR/Payroll Specialist",
 "type": "Finance & accounting"
 },
-"a3940e353b9b": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Lead Dispatcher",
-"type": "Transportation & logistics"
-},
 "a3a3799bc16a": {
 "city": "Eugene",
 "closed": "2026-10-23",
@@ -51367,45 +47974,6 @@
 "title": "Merchandising Specialist",
 "type": "Creative & media"
 },
-"a461c6fb53dc": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Benefits & Perks",
-"type": "Other"
-},
-"a46d88f28af1": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "111021",
-"source": "Employer direct",
-"title": "Senior Operations Manager - Valet and Garage Parking",
-"type": "Management & business"
-},
-"a470edbe9352": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Learn About Our Culture",
-"type": "Other"
-},
 "a4943c0db223": {
 "city": "Eugene",
 "employer": "Fresenius Medical Care",
@@ -51543,19 +48111,6 @@
 "misses": 21,
 "soc": "351012",
 "title": "Servers/Shift Leaders"
-},
-"a517d297e39b": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Application Deadlines",
-"type": "Other"
 },
 "a52b9196d089": {
 "city": "Springfield",
@@ -51767,19 +48322,6 @@
 "misses": 18,
 "soc": "292061",
 "title": "Licensed Practical Nurses"
-},
-"a5c1f07b2b02": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Provider Credentialing Lead",
-"type": "Management & business"
 },
 "a5c8634da76e": {
 "city": "Eugene",
@@ -52021,19 +48563,6 @@
 "soc": "211018",
 "title": "Telehealth Counselors/Therapists"
 },
-"a66a4a1ee650": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Search Retail Careers",
-"type": "Retail & sales"
-},
 "a67e40b513ec": {
 "city": "Oakridge",
 "employer": "Dollar General",
@@ -52183,19 +48712,6 @@
 "title": "Career and Technical Education",
 "type": "Childcare & education"
 },
-"a6fff200c916": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Search Open Internships",
-"type": "Other"
-},
 "a7080b07b1d1": {
 "city": "Eugene",
 "closed": "2026-10-10",
@@ -52217,19 +48733,6 @@
 "soc": "",
 "source": "National Labor Exchange",
 "title": "Cart Attendant",
-"type": "Other"
-},
-"a71c6cd4ca4d": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Domain Northside",
 "type": "Other"
 },
 "a71e750d85a2": {
@@ -52329,19 +48832,6 @@
 "misses": 20,
 "soc": "433031",
 "title": "Bookkeepers"
-},
-"a75aa016c07c": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Overnight Valet Parking Attendant - Carillon Hotel and Spa",
-"type": "Hospitality & leisure"
 },
 "a75cdc0b87d7": {
 "city": "Eugene",
@@ -53466,19 +49956,6 @@
 "soc": "319011",
 "title": "Licensed Massage Therapists"
 },
-"aa85e15f2fad": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "537061",
-"source": "Employer direct",
-"title": "Hospital Parking Lot Attendant",
-"type": "Transportation & logistics"
-},
 "aa8b868cf999": {
 "city": "Eugene",
 "closed": "2026-10-19",
@@ -53498,19 +49975,6 @@
 "misses": 13,
 "soc": "533032",
 "title": "Non-CDL Student Drivers"
-},
-"aa95f8801473": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Key Master Clifton Center",
-"type": "Other"
 },
 "aaa155d5383d": {
 "city": "Eugene",
@@ -53678,19 +50142,6 @@
 "misses": 1,
 "soc": "537065",
 "title": "Apparel Clerks"
-},
-"ab170d852f57": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Great Falls, MT",
-"type": "Childcare & education"
 },
 "ab1de589a5c6": {
 "city": "Eugene",
@@ -55641,19 +52092,6 @@
 "soc": "",
 "title": "Program Supervisor - Willamette Treatment Plant"
 },
-"b134a61dad4a": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Controller",
-"type": "Finance & accounting"
-},
 "b139e99e0133": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -55952,19 +52390,6 @@
 "source": "OED",
 "title": "Part Sales Manager - Full Time",
 "type": "Retail & sales"
-},
-"b29ebbf69ed8": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Fresno, CA",
-"type": "Childcare & education"
 },
 "b2a21fcac897": {
 "city": "Eugene",
@@ -56295,19 +52720,6 @@
 "soc": "291223",
 "title": "Outpatient Psychiatrists"
 },
-"b3f99e36691d": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Lawrence, KS",
-"type": "Childcare & education"
-},
 "b40a82d75e54": {
 "city": "Lane County",
 "closed": "2026-10-14",
@@ -56410,19 +52822,6 @@
 "title": "Bakery Clerk",
 "type": "Manufacturing"
 },
-"b426b98003ea": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Staff Platform Engineer",
-"type": "Engineering & science"
-},
 "b429cd62f7e7": {
 "city": "Eugene",
 "employer": "Mazzetti Gba",
@@ -56448,19 +52847,6 @@
 "source": "OED",
 "title": "Accountant II",
 "type": "Finance & accounting"
-},
-"b430b408e4af": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Stylist",
-"type": "Other"
 },
 "b430b96250e4": {
 "city": "Eugene",
@@ -56547,19 +52933,6 @@
 "soc": "291229",
 "title": "Neurology Hospitalists"
 },
-"b45e06a3cd92": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "111021",
-"source": "Employer direct",
-"title": "Retail Store Manager",
-"type": "Management & business"
-},
 "b469c70f47e1": {
 "city": "Eugene",
 "employer": "Pacific Crest Bus Lines",
@@ -56572,19 +52945,6 @@
 "source": "simplyhired",
 "title": "CDL-A CDL-B Truck Drivers",
 "type": "Transportation & logistics"
-},
-"b4769125fc50": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Stylist",
-"type": "Other"
 },
 "b47768b952bf": {
 "city": "Eugene",
@@ -56654,19 +53014,6 @@
 "source": "Employer direct",
 "title": "Automotive Technician",
 "type": "Construction & trades"
-},
-"b4b061dd9f87": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Supervisor - UHealth ( Mon - Fri )",
-"type": "Healthcare & human services"
 },
 "b4b995c06f2a": {
 "city": "Eugene",
@@ -57024,19 +53371,6 @@
 "title": "Saved Jobs (0)",
 "type": "Other"
 },
-"b5de53a291e0": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Senior iOS Engineer",
-"type": "Engineering & science"
-},
 "b5e87bf59397": {
 "city": "Springfield",
 "employer": "Chipotle",
@@ -57085,19 +53419,6 @@
 "misses": 23,
 "soc": "291141",
 "title": "Nursery Registered Nurses"
-},
-"b60496c15fa6": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Français",
-"type": "Other"
 },
 "b611e094608a": {
 "city": "Eugene",
@@ -57369,19 +53690,6 @@
 "misses": 36,
 "soc": "411011",
 "title": "Part Sales Manager - Part Time"
-},
-"b6e2889b7340": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Office Coordinator (Levittown, New York)",
-"type": "Office & customer service"
 },
 "b6f77279ddff": {
 "city": "Eugene",
@@ -57701,19 +54009,6 @@
 "title": "Payroll Specialist",
 "type": "Finance & accounting"
 },
-"b84229c7e1a5": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - East Grand Forks, ND",
-"type": "Childcare & education"
-},
 "b84fb84eba13": {
 "city": "Lane County",
 "closed": "2026-10-26",
@@ -57723,19 +54018,6 @@
 "misses": 15,
 "soc": "",
 "title": "Echocardiography Instructor"
-},
-"b8579c4b8c2f": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "434051",
-"source": "Employer direct",
-"title": "Temporary Customer Service Representative (Weekends) - Manulife Centre",
-"type": "Office & customer service"
 },
 "b86642903af0": {
 "city": "Eugene",
@@ -58147,19 +54429,6 @@
 "misses": 25,
 "soc": "292099",
 "title": "Patient Access Clerk - Patient Registration - PRN"
-},
-"b9a7778fa224": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "LinkedIn",
-"type": "Other"
 },
 "b9b6c68cde0a": {
 "city": "Eugene",
@@ -58684,19 +54953,6 @@
 "soc": "193033",
 "title": "Licensed Clinical Psychologists"
 },
-"bb327334ad6c": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Forsyth, IL",
-"type": "Childcare & education"
-},
 "bb37fe147914": {
 "city": "Eugene",
 "employer": "Stryker",
@@ -58766,19 +55022,6 @@
 "soc": "292099",
 "title": "Medical Office Receptionists"
 },
-"bb6fe5459981": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Search Manufacturing Careers",
-"type": "Manufacturing"
-},
 "bb7808b4e43a": {
 "city": "Eugene",
 "closed": "2026-10-26",
@@ -58788,19 +55031,6 @@
 "misses": 15,
 "soc": "252011",
 "title": "Early Childhood Associate Teacher"
-},
-"bb7825babdc6": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Ticket Writer At UTSW",
-"type": "Other"
 },
 "bb7be3ac586a": {
 "city": "Eugene",
@@ -59238,19 +55468,6 @@
 "soc": "359021",
 "title": "Dishwashers"
 },
-"bd39c15cb3a8": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Direct Care PM",
-"type": "Other"
-},
 "bd43594d6b60": {
 "city": "Eugene",
 "employer": "",
@@ -59648,19 +55865,6 @@
 "soc": "533031",
 "title": "Pick-Up and Delivery Drivers"
 },
-"bea1742572cc": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "351012",
-"source": "Employer direct",
-"title": "Assistant Manager",
-"type": "Hospitality & leisure"
-},
 "bea7f0c6d95a": {
 "city": "Springfield",
 "employer": "Channelpartners",
@@ -59773,19 +55977,6 @@
 "misses": 21,
 "soc": "311128",
 "title": "In-Home Caregivers"
-},
-"bf006e0a63d5": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "533032",
-"source": "Employer direct",
-"title": "Shuttle Driver Non CDL Charleston Int'l Airport ( Evening shift )",
-"type": "Transportation & logistics"
 },
 "bf02f24ab787": {
 "city": "Eugene",
@@ -60037,19 +56228,6 @@
 "soc": "434061",
 "title": "Monitoring Specialists"
 },
-"bfe0408864d0": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Bluesky",
-"type": "Other"
-},
 "bfedc399b636": {
 "city": "Eugene",
 "employer": "Dutch Bros",
@@ -60155,19 +56333,6 @@
 "soc": "431011",
 "title": "Self Storage Managers"
 },
-"c0123eb4429a": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Sunny Isles Beach / Aventura",
-"type": "Other"
-},
 "c01cdecb29ca": {
 "city": "Lane County",
 "employer": "Lane County",
@@ -60180,19 +56345,6 @@
 "source": "Employer direct",
 "title": "Lane Events Center Operations Supervisor",
 "type": "Management & business"
-},
-"c01d7eab2651": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Santa Clara Valley Medical Center",
-"type": "Healthcare & human services"
 },
 "c01f60713e93": {
 "city": "Eugene",
@@ -60223,19 +56375,6 @@
 "misses": 15,
 "soc": "395012",
 "title": "Hair Stylists"
-},
-"c042e1661578": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Albany/Guilderland NY",
-"type": "Childcare & education"
 },
 "c04e12865a26": {
 "city": "Eugene",
@@ -60286,19 +56425,6 @@
 "title": "EXCAVATOR OPERATOR/GENERAL LABORER",
 "type": "Construction & trades"
 },
-"c054a9514af9": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant Texas Medical Center",
-"type": "Healthcare & human services"
-},
 "c06131b36442": {
 "city": "Springfield",
 "employer": "",
@@ -60334,19 +56460,6 @@
 "misses": 29,
 "soc": "151299",
 "title": "Masters - Project Controls Co-Op"
-},
-"c08dc848f345": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Overnight Parking Enforcement - Miami Truck Parking ( Part Time )",
-"type": "Transportation & logistics"
 },
 "c0911e38d339": {
 "city": "Eugene",
@@ -60810,19 +56923,6 @@
 "misses": 21,
 "soc": "131151",
 "title": "Skills Trainers"
-},
-"c1c1fc52bf2e": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "151252",
-"source": "Employer direct",
-"title": "Software Engineer II, ITC",
-"type": "Technology"
 },
 "c1ca6c84bdfb": {
 "city": "Eugene",
@@ -61351,32 +57451,6 @@
 "soc": "",
 "title": "Counselor: Disabled Students Programs and Services (DSP&S)"
 },
-"c3737bd07bb6": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Overnight Valet Parking Attendant - Sunny Isles Beach / Aventura",
-"type": "Other"
-},
-"c37f62f3a597": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Airport Parking Location Manager",
-"type": "Management & business"
-},
 "c3867dbe6cc1": {
 "city": "Eugene",
 "employer": "",
@@ -61389,19 +57463,6 @@
 "source": "uoregon",
 "title": "Prep Cooks",
 "type": "Hospitality & leisure"
-},
-"c3915daa4046": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Gonzales, LA",
-"type": "Childcare & education"
 },
 "c3a918c898cd": {
 "city": "Eugene",
@@ -62017,19 +58078,6 @@
 "title": "Substitute Custodian",
 "type": "Other"
 },
-"c57b846049e9": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Nail Tech",
-"type": "Other"
-},
 "c57cc715ed91": {
 "city": "Elmira",
 "closed": "2026-10-20",
@@ -62161,32 +58209,6 @@
 "source": "icims",
 "title": "Flex Officers",
 "type": "Other"
-},
-"c5e62a0f42a5": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Wichita, KS",
-"type": "Childcare & education"
-},
-"c5f174a90d2c": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "111021",
-"source": "Employer direct",
-"title": "Operations Manager - Valet and Garage Parking",
-"type": "Management & business"
 },
 "c5f65f45dea4": {
 "city": "Springfield",
@@ -62323,19 +58345,6 @@
 "title": "Store Managers",
 "type": "Retail & sales"
 },
-"c66585a363e9": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "412031",
-"source": "Employer direct",
-"title": "Retail Associate, SEAS - Nike East La Community",
-"type": "Retail & sales"
-},
 "c66d6e029e7a": {
 "city": "Springfield",
 "employer": "Dave's Hot Chicken",
@@ -62458,19 +58467,6 @@
 "title": "Brunch Cooks",
 "type": "Hospitality & leisure"
 },
-"c6e06cc644eb": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Ann Arbor, MI",
-"type": "Childcare & education"
-},
 "c6e9ff2973bf": {
 "city": "Eugene",
 "closed": "2026-10-16",
@@ -62549,19 +58545,6 @@
 "source": "National Labor Exchange",
 "title": "Registered Nurse - RN - Dialysis",
 "type": "Healthcare & human services"
-},
-"c72e6bd4b2d8": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Military & Veteran Applicants",
-"type": "Other"
 },
 "c734a795c24b": {
 "city": "Springfield",
@@ -62752,19 +58735,6 @@
 "source": "simplyhired",
 "title": "Technicians",
 "type": "Technology"
-},
-"c7975f8fc893": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Crisis Intervention Specialist (Oregon)",
-"type": "Management & business"
 },
 "c79b05f6a3ae": {
 "city": "Eugene",
@@ -63185,19 +59155,6 @@
 "soc": "533031",
 "title": "Delivery Drivers"
 },
-"c8c254074d62": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Rothesay, NB",
-"type": "Childcare & education"
-},
 "c8c3c2a5f760": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -63360,19 +59317,6 @@
 "soc": "439021",
 "title": "Data Entry"
 },
-"c91256f69b33": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "433051",
-"source": "Employer direct",
-"title": "Payroll Specialist",
-"type": "Finance & accounting"
-},
 "c916e765a6c9": {
 "city": "Springfield",
 "employer": "The Home Depot",
@@ -63507,19 +59451,6 @@
 "title": "Building Engineers",
 "type": "Construction & trades"
 },
-"c940d661229e": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "412031",
-"source": "Employer direct",
-"title": "Retail Associate, SEAS - Nike Park City",
-"type": "Retail & sales"
-},
 "c94869790a99": {
 "city": "Eugene",
 "closed": "2026-10-17",
@@ -63590,19 +59521,6 @@
 "soc": "271026",
 "title": "Merchandisers"
 },
-"c96ed52ae765": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Creative Arts Facilitator",
-"type": "Other"
-},
 "c972bb977a9b": {
 "city": "Eugene",
 "employer": "Willamette Valley Cancer Institute",
@@ -63627,19 +59545,6 @@
 "soc": "",
 "source": "National Labor Exchange",
 "title": "Carside",
-"type": "Other"
-},
-"c97c0af9ed24": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Visiting & Non-degree Applicants",
 "type": "Other"
 },
 "c9822911ef07": {
@@ -63733,32 +59638,6 @@
 "misses": 18,
 "soc": "434161",
 "title": "Recruiting Coordinators"
-},
-"c9d7116f7379": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "434051",
-"source": "Employer direct",
-"title": "Temporary Customer Service Representative (Morning) - Hullmark Centre",
-"type": "Office & customer service"
-},
-"c9dec485cb5b": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Maintenance Attendant",
-"type": "Construction & trades"
 },
 "c9e77095f1a4": {
 "city": "Cottage Grove",
@@ -64686,19 +60565,6 @@
 "soc": "112033",
 "title": "Philanthropy Officers"
 },
-"cc63e2d08dcf": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "132011",
-"source": "Employer direct",
-"title": "Staff Accountant",
-"type": "Finance & accounting"
-},
 "cc66aef7ca7a": {
 "city": "Eugene",
 "closed": "2026-10-10",
@@ -64988,19 +60854,6 @@
 "soc": "",
 "source": "Employer direct",
 "title": "Senior Electrical Engineer",
-"type": "Construction & trades"
-},
-"cd566bbbfe73": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "499071",
-"source": "Employer direct",
-"title": "Parking Maintenance Technician UAB Hospital",
 "type": "Construction & trades"
 },
 "cd587211595c": {
@@ -65447,19 +61300,6 @@
 "soc": "173022",
 "title": "Permit Technicians"
 },
-"cee8a83a8647": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Hairdresser",
-"type": "Other"
-},
 "cef0868ae636": {
 "city": "Eugene",
 "employer": "",
@@ -65752,19 +61592,6 @@
 "misses": 24,
 "soc": "372012",
 "title": "Housekeepers"
-},
-"d00cc3b36e84": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Dispatcher",
-"type": "Transportation & logistics"
 },
 "d014c9e5f3b2": {
 "city": "Eugene",
@@ -66108,19 +61935,6 @@
 "source": "OED",
 "title": "Teller",
 "type": "Finance & accounting"
-},
-"d0bd0d05ff42": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Ogunquit, NH",
-"type": "Childcare & education"
 },
 "d0bf5eda4283": {
 "city": "Eugene",
@@ -66530,19 +62344,6 @@
 "title": "Bus Driver, Permanent Substitute (4 hours minimum guaranteed, Benefit eligible)",
 "type": "Transportation & logistics"
 },
-"d1e3057c61be": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Nail Tech/Manicurist",
-"type": "Other"
-},
 "d1e65aac3b01": {
 "city": "Springfield",
 "employer": "Coast Property Management",
@@ -66579,19 +62380,6 @@
 "soc": "434141",
 "title": "Relationship Banking Specialist I"
 },
-"d1fc5f184722": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "537061",
-"source": "Employer direct",
-"title": "Parking Lot Attendant River East ( Temporary )",
-"type": "Transportation & logistics"
-},
 "d1fcf3b19ff9": {
 "city": "Springfield",
 "closed": "2026-10-20",
@@ -66624,19 +62412,6 @@
 "misses": 29,
 "soc": "131051",
 "title": "Electrical Regional Chief Estimator"
-},
-"d226db7e69fb": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Shrewsbury, MO",
-"type": "Childcare & education"
 },
 "d23fe1ad5d1b": {
 "city": "Eugene",
@@ -66768,19 +62543,6 @@
 "misses": 13,
 "soc": "211093",
 "title": "Social Services Assistants"
-},
-"d2941dc6dc0a": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Office Coordinator (Lincoln Park, New Jersey)",
-"type": "Office & customer service"
 },
 "d29a81993fbc": {
 "city": "Springfield",
@@ -67167,19 +62929,6 @@
 "source": "OED",
 "title": "Retail Merchandiser - Overnight",
 "type": "Transportation & logistics"
-},
-"d3a0e644a00f": {
-"city": "Eugene",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Recovery Coach",
-"type": "Childcare & education"
 },
 "d3a7ff955f37": {
 "city": "Florence",
@@ -67596,19 +63345,6 @@
 "soc": "412022",
 "title": "Reconditioning Managers"
 },
-"d4e2c1dd2f0f": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Paso Robles, CA",
-"type": "Childcare & education"
-},
 "d4ef2b83a4e6": {
 "city": "Springfield",
 "closed": "2026-10-17",
@@ -67731,19 +63467,6 @@
 "soc": "536031",
 "title": "Fuel Station Attendants"
 },
-"d532ec89fa0a": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Director, Footwear Product Line Manager, Local Creation GC",
-"type": "Management & business"
-},
 "d53d2e1706fa": {
 "city": "Springfield",
 "employer": "",
@@ -67802,19 +63525,6 @@
 "source": "Employer direct",
 "title": "Experienced Irrigation Technician",
 "type": "Construction & trades"
-},
-"d59520313d8c": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Lemont Furnance, PA",
-"type": "Childcare & education"
 },
 "d5ace82dacc1": {
 "city": "Eugene",
@@ -67877,19 +63587,6 @@
 "source": "simplyhired",
 "title": "Installation Technicians",
 "type": "Construction & trades"
-},
-"d5e98c669ecf": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Licensed Cosmetologist",
-"type": "Other"
 },
 "d5f12b116452": {
 "city": "Eugene",
@@ -68200,19 +63897,6 @@
 "soc": "119111",
 "title": "Assisted Living Executive Directors"
 },
-"d6a575c2a561": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Hairstylist",
-"type": "Other"
-},
 "d6a7e7ef94c9": {
 "city": "Springfield",
 "closed": "2026-10-28",
@@ -68365,19 +64049,6 @@
 "soc": "",
 "source": "Employer direct",
 "title": "Search Careers",
-"type": "Other"
-},
-"d71bf7f1c34c": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Enforcement - Shops at Merrick Park",
 "type": "Other"
 },
 "d7206b53e818": {
@@ -68545,19 +64216,6 @@
 "soc": "433051",
 "title": "Payroll Specialist"
 },
-"d7beee76dc8a": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Hospital Valet Parking Attendant",
-"type": "Other"
-},
 "d7ca853835f3": {
 "city": "Eugene",
 "employer": "Baker Tilly",
@@ -68580,19 +64238,6 @@
 "misses": 29,
 "soc": "291171",
 "title": "Psychiatric Nurse Practitioners"
-},
-"d7e3ac2a55d6": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Senior Motion & Brand Designer",
-"type": "Other"
 },
 "d7e82a02f1f7": {
 "city": "Eugene",
@@ -68626,19 +64271,6 @@
 "misses": 20,
 "soc": "359021",
 "title": "Dishwashers"
-},
-"d80112b6abd3": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Credentialing Manager",
-"type": "Management & business"
 },
 "d80618c38ec4": {
 "city": "Eugene",
@@ -68833,19 +64465,6 @@
 "soc": "291141",
 "title": "Cardiac Surgeons"
 },
-"d8b72583acf7": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Onboarding Specialist",
-"type": "Healthcare & human services"
-},
 "d8babda7d62b": {
 "city": "Eugene",
 "employer": "Anheuser-Busch",
@@ -69023,19 +64642,6 @@
 "misses": 24,
 "soc": "414012",
 "title": "Therapeutic Assistants"
-},
-"d95bcb914e76": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Manager, Inside Sales",
-"type": "Retail & sales"
 },
 "d967fab20ccb": {
 "city": "Eugene",
@@ -69252,19 +64858,6 @@
 "title": "Laborer-Industrial Cleaning Tech",
 "type": "Construction & trades"
 },
-"da08dade2a80": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "SUD Integrative Group Facilitator",
-"type": "Other"
-},
 "da114d14f1df": {
 "city": "Eugene",
 "employer": "New Dream Child Care Ctr",
@@ -69277,19 +64870,6 @@
 "source": "Employer direct",
 "title": "Employee Resources",
 "type": "Other"
-},
-"da1eec1c58c6": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Field Supervisor - Winnipeg Richardson International Airport",
-"type": "Management & business"
 },
 "da21e89b3f35": {
 "city": "Springfield",
@@ -69311,19 +64891,6 @@
 "soc": "",
 "source": "Employer direct",
 "title": "Employment Opportunities RSS",
-"type": "Other"
-},
-"da2bf603ae7f": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Graduate Applicants",
 "type": "Other"
 },
 "da3daa65d9ef": {
@@ -69351,19 +64918,6 @@
 "source": "southernglazers",
 "title": "Sales Consultants",
 "type": "Retail & sales"
-},
-"da4aa57ba732": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Direct Care Lead PM",
-"type": "Management & business"
 },
 "da55cf1b6d0f": {
 "city": "Eugene",
@@ -69665,19 +65219,6 @@
 "soc": "172051",
 "title": "Civil Engineers"
 },
-"db1c55f8155e": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Adult Applicants",
-"type": "Other"
-},
 "db288162ecd2": {
 "city": "Eugene",
 "employer": "Cove Church",
@@ -69937,19 +65478,6 @@
 "title": "Route Service Representative (4-Day Workweek)",
 "type": "Transportation & logistics"
 },
-"dc10eec306e9": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "533032",
-"source": "Employer direct",
-"title": "Shuttle Driver Non CDL Charleston Int'l Airport ( Morning shift )",
-"type": "Transportation & logistics"
-},
 "dc1187381151": {
 "city": "Eugene",
 "employer": "",
@@ -70067,19 +65595,6 @@
 "source": "Employer direct",
 "title": "Carpet Technician",
 "type": "Construction & trades"
-},
-"dc670469aa31": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Lewiston, ID",
-"type": "Childcare & education"
 },
 "dc9168a211c7": {
 "city": "Eugene",
@@ -70231,19 +65746,6 @@
 "source": "Employer direct",
 "title": "Treatment Coordinator",
 "type": "Healthcare & human services"
-},
-"dd10474200fe": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "131121",
-"source": "Employer direct",
-"title": "Event Staff Exchange Garage",
-"type": "Management & business"
 },
 "dd1454d95971": {
 "city": "Springfield",
@@ -71201,19 +66703,6 @@
 "title": "Human Services Program Coordinators",
 "type": "Management & business"
 },
-"dfded1cd633a": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Chicago, IL",
-"type": "Childcare & education"
-},
 "dfe00d27fac7": {
 "city": "Eugene",
 "employer": "Reddy Ice",
@@ -71595,19 +67084,6 @@
 "soc": "291141",
 "title": "Outpatient Registered Nurse - RN"
 },
-"e16e75657821": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Staff Fullstack Engineer, Clinic",
-"type": "Healthcare & human services"
-},
 "e170edf885ed": {
 "city": "Eugene",
 "closed": "2026-10-11",
@@ -71841,32 +67317,6 @@
 "soc": "419011",
 "title": "Alcohol Compliance Supervisors"
 },
-"e20fa2703159": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "412011",
-"source": "Employer direct",
-"title": "Cashier Clifton Center",
-"type": "Retail & sales"
-},
-"e22815ca716a": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Senior Data Product Manager",
-"type": "Technology"
-},
 "e231416675e6": {
 "city": "Eugene",
 "employer": "Baker Tilly",
@@ -72026,19 +67476,6 @@
 "misses": 17,
 "soc": "291051",
 "title": "Floaters"
-},
-"e28dbce63c1d": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Supervisor Abott Northwestern Hospital",
-"type": "Management & business"
 },
 "e2a4c4796967": {
 "city": "Eugene",
@@ -72290,19 +67727,6 @@
 "soc": "132051",
 "title": "Financial Analysts"
 },
-"e39b8b54ce70": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clinical Practicum Intern (Master's Level)",
-"type": "Healthcare & human services"
-},
 "e39efe9d24cf": {
 "city": "Eugene",
 "closed": "2026-10-23",
@@ -72325,19 +67749,6 @@
 "source": "OED",
 "title": "Account Manager I, Commercial Lines",
 "type": "Finance & accounting"
-},
-"e3b3a4e09af0": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Application FAQs",
-"type": "Other"
 },
 "e3c4bcfbfe62": {
 "city": "Eugene",
@@ -72700,19 +68111,6 @@
 "source": "simplyhired",
 "title": "Meat-Seafood Managers",
 "type": "Retail & sales"
-},
-"e4d9d092763b": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Direct Care Team Member",
-"type": "Other"
 },
 "e4dffc091c20": {
 "city": "Cottage Grove",
@@ -73125,19 +68523,6 @@
 "title": "#img-k5b25u0aqe26q6lhgvbcwz0v",
 "type": "Other"
 },
-"e63a2e32a78c": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Marquette, MI",
-"type": "Childcare & education"
-},
 "e63c9d462806": {
 "city": "Springfield",
 "closed": "2026-10-23",
@@ -73307,32 +68692,6 @@
 "misses": 9,
 "soc": "412031",
 "title": "Front End Entry Level"
-},
-"e6c602c94765": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Direct Care Staff - 3rd Shift",
-"type": "Other"
-},
-"e6c9f093270b": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Columbia, SC",
-"type": "Childcare & education"
 },
 "e6ce4ee54e71": {
 "city": "Eugene",
@@ -73551,19 +68910,6 @@
 "soc": "311128",
 "title": "Direct Support Professionals"
 },
-"e7439c1926fd": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Careers Blog",
-"type": "Other"
-},
 "e75c595ec9c5": {
 "city": "Eugene",
 "closed": "2026-10-18",
@@ -73674,19 +69020,6 @@
 "soc": "113031",
 "title": "Revenue Associates"
 },
-"e7b35eadc078": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant Orrington Plaza ( Temporary )",
-"type": "Other"
-},
 "e7dd40adba9c": {
 "city": "Eugene",
 "closed": "2026-10-12",
@@ -73709,19 +69042,6 @@
 "source": "Employer direct",
 "title": "Scheduling Clerk / Advanced Surgery Scheduler - McKenzie Medical Group Vascular Surgery",
 "type": "Healthcare & human services"
-},
-"e7ed856fd8e2": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Onboarding Specialist",
-"type": "Management & business"
 },
 "e7fa2c7bc69d": {
 "city": "Eugene",
@@ -73928,19 +69248,6 @@
 "source": "Employer direct",
 "title": "Supply Chain & Distribution",
 "type": "Other"
-},
-"e89797b4e888": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Maintenance Staff - Calgary",
-"type": "Construction & trades"
 },
 "e89c193f7b72": {
 "city": "Cottage Grove",
@@ -74467,19 +69774,6 @@
 "misses": 21,
 "soc": "413091",
 "title": "Retail Support Managers"
-},
-"ea1bed199035": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Extension Specialist",
-"type": "Management & business"
 },
 "ea1ca7b40b4c": {
 "city": "Eugene",
@@ -75252,19 +70546,6 @@
 "title": "Premium Auditors",
 "type": "Finance & accounting"
 },
-"ece8348593f3": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Student Life Coordinator",
-"type": "Office & customer service"
-},
 "ecef24343121": {
 "city": "Eugene",
 "employer": "US General Svc Administration",
@@ -75366,19 +70647,6 @@
 "title": "Life Skills Instructors",
 "type": "Childcare & education"
 },
-"ed3ee6eecba5": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Nextdoor",
-"type": "Other"
-},
 "ed4438d0a5cd": {
 "city": "Springfield",
 "closed": "2026-10-23",
@@ -75422,19 +70690,6 @@
 "soc": "352014",
 "title": "Food and Beverage Team Members"
 },
-"ed5c9d7dd139": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "AI/ML Roles for Innovators Learn More",
-"type": "Other"
-},
 "ed5f24dc3468": {
 "city": "Eugene",
 "employer": "Ideal Option",
@@ -75447,19 +70702,6 @@
 "source": "OED",
 "title": "ARNP or PA-C - Addiction Medicine Provider",
 "type": "Healthcare & human services"
-},
-"ed7882b3dd89": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "533032",
-"source": "Employer direct",
-"title": "Shuttle Driver Non CDL Charleston Int'l Airport ( Night shift )",
-"type": "Transportation & logistics"
 },
 "ed7b1881a5ba": {
 "city": "Eugene",
@@ -75548,32 +70790,6 @@
 "misses": 18,
 "soc": "211093",
 "title": "Direct Support Professional (DSP) - Supported/Community Living Program"
-},
-"edc71326c8ae": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "533032",
-"source": "Employer direct",
-"title": "Shuttle Driver Non CDL Charleston Int'l Airport",
-"type": "Transportation & logistics"
-},
-"edc93acebcc5": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Shuttle Driver Lubbock Preston Smith International Airport",
-"type": "Transportation & logistics"
 },
 "edcf0e16c97c": {
 "city": "Springfield",
@@ -75846,19 +71062,6 @@
 "soc": "333051",
 "title": "Police Officer"
 },
-"eec939c4e6c5": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Victoria, BC",
-"type": "Childcare & education"
-},
 "eed3848e3b2c": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -76040,19 +71243,6 @@
 "soc": "359011",
 "title": "Food and Nutrition Services Assistants"
 },
-"efb39ec6a95c": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Barber",
-"type": "Other"
-},
 "efb92d001165": {
 "city": "Springfield",
 "closed": "2026-10-24",
@@ -76129,32 +71319,6 @@
 "soc": "351012",
 "title": "shift supervisor - Store# 11201, CROSSROADS CENTER - SPRINGFIELD"
 },
-"efd31cacbbcc": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Sumter, SC",
-"type": "Childcare & education"
-},
-"efd33cad9785": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "434051",
-"source": "Employer direct",
-"title": "Temporary Customer Service Representative (Weekends) - Hullmark Centre",
-"type": "Office & customer service"
-},
 "efdda9be7a60": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -76177,19 +71341,6 @@
 "source": "National Labor Exchange",
 "title": "Critical Care Physician (Intensivist)",
 "type": "Healthcare & human services"
-},
-"efedad48d8d5": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Share on WhatsApp (Opens in new window) WhatsApp",
-"type": "Other"
 },
 "efeea15dc9fa": {
 "city": "Eugene",
@@ -76302,19 +71453,6 @@
 "source": "indeed",
 "title": "Fresh Foods Clerks",
 "type": "Transportation & logistics"
-},
-"f03567384564": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Moorhead, MN",
-"type": "Childcare & education"
 },
 "f0368f2f5ea1": {
 "city": "Lorane",
@@ -76609,19 +71747,6 @@
 "soc": "173022",
 "title": "Permit Technicians"
 },
-"f120cd8a3496": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Wells Fargo Plaza",
-"type": "Other"
-},
 "f12632e90e3e": {
 "city": "Eugene",
 "closed": "2026-10-17",
@@ -76871,19 +71996,6 @@
 "misses": 26,
 "soc": "412031",
 "title": "Firearms Sales Outfitter - Part Time"
-},
-"f1b204e30d7e": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Cosmetologist/ Hair Stylist",
-"type": "Other"
 },
 "f1b712955f1c": {
 "city": "Eugene",
@@ -77180,19 +72292,6 @@
 "misses": 24,
 "soc": "292099",
 "title": "Patient Care Technicians"
-},
-"f2656cbc6d55": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Academic Coordinator / Direct Care",
-"type": "Office & customer service"
 },
 "f2714987fa45": {
 "city": "Pleasant Hill",
@@ -78071,19 +73170,6 @@
 "soc": "339092",
 "title": "Aquatics Lifeguards"
 },
-"f5479ea0dce4": {
-"city": "Eugene",
-"employer": "Nike Well Collective",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "412031",
-"source": "Employer direct",
-"title": "Retail Associate, SEAS - Nike Atlantic City",
-"type": "Retail & sales"
-},
 "f5591a009362": {
 "city": "Coburg",
 "employer": "Serenity Lane",
@@ -78397,19 +73483,6 @@
 "title": "Pest Control Service Technician - Wood River Valley",
 "type": "Construction & trades"
 },
-"f646a24c7a28": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Experiential Facilitator",
-"type": "Other"
-},
 "f664581a48d2": {
 "city": "Eugene",
 "employer": "Allied Universal",
@@ -78422,19 +73495,6 @@
 "source": "simplyhired",
 "title": "Mobile Security Officers",
 "type": "Other"
-},
-"f666d3549a1c": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "537061",
-"source": "Employer direct",
-"title": "Lot Attendant Clifton Center",
-"type": "Transportation & logistics"
 },
 "f66ecab07dcb": {
 "city": "Eugene",
@@ -78482,19 +73542,6 @@
 "soc": "231011",
 "title": "Assistant County Counsels"
 },
-"f693c0cb8859": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Event Parking Supervisor - Scotiabank Arena",
-"type": "Management & business"
-},
 "f6950c171879": {
 "city": "Florence",
 "employer": "Fresenius Kidney Care",
@@ -78513,19 +73560,6 @@
 "misses": 26,
 "soc": "291141",
 "title": "Nurse (Remote Patient Monitoring-Home Telehealth Care Coordinator)"
-},
-"f6a621699efb": {
-"city": "Eugene",
-"employer": "Robert Half",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "132011",
-"source": "Employer direct",
-"title": "Sr. Accountant",
-"type": "Finance & accounting"
 },
 "f6ace8cedbb0": {
 "city": "Springfield",
@@ -78576,19 +73610,6 @@
 "title": "Supply Chain Associates",
 "type": "Management & business"
 },
-"f6cad37ac4a8": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Direct Care Bloom A Place for Girls",
-"type": "Other"
-},
 "f6d022b32361": {
 "city": "Eugene",
 "employer": "University of Oregon",
@@ -78636,19 +73657,6 @@
 "source": "Employer direct",
 "title": "Maintenance Tech",
 "type": "Construction & trades"
-},
-"f6ff050f4c56": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Client Success Consultant",
-"type": "Other"
 },
 "f714a9b8ab31": {
 "city": "Eugene",
@@ -78726,19 +73734,6 @@
 "soc": "",
 "title": "Educational Assistant I, II, III - Waianae Elementary"
 },
-"f75b9045070a": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Romeoville, IL",
-"type": "Childcare & education"
-},
 "f7673c5dd6dc": {
 "city": "Springfield",
 "closed": "2026-10-25",
@@ -78805,19 +73800,6 @@
 "soc": "352011",
 "title": "Line Cooks/Prep Cooks"
 },
-"f788370a00a4": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Studio Coach - Ankeny, IA",
-"type": "Childcare & education"
-},
 "f79070a31056": {
 "city": "Eugene",
 "employer": "Bethel Schools",
@@ -78879,19 +73861,6 @@
 "misses": 29,
 "soc": "433031",
 "title": "Accounts Payable Specialists"
-},
-"f7aba7a535cd": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Office Coordinator (Commerce City, Colorado)",
-"type": "Office & customer service"
 },
 "f7acf9ac793e": {
 "city": "Veneta",
@@ -79038,19 +74007,6 @@
 "soc": "113013",
 "title": "Facilities Administrative Coordinators"
 },
-"f83db6242011": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Learning Architect",
-"type": "Other"
-},
 "f83e6090f26f": {
 "city": "Veneta",
 "closed": "2026-10-27",
@@ -79156,19 +74112,6 @@
 "soc": "291031",
 "title": "Dietitians"
 },
-"f88a49538557": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Career Services & Jobs",
-"type": "Other"
-},
 "f88cc05744be": {
 "city": "Coburg",
 "closed": "2026-10-09",
@@ -79196,19 +74139,6 @@
 "title": "Warehouse and Inventory Control Managers",
 "type": "Management & business"
 },
-"f89340a6133d": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Traffic Controller - Fanshawe College",
-"type": "Finance & accounting"
-},
 "f893cf924330": {
 "city": "Eugene",
 "employer": "Walmart",
@@ -79221,19 +74151,6 @@
 "source": "National Labor Exchange",
 "title": "Front End Service Team Associate",
 "type": "Retail & sales"
-},
-"f8945297efd4": {
-"city": "Springfield",
-"employer": "Mutual of Omaha",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Frequently Asked Questions",
-"type": "Other"
 },
 "f895b1f7b410": {
 "city": "Eugene",
@@ -79349,19 +74266,6 @@
 "misses": 24,
 "soc": "537065",
 "title": "Grocery Clerk"
-},
-"f8caff8fc71d": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Flagger - Montréal",
-"type": "Other"
 },
 "f8d1e1c760c9": {
 "city": "Lane County",
@@ -79825,19 +74729,6 @@
 "title": "Radiologist - General/Breast Imaging | Eugene, OR",
 "type": "Healthcare & human services"
 },
-"fa24264a4537": {
-"city": "Eugene",
-"employer": "Elsa's Hair Salon",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Colorist",
-"type": "Other"
-},
 "fa242a310f8a": {
 "city": "Springfield",
 "employer": "",
@@ -79995,19 +74886,6 @@
 "source": "OED",
 "title": "Pharmacy Technician",
 "type": "Healthcare & human services"
-},
-"fa7c153795f6": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Mediterranean Village",
-"type": "Other"
 },
 "fa8af71a7678": {
 "city": "Eugene",
@@ -80398,19 +75276,6 @@
 "title": "Clean Water Services website",
 "type": "Other"
 },
-"fb79d56a26c7": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Parking Enforcement Officer",
-"type": "Office & customer service"
-},
 "fb7f0aeba0e0": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -80499,19 +75364,6 @@
 "misses": 17,
 "soc": "111021",
 "title": "Wholesale Operations Managers"
-},
-"fbbcb7940c87": {
-"city": "Florence",
-"employer": "WW Studio @ Cross Roads",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Senior Manager, Backend",
-"type": "Management & business"
 },
 "fbbff00cd5c3": {
 "city": "Lane County",
@@ -80630,19 +75482,6 @@
 "source": "simplyhired",
 "title": "Dental Assistants",
 "type": "Healthcare & human services"
-},
-"fbf3be60bdbe": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Ritz Carlton Bal Harbour",
-"type": "Other"
 },
 "fbf787388704": {
 "city": "Florence",
@@ -80842,19 +75681,6 @@
 "soc": "311131",
 "title": "Operating Room Surgical Technicians"
 },
-"fc949eb05a2f": {
-"city": "Eugene",
-"employer": "Brighter Smiles",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Share on Reddit (Opens in new window) Reddit",
-"type": "Other"
-},
 "fc9daf1487b2": {
 "city": "Junction City",
 "closed": "2026-10-28",
@@ -80916,32 +75742,6 @@
 "source": "indeed",
 "title": "Retail/Grocery Associates",
 "type": "Finance & accounting"
-},
-"fcbe9236aa2a": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant MUSC ( Morning Shift)",
-"type": "Other"
-},
-"fcc910b29937": {
-"city": "Eugene",
-"employer": "Kathryn R Davis Designs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Application Deadlines",
-"type": "Other"
 },
 "fcccc6b3ce15": {
 "city": "Eugene",
@@ -81492,19 +76292,6 @@
 "soc": "537062",
 "title": "Material Handlers"
 },
-"fe035200047c": {
-"city": "Eugene",
-"employer": "Charlie Health",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Mental Health Group Facilitator – Master's Degree Required",
-"type": "Healthcare & human services"
-},
 "fe0a1cc18e35": {
 "city": "Eugene",
 "closed": "2026-10-10",
@@ -81685,19 +76472,6 @@
 "source": "Employer direct",
 "title": "Service Advisor",
 "type": "Office & customer service"
-},
-"fe8259db8d94": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Valet Parking Attendant - Winnipeg Richardson International Airport (Seasonal, Part-time)",
-"type": "Other"
 },
 "fe9470c5bf7b": {
 "city": "Eugene",
@@ -81968,19 +76742,6 @@
 "soc": "353011",
 "title": "Bartenders/Servers"
 },
-"ff540bf980ab": {
-"city": "Eugene",
-"employer": "Republic Parking System",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Overnight Shuttle Dispatcher Supervisor - Anchorage Airport",
-"type": "Transportation & logistics"
-},
 "ff641585d988": {
 "city": "Eugene",
 "closed": "2026-10-10",
@@ -82022,19 +76783,6 @@
 "source": "Employer direct",
 "title": "Installer Service Specialist",
 "type": "Construction & trades"
-},
-"ff7039aaba60": {
-"city": "Springfield",
-"employer": "Teen Challenge",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Overnight Direct Care",
-"type": "Other"
 },
 "ff7a25a89a07": {
 "city": "Eugene",
