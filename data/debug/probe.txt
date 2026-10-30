@@ -1,18 +1,155 @@
-== https://pacificsource.wd5.myworkdayjobs.com/pacificsource/job/Springfield-OR/Care-Manageme
-   len 7524 | pay: $70,950 to $106,425 a year | hours: 
-   around $: ot constitute a guarantee of any specific salary within that range. Base Range: $70,950.00 - $106,424.99 Our Values We live and breathe our values. In fact, our culture is driven by these seven core v
-== https://lowes.wd5.myworkdayjobs.com/lws_external_cs/job/Eugene-OR-W-Eugene-2940/Cashier-Pa
-   len 5151 | pay:  | hours: Part-time
-   around $: NE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branch
-== https://oregon.wd5.myworkdayjobs.com/en-us/sor_external_career_site/job/operations-manager
-   len 6622 | pay: $5,907 to $9,143 a month | hours: 
-   around $: ication Deadline: 11/05/2026 Agency: Department of Human Services Salary Range: $5,907 - $9,143 Position Type: Employee Position Title: Operations Manager (Human Services Supervisor 2) Job Description
-== https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/240274
-   len 2804 | pay:  | hours: Temporary or seasonal
-   around $: (no $)
-== https://recruiting2.ultipro.com/als1001alsco/JobBoard/0a8883de-4664-4282-8752-c5658e72bf32
-   len 3254 | pay:  | hours: 
-   around $: (no $)
-== https://recruiting2.ultipro.com/dow1001dowl/JobBoard/e88601aa-9d30-45ca-b6e4-610b5a4d6ead/
-   len 4697 | pay:  | hours: 
-   around $: (no $)
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+  File "<string>", line 1, in <module>
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "scripts/record_tour.py", line 276, in <module>
+    main()
+  File "scripts/record_tour.py", line 260, in main
+    ctx, page = open_page(browser, n)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "scripts/record_tour.py", line 112, in open_page
+    page.wait_for_selector(".lchj-jobs li", timeout=60000)
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+waiting for locator(".lchj-jobs li") to be visible
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+  -   locator resolved to 15 elements. Proceeding with the first one: <li class="lchj-job" data-id="24bd36f6492f">…</li>
+
