@@ -11289,5 +11289,14 @@
   "found": "2026-10-30",
   "list": null,
   "note": "Found from WorkSource postings (trace pass)"
+ },
+ {
+  "employer": "Emergence Addiction and Behavioral Therapies",
+  "careers_url": "https://emergence.applicantpool.com/jobs/",
+  "local": true,
+  "home": "Eugene",
+  "found": "2026-10-30",
+  "list": null,
+  "note": "ApplicantPool board; flagged by Charlie via LWP Community Engagement Committee"
  }
 ]
