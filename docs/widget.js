@@ -299,7 +299,7 @@
     var jobs = (data.jobs || []).map(function (j) {
       j.workplaces = j.workplaces || [];
       j.eases = j.eases || [];
-      j._hay = fold(j.title + " " + j.employer + " " + j.snippet);
+      j._hay = fold(j.title + " " + (j.title_full || "") + " " + j.employer + " " + j.snippet);
       j._flat = j._hay.replace(/[^a-z0-9]/g, "");
       j.hoursKey = j.hours || "Not stated";
       return j;

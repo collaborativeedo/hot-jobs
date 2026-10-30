@@ -534,3 +534,38 @@ def eases(text, occ_no_degree=None, page_flags=None, near_bus=None):
     if f["fair_chance"]:
         out.append("fair_chance")
     return out
+
+
+# ---- Display titles ------------------------------------------------------------------------------------
+
+_YEARISH = re.compile(r"^(?:19|20)\d\d(?:[-/](?:19|20)?\d\d)?$")
+
+
+def _code(tok):
+    """A reference code ("W3258", "000390", "AV10-1998933L835", "5858"), not a year, time or pay figure."""
+    digits = sum(c.isdigit() for c in tok)
+    return digits >= 3 and not _YEARISH.match(tok) and not re.match(r"^\d{3,4}\s*-\s*\d{3,4}$", tok)
+
+
+def display_title(title):
+    """Job title without the hiring system's reference numbers: "{1823} Trailer Fabricator" -> "Trailer Fabricator",
+    "Wireless Retail Sales Associate - W3258" -> "Wireless Retail Sales Associate", "Tire Technician - Florence #219"
+    -> "Tire Technician - Florence". Years, shift times and pay ("Summer 2027", "1500-2300", "$19.90/HR") stay."""
+    t = (title or "").strip()
+    t = re.sub(r"^\{\s*\d+\s*\}\s*", "", t)                      # {1823} Trailer Fabricator
+    t = re.sub(r"^\d{5,}\s+", "", t)                                # 842753 Field Laborer
+    t = re.sub(r"~[A-Z]{2,5}~", " ", t)                              # ~NOC~
+    t = re.sub(r"\{([^{}]*)\}", r"(\1)", t)                          # {Day Shift} -> (Day Shift)
+    t = re.sub(r"(?:\s*\bstore\s*#|\s*#)\s*\d{2,}\b,?", "", t, flags=re.I)  # Store# 81322, / #254 / STORE #19661
+    t = re.sub(r"\s+\bS\d{5}\b", "", t)                               # Dollar General S17448
+    t = re.sub(r"\s*\(\d{3,6}\)\s*$", "", t)                          # Dave's Hot Chicken (1047)
+    m = re.search(r"\s+[-–]\s*([A-Z0-9][A-Z0-9-]{2,})\s*$", t)
+    if m and _code(m.group(1)) and not re.search(r"\d{3,4}\s*-*$", t[:m.start()]):  # not a shift time "1100 - 2330"
+        t = t[:m.start()]                                            # - W3258 / - 000390 / - AV10-1998933L835
+    m = re.search(r"(?<=[A-Za-z])-(\d{4,})\s*$", t)
+    if m and _code(m.group(1)):
+        t = t[:m.start()]                                            # Associate II-5858
+    t = re.sub(r"\s{2,}", " ", t)
+    t = re.sub(r"\s*[-–,/|]\s*$", "", t).strip()
+    return t or (title or "").strip()
+

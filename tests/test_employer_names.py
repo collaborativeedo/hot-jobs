@@ -18,3 +18,18 @@ def test_seeking_and_partnering():
 
 def test_not_employers():
     assert enrich.clean_employer("WorkSource Oregon") == ""
+
+
+def test_display_title_drops_reference_numbers():
+    cases = {"{1823} Trailer Fabricator and Assembly": "Trailer Fabricator and Assembly",
+             "842753 Field Laborer": "Field Laborer",
+             "Wireless Retail Sales Associate - W3258": "Wireless Retail Sales Associate",
+             "Residential Care Associate II-5858": "Residential Care Associate II",
+             "Tire Technician - Eugene East #254": "Tire Technician - Eugene East",
+             "barista - Store# 81322, HWY 101 & 20TH ST - FLORENCE": "barista - HWY 101 & 20TH ST - FLORENCE",
+             "$19.90/HR Team Member Dave's Hot Chicken (1047)": "$19.90/HR Team Member Dave's Hot Chicken"}
+    for raw, want in cases.items():
+        assert enrich.display_title(raw) == want
+    for keep in ["CNA - PT Nights- 8 Hours 1500-2300", "Survey Internship - Summer 2027",
+                 "Food Service Assistant 1 Pool 2026-27", "911 Call-Taker/Dispatcher", "Pipe Fitter #2"]:
+        assert enrich.display_title(keep) == keep

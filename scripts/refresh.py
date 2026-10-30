@@ -355,6 +355,10 @@ def add_details(jobs, wages):
     """Employer, pay, hours and kind of workplace for each posting."""
     global KNOWN_NAMES
     KNOWN_NAMES = known_employer_names(jobs)
+    for j in jobs:  # reference numbers come off the shown title; the full title is kept (and searchable)
+        clean = enrich.display_title(j["title"])
+        if clean != j["title"]:
+            j["title_full"], j["title"] = j["title"], clean
     for j in jobs:
         oed = j.pop("oed", None) or {}
         desc = oed.get("description", "")
@@ -1045,7 +1049,7 @@ def main():
         "show_days": SHOW_DAYS, "show_days_checked": SHOW_DAYS_CHECKED,
         "dead_links_dropped": dead_dropped,
         "jobs": [{k: j.get(k, "") for k in ("id", "title", "city", "employer", "type", "workplaces", "hours", "pay",
-                                            "typical_pay", "apply_via", "eases", "remote", "verified", "reposted_since", "said_open", "industries", "rural", "priority", "route",
+                                            "typical_pay", "apply_via", "eases", "remote", "verified", "reposted_since", "said_open", "industries", "rural", "priority", "route", "title_full",
                                             "source", "days", "dated", "first_seen", "soc", "occupation", "url")}
                  | {"snippet": j["snippet"][:160]} for j in show],
     }
