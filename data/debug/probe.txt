@@ -1,12 +1,18 @@
-== https://emergence.applicantpool.com/jobs/ 200 https://emergence.applicantpool.com/jobs/ 1197
-    View All Current Job Listings | Jobs | Login |  | Below is a list of the current openings with our company. Click on the job title to learn more about the opening. |  | Search Jobs | Clear Filters | City | State | Employment Type | Department | Pay Frequency | Number of Jobs: 3 | Sort By | Bilingual (Spanish) Relief Counselor - Substance Use Disorder (SUD) | 78a Centennial Loop, Eugene, OR, USA | |Clinical - Substance Use Disorders Service Provider | |Part-Time Hourly | |$25.96 - $29.33 per hour | Posted: Oct 30, 2026 Closing Date: Un
-    [['https://emergence.applicantpool.com/jobs/', 'Jobs'], ['https://emergence.applicantpool.com/account/login.php', 'Login'], ['https://emergence.applicantpool.com/jobs/1018725', 'Bilingual (Spanish) Relief Counselor - Substance Use Disorder (SUD)'], ['https://emergence.applicantpool.com/jobs/850867', 'BILINGUAL (SPANISH/ENGLISH) SUDS COUNSELOR'], ['https://emergence.applicantpool.com/jobs/1065331', 'Relief Counselor - Substance Use Disorder (SUD)'], ['http://www.applicantpool.com/', 'ApplicantPool'], ['https://emergence.applicantpool.com/jobsandemployment/', 'Job Map']]
-== https://emergenceoregon.applicantpool.com/jobs/ 200 https://emergenceoregon.applicantpool.com/notset.php?emergenceoregon&root=10 106
-    You may have typed the url for this website incorrectly. Please double check what you typed and try again.
-    []
-== https://www.emergenceoregon.com/careers ERR Error Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.emergenceoregon.com/careers
-Call log:
-navigating to "https://www.emergenceoregon.com/careers", wa
-== https://www.emergenceoregon.com/employment ERR Error Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.emergenceoregon.com/employment
-Call log:
-navigating to "https://www.emergenceoregon.com/employmen
+== https://pacificsource.wd5.myworkdayjobs.com/pacificsource/job/Springfield-OR/Care-Manageme
+   len 7524 | pay:  | hours: 
+   around $: ot constitute a guarantee of any specific salary within that range. Base Range: $70,950.00 - $106,424.99 Our Values We live and breathe our values. In fact, our culture is driven by these seven core v
+== https://lowes.wd5.myworkdayjobs.com/lws_external_cs/job/Eugene-OR-W-Eugene-2940/Cashier-Pa
+   len 5151 | pay:  | hours: Part-time
+   around $: NE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branch
+== https://oregon.wd5.myworkdayjobs.com/en-us/sor_external_career_site/job/operations-manager
+   len 6622 | pay:  | hours: 
+   around $: ication Deadline: 11/05/2026 Agency: Department of Human Services Salary Range: $5,907 - $9,143 Position Type: Employee Position Title: Operations Manager (Human Services Supervisor 2) Job Description
+== https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/240274
+   len 2804 | pay:  | hours: Temporary or seasonal
+   around $: (no $)
+== https://recruiting2.ultipro.com/als1001alsco/JobBoard/0a8883de-4664-4282-8752-c5658e72bf32
+   len 30000 | pay:  | hours: 
+   around $: pportunityList')) || (false && (/JobBoard\/[^\/]*\/Candidate\/ViewPresence[^\/]*$/.test(url.pathname) || /JobBoard\/[^\/]*\/ApplicationAssessments[^\/]*$/.test(url.pathname) || /JobBoard\/[^\/]*\/Cand
+== https://recruiting2.ultipro.com/dow1001dowl/JobBoard/e88601aa-9d30-45ca-b6e4-610b5a4d6ead/
+   len 30000 | pay:  | hours: 
+   around $: pportunityList')) || (false && (/JobBoard\/[^\/]*\/Candidate\/ViewPresence[^\/]*$/.test(url.pathname) || /JobBoard\/[^\/]*\/ApplicationAssessments[^\/]*$/.test(url.pathname) || /JobBoard\/[^\/]*\/Cand
