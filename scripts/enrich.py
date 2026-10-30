@@ -264,9 +264,17 @@ _NAME_RULES = [
 _NAME_RULES = [(n, re.compile(p, re.I)) for n, p in _NAME_RULES]
 
 
+# Lane County technology employers (hand-checked): software, games, cybersecurity, IT services, semiconductors.
+TECH_EMPLOYERS = {"pipeworks studios", "pipeworks", "zynga", "palo alto software", "sheerid", "lone wolf technologies",
+                  "lone wolf technologies (idx broker)", "idx broker", "frontsteps", "air-weigh", "cbt nuggets",
+                  "avant assessment", "trifoia", "ksana health", "cognitopia", "ieq technology", "twenty ideas",
+                  "emberex", "stepup it services", "sentinelone", "intel", "strata information group",
+                  "technology integration group", "mld technologies"}
+
+
 def workplaces(employer, employer_industry, text_industries):
     """Kinds of workplace for a posting, from its employer and the posting text. Empty when unknown."""
-    out = []
+    out = ["Technology"] if (employer or "").strip().lower() in TECH_EMPLOYERS else []
     if employer_industry in _FROM_RULES:
         out.append(_FROM_RULES[employer_industry])
     if employer and not out:
@@ -397,6 +405,8 @@ _TITLE_SOC = [(re.compile(p, re.I), c) for p, c in [
     (r"marketing (manager|director)|director.*marketing", "112021"), (r"marketing (coordinator|specialist)", "131161"),
     (r"human resources (manager|director)|\bhr (manager|director)", "113121"),
     (r"human resources|\bhr (generalist|specialist|coordinator|assistant)|recruiter", "131071"),
+    (r"\bui\b|\bux\b|user experience|user interface|interaction designer|product designer", "151255"),
+    (r"game (designer|developer|producer|artist)|level designer|technical artist", "151255"),
     (r"project manager", "131082"), (r"data analyst|business analyst", "152051"),
     (r"machine operator|production (worker|associate|operator)|blending operator|assembler", "519199"),
     (r"industrial clean|cleaning tech", "372019"), (r"\blaborer\b", "472061"),
