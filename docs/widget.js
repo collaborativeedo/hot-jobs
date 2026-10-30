@@ -224,6 +224,7 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m];
     });
   }
+  function fold(t) { return String(t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
   function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
   function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
 
@@ -279,6 +280,8 @@
     var jobs = (data.jobs || []).map(function (j) {
       j.workplaces = j.workplaces || [];
       j.eases = j.eases || [];
+      j._hay = fold(j.title + " " + j.employer + " " + j.snippet);
+      j._flat = j._hay.replace(/[^a-z0-9]/g, "");
       j.hoursKey = j.hours || "Not stated";
       return j;
     });
@@ -340,14 +343,21 @@
     function cityOptions() {
       $(".lchj-city").innerHTML = '<option value="All">' + esc(t("allTowns")) + "</option>" + cityList.map(function (c) { return "<option" + (c === st.city ? " selected" : "") + ">" + esc(c) + "</option>"; }).join("");
     }
+    // Search: every word must appear ("eugene nurse"), and spacing or punctuation doesn't matter
+    // ("sheer id" finds SheerID, "co-op" finds Coop); accents are ignored ("cafe" finds café).
+    function found(j, q) {
+      var flat = q.replace(/[^a-z0-9]/g, "");
+      if (flat && j._flat.indexOf(flat) > -1) return true;
+      return q.split(/\s+/).every(function (w) { return j._hay.indexOf(w) > -1 || j._flat.indexOf(w.replace(/[^a-z0-9]/g, "")) > -1; });
+    }
     function match(j, skip) {
-      var q = st.q.trim().toLowerCase();
+      var q = fold(st.q.trim());
       return (skip === "type" || !st.type.length || st.type.indexOf(j.type) > -1) &&
         (skip === "place" || !st.place.length || j.workplaces.some(function (w) { return st.place.indexOf(w) > -1; })) &&
         (skip === "hours" || !st.hours.length || st.hours.indexOf(j.hoursKey) > -1) &&
         (skip === "ease" || st.ease.every(function (e) { return j.eases.indexOf(e) > -1; })) &&
         (st.city === "All" || j.city === st.city) &&
-        (!q || (j.title + " " + j.employer + " " + j.snippet).toLowerCase().indexOf(q) > -1);
+        (!q || found(j, q));
     }
     function group(g, values, get, label, all) {
       var box = $('.lchj-chips[data-g="' + g + '"]');
