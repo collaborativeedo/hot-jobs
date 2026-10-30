@@ -256,12 +256,16 @@ def oews_wages(log=None, force=False):
         r.raise_for_status()
         fresh = parse_oews_html(r.text)
         if len(fresh) < 200:
-            raise ValueError(f"only {len(fresh)} occupations parsed")
+            import re as _re
+            txt = _re.sub(r"\s+", " ", r.text)
+            raise ValueError(f"only {len(fresh)} occupations parsed; status {r.status_code}, {len(r.text)} chars; "
+                             f"title {(_re.search(r'<title>(.*?)</title>', txt) or [None, ''])[1][:80]!r}; "
+                             f"th sample {_re.findall(r'<th[^>]*>(.*?)</th>', txt)[:6]!r}")
         _write_json(OEWS_CACHE, {"fetched": _today().isoformat(), "source": OEWS_URL, "wages": fresh})
         _say(log, f"BLS wages (Eugene-Springfield): read {len(fresh)} occupations.")
         return fresh
     except Exception as e:  # noqa: BLE001
-        _say(log, f"BLS wages: refresh failed ({type(e).__name__}: {str(e)[:150]}); using cached table ({len(wages)}).")
+        _say(log, f"BLS wages: refresh failed ({type(e).__name__}: {str(e)[:600]}); using cached table ({len(wages)}).")
         return wages
 
 
