@@ -1,1 +1,3 @@
-no html method; attrs ['browser', 'close', 'page', 'pw']
+67029 False ['EUGENE, Oregon'] Skip to Main Content | Careers Home | Why Costco | Culture and Values | Resources for Applying | Costco Careers FAQs | Search Jobs | Returning Users | EN | Back | Forklift Driver |  EUGENE, Oregon |  Warehouses and Business 
+2449 False ['EUGENE, Oregon'] Skip to Main Content | Careers Home | Why Costco | Culture and Values | Resources for Applying | Costco Careers FAQs | Search Jobs | Returning Users | EN | Back | Stocker |  EUGENE, Oregon |  Warehouses and Business Associat
+64341 False ['EUGENE, Oregon'] Skip to Main Content | Careers Home | Why Costco | Culture and Values | Resources for Applying | Costco Careers FAQs | Search Jobs | Returning Users | EN | Back | Receiving Clerk |  EUGENE, Oregon |  Warehouses and Business 
