@@ -1223,7 +1223,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 8,
+  "open_now": 7,
   "platform": "",
   "total_seen": 12
  },
@@ -1624,9 +1624,7 @@
  },
  "Buffalo Exchange": {
   "careers_page": "https://jobs.buffaloexchange.com",
-  "cities_now": [
-   "Eugene"
-  ],
+  "cities_now": [],
   "example_posting": "https://jobs.buffaloexchange.com/jobs/cashier-orange-county-fullerton/",
   "first_seen": "2026-10-29",
   "found_via": [
@@ -1634,7 +1632,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "Employer website",
   "total_seen": 2
  },
@@ -4306,16 +4304,14 @@
  },
  "Gilead Sciences, Inc.": {
   "careers_page": "",
-  "cities_now": [
-   "Eugene"
-  ],
+  "cities_now": [],
   "first_seen": "2026-10-30",
   "found_via": [
    "Reposted by a job board"
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "",
   "total_seen": 1
  },
@@ -4967,7 +4963,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 3,
+  "open_now": 2,
   "platform": "Paylocity",
   "total_seen": 2
  },
@@ -6040,7 +6036,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 3,
+  "open_now": 1,
   "platform": "",
   "total_seen": 2
  },
@@ -10201,7 +10197,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 4,
+  "open_now": 2,
   "platform": "Employer website",
   "total_seen": 11
  },
@@ -11423,7 +11419,7 @@
   ],
   "industry": "Transportation & logistics",
   "last_seen": "2026-10-30",
-  "open_now": 13,
+  "open_now": 12,
   "platform": "Employer website",
   "total_seen": 38
  },
@@ -11473,7 +11469,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 35,
+  "open_now": 34,
   "platform": "Employer website",
   "total_seen": 34
  },
@@ -11556,12 +11552,7 @@
  },
  "Unnamed employer (ADP)": {
   "careers_page": "",
-  "cities_now": [
-   "Junction City",
-   "Eugene",
-   "Springfield",
-   "Coburg"
-  ],
+  "cities_now": [],
   "example_posting": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=28d91221-0b41-4b09-8496-3cbe3cdcac1d&jobId=737439",
   "first_seen": "2026-10-06",
   "found_via": [
@@ -11569,15 +11560,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 6,
+  "open_now": 0,
   "platform": "ADP",
   "total_seen": 38
  },
  "Unnamed employer (BrassRing)": {
   "careers_page": "",
-  "cities_now": [
-   "Eugene"
-  ],
+  "cities_now": [],
   "example_posting": "https://xjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&jobid=123866&partnerid=26485&siteid=5009",
   "first_seen": "2026-10-09",
   "found_via": [
@@ -11585,15 +11574,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "BrassRing",
   "total_seen": 34
  },
  "Unnamed employer (BrightMove)": {
   "careers_page": "",
-  "cities_now": [
-   "Eugene"
-  ],
+  "cities_now": [],
   "example_posting": "https://j.brt.mv/PortalViewRequirement.do?reqGK=27785961",
   "first_seen": "2026-10-09",
   "found_via": [
@@ -11601,16 +11588,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 2,
+  "open_now": 0,
   "platform": "BrightMove",
   "total_seen": 34
  },
  "Unnamed employer (Dayforce)": {
   "careers_page": "https://jobs.dayforcehcm.com/en-US/chi/CANDIDATEPORTAL",
-  "cities_now": [
-   "Springfield",
-   "Eugene"
-  ],
+  "cities_now": [],
   "example_posting": "https://jobs.dayforcehcm.com/en-US/chi/CANDIDATEPORTAL/jobs/75584",
   "first_seen": "2026-10-08",
   "found_via": [
@@ -11618,17 +11602,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 2,
+  "open_now": 0,
   "platform": "Dayforce",
   "total_seen": 28
  },
  "Unnamed employer (Employer website)": {
   "careers_page": "https://weyerhaeuser.taleo.net",
-  "cities_now": [
-   "Eugene",
-   "Springfield",
-   "Creswell"
-  ],
+  "cities_now": [],
   "example_posting": "https://weyerhaeuser.taleo.net/careersection/10000/jobdetail.ftl?job=01025070",
   "first_seen": "2026-10-08",
   "found_via": [
@@ -11636,7 +11616,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 12,
+  "open_now": 0,
   "platform": "Employer website",
   "total_seen": 37
  },
@@ -11670,9 +11650,7 @@
  },
  "Unnamed employer (HRM Direct)": {
   "careers_page": "",
-  "cities_now": [
-   "Eugene"
-  ],
+  "cities_now": [],
   "example_posting": "https://centricityres.hrmdirect.com/employment/job-opening.php?req=3825250&req_loc=1489117&&cust_sort1=199679&#job",
   "first_seen": "2026-10-06",
   "found_via": [
@@ -11680,15 +11658,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "HRM Direct",
   "total_seen": 29
  },
  "Unnamed employer (Hirebridge)": {
   "careers_page": "",
-  "cities_now": [
-   "Eugene"
-  ],
+  "cities_now": [],
   "example_posting": "https://recruit.hirebridge.com/v3/CareerCenter/v2/details.aspx?cid=7997&jid=735772",
   "first_seen": "2026-10-06",
   "found_via": [
@@ -11696,15 +11672,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "Hirebridge",
   "total_seen": 29
  },
  "Unnamed employer (NEOGOV (GovernmentJobs))": {
   "careers_page": "",
-  "cities_now": [
-   "Eugene"
-  ],
+  "cities_now": [],
   "example_posting": "https://www.governmentjobs.com/jobs/5502788-0/communications-officer",
   "first_seen": "2026-10-06",
   "found_via": [
@@ -11713,7 +11687,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 2,
+  "open_now": 0,
   "platform": "NEOGOV (GovernmentJobs)",
   "total_seen": 38
  },
@@ -11734,10 +11708,7 @@
  },
  "Unnamed employer (Paychex)": {
   "careers_page": "",
-  "cities_now": [
-   "Junction City",
-   "Eugene"
-  ],
+  "cities_now": [],
   "example_posting": "https://recruiting.myapps.paychex.com/appone/MainInfoReq.asp?R_ID=7216962&B_ID=91&fid=1&Adid=&SearchScreenID=14663&CountryID=3&LanguageID=2",
   "first_seen": "2026-10-06",
   "found_via": [
@@ -11745,16 +11716,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 2,
+  "open_now": 0,
   "platform": "Paychex",
   "total_seen": 38
  },
  "Unnamed employer (Paycom)": {
   "careers_page": "https://www.paycomonline.net/v4/ats/web.php/portal/B0B584DECCA767F874B90195F6B816FF",
-  "cities_now": [
-   "Eugene",
-   "Florence"
-  ],
+  "cities_now": [],
   "example_posting": "https://www.paycomonline.net/v4/ats/web.php/portal/B0B584DECCA767F874B90195F6B816FF/jobs/317978",
   "first_seen": "2026-10-08",
   "found_via": [
@@ -11762,15 +11730,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 10,
+  "open_now": 0,
   "platform": "Paycom",
   "total_seen": 37
  },
  "Unnamed employer (Paylocity)": {
   "careers_page": "",
-  "cities_now": [
-   "Eugene"
-  ],
+  "cities_now": [],
   "example_posting": "https://recruiting.paylocity.com/recruiting/jobs/details/4558417",
   "first_seen": "2026-10-06",
   "found_via": [
@@ -11778,15 +11744,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 2,
+  "open_now": 0,
   "platform": "Paylocity",
   "total_seen": 38
  },
  "Unnamed employer (SAP SuccessFactors)": {
   "careers_page": "",
-  "cities_now": [
-   "Eugene"
-  ],
+  "cities_now": [],
   "example_posting": "https://career5.successfactors.eu/career?career%5fns=job%5flisting&company=C0001096615P&navBarLevel=JOB%5fSEARCH&rcm%5fsite%5flocale=en%5fUS&career_job_req_id=59833&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&browserTimeZone=America/Denver&_s.crb=tgPTfupngc6FIWAOemRxayYMHZ6a%2bXVx%2bJYGmIT81Y0%3d",
   "first_seen": "2026-10-06",
   "found_via": [
@@ -11794,15 +11758,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "SAP SuccessFactors",
   "total_seen": 29
  },
  "Unnamed employer (SmartRecruiters)": {
   "careers_page": "",
-  "cities_now": [
-   "Cottage Grove"
-  ],
+  "cities_now": [],
   "example_posting": "https://jobs.smartrecruiters.com/dominos/744000153949258-delivery-driver-07211-2621-willamette-st",
   "first_seen": "2026-10-15",
   "found_via": [
@@ -11810,15 +11772,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "SmartRecruiters",
   "total_seen": 16
  },
  "Unnamed employer (Taleo)": {
   "careers_page": "",
-  "cities_now": [
-   "Eugene"
-  ],
+  "cities_now": [],
   "example_posting": "https://phe.tbe.taleo.net/phe01/ats/careers/v2/viewRequisition?cws=118&org=TILLCLOT&rid=39605",
   "first_seen": "2026-10-09",
   "found_via": [
@@ -11826,18 +11786,13 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "Taleo",
   "total_seen": 34
  },
  "Unnamed employer (UKG (UltiPro))": {
   "careers_page": "https://recruiting2.ultipro.com/con1039consh/jobboard/dfaeb5a3-4e9b-409b-a3ee-58878b2fbda9",
-  "cities_now": [
-   "Eugene",
-   "Florence",
-   "Springfield",
-   "Veneta"
-  ],
+  "cities_now": [],
   "example_posting": "https://recruiting2.ultipro.com/con1039consh/jobboard/dfaeb5a3-4e9b-409b-a3ee-58878b2fbda9/opportunitydetail?opportunityid=6a7abe69-b899-4a95-a736-dcefb9fcbc80",
   "first_seen": "2026-10-06",
   "found_via": [
@@ -11846,7 +11801,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 18,
+  "open_now": 0,
   "platform": "UKG (UltiPro)",
   "total_seen": 29
  },
@@ -11866,9 +11821,7 @@
  },
  "Unnamed employer (iCIMS)": {
   "careers_page": "https://careers-winco.icims.com/jobs",
-  "cities_now": [
-   "Oakridge"
-  ],
+  "cities_now": [],
   "example_posting": "https://careers-winco.icims.com/jobs/155786/us-or-eugene%0aus-or-springfield%0aus-or-eugene/job",
   "first_seen": "2026-10-08",
   "found_via": [
@@ -11876,7 +11829,7 @@
   ],
   "industry": "",
   "last_seen": "2026-10-30",
-  "open_now": 1,
+  "open_now": 0,
   "platform": "iCIMS",
   "total_seen": 28
  },

@@ -369,6 +369,20 @@ _GONE = re.compile(r"no longer (available|accepting|open|exists|active|posted)|p
                    r"this job (is )?(closed|unavailable)|job not found|page not found", re.I)
 
 
+_LANE_WORD = re.compile(r"\b(" + "|".join(direct.LANE_CITIES) + r"|lane county|river ?bend)\b", re.I)
+
+
+def drop_out_of_area(jobs, log):
+    """Last check on every source: a title naming another city or state (and no Lane County place) is not here."""
+    keep, gone = [], []
+    for j in jobs:
+        t = ats._REMOTE.sub(" ", j["title"])
+        (gone if ats._NOT_HERE.search(t) and not _LANE_WORD.search(j["title"]) else keep).append(j)
+    log.append(f"Out of area: dropped {len(gone)} postings whose titles name another place"
+               + (f" (e.g. {gone[0]['title'][:60]!r})." if gone else "."))
+    return keep
+
+
 def tag_barriers(jobs, log, offline=False):
     """Labels for the "Fewer barriers" filters: near an LTD stop, no degree needed, training, fair chance."""
     levels, no_degree = {}, (lambda soc, lv: None)
@@ -865,6 +879,7 @@ def main():
         read_posting_pages(jobs, fetcher, today, log)
         mark("Posting pages (pay, details)")
     add_details(jobs, wages)
+    jobs = drop_out_of_area(jobs, log)
     tag_barriers(jobs, log, offline=bool(args.fixture))
     mark("Barrier tags")
     dead_dropped = 0
