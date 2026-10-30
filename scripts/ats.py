@@ -116,7 +116,13 @@ _NOT_HERE = re.compile(r"\b(remote|portland|seattle|boise|sacramento|san francis
                         r"\b(idaho|california|nevada|utah|arizona|montana|wyoming|colorado|texas|alaska|hawaii|"
                         r"new mexico|florida|georgia|ohio|michigan|minnesota|wisconsin|illinois|indiana|missouri|"
                         r"alberta|british columbia|manitoba|ontario|quebec|saskatchewan|pocatello|twin falls|"
-                        r"idaho falls|coeur d'alene|spokane|tacoma|olympia|reno|las vegas|tucson|wood river valley)\b|"
+                        r"idaho falls|coeur d'alene|spokane|tacoma|olympia|reno|las vegas|tucson|wood river valley|"
+                        r"roseburg|grants pass|coos bay|north bend|newport|lebanon|klamath falls|ashland|astoria|"
+                        r"the dalles|pendleton|hermiston|redmond|mcminnville|woodburn|keizer|sweet home|brownsville|"
+                        r"harrisburg|reedsport|sutherlin|philomath|monmouth|lincoln city|tillamook|"
+                        r"(?:linn|benton|douglas|coos|lincoln|marion|polk|deschutes|jackson|josephine|klamath|multnomah|"
+                        r"clackamas|yamhill|curry|crook|jefferson|hood river|wasco|umatilla|malheur|clatsop|tillamook|"
+                        r"columbia) county)\b|"
                         r",\s*washington\b", re.I)
 
 

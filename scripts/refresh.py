@@ -38,6 +38,8 @@ STATE = ROOT / "data" / "state.json"
 EMPLOYERS = ROOT / "data" / "employers.json"
 EMPLOYERS_CSV = ROOT / "docs" / "employers.csv"
 TRACE_CSV = ROOT / "docs" / "to-trace.csv"
+TRACE_EMP_CSV = ROOT / "docs" / "employers-to-trace.csv"  # employers we see only secondhand, ranked by openings
+NLX_ALL = []
 PULLED = ROOT / "data" / "pulled.json"
 SOURCES = ROOT / "data" / "sources.json"        # hiring systems learned automatically, pulled directly each night
 DOMAIN_NAMES = ROOT / "data" / "domain-names.json"  # employer names read from careers sites' own pages
@@ -488,6 +490,7 @@ def national_labor_exchange(raw, log):
     except Exception as e:  # noqa: BLE001 - NLx is an extra source; the run goes on without it
         log.append(f"NLx pull failed: {type(e).__name__}: {str(e)[:150]}")
         return []
+    NLX_ALL[:] = found  # every NLx posting, including copies of QualityInfo jobs: their links feed the trace step
     norm = lambda t: re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()  # noqa: E731
     emp = lambda t: re.sub(r"[^a-z0-9]", "", re.sub(r"\b(inc|llc|co|corp|company|the|usa)\b", "", (t or "").lower()))  # noqa: E731
     have_title, rows = {}, {}
@@ -746,7 +749,9 @@ def pull_direct(qi_jobs, fetcher, today):
             seen[k] = j
             merged.append(j)
     norm = lambda t: re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()  # noqa: E731
-    direct_tc = {(j["employer"].lower(), norm(j["title"]), j["city"]): j for j in merged if j["employer"]}
+    # Employer names differ between sources ("PacificSource" vs "Pacificsource Health Plans"): match on the first word.
+    ek = lambda e: (re.sub(r"^the\s+", "", norm(e)).split() or [""])[0]  # noqa: E731
+    direct_tc = {(ek(j["employer"]), norm(j["title"]), j["city"]): j for j in merged if j["employer"]}
     replaced = 0
     for j in qi_jobs:
         k = direct.posting_key(j["url"])
@@ -758,7 +763,7 @@ def pull_direct(qi_jobs, fetcher, today):
             d["days"] = j["days"] if d["days"] is None else d["days"]
             replaced += 1
             continue
-        d = direct_tc.get((j["employer"].lower(), norm(j["title"]), j["city"])) if j["employer"] else None
+        d = direct_tc.get((ek(j["employer"]), norm(j["title"]), j["city"])) if j["employer"] else None
         if j["route"] != "Employer's hiring site" and d is not None:
             # Keep what the secondhand copy knew: occupation code (for typical pay) and its WorkSource page (posted pay).
             d["soc"] = d["soc"] or j["soc"]
@@ -835,6 +840,67 @@ def update_employers(jobs, today):
             if not j["employer"] and not rules.platform(j["url"]):
                 w.writerow([j["title"], j["city"], j["route"], j["url"], j.get("first_seen", today)])
     return len(emps)
+
+
+def _first_word(name):
+    return (re.sub(r"^the\s+", "", re.sub(r"[^a-z0-9]+", " ", (name or "").lower()).strip()).split() or [""])[0]
+
+
+def trace_employers(jobs, today, log):
+    """Employers we only see secondhand (WorkSource, NLx, job boards), ranked by Lane County openings.
+
+    For each, every link seen tonight for that employer (including NLx copies of QualityInfo jobs) is checked for a
+    hiring system we can read; one found is added to the registry, so the employer is read directly from the next
+    night on. Written to docs/employers-to-trace.csv for the registry sheet."""
+    sources = json.loads(SOURCES.read_text()) if SOURCES.exists() else {}
+    reg = json.loads(EMPLOYER_SITES.read_text()) if EMPLOYER_SITES.exists() else []
+    direct_names = {_first_word(s.get("employer")) for s in sources.values() if s.get("employer")}
+    direct_names |= {_first_word(e.get("employer")) for e in reg if e.get("careers_url")}
+    direct_names |= {_first_word(j["employer"]) for j in jobs if j.get("direct") and j["employer"]}
+    direct_names.discard("")
+    links = {}
+    for j in list(jobs) + list(NLX_ALL):
+        name = enrich.clean_employer(j.get("employer") or "")
+        if name and j.get("url"):
+            links.setdefault(_first_word(name), set()).add(j["url"])
+    groups = {}
+    for j in jobs:
+        if j.get("direct") or not j["employer"] or j.get("remote"):
+            continue
+        k = _first_word(j["employer"])
+        if k in direct_names:
+            continue
+        g = groups.setdefault(k, {"name": j["employer"], "n": 0, "routes": set(), "example": j["url"]})
+        g["n"] += 1
+        g["routes"].add(j["route"])
+    added = []
+    for k, g in groups.items():
+        found = None
+        for u in sorted(links.get(k, ())):
+            f = direct.source_from_url(u) or ats.source_from_url(u)
+            if f and f[1].get("platform") not in ("NEOGOV",):
+                found = (u, f)
+                break
+        if found:
+            u, (key, src) = found
+            if key in sources:
+                g["status"] = f"Hiring system already read ({src['platform']}); its jobs here go under another name"
+            else:
+                reg.append({"employer": g["name"], "careers_url": u, "local": True, "home": "", "found": today,
+                            "list": "Found from postings (trace)"})
+                added.append(g["name"])
+                g["status"] = f"Added tonight: {src['platform']}, read directly from the next run"
+        else:
+            g["status"] = "No readable hiring-system link seen yet"
+    if added:
+        EMPLOYER_SITES.write_text(json.dumps(reg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    with TRACE_EMP_CSV.open("w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["Employer", "Lane openings seen secondhand", "Seen via", "Status", "Example posting", "Date"])
+        for g in sorted(groups.values(), key=lambda g: (-g["n"], g["name"].lower())):
+            w.writerow([g["name"], g["n"], ", ".join(sorted(g["routes"])), g["status"], g["example"], today])
+    log.append(f"Employers to trace: {len(groups)} seen only secondhand ({sum(g['n'] for g in groups.values())} openings); "
+               f"{len(added)} hiring systems added from their links" + (f" ({', '.join(added[:5])})." if added else "."))
 
 
 def main():
@@ -988,6 +1054,11 @@ def main():
     PULLED.write_text(json.dumps([{k: j.get(k) for k in ("id", "title", "city", "employer", "url", "days", "soc", "route")}
                                   for j in jobs], ensure_ascii=False, indent=0), encoding="utf-8")
     n_emp = update_employers(jobs, today)
+    if not args.fixture:
+        try:
+            trace_employers(jobs, today, log)
+        except Exception as e:  # noqa: BLE001  never stops the job list from publishing
+            log.append(f"Employers to trace failed: {type(e).__name__}: {e}")
     print(f"Employers on record: {n_emp}.")
     if not args.fixture:
         try:

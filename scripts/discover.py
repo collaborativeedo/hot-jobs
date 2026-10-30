@@ -92,6 +92,31 @@ def build():
             queue.append({"domain": d, "employer": v.get("name", ""), "city": v.get("city", ""),
                           "business": v.get("business", ""), "naics": v.get("naics", ""), "locations": counts[d],
                           "list": v.get("list", "QualityInfo employer database")})
+    # Employers seen only secondhand in postings (docs/employers-to-trace.csv, from the nightly run) go first, and are
+    # retried after 30 days instead of 90 while they still have openings here.
+    trace = ROOT / "docs" / "employers-to-trace.csv"
+    if trace.exists():
+        import csv
+        key = lambda n: re.sub(r"[^a-z0-9]", "", re.sub(r"\b(inc|llc|co|corp|company|the|of)\b", "", (n or "").lower()))  # noqa: E731
+        by_name = {}
+        for v in db.values():
+            if v.get("web"):
+                by_name.setdefault(key(v.get("name")), v)
+        first, queued = [], {q["domain"] for q in queue}
+        for row in csv.DictReader(trace.open(encoding="utf-8")):
+            if not row.get("Status", "").startswith("No readable"):
+                continue
+            v = by_name.get(key(row["Employer"]))
+            d = domain(v.get("web")) if v else ""
+            if not d or NOT_EMPLOYER_SITES.search(d) or d in queued:
+                continue
+            if d in done and (dt.date.fromisoformat(TODAY) - dt.date.fromisoformat(done[d]["checked"])).days < 30:
+                continue
+            first.append({"domain": d, "employer": row["Employer"], "city": v.get("city", ""), "business": v.get("business", ""),
+                          "naics": v.get("naics", ""), "locations": counts[d], "list": "Found from postings (trace)"})
+            queued.add(d)
+        queue = first + queue
+        print(f"Employers to trace: {len(first)} websites queued first.")
     QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=0), encoding="utf-8")
     print(f"{len(db)} employers; {len(seen)} distinct websites; queued {len(queue)}; skipped {dict(skipped)}")
 

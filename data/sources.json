@@ -17757,22 +17757,6 @@
   "url": "https://www.corporate.jeld-wen.com/careers",
   "weekly": false
  },
- "page:https://www.costco.com/f/-/careers": {
-  "employer": "Costco Wholesale",
-  "first_seen": "2026-10-29",
-  "home": "Eugene",
-  "host": "www.costco.com",
-  "lane_openings": 0,
-  "last_run": "2026-10-29",
-  "local": "maybe",
-  "named": true,
-  "platform": "Careers page",
-  "remote_ok": false,
-  "rotate": true,
-  "status": "error: Error",
-  "url": "https://www.costco.com/f/-/careers",
-  "weekly": false
- },
  "page:https://www.cprphysicaltherapy.com/careers": {
   "employer": "Cooperative Performance Rehab",
   "first_seen": "2026-10-29",
@@ -23821,24 +23805,6 @@
   "rotate": true,
   "status": "ok",
   "url": "https://www.seniorlifestyle.com/careers/",
-  "weekly": false
- },
- "page:https://www.sentinelone.com/jobs": {
-  "cache_date": "2026-10-30",
-  "cache_rows": [],
-  "employer": "SentinelOne",
-  "first_seen": "2026-10-30",
-  "home": "",
-  "host": "www.sentinelone.com",
-  "lane_openings": 0,
-  "last_run": "2026-10-30",
-  "local": false,
-  "named": true,
-  "platform": "Careers page",
-  "remote_ok": true,
-  "rotate": false,
-  "status": "ok",
-  "url": "https://www.sentinelone.com/jobs/",
   "weekly": false
  },
  "page:https://www.servicemenpc.com/about/careers": {

@@ -9709,12 +9709,12 @@
   "weekly": true
  },
  {
-  "employer": "Pacificsource Health Plans",
+  "employer": "PacificSource",
   "careers_url": "https://pacificsource.wd5.myworkdayjobs.com/PacificSource",
   "local": true,
   "home": "Springfield",
   "found": "2026-10-29",
-  "list": "QualityInfo employer database",
+  "list": null,
   "weekly": false
  },
  {
@@ -9917,11 +9917,11 @@
  },
  {
   "employer": "Costco Wholesale",
-  "careers_url": "https://www.costco.com/f/-/careers",
+  "careers_url": "https://careers.costco.com/jobs?location=Eugene%2C%20OR",
   "local": true,
   "home": "Eugene",
   "found": "2026-10-29",
-  "list": "QualityInfo employer database",
+  "list": null,
   "weekly": false
  },
  {
@@ -11297,5 +11297,14 @@
   "home": "",
   "found": "2026-10-29",
   "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Nexus Family Healing",
+  "careers_url": "https://recruiting.paylocity.com/recruiting/jobs/All/74250a42-2de1-439f-8d9c-cbcc19b81f01/Nexus-Family-Healing",
+  "local": true,
+  "home": "",
+  "found": "2026-10-30",
+  "list": null,
+  "note": "Found from WorkSource postings (trace pass)"
  }
 ]

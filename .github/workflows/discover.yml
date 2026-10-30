@@ -1,6 +1,8 @@
 name: Discover employer job pages
 
 on:
+  schedule:
+    - cron: "23 15 * * 0"   # Sundays, 8:23 a.m. Pacific: new employers from the week's postings, chamber lists, QualityInfo
   workflow_dispatch:
     inputs:
       shards:
