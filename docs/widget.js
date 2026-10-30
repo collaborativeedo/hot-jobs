@@ -57,10 +57,11 @@
         return dated === false ? "Added " + w : w.charAt(0).toUpperCase() + w.slice(1);
       },
       foot: function (upd) {
-        return "Jobs from the Oregon Employment Department's " +
-          '<a href="https://www.qualityinfo.org/jfind" target="_blank" rel="noopener">QualityInfo Job Finder</a> and employers\' own hiring sites' +
-          (upd ? ". Updated " + upd : "") +
-          ". Average pay figures come from Oregon Employment Department wage data for the occupation, not from the posting. Not every opening is posted online. This is a public beta." +
+        return 'Built by <a href="https://collaborativeedo.org" target="_blank" rel="noopener">Collaborative Economic Development Oregon</a>, ' +
+          "Hot Jobs draws on public employer job postings and labor market information gathered by the Oregon Employment Department through " +
+          '<a href="https://www.qualityinfo.org" target="_blank" rel="noopener">QualityInfo</a>.' +
+          (upd ? " Updated " + upd + "." : "") +
+          " Average pay figures are occupation averages for Lane County, not from the posting. Not every opening is posted online. This is a public beta." +
           ' See a problem with a listing? <button type="button" class="lchj-link" data-report="open">Let us know</button>.';
       },
       ask: "Was this job still open?", yes: "Yes", no: "No", thanks: "Thanks. That helps keep the list accurate.",
@@ -92,10 +93,11 @@
         return dated === false ? "Agregado " + w : w.charAt(0).toUpperCase() + w.slice(1);
       },
       foot: function (upd) {
-        return "Empleos del " +
-          '<a href="https://www.qualityinfo.org/jfind" target="_blank" rel="noopener">Job Finder de QualityInfo</a> del Departamento de Empleo de Oregón y de los sitios de contratación de los empleadores' +
-          (upd ? ". Actualizado el " + upd : "") +
-          ". Los promedios de pago provienen de los datos salariales del Departamento de Empleo de Oregón para la ocupación, no del anuncio. No todas las vacantes se publican en línea. Los anuncios aparecen tal como los publicó cada empleador, por lo general en inglés. Esta es una versión beta pública." +
+        return 'Creado por <a href="https://collaborativeedo.org" target="_blank" rel="noopener">Collaborative Economic Development Oregon</a>, ' +
+          "Hot Jobs se basa en anuncios públicos de empleo de los empleadores y en información del mercado laboral recopilada por el Departamento de Empleo de Oregón a través de " +
+          '<a href="https://www.qualityinfo.org" target="_blank" rel="noopener">QualityInfo</a>.' +
+          (upd ? " Actualizado el " + upd + "." : "") +
+          " Los promedios de pago corresponden a la ocupación en el condado de Lane, no al anuncio. No todas las vacantes se publican en línea. Los anuncios aparecen tal como los publicó cada empleador, por lo general en inglés. Esta es una versión beta pública." +
           ' ¿Ve un problema con un anuncio? <button type="button" class="lchj-link" data-report="open">Avísenos</button>.';
       },
       ask: "¿Seguía abierto este empleo?", yes: "Sí", no: "No", thanks: "Gracias. Eso nos ayuda a mantener la lista al día.",

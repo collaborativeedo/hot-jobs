@@ -211,6 +211,8 @@ def soc_education(log=None, force=False):
 
 
 OEWS_URL = "https://www.bls.gov/oes/current/oes_21660.htm"   # Eugene-Springfield metro area = Lane County
+# BLS moves the "current" page between releases; the dated pages stay put. Newest first.
+OEWS_URLS = [OEWS_URL] + [f"https://www.bls.gov/oes/{y}/may/oes_21660.htm" for y in range(2026, 2021, -1)]
 OEWS_CACHE = DATA / "oews-lane.json"
 
 
@@ -252,16 +254,20 @@ def oews_wages(log=None, force=False):
     if wages and not force and _age_days(cache.get("fetched")) < SOC_MAX_AGE_DAYS:
         return wages
     try:
-        r = _session().get(OEWS_URL, timeout=60)
-        r.raise_for_status()
-        fresh = parse_oews_html(r.text)
+        sess, fresh, r, used = _session(), {}, None, OEWS_URL
+        for used in OEWS_URLS:
+            r = sess.get(used, timeout=60)
+            if r.status_code == 200:
+                fresh = parse_oews_html(r.text)
+                if len(fresh) >= 200:
+                    break
         if len(fresh) < 200:
             import re as _re
             txt = _re.sub(r"\s+", " ", r.text)
             raise ValueError(f"only {len(fresh)} occupations parsed; status {r.status_code}, {len(r.text)} chars; "
                              f"title {(_re.search(r'<title>(.*?)</title>', txt) or [None, ''])[1][:80]!r}; "
                              f"th sample {_re.findall(r'<th[^>]*>(.*?)</th>', txt)[:6]!r}")
-        _write_json(OEWS_CACHE, {"fetched": _today().isoformat(), "source": OEWS_URL, "wages": fresh})
+        _write_json(OEWS_CACHE, {"fetched": _today().isoformat(), "source": used, "wages": fresh})
         _say(log, f"BLS wages (Eugene-Springfield): read {len(fresh)} occupations.")
         return fresh
     except Exception as e:  # noqa: BLE001
