@@ -215,6 +215,8 @@ def pull_workday(f, src):
             searches.append(({p: ids}, ""))
     else:
         searches = [({}, c) for c in SEARCH_CITIES]
+    if src.get("remote_ok"):
+        searches.append(({}, "remote"))  # employers with a Lane County presence: their US remote roles too
     found = {}
     for facets, text in searches:
         for offset in range(0, 400, 20):
@@ -234,8 +236,11 @@ def pull_workday(f, src):
             info = f.get(api + path, headers={"Accept": "application/json"}).json().get("jobPostingInfo") or {}
             locs = [info.get("location", "")] + list(info.get("additionalLocations") or [])
             city = next((c for c in map(lane_city, locs) if c), "")
-        if city:
-            jobs.append({"title": p.get("title", ""), "city": city, "url": f"{base}/{src['site']}{path}",
+        remote = bool(src.get("remote_ok") and not city and re.search(r"\bremote\b|\bvirtual\b", loc, re.I)
+                      and re.search(r"\b(US|USA|United States|U\.S\.|Oregon|OR)\b", loc))
+        if city or remote:
+            jobs.append({"title": p.get("title", ""), "city": city or "Remote", "remote": remote,
+                         "url": f"{base}/{src['site']}{path}",
                          "days": _workday_days(p.get("postedOn")), "snippet": "", "org": ""})
     return jobs
 

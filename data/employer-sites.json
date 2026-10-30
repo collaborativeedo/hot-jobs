@@ -2977,15 +2977,6 @@
   "weekly": false
  },
  {
-  "employer": "Nike Well Collective",
-  "careers_url": "https://careers.nike.com/",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
   "employer": "Orbis Cascade Alliance",
   "careers_url": "https://www.orbiscascade.org/jobs-board/",
   "local": true,
@@ -11292,8 +11283,16 @@
   "list": "Eugene tech (Matt)"
  },
  {
-  "employer": "Amazon",
-  "careers_url": "https://amazon.jobs/en/search",
+  "employer": "Nike",
+  "careers_url": "https://nike.wd1.myworkdayjobs.com/en-US/nke",
+  "local": false,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Eugene tech (Matt)"
+ },
+ {
+  "employer": "Intel",
+  "careers_url": "https://intel.wd1.myworkdayjobs.com/External",
   "local": false,
   "home": "",
   "found": "2026-10-29",

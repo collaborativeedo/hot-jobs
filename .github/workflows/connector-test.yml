@@ -9,6 +9,9 @@ on:
       token:
         description: "Board token, if any"
         default: ""
+      url:
+        description: "Or a careers page address (overrides platform and token)"
+        default: ""
 
 permissions:
   contents: write
@@ -27,6 +30,7 @@ jobs:
         env:
           PLATFORM: ${{ inputs.platform }}
           TOKEN: ${{ inputs.token }}
+          URL: ${{ inputs.url }}
         run: |
           python - <<'PY'
           import json, os, sys, traceback
@@ -34,6 +38,9 @@ jobs:
           import ats, direct
           f = direct.Fetcher()
           src = {"platform": os.environ["PLATFORM"], "token": os.environ["TOKEN"], "host": "", "remote_ok": True, "local": False, "home": ""}
+          if os.environ.get("URL"):
+              key, found = direct.source_from_url(os.environ["URL"]) or ats.source_from_url(os.environ["URL"])
+              src.update(found)
           out = {"platform": src["platform"]}
           try:
               rows = dict(direct.CONNECTORS, **ats.CONNECTORS)[src["platform"]](f, src)
