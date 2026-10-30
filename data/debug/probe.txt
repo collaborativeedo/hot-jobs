@@ -1,18 +1,18 @@
 == https://pacificsource.wd5.myworkdayjobs.com/pacificsource/job/Springfield-OR/Care-Manageme
-   len 7524 | pay:  | hours: 
+   len 7524 | pay: $70,950 to $106,425 a year | hours: 
    around $: ot constitute a guarantee of any specific salary within that range. Base Range: $70,950.00 - $106,424.99 Our Values We live and breathe our values. In fact, our culture is driven by these seven core v
 == https://lowes.wd5.myworkdayjobs.com/lws_external_cs/job/Eugene-OR-W-Eugene-2940/Cashier-Pa
    len 5151 | pay:  | hours: Part-time
    around $: NE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branch
 == https://oregon.wd5.myworkdayjobs.com/en-us/sor_external_career_site/job/operations-manager
-   len 6622 | pay:  | hours: 
+   len 6622 | pay: $5,907 to $9,143 a month | hours: 
    around $: ication Deadline: 11/05/2026 Agency: Department of Human Services Salary Range: $5,907 - $9,143 Position Type: Employee Position Title: Operations Manager (Human Services Supervisor 2) Job Description
 == https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/240274
    len 2804 | pay:  | hours: Temporary or seasonal
    around $: (no $)
 == https://recruiting2.ultipro.com/als1001alsco/JobBoard/0a8883de-4664-4282-8752-c5658e72bf32
-   len 30000 | pay:  | hours: 
-   around $: pportunityList')) || (false && (/JobBoard\/[^\/]*\/Candidate\/ViewPresence[^\/]*$/.test(url.pathname) || /JobBoard\/[^\/]*\/ApplicationAssessments[^\/]*$/.test(url.pathname) || /JobBoard\/[^\/]*\/Cand
+   len 3254 | pay:  | hours: 
+   around $: (no $)
 == https://recruiting2.ultipro.com/dow1001dowl/JobBoard/e88601aa-9d30-45ca-b6e4-610b5a4d6ead/
-   len 30000 | pay:  | hours: 
-   around $: pportunityList')) || (false && (/JobBoard\/[^\/]*\/Candidate\/ViewPresence[^\/]*$/.test(url.pathname) || /JobBoard\/[^\/]*\/ApplicationAssessments[^\/]*$/.test(url.pathname) || /JobBoard\/[^\/]*\/Cand
+   len 4697 | pay:  | hours: 
+   around $: (no $)
