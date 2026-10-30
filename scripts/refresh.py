@@ -883,7 +883,7 @@ def main():
         "show_days": SHOW_DAYS,
         "dead_links_dropped": dead_dropped,
         "jobs": [{k: j.get(k, "") for k in ("id", "title", "city", "employer", "type", "workplaces", "hours", "pay",
-                                            "typical_pay", "apply_via", "eases", "industries", "rural", "priority", "route",
+                                            "typical_pay", "apply_via", "eases", "remote", "industries", "rural", "priority", "route",
                                             "source", "days", "dated", "first_seen", "soc", "occupation", "url")}
                  | {"snippet": j["snippet"][:160]} for j in show],
     }

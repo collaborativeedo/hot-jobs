@@ -257,8 +257,10 @@
   }
 
   function tiles(last, prev) {
+    [last, prev].forEach(function (r) { if (r && r.openings_lane == null && r.openings != null) { r.openings_lane = r.openings; r.openings_remote = 0; } });
     var defs = [
-      ["Openings listed", "openings", fmt],
+      ["Openings in Lane County", "openings_lane", fmt],
+      ["Remote openings (employers with a Lane County presence)", "openings_remote", fmt],
       ["Employers with openings", "employers_hiring", fmt],
       ["Employers on record", "employers_on_record", fmt],
       ["Hiring systems searched", "employer_sources_searched", fmt],
@@ -288,9 +290,10 @@
 
   function trends() {
     var box = $("#trends"); box.textContent = "";
+    H.forEach(function (h) { if (h.openings_lane == null && h.openings != null) h.openings_lane = h.openings; });
     [["Employers with openings found", "employers_hiring", "Distinct employers with at least one open posting that night"],
      ["Employer hiring systems searched", "employer_sources_searched", "Careers sites and hiring systems read directly each night"],
-     ["Openings listed", "openings", "Postings shown to job seekers (up to 14 days old)"],
+     ["Openings in Lane County", "openings_lane", "Postings shown to job seekers (up to 14 days old), not counting remote roles"],
      ["Employers on record", "employers_on_record", "All employers the run has seen since the public beta began"]].forEach(function (d) {
       box.appendChild(lineCard(d[0], d[2], slice(), d[1]));
     });

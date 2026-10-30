@@ -198,6 +198,9 @@ def metrics(jobs_doc, employers, sources, pulled=None):
     return {
         "date": day,
         "openings": n,
+        # Remote roles from employers with a Lane County presence are listed but kept out of the Lane County count.
+        "openings_lane": sum(1 for j in jobs if not (j.get("remote") or j.get("city") == "Remote")),
+        "openings_remote": sum(1 for j in jobs if j.get("remote") or j.get("city") == "Remote"),
         "postings_pulled": jobs_doc.get("pulled") or (len(pulled) if pulled else None),
         "employers_hiring": len(hiring),
         "employers_on_record": len(employers),
