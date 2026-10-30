@@ -72,7 +72,7 @@ _SOCIAL = re.compile(r"^(bluesky|facebook|instagram|linkedin|twitter|x|youtube|t
                      r"clinical|corporate|behavioral health operations|working at .*|federal benefits|"
                      r"general application.*|talent (community|network)|career (opportunities|fairs?)|our culture)$", re.I)
 _JOB_WORD = re.compile(r"\b(manager|manger|assistant|associate|technician|tech|specialist|coordinator|director|engineer|nurse|"
-                       r"driver|operator|officer|clerk|cleaner|custodian|janitor|coach|teacher|instructor|faculty|professor|"
+                       r"driver|operator|officer|monitor|guard|caregiver|advocate|navigator|mentor|clerk|cleaner|custodian|janitor|coach|teacher|instructor|faculty|professor|"
                        r"designer|developer|analyst|consultant|supervisor|lead|foreman|superintendent|cook|chef|server|"
                        r"cashier|stylist|barber|therapist|counselor|aide|worker|laborer|attendant|representative|rep|agent|"
                        r"advisor|adviser|planner|scientist|mlt|mls|medic|deputy|guard|security|leader|intern|apprentice|"
