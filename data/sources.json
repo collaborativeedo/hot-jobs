@@ -25120,22 +25120,6 @@
   "url": "https://www.unitedfinance.com/careers/",
   "weekly": false
  },
- "page:https://www.unitedwaylane.org/job-opps": {
-  "employer": "United Way-Lane County",
-  "first_seen": "2026-10-29",
-  "home": "Springfield",
-  "host": "www.unitedwaylane.org",
-  "lane_openings": 0,
-  "last_run": "2026-10-30",
-  "local": "maybe",
-  "named": true,
-  "platform": "Careers page",
-  "remote_ok": false,
-  "rotate": true,
-  "status": "skipped: site shows a human-verification challenge",
-  "url": "https://www.unitedwaylane.org/job-opps",
-  "weekly": true
- },
  "page:https://www.uoalumni.com/career-services/duck-career-network": {
   "cache_date": "2026-10-30",
   "cache_rows": [],
