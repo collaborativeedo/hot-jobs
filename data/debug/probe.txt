@@ -1,19 +1,15 @@
-ORACLE kw "Eugene" total 0 []
-ORACLE kw Eugene total 0 []
-ORACLE loc 11845 []
-== Cintas DE rows 0
-== Aspen DE rows 0
-== HAN DE rows 0
-== Allied ERROR PermissionError site shows a human-verification challenge
-== Costco rows 8
-    Lane County | Stocker | https://careers.costco.com/jobs/2449?lang=en-us&previousLocale=en-US
-    Lane County | Forklift Driver | https://careers.costco.com/jobs/67029?lang=en-us&previousLocale=en-US
-    Lane County | Membership Clerk | https://careers.costco.com/jobs/67022?lang=en-us&previousLocale=en-US
-    Lane County | Receiving Clerk | https://careers.costco.com/jobs/64341?lang=en-us&previousLocale=en-US
-    Lane County | Maintenance Assistant | https://careers.costco.com/jobs/64340?lang=en-us&previousLocale=en-US
-    Lane County | Food Service Assistant | https://careers.costco.com/jobs/67278?lang=en-us&previousLocale=en-US
-    Lane County | Loss Prevention Clerk | https://careers.costco.com/jobs/64337?lang=en-us&previousLocale=en-US
-    Lane County | Maintenance Clerk | https://careers.costco.com/jobs/64339?lang=en-us&previousLocale=en-US
-== FedEx rows 0
-== Kroger DE rows 0
-PAYLOCITY guids ['74250a42-2de1-439f-8d9c-cbcc19b81f01', '98db1eea-2404-4e1c-9ea8-782edb1eb1f8'] ['All/74250a42-2de1-439f-8d9c-cbcc19b81f01/Nexus-Family-Healing', 'All/74250a42-2de1-439f-8d9c-cbcc19b81f01']
+FINDER findReqs;siteNumber=CX_2001,facetsList=LOCATIONS,limit=1,keyword="Eugene, OR" total 0 facets 0
+   eug []
+   reqs []
+FINDER findReqs;siteNumber=CX_2001,facetsList=LOCATIONS,limit=1,location="Eugene, OR, U total None facets 0
+   eug []
+   reqs []
+DE https://aspendental.dejobs.org/eugene-or/jobs/ 202 0 job links 0 items 0
+   sample [] []
+DE https://aspendental.dejobs.org/jobs/feed/rss?location=Eugene 202 0 job links 0 items 0
+   sample [] []
+DE https://aspendental.dejobs.org/feed/rss?location=Eugene%2C+OR 202 0 job links 0 items 0
+   sample [] []
+DE https://aspendental.dejobs.org/jobs/?location=Eugene%2C+OR&format=json 202 0 job links 0 items 0
+   sample [] []
+FEDEX len 501654 False True ['workday', 'workday', 'workday', 'workday', 'workday', 'workday', 'workday', 'workday']
