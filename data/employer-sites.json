@@ -700,15 +700,6 @@
   "weekly": false
  },
  {
-  "employer": "Elsa's Hair Salon",
-  "careers_url": "https://manereviews.com/jobs",
-  "local": true,
-  "home": "Eugene",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": false
- },
- {
   "employer": "Emerald Insurance Agcy KS City",
   "careers_url": "https://kclife.com/Careers.aspx",
   "local": true,
@@ -5024,15 +5015,6 @@
   "careers_url": "https://www.jcfire.org/career-opportunities",
   "local": true,
   "home": "Junction City",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
-  "employer": "Kathryn R Davis Designs",
-  "careers_url": "https://bloomington.iu.edu/academics/experiential-learning/research-opportunities/",
-  "local": true,
-  "home": "Eugene",
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": true

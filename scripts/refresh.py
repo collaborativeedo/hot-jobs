@@ -498,7 +498,9 @@ def pull_direct(qi_jobs, fetcher, today):
         key, src = found if found else (f"page:{url.lower().rstrip('/')}", {"platform": "Careers page", "url": url,
                                                                              "host": re.sub(r"^https?://([^/]+).*$", r"\1", url).lower()})
         rec = sources.setdefault(key, dict(src, first_seen=today, employer=""))
-        rec.update(employer=site["employer"], local=bool(site.get("local")), home=site.get("home", ""), named=True,
+        found_auto = bool(site.get("list")) and site.get("list") != "Eugene tech (Matt)"
+        rec.update(employer=site["employer"], local=("maybe" if found_auto else True) if site.get("local") else False,
+                   home=site.get("home", ""), named=True,
                    weekly=bool(site.get("weekly")), rotate=site.get("list") == "QualityInfo employer database")
     for host in ("www.governmentjobs.com", "www.schooljobs.com"):  # public employers; one search covers all of them
         sources.setdefault(f"neogov:{host}", {"platform": "NEOGOV", "host": host, "first_seen": today,

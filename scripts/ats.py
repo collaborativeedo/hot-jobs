@@ -65,11 +65,35 @@ def source_from_url(url):
 
 # ---- Connectors for hiring systems with public job feeds ---------------------------------------------
 
+_SOCIAL = re.compile(r"^(bluesky|facebook|instagram|linkedin|twitter|x|youtube|tiktok|nextdoor|pinterest|yelp|resumes?|"
+                     r"create a job alert|job market outlook|career areas|.* careers|ai/ml roles.*|how to apply|"
+                     r"freshman .*|benefits (&|and) perks|careers blog|join our talent community|chair for rent|"
+                     r"clinical|corporate|behavioral health operations)$", re.I)
+_NOT_HERE = re.compile(r"\b(remote|portland|seattle|boise|sacramento|san francisco|los angeles|new york|chicago|denver|"
+                        r"phoenix|dallas|houston|atlanta|boston|calgary|winnipeg|vancouver|toronto|montreal|edmonton|"
+                        r"ottawa|bend|medford|salem|corvallis|albany|beaverton|hillsboro|tigard|gresham)\b|"
+                        r"\b[A-Z][a-z]+,\s*(?!OR\b|Oregon\b)(?:[A-Z]{2}|BC|AB|ON|MB|QC)\b", re.I)
+
+
 def _rows(items, local, home):
+    """Postings in Lane County. local=True: a Lane County employer (hand-checked), whose postings with no location
+    are kept. local="maybe": found automatically (employer database, chamber directories); its postings with no
+    location are kept only when the employer looks local: a handful of postings and none naming another place.
+    Otherwise only postings that name a Lane County town are kept."""
+    items = [it for it in items if it.get("title") and it.get("url") and not _SOCIAL.match(plain(it["title"], 200).strip())]
+    named = sum(1 for it in items if lane_city(it.get("loc", "") or ""))
+    elsewhere = sum(1 for it in items if not lane_city(it.get("loc", "") or "")
+                    and (_NOT_HERE.search(it.get("loc", "") or "") or _NOT_HERE.search(it.get("title") or "")))
+    if local and (elsewhere >= 3 or elsewhere > named):
+        local = False  # a regional or national employer: only postings that name a Lane County town
+    if local == "maybe" and (len(items) - named > 8):
+        local = False  # too many unplaced postings for a one-site local employer
     out = []
     for it in items:
+        if local and not lane_city(it.get("loc", "") or "") and _NOT_HERE.search(it.get("title") or ""):
+            continue
         c = keep_city(it.get("loc", ""), local, home)
-        if c and it.get("title") and it.get("url"):
+        if c:
             out.append({"title": plain(it["title"], 200), "city": c, "url": it["url"], "days": it.get("days"),
                         "snippet": plain(it.get("snippet", ""), 300), "org": "", "info": it.get("info", "")})
     return out
