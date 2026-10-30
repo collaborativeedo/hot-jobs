@@ -67,6 +67,7 @@ DAYS = 30            # pull postings from the last 30 days so open jobs are not 
 MISSES_TO_CLOSE = 3  # a job closes after this many nightly runs without appearing
 PAUSE = 1.0          # seconds between page requests, to be polite
 SHOW_DAYS = 14       # the widget shows postings up to this many days old; older ones are often already filled
+KNOWN_NAMES = []        # filled in add_details
 SHOW_DAYS_CHECKED = 45  # ...or up to this many days old when checked live in the last few nights (not job-board reposts)
 CHECKED_WITHIN = 4      # days: a "Checked" date this recent counts as live (matches the saved-read limit)
 SKIP_HOSTS = ("indeed.com", "simplyhired.com")  # reposts here are often expired or behind a "confirm you're human" check
@@ -337,8 +338,21 @@ def read_posting_pages(jobs, fetcher, today, log):
                f"{sum(1 for v in cache.values() if v.get('pay'))} of {len(cache)} on file state pay.")
 
 
+def known_employer_names(jobs):
+    """Employer names to look for in posting text: the registry, plus employers already named on tonight's postings."""
+    names = [j["employer"] for j in jobs if j.get("employer")]
+    try:
+        reg = json.loads((ROOT / "data" / "employer-sites.json").read_text())
+        names += [e["employer"] for e in (reg if isinstance(reg, list) else reg.get("employers", [])) if e.get("employer")]
+    except Exception:  # noqa: BLE001
+        pass
+    return names
+
+
 def add_details(jobs, wages):
     """Employer, pay, hours and kind of workplace for each posting."""
+    global KNOWN_NAMES
+    KNOWN_NAMES = known_employer_names(jobs)
     for j in jobs:
         oed = j.pop("oed", None) or {}
         desc = oed.get("description", "")
@@ -347,7 +361,9 @@ def add_details(jobs, wages):
             j["employer"] = rules.employer(desc) if desc else ""
         j["employer"] = enrich.clean_employer(j["employer"])
         if not j["employer"]:
-            j["employer"] = enrich.clean_employer(enrich.employer_from_text(f'{j["snippet"]}. {desc}'))
+            j["employer"] = enrich.clean_employer(enrich.employer_from_text(f'{j["snippet"]}. {desc}', j["title"]))
+        if not j["employer"]:  # an employer we already know, named word for word in the posting
+            j["employer"] = enrich.employer_from_known(f'{j["title"]}. {j["snippet"]}. {desc}', KNOWN_NAMES)
         j["pay"] = j.get("pay") or enrich.posted_pay(oed.get("wage", "")) or enrich.posted_pay(text)
         # An occupation average would mislead for interns and trainees, so none is shown for them.
         j["typical_pay"] = "" if re.search(r"\b(intern|internship|trainee|apprentice|student)\b", j["title"], re.I) \
@@ -421,8 +437,11 @@ def _is_dead(url):
                 if len(segs_a) >= 2 and len(segs_b) < len(segs_a) and segs_a[-1] not in r.url and a.query not in b.query:
                     return "redirected to a general page"
             head = r.raw.read(150000, decode_content=True).decode("utf-8", "ignore")
-            if _GONE.search(re.sub(r"<[^>]+>", " ", head)[:60000]):
+            visible = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style|noscript)\b.*?</\1>", " ", head)))
+            if _GONE.search(visible[:60000]):
                 return "page says the job is closed"
+            if len(visible.strip()) < 300:
+                return ""  # a bot check or script-only page: it shows nothing, so it proves nothing either way
             return "ok"  # the page loaded and still shows the job
         finally:
             r.close()
@@ -471,9 +490,11 @@ def national_labor_exchange(raw, log):
         return []
     norm = lambda t: re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()  # noqa: E731
     emp = lambda t: re.sub(r"[^a-z0-9]", "", re.sub(r"\b(inc|llc|co|corp|company|the|usa)\b", "", (t or "").lower()))  # noqa: E731
-    have_title = {}
+    have_title, rows = {}, {}
     for j in raw:
         have_title.setdefault((norm(j["title"]), j["city"]), set()).add(emp(rules.employer(f'{j["title"]} {j["snippet"]}') or ""))
+        rows.setdefault((norm(j["title"]), j["city"]), []).append(j)
+    named = 0
     have_url = {direct.posting_key(j["url"]) for j in raw if j.get("url")}
     keep = []
     for j in found:
@@ -482,9 +503,16 @@ def national_labor_exchange(raw, log):
         if direct.posting_key(j["url"]) in have_url:
             continue
         if names is not None and (not e or "" in names or any(n and (n in e or e in n) for n in names)):
+            # Same job on QualityInfo, which often leaves the employer out: take the name NLx gives.
+            nlx_name = enrich.clean_employer(j.get("employer") or "")
+            for r in rows.get((norm(j["title"]), j["city"]), []):
+                if nlx_name and not r.get("employer"):
+                    r["employer"] = nlx_name
+                    named += 1
             continue
         keep.append(j)
-    log.append(f"NLx: {len(found)} Lane County postings, {len(found) - len(keep)} already on QualityInfo, {len(keep)} added.")
+    log.append(f"NLx: {len(found)} Lane County postings, {len(found) - len(keep)} already on QualityInfo, {len(keep)} added; "
+               f"{named} QualityInfo postings got their employer name from NLx.")
     return keep
 
 

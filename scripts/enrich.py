@@ -136,6 +136,12 @@ _PATTERNS = [
     re.compile(r"\b[Jj]oin\s+(?:the\s+)?" + _NAME + r"\s+(?:team|family)\b"),
     re.compile(r"\b[Aa]t\s+" + _NAME + r",\s+(?:we|our)\b"),
     re.compile(_NAME + r"\s+is an?\s+(?:equal opportunity|EEO|drug[- ]free)"),
+    # Job-site summaries: "Buckle - 3.6 Eugene, OR", "Avenue5 Residential, LLC - 3.0 Eugene, OR"
+    re.compile(_NAME + r"(?:,? (?:LLC|Inc\.?|L\.L\.C\.))?\s+-\s+\d\.\d\s+[A-Z][a-z]+(?: [A-Z][a-z]+)?,\s+OR\b"),
+    re.compile(r"\b(?:Description|Summary|Overview)\s+" + _NAME + r"\s+is\s+(?:seeking|hiring|recruiting|looking|immediately)\b"),
+    re.compile(r"\b[Ff]rom\s+" + _NAME + r"\s+is\s+partnering\b"),
+    re.compile(r"\b[Ee]xplore (?:opportunities|careers) (?:with|at)\s+" + _NAME + r"(?=[,.\s])"),
+    re.compile(r"(?:^|[.!?]\s+)" + _NAME + r"\s+is\s+(?:recruiting|immediately hiring)\b"),
 ]
 
 
@@ -175,6 +181,7 @@ _ROLE = re.compile(r"\b(?:wanted|representative|caregiver|dispatcher|driver|tech
 _NOT_EMPLOYERS = {n.lower() for n in """Adoption Client Clients Collaboration Others Other They Weekends Sponsors Policy
 Florence Eugene Springfield Oregon Finance Research Workplace Dayforce GetHired.com Ghr Prt Sparinc Myoccu
 Indeed SimplyHired ZipRecruiter LinkedIn Glassdoor Monster Workday Paylocity Paychex iCIMS UKG""".split()} | {
+    "worksource oregon", "oregon employment department", "national labor exchange",
     "finance and administration", "research administration", "workplace type", "human resources", "talent acquisition",
     "who we are", "about us", "our company", "equal opportunity employer"}
 
@@ -196,15 +203,42 @@ def clean_employer(name):
     return name
 
 
-def employer_from_text(text):
+_KNOWN_RX = None
+
+
+def employer_from_known(text, names):
+    """An employer from our registry named word for word in the posting text (case-sensitive, longest first)."""
+    global _KNOWN_RX
+    if _KNOWN_RX is None:
+        good = {n for n in (clean_employer(x) for x in names)
+                if n and len(n) >= 5 and n not in _BAD_NAMES and n.split()[0] not in _STOP
+                and (len(n.split()) > 1 or len(n) >= 6) and n.lower() not in _COMMON_WORDS}
+        _KNOWN_RX = re.compile(r"(?<![\w&'-])(" + "|".join(re.escape(n) for n in sorted(good, key=len, reverse=True))
+                               + r")(?![\w&'-])") if good else re.compile(r"(?!)")
+    m = _KNOWN_RX.search(text or "")
+    return m.group(1) if m else ""
+
+
+_COMMON_WORDS = {"afscme", "seiu", "teamsters", "oregon nurses association", "general", "services", "service", "health", "careers", "community", "medical", "industries",
+                 "solutions", "partners", "systems", "management", "construction", "academy", "options", "pathways"}
+
+
+def employer_from_text(text, title=""):
+    tw = {w[:5] for w in re.findall(r"[a-z]+", (title or "").lower()) if len(w) > 2}
     for rx in _PATTERNS:
         for m in rx.finditer(text or ""):
             name = _tidy_name(m.group(1))
+            words = name.split()
+            while len(words) > 1 and words[0].lower()[:5] in tw:   # "Kiosk Operator Lane Forest Products"
+                words = words[1:]
+            name = " ".join(words)
+            name = re.sub(r"^.*?\b(?:Road|Rd|Street|St|Avenue|Ave|Highway|Hwy|Blvd)\s+(?=[A-Z])", "", name)  # "Airport Road Astec"
             name = re.sub(r"\s+(of|and|&|the)$", "", name)
             if not name:
                 continue
             first = name.split()[0]
-            if (first in _STOP or name in _BAD_NAMES or name.upper() == name or len(name) < 3
+            if ((first in _STOP and not (first in ("Lane", "Eugene", "Springfield", "Oregon") and len(name.split()) >= 3))
+                    or name in _BAD_NAMES or name.upper() == name or len(name) < 3
                     or len(name.split()) > 6):
                 continue
             return name
