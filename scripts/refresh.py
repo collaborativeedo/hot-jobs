@@ -67,6 +67,8 @@ DAYS = 30            # pull postings from the last 30 days so open jobs are not 
 MISSES_TO_CLOSE = 3  # a job closes after this many nightly runs without appearing
 PAUSE = 1.0          # seconds between page requests, to be polite
 SHOW_DAYS = 14       # the widget shows postings up to this many days old; older ones are often already filled
+SHOW_DAYS_CHECKED = 45  # ...or up to this many days old when checked live in the last few nights (not job-board reposts)
+CHECKED_WITHIN = 4      # days: a "Checked" date this recent counts as live (matches the saved-read limit)
 SKIP_HOSTS = ("indeed.com", "simplyhired.com")  # reposts here are often expired or behind a "confirm you're human" check
 MAX_OED_PAGES = 600  # WorkSource listing pages read per night (each is read once, then cached)
 WAGE_TABLE = {}      # filled while reading QualityInfo pages
@@ -926,7 +928,14 @@ def main():
 
     def shown(j):
         host = re.sub(r"^https?://([^/]+).*$", r"\1", j["url"] or "").lower()
-        return j["days"] <= SHOW_DAYS and not any(host == h or host.endswith("." + h) for h in SKIP_HOSTS)
+        if any(host == h or host.endswith("." + h) for h in SKIP_HOSTS):
+            return False
+        if j["days"] <= SHOW_DAYS:
+            return True
+        # Older postings stay up while the employer's hiring system still lists them or the link still checks
+        # out as open; job-board reposts keep the shorter limit.
+        checked = j.get("verified") and (dt.date.fromisoformat(today) - dt.date.fromisoformat(j["verified"])).days <= CHECKED_WITHIN
+        return bool(checked) and j["days"] <= SHOW_DAYS_CHECKED and j.get("route") != "Reposted by a job board"
 
     show = sorted((j for j in jobs if shown(j)), key=lambda j: j["days"])
     out = {
@@ -937,7 +946,7 @@ def main():
         "reported_total": total,
         "count": len(show),
         "pulled": len(jobs),
-        "show_days": SHOW_DAYS,
+        "show_days": SHOW_DAYS, "show_days_checked": SHOW_DAYS_CHECKED,
         "dead_links_dropped": dead_dropped,
         "jobs": [{k: j.get(k, "") for k in ("id", "title", "city", "employer", "type", "workplaces", "hours", "pay",
                                             "typical_pay", "apply_via", "eases", "remote", "verified", "reposted_since", "said_open", "industries", "rural", "priority", "route",
@@ -964,7 +973,7 @@ def main():
         log.append(f"Widget: {len(show)} shown of {len(jobs)} postings.")
         mark("Dashboard and archive")
         write_run_log({"date": run_date, "ok": True, "notes": log, "steps": minutes()})
-    print(f"Widget shows {len(show)} (up to {SHOW_DAYS} days old, direct links only).")
+    print(f"Widget shows {len(show)} (up to {SHOW_DAYS} days old, {SHOW_DAYS_CHECKED} when checked open).")
     print(f"QualityInfo reported {total}; parsed {len(raw)}; kept {len(jobs)} after duplicates; "
           f"{sum(1 for r in state.values() if 'closed' in r)} closed to date.")
 
