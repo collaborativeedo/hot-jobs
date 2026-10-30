@@ -126,7 +126,7 @@
     "Food & beverage": "Alimentos y bebidas", "Bioscience": "Biociencias",
     "Nonprofit & social services": "Organizaciones sin fines de lucro y servicios sociales",
     "Real estate & property": "Bienes raíces y propiedades", "Engineering & professional services": "Ingeniería y servicios profesionales",
-    "Staffing agency": "Agencia de empleo",
+    "Staffing agency": "Agencia de empleo", "Remote": "Remoto",
     "Full-time": "Tiempo completo", "Part-time": "Medio tiempo", "Temporary or seasonal": "Temporal o de temporada", "Not stated": "No indicado"
   };
   var EASE = ["bus", "no_degree", "training", "fair_chance"];
@@ -287,8 +287,9 @@
     var hasEase = jobs.some(function (j) { return j.eases.length; });
     var typeList = tally(jobs, function (j) { return [j.type]; });
     var placeList = tally(jobs, function (j) { return j.workplaces; });
+    if (placeList.indexOf("Remote") > 0) placeList = ["Remote"].concat(placeList.filter(function (p) { return p !== "Remote"; }));
     var cities = {}; jobs.forEach(function (j) { cities[j.city] = (cities[j.city] || 0) + 1; });
-    var cityList = Object.keys(cities).sort(function (a, b) { return cities[b] - cities[a]; });
+    var cityList = Object.keys(cities).sort(function (a, b) { return (a === "Remote") - (b === "Remote") || cities[b] - cities[a]; });
     var upd = data.updated ? new Date(data.updated) : null;
 
     var st = {

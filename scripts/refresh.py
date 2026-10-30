@@ -341,6 +341,9 @@ def add_details(jobs, wages):
         j["typical_pay"] = enrich.typical_pay(j.get("soc"), wages)
         j["hours"] = j.get("hours") or enrich.oed_hours(oed) or enrich.job_hours(j["title"], j["snippet"], desc)
         j["workplaces"] = enrich.workplaces(j["employer"], rules.employer_industry(j["employer"]), j["industries"])
+        if j.get("remote") or (j["city"] == "Remote") or ats.is_remote(j["title"], ""):
+            j["remote"] = True
+            j["workplaces"] = (j["workplaces"] or []) + ["Remote"]
         j["apply_via"] = apply_label(j)
         j["_text"] = text
 
@@ -365,7 +368,8 @@ def tag_barriers(jobs, log, offline=False):
         log.append(f"Reference data unavailable: {type(e).__name__}: {str(e)[:120]}")
     for j in jobs:
         occ = no_degree(j.get("soc"), levels) if j.get("soc") and levels else None
-        j["eases"] = enrich.eases(j.pop("_text", j["title"]), occ, j.pop("_page_flags", None), j.get("near_bus"))
+        j["eases"] = enrich.eases(j.pop("_text", j["title"]), occ, j.pop("_page_flags", None),
+                                  None if j.get("remote") else j.get("near_bus"))
     n = lambda k: sum(1 for j in jobs if k in j["eases"])  # noqa: E731
     log.append(f"Fewer barriers: near bus {n('bus')}, no degree {n('no_degree')}, training {n('training')}, "
                f"fair chance {n('fair_chance')} of {len(jobs)} postings.")
@@ -499,6 +503,7 @@ def pull_direct(qi_jobs, fetcher, today):
                                                                              "host": re.sub(r"^https?://([^/]+).*$", r"\1", url).lower()})
         rec = sources.setdefault(key, dict(src, first_seen=today, employer=""))
         found_auto = bool(site.get("list")) and site.get("list") != "Eugene tech (Matt)"
+        rec["remote_ok"] = not found_auto  # hand-checked Lane County employers: their remote jobs are listed too
         rec.update(employer=site["employer"], local=("maybe" if found_auto else True) if site.get("local") else False,
                    home=site.get("home", ""), named=True,
                    weekly=bool(site.get("weekly")), rotate=site.get("list") == "QualityInfo employer database")
@@ -654,7 +659,7 @@ def pull_direct(qi_jobs, fetcher, today):
                         "soc": enrich.soc_for_title(r["title"], title_soc), "occupation": "",
                         "snippet": r.get("snippet", ""), "employer": emp, "direct": True,
                         "hours": r.get("hours") or enrich.job_hours(r.get("info", "")),
-                        "pay": enrich.posted_pay(r.get("info", ""))})
+                        "pay": enrich.posted_pay(r.get("info", "")), "remote": bool(r.get("remote"))})
     browser.close()
     SOURCES.write_text(json.dumps(sources, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     with SOURCES_CSV.open("w", newline="", encoding="utf-8") as fh:

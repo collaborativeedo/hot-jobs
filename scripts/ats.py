@@ -81,7 +81,19 @@ _NOT_HERE = re.compile(r"\b(remote|portland|seattle|boise|sacramento|san francis
                         r",\s*washington\b", re.I)
 
 
-def _rows(items, local, home):
+_REMOTE = re.compile(r"\b(remote|work from home|wfh|telecommute|virtual)\b", re.I)
+_NOT_REMOTE = re.compile(r"\b(not remote|no remote|non-remote|on-?site only)\b", re.I)
+# A remote posting can also name the country or a region; these do not make it "somewhere else".
+_REMOTE_AREA = re.compile(r"^\W*(remote|work from home|virtual)\W*(\(?\s*(us|usa|u\.s\.|united states|north america|"
+                          r"pacific northwest|pnw|oregon|or|anywhere|nationwide|pst|pacific time)\s*\)?)?\W*$", re.I)
+
+
+def is_remote(title, loc):
+    t = f"{title or ''} {loc or ''}"
+    return bool(_REMOTE.search(t)) and not _NOT_REMOTE.search(t)
+
+
+def _rows(items, local, home, remote_ok=False):
     """Postings in Lane County. local=True: a Lane County employer (hand-checked), whose postings with no location
     are kept. local="maybe": found automatically (employer database, chamber directories); its postings with no
     location are kept only when the employer looks local: a handful of postings and none naming another place.
@@ -96,12 +108,21 @@ def _rows(items, local, home):
         local = False  # too many unplaced postings for a one-site local employer
     out = []
     for it in items:
+        loc = it.get("loc", "") or ""
+        if remote_ok and is_remote(it.get("title"), loc) and not lane_city(loc) and (
+                not loc.strip() or _REMOTE_AREA.match(loc) or not _NOT_HERE.search(re.sub(_REMOTE, "", loc))):
+            # A remote job with an employer that has a Lane County presence (hand-checked): kept, marked remote.
+            out.append({"title": plain(it["title"], 200), "city": "Remote", "remote": True, "url": it["url"],
+                        "days": it.get("days"), "snippet": plain(it.get("snippet", ""), 300), "org": "",
+                        "info": it.get("info", "")})
+            continue
         if not lane_city(it.get("loc", "") or "") and not lane_city(it.get("title") or "") and (
                 _NOT_HERE.search(it.get("title") or "") or _NOT_HERE.search(it.get("loc", "") or "")):
             continue  # names some other place
         c = keep_city(it.get("loc", ""), local, home)
         if c:
-            out.append({"title": plain(it["title"], 200), "city": c, "url": it["url"], "days": it.get("days"),
+            out.append({"title": plain(it["title"], 200), "city": c, "remote": is_remote(it.get("title"), loc),
+                        "url": it["url"], "days": it.get("days"),
                         "snippet": plain(it.get("snippet", ""), 300), "org": "", "info": it.get("info", "")})
     return out
 
@@ -110,7 +131,7 @@ def pull_greenhouse(f, src):
     data = f.get(f"https://boards-api.greenhouse.io/v1/boards/{src['token']}/jobs", params={"content": "true"}).json()
     return _rows([{"title": j.get("title"), "loc": (j.get("location") or {}).get("name", ""), "url": j.get("absolute_url"),
                    "days": days_since(j.get("updated_at")), "snippet": j.get("content", "")}
-                  for j in data.get("jobs", [])], src.get("local"), src.get("home", ""))
+                  for j in data.get("jobs", [])], src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
 def pull_lever(f, src):
@@ -122,7 +143,7 @@ def pull_lever(f, src):
         rows.append({"title": j.get("text"), "loc": cat.get("location", ""), "url": j.get("hostedUrl"),
                      "days": None if not created else days_since(__import__("datetime").datetime.utcfromtimestamp(created / 1000).isoformat()),
                      "snippet": j.get("descriptionPlain", ""), "info": cat.get("commitment", "")})
-    return _rows(rows, src.get("local"), src.get("home", ""))
+    return _rows(rows, src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
 def pull_smartrecruiters(f, src):
@@ -139,7 +160,7 @@ def pull_smartrecruiters(f, src):
         offset += 100
         if len(content) < 100:
             break
-    return _rows(rows, src.get("local"), src.get("home", ""))
+    return _rows(rows, src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
 def pull_breezy(f, src):
@@ -147,14 +168,14 @@ def pull_breezy(f, src):
     return _rows([{"title": j.get("name"), "url": j.get("url"),
                    "loc": f"{(j.get('location') or {}).get('city', '')}, {((j.get('location') or {}).get('state') or {}).get('id', '')}",
                    "days": days_since(j.get("published_date")), "info": f"{(j.get('type') or {}).get('name', '')} {j.get('salary') or ''}"}
-                  for j in data if isinstance(j, dict)], src.get("local"), src.get("home", ""))
+                  for j in data if isinstance(j, dict)], src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
 def pull_workable(f, src):
     data = f.get(f"https://apply.workable.com/api/v1/widget/accounts/{src['token']}").json()
     return _rows([{"title": j.get("title"), "url": j.get("url") or j.get("application_url"),
                    "loc": f"{j.get('city', '')}, {j.get('state', '')}", "days": days_since(j.get("created_at") or j.get("published_on")),
-                   "info": j.get("employment_type", "")} for j in data.get("jobs", [])], src.get("local"), src.get("home", ""))
+                   "info": j.get("employment_type", "")} for j in data.get("jobs", [])], src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
 def pull_bamboohr(f, src):
@@ -162,7 +183,7 @@ def pull_bamboohr(f, src):
     data = f.get(f"{base}/careers/list", headers={"Accept": "application/json"}).json()
     return _rows([{"title": j.get("jobOpeningName"), "url": f"{base}/careers/{j.get('id')}",
                    "loc": f"{(j.get('location') or {}).get('city') or ''}, {(j.get('location') or {}).get('state') or ''}",
-                   "info": j.get("employmentStatusLabel", "")} for j in data.get("result", [])], src.get("local"), src.get("home", ""))
+                   "info": j.get("employmentStatusLabel", "")} for j in data.get("result", [])], src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
 def pull_paylocity(f, src):
@@ -180,7 +201,7 @@ def pull_paylocity(f, src):
         rows.append({"title": job.get("JobTitle"), "loc": where, "days": days_since(job.get("PublishedDate")),
                      "url": f"https://recruiting.paylocity.com/Recruiting/Jobs/Details/{job.get('JobId')}",
                      "snippet": job.get("Description", "")})
-    return _rows(rows, src.get("local"), src.get("home", ""))
+    return _rows(rows, src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
 def pull_jazzhr(f, src):
@@ -194,7 +215,7 @@ def pull_jazzhr(f, src):
             continue
         rows.append({"title": a.get_text(" ", strip=True), "url": urljoin(base + "/", a["href"]),
                      "loc": plain(li.get_text(" "), 300).replace(a.get_text(" ", strip=True), "")})
-    return _rows(rows, src.get("local"), src.get("home", ""))
+    return _rows(rows, src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
 # ---- Browser reader for careers pages without a known hiring system ---------------------------------------
@@ -230,7 +251,7 @@ def pull_pinpoint(f, src):
         rows.append({"title": j.get("title"), "loc": where or "", "url": j.get("url") or j.get("path"),
                      "days": days_since(j.get("published_at") or j.get("created_at")),
                      "snippet": j.get("description") or "", "info": j.get("employment_type_text") or j.get("employment_type") or ""})
-    return _rows(rows, src.get("local"), src.get("home", ""))
+    return _rows(rows, src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
 def pull_rippling(f, src):
@@ -243,7 +264,7 @@ def pull_rippling(f, src):
         for where in names or [""]:
             rows.append({"title": j.get("name") or j.get("title"), "loc": where, "url": url,
                          "info": (j.get("employmentType") or {}).get("label", "") if isinstance(j.get("employmentType"), dict) else ""})
-    return _rows(rows, src.get("local"), src.get("home", ""))
+    return _rows(rows, src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
 def pull_adp(f, src):
@@ -267,7 +288,7 @@ def pull_adp(f, src):
         skip += 50
         if len(reqs) < 50:
             break
-    return _rows(rows, src.get("local"), src.get("home", ""))
+    return _rows(rows, src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
 def _job_title(text, row):
@@ -398,7 +419,7 @@ def pull_careers_page(f, src, browser):
             rows.append({"title": t, "url": h, "loc": l["row"], "days": None})
             if len(rows) >= 60:
                 break
-    return _rows(rows, src.get("local", True), src.get("home", ""))
+    return _rows(rows, src.get("local", True), src.get("home", ""), src.get("remote_ok"))
 
 
 CONNECTORS = {"Greenhouse": pull_greenhouse, "Lever": pull_lever, "SmartRecruiters": pull_smartrecruiters,
