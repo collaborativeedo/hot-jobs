@@ -496,14 +496,20 @@ def pull_careers_page(f, src, browser):
             if "#" in h and h.split("#")[0].rstrip("/") == url.split("#")[0].rstrip("/"):
                 continue  # a link to a spot on the same page
             h = h.split("#")[0]
-            if not t or h in seen or _NAV.match(t):
+            named = re.search(r"(?:^|&)(?:position|job_?title|title)=([^&]{4,})", pu.query, re.I)
+            if not t or h in seen or (_NAV.match(t) and not named):
                 continue
             if not (lh == host or lh.endswith("." + host) or host.endswith("." + lh) or _ATS_HOSTS.search(lh)):
                 continue
             if (not _JOBLINK.search(pu.path) or _BAD_PATH.search(pu.path) or _FILTER_QUERY.search(pu.query)
                     or h.rstrip("/").lower() == url.split("#")[0].rstrip("/").lower()):
                 continue
-            t = _job_title(t, l["row"])
+            if named:  # "/apply/?position=Senior%20Accountant": the link names the job
+                import html as _html
+                from urllib.parse import unquote_plus
+                t = _html.unescape(unquote_plus(named.group(1))).strip()
+            else:
+                t = _job_title(t, l["row"])
             t = re.sub(r"(?<=[a-z])(?:Full|Part)-time$", "", t or "").strip()  # "Shift LeadFull-time"
             if (not t or len(t) < 4 or len(t) > 120 or _NAV.match(t) or not re.search(r"[A-Za-z]{3}", t)
                     or _JUNK.search(t) or _ELSEWHERE.search(t)):

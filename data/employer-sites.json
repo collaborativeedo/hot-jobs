@@ -224,11 +224,12 @@
   "found": "2026-10-28"
  },
  {
-  "employer": "St. Vincent de Paul Lane County",
-  "careers_url": "https://www.svdp.us/?p=100",
+  "employer": "St. Vincent de Paul Society of Lane County",
+  "careers_url": "https://www.svdp.us/employment/",
   "local": true,
   "home": "Eugene",
-  "found": "2026-10-28"
+  "found": "2026-10-28",
+  "list": null
  },
  {
   "employer": "Relief Nursery",

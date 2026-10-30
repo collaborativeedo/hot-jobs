@@ -24477,24 +24477,6 @@
   "url": "https://www.supernovahaireugene.com/join-the-team",
   "weekly": false
  },
- "page:https://www.svdp.us/?p=100": {
-  "cache_date": "2026-10-30",
-  "cache_rows": [],
-  "employer": "St. Vincent de Paul Lane County",
-  "first_seen": "2026-10-28",
-  "home": "Eugene",
-  "host": "www.svdp.us",
-  "lane_openings": 0,
-  "last_run": "2026-10-30",
-  "local": true,
-  "named": true,
-  "platform": "Careers page",
-  "remote_ok": true,
-  "rotate": false,
-  "status": "ok",
-  "url": "https://www.svdp.us/?p=100",
-  "weekly": false
- },
  "page:https://www.systemswestengineers.com/careers": {
   "cache_date": "2026-10-30",
   "cache_rows": [],
