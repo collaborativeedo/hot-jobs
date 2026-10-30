@@ -378,3 +378,35 @@ def pull_neogov(f, src):
 
 CONNECTORS = {"NEOGOV": pull_neogov, "Workday": pull_workday, "Oracle Recruiting": pull_oracle, "UKG (UltiPro)": pull_ukg,
               "PeaceHealth careers site": pull_peacehealth}
+
+
+# ---- Full posting text from hiring systems whose pages need JavaScript ----------------------------------
+# Their nightly lists give only a title and place; the pay range and the employer's own words are in the full
+# description, which each system also serves as data. Read once per posting and cached by refresh.py.
+
+def _text_of(fragment):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(fragment or ""))).strip()
+
+
+def posting_text(f, url):
+    """Plain text of one posting's full description, or None when this hiring system isn't handled here."""
+    m = re.match(r"https://([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Za-z]{2}/)?([^/?#]+)(/job/[^?#]+)", url or "", re.I)
+    if m:
+        host = f"{m.group(1)}.{m.group(2)}.myworkdayjobs.com"
+        r = f.get(f"https://{host}/wday/cxs/{m.group(1)}/{m.group(3)}{m.group(4)}", headers={"Accept": "application/json"})
+        info = r.json().get("jobPostingInfo") or {}
+        return _text_of(info.get("jobDescription", "")) + " " + (info.get("timeType") or "")
+    m = re.match(r"https://([^/]+oraclecloud\.com)/hcmUI/CandidateExperience/[a-z]{2}/sites/([^/]+)/job/(\d+)", url or "", re.I)
+    if m:
+        r = f.get(f"https://{m.group(1)}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails",
+                  params={"expand": "all", "onlyData": "true", "finder": f'ById;Id="{m.group(3)}",siteNumber={m.group(2)}'},
+                  headers={"Accept": "application/json"})
+        it = (r.json().get("items") or [{}])[0]
+        return " ".join(_text_of(it.get(k)) for k in ("ExternalDescriptionStr", "ExternalResponsibilitiesStr",
+                                                         "ExternalQualificationsStr", "JobSchedule", "JobShift"))
+    if re.search(r"(ultipro\.com|ukg\.net)/[^/]+/JobBoard/[^/]+/OpportunityDetail", url or "", re.I):
+        page = f.get(url).text
+        # The description sits in a JSON block in the page; unescape it and keep the text.
+        page = page.encode("utf-8", "ignore").decode("unicode_escape", "ignore") if "\\u003c" in page else page
+        return _text_of(re.sub(r"(?is)<(script|style)\b[^>]*>(?![^<]*Description)", " ", page))[:30000]
+    return None

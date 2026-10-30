@@ -500,7 +500,15 @@ _FAIR_CHANCE = re.compile(r"\bfair[- ]chance\b|\bsecond[- ]chance (employer|hiri
                           r"\bbackground[- ]friendly\b|\bfelony[- ]friendly\b|\bjustice[- ]involved\b|"
                           r"\bre-?entry (program|friendly|candidates|population)\b|"
                           r"\bcriminal (history|record|background)[^.;]{0,40}\bnot (an )?(automatic|automatically)[^.;]{0,20}disqualif|"
-                          r"\bconviction[^.;]{0,40}\bnot (an )?(automatic|automatically)[^.;]{0,20}(bar|disqualif)", re.I)
+                          r"\bconviction[^.;]{0,40}\bnot (an )?(automatic|automatically)[^.;]{0,20}(bar|disqualif)|"
+                          # lived experience counts only when tied to the justice system, not recovery or housing alone
+                          r"\blived experience\b[^.;]{0,80}\b(incarcerat\w*|justice[- ]system|criminal[- ]legal|"
+                          r"criminal (justice|record|history)|conviction\w*|prison|jail|re-?entry|parole|probation)\b|"
+                          r"\b(formerly|previously) incarcerated\b|\bban[- ]the[- ]box\b|"
+                          r"\b(criminal (record|history|background)|conviction history|background) (is|are|does|will) not "
+                          r"(an )?(automatic(ally)?|necessarily)[^.;]{0,20}(bar|disqualif|exclude)|"
+                          r"\b(we|will) (consider|welcome) (qualified )?(applicants|candidates|people) with "
+                          r"(criminal|arrest|conviction)", re.I)
 
 
 def text_flags(text):

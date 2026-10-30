@@ -302,7 +302,8 @@ WORKPLACE_TYPE = {"Healthcare": "Healthcare & human services", "Retail": "Retail
 REMOTE_CAP = 15  # remote postings kept per employer per night
 BROWSER_BUDGET = 70 * 60  # seconds of careers-page reading per night; the rest use their last read
 POSTING_DETAILS = ROOT / "data" / "posting-details.json"  # pay and hours read from employers' own posting pages
-MAX_POSTING_PAGES = 500
+MAX_POSTING_PAGES = 1500
+_DATA_API = re.compile(r"myworkdayjobs|oraclecloud|ultipro|ukg\.net", re.I)  # full text read through direct.posting_text
 _JS_ONLY = re.compile(r"myworkdayjobs|oraclecloud|ultipro|ukg\.net|icims\.com|peacehealth|successfactors|taleo|"
                       r"governmentjobs|schooljobs|workforcenow\.adp|paylocity", re.I)
 
@@ -311,24 +312,50 @@ def read_posting_pages(jobs, fetcher, today, log):
     """Posted pay and hours from the employer's own posting page, when the hiring system's list leaves them out."""
     cache = json.loads(POSTING_DETAILS.read_text()) if POSTING_DETAILS.exists() else {}
     live, fetched, failed = set(), 0, 0
+    def read(j):
+        """Full text of one posting: from the hiring system's own data (Workday, Oracle, UKG) or the page itself."""
+        text = direct.posting_text(fetcher, j["url"])
+        if text is None:
+            from bs4 import BeautifulSoup
+            soup = BeautifulSoup(fetcher.get(j["url"]).text, "html.parser")
+            for t in soup(["script", "style", "nav", "footer", "header"]):
+                t.decompose()
+            text = re.sub(r"\s+", " ", soup.get_text(" "))
+        return {"pay": enrich.posted_pay(text), "hours": enrich.job_hours(j["title"], "", text[:4000]),
+                "flags": enrich.text_flags(text[:20000]), "fetched": today}
+
+    todo, queued = [], set()
     for j in jobs:
-        if not j.get("direct") or _JS_ONLY.search(j["url"]):
+        if not j.get("direct"):
+            continue
+        if _JS_ONLY.search(j["url"]) and not _DATA_API.search(j["url"]):
             continue
         k = direct.posting_key(j["url"])
         live.add(k)
-        if k not in cache and fetched < MAX_POSTING_PAGES and not late(0.8):
-            fetched += 1
-            try:
-                from bs4 import BeautifulSoup
-                html = fetcher.get(j["url"]).text
-                soup = BeautifulSoup(html, "html.parser")
-                for t in soup(["script", "style", "nav", "footer", "header"]):
-                    t.decompose()
-                text = re.sub(r"\s+", " ", soup.get_text(" "))
-                cache[k] = {"pay": enrich.posted_pay(text), "hours": enrich.job_hours(j["title"], "", text[:4000]),
-                            "flags": enrich.text_flags(text[:20000]), "fetched": today}
-            except Exception:  # noqa: BLE001 - blocked or gone; try again another night
+        if k not in cache and k not in queued and len(todo) < MAX_POSTING_PAGES:
+            queued.add(k)
+            todo.append((k, j))
+    # Read in parallel; the fetcher still spaces requests to each site.
+    from concurrent.futures import ThreadPoolExecutor
+    def _one(item):
+        k, j = item
+        if late(0.8):
+            return k, None
+        try:
+            return k, read(j)
+        except Exception:  # noqa: BLE001 - blocked or gone; try again another night
+            return k, False
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for k, rec in pool.map(_one, todo):
+            if rec:
+                cache[k] = rec
+                fetched += 1
+            elif rec is False:
                 failed += 1
+    for j in jobs:
+        if not j.get("direct"):
+            continue
+        k = direct.posting_key(j["url"])
         rec = cache.get(k)
         if rec:
             j["pay"] = j.get("pay") or rec.get("pay", "")

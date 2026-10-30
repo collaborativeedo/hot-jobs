@@ -33,3 +33,13 @@ def test_display_title_drops_reference_numbers():
     for keep in ["CNA - PT Nights- 8 Hours 1500-2300", "Survey Internship - Summer 2027",
                  "Food Service Assistant 1 Pool 2026-27", "911 Call-Taker/Dispatcher", "Pipe Fitter #2"]:
         assert enrich.display_title(keep) == keep
+
+
+def test_fair_chance_wording():
+    yes = ["People with lived experience with incarceration or the justice system are encouraged to apply.",
+           "A criminal record does not automatically disqualify you.", "We are a fair chance employer.",
+           "We will consider qualified applicants with criminal histories."]
+    no = ["People with lived experience are encouraged to apply.",
+          "We encourage people with lived experience of recovery to apply.", "Must pass a criminal background check."]
+    assert all(enrich.text_flags(t)["fair_chance"] for t in yes)
+    assert not any(enrich.text_flags(t)["fair_chance"] for t in no)

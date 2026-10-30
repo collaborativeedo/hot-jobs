@@ -1,4 +1,20 @@
 [
- {"employer": "Alsco", "match": "^alsco\\b", "note": "No hiring preferences; fair-chance employer.", "source": "Matt Sayre (CEDO), Oct 30, 2026"},
- {"employer": "St. Vincent de Paul Society of Lane County", "match": "\\b(st\\.?|saint) vincent de paul\\b|^svdp\\b", "note": "No hiring preferences; fair-chance employer.", "source": "Matt Sayre (CEDO), Oct 30, 2026"}
+ {
+  "employer": "Alsco",
+  "match": "^alsco\\b",
+  "note": "No hiring preferences; fair-chance employer.",
+  "source": "Matt Sayre (CEDO), Oct 30, 2026"
+ },
+ {
+  "employer": "St. Vincent de Paul Society of Lane County",
+  "match": "\\b(st\\.?|saint) vincent de paul\\b|^svdp\\b",
+  "note": "No hiring preferences; fair-chance employer.",
+  "source": "Matt Sayre (CEDO), Oct 30, 2026"
+ },
+ {
+  "employer": "Emergence Addiction and Behavioral Therapies",
+  "match": "^emergence\\b",
+  "note": "Second-chance employer.",
+  "source": "Matt Sayre (CEDO), Oct 30, 2026, from LWP Community Engagement Committee feedback via Jesse Quinn"
+ }
 ]
