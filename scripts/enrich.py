@@ -83,9 +83,11 @@ def posted_pay(text):
         hi = _num(m.group(4), m.group(5), m.group(6)) if m.group(4) else None
         unit = (m.group(7) or m.group(8) or "").lower()
         if not unit:
-            if not re.search(r"pay|wage|salary|compensation|rate|earn", around, re.I):
+            if not re.search(r"pay|wage|salary|compensation|rate|earn|range", around, re.I):
                 continue
-            unit = "hour" if lo < 200 else ("year" if lo >= 20000 else "")
+            # No unit: hourly under $200, yearly from $20,000; in between (Oregon state jobs post "$5,907 - $9,143")
+            # a month.
+            unit = "hour" if lo < 200 else ("year" if lo >= 20000 else ("month" if 1500 <= lo <= 15000 and (not hi or hi <= 25000) else ""))
         unit = {"hr": "hour", "hourly": "hour", "yr": "year", "annually": "year", "annual": "year", "yearly": "year",
                 "mo": "month", "monthly": "month"}.get(unit, unit)
         if not unit or lo <= 0:

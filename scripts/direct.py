@@ -406,7 +406,12 @@ def posting_text(f, url):
                                                          "ExternalQualificationsStr", "JobSchedule", "JobShift"))
     if re.search(r"(ultipro\.com|ukg\.net)/[^/]+/JobBoard/[^/]+/OpportunityDetail", url or "", re.I):
         page = f.get(url).text
-        # The description sits in a JSON block in the page; unescape it and keep the text.
-        page = page.encode("utf-8", "ignore").decode("unicode_escape", "ignore") if "\\u003c" in page else page
-        return _text_of(re.sub(r"(?is)<(script|style)\b[^>]*>(?![^<]*Description)", " ", page))[:30000]
+        # The posting sits in a JSON block in the page ("Description": "...", plus pay fields on some boards).
+        parts = []
+        for m in re.finditer(r'"(Description|JobDescription|Compensation\w*|Pay\w*|Salary\w*)"\s*:\s*"((?:[^"\\]|\\.)*)"', page):
+            try:
+                parts.append(json.loads('"' + m.group(2) + '"'))
+            except ValueError:
+                continue
+        return _text_of(" ".join(parts))
     return None
