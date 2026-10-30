@@ -11282,5 +11282,13 @@
   "found": "2026-10-29",
   "list": "QualityInfo employer database",
   "weekly": false
+ },
+ {
+  "employer": "SentinelOne",
+  "careers_url": "https://www.sentinelone.com/jobs/",
+  "local": false,
+  "home": "",
+  "found": "2026-10-29",
+  "list": "Eugene tech (Matt)"
  }
 ]

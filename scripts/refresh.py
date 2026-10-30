@@ -621,7 +621,8 @@ def pull_direct(qi_jobs, fetcher, today):
                 nkey, nsrc = rows["handoff"]
                 if nkey not in sources:
                     sources[nkey] = dict(nsrc, first_seen=today, employer=src.get("employer", ""), local=src.get("local"),
-                                         home=src.get("home", ""), named=src.get("named", False))
+                                         home=src.get("home", ""), named=src.get("named", False),
+                                         remote_ok=src.get("remote_ok", False))
                     queue.append((nkey, sources[nkey]))
                 src.update(status=f"uses {nsrc['platform']}", last_run=today, lane_openings=0)
                 continue
