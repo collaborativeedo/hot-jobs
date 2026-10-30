@@ -1,0 +1,41 @@
+name: Save a sample page (debugging a parser)
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Page address"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Fetch it
+        env:
+          URL: ${{ inputs.url }}
+        run: |
+          mkdir -p data/debug
+          python - <<'PY'
+          import os, sys, json
+          sys.path.insert(0, "scripts")
+          import direct
+          r = direct.Fetcher().get(os.environ["URL"])
+          open("data/debug/sample.html", "w", encoding="utf-8").write(r.text)
+          json.dump({"url": os.environ["URL"], "status": r.status_code, "final_url": r.url, "bytes": len(r.text)},
+                    open("data/debug/sample.json", "w"), indent=1)
+          PY
+      - run: |
+          git config user.name "hot-jobs-bot"
+          git config user.email "hot-jobs-bot@users.noreply.github.com"
+          git add data/debug
+          git diff --cached --quiet || (git commit -m "Sample page for parser debugging" && git pull --rebase -X theirs origin main && git push)
