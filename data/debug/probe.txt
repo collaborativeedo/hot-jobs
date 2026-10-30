@@ -1,0 +1,19 @@
+ORACLE kw "Eugene" total 0 []
+ORACLE kw Eugene total 0 []
+ORACLE loc 11845 []
+== Cintas DE rows 0
+== Aspen DE rows 0
+== HAN DE rows 0
+== Allied ERROR PermissionError site shows a human-verification challenge
+== Costco rows 8
+    Lane County | Stocker | https://careers.costco.com/jobs/2449?lang=en-us&previousLocale=en-US
+    Lane County | Forklift Driver | https://careers.costco.com/jobs/67029?lang=en-us&previousLocale=en-US
+    Lane County | Membership Clerk | https://careers.costco.com/jobs/67022?lang=en-us&previousLocale=en-US
+    Lane County | Receiving Clerk | https://careers.costco.com/jobs/64341?lang=en-us&previousLocale=en-US
+    Lane County | Maintenance Assistant | https://careers.costco.com/jobs/64340?lang=en-us&previousLocale=en-US
+    Lane County | Food Service Assistant | https://careers.costco.com/jobs/67278?lang=en-us&previousLocale=en-US
+    Lane County | Loss Prevention Clerk | https://careers.costco.com/jobs/64337?lang=en-us&previousLocale=en-US
+    Lane County | Maintenance Clerk | https://careers.costco.com/jobs/64339?lang=en-us&previousLocale=en-US
+== FedEx rows 0
+== Kroger DE rows 0
+PAYLOCITY guids ['74250a42-2de1-439f-8d9c-cbcc19b81f01', '98db1eea-2404-4e1c-9ea8-782edb1eb1f8'] ['All/74250a42-2de1-439f-8d9c-cbcc19b81f01/Nexus-Family-Healing', 'All/74250a42-2de1-439f-8d9c-cbcc19b81f01']
