@@ -1,15 +1,8 @@
-FINDER findReqs;siteNumber=CX_2001,facetsList=LOCATIONS,limit=1,keyword="Eugene, OR" total 0 facets 0
-   eug []
-   reqs []
-FINDER findReqs;siteNumber=CX_2001,facetsList=LOCATIONS,limit=1,location="Eugene, OR, U total None facets 0
-   eug []
-   reqs []
-DE https://aspendental.dejobs.org/eugene-or/jobs/ 202 0 job links 0 items 0
-   sample [] []
-DE https://aspendental.dejobs.org/jobs/feed/rss?location=Eugene 202 0 job links 0 items 0
-   sample [] []
-DE https://aspendental.dejobs.org/feed/rss?location=Eugene%2C+OR 202 0 job links 0 items 0
-   sample [] []
-DE https://aspendental.dejobs.org/jobs/?location=Eugene%2C+OR&format=json 202 0 job links 0 items 0
-   sample [] []
-FEDEX len 501654 False True ['workday', 'workday', 'workday', 'workday', 'workday', 'workday', 'workday', 'workday']
+PAGE https://careers.fedex.com/jobs?location=Eugene%2C%20OR 200 501654
+   wd ['fedex.wd1.myworkdayjobs.com/FXE-LAC_External_Career_Site']
+   other []
+PAGE https://careers.cintas.com/ 200 136038
+   wd []
+   other ['https://career4.successfactors.com', 'https://performancemanager4.successfactors.com/doc/custom/cintasP2/EVerify_-_poster_-_english.pdf', 'https://performancemanager4.successfactors.com/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js', 'https://performancemanager4.successfactors.com/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js']
+ERR https://www.healthadvocatesnetwork.com/jobs HTTPError 404 Client Error: Not Found for url: https://www.healthadvocatesnetwork.com/jobs
+ERR https://www.fredmeyer.com/careers ReadTimeout HTTPSConnectionPool(host='www.fredmeyer.com', port=443): Read timed out. (read timeout=40)
