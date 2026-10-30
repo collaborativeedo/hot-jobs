@@ -1,7 +1,7 @@
 Wages: 0 occupations.
 BLS education levels: read 831 occupations.
 LTD stops: read 1135 stops from https://files.mobilitydatabase.org/mdb-131/latest.zip.
-BLS wages: refresh failed (ValueError: only 0 occupations parsed); using cached table (0).
+BLS wages: refresh failed (ValueError: only 0 occupations parsed; status 200, 99784 chars; title 'Occupational Employment and Wage Statistics (OEWS) Tables : U.S. Bureau of Labor'; th sample []); using cached table (0).
 Education levels: 831 occupations (435 need no degree).
 LTD stops: 1135.
 Geocoded 0/0 new addresses; cache has 8804 located of 9242 (9242 distinct employer addresses).
