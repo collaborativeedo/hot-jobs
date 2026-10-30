@@ -87,10 +87,23 @@ def days_open(state, today, longest=20):
         elif fs <= today:
             age = (today - fs).days
             ages[t].append(age)
+            posted = _date(rec.get("posted"))
             open_rows.append({"title": rec.get("title", ""), "employer": rec.get("employer", ""),
                               "city": rec.get("city", ""), "type": t, "first_seen": rec.get("first_seen", ""),
-                              "days_open": age})
+                              "days_open": (today - posted).days if posted and posted <= fs else age,
+                              "dated": bool(posted)})
     open_rows.sort(key=lambda r: (-r["days_open"], r["title"].lower()))
+    # The list uses postings whose employer posting date is known; others' real age is unknown (they may have been
+    # open long before Hot Jobs first saw them).
+    start = min((r["first_seen"] for r in open_rows), default="")
+    starters = sum(1 for r in open_rows if not r.get("dated"))
+    known, per_emp = [], defaultdict(int)
+    for r in [r for r in open_rows if r.get("dated")] or open_rows:
+        e = (r["employer"] or "").lower()
+        if e and per_emp[e] >= 2:  # at most two per employer, so one chain's standing posts don't fill the list
+            continue
+        per_emp[e] += 1
+        known.append(r)
     return {
         "closed_30d": len(closed),
         "median_days_open_30d": _median(closed),
@@ -99,8 +112,9 @@ def days_open(state, today, longest=20):
         "open_now": sum(len(v) for v in ages.values()),
         "open_age_by_type": sorted(({"type": t, "open": len(v), "median_age": _median(v)} for t, v in ages.items()),
                                    key=lambda r: (-r["median_age"], -r["open"], r["type"])),
-        "longest_open": open_rows[:longest],
-        "open_at_longest": sum(1 for r in open_rows if r["days_open"] == open_rows[0]["days_open"]) if open_rows else 0,
+        "longest_open": known[:longest],
+        "open_age_unknown": starters,
+        "tracking_began": start,
     }
 
 

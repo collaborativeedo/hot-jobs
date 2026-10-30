@@ -30,7 +30,7 @@ def rec(first, closed=None, employer="Acme", type_="Healthcare & human services"
 # ---- days open ----------------------------------------------------------------------------------------
 
 def test_days_open_no_closed_postings():
-    state = {"a": rec("2026-11-01"), "b": rec("2026-11-10", type_="Retail & sales")}
+    state = {"a": rec("2026-11-01"), "b": rec("2026-11-10", type_="Retail & sales", employer="Beta")}
     d = dashboard.days_open(state, TODAY)
     assert d["closed_30d"] == 0
     assert d["median_days_open_30d"] is None
@@ -66,10 +66,19 @@ def test_missing_type_falls_back_to_occupation_code_or_title():
 
 
 def test_longest_open_limited_to_20():
-    state = {str(i): rec(f"2026-10-{i + 1:02d}") for i in range(30)}
+    state = {str(i): rec(f"2026-10-{i + 1:02d}", employer=f"E{i}") for i in range(30)}
     d = dashboard.days_open(state, TODAY)
     assert len(d["longest_open"]) == 20
     assert d["longest_open"][0]["days_open"] == 50
+
+
+def test_longest_open_uses_posting_dates_and_caps_each_employer():
+    state = {"a": rec("2026-11-01", posted="2026-01-01"), "b": rec("2026-11-01", posted="2026-02-01"),
+             "c": rec("2026-11-01", posted="2026-03-01"), "d": rec("2026-11-01", employer="Beta", posted="2026-10-01"),
+             "e": rec("2026-10-01", employer="Gamma")}  # no posting date: age unknown, left out
+    d = dashboard.days_open(state, TODAY)
+    assert [(r["employer"], r["days_open"]) for r in d["longest_open"]] == [("Acme", 323), ("Acme", 292), ("Beta", 50)]
+    assert d["open_age_unknown"] == 1
 
 
 # ---- added / removed by employer ----------------------------------------------------------------------

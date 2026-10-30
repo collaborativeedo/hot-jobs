@@ -996,6 +996,8 @@ def main():
         j["id"] = jid
         j["first_seen"] = rec["first_seen"]
         j["dated"] = j.get("days") is not None
+        if j["dated"] and "posted" not in rec:  # the employer's posting date, for the dashboard's longest-open list
+            rec["posted"] = (dt.date.fromisoformat(today) - dt.timedelta(days=int(j["days"]))).isoformat()
         if not j["dated"]:  # hiring system gives no posting date: count from the night we first saw it
             j["days"] = (dt.date.fromisoformat(today) - dt.date.fromisoformat(rec["first_seen"])).days
     # Trust signals: a job whose employer, title and town were listed before under another posting (30+ days

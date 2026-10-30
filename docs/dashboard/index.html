@@ -443,8 +443,10 @@
     box.appendChild(listBars("Hardest to fill now", "Median age of postings still open, by type of work. Oldest first.",
       oa.map(function (r) { return { label: r.type, value: r.median_age, text: days(r.median_age) + " · " + fmt(r.open) + " open" }; })));
     var lo = D.longest_open || [];
-    if (lo.length > 1 && lo[0].days_open === lo[lo.length - 1].days_open)
-      $("#longcap").textContent = fmt(D.open_at_longest || lo.length) + " open postings tie at " + days(lo[0].days_open) + ", most likely because they were already open when the nightly run began, so their real age is unknown. " + lo.length + " are listed, alphabetically.";
+    if (D.open_age_unknown)
+      $("#longcap").textContent = "The " + lo.length + " open postings with the oldest posting dates, oldest first, at most two per employer. Postings dated years ago are usually standing \"always hiring\" posts. Not included: " +
+        fmt(D.open_age_unknown) + " postings whose hiring system gives no posting date, so their real age is unknown. " +
+        "Long-open postings can mean hard-to-fill roles, or standing \"always hiring\" posts.";
     table("#longest", [{ h: "Job title", k: "title" }, { h: "Employer", f: function (r) { return r.employer || "Not named"; } },
       { h: "Town", k: "city" }, { h: "Days open", k: "days_open", n: 1 }], D.longest_open || []);
   }
