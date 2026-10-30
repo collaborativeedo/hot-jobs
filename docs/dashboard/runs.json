@@ -1,31 +1,45 @@
 {
-"updated": "2026-10-29T21:34+00:00",
+"updated": "2026-10-30T00:05+00:00",
 "workflows": [
 {
 "workflow": "Refresh and publish",
 "about": "Nightly: pulls every Lane County posting, checks links, publishes the widget and dashboards",
 "last": {
-"started": "2026-10-29 14:33",
-"minutes": 0.7,
+"started": "2026-10-29 16:11",
+"minutes": 54.1,
 "result": "running",
 "trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40958811344"
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40971343219"
 },
 "failures": 0,
-"finished": 2,
-"median_minutes": 34.0,
+"finished": 3,
+"median_minutes": 7.1,
 "runs": [
 {
-"started": "2026-10-29 14:33",
-"minutes": 0.7,
+"started": "2026-10-29 16:11",
+"minutes": 54.1,
 "result": "running",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40971343219"
+},
+{
+"started": "2026-10-29 14:34",
+"minutes": 150.7,
+"result": "running",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40958930492"
+},
+{
+"started": "2026-10-29 14:33",
+"minutes": 1.5,
+"result": "success",
 "trigger": "code change",
 "url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40958811344"
 },
 {
 "started": "2026-10-29 14:31",
 "minutes": 2.7,
-"result": "running",
+"result": "cancelled",
 "trigger": "by hand",
 "url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40958529935"
 },
@@ -70,20 +84,6 @@
 "result": "success",
 "trigger": "code change",
 "url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40930221258"
-},
-{
-"started": "2026-10-29 11:22",
-"minutes": 0.3,
-"result": "cancelled",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40930180479"
-},
-{
-"started": "2026-10-29 11:11",
-"minutes": 11.2,
-"result": "cancelled",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40928411279"
 }
 ]
 },
@@ -92,8 +92,8 @@
 "about": "Looks for careers pages of employers in the QualityInfo database",
 "last": {
 "started": "2026-10-29 13:09",
-"minutes": 84.8,
-"result": "running",
+"minutes": 180.8,
+"result": "cancelled",
 "trigger": "by hand",
 "url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40946489815"
 },
@@ -103,8 +103,8 @@
 "runs": [
 {
 "started": "2026-10-29 13:09",
-"minutes": 84.8,
-"result": "running",
+"minutes": 180.8,
+"result": "cancelled",
 "trigger": "by hand",
 "url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40946489815"
 },
@@ -342,6 +342,43 @@
 ],
 "nightly": [
 {
+"date": "2026-10-29 14:35",
+"ok": true,
+"steps": [
+{
+"step": "QualityInfo",
+"minutes": 6.8
+},
+{
+"step": "National Labor Exchange",
+"minutes": 6.7
+},
+{
+"step": "Employer hiring sites",
+"minutes": 126.7
+},
+{
+"step": "Posting pages (pay, details)",
+"minutes": 9.0
+},
+{
+"step": "Barrier tags",
+"minutes": 0.0
+},
+{
+"step": "Dead-link check",
+"minutes": 0.3
+},
+{
+"step": "Dashboard and archive",
+"minutes": 0.0
+}
+],
+"warnings": [
+"Employer posting pages: 500 read tonight, 1 failed, 219 of 607 on file state pay."
+]
+},
+{
 "date": "2026-10-28 19:51",
 "ok": true,
 "steps": [],
@@ -391,12 +428,6 @@
 },
 {
 "date": "2026-10-27 22:07",
-"ok": true,
-"steps": [],
-"warnings": []
-},
-{
-"date": "2026-10-27 21:34",
 "ok": true,
 "steps": [],
 "warnings": []

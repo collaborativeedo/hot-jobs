@@ -211,5 +211,51 @@
    "Dashboard: 424 employers hiring, 146 sources.",
    "Widget: 799 shown of 2571 postings."
   ]
+ },
+ {
+  "date": "2026-10-29T21:35+00:00",
+  "ok": true,
+  "notes": [
+   "QualityInfo: 2250 listings from 225 pages (reported 2250).",
+   "NLx: 851 postings read, 851 in Lane County towns, 5 new links followed, 1 still pointing at NLx, 0 outside Lane County.",
+   "NLx: 851 Lane County postings, 331 already on QualityInfo, 520 added.",
+   "WorkSource pages: 61 read tonight, 0 failed, 460 on file.",
+   "Employer posting pages: 500 read tonight, 1 failed, 219 of 607 on file state pay.",
+   "Bus-stop tags: 1507 near, 305 not near, 2047 unknown (1851 without an employer address); geocoded 0/0 new addresses; 1135 LTD stops; 0s.",
+   "Fewer barriers: near bus 1507, no degree 1343, training 179, fair chance 122 of 3859 postings.",
+   "Dead links: checked 2437, dropped 187 ({'gone': 146, 'page says the job is closed': 40, 'redirected to a general page': 1}).",
+   "Dashboard: 614 employers hiring, 1236 sources.",
+   "Widget: 1507 shown of 3672 postings."
+  ],
+  "steps": [
+   {
+    "step": "QualityInfo",
+    "minutes": 6.8
+   },
+   {
+    "step": "National Labor Exchange",
+    "minutes": 6.7
+   },
+   {
+    "step": "Employer hiring sites",
+    "minutes": 126.7
+   },
+   {
+    "step": "Posting pages (pay, details)",
+    "minutes": 9.0
+   },
+   {
+    "step": "Barrier tags",
+    "minutes": 0.0
+   },
+   {
+    "step": "Dead-link check",
+    "minutes": 0.3
+   },
+   {
+    "step": "Dashboard and archive",
+    "minutes": 0.0
+   }
+  ]
  }
 ]
