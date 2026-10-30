@@ -1,6 +1,16 @@
 {
  "platform": "Workday",
- "count": 0,
- "remote": 0,
- "sample": []
+ "count": 1,
+ "remote": 1,
+ "sample": [
+  {
+   "title": "Research Scientist Intern - Graphics, ML",
+   "city": "Remote",
+   "remote": true,
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525",
+   "days": 29,
+   "snippet": "",
+   "org": ""
+  }
+ ]
 }
