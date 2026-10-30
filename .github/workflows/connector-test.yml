@@ -1,0 +1,50 @@
+name: Test a hiring-system connector
+
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: "Connector name, e.g. Amazon"
+        default: "Amazon"
+      token:
+        description: "Board token, if any"
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run it
+        env:
+          PLATFORM: ${{ inputs.platform }}
+          TOKEN: ${{ inputs.token }}
+        run: |
+          python - <<'PY'
+          import json, os, sys, traceback
+          sys.path.insert(0, "scripts")
+          import ats, direct
+          f = direct.Fetcher()
+          src = {"platform": os.environ["PLATFORM"], "token": os.environ["TOKEN"], "host": "", "remote_ok": True, "local": False, "home": ""}
+          out = {"platform": src["platform"]}
+          try:
+              rows = dict(direct.CONNECTORS, **ats.CONNECTORS)[src["platform"]](f, src)
+              out.update(count=len(rows), remote=sum(1 for r in rows if r.get("remote")), sample=rows[:25])
+          except Exception as e:
+              out["error"] = traceback.format_exc()[-1500:]
+          json.dump(out, open("data/connector-test.json", "w"), indent=1)
+          print(json.dumps(out)[:3000])
+          PY
+      - run: |
+          git config user.name "hot-jobs-bot"
+          git config user.email "hot-jobs-bot@users.noreply.github.com"
+          git add data/connector-test.json
+          git diff --cached --quiet || (git commit -m "Connector test: ${{ inputs.platform }}" && git pull --rebase -X theirs origin main && git push)

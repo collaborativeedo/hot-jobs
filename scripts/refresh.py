@@ -286,6 +286,7 @@ def progress(step, **kw):
         pass
 
 
+REMOTE_CAP = 15  # remote postings kept per employer per night
 BROWSER_BUDGET = 70 * 60  # seconds of careers-page reading per night; the rest use their last read
 POSTING_DETAILS = ROOT / "data" / "posting-details.json"  # pay and hours read from employers' own posting pages
 MAX_POSTING_PAGES = 500
@@ -651,6 +652,10 @@ def pull_direct(qi_jobs, fetcher, today):
             name = ""
         if src.get("multi"):
             name = ""
+        remote = [r for r in rows if r.get("remote")]
+        if len(remote) > REMOTE_CAP:  # national remote roles: the newest few per employer, so they don't crowd out local jobs
+            keep = {id(r) for r in sorted(remote, key=lambda r: r.get("days") if r.get("days") is not None else 99)[:REMOTE_CAP]}
+            rows = [r for r in rows if not r.get("remote") or id(r) in keep]
         for r in rows:
             emp = name or r.get("org") or ""
             if not src.get("multi") and not src.get("employer") and r.get("org"):

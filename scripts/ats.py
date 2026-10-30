@@ -48,6 +48,7 @@ def source_from_url(url):
         (r"https?://recruiting\.paylocity\.com/recruiting/jobs/(?:All|Details/\d+)/([0-9a-f-]{36})", "Paylocity", "token"),
         (r"https?://([a-z0-9-]+)\.applytojob\.com", "JazzHR", "token"),
         (r"https?://([a-z0-9-]+)\.pinpointhq\.com", "Pinpoint", "token"),
+        (r"https?://(?:www\.)?amazon\.jobs()", "Amazon", "token"),
         (r"https?://ats\.rippling\.com/(?:[a-z-]+/)?([A-Za-z0-9_-]+)/jobs", "Rippling", "token"),
         (r"https?://workforcenow\.adp\.com/.*[?&]cid=([0-9a-f-]{36})", "ADP Workforce Now", "token"),
     ]
@@ -254,6 +255,48 @@ def pull_pinpoint(f, src):
     return _rows(rows, src.get("local"), src.get("home", ""), src.get("remote_ok"))
 
 
+def _amazon_days(text):
+    from datetime import datetime
+    try:
+        return days_since(datetime.strptime((text or "").strip(), "%B %d, %Y").date().isoformat())
+    except ValueError:
+        return None
+
+
+def pull_amazon(f, src):
+    """amazon.jobs: postings within about 40 km of Eugene, plus (for remote-friendly listing) the newest US
+    virtual/remote roles. Locations look like "US, OR, Eugene" or "US, Virtual"."""
+    base = "https://www.amazon.jobs/en/search.json"
+    rows, seen = [], set()
+    queries = [{"loc_query": "Eugene, Oregon, United States", "latitude": "44.0521", "longitude": "-123.0868",
+                "radius": "40km", "country": "USA"}]
+    if src.get("remote_ok"):
+        queries.append({"base_query": "virtual", "country": "USA"})
+    for q in queries:
+        for offset in range(0, 500, 100):
+            data = f.get(base, params=dict(q, result_limit=100, offset=offset, sort="recent")).json()
+            jobs = data.get("jobs") or []
+            for j in jobs:
+                path = j.get("job_path") or ""
+                if not path or path in seen:
+                    continue
+                seen.add(path)
+                parts = [p.strip() for p in (j.get("location") or "").split(",")]
+                city = j.get("city") or (parts[2] if len(parts) > 2 else "")
+                state = j.get("state") or (parts[1] if len(parts) > 1 else "")
+                virtual = re.search(r"virtual|remote", f'{j.get("location", "")} {j.get("title", "")}', re.I)
+                if virtual and (j.get("country_code") in (None, "", "USA", "US") or "US" in parts[:1]):
+                    loc = "Remote (United States)"
+                else:
+                    loc = f"{city}, {state}" if city else (j.get("location") or "")
+                rows.append({"title": j.get("title"), "loc": loc, "url": "https://www.amazon.jobs" + path,
+                             "days": _amazon_days(j.get("posted_date")),
+                             "snippet": j.get("description_short") or "", "info": j.get("job_schedule_type") or ""})
+            if len(jobs) < 100 or q.get("base_query"):
+                break  # remote: the newest 100 are plenty (the run keeps at most 15 per employer)
+    return _rows(rows, src.get("local"), src.get("home", ""), src.get("remote_ok"))
+
+
 def pull_rippling(f, src):
     data = f.get(f"https://api.rippling.com/platform/api/ats/v1/board/{src['token']}/jobs").json()
     rows = []
@@ -424,5 +467,5 @@ def pull_careers_page(f, src, browser):
 
 CONNECTORS = {"Greenhouse": pull_greenhouse, "Lever": pull_lever, "SmartRecruiters": pull_smartrecruiters,
               "Breezy HR": pull_breezy, "Workable": pull_workable, "BambooHR": pull_bamboohr,
-              "Paylocity": pull_paylocity, "JazzHR": pull_jazzhr, "Pinpoint": pull_pinpoint,
+              "Paylocity": pull_paylocity, "JazzHR": pull_jazzhr, "Pinpoint": pull_pinpoint, "Amazon": pull_amazon,
               "Rippling": pull_rippling, "ADP Workforce Now": pull_adp}
