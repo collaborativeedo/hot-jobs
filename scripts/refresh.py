@@ -789,8 +789,8 @@ def main():
         t = ROOT / "tests" / "out"
         t.mkdir(parents=True, exist_ok=True)
         OUT, STATE, EMPLOYERS = t / "jobs.json", t / "state.json", t / "employers.json"
-        global PULLED
-        PULLED = t / "pulled.json"
+        global PULLED, PROGRESS
+        PULLED, PROGRESS = t / "pulled.json", t / "run-progress.json"
         EMPLOYERS_CSV, TRACE_CSV = t / "employers.csv", t / "to-trace.csv"
         for f in (STATE, EMPLOYERS):
             f.unlink(missing_ok=True)
