@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "hot-jobs-bot"
           git config user.email "hot-jobs-bot@users.noreply.github.com"
-          for f in data/soc-education.json data/ltd-stops.json data/geocode-cache.json; do
+          for f in data/soc-education.json data/ltd-stops.json data/geocode-cache.json data/oews-lane.json; do
             if [ -f "$f" ]; then git add "$f"; fi
           done
-          git diff --cached --quiet || (git commit -m "Reference data: BLS education levels, LTD stops, geocodes" && git pull --rebase -X theirs origin main && git push)
+          git diff --cached --quiet || (git commit -m "Reference data: BLS education levels and wages, LTD stops, geocodes" && git pull --rebase -X theirs origin main && git push)
