@@ -391,7 +391,8 @@ def _job_title(text, row):
     t = re.split(r"\s+(?=(?:" + "|".join(LANE_CITIES) + r"),\s*OR)", t)[0]  # drop trailing "Eugene, OR..."
     return t.strip(" -|•·")
 _JOBLINK = re.compile(r"/(jobs?|careers?|positions?|openings?|postings?|requisitions?|vacanc|opportunit|apply|job-details|jobdetail)"
-                      r"|viewjob|job_?description|jobposting|/hire/|/employment/", re.I)
+                      r"|viewjob|job_?description|jobposting|/hire/|/employment/"
+                      r"|^/j/[a-z0-9]{6,}/[^/]+/[^/]+/[^/]+", re.I)  # Workstream: /j/<account>/<brand>/<location>/<position>
 _CHALLENGE = re.compile(r"verify you are (a )?human|are you a robot|access denied|captcha|attention required|unusual traffic", re.I)
 _ATS_HOSTS = re.compile(r"greenhouse\.io|lever\.co|smartrecruiters\.com|breezy\.hr|workable\.com|bamboohr\.com|"
                         r"paylocity\.com|applytojob\.com|myworkdayjobs\.com|oraclecloud\.com|ultipro\.com|"
@@ -503,6 +504,7 @@ def pull_careers_page(f, src, browser):
                     or h.rstrip("/").lower() == url.split("#")[0].rstrip("/").lower()):
                 continue
             t = _job_title(t, l["row"])
+            t = re.sub(r"(?<=[a-z])(?:Full|Part)-time$", "", t or "").strip()  # "Shift LeadFull-time"
             if (not t or len(t) < 4 or len(t) > 120 or _NAV.match(t) or not re.search(r"[A-Za-z]{3}", t)
                     or _JUNK.search(t) or _ELSEWHERE.search(t)):
                 continue

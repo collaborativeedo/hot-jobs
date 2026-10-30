@@ -294,8 +294,8 @@
   "found": "2026-10-28"
  },
  {
-  "employer": "Chick-fil-A Springfield (Gateway)",
-  "careers_url": "https://www.workstream.us/j/c34dd5f8/chick-fil-a",
+  "employer": "Chick-fil-A Gateway",
+  "careers_url": "https://www.workstream.us/j/c34dd5f8/chick-fil-a/positions?locale=en",
   "local": true,
   "home": "Springfield",
   "found": "2026-10-28"
@@ -9790,15 +9790,6 @@
   "weekly": false
  },
  {
-  "employer": "Chick-Fil-A",
-  "careers_url": "https://www.chick-fil-a.com/careers",
-  "local": true,
-  "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "QualityInfo employer database",
-  "weekly": true
- },
- {
   "employer": "Coburg Crossing Shell Sta",
   "careers_url": "https://shell.wd3.myworkdayjobs.com/ShellCareers?source=APPLICANT_SOURCE_Global_Page",
   "local": true,
@@ -10822,15 +10813,6 @@
   "home": "Eugene",
   "found": "2026-10-29",
   "list": "Eugene Chamber of Commerce directory",
-  "weekly": false
- },
- {
-  "employer": "Chick-fil-A Gateway",
-  "careers_url": "https://www.cfagateway.com/careers/",
-  "local": true,
-  "home": "Springfield",
-  "found": "2026-10-29",
-  "list": "Springfield Chamber of Commerce directory",
   "weekly": false
  },
  {

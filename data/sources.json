@@ -17195,24 +17195,6 @@
   "url": "https://www.centurylightingoregon.com/careers-page-commercial-lighting-willamette-valley",
   "weekly": true
  },
- "page:https://www.cfagateway.com/careers": {
-  "cache_date": "2026-10-30",
-  "cache_rows": [],
-  "employer": "Chick-fil-A Gateway",
-  "first_seen": "2026-10-30",
-  "home": "Springfield",
-  "host": "www.cfagateway.com",
-  "lane_openings": 0,
-  "last_run": "2026-10-30",
-  "local": "maybe",
-  "named": true,
-  "platform": "Careers page",
-  "remote_ok": false,
-  "rotate": false,
-  "status": "ok",
-  "url": "https://www.cfagateway.com/careers/",
-  "weekly": false
- },
  "page:https://www.chambersconstruction.com/careers.html": {
   "cache_date": "2026-10-30",
   "cache_rows": [],
@@ -17262,22 +17244,6 @@
   "status": "ok",
   "url": "https://www.charliehealth.com/careers",
   "weekly": false
- },
- "page:https://www.chick-fil-a.com/careers": {
-  "employer": "Chick-Fil-A",
-  "first_seen": "2026-10-29",
-  "home": "Springfield",
-  "host": "www.chick-fil-a.com",
-  "lane_openings": 0,
-  "last_run": "2026-10-29",
-  "local": "maybe",
-  "named": true,
-  "platform": "Careers page",
-  "remote_ok": false,
-  "rotate": true,
-  "status": "skipped: site shows a human-verification challenge",
-  "url": "https://www.chick-fil-a.com/careers",
-  "weekly": true
  },
  "page:https://www.chikarasalonandspa.com/careers-1": {
   "cache_date": "2026-10-30",
@@ -25729,24 +25695,6 @@
   "status": "ok",
   "url": "https://www.woodcraft.com/pages/woodcraft-careers",
   "weekly": true
- },
- "page:https://www.workstream.us/j/c34dd5f8/chick-fil-a": {
-  "cache_date": "2026-10-30",
-  "cache_rows": [],
-  "employer": "Chick-fil-A Springfield (Gateway)",
-  "first_seen": "2026-10-28",
-  "home": "Springfield",
-  "host": "www.workstream.us",
-  "lane_openings": 0,
-  "last_run": "2026-10-30",
-  "local": true,
-  "named": true,
-  "platform": "Careers page",
-  "remote_ok": true,
-  "rotate": false,
-  "status": "ok",
-  "url": "https://www.workstream.us/j/c34dd5f8/chick-fil-a",
-  "weekly": false
  },
  "page:https://www.worthingtonchamber.org/jobs": {
   "cache_date": "2026-10-30",
