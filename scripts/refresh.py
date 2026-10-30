@@ -397,7 +397,7 @@ def _is_dead(url):
             head = r.raw.read(150000, decode_content=True).decode("utf-8", "ignore")
             if _GONE.search(re.sub(r"<[^>]+>", " ", head)[:60000]):
                 return "page says the job is closed"
-            return ""
+            return "ok"  # the page loaded and still shows the job
         finally:
             r.close()
     except Exception:  # noqa: BLE001 - timeouts and network errors are not proof either
@@ -418,6 +418,9 @@ def drop_dead_links(jobs, log):
     keep, why = [], Counter()
     for j in jobs:
         v = verdicts.get(j["url"], "")
+        if v == "ok":
+            j["verified"] = dt.date.today().isoformat()  # shown as "Link checked today"
+            v = ""
         fb = feedback.get(job_id(j), {})
         if not v and fb.get("no", 0) >= 2 and fb.get("no", 0) > 2 * fb.get("yes", 0):
             v = "job seekers said it was closed"
@@ -578,7 +581,7 @@ def pull_direct(qi_jobs, fetcher, today):
     def take(key, fn, src):
         if key in unfinished:
             if fresh_cache(src):
-                return list(src.get("cache_rows") or [])
+                return [dict(r, _cached=src["cache_date"]) for r in src.get("cache_rows") or []]
             raise TimeoutError("not read tonight (time limit)")
         if key in prefetched:
             rows, err = prefetched.pop(key)
@@ -605,7 +608,7 @@ def pull_direct(qi_jobs, fetcher, today):
             # and once tonight's browser time is used up, the postings from the last read carry over (up to 4 days).
             due = not (src.get("rotate") and src.get("last_run") and turn % 3 != day_no % 3)
             if not due or browser_secs > BROWSER_BUDGET or late(0.7):
-                fn = (lambda f, s: list(s.get("cache_rows") or [])) if fresh_cache(src) else None  # noqa: E731
+                fn = (lambda f, s: [dict(r, _cached=s["cache_date"]) for r in s.get("cache_rows") or []]) if fresh_cache(src) else None  # noqa: E731
                 if fn is None:
                     continue
         else:
@@ -630,7 +633,7 @@ def pull_direct(qi_jobs, fetcher, today):
                 src.update(status=f"uses {nsrc['platform']}", last_run=today, lane_openings=0)
                 continue
             if src["platform"] != "Careers page" and key not in unfinished and isinstance(rows, list):
-                src["cache_rows"], src["cache_date"] = rows[:400], today  # used if a later night runs out of time
+                src["cache_rows"], src["cache_date"] = [{k: v for k, v in r.items() if k != "_cached"} for r in rows[:400]], today
             src.update(status="ok", last_run=today, lane_openings=len(rows))
         except PermissionError as e:
             rows = []
@@ -667,7 +670,9 @@ def pull_direct(qi_jobs, fetcher, today):
                         "soc": enrich.soc_for_title(r["title"], title_soc), "occupation": "",
                         "snippet": r.get("snippet", ""), "employer": emp, "direct": True,
                         "hours": r.get("hours") or enrich.job_hours(r.get("info", "")),
-                        "pay": enrich.posted_pay(r.get("info", "")), "remote": bool(r.get("remote"))})
+                        "pay": enrich.posted_pay(r.get("info", "")), "remote": bool(r.get("remote")),
+                        # read from the employer's own hiring system tonight (or on the night of the saved read)
+                        "verified": r.get("_cached") or today})
     browser.close()
     SOURCES.write_text(json.dumps(sources, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     with SOURCES_CSV.open("w", newline="", encoding="utf-8") as fh:
@@ -870,6 +875,22 @@ def main():
         j["dated"] = j.get("days") is not None
         if not j["dated"]:  # hiring system gives no posting date: count from the night we first saw it
             j["days"] = (dt.date.fromisoformat(today) - dt.date.fromisoformat(rec["first_seen"])).days
+    # Trust signals: a job whose employer, title and town were listed before under another posting (30+ days
+    # earlier) is marked as reposted; "Was this job still open?" answers show when more said yes than no.
+    earliest = {}
+    for jid, rec in state.items():
+        k = ((rec.get("employer") or "").lower(), (rec.get("title") or "").lower(), rec.get("city", ""))
+        if k[0] and rec.get("first_seen") and (k not in earliest or rec["first_seen"] < earliest[k][0]):
+            earliest[k] = (rec["first_seen"], jid)
+    feedback = json.loads(FEEDBACK.read_text()) if FEEDBACK.exists() else {}
+    for j in jobs:
+        k = ((j.get("employer") or "").lower(), j["title"].lower(), j["city"])
+        first = earliest.get(k)
+        if first and first[1] != j["id"] and (dt.date.fromisoformat(today) - dt.date.fromisoformat(first[0])).days >= 30:
+            j["reposted_since"] = first[0]
+        fb = feedback.get(j["id"], {})
+        if fb.get("yes", 0) >= 1 and fb.get("yes", 0) > fb.get("no", 0):
+            j["said_open"] = fb["yes"]
     for jid, rec in state.items():
         if jid not in live_ids:
             rec["misses"] = rec.get("misses", 0) + 1
@@ -892,7 +913,7 @@ def main():
         "show_days": SHOW_DAYS,
         "dead_links_dropped": dead_dropped,
         "jobs": [{k: j.get(k, "") for k in ("id", "title", "city", "employer", "type", "workplaces", "hours", "pay",
-                                            "typical_pay", "apply_via", "eases", "remote", "industries", "rural", "priority", "route",
+                                            "typical_pay", "apply_via", "eases", "remote", "verified", "reposted_since", "said_open", "industries", "rural", "priority", "route",
                                             "source", "days", "dated", "first_seen", "soc", "occupation", "url")}
                  | {"snippet": j["snippet"][:160]} for j in show],
     }

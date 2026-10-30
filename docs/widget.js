@@ -64,6 +64,12 @@
           " Average pay figures are occupation averages for Lane County, not from the posting. Not every opening is posted online. This is a public beta." +
           ' See a problem with a listing? <button type="button" class="lchj-link" data-report="open">Let us know</button>.';
       },
+      checked: function (d) { return d ? "Link checked " + d : "Link checked today"; },
+      checkedTip: "We opened this posting's link and it still showed the job",
+      byEmployer: "Posted by the employer", byEmployerTip: "This link goes to the employer's own hiring site",
+      saidOpen: "Job seekers say it's open", saidOpenTip: function (n) { return n + (n === 1 ? " person" : " people") + " who applied said the job was still open"; },
+      reposted: function (d) { return "Reposted: first listed " + d; },
+      repostedTip: "The same job at this employer was listed before. It may be hard to fill, or it may not be actively hiring.",
       ask: "Was this job still open?", yes: "Yes", no: "No", thanks: "Thanks. That helps keep the list accurate.",
       makeList: "Make a list for someone", listHint: "Pick up to " + MAX_LIST + " jobs, then copy a link, show a QR code, or print a one-page list.",
       addToList: "Add to list", picked: function (n) { return n + " picked"; }, copy: "Copy link", copied: "Link copied",
@@ -100,6 +106,12 @@
           " Los promedios de pago corresponden a la ocupación en el condado de Lane, no al anuncio. No todas las vacantes se publican en línea. Los anuncios aparecen tal como los publicó cada empleador, por lo general en inglés. Esta es una versión beta pública." +
           ' ¿Ve un problema con un anuncio? <button type="button" class="lchj-link" data-report="open">Avísenos</button>.';
       },
+      checked: function (d) { return d ? "Enlace verificado el " + d : "Enlace verificado hoy"; },
+      checkedTip: "Abrimos el enlace de este anuncio y todavía mostraba el empleo",
+      byEmployer: "Publicado por el empleador", byEmployerTip: "Este enlace lleva al sitio de contratación del propio empleador",
+      saidOpen: "Según solicitantes, sigue abierto", saidOpenTip: function (n) { return n + (n === 1 ? " persona que solicitó dijo" : " personas que solicitaron dijeron") + " que el empleo seguía abierto"; },
+      reposted: function (d) { return "Publicado de nuevo: primera vez el " + d; },
+      repostedTip: "Este empleo ya se había publicado antes en este empleador. Puede ser difícil de cubrir o puede que no estén contratando activamente.",
       ask: "¿Seguía abierto este empleo?", yes: "Sí", no: "No", thanks: "Gracias. Eso nos ayuda a mantener la lista al día.",
       makeList: "Hacer una lista para alguien", listHint: "Elija hasta " + MAX_LIST + " empleos y luego copie un enlace, muestre un código QR o imprima una lista de una página.",
       addToList: "Agregar a la lista", picked: function (n) { return n + (n === 1 ? " elegido" : " elegidos"); }, copy: "Copiar enlace", copied: "Enlace copiado",
@@ -189,6 +201,11 @@
     ".lchj a.lchj-apply{display:inline-block;font-size:14px;font-weight:600;background:var(--a);color:#fff;text-decoration:none;border-radius:8px;padding:6px 14px}",
     ".lchj a.lchj-apply:hover{filter:brightness(1.12);color:#fff}",
     ".lchj .lchj-via{font-size:12px;color:var(--mu)}",
+    ".lchj .lchj-trust{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--mu);margin-top:2px}",
+    ".lchj .lchj-trust span{display:inline-flex;align-items:center;gap:4px;cursor:help}",
+    ".lchj .lchj-trust .ok::before{content:'\\2713';color:#1a7f37;font-weight:700}",
+    ".lchj .lchj-trust .warn{color:#8a5a00}",
+    ".lchj .lchj-trust .warn::before{content:'\\21BB';font-weight:700}",
     ".lchj .lchj-when{font-size:12px;color:var(--mu);margin-left:auto;white-space:nowrap}",
     ".lchj label.lchj-pick{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--a);cursor:pointer;margin:0 0 2px}",
     ".lchj label.lchj-pick input{width:18px;height:18px;margin:0;accent-color:var(--a)}",
@@ -405,10 +422,22 @@
       return '<li class="lchj-job' + (on && st.picking ? " on" : "") + '" data-id="' + esc(j.id || "") + '">' + pick +
         '<a class="lchj-t" href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + "</a>" +
         '<div class="lchj-who">' + who + "</div>" + pay +
-        (j.snippet ? '<div class="lchj-snip">' + esc(j.snippet) + "…</div>" : "") +
+        (j.snippet ? '<div class="lchj-snip">' + esc(j.snippet) + "…</div>" : "") + trust(j) +
         '<div class="lchj-act"><a class="lchj-apply" href="' + esc(j.url) + '" target="_blank" rel="noopener" aria-label="' + esc(t("apply")) + ": " + esc(j.title) + '">' + esc(t("apply")) + "</a>" +
         (via ? '<span class="lchj-via">' + esc(via) + "</span>" : "") +
         '<span class="lchj-when">' + esc(t("when")(j.days, j.dated)) + "</span></div>" + ask + "</li>";
+    }
+    function shortDate(iso) {
+      var d = new Date(iso + "T12:00:00");
+      return isNaN(d) ? iso : d.toLocaleDateString(lang === "es" ? "es-US" : "en-US", { month: "short", day: "numeric" });
+    }
+    function trust(j) {
+      var out = [], today = new Date(), local = today.getFullYear() + "-" + ("0" + (today.getMonth() + 1)).slice(-2) + "-" + ("0" + today.getDate()).slice(-2);
+      if (j.verified) out.push('<span class="ok" title="' + esc(t("checkedTip")) + '">' + esc(t("checked")(j.verified >= local ? "" : shortDate(j.verified))) + "</span>");
+      if (j.route === "Employer's hiring site") out.push('<span class="ok" title="' + esc(t("byEmployerTip")) + '">' + esc(t("byEmployer")) + "</span>");
+      if (j.said_open) out.push('<span class="ok" title="' + esc(t("saidOpenTip")(j.said_open)) + '">' + esc(t("saidOpen")) + "</span>");
+      if (j.reposted_since) out.push('<span class="warn" title="' + esc(t("repostedTip")) + '">' + esc(t("reposted")(shortDate(j.reposted_since))) + "</span>");
+      return out.length ? '<div class="lchj-trust">' + out.join("") + "</div>" : "";
     }
     function shareLink() {
       return location.href.split("#")[0] + "#hotjobs=" + st.picked.join(".");
