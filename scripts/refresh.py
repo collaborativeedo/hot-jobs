@@ -70,7 +70,7 @@ SHOW_DAYS = 14       # the widget shows postings up to this many days old; older
 SKIP_HOSTS = ("indeed.com", "simplyhired.com")  # reposts here are often expired or behind a "confirm you're human" check
 MAX_OED_PAGES = 600  # WorkSource listing pages read per night (each is read once, then cached)
 WAGE_TABLE = {}      # filled while reading QualityInfo pages
-HEADERS = {"User-Agent": "LaneCountyHotJobs/0.1 (nonprofit workforce pilot; Collaborative Economic Development Oregon)"}
+HEADERS = {"User-Agent": "LaneCountyHotJobs/0.1 (nonprofit workforce public beta; Collaborative Economic Development Oregon)"}
 
 
 def clean(s):

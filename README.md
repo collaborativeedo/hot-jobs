@@ -1,6 +1,6 @@
 # Lane County Hot Jobs
 
-A pilot index of open jobs in Lane County, Oregon, built by Collaborative Economic Development Oregon (CEDO) with Lane Workforce Partnership. Partner websites show it with one line of code, and it refreshes itself every night.
+A public beta index of open jobs in Lane County, Oregon, built by Collaborative Economic Development Oregon (CEDO) with Lane Workforce Partnership. Partner websites show it with one line of code, and it refreshes itself every night.
 
 ## How it works
 

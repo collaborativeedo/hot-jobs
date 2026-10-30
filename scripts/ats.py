@@ -68,11 +68,17 @@ def source_from_url(url):
 _SOCIAL = re.compile(r"^(bluesky|facebook|instagram|linkedin|twitter|x|youtube|tiktok|nextdoor|pinterest|yelp|resumes?|"
                      r"create a job alert|job market outlook|career areas|.* careers|ai/ml roles.*|how to apply|"
                      r"freshman .*|benefits (&|and) perks|careers blog|join our talent community|chair for rent|"
-                     r"clinical|corporate|behavioral health operations)$", re.I)
+                     r"clinical|corporate|behavioral health operations|working at .*|federal benefits|"
+                     r"general application.*|talent (community|network)|career (opportunities|fairs?)|our culture)$", re.I)
 _NOT_HERE = re.compile(r"\b(remote|portland|seattle|boise|sacramento|san francisco|los angeles|new york|chicago|denver|"
                         r"phoenix|dallas|houston|atlanta|boston|calgary|winnipeg|vancouver|toronto|montreal|edmonton|"
                         r"ottawa|bend|medford|salem|corvallis|albany|beaverton|hillsboro|tigard|gresham)\b|"
-                        r"\b[A-Z][a-z]+,\s*(?!OR\b|Oregon\b)(?:[A-Z]{2}|BC|AB|ON|MB|QC)\b", re.I)
+                        r"\b[A-Z][a-z]+,\s*(?!OR\b|Oregon\b)(?-i:[A-Z]{2})\b|"
+                        r"\b(idaho|california|nevada|utah|arizona|montana|wyoming|colorado|texas|alaska|hawaii|"
+                        r"new mexico|florida|georgia|ohio|michigan|minnesota|wisconsin|illinois|indiana|missouri|"
+                        r"alberta|british columbia|manitoba|ontario|quebec|saskatchewan|pocatello|twin falls|"
+                        r"idaho falls|coeur d'alene|spokane|tacoma|olympia|reno|las vegas|tucson|wood river valley)\b|"
+                        r",\s*washington\b", re.I)
 
 
 def _rows(items, local, home):
@@ -84,14 +90,15 @@ def _rows(items, local, home):
     named = sum(1 for it in items if lane_city(it.get("loc", "") or ""))
     elsewhere = sum(1 for it in items if not lane_city(it.get("loc", "") or "")
                     and (_NOT_HERE.search(it.get("loc", "") or "") or _NOT_HERE.search(it.get("title") or "")))
-    if local and (elsewhere >= 3 or elsewhere > named):
+    if local == "maybe" and (elsewhere >= 3 or elsewhere > named):
         local = False  # a regional or national employer: only postings that name a Lane County town
     if local == "maybe" and (len(items) - named > 8):
         local = False  # too many unplaced postings for a one-site local employer
     out = []
     for it in items:
-        if local and not lane_city(it.get("loc", "") or "") and _NOT_HERE.search(it.get("title") or ""):
-            continue
+        if not lane_city(it.get("loc", "") or "") and not lane_city(it.get("title") or "") and (
+                _NOT_HERE.search(it.get("title") or "") or _NOT_HERE.search(it.get("loc", "") or "")):
+            continue  # names some other place
         c = keep_city(it.get("loc", ""), local, home)
         if c:
             out.append({"title": plain(it["title"], 200), "city": c, "url": it["url"], "days": it.get("days"),

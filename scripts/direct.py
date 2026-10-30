@@ -22,7 +22,7 @@ from urllib.parse import urlparse
 
 import requests
 
-UA = "LaneCountyHotJobs/0.2 (nonprofit workforce pilot; Collaborative Economic Development Oregon)"
+UA = "LaneCountyHotJobs/0.2 (nonprofit workforce public beta; Collaborative Economic Development Oregon)"
 PAUSE = 1.0
 # robots.txt is advisory. CEDO chose to collect public job postings even where a site's robots.txt asks
 # crawlers to stay away (decision of October 2026). The run still identifies itself honestly, pauses
