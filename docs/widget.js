@@ -152,11 +152,11 @@
     en: { bus: "The employer's address is within about a quarter mile of a Lane Transit District stop",
           no_degree: "The posting doesn't ask for a college degree, and says so or is in an occupation that usually needs a high school diploma or less",
           training: "The posting mentions paid or on-the-job training, an apprenticeship, or that they will train you",
-          fair_chance: "The posting says the employer welcomes people with a criminal record" },
+          fair_chance: "The employer has a confirmed fair-chance hiring policy, or the posting says a criminal record won't automatically rule you out" },
     es: { bus: "La dirección del empleador está a menos de un cuarto de milla de una parada de Lane Transit District",
           no_degree: "El anuncio no pide un título universitario y lo indica, o es una ocupación que por lo general requiere diploma de preparatoria o menos",
           training: "El anuncio menciona capacitación pagada o en el trabajo, un aprendizaje o que lo capacitarán",
-          fair_chance: "El anuncio dice que el empleador acepta a personas con antecedentes penales" }
+          fair_chance: "El empleador tiene una política confirmada de segunda oportunidad, o el anuncio dice que tener antecedentes penales no lo descalifica automáticamente" }
   };
 
   var CSS = [
