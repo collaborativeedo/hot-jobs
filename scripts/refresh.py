@@ -829,6 +829,13 @@ def main():
     today = dt.date.today().isoformat()
     wages = json.loads(WAGES.read_text()) if WAGES.exists() and not args.fixture else {}
     wages.update(WAGE_TABLE)
+    if not args.fixture:  # BLS averages fill in occupations QualityInfo's listings didn't cover tonight
+        try:
+            import reference
+            for soc, w in reference.oews_wages(log).items():
+                wages.setdefault(soc, w)
+        except Exception as e:  # noqa: BLE001
+            log.append(f"BLS wages not added: {type(e).__name__}: {e}")
     if not args.fixture:
         WAGES.write_text(json.dumps(wages, sort_keys=True), encoding="utf-8")
         fetcher = direct.Fetcher()

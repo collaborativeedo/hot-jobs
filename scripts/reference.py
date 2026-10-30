@@ -210,6 +210,61 @@ def soc_education(log=None, force=False):
         return levels
 
 
+OEWS_URL = "https://www.bls.gov/oes/current/oes_21660.htm"   # Eugene-Springfield metro area = Lane County
+OEWS_CACHE = DATA / "oews-lane.json"
+
+
+def parse_oews_html(html):
+    """{soc: {"lane_hourly", "lane_annual", "year"}} from BLS's OEWS page for one metro area."""
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(html, "html.parser")
+    year = ""
+    m = re.search(r"May (20\d\d)", soup.get_text(" ")[:3000])
+    if m:
+        year = m.group(1)
+    out = {}
+    for table in soup.find_all("table"):
+        heads = [th.get_text(" ", strip=True).lower() for th in table.find_all("th")]
+        if not any("occupation code" in h for h in heads):
+            continue
+        cols = [h for h in heads][:12]
+        try:
+            i_code = next(i for i, h in enumerate(cols) if "occupation code" in h)
+            i_hour = next(i for i, h in enumerate(cols) if "mean hourly" in h)
+            i_year = next(i for i, h in enumerate(cols) if "annual mean" in h)
+        except StopIteration:
+            continue
+        for tr in table.find_all("tr"):
+            cells = [c.get_text(" ", strip=True) for c in tr.find_all(["td", "th"])]
+            if len(cells) <= max(i_code, i_hour, i_year) or not re.fullmatch(r"\d\d-\d{4}", cells[i_code]):
+                continue
+            num = lambda t: float(re.sub(r"[^0-9.]", "", t)) if re.search(r"\d", t) else None  # noqa: E731
+            h, a = num(cells[i_hour]), num(cells[i_year])
+            if h or a:
+                out[cells[i_code].replace("-", "")] = {"lane_hourly": h, "lane_annual": a, "year": year, "source": "BLS OEWS"}
+    return out
+
+
+def oews_wages(log=None, force=False):
+    """Average wages for every occupation in the Eugene-Springfield (Lane County) metro area, from BLS. Never raises."""
+    cache = _read_json(OEWS_CACHE, {})
+    wages = cache.get("wages") or {}
+    if wages and not force and _age_days(cache.get("fetched")) < SOC_MAX_AGE_DAYS:
+        return wages
+    try:
+        r = _session().get(OEWS_URL, timeout=60)
+        r.raise_for_status()
+        fresh = parse_oews_html(r.text)
+        if len(fresh) < 200:
+            raise ValueError(f"only {len(fresh)} occupations parsed")
+        _write_json(OEWS_CACHE, {"fetched": _today().isoformat(), "source": OEWS_URL, "wages": fresh})
+        _say(log, f"BLS wages (Eugene-Springfield): read {len(fresh)} occupations.")
+        return fresh
+    except Exception as e:  # noqa: BLE001
+        _say(log, f"BLS wages: refresh failed ({type(e).__name__}: {str(e)[:150]}); using cached table ({len(wages)}).")
+        return wages
+
+
 def education_level(soc, levels):
     """Education level for a SOC code; falls back to the detailed codes in the same broad group when
     they all agree (posting SOC codes are sometimes a broad-group code like 151250)."""
@@ -586,6 +641,8 @@ def main(argv=None):
     log = []
     levels = soc_education(log, force=args.refresh)
     stops = ltd_stops(log, force=args.refresh)
+    wages = oews_wages(log, force=args.refresh)
+    print(f"Wages: {len(wages)} occupations.")
     for line in log:
         print(line)
     print(f"Education levels: {len(levels)} occupations "
