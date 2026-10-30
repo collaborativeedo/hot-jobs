@@ -286,6 +286,14 @@ def progress(step, **kw):
         pass
 
 
+WORKPLACE_TYPE = {"Healthcare": "Healthcare & human services", "Retail": "Retail & sales",
+                  "Restaurants & hospitality": "Hospitality & leisure", "Education & childcare": "Childcare & education",
+                  "Construction & trades": "Construction & trades", "Manufacturing": "Manufacturing",
+                  "Banking & finance": "Finance & accounting", "Technology": "Technology",
+                  "Transportation & logistics": "Transportation & logistics", "Food & beverage": "Manufacturing",
+                  "Wood products & forestry": "Natural resources", "Bioscience": "Engineering & science",
+                  "Nonprofit & social services": "Healthcare & human services",
+                  "Engineering & professional services": "Engineering & science"}
 REMOTE_CAP = 15  # remote postings kept per employer per night
 BROWSER_BUDGET = 70 * 60  # seconds of careers-page reading per night; the rest use their last read
 POSTING_DETAILS = ROOT / "data" / "posting-details.json"  # pay and hours read from employers' own posting pages
@@ -344,6 +352,8 @@ def add_details(jobs, wages):
             else enrich.typical_pay(j.get("soc"), wages)
         j["hours"] = j.get("hours") or enrich.oed_hours(oed) or enrich.job_hours(j["title"], j["snippet"], desc)
         j["workplaces"] = enrich.workplaces(j["employer"], rules.employer_industry(j["employer"]), j["industries"])
+        if j["type"] == "Other":  # no occupation from the title: fall back on what the employer does
+            j["type"] = next((WORKPLACE_TYPE[w] for w in j["workplaces"] or [] if w in WORKPLACE_TYPE), "Other")
         if j.get("remote") or (j["city"] == "Remote") or ats.is_remote(j["title"], ""):
             j["remote"] = True
             j["workplaces"] = (j["workplaces"] or []) + ["Remote"]
@@ -661,6 +671,8 @@ def pull_direct(qi_jobs, fetcher, today):
         if len(remote) > REMOTE_CAP:  # national remote roles: the newest few per employer, so they don't crowd out local jobs
             keep = {id(r) for r in sorted(remote, key=lambda r: r.get("days") if r.get("days") is not None else 99)[:REMOTE_CAP]}
             rows = [r for r in rows if not r.get("remote") or id(r) in keep]
+        if src["platform"] == "Careers page":  # also screens postings carried over from an earlier read
+            rows = [r for r in rows if ats.looks_like_job(r.get("title"))]
         for r in rows:
             emp = name or r.get("org") or ""
             if not src.get("multi") and not src.get("employer") and r.get("org"):

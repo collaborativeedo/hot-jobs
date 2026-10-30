@@ -140,16 +140,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "512612b67ff2",
-"title": "Millwright",
-"city": "Cottage Grove",
-"employer": "Starfire Lumber",
-"url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=992336b9-9ada-4f85-ae2e-384865c969a2&ccId=19000101_000001&jobId=9201451374111_1&lang=en_US",
-"days": 93,
-"soc": "499041",
-"route": "Employer's hiring site"
-},
-{
 "id": "c17b4af3ec8a",
 "title": "Superintendent, Construction",
 "city": "Eugene",
@@ -1040,26 +1030,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "c82695649136",
-"title": "Ellucian Banner Contractor (1099)",
-"city": "Cottage Grove",
-"employer": "Strata Information Group",
-"url": "https://job-boards.greenhouse.io/stratainformationgroup/jobs/5204562007",
-"days": 37,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "8d43c54bc367",
-"title": "Ellucian Colleague Contractors (1099)",
-"city": "Cottage Grove",
-"employer": "Strata Information Group",
-"url": "https://job-boards.greenhouse.io/stratainformationgroup/jobs/5082384007",
-"days": 37,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "482b0668e70a",
 "title": "Identity and Access Management Consultant",
 "city": "Cottage Grove",
@@ -1220,16 +1190,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "8bdbb91443f3",
-"title": "PCP Float - Lane County (full-time or part-time w/bonus)",
-"city": "Blue River",
-"employer": "Orchid Health",
-"url": "https://orchidhealth.applytojob.com/apply/n7FRnelHal/PCP-Float-Lane-County-fulltime-Or-Parttime-Wbonus",
-"days": 1,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "306686320b56",
 "title": "Primary Care Provider",
 "city": "Blue River",
@@ -1340,16 +1300,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "6c3cc1e784c6",
-"title": "Department Secretary - Eugene Online Academy",
-"city": "Eugene",
-"employer": "Eugene School District 4J",
-"url": "https://www.governmentjobs.com/jobs/5533022-0/department-secretary-eugene-online-academy",
-"days": 1,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "e782bf3c137c",
 "title": "Police Officer - Entry Level",
 "city": "Eugene",
@@ -1387,16 +1337,6 @@
 "url": "https://www.governmentjobs.com/jobs/5517293-0/licensed-practical-nurse",
 "days": 2,
 "soc": "292061",
-"route": "Employer's hiring site"
-},
-{
-"id": "baa7ed874131",
-"title": "Medical Legal Death Investigator, Senior",
-"city": "Lane County",
-"employer": "Lane County",
-"url": "https://www.governmentjobs.com/jobs/5517244-0/medical-legal-death-investigator-senior",
-"days": 15,
-"soc": "131041",
 "route": "Employer's hiring site"
 },
 {
@@ -1640,16 +1580,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "f8ba7a5c241d",
-"title": "Commercial Plans Examiner",
-"city": "Eugene",
-"employer": "City of Eugene",
-"url": "https://www.governmentjobs.com/jobs/5463465-0/commercial-plans-examiner",
-"days": 20,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "1eb84960dde9",
 "title": "North Eugene Girls Head Tennis Coach",
 "city": "Eugene",
@@ -1745,16 +1675,6 @@
 "city": "Eugene",
 "employer": "City of Eugene",
 "url": "https://www.governmentjobs.com/jobs/5365381-0/librarian-on-call-temporary-applicant-pool",
-"days": 20,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "2e138c942b3e",
-"title": "Structural Plans Examiner",
-"city": "Eugene",
-"employer": "City of Eugene",
-"url": "https://www.governmentjobs.com/jobs/5348183-0/structural-plans-examiner",
 "days": 20,
 "soc": "",
 "route": "Employer's hiring site"
@@ -2010,16 +1930,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "fbc15619113c",
-"title": "Retail Sales and Store Support",
-"city": "Eugene",
-"employer": "Albertsons",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/785352",
-"days": 3,
-"soc": "412031",
-"route": "Employer's hiring site"
-},
-{
 "id": "4778cdf64a74",
 "title": "Front End Entry Level",
 "city": "Eugene",
@@ -2037,16 +1947,6 @@
 "url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/783948",
 "days": 8,
 "soc": "412011",
-"route": "Employer's hiring site"
-},
-{
-"id": "93a40ccea8f1",
-"title": "Retail Sales and Store Support",
-"city": "Eugene",
-"employer": "Albertsons",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/784065",
-"days": 8,
-"soc": "412031",
 "route": "Employer's hiring site"
 },
 {
@@ -2120,46 +2020,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "b02085c9cc7d",
-"title": "Retail Sales and Store Support",
-"city": "Eugene",
-"employer": "Albertsons",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/779434",
-"days": 16,
-"soc": "412031",
-"route": "Employer's hiring site"
-},
-{
-"id": "2cc7f40e9ee9",
-"title": "Retail Sales and Store Support",
-"city": "Eugene",
-"employer": "Albertsons",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/777605",
-"days": 22,
-"soc": "412031",
-"route": "Employer's hiring site"
-},
-{
-"id": "58b38f2ec87f",
-"title": "Retail Sales and Store Support",
-"city": "Eugene",
-"employer": "Albertsons",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/777084",
-"days": 23,
-"soc": "412031",
-"route": "Employer's hiring site"
-},
-{
-"id": "2809b1423e66",
-"title": "Retail Sales and Store Support",
-"city": "Eugene",
-"employer": "Albertsons",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/776898",
-"days": 23,
-"soc": "412031",
-"route": "Employer's hiring site"
-},
-{
 "id": "3976c82ad07f",
 "title": "Deli Clerk",
 "city": "Eugene",
@@ -2190,16 +2050,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "e58e98ae6446",
-"title": "Retail Sales and Store Support",
-"city": "Springfield",
-"employer": "Albertsons",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/786850",
-"days": 0,
-"soc": "412031",
-"route": "Employer's hiring site"
-},
-{
 "id": "fc811af94e58",
 "title": "Front End Entry Level",
 "city": "Springfield",
@@ -2216,16 +2066,6 @@
 "employer": "Albertsons",
 "url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/786580",
 "days": 1,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "2aa09560ab09",
-"title": "Cake Decorator",
-"city": "Springfield",
-"employer": "Albertsons",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/786169",
-"days": 2,
 "soc": "",
 "route": "Employer's hiring site"
 },
@@ -2247,16 +2087,6 @@
 "url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/779578",
 "days": 16,
 "soc": "419099",
-"route": "Employer's hiring site"
-},
-{
-"id": "b79a5f86e15c",
-"title": "Retail Sales and Store Support",
-"city": "Springfield",
-"employer": "Albertsons",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/779021",
-"days": 17,
-"soc": "412031",
 "route": "Employer's hiring site"
 },
 {
@@ -2317,16 +2147,6 @@
 "url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/782455",
 "days": 10,
 "soc": "513011",
-"route": "Employer's hiring site"
-},
-{
-"id": "d01b809b55b2",
-"title": "Retail Sales and Store Support",
-"city": "Florence",
-"employer": "Albertsons",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/776061",
-"days": 25,
-"soc": "412031",
 "route": "Employer's hiring site"
 },
 {
@@ -2416,16 +2236,6 @@
 "employer": "Albertsons",
 "url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/779026",
 "days": 17,
-"soc": "412031",
-"route": "Employer's hiring site"
-},
-{
-"id": "1210f9d0d48b",
-"title": "Retail Sales and Store Support",
-"city": "Junction City",
-"employer": "Albertsons",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/777630",
-"days": 22,
 "soc": "412031",
 "route": "Employer's hiring site"
 },
@@ -2590,16 +2400,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "438bd3bdf9c5",
-"title": "ASST STORE MGR in EUGENE OR S19661",
-"city": "Eugene",
-"employer": "Dollar General",
-"url": "https://ibxwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/171073",
-"days": 2993,
-"soc": "411011",
-"route": "Employer's hiring site"
-},
-{
 "id": "bffd1f6a1ce7",
 "title": "LEAD SALES ASSOCIATE-FT in EUGENE OR S19661",
 "city": "Eugene",
@@ -2630,16 +2430,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "66d6ba4ced84",
-"title": "ASST STORE MGR in SPRINGFIELD OR S23270",
-"city": "Springfield",
-"employer": "Dollar General",
-"url": "https://ibxwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/255094",
-"days": 1558,
-"soc": "411011",
-"route": "Employer's hiring site"
-},
-{
 "id": "6993c63d6412",
 "title": "LEAD SALES ASSOCIATE-FT in SPRINGFIELD OR S23270",
 "city": "Springfield",
@@ -2667,16 +2457,6 @@
 "url": "https://ibxwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/192287",
 "days": 2628,
 "soc": "537065",
-"route": "Employer's hiring site"
-},
-{
-"id": "7f7a4731307d",
-"title": "ASST STORE MGR in SPRINGFIELD OR S20660",
-"city": "Springfield",
-"employer": "Dollar General",
-"url": "https://ibxwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/192321",
-"days": 2628,
-"soc": "411011",
 "route": "Employer's hiring site"
 },
 {
@@ -2720,16 +2500,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "4d985f664708",
-"title": "ASST STORE MGR in COTTAGE GROVE OR S31445",
-"city": "Cottage Grove",
-"employer": "Dollar General",
-"url": "https://ibxwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/329262",
-"days": 641,
-"soc": "411011",
-"route": "Employer's hiring site"
-},
-{
 "id": "583499748f67",
 "title": "LEAD SALES ASSOCIATE-FT in COTTAGE GROVE OR S31445",
 "city": "Cottage Grove",
@@ -2770,16 +2540,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "68180b3b2fe5",
-"title": "ASST STORE MGR in CRESWELL OR S17528",
-"city": "Creswell",
-"employer": "Dollar General",
-"url": "https://ibxwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/137736",
-"days": 3511,
-"soc": "411011",
-"route": "Employer's hiring site"
-},
-{
 "id": "4c2c1d2b811b",
 "title": "LEAD SALES ASSOCIATE-FT in CRESWELL OR S17528",
 "city": "Creswell",
@@ -2807,16 +2567,6 @@
 "url": "https://ibxwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213261",
 "days": 2237,
 "soc": "537065",
-"route": "Employer's hiring site"
-},
-{
-"id": "d3d751aa4ec0",
-"title": "ASST STORE MGR in VENETA OR S21478",
-"city": "Veneta",
-"employer": "Dollar General",
-"url": "https://ibxwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213263",
-"days": 2237,
-"soc": "411011",
 "route": "Employer's hiring site"
 },
 {
@@ -2860,16 +2610,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "6eca4bc97714",
-"title": "ASST STORE MGR in OAKRIDGE OR S17448",
-"city": "Oakridge",
-"employer": "Dollar General",
-"url": "https://ibxwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/136105",
-"days": 3546,
-"soc": "411011",
-"route": "Employer's hiring site"
-},
-{
 "id": "df806a730f6b",
 "title": "LEAD SALES ASSOCIATE-PT in OAKRIDGE OR S17448",
 "city": "Oakridge",
@@ -2897,16 +2637,6 @@
 "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210687778",
 "days": 344,
 "soc": "132072",
-"route": "Employer's hiring site"
-},
-{
-"id": "90329c2133af",
-"title": "2027 Forestry Field Office Internship – Emerging Talent Summer Experience Program",
-"city": "Junction City",
-"employer": "Chase",
-"url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210792106",
-"days": 38,
-"soc": "191032",
 "route": "Employer's hiring site"
 },
 {
@@ -3130,16 +2860,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "922cd0e0a036",
-"title": "Generalist OB/GYN",
-"city": "Eugene",
-"employer": "Women's Care",
-"url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/2979298",
-"days": 174,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "72e40ab1b6c9",
 "title": "OB/GYN Physician Laborist",
 "city": "Springfield",
@@ -3326,26 +3046,6 @@
 "employer": "DOWL",
 "url": "https://recruiting2.ultipro.com/dow1001dowl/JobBoard/e88601aa-9d30-45ca-b6e4-610b5a4d6ead/OpportunityDetail?opportunityId=12bef2f7-7931-479c-8293-2ab0f96cab79",
 "days": 15,
-"soc": "172051",
-"route": "Employer's hiring site"
-},
-{
-"id": "a937b953f9c1",
-"title": "Survey Internship - Summer 2027",
-"city": "Eugene",
-"employer": "DOWL",
-"url": "https://recruiting2.ultipro.com/dow1001dowl/JobBoard/e88601aa-9d30-45ca-b6e4-610b5a4d6ead/OpportunityDetail?opportunityId=48907748-3986-432e-813d-5661f9c26df0",
-"days": 49,
-"soc": "171022",
-"route": "Employer's hiring site"
-},
-{
-"id": "d06398fd4b6c",
-"title": "Transportation Design Internship - Summer 2027",
-"city": "Eugene",
-"employer": "DOWL",
-"url": "https://recruiting2.ultipro.com/dow1001dowl/JobBoard/e88601aa-9d30-45ca-b6e4-610b5a4d6ead/OpportunityDetail?opportunityId=d84662e1-d6a9-4e1e-9bd7-463fbf23a956",
-"days": 49,
 "soc": "172051",
 "route": "Employer's hiring site"
 },
@@ -3606,86 +3306,6 @@
 "employer": "Gentle Dental",
 "url": "https://recruiting2.ultipro.com/int1061idsc/JobBoard/01e1ba61-9460-43b1-988f-67da092f4d32/OpportunityDetail?opportunityId=a8d0ad99-8ed6-4733-b5f9-56a9fc90bc35",
 "days": 31,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "61a9b5224460",
-"title": "$19.90*/HR - Closing Team Member - Dave's Hot Chicken (1047)",
-"city": "Springfield",
-"employer": "Dave's Hot Chicken",
-"url": "https://teamjck.rec.pro.ukg.net/JCK1000JCKR/JobBoard/ec08713b-7042-4825-a12e-91e4a143e02c/OpportunityDetail?opportunityId=1166306d-1c90-4463-a029-d255da0faee2",
-"days": 20,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "77a5428c7b71",
-"title": "$19.90*/HR Prep Team Member Dave's Hot Chicken (1047)",
-"city": "Springfield",
-"employer": "Dave's Hot Chicken",
-"url": "https://teamjck.rec.pro.ukg.net/JCK1000JCKR/JobBoard/ec08713b-7042-4825-a12e-91e4a143e02c/OpportunityDetail?opportunityId=c287816b-7b04-4b7f-ab16-af6f040badf3",
-"days": 20,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "c66d6e029e7a",
-"title": "$19.90*/HR - Team Member - Dave's Hot Chicken (1047)",
-"city": "Springfield",
-"employer": "Dave's Hot Chicken",
-"url": "https://teamjck.rec.pro.ukg.net/JCK1000JCKR/JobBoard/ec08713b-7042-4825-a12e-91e4a143e02c/OpportunityDetail?opportunityId=e4444aa4-8a17-48d1-882e-9049352bfbb1",
-"days": 20,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "42ef51b7c4be",
-"title": "$23.50*/HR - Shift Manager - Dave's Hot Chicken (1047)",
-"city": "Springfield",
-"employer": "Dave's Hot Chicken",
-"url": "https://teamjck.rec.pro.ukg.net/JCK1000JCKR/JobBoard/ec08713b-7042-4825-a12e-91e4a143e02c/OpportunityDetail?opportunityId=a3f2c8f7-135d-4ea9-bed1-f82bd7478a48",
-"days": 20,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "97268590575b",
-"title": "$19.90*/HR Prep Team Member Dave's Hot Chicken (1060)",
-"city": "Eugene",
-"employer": "Dave's Hot Chicken",
-"url": "https://teamjck.rec.pro.ukg.net/JCK1000JCKR/JobBoard/ec08713b-7042-4825-a12e-91e4a143e02c/OpportunityDetail?opportunityId=640aa988-ada1-49ca-8ba2-bb939901e70d",
-"days": 20,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "bed24eba8d31",
-"title": "$19.90/HR Closing Shift Team Member Dave's Hot Chicken (1060)",
-"city": "Eugene",
-"employer": "Dave's Hot Chicken",
-"url": "https://teamjck.rec.pro.ukg.net/JCK1000JCKR/JobBoard/ec08713b-7042-4825-a12e-91e4a143e02c/OpportunityDetail?opportunityId=73866d35-e712-4de7-99c3-185af7063956",
-"days": 20,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "e9511db6f82f",
-"title": "$23.50*/HR - Shift Manager - Dave's Hot Chicken (1060)",
-"city": "Eugene",
-"employer": "Dave's Hot Chicken",
-"url": "https://teamjck.rec.pro.ukg.net/JCK1000JCKR/JobBoard/ec08713b-7042-4825-a12e-91e4a143e02c/OpportunityDetail?opportunityId=6915d42c-d16a-4204-8c13-3c6ddc18a884",
-"days": 20,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "90ea3d2ba768",
-"title": "$19.90*/HR - Team Member - Dave's Hot Chicken (1060)",
-"city": "Eugene",
-"employer": "Dave's Hot Chicken",
-"url": "https://teamjck.rec.pro.ukg.net/JCK1000JCKR/JobBoard/ec08713b-7042-4825-a12e-91e4a143e02c/OpportunityDetail?opportunityId=4d79fe1c-daed-434b-b9fc-e23a59b41337",
-"days": 20,
 "soc": "",
 "route": "Employer's hiring site"
 },
@@ -4120,16 +3740,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "183cde07b367",
-"title": "Coder IP OP U",
-"city": "Springfield",
-"employer": "McKenzie-Willamette Medical Center",
-"url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=04fc3c70-2beb-4ac3-a2e9-1e62c4accfd2",
-"days": 72,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "87cbf49f9e39",
 "title": "Respiratory Therapist - RRT - Days",
 "city": "Springfield",
@@ -4155,16 +3765,6 @@
 "city": "Springfield",
 "employer": "McKenzie-Willamette Medical Center",
 "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=ae956358-8f39-485e-aa1b-1bd7de8c9774",
-"days": 72,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "ddadf912f331",
-"title": "Coder OP",
-"city": "Springfield",
-"employer": "McKenzie-Willamette Medical Center",
-"url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=31ee0875-61cf-4fab-80fc-5a9fd0bdcb29",
 "days": 72,
 "soc": "",
 "route": "Employer's hiring site"
@@ -4480,16 +4080,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "43cee04ce5a6",
-"title": "Delivery Material Handler / Roof Loader (96)",
-"city": "Eugene",
-"employer": "ABC Supply",
-"url": "https://abcsupply.wd1.myworkdayjobs.com/abcsupplycareers/job/096-Eugene-OR/Delivery-Material-Handler---Roof-Loader--96-_68245",
-"days": 16,
-"soc": "537062",
-"route": "Employer's hiring site"
-},
-{
 "id": "0055b4e19d21",
 "title": "District Manager",
 "city": "Eugene",
@@ -4735,66 +4325,6 @@
 "city": "Eugene",
 "employer": "DICK'S Sporting Goods",
 "url": "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0673-Eugene-OR/Specialist-Apparel_202612431",
-"days": 30,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "bfedc399b636",
-"title": "Broista – Eugene, OR",
-"city": "Eugene",
-"employer": "Dutch Bros",
-"url": "https://dutchbros.wd1.myworkdayjobs.com/dbshops/job/2115-Franklin-Blvd-Eugene-OR-97403/Broista---Eugene--OR_REQ-20325",
-"days": 24,
-"soc": "353023",
-"route": "Employer's hiring site"
-},
-{
-"id": "c9343eaa005e",
-"title": "Broista - Eugene, OR",
-"city": "Eugene",
-"employer": "Dutch Bros",
-"url": "https://dutchbros.wd1.myworkdayjobs.com/dbshops/job/1633-Coburg-Rd-Eugene-OR-97401/Broista---Eugene--OR_REQ-19325",
-"days": 30,
-"soc": "353023",
-"route": "Employer's hiring site"
-},
-{
-"id": "051e250ef6e7",
-"title": "Broista – Eugene, OR",
-"city": "Eugene",
-"employer": "Dutch Bros",
-"url": "https://dutchbros.wd1.myworkdayjobs.com/dbshops/job/2700-River-Rd-Eugene-OR-97404/Broista---Eugene--OR_REQ-19323",
-"days": 30,
-"soc": "353023",
-"route": "Employer's hiring site"
-},
-{
-"id": "9742b6bf68ec",
-"title": "Broista - Eugene, OR",
-"city": "Eugene",
-"employer": "Dutch Bros",
-"url": "https://dutchbros.wd1.myworkdayjobs.com/dbshops/job/1701-W-11th-Ave-Eugene-OR-97402/Broista---Eugene--OR_REQ-19322",
-"days": 30,
-"soc": "353023",
-"route": "Employer's hiring site"
-},
-{
-"id": "8f1b8fca0231",
-"title": "Ranger",
-"city": "Florence",
-"employer": "Falcon Wood Village",
-"url": "https://equitylifestyleproperties.wd5.myworkdayjobs.com/els/job/Florence-OR/Ranger_R263453",
-"days": 24,
-"soc": "191031",
-"route": "Employer's hiring site"
-},
-{
-"id": "7ae72c0bfe2a",
-"title": "Maintenance - Level I",
-"city": "Eugene",
-"employer": "Falcon Wood Village",
-"url": "https://equitylifestyleproperties.wd5.myworkdayjobs.com/els/job/Eugene-OR/Maintenance---Level-I_R262711",
 "days": 30,
 "soc": "",
 "route": "Employer's hiring site"
@@ -5390,46 +4920,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "a0703a1e5bce",
-"title": "Merchandising Part Time Days",
-"city": "Eugene",
-"employer": "Lowe's",
-"url": "https://lowes.wd5.myworkdayjobs.com/lws_external_cs/job/Eugene-OR-W-Eugene-2940/Merchandising-Part-Time-Days_JR-02664259",
-"days": 23,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "91841a52d725",
-"title": "Retail Sales – Part Time",
-"city": "Eugene",
-"employer": "Lowe's",
-"url": "https://lowes.wd5.myworkdayjobs.com/lws_external_cs/job/Eugene-OR-W-Eugene-2940/Retail-Sales---Part-Time_JR-02669387",
-"days": 23,
-"soc": "412031",
-"route": "Employer's hiring site"
-},
-{
-"id": "980c80e22ab9",
-"title": "Warehouse Part Time Days",
-"city": "Eugene",
-"employer": "Lowe's",
-"url": "https://lowes.wd5.myworkdayjobs.com/lws_external_cs/job/Eugene-OR-W-Eugene-2940/Warehouse-Part-Time-Days_JR-02665654",
-"days": 23,
-"soc": "537065",
-"route": "Employer's hiring site"
-},
-{
-"id": "da63d29ca05a",
-"title": "Warehouse Part Time Overnight",
-"city": "Eugene",
-"employer": "Lowe's",
-"url": "https://lowes.wd5.myworkdayjobs.com/lws_external_cs/job/Eugene-OR-W-Eugene-2940/Warehouse-Part-Time-Overnight_JR-02669945",
-"days": 23,
-"soc": "537065",
-"route": "Employer's hiring site"
-},
-{
 "id": "528f7fe4dcde",
 "title": "Part Time - Fulfillment Associate - Flexible",
 "city": "Eugene",
@@ -5890,16 +5380,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "9b35f6ba8d82",
-"title": "Lumber Contractor Sales",
-"city": "Springfield",
-"employer": "Parr Lumber Springfield",
-"url": "https://parr.wd503.myworkdayjobs.com/PARR/job/Springfield-Oregon/Lumber-Contractor-Sales_JR100275-1",
-"days": 30,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "8152bd0bc567",
 "title": "Rental Commercial Engine Shop Technician",
 "city": "Eugene",
@@ -5937,16 +5417,6 @@
 "url": "https://petersonholding.wd1.myworkdayjobs.com/petersonjobs/job/Eugene-OR/Field-Technician_REQ-2026-3293",
 "days": 30,
 "soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "42b645ce7ad2",
-"title": "Facilities Maintenance",
-"city": "Eugene",
-"employer": "Peterson Cat",
-"url": "https://petersonholding.wd1.myworkdayjobs.com/petersonjobs/job/Eugene-OR/Facilities-Maintenance_REQ-2026-3182",
-"days": 30,
-"soc": "499071",
 "route": "Employer's hiring site"
 },
 {
@@ -6010,16 +5480,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "229aaab26ed6",
-"title": "Busser",
-"city": "Eugene",
-"employer": "PF Chang's",
-"url": "https://pfchangs.wd501.myworkdayjobs.com/PF-Changs-External-Careers/job/Eugene-OR----124-Coburg-Rd-Eugene-OR-97401/Service-Assistant_JR1988-1",
-"days": 15,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "9a19f04ab094",
 "title": "Server",
 "city": "Eugene",
@@ -6080,16 +5540,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "e64b39026405",
-"title": "Sales Associate / Key Sales / Seasonal Opportunities - Banter by Piercing Pagoda - Valley River Center - Eugene, OR",
-"city": "Eugene",
-"employer": "Banter By Piercing Pagoda",
-"url": "https://signetjewelers.wd1.myworkdayjobs.com/Banter/job/Banter-by-Piercing-Pagoda---Valley-River-Center---Eugene-OR/Sales-Associate---Key-Sales---Seasonal-Opportunities---Banter-by-Piercing-Pagoda---Valley-River-Center---Eugene--OR_BAN02406B",
-"days": 15,
-"soc": "412031",
-"route": "Employer's hiring site"
-},
-{
 "id": "961a00353f1e",
 "title": "CDL Driver",
 "city": "Eugene",
@@ -6106,16 +5556,6 @@
 "employer": "Sunbelt Rentals-Gen Eqpt-Tools",
 "url": "https://sunbeltrentals.wd1.myworkdayjobs.com/sbcareers/job/Eugene-OR-97402/Equipment-Rental-Specialist_2026-13343",
 "days": 30,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "8919f4785b05",
-"title": "Sr Mobile Expert",
-"city": "Eugene",
-"employer": "Metro By T-Mobile",
-"url": "https://tmobile.wd1.myworkdayjobs.com/External/job/Eugene-Oregon/Sr-Mobile-Expert_REQ378586-2",
-"days": 9,
 "soc": "",
 "route": "Employer's hiring site"
 },
@@ -6230,26 +5670,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "d8ed6f198ef8",
-"title": "Mortgage Loan Originator",
-"city": "Eugene",
-"employer": "Tergesen Randy MLO",
-"url": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Eugene-OR/Mortgage-Loan-Originator_2026-0032151-1",
-"days": 15,
-"soc": "132072",
-"route": "Employer's hiring site"
-},
-{
-"id": "2bf5260f5f0b",
-"title": "Mortgage Loan Originator",
-"city": "Eugene",
-"employer": "Tergesen Randy MLO",
-"url": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Remote-OR/Mortgage-Loan-Originator_2026-0031589",
-"days": 22,
-"soc": "132072",
-"route": "Employer's hiring site"
-},
-{
 "id": "9e05bc2eae50",
 "title": "Sr. Relationship Banker - Eugene (Bethel - Danebo), OR",
 "city": "Eugene",
@@ -6300,116 +5720,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "4ad80bc3b804",
-"title": "Oak Grove School",
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"url": "http://www.oregonceiling.net/job-photos/oak-grove-school/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "a1d83eb00dea",
-"title": "KVAL",
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"url": "http://www.oregonceiling.net/job-photos/kval/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "d7e82a02f1f7",
-"title": "Knight Library",
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"url": "http://www.oregonceiling.net/job-photos/knight-library/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "ecb581e323f4",
-"title": "Benson",
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"url": "http://www.oregonceiling.net/job-photos/benson/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "6fb2830d20d3",
-"title": "Yogi Tea",
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"url": "http://www.oregonceiling.net/job-photos/yogi-tea/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "b86642903af0",
-"title": "Data Logic",
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"url": "http://www.oregonceiling.net/job-photos/data-logic/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "46f05dc9a26a",
-"title": "Gateway NWCU",
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"url": "http://www.oregonceiling.net/job-photos/gateway-nwcu/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "d19d151440ff",
-"title": "Jet Expedited Delivery",
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"url": "http://www.oregonceiling.net/job-photos/jet-expedited-delivery/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "3e3b627f77ae",
-"title": "Summit Bank",
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"url": "http://www.oregonceiling.net/job-photos/summit-bank/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "cc53b1a7f813",
-"title": "Full Job Posting",
-"city": "Cottage Grove",
-"employer": "Ata Black Belt & Academy",
-"url": "https://atamartialarts.com/media/nfall22c/job-posting-for-ata-website_2026.pdf",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "14dc717a2f91",
-"title": "Full Job Posting",
-"city": "Cottage Grove",
-"employer": "Ata Black Belt & Academy",
-"url": "https://atamartialarts.com/media/5azf5zgq/job-description_lead-communications-coordinator.pdf",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "198981fe7035",
 "title": "Account Executive – The Dalles/Columbia River",
 "city": "Eugene",
@@ -6440,16 +5750,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "5e5c0bfe367a",
-"title": "Saved jobs (0)",
-"city": "Eugene",
-"employer": "Aaron's",
-"url": "https://careers.aarons.com/us/en/jobcart",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "55a4522a95dd",
 "title": "Customer Accounts Advisor",
 "city": "Eugene",
@@ -6477,26 +5777,6 @@
 "url": "https://careers.aarons.com/us/en/job/79889/Sales-Associate",
 "days": 0,
 "soc": "412031",
-"route": "Employer's hiring site"
-},
-{
-"id": "15a52b57b40a",
-"title": "Job Areas",
-"city": "Eugene",
-"employer": "Bath & Body Works",
-"url": "https://careers.bathandbodyworks.com/job-areas",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "8066d6570bc6",
-"title": "Search Open Roles",
-"city": "Eugene",
-"employer": "Bath & Body Works",
-"url": "https://careers.bathandbodyworks.com/jobs",
-"days": 0,
-"soc": "",
 "route": "Employer's hiring site"
 },
 {
@@ -6565,216 +5845,6 @@
 "city": "Eugene",
 "employer": "Munnell & Sherrill",
 "url": "https://careers.bdiexpress.com/en/postings/acb88322-960c-4a67-874d-eb096e3cf175",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "b5d9d42c2aeb",
-"title": "Saved Jobs (0)",
-"city": "Eugene",
-"employer": "Caliber Collision",
-"url": "https://careers.caliber.com/us/en/jobcart",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "ab63d3941c75",
-"title": "EXPLORE CAREERS AT EMERITUS",
-"city": "Springfield",
-"employer": "Brookdale Springfield Brrwd",
-"url": "https://careers.emeritus.org/jobs/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "e05a7d90b88b",
-"title": "Job opportunities",
-"city": "Springfield",
-"employer": "Firehouse Subs",
-"url": "https://careers.firehousesubs.com/job-opportunities",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "35cfca9aba7c",
-"title": "Career Map",
-"city": "Springfield",
-"employer": "Hobby Lobby",
-"url": "https://careers.hobbylobby.com/career-map",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "3cf39d0d0467",
-"title": "Search open positions",
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"url": "https://careers.kindermorgan.com/careers-home/jobs",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "c48e78ee3b6f",
-"title": "#img-emb9t5j5e0pj8lnk1vop7uha",
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"url": "https://careers.kindermorgan.com/careers-home/jobs?state=Arkansas%7CTexas%7COklahoma%7CLouisiana",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "240b3e58179f",
-"title": "#img-t4a7pb4lywbnk4cupxl75tko",
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"url": "https://careers.kindermorgan.com/careers-home/jobs?state=Mississippi%7CAlabama%7CGeorgia%7CFlorida%7CVirginia%7CSouth%20Carolina%7CTennessee%7CNorth%20Carolina%7CKentucky%7CWest%20Virginia",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "e3c4bcfbfe62",
-"title": "#img-zjnu22784ra8owxfsw83w43s",
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"url": "https://careers.kindermorgan.com/careers-home/jobs?state=Maryland%7CNew%20Jersey%7CPennsylvania%7CConnecticut%7CNew%20York%7CMassachusetts%7CNew%20Hampshire",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "e624ff59bbb4",
-"title": "#img-k5b25u0aqe26q6lhgvbcwz0v",
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"url": "https://careers.kindermorgan.com/careers-home/jobs?state=Kansas%7CMissouri%7CIllinois%7CIndiana%7COhio%7CNebraska%7CIowa%7CMinnesota%7CWisconsin%7CMichigan%7CNorth%20Dakota",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "20d8e1ede0dd",
-"title": "#img-oh6slafb3kod8334qlp2i3np",
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"url": "https://careers.kindermorgan.com/careers-home/jobs?state=Arizona%7CColorado%7CNew%20Mexico%7CNevada%7CUtah%7CWyoming%7CMontana",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "a5b04a86a401",
-"title": "#img-usy4x06wz1sd6bysuit9ssw7",
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"url": "https://careers.kindermorgan.com/careers-home/jobs?state=California%7COregon%7CWashington",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "50df018f51de",
-"title": "here.",
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"url": "https://www.kindermorgan.com/Careers/EEO",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "8a1829e204a2",
-"title": "Start a Career",
-"city": "Eugene",
-"employer": "Payne West Insurance",
-"url": "https://mmanorthwest.com/about-us/careers/culture-benefits/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "8e8264291b86",
-"title": "Saved jobs (0)",
-"city": "Eugene",
-"employer": "Pods",
-"url": "https://careers.pods.com/us/en/jobcart",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "6d9d5b1af4be",
-"title": "CAREERS AT SWIFT",
-"city": "Junction City",
-"employer": "Mat Transportation",
-"url": "http://www.swifttrans.com/careers",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "516c6d7d810e",
-"title": "Who We Are",
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"url": "https://careers.ulta.com/careers/who-we-are",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "f7f169ef6407",
-"title": "Benefits and Career Development",
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"url": "https://careers.ulta.com/careers/about-us/benefits-and-career-development",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "5deebb1e4f30",
-"title": "Retail Stores",
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"url": "https://careers.ulta.com/careers/career-areas/retail-stores",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "d5f8127e27fd",
-"title": "Beauty Services",
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"url": "https://careers.ulta.com/careers/career-areas/beauty-services",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "ce2ea48472b5",
-"title": "Distribution Centers",
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"url": "https://careers.ulta.com/careers/career-areas/distribution-centers",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "9034134b956a",
-"title": "Who We Are",
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"url": "https://careers.ulta.com/careers/about-us/who-we-are",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -6980,41 +6050,11 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "0e2307664f20",
-"title": "Temporary Employment Pool 2026",
-"city": "Eugene",
-"employer": "University of Oregon",
-"url": "https://careers.uoregon.edu/cw/en-us/job/536245/temporary-employment-pool-2026",
-"days": 1,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "8f62b52dc06c",
 "title": "Clinician View Jobs Connect with a recruiter",
 "city": "Eugene",
 "employer": "Zoomcare",
 "url": "https://careers.zoomcare.com/career-area/clinician/jobs/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "3d9e0aad6af9",
-"title": "Imaging View Jobs",
-"city": "Eugene",
-"employer": "Zoomcare",
-"url": "https://careers.zoomcare.com/career-area/imaging/jobs/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "6ee4455725d7",
-"title": "Patient Support View Jobs",
-"city": "Eugene",
-"employer": "Zoomcare",
-"url": "https://careers.zoomcare.com/career-area/patient-support/jobs/",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -7035,26 +6075,6 @@
 "city": "Eugene",
 "employer": "Zoomcare",
 "url": "https://careers.zoomcare.com/career-area/clinic-assistants/jobs/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "4790a70e8ae7",
-"title": "Corporate/ Operations View Jobs",
-"city": "Eugene",
-"employer": "Zoomcare",
-"url": "https://careers.zoomcare.com/career-area/corporate-operations/jobs/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "cba07a0d75e0",
-"title": "Join Us",
-"city": "Eugene",
-"employer": "Zoomcare",
-"url": "https://careers.zoomcare.com/jobs/",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -7160,56 +6180,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "7d7513c82f85",
-"title": "FIND YOUR CAREER",
-"city": "Eugene",
-"employer": "Convoy Supply",
-"url": "https://convoy-supply.com/careers/available-jobs",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "b8fe62b8a293",
-"title": "Why Convoy",
-"city": "Eugene",
-"employer": "Convoy Supply",
-"url": "https://convoy-supply.com/careers/why-convoy",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "83c645c29085",
-"title": "Career Paths",
-"city": "Eugene",
-"employer": "Convoy Supply",
-"url": "https://convoy-supply.com/careers/career-paths",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "ea1a2478954a",
-"title": "Health & Safety",
-"city": "Eugene",
-"employer": "Convoy Supply",
-"url": "https://convoy-supply.com/careers/health-safety",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "98628dd87ec1",
-"title": "Continue",
-"city": "Cottage Grove",
-"employer": "City of Cottage Grove",
-"url": "https://cottagegroveor.gov/Jobs.aspx",
-"days": 1,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "744e06c0c024",
 "title": "Part-Time Commercial Building Inspector",
 "city": "Cottage Grove",
@@ -7240,31 +6210,11 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "116ace4615b7",
-"title": "Student Jobs",
-"city": "Eugene",
-"employer": "Erb Memorial Union",
-"url": "https://emu.uoregon.edu/about/jobs",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "1a40d9f00418",
 "title": "Controller",
 "city": "Eugene",
 "employer": "Eugene Country Club",
 "url": "https://eugenecountryclub.com/Careers/Controller",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "741c48798568",
-"title": "Greenskeeper",
-"city": "Eugene",
-"employer": "Eugene Country Club",
-"url": "https://eugenecountryclub.com/Careers/Greenskeeper",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -7347,36 +6297,6 @@
 "url": "https://glorybeefoods.applicantpro.com/jobs/4250907",
 "days": 8,
 "soc": "172112",
-"route": "Employer's hiring site"
-},
-{
-"id": "bf6d5a35f481",
-"title": "Careers & Internships",
-"city": "Eugene",
-"employer": "Hiv Alliance",
-"url": "https://hivalliance.org/about/careers-internships/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "a7ca2445dce1",
-"title": "Expression Of Interest (Future Roles)",
-"city": "Junction City",
-"employer": "Holt Homes-Rolling Meadows",
-"url": "https://holthomes.com/careers/expression-of-interest-future-roles/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "41834879224a",
-"title": "+ more jobs",
-"city": "Springfield",
-"employer": "KPD Insurance",
-"url": "https://imacorp.com/careers/openings",
-"days": 0,
-"soc": "",
 "route": "Employer's hiring site"
 },
 {
@@ -7640,136 +6560,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "1866bd538181",
-"title": "Français (Canada)",
-"city": "Eugene",
-"employer": "QXO",
-"url": "https://jobs.qxo.com/careers-home?lang=fr-CA",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "192bea1cb2f7",
-"title": "Career Path",
-"city": "Eugene",
-"employer": "Red Lobster",
-"url": "https://jobs.redlobster.com/why-red-lobster/career-path",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "0e02eefc16ac",
-"title": "Stores & Retail Management",
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"url": "https://jobs.rossstores.com/careers/retail-and-management-careers",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "b77d0bd0398b",
-"title": "Buying & Planning Offices",
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"url": "https://jobs.rossstores.com/careers/buying-and-planning-careers",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "a8cc4aba6980",
-"title": "Internships & Early Career",
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"url": "https://jobs.rossstores.com/careers/internships-and-entry-level-programs",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "e892c96b9c9e",
-"title": "Supply Chain & Distribution",
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"url": "https://jobs.rossstores.com/careers/supply-chain-and-distribution-center-careers",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "960d952eff57",
-"title": "Corporate Headquarters",
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"url": "https://jobs.rossstores.com/careers/corporate",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "33d65d79072c",
-"title": "Military",
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"url": "https://jobs.rossstores.com/careers/military",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "fd31fc5c84bc",
-"title": "Job Scams",
-"city": "Eugene",
-"employer": "Thermo Fisher Scientific",
-"url": "https://jobs.thermofisher.com/global/en/job-scams",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "002b28517f92",
-"title": "Saved jobs (0)",
-"city": "Eugene",
-"employer": "Thermo Fisher Scientific",
-"url": "https://jobs.thermofisher.com/global/en/jobcart",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "09435e3d7a2e",
-"title": "Sign up for Handshake",
-"city": "Eugene",
-"employer": "UO School of Journalism & Comm",
-"url": "https://journalism.uoregon.edu/opportunities",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "07184034aa2f",
-"title": "Learn more and apply",
-"city": "Eugene",
-"employer": "Jordan Schnitzer Museum of Art",
-"url": "https://jsma.uoregon.edu/opportunities/exhibition-interpreters",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "8ebd96a8174a",
-"title": "Read more about our benefits",
-"city": "Eugene",
-"employer": "Emerald Insurance Agcy KS City",
-"url": "https://kclife.com/Careers/Benefits.aspx",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "4c9c41fc4f69",
 "title": "Administration - Development Coordinator",
 "city": "Eugene",
@@ -7820,36 +6610,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "da114d14f1df",
-"title": "Employee Resources",
-"city": "Eugene",
-"employer": "New Dream Child Care Ctr",
-"url": "https://newdreamfamily.com/employment/employee-resources/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "1497c75ef3d8",
-"title": "HERE",
-"city": "Springfield",
-"employer": "Options Counseling Svc",
-"url": "https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=99521&clientkey=23A4C82C02E04D235C1DD3484F56D907",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "fb70cd839d3b",
-"title": "Clean Water Services website",
-"city": "Eugene",
-"employer": "Oregon Association-Clean Water",
-"url": "https://www.governmentjobs.com/careers/cws/jobs/5520070/compliance-operations-manager?pagetype=jobOpportunitiesJobs",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "90e2c5f52adc",
 "title": "Industrial Pretreatment Coordinator",
 "city": "Eugene",
@@ -7860,91 +6620,11 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "c8b741d2b43c",
-"title": "Wastewater Treatment",
-"city": "Eugene",
-"employer": "Oregon Association-Clean Water",
-"url": "https://www.governmentjobs.com/careers/cityofsalem/jobs/4637365/wastewater-treatment-plant-operator-iii/apply/jobdetails?keywords=wastewater&pagetype=jobOpportunitiesJobs",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "b9d5742c60cd",
-"title": "Openings",
-"city": "Eugene",
-"employer": "Honorable Mustafa T Kasubhai",
-"url": "https://ord.uscourts.gov/index.php/court-info/careers/openings",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "5a1f8955e328",
 "title": "Contract Interpreters",
 "city": "Eugene",
 "employer": "Honorable Mustafa T Kasubhai",
 "url": "https://ord.uscourts.gov/index.php/court-info/careers/contract-interpreters",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "bae24d3b6051",
-"title": "Your Employee Rights",
-"city": "Eugene",
-"employer": "Honorable Mustafa T Kasubhai",
-"url": "https://ord.uscourts.gov/index.php/court-info/careers/your-employee-rights",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "c416c58563f8",
-"title": "Applying to E-File in Your Case",
-"city": "Eugene",
-"employer": "Honorable Mustafa T Kasubhai",
-"url": "https://ord.uscourts.gov/index.php/representing-yourself/applying-to-e-file-in-your-case",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "cecf6f78b2b0",
-"title": "Pro Bono Program",
-"city": "Eugene",
-"employer": "Honorable Mustafa T Kasubhai",
-"url": "https://ord.uscourts.gov/index.php/representing-yourself/applying-for-pro-bono",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "376dfa752451",
-"title": "Opportunity for All, Affirmatively",
-"city": "Eugene",
-"employer": "Oregon Community Foundation",
-"url": "https://oregoncf.org/news/opportunity-for-all-affirmatively",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "5a0b11cd7805",
-"title": "Application (PDF)",
-"city": "Florence",
-"employer": "C & M Stables",
-"url": "https://oregonhorsebackriding.com/wp-content/uploads/2023/09/JobApplication.pdf",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "35f0818d773e",
-"title": "Jobbers",
-"city": "Eugene",
-"employer": "Automotive Service Parts",
-"url": "https://partsauthority.com/jobbers",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -8150,26 +6830,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "5204d4fb2d4c",
-"title": "Opportunities",
-"city": "Eugene",
-"employer": "University-Or Sponsored Prjcts",
-"url": "https://research.uoregon.edu/plan/undergraduate-research/opportunities",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "74a4e3338f29",
-"title": "",
-"city": "Eugene",
-"employer": "Rexius Forest By-Products",
-"url": "https://rexius.com/blogs/careers/digital-marketer",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "f3a33172c50c",
 "title": "Heavy Diesel Truck Mechanic",
 "city": "Eugene",
@@ -8260,326 +6920,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "0a27e59347b5",
-"title": "Opportunity Center",
-"city": "Eugene",
-"employer": "RISE Services",
-"url": "https://riseservicesincor.org/opportunity-centers/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "1756e06358d1",
-"title": "FAQs",
-"city": "Eugene",
-"employer": "Selectemp",
-"url": "https://selectemp.jobs/job-seeker-faqs/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "9ae5c6762ea6",
-"title": "How to Be a Rockstar Employee: Your No-Nonsense Guide",
-"city": "Eugene",
-"employer": "Selectemp",
-"url": "https://selectemp.jobs/career-resources/how-to-be-a-rockstar-employee/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "e0a5ccdc97b6",
-"title": "6 Tips For Writing a Resume That Brings Results",
-"city": "Eugene",
-"employer": "Selectemp",
-"url": "https://selectemp.jobs/career-resources/resume-tips-that-bring-results/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "bdd2a03787a4",
-"title": "RESOURCES",
-"city": "Eugene",
-"employer": "Gates Sheridan",
-"url": "https://sheridangates.com/career-crossroads/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "47df28c6da5a",
-"title": "Workshops and Events",
-"city": "Eugene",
-"employer": "Gates Sheridan",
-"url": "https://sheridangates.com/career-crossroads/workshops-and-events/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "a6ffb627077f",
-"title": "Career and Technical Education",
-"city": "Springfield",
-"employer": "Springfield High School",
-"url": "https://shs.springfield.k12.or.us/academics/curriculum-guide/career-and-technical-education",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "1f79bcd71ea2",
-"title": "Employee Docs",
-"city": "Eugene",
-"employer": "Staffing Partners",
-"url": "https://staffingoregon.com/jobs/employee-docs/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "ada2490c7137",
-"title": "Refer a Friend",
-"city": "Eugene",
-"employer": "Staffing Partners",
-"url": "https://staffingoregon.com/jobs/refer-a-friend/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "43d5576a9517",
-"title": "Page 2",
-"city": "Eugene",
-"employer": "Superior Fab Steel",
-"url": "https://superiorsteelfab.com/careers/page/2/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "37b1fa074da1",
-"title": "Page 3",
-"city": "Eugene",
-"employer": "Superior Fab Steel",
-"url": "https://superiorsteelfab.com/careers/page/3/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "37390fe22cda",
-"title": "Equal Opportunity",
-"city": "Eugene",
-"employer": "Technology Integration Group",
-"url": "https://tig.com/Home/Careers/EqualOpportunity.aspx",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "0000512952a2",
-"title": "Employee Benefits",
-"city": "Eugene",
-"employer": "Technology Integration Group",
-"url": "https://tig.com/Home/Careers/EmployeeBenefits.aspx",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "2fbd526330ac",
-"title": "Join TIG",
-"city": "Eugene",
-"employer": "Technology Integration Group",
-"url": "https://tig.com/Home/Careers/JoinTIG.aspx",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "e4dffc091c20",
-"title": "Begin A New Work Journey",
-"city": "Cottage Grove",
-"employer": "Tool Tech Lic",
-"url": "https://tooltechcellular.com/careers/appform/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "78839e76d780",
-"title": "Brainfuse JobNow",
-"city": "Springfield",
-"employer": "Springfield Museum",
-"url": "https://wheremindsgrow.org/jobnow",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "2c1dfa2c2bc2",
-"title": "City of Springfield Job Opportunities",
-"city": "Springfield",
-"employer": "Springfield Museum",
-"url": "https://www.governmentjobs.com/careers/springfieldor",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "18604adac99b",
-"title": "GET THE DETAILS",
-"city": "Eugene",
-"employer": "Willamette Oaks-A Lifeminded",
-"url": "https://willametteoaks.com/careers/server",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "0b348f79a995",
-"title": "Careers",
-"city": "Eugene",
-"employer": "US Air Force Supervisor",
-"url": "https://www.airforce.com/careers",
-"days": 162,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "fe9d462e5088",
-"title": "OUR VALUES",
-"city": "Eugene",
-"employer": "Amnesty",
-"url": "https://www.amnesty.org/en/careers/staff-values/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "17833639a866",
-"title": "Departments",
-"city": "Eugene",
-"employer": "Anheuser-Busch",
-"url": "https://www.anheuser-busch.com/careers-our-departments",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "1488666c7cc0",
-"title": "Locations",
-"city": "Eugene",
-"employer": "Anheuser-Busch",
-"url": "https://www.anheuser-busch.com/careers/our-locations",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "8f67e453a659",
-"title": "Early Career Opportunities",
-"city": "Eugene",
-"employer": "Anheuser-Busch",
-"url": "https://www.anheuser-busch.com/careers/early-career-program",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "a2acc75d4ac4",
-"title": "EXPLORE BENEFITS",
-"city": "Eugene",
-"employer": "Anheuser-Busch",
-"url": "https://www.anheuser-busch.com/careers-benefits",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "d8babda7d62b",
-"title": "EXPLORE MORE",
-"city": "Eugene",
-"employer": "Anheuser-Busch",
-"url": "https://www.anheuser-busch.com/careers/mapmyfuture",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "6b9dc7b86826",
-"title": "APPLYING FOR HOUSING",
-"city": "Eugene",
-"employer": "Aurorahousing LP",
-"url": "https://www.aurorahousing.org/housing/hcv-housing-choice-vouchers-program-section-8/applying-for-housing",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "b2d63b562385",
-"title": "Careers in BLM",
-"city": "Eugene",
-"employer": "Eugene Wetlands",
-"url": "https://www.blm.gov/careers/careers-in-blm",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "0d744c3b476e",
-"title": "Students and Graduates",
-"city": "Eugene",
-"employer": "Eugene Wetlands",
-"url": "https://www.blm.gov/careers/students-and-grads",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "6cc06da5c5a7",
-"title": "Veterans",
-"city": "Eugene",
-"employer": "Eugene Wetlands",
-"url": "https://www.blm.gov/careers/veterans",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "318c12151d5c",
-"title": "Individuals with Disabilities",
-"city": "Eugene",
-"employer": "Eugene Wetlands",
-"url": "https://www.blm.gov/careers/individuals-with-disabilities",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "f0ced7470336",
-"title": "Find the best person to contact",
-"city": "Eugene",
-"employer": "Eugene Wetlands",
-"url": "https://www.blm.gov/careers/careers-contact-us",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "ed2760fbbf56",
-"title": "English (Canada)",
-"city": "Springfield",
-"employer": "Budget Blinds",
-"url": "https://www.budgetblinds.com/en-ca/jobs/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "d43977472c99",
 "title": "Nurses Change the lives of our residents through your compassionate care.",
 "city": "Eugene",
@@ -8595,56 +6935,6 @@
 "city": "Eugene",
 "employer": "Waterford Grand",
 "url": "https://www.cascadeliving.com/careers/wellness-associates/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "61a43e406d58",
-"title": "Dining Services Do rewarding work that feeds people, body and soul.",
-"city": "Eugene",
-"employer": "Waterford Grand",
-"url": "https://www.cascadeliving.com/careers/dining/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "baccc8d1e0ec",
-"title": "Employment Application",
-"city": "Oakridge",
-"employer": "Ray's Food Place",
-"url": "https://www.ckmarket.com/careers/employment-application/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "37f42ed66005",
-"title": "Autism Services Career Paths",
-"city": "Creswell",
-"employer": "Renew Consulting",
-"url": "https://www.clarvida.com/careers/autism-services/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "25e845098bf7",
-"title": "Counseling & Therapy Career Paths",
-"city": "Creswell",
-"employer": "Renew Consulting",
-"url": "https://www.clarvida.com/careers/counseling-therapy-services/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "d72633470471",
-"title": "WATCH THE VIDEO",
-"city": "Springfield",
-"employer": "COIT Cleaning & Restoration",
-"url": "https://www.coit.com/careers-video",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -8710,136 +7000,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "920b6bfd9597",
-"title": "LOAD MORE",
-"city": "Springfield",
-"employer": "COIT Cleaning & Restoration",
-"url": "https://www.coit.com/careers?page=%2C1",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "96507c3e9ed0",
-"title": "Spanish",
-"city": "Springfield",
-"employer": "Crunch",
-"url": "https://www.crunch.com/careers?locale=es",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "3f2256f8e930",
-"title": "Spanish",
-"city": "Springfield",
-"employer": "Crunch",
-"url": "https://www.crunch.com/careers?locale=es-cr",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "ae9b50b6b614",
-"title": "here",
-"city": "Eugene",
-"employer": "Diamond Parking",
-"url": "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/63DD2D902D56455C5F80F60635E11D63/career-page",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "d0c739b22094",
-"title": "Job Seeker FAQ",
-"city": "Eugene",
-"employer": "Elwood Staffing",
-"url": "https://www.elwoodstaffing.com/find-a-position/job-seeker-faq.php",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "2109d1e0cc03",
-"title": "SEARCH JOBS / APPLY NOW",
-"city": "Eugene",
-"employer": "Employers Overload",
-"url": "https://www.employersoverload.com/apply",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "f808c2543338",
-"title": "Scholarship Application",
-"city": "Eugene",
-"employer": "Eugene Springs Youth Orchestra",
-"url": "https://www.esyorchestras.org/financial-aid/apply/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "83b003d2665d",
-"title": "Browse open job listings",
-"city": "Eugene",
-"employer": "Abeton",
-"url": "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DD5799AE84EA79AABA91ECFF517A3D0A&fromClientSide=true",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "8be662ea4197",
-"title": "Our Locations",
-"city": "Lowell",
-"employer": "Fall Creek Farm & Nursery",
-"url": "https://www.fallcreeknursery.com/careers/our-locations",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "316ae775cc57",
-"title": "EXPLORE OPEN POSITIONS AT FALL CREEK®",
-"city": "Lowell",
-"employer": "Fall Creek Farm & Nursery",
-"url": "https://www.fallcreeknursery.com/careers/open-positions",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "4a1c03354c2b",
-"title": "Candidate Resources",
-"city": "Eugene",
-"employer": "MLD Technologies",
-"url": "https://www.ga.com/careers/faq",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "1ae7812ed75b",
-"title": "Explore Locations & Divisions",
-"city": "Eugene",
-"employer": "MLD Technologies",
-"url": "https://www.ga.com/careers/locations-divisions",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "026b244d19ae",
-"title": "DoD SkillBridge Program",
-"city": "Eugene",
-"employer": "MLD Technologies",
-"url": "https://www.ga.com/careers/military",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "def3917fff2c",
 "title": "Cook",
 "city": "Eugene",
@@ -8860,31 +7020,11 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "99790fa98ae9",
-"title": "Job Postings",
-"city": "Eugene",
-"employer": "Civil Air Patrol Oregon Wing",
-"url": "https://www.gocivilairpatrol.com/members/cap-national-hq/new-chaplain-corps-page/general-chaplain-corps-information/job-postings/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "de8d74b781f8",
 "title": "Deputy, HCT",
 "city": "Eugene",
 "employer": "Civil Air Patrol Oregon Wing",
 "url": "https://www.gocivilairpatrol.com/members/cap-national-hq/new-chaplain-corps-page/general-chaplain-corps-information/job-postings/deputy-chief-of-it-for-cap-chaplain-corps-caphct/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "2a4568cbad2b",
-"title": "CDI, HCT",
-"city": "Eugene",
-"employer": "Civil Air Patrol Oregon Wing",
-"url": "https://www.gocivilairpatrol.com/members/cap-national-hq/new-chaplain-corps-page/general-chaplain-corps-information/job-postings/cdi-of-information-technology-for-cap-chaplain-corps-caphct/",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -8920,126 +7060,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "da28c8977a8f",
-"title": "Employment Opportunities RSS",
-"city": "Eugene",
-"employer": "Civil Air Patrol Oregon Wing",
-"url": "https://www.gocivilairpatrol.com/about/employment/rss/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "21846272c992",
-"title": "Temp Positions",
-"city": "Eugene",
-"employer": "Grain Millers",
-"url": "https://www.grainmillers.com/our-company/careers/temporary-positions/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "a0186d88fec1",
-"title": "Requisition programs",
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"url": "https://www.gsa.gov/buy-through-us/purchasing-programs/requisition-programs",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "36d82833b757",
-"title": "Careers Toggle submenu",
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"url": "https://www.gsa.gov/about-gsa/careers",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "3f18f4cef2c3",
-"title": "Discover special hiring paths",
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"url": "https://www.gsa.gov/about-gsa/careers/veterans",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "ecef24343121",
-"title": "Elevate your professional career",
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"url": "https://www.gsa.gov/about-gsa/careers/general-public",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "bdd0a7315223",
-"title": "Get an internship",
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"url": "https://www.gsa.gov/about-gsa/careers/current-students",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "2c1d985abbd7",
-"title": "Launch your career",
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"url": "https://www.gsa.gov/about-gsa/careers/recent-graduates",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "c7cb09abfc09",
-"title": "Resources and related links",
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"url": "https://www.gsa.gov/about-gsa/careers/resources-and-related-links",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "1e08c3a3308b",
-"title": "Learn more.",
-"city": "Eugene",
-"employer": "Audiology Professionals A",
-"url": "https://www.hearinglife.com/careers/extern-program",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "79ef49f22b44",
-"title": "Learn more.",
-"city": "Eugene",
-"employer": "Audiology Professionals A",
-"url": "https://www.hearinglife.com/careers/apprenticeship-program",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "d0bf5eda4283",
-"title": "SEE OUR OPENINGS",
-"city": "Eugene",
-"employer": "Components Handling",
-"url": "https://www.hoistcrane.com/careers/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "989cd6985522",
 "title": "Experienced professionals Build on your experience.",
 "city": "Cottage Grove",
@@ -9050,91 +7070,11 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "faf118de3bcd",
-"title": "Skilled craft Focus your skills. Build real projects.",
-"city": "Cottage Grove",
-"employer": "Craig Oil",
-"url": "https://www.keller-na.com/careers/skilled-craft",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "ccc9041268f7",
-"title": "Early-career opportunities for graduates Start your career with purpose.",
-"city": "Cottage Grove",
-"employer": "Craig Oil",
-"url": "https://www.keller-na.com/careers/early-career-opportunities-graduates",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "6497641b0ec9",
-"title": "Internships Gain real-world experience.",
-"city": "Cottage Grove",
-"employer": "Craig Oil",
-"url": "https://www.keller-na.com/careers/college-recruiting-internships",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "45021521cf0d",
-"title": "Job Accounts",
-"city": "Eugene",
-"employer": "Keller Supply",
-"url": "https://www.kellersupply.com/CustomerResources/JobAccounts",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "4ffcbdc5373e",
-"title": "Job Training Center",
-"city": "Eugene",
-"employer": "LCC",
-"url": "https://www.lcc.edu/community/job-training-center/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "8a069ec3d7d1",
-"title": "Life at Legacy",
-"city": "Eugene",
-"employer": "Legacy Laboratory Eugene",
-"url": "https://www.legacyhealth.org/for-health-professionals/careers/life-at-legacy",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "20c6790d9d47",
 "title": "outdoor school coordinator",
 "city": "Cheshire",
 "employer": "Camp Lutherwood",
 "url": "https://www.lutherwoodoregon.org/wp-content/uploads/2025/01/Coordinator_Job_Description_-_1_22_25_1.pdf",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "9597422c1a51",
-"title": "Next Page",
-"city": "Springfield",
-"employer": "Numotion",
-"url": "https://www.numotion.com/careers?pg=2",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "093070ec2b59",
-"title": "Seasonal Wood Production",
-"city": "Eugene",
-"employer": "Northwest Industrial Staffing",
-"url": "https://nwstaff.com/job/1405-seasonal-wood-production/",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -9200,16 +7140,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "4ad65726a66f",
-"title": "Careers at Pacific",
-"city": "Eugene",
-"employer": "Pacific University Eugene",
-"url": "https://www.pacificu.edu/directory/finance-administration/human-resources/jobs-pacific",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "e09bc3bb95c6",
 "title": "Tax Reviewer - Seasonal Part Time Eugene Office",
 "city": "Eugene",
@@ -9225,106 +7155,6 @@
 "city": "Eugene",
 "employer": "Idealease",
 "url": "https://www.petersontrucks.com/careers/openings?f%5B0%5D=company%3APeterson%20Trucks%2C%20Inc.&f%5B1%5D=job_family%3ATechnician",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "531282f3fa3d",
-"title": "Reddy Ice Job Search",
-"city": "Eugene",
-"employer": "Reddy Ice",
-"url": "https://www.reddyice.com/careers/jobs/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "d9da3b687696",
-"title": "Sales",
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"url": "https://www.ricoh-usa.com/en/about-us/careers/sales",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "adf061a6eae3",
-"title": "Service Delivery",
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"url": "https://www.ricoh-usa.com/en/about-us/careers/service-delivery",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "0dd30edde903",
-"title": "Supply Chain",
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"url": "https://www.ricoh-usa.com/en/about-us/careers/supply-chain",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "46e6304b1a22",
-"title": "Customer Service",
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"url": "https://www.ricoh-usa.com/en/about-us/careers/customer-service",
-"days": 0,
-"soc": "113071",
-"route": "Employer's hiring site"
-},
-{
-"id": "d2b80b70ae43",
-"title": "Corporate Function",
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"url": "https://www.ricoh-usa.com/en/about-us/careers/corporate",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "f019e775b765",
-"title": "University Programs",
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"url": "https://www.ricoh-usa.com/en/about-us/careers/university-programs",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "c2b288386142",
-"title": "Veteran Career Transition",
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"url": "https://www.ricoh-usa.com/en/about-us/careers/jobs-for-veterans",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "7cccd0281703",
-"title": "Why Roto-Rooter",
-"city": "Eugene",
-"employer": "Roto-Rooter Plbg-Water Cleanup",
-"url": "https://www.rotorooter.com/careers/why-work-for-roto-rooter/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "fa12abf0ab14",
-"title": "Veterans",
-"city": "Eugene",
-"employer": "Roto-Rooter Plbg-Water Cleanup",
-"url": "https://www.rotorooter.com/careers/veterans/",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -9360,61 +7190,11 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "9b2061bf3bce",
-"title": "WATER DAMAGE CLEANUP",
-"city": "Eugene",
-"employer": "Roto-Rooter Plbg-Water Cleanup",
-"url": "https://www.rotorooter.com/careers/water-damage-cleanup/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "478a58e677b2",
-"title": "SALES & MANAGEMENT",
-"city": "Eugene",
-"employer": "Roto-Rooter Plbg-Water Cleanup",
-"url": "https://www.rotorooter.com/careers/sales-and-management/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "c26f62972460",
 "title": "CSR/DISPATCHER",
 "city": "Eugene",
 "employer": "Roto-Rooter Plbg-Water Cleanup",
 "url": "https://www.rotorooter.com/careers/csr-dispatcher/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "eb0e7a6ee7b9",
-"title": "Administrative",
-"city": "Florence",
-"employer": "Elderberry Square",
-"url": "https://www.seniorlifestyle.com/careers/teams/administrative/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "586087301666",
-"title": "Dining",
-"city": "Florence",
-"employer": "Elderberry Square",
-"url": "https://www.seniorlifestyle.com/careers/teams/dining/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "deae3b51e4d3",
-"title": "Healthcare",
-"city": "Florence",
-"employer": "Elderberry Square",
-"url": "https://www.seniorlifestyle.com/careers/teams/healthcare/",
 "days": 0,
 "soc": "",
 "route": "Employer's hiring site"
@@ -9427,46 +7207,6 @@
 "url": "https://www.seniorlifestyle.com/careers/teams/housekeeping-maintenance/",
 "days": 0,
 "soc": "372012",
-"route": "Employer's hiring site"
-},
-{
-"id": "95df4d1111a4",
-"title": "Memory Care",
-"city": "Florence",
-"employer": "Elderberry Square",
-"url": "https://www.seniorlifestyle.com/careers/teams/memory-care/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "4adb363c016a",
-"title": "Programming",
-"city": "Florence",
-"employer": "Elderberry Square",
-"url": "https://www.seniorlifestyle.com/careers/teams/programming/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "b96ac8df0674",
-"title": "Sales & Marketing",
-"city": "Florence",
-"employer": "Elderberry Square",
-"url": "https://www.seniorlifestyle.com/careers/teams/sales-marketing/",
-"days": 0,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "4227453e3ffe",
-"title": "Transportation",
-"city": "Florence",
-"employer": "Elderberry Square",
-"url": "https://www.seniorlifestyle.com/careers/teams/transportation/",
-"days": 0,
-"soc": "",
 "route": "Employer's hiring site"
 },
 {
@@ -17230,16 +14970,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "2e4dd9c649bf",
-"title": "Boys Basketball Coaches",
-"city": "Eugene",
-"employer": "Eugene School District 4J",
-"url": "https://www.governmentjobs.com/jobs/5519896-0/north-eugene-varsity-assistant-boys-basketball-coach",
-"days": 13,
-"soc": "272022",
-"route": "Employer's hiring site"
-},
-{
 "id": "a965307c31d0",
 "title": "Book Editors",
 "city": "Eugene",
@@ -20340,16 +18070,6 @@
 "route": "Reposted by a job board"
 },
 {
-"id": "278bd6adaa9c",
-"title": "Meat Cutters",
-"city": "Eugene",
-"employer": "Albertsons Companies",
-"url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/779769",
-"days": 16,
-"soc": "513022",
-"route": "Employer's hiring site"
-},
-{
 "id": "dc3a42cd415c",
 "title": "Material Handling Operators",
 "city": "Springfield",
@@ -22368,16 +20088,6 @@
 "days": 20,
 "soc": "151299",
 "route": "WorkSource Oregon listing"
-},
-{
-"id": "f07e403a7820",
-"title": "Girls Basketball Coaches",
-"city": "Eugene",
-"employer": "Eugene School District 4J",
-"url": "https://www.governmentjobs.com/jobs/5512286-0/girls-basketball-varsity-assistant-coach-sheldon",
-"days": 20,
-"soc": "272022",
-"route": "Employer's hiring site"
 },
 {
 "id": "ae31711e7cdf",
@@ -24990,16 +22700,6 @@
 "route": "Reposted by a job board"
 },
 {
-"id": "ff7a25a89a07",
-"title": "High School Coaches",
-"city": "Eugene",
-"employer": "Eugene School District 4J",
-"url": "https://www.governmentjobs.com/jobs/5507002-0/north-eugene-high-school-speech-debate-head-coach",
-"days": 23,
-"soc": "272022",
-"route": "Employer's hiring site"
-},
-{
 "id": "5b5e386af859",
 "title": "Line/Prep Cooks",
 "city": "Eugene",
@@ -25080,16 +22780,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "fea7d70d4696",
-"title": "Boys Soccer Coaches",
-"city": "Eugene",
-"employer": "Eugene School District 4J",
-"url": "https://www.governmentjobs.com/jobs/5507569-0/boys-varsity-assistant-soccer-coach-sheldon",
-"days": 23,
-"soc": "272022",
-"route": "Employer's hiring site"
-},
-{
 "id": "2287fb431d04",
 "title": "Bartenders",
 "city": "Eugene",
@@ -25107,16 +22797,6 @@
 "url": "https://careers.americancampus.com/en/postings/a7ccf8fc-85d5-4d4c-bd5e-7e66230d6d18",
 "days": 23,
 "soc": "119141",
-"route": "Employer's hiring site"
-},
-{
-"id": "3ed1f89b109a",
-"title": "Child and Adolescent Psychiatrists",
-"city": "Eugene",
-"employer": "Unifi Aviation",
-"url": "https://careers.nmfonline.org/jobs/22641490/child-and-adolescent-psychiatrist-outpatient",
-"days": 23,
-"soc": "291223",
 "route": "Employer's hiring site"
 },
 {
@@ -26480,16 +24160,6 @@
 "route": "Reposted by a job board"
 },
 {
-"id": "ee47a97ddd57",
-"title": "Cheerleading Coaches",
-"city": "Eugene",
-"employer": "Eugene School District 4J",
-"url": "https://www.schooljobs.com/careers/laneedu/jobs/5503731/assistant-cheer-coach-churchill-hs",
-"days": 27,
-"soc": "272022",
-"route": "Employer's hiring site"
-},
-{
 "id": "e9762a9b674f",
 "title": "Certified Medical Technologists",
 "city": "Florence",
@@ -26978,16 +24648,6 @@
 "days": 27,
 "soc": "434081",
 "route": "Reposted by a job board"
-},
-{
-"id": "1250999c0385",
-"title": "Footwear Sales Outfitters",
-"city": "Springfield",
-"employer": "Bass Pro Shops",
-"url": "https://basspro.wd1.myworkdayjobs.com/en-us/careers/job/footwear-sales-outfitter---part-time_r269451",
-"days": 27,
-"soc": "399032",
-"route": "Employer's hiring site"
 },
 {
 "id": "db036d30bf58",
@@ -28500,16 +26160,6 @@
 "route": "Reposted by a job board"
 },
 {
-"id": "360515280393",
-"title": "Sales Management Trainee",
-"city": "Eugene",
-"employer": "Enterprise Mobility",
-"url": "https://jobs.enterprise.com/eugene-or/sales-management-trainee/C2075947E2CD48AE86BDE7725FD466BD/job/?vs=1&utm_source=USNLx.com-DE&utm_medium=NLX&utm_campaign=USNLx.com",
-"days": 34,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "96819c3e0983",
 "title": "Sanipac Union CDL Route Driver",
 "city": "Eugene",
@@ -28578,16 +26228,6 @@
 "days": 38,
 "soc": "",
 "route": "Reposted by a job board"
-},
-{
-"id": "9a1e957431db",
-"title": "NP or PA - Per Diem - Optum, Skilled Nursing Facilities - Lane Co., OR",
-"city": "Eugene",
-"employer": "UnitedHealth Group",
-"url": "https://careers.unitedhealthgroup.com/job/-/-/34088/100780817696?src=JB-22428&utm_source=directemployers.org&utm_medium=job_posting&utm_campaign=Enterprise&utm_content=niche_site&utm_term=437581320&ss=paid&gad_source=7&dclid=CMKg0LXr35cDFQ8u4wIdL9c54g",
-"days": 40,
-"soc": "",
-"route": "Employer's hiring site"
 },
 {
 "id": "b942ce7aeb15",
@@ -28778,16 +26418,6 @@
 "days": 48,
 "soc": "",
 "route": "Reposted by a job board"
-},
-{
-"id": "96745f21e863",
-"title": "Personal Lines Concierge",
-"city": "Eugene",
-"employer": "Hub International",
-"url": "https://careers.hubinternational.com/us/en/job/HULHICUSR0038644EXTERNALENUS/Personal-Lines-Concierge?utm_source=directemployers&utm_medium=phenom-feeds/apply?source=DirectEmployersState",
-"days": 48,
-"soc": "",
-"route": "Employer's hiring site"
 },
 {
 "id": "7ab16cb30520",
@@ -29040,16 +26670,6 @@
 "route": "Reposted by a job board"
 },
 {
-"id": "1b6fdfd8a3bd",
-"title": "2027 Management & Sales Training Program (Cascade)",
-"city": "Eugene",
-"employer": "Sherwin-Williams",
-"url": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2619439/",
-"days": 62,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "d3d669471b6a",
 "title": "Route Driver (Safety-Kleen will provide CDL training)",
 "city": "Eugene",
@@ -29175,16 +26795,6 @@
 "city": "Eugene",
 "employer": "UnitedHealth Group",
 "url": "https://careers.unitedhealthgroup.com/job/-/-/34088/99421356464?src=JB-22428&utm_source=directemployers.org&utm_medium=job_posting&utm_campaign=Enterprise&utm_content=niche_site&utm_term=437581320&ss=paid&gad_source=7&dclid=CKWK67br35cDFaop4wId_pAG4A",
-"days": 70,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "07787580eba4",
-"title": "Primary Care Advanced Practice Clinician (NP/PA) | 4 Day Work Week | Eugene, OR - Crescent Medical Clinic",
-"city": "Eugene",
-"employer": "UnitedHealth Group",
-"url": "https://careers.unitedhealthgroup.com/job/-/-/34088/99421356400?src=JB-22428&utm_source=directemployers.org&utm_medium=job_posting&utm_campaign=Enterprise&utm_content=niche_site&utm_term=437581320&ss=paid&gad_source=7&dclid=CMnN87br35cDFS29HgId1rUJIw",
 "days": 70,
 "soc": "",
 "route": "Employer's hiring site"
@@ -29690,16 +27300,6 @@
 "route": "Reposted by a job board"
 },
 {
-"id": "ca5f9af0c3c9",
-"title": "Warehouse Person - Rebar",
-"city": "Eugene",
-"employer": "Farwest Steel Corporation",
-"url": "https://farweststeel.applytojob.com/apply/Xc15Dn3nsh/Warehouse-Person-Rebar?source=DIREC",
-"days": 111,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "d0c373e9a0eb",
 "title": "Temporary Pharmacist in Charge",
 "city": "Eugene",
@@ -29868,16 +27468,6 @@
 "days": 126,
 "soc": "",
 "route": "Reposted by a job board"
-},
-{
-"id": "e9a137e53d21",
-"title": "News Anchor - Reporter (Weekends)",
-"city": "Eugene",
-"employer": "Sinclair Broadcast Group",
-"url": "https://edyy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/16671/",
-"days": 133,
-"soc": "",
-"route": "Employer's hiring site"
 },
 {
 "id": "2f7d98a9f6e9",
@@ -30180,16 +27770,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "3fb0071edf82",
-"title": "Pediatrician | Crescent Clinic - Eugene, OR",
-"city": "Eugene",
-"employer": "UnitedHealth Group",
-"url": "https://careers.unitedhealthgroup.com/job/-/-/34088/90643513184?src=JB-22428&utm_source=directemployers.org&utm_medium=job_posting&utm_campaign=Enterprise&utm_content=niche_site&utm_term=437581320&ss=paid&gad_source=7&dclid=CJH-m7jr35cDFdsI4wIdgJI6YQ",
-"days": 226,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "fa21805bd217",
 "title": "Radiologist - General/Breast Imaging | Eugene, OR",
 "city": "Eugene",
@@ -30240,16 +27820,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "fca7b0d899d6",
-"title": "Carside",
-"city": "Eugene",
-"employer": "Flynn Applebee's",
-"url": "https://olivia.paradox.ai/co/FlynnGroup/Job?job_id=P1-315375-21&posting_type=1&source=directemployers&utm_source=directemployers.com&utm_medium=paid&referer=https%3A%2F%2Fwww.directemployers.com%2F",
-"days": 232,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "8d552b9cfb9f",
 "title": "Bartender",
 "city": "Eugene",
@@ -30290,16 +27860,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "aa313ef7e7b2",
-"title": "2026 Management & Sales Training Program (Cascade)",
-"city": "Eugene",
-"employer": "Sherwin-Williams",
-"url": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2543997/",
-"days": 253,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "ab87f5d9d9fa",
 "title": "Senior Area General Manager (Sr. AGM), Asundexian - Northwest",
 "city": "Eugene",
@@ -30318,16 +27878,6 @@
 "days": 266,
 "soc": "",
 "route": "Reposted by a job board"
-},
-{
-"id": "249d866288e7",
-"title": "MILLWRIGHT --Eugene",
-"city": "Eugene",
-"employer": "Murphy Company",
-"url": "https://secure10.entertimeonline.com/ta/6008572.careers?ShowJob=50431369&prevScreenX=0&prevScreenY=0",
-"days": 281,
-"soc": "",
-"route": "Employer's hiring site"
 },
 {
 "id": "82429d7958f6",
@@ -30620,16 +28170,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "0d23016b87d8",
-"title": "GENERAL PLANT UTILITY --Eugene",
-"city": "Eugene",
-"employer": "Murphy Company",
-"url": "https://secure10.entertimeonline.com/ta/6008572.careers?ShowJob=50419330&prevScreenX=0&prevScreenY=0",
-"days": 3792,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "a262a39d5172",
 "title": "Restaurant Crewmember - Opening & Closing Shift",
 "city": "Springfield",
@@ -30900,16 +28440,6 @@
 "route": "Employer's hiring site"
 },
 {
-"id": "809c335c9745",
-"title": "NP or PA - Per Diem - Optum, Skilled Nursing Facilities - Lane Co., OR",
-"city": "Springfield",
-"employer": "UnitedHealth Group",
-"url": "https://careers.unitedhealthgroup.com/job/-/-/34088/100780817696?gad_source=7&dclid=CKmchrrr35cDFdK7HgIdBD4ffQ#UnitedStatesOregonSpringfield?src=JB-22428&utm_source=directemployers.org&utm_medium=job_posting&utm_campaign=Enterprise&utm_content=niche_site&utm_term=437581320&ss=paid",
-"days": 40,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "9d84b8a1b0ce",
 "title": "shift supervisor - Store# 11201, CROSSROADS CENTER - SPRINGFIELD",
 "city": "Springfield",
@@ -31150,16 +28680,6 @@
 "route": "Reposted by a job board"
 },
 {
-"id": "5a521034620a",
-"title": "Brand Ambassador OR– Consumer Electronics Retailer Continuity Program",
-"city": "Springfield",
-"employer": "Acosta Group",
-"url": "https://acosta.jobs/springfield-or/brand-ambassador-or-consumer-electronics-retailer-continuity-program/A43E6383A32444E19F91AE3C38314278/job/?vs=1&utm_source=USNLx.com-DE&utm_medium=NLX&utm_campaign=USNLx.com",
-"days": 100,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
 "id": "eadbd0c1bfe0",
 "title": "Licensed Practical Nurse - LPN LVN - Dialysis",
 "city": "Springfield",
@@ -31266,16 +28786,6 @@
 "employer": "UnitedHealth Group",
 "url": "https://careers.unitedhealthgroup.com/job/-/-/34088/86251876384?src=JB-22428&utm_source=directemployers.org&utm_medium=job_posting&utm_campaign=Enterprise&utm_content=niche_site&utm_term=437581320&ss=paid&gad_source=7&dclid=CJOCzrrr35cDFSEl4wIdfcM2EQ",
 "days": 226,
-"soc": "",
-"route": "Employer's hiring site"
-},
-{
-"id": "c975d26b1417",
-"title": "Carside",
-"city": "Springfield",
-"employer": "Flynn Applebee's",
-"url": "https://olivia.paradox.ai/co/FlynnGroup/Job?job_id=P1-315289-21&posting_type=1&source=directemployers&utm_source=directemployers.com&utm_medium=paid&referer=https%3A%2F%2Fwww.directemployers.com%2F",
-"days": 232,
 "soc": "",
 "route": "Employer's hiring site"
 },
@@ -31518,16 +29028,6 @@
 "days": 37,
 "soc": "",
 "route": "Reposted by a job board"
-},
-{
-"id": "a498864b0ed9",
-"title": "NP or PA - Per Diem - Optum, Skilled Nursing Facilities - Lane Co., OR",
-"city": "Cottage Grove",
-"employer": "UnitedHealth Group",
-"url": "https://careers.unitedhealthgroup.com/job/-/-/34088/100780817696?gad_source=7&dclid=CN22_rrr35cDFTiuHgIdg_oD8g#UnitedStatesOregonCottageGrove?src=JB-22428&utm_source=directemployers.org&utm_medium=job_posting&utm_campaign=Enterprise&utm_content=niche_site&utm_term=437581320&ss=paid",
-"days": 40,
-"soc": "",
-"route": "Employer's hiring site"
 },
 {
 "id": "1bf359cc8142",
@@ -31948,15 +29448,5 @@
 "days": 34,
 "soc": "",
 "route": "Reposted by a job board"
-},
-{
-"id": "87346df5ac0e",
-"title": "Millwright",
-"city": "Noti",
-"employer": "Tradesmen International, Inc.",
-"url": "https://careers.tradesmeninternational.com/noti-or/millwright/503594C349E44B2394F740AEE34161BB/job/?vs=1&utm_source=USNLx.com-DE&utm_medium=NLX&utm_campaign=USNLx.com",
-"days": 45,
-"soc": "",
-"route": "Employer's hiring site"
 }
 ]

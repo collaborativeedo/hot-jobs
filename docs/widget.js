@@ -140,7 +140,7 @@
     "Food & beverage": "Alimentos y bebidas", "Bioscience": "Biociencias",
     "Nonprofit & social services": "Organizaciones sin fines de lucro y servicios sociales",
     "Real estate & property": "Bienes raíces y propiedades", "Engineering & professional services": "Ingeniería y servicios profesionales",
-    "Staffing agency": "Agencia de empleo", "Remote": "Remoto",
+    "Staffing agency": "Agencia de empleo", "Remote": "Remoto", "Public safety & security": "Seguridad pública y protección", "Cleaning & grounds": "Limpieza y mantenimiento de áreas verdes",
     "Full-time": "Tiempo completo", "Part-time": "Medio tiempo", "Temporary or seasonal": "Temporal o de temporada", "Not stated": "No indicado"
   };
   var EASE = ["bus", "no_degree", "training", "fair_chance"];

@@ -1,17 +1,4 @@
 {
-"0000512952a2": {
-"city": "Eugene",
-"employer": "Technology Integration Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Employee Benefits",
-"type": "Other"
-},
 "000d1cc6ff5d": {
 "city": "Eugene",
 "employer": "Managed Health Resource",
@@ -57,19 +44,6 @@
 "misses": 26,
 "soc": "537065",
 "title": "Overnight Task Team Associate - Part Time"
-},
-"002b28517f92": {
-"city": "Eugene",
-"employer": "Thermo Fisher Scientific",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Saved jobs (0)",
-"type": "Other"
 },
 "002cb975b2a5": {
 "city": "Eugene",
@@ -656,19 +630,6 @@
 "misses": 1,
 "soc": "291141",
 "title": "Registered Nurses"
-},
-"026b244d19ae": {
-"city": "Eugene",
-"employer": "MLD Technologies",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "DoD SkillBridge Program",
-"type": "Other"
 },
 "027767fdd0f8": {
 "city": "Springfield",
@@ -1890,19 +1851,6 @@
 "title": "Cooks/Cashiers",
 "type": "Hospitality & leisure"
 },
-"07184034aa2f": {
-"city": "Eugene",
-"employer": "Jordan Schnitzer Museum of Art",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Learn more and apply",
-"type": "Other"
-},
 "073507ef6ef0": {
 "city": "Eugene",
 "closed": "2026-10-17",
@@ -2010,19 +1958,6 @@
 "misses": 19,
 "soc": "252011",
 "title": "Child Care Professionals"
-},
-"07787580eba4": {
-"city": "Eugene",
-"employer": "UnitedHealth Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Primary Care Advanced Practice Clinician (NP/PA) | 4 Day Work Week | Eugene, OR - Crescent Medical Clinic",
-"type": "Healthcare & human services"
 },
 "077e72ab4ed5": {
 "city": "Springfield",
@@ -2487,19 +2422,6 @@
 "title": "In-Home Caregivers",
 "type": "Healthcare & human services"
 },
-"093070ec2b59": {
-"city": "Eugene",
-"employer": "Northwest Industrial Staffing",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Seasonal Wood Production",
-"type": "Manufacturing"
-},
 "0935824451d5": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -2532,19 +2454,6 @@
 "misses": 24,
 "soc": "472031",
 "title": "Concrete Carpenters"
-},
-"09435e3d7a2e": {
-"city": "Eugene",
-"employer": "UO School of Journalism & Comm",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Sign up for Handshake",
-"type": "Other"
 },
 "0951723e3da6": {
 "city": "Junction City",
@@ -2745,19 +2654,6 @@
 "source": "OED",
 "title": "Part-time Nabisco Merchandiser/Order Writer",
 "type": "Transportation & logistics"
-},
-"0a27e59347b5": {
-"city": "Eugene",
-"employer": "RISE Services",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Opportunity Center",
-"type": "Other"
 },
 "0a30be14117d": {
 "city": "Eugene",
@@ -2993,19 +2889,6 @@
 "source": "taleo",
 "title": "Assistant Managers",
 "type": "Retail & sales"
-},
-"0b348f79a995": {
-"city": "Eugene",
-"employer": "US Air Force Supervisor",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Careers",
-"type": "Other"
 },
 "0b3def4abf1d": {
 "city": "Springfield",
@@ -3659,19 +3542,6 @@
 "title": "Inside Sales Representatives",
 "type": "Retail & sales"
 },
-"0d23016b87d8": {
-"city": "Eugene",
-"employer": "Murphy Company",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "GENERAL PLANT UTILITY --Eugene",
-"type": "Other"
-},
 "0d2d674f9c75": {
 "city": "Eugene",
 "employer": "Mazzetti Gba",
@@ -3756,19 +3626,6 @@
 "source": "Employer direct",
 "title": "Registered Nurse - Emergency --1100 - 2330",
 "type": "Healthcare & human services"
-},
-"0d744c3b476e": {
-"city": "Eugene",
-"employer": "Eugene Wetlands",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Students and Graduates",
-"type": "Other"
 },
 "0d8ec95ea97b": {
 "city": "Springfield",
@@ -3901,19 +3758,6 @@
 "soc": "",
 "title": "Human Services Professional I, II, III, IV - Kauai District"
 },
-"0dd30edde903": {
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Supply Chain",
-"type": "Other"
-},
 "0dd7975afbc0": {
 "city": "Eugene",
 "employer": "",
@@ -3939,19 +3783,6 @@
 "source": "OED",
 "title": "Personal Banker Cal Young Road",
 "type": "Finance & accounting"
-},
-"0e02eefc16ac": {
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Stores & Retail Management",
-"type": "Retail & sales"
 },
 "0e08989013b1": {
 "city": "Eugene",
@@ -4809,19 +4640,6 @@
 "source": "Employer direct",
 "title": "Phlebotomist II Territory",
 "type": "Healthcare & human services"
-},
-"116ace4615b7": {
-"city": "Eugene",
-"employer": "Erb Memorial Union",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Student Jobs",
-"type": "Other"
 },
 "1172a650e68a": {
 "city": "Florence",
@@ -5748,19 +5566,6 @@
 "title": "In-Home Physician Part Time - Eugene",
 "type": "Healthcare & human services"
 },
-"1488666c7cc0": {
-"city": "Eugene",
-"employer": "Anheuser-Busch",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Locations",
-"type": "Other"
-},
 "1495f84a32d6": {
 "city": "Eugene",
 "employer": "U-Box Moving-Stge-West Eugene",
@@ -5773,19 +5578,6 @@
 "source": "Employer direct",
 "title": "Mechanical Express Specialist",
 "type": "Construction & trades"
-},
-"1497c75ef3d8": {
-"city": "Springfield",
-"employer": "Options Counseling Svc",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "HERE",
-"type": "Other"
 },
 "149fcf55a9bb": {
 "city": "Springfield",
@@ -5816,19 +5608,6 @@
 "misses": 23,
 "soc": "411011",
 "title": "ASST STORE MGR in OAKRIDGE OR S17448"
-},
-"14dc717a2f91": {
-"city": "Cottage Grove",
-"employer": "Ata Black Belt & Academy",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Full Job Posting",
-"type": "Other"
 },
 "14de688867ee": {
 "city": "Cottage Grove",
@@ -6078,19 +5857,6 @@
 "source": "National Labor Exchange",
 "title": "Accountant",
 "type": "Finance & accounting"
-},
-"15a52b57b40a": {
-"city": "Eugene",
-"employer": "Bath & Body Works",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Job Areas",
-"type": "Other"
 },
 "15aca2dbd6aa": {
 "city": "Eugene",
@@ -6504,19 +6270,6 @@
 "title": "Residential Care Associate II-5858",
 "type": "Healthcare & human services"
 },
-"1756e06358d1": {
-"city": "Eugene",
-"employer": "Selectemp",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "FAQs",
-"type": "Other"
-},
 "175e3e45bb32": {
 "city": "Springfield",
 "closed": "2026-10-17",
@@ -6575,19 +6328,6 @@
 "source": "diversityjobs",
 "title": "Human Resources Coordinators",
 "type": "Management & business"
-},
-"17833639a866": {
-"city": "Eugene",
-"employer": "Anheuser-Busch",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Departments",
-"type": "Other"
 },
 "180a9e04bd45": {
 "city": "Eugene",
@@ -6674,19 +6414,6 @@
 "title": "Packaging Operators",
 "type": "Manufacturing"
 },
-"18604adac99b": {
-"city": "Eugene",
-"employer": "Willamette Oaks-A Lifeminded",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "GET THE DETAILS",
-"type": "Other"
-},
 "1862c9547d68": {
 "city": "Springfield",
 "closed": "2026-10-25",
@@ -6705,19 +6432,6 @@
 "misses": 1,
 "soc": "414011",
 "title": "Neuroscience Sales Representatives"
-},
-"1866bd538181": {
-"city": "Eugene",
-"employer": "QXO",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Français (Canada)",
-"type": "Other"
 },
 "1870dc8165fd": {
 "city": "Coburg",
@@ -6920,19 +6634,6 @@
 "misses": 23,
 "soc": "311128",
 "title": "Youth Care Professionals"
-},
-"192bea1cb2f7": {
-"city": "Eugene",
-"employer": "Red Lobster",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Career Path",
-"type": "Other"
 },
 "1931e3273af0": {
 "city": "Springfield",
@@ -7460,19 +7161,6 @@
 "title": "Registered Nurses Resident",
 "type": "Healthcare & human services"
 },
-"1ae7812ed75b": {
-"city": "Eugene",
-"employer": "MLD Technologies",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Explore Locations & Divisions",
-"type": "Other"
-},
 "1aeaf1262c71": {
 "city": "Eugene",
 "closed": "2026-10-12",
@@ -7629,19 +7317,6 @@
 "source": "simplyhired",
 "title": "Medical Assistants",
 "type": "Healthcare & human services"
-},
-"1b6fdfd8a3bd": {
-"city": "Eugene",
-"employer": "Sherwin-Williams",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "2027 Management & Sales Training Program (Cascade)",
-"type": "Retail & sales"
 },
 "1b7103ec8ca5": {
 "city": "Springfield",
@@ -8351,19 +8026,6 @@
 "title": "Front End Entry Level",
 "type": "Retail & sales"
 },
-"1e08c3a3308b": {
-"city": "Eugene",
-"employer": "Audiology Professionals A",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Learn more.",
-"type": "Other"
-},
 "1e1aa506fa81": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -8750,19 +8412,6 @@
 "title": "Senior Transportation Project Engineer 1",
 "type": "Engineering & science"
 },
-"1f79bcd71ea2": {
-"city": "Eugene",
-"employer": "Staffing Partners",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Employee Docs",
-"type": "Other"
-},
 "1f7cc38e5066": {
 "city": "Eugene",
 "employer": "Walmart",
@@ -9095,19 +8744,6 @@
 "title": "Housepeople",
 "type": "Hospitality & leisure"
 },
-"208364c0c69a": {
-"city": "Eugene",
-"employer": "Buffalo Exchange",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Entry-Level Buyer – Nashville (East) Entry Level Buyer Full TimePart Time Nashville Tennessee More Details",
-"type": "Other"
-},
 "208fcf7d1424": {
 "city": "Eugene",
 "employer": "",
@@ -9198,19 +8834,6 @@
 "soc": "291141",
 "title": "Registered Nurses"
 },
-"20d8e1ede0dd": {
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "#img-oh6slafb3kod8334qlp2i3np",
-"type": "Other"
-},
 "20d904e72011": {
 "city": "Eugene",
 "employer": "Rexius Forest By-Products",
@@ -9252,19 +8875,6 @@
 "misses": 28,
 "soc": "",
 "title": "Teacher Grade 1 - Lyon"
-},
-"2109d1e0cc03": {
-"city": "Eugene",
-"employer": "Employers Overload",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "SEARCH JOBS / APPLY NOW",
-"type": "Other"
 },
 "2113667d8e84": {
 "city": "Eugene",
@@ -9364,19 +8974,6 @@
 "misses": 14,
 "soc": "537062",
 "title": "Warehouse Shift Managers"
-},
-"21846272c992": {
-"city": "Eugene",
-"employer": "Grain Millers",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Temp Positions",
-"type": "Other"
 },
 "21a621ceebe3": {
 "city": "Eugene",
@@ -9656,19 +9253,6 @@
 "misses": 18,
 "soc": "291141",
 "title": "PACU Registered Nurses"
-},
-"229aaab26ed6": {
-"city": "Eugene",
-"employer": "PF Chang's",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Busser",
-"type": "Other"
 },
 "229e577a0c4b": {
 "city": "Lane County",
@@ -10004,19 +9588,6 @@
 "soc": "434051",
 "title": "Customer Service Advisors"
 },
-"240b3e58179f": {
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "#img-t4a7pb4lywbnk4cupxl75tko",
-"type": "Other"
-},
 "24107b6b61cf": {
 "city": "Eugene",
 "employer": "Blanton Studios",
@@ -10245,19 +9816,6 @@
 "misses": 20,
 "soc": "352021",
 "title": "Crews"
-},
-"249d866288e7": {
-"city": "Eugene",
-"employer": "Murphy Company",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "MILLWRIGHT --Eugene",
-"type": "Construction & trades"
 },
 "24cae9efca53": {
 "city": "Eugene",
@@ -10622,19 +10180,6 @@
 "misses": 24,
 "soc": "211093",
 "title": "Life Enrichment Assistants"
-},
-"25e845098bf7": {
-"city": "Creswell",
-"employer": "Renew Consulting",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Counseling & Therapy Career Paths",
-"type": "Healthcare & human services"
 },
 "25eb53512429": {
 "city": "Springfield",
@@ -11971,19 +11516,6 @@
 "soc": "292052",
 "title": "Pharmacy Technicians"
 },
-"2a4568cbad2b": {
-"city": "Eugene",
-"employer": "Civil Air Patrol Oregon Wing",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "CDI, HCT",
-"type": "Other"
-},
 "2a71203df0fb": {
 "city": "Eugene",
 "closed": "2026-10-10",
@@ -12446,32 +11978,6 @@
 "source": "simplyhired",
 "title": "Registered Nurses",
 "type": "Healthcare & human services"
-},
-"2c1d985abbd7": {
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Launch your career",
-"type": "Other"
-},
-"2c1dfa2c2bc2": {
-"city": "Springfield",
-"employer": "Springfield Museum",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "City of Springfield Job Opportunities",
-"type": "Other"
 },
 "2c33b572480d": {
 "city": "Eugene",
@@ -13440,19 +12946,6 @@
 "soc": "252011",
 "title": "After School Teachers"
 },
-"2fbd526330ac": {
-"city": "Eugene",
-"employer": "Technology Integration Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Join TIG",
-"type": "Other"
-},
 "2fd4aa2afb9b": {
 "city": "Eugene",
 "employer": "Mvh",
@@ -13760,19 +13253,6 @@
 "soc": "311128",
 "title": "Direct Support Professionals/Caregivers"
 },
-"316ae775cc57": {
-"city": "Lowell",
-"employer": "Fall Creek Farm & Nursery",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "EXPLORE OPEN POSITIONS AT FALL CREEK®",
-"type": "Other"
-},
 "31767d1924d9": {
 "city": "Springfield",
 "employer": "McKenzie-Willamette Medical Center",
@@ -13795,19 +13275,6 @@
 "misses": 23,
 "soc": "119179",
 "title": "Health and Wellness Directors"
-},
-"318c12151d5c": {
-"city": "Eugene",
-"employer": "Eugene Wetlands",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Individuals with Disabilities",
-"type": "Other"
 },
 "3191953ce0a8": {
 "city": "Eugene",
@@ -14342,19 +13809,6 @@
 "soc": "311128",
 "title": "In-Home Caregivers"
 },
-"33d65d79072c": {
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Military",
-"type": "Other"
-},
 "33e02aabcaed": {
 "city": "Veneta",
 "closed": "2026-10-14",
@@ -14645,19 +14099,6 @@
 "title": "Project Managers",
 "type": "Management & business"
 },
-"35138e368b44": {
-"city": "Eugene",
-"employer": "Buffalo Exchange",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Entry-Level Buyer – Richmond (Carytown) Entry Level Buyer Full TimePart Time Richmond Virginia More Details",
-"type": "Other"
-},
 "353aad87d662": {
 "city": "Eugene",
 "employer": "",
@@ -14856,19 +14297,6 @@
 "title": "Instrument and Controls Technicians",
 "type": "Construction & trades"
 },
-"35cfca9aba7c": {
-"city": "Springfield",
-"employer": "Hobby Lobby",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Career Map",
-"type": "Other"
-},
 "35d805933206": {
 "city": "Eugene",
 "employer": "",
@@ -14904,19 +14332,6 @@
 "misses": 20,
 "soc": "192041",
 "title": "Environmental Services Specialists"
-},
-"35f0818d773e": {
-"city": "Eugene",
-"employer": "Automotive Service Parts",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Jobbers",
-"type": "Other"
 },
 "35f1c1683998": {
 "city": "Eugene",
@@ -14969,19 +14384,6 @@
 "misses": 16,
 "soc": "259045",
 "title": "Special Educational Assistants"
-},
-"360515280393": {
-"city": "Eugene",
-"employer": "Enterprise Mobility",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Sales Management Trainee",
-"type": "Retail & sales"
 },
 "36186bb41b4e": {
 "city": "Springfield",
@@ -15107,19 +14509,6 @@
 "title": "Local Sort Supervisors",
 "type": "Transportation & logistics"
 },
-"36d82833b757": {
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Careers Toggle submenu",
-"type": "Other"
-},
 "36d97c870763": {
 "city": "Springfield",
 "closed": "2026-10-10",
@@ -15226,19 +14615,6 @@
 "soc": "211012",
 "title": "Recovery Coaches"
 },
-"37390fe22cda": {
-"city": "Eugene",
-"employer": "Technology Integration Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Equal Opportunity",
-"type": "Other"
-},
 "373993a9f745": {
 "city": "Eugene",
 "closed": "2026-10-10",
@@ -15281,19 +14657,6 @@
 "misses": 23,
 "soc": "411011",
 "title": "LEAD SALES ASSOCIATE-PT in VENETA OR S21478"
-},
-"376dfa752451": {
-"city": "Eugene",
-"employer": "Oregon Community Foundation",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Opportunity for All, Affirmatively",
-"type": "Other"
 },
 "3777d7c0d026": {
 "city": "Springfield",
@@ -15357,19 +14720,6 @@
 "misses": 20,
 "soc": "",
 "title": "Field Service Representative (PT) / Market - SS - OR - Eugene"
-},
-"37b1fa074da1": {
-"city": "Eugene",
-"employer": "Superior Fab Steel",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Page 3",
-"type": "Other"
 },
 "37be5ed17298": {
 "city": "Eugene",
@@ -15472,19 +14822,6 @@
 "source": "indeed",
 "title": "Front Desk Schedulers",
 "type": "Office & customer service"
-},
-"37f42ed66005": {
-"city": "Creswell",
-"employer": "Renew Consulting",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Autism Services Career Paths",
-"type": "Other"
 },
 "37f89493a95f": {
 "city": "Eugene",
@@ -16591,19 +15928,6 @@
 "soc": "291123",
 "title": "Physical Therapist Clinical Directors"
 },
-"3cf39d0d0467": {
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Search open positions",
-"type": "Other"
-},
 "3cfb079dcacc": {
 "city": "Eugene",
 "closed": "2026-10-16",
@@ -16752,19 +16076,6 @@
 "title": "Machine Tenders",
 "type": "Manufacturing"
 },
-"3d9e0aad6af9": {
-"city": "Eugene",
-"employer": "Zoomcare",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Imaging View Jobs",
-"type": "Other"
-},
 "3db55d9be593": {
 "city": "Eugene",
 "closed": "2026-10-21",
@@ -16896,19 +16207,6 @@
 "misses": 1,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
-},
-"3e3b627f77ae": {
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Summit Bank",
-"type": "Other"
 },
 "3e5012f8bd3b": {
 "city": "Eugene",
@@ -17098,19 +16396,6 @@
 "title": "Technical Support Managers",
 "type": "Technology"
 },
-"3f18f4cef2c3": {
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Discover special hiring paths",
-"type": "Other"
-},
 "3f1a6a29f2bb": {
 "city": "Eugene",
 "employer": "City of Eugene",
@@ -17145,19 +16430,6 @@
 "misses": 1,
 "soc": "413091",
 "title": "Flooring Sales Specialists"
-},
-"3f2256f8e930": {
-"city": "Springfield",
-"employer": "Crunch",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Spanish",
-"type": "Other"
 },
 "3f24b69f33ce": {
 "city": "Eugene",
@@ -17293,19 +16565,6 @@
 "source": "simplyhired",
 "title": "Talent Acquisition Specialists",
 "type": "Management & business"
-},
-"3fb0071edf82": {
-"city": "Eugene",
-"employer": "UnitedHealth Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Pediatrician | Crescent Clinic - Eugene, OR",
-"type": "Healthcare & human services"
 },
 "3fb315a66620": {
 "city": "Springfield",
@@ -17588,19 +16847,6 @@
 "title": "Tire Technician - Eugene #30",
 "type": "Construction & trades"
 },
-"40a74b254566": {
-"city": "Eugene",
-"employer": "Buffalo Exchange",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Entry-Level Buyer – Bellingham (Downtown) Entry Level Buyer Full TimePart Time Bellingham Washington More Details",
-"type": "Other"
-},
 "40b809e549cb": {
 "city": "Springfield",
 "closed": "2026-10-10",
@@ -17827,19 +17073,6 @@
 "misses": 33,
 "soc": "412031",
 "title": "Retail Sales Store Managers"
-},
-"41834879224a": {
-"city": "Springfield",
-"employer": "KPD Insurance",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "+ more jobs",
-"type": "Other"
 },
 "418c82efa6a3": {
 "city": "Eugene",
@@ -18149,19 +17382,6 @@
 "title": "Bookseller - Temporary",
 "type": "Retail & sales"
 },
-"4227453e3ffe": {
-"city": "Florence",
-"employer": "Elderberry Square",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Transportation",
-"type": "Other"
-},
 "4238e7238d9c": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -18417,19 +17637,6 @@
 "misses": 8,
 "soc": "435071",
 "title": "Fulfillment Associates"
-},
-"42ef51b7c4be": {
-"city": "Springfield",
-"employer": "Dave's Hot Chicken",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "$23.50*/HR - Shift Manager - Dave's Hot Chicken (1047)",
-"type": "Management & business"
 },
 "42f0cd91d168": {
 "city": "Florence",
@@ -18719,19 +17926,6 @@
 "title": "Delivery Material Handler / Roof Loader (96)",
 "type": "Transportation & logistics"
 },
-"43d5576a9517": {
-"city": "Eugene",
-"employer": "Superior Fab Steel",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Page 2",
-"type": "Other"
-},
 "43ed5ae0e45a": {
 "city": "Springfield",
 "employer": "Pivotal Health Solutions",
@@ -18958,19 +18152,6 @@
 "source": "Employer direct",
 "title": "Assistant General Manager at Dave’s Hot Chicken in Eugene/Springfield!",
 "type": "Management & business"
-},
-"45021521cf0d": {
-"city": "Eugene",
-"employer": "Keller Supply",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Job Accounts",
-"type": "Finance & accounting"
 },
 "45245cebd0fe": {
 "city": "Lane County",
@@ -19616,19 +18797,6 @@
 "title": "JEWELRY/SALES SPECIALIST",
 "type": "Retail & sales"
 },
-"46e6304b1a22": {
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "113071",
-"source": "Employer direct",
-"title": "Customer Service",
-"type": "Management & business"
-},
 "46f052e9e984": {
 "city": "Eugene",
 "employer": "Post Consumer Brands",
@@ -19641,19 +18809,6 @@
 "source": "postholdings",
 "title": "Packaging Operators",
 "type": "Manufacturing"
-},
-"46f05dc9a26a": {
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Gateway NWCU",
-"type": "Other"
 },
 "46f24a0bae56": {
 "city": "Springfield",
@@ -19860,32 +19015,6 @@
 "soc": "396012",
 "title": "Directors of Women's and Children's Services"
 },
-"478a58e677b2": {
-"city": "Eugene",
-"employer": "Roto-Rooter Plbg-Water Cleanup",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "SALES & MANAGEMENT",
-"type": "Retail & sales"
-},
-"4790a70e8ae7": {
-"city": "Eugene",
-"employer": "Zoomcare",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Corporate/ Operations View Jobs",
-"type": "Other"
-},
 "47a68e5272b1": {
 "city": "Cottage Grove",
 "employer": "Lane County",
@@ -19960,19 +19089,6 @@
 "source": "National Labor Exchange",
 "title": "Registered Nurse (RN) FT Night",
 "type": "Healthcare & human services"
-},
-"47df28c6da5a": {
-"city": "Eugene",
-"employer": "Gates Sheridan",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Workshops and Events",
-"type": "Other"
 },
 "47ee6a246aee": {
 "city": "Eugene",
@@ -20411,19 +19527,6 @@
 "title": "Home Lending Advisors",
 "type": "Other"
 },
-"4a1c03354c2b": {
-"city": "Eugene",
-"employer": "MLD Technologies",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Candidate Resources",
-"type": "Other"
-},
 "4a2cd53b6447": {
 "city": "Eugene",
 "closed": "2026-10-09",
@@ -20631,45 +19734,6 @@
 "misses": 26,
 "soc": "",
 "title": "On-Call Groundskeeper Pool 2026/2027"
-},
-"4ad65726a66f": {
-"city": "Eugene",
-"employer": "Pacific University Eugene",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Careers at Pacific",
-"type": "Other"
-},
-"4ad80bc3b804": {
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Oak Grove School",
-"type": "Childcare & education"
-},
-"4adb363c016a": {
-"city": "Florence",
-"employer": "Elderberry Square",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Programming",
-"type": "Other"
 },
 "4af81ee0d8d5": {
 "city": "Springfield",
@@ -22172,19 +21236,6 @@
 "soc": "292031",
 "title": "Pathology Laboratory Technicians"
 },
-"4ffcbdc5373e": {
-"city": "Eugene",
-"employer": "LCC",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Job Training Center",
-"type": "Other"
-},
 "500575567955": {
 "city": "Springfield",
 "closed": "2026-10-10",
@@ -22409,19 +21460,6 @@
 "title": "School Health Assistants",
 "type": "Healthcare & human services"
 },
-"50df018f51de": {
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "here.",
-"type": "Other"
-},
 "50e028c22ce1": {
 "city": "Springfield",
 "employer": "",
@@ -22493,19 +21531,6 @@
 "misses": 27,
 "soc": "436013",
 "title": "Medical Receptionists"
-},
-"512612b67ff2": {
-"city": "Cottage Grove",
-"employer": "Starfire Lumber",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "499041",
-"source": "Employer direct",
-"title": "Millwright",
-"type": "Construction & trades"
 },
 "5129917e5efa": {
 "city": "Eugene",
@@ -22605,19 +21630,6 @@
 "title": "Custodians",
 "type": "Transportation & logistics"
 },
-"516c6d7d810e": {
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Who We Are",
-"type": "Other"
-},
 "5189867949ed": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -22695,19 +21707,6 @@
 "source": "simplyhired",
 "title": "Guest Experience Leaders",
 "type": "Retail & sales"
-},
-"5204d4fb2d4c": {
-"city": "Eugene",
-"employer": "University-Or Sponsored Prjcts",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Opportunities",
-"type": "Other"
 },
 "5212be034053": {
 "city": "Eugene",
@@ -22983,19 +21982,6 @@
 "misses": 23,
 "soc": "291123",
 "title": "Physical Therapist"
-},
-"531282f3fa3d": {
-"city": "Eugene",
-"employer": "Reddy Ice",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Reddy Ice Job Search",
-"type": "Other"
 },
 "5321d3a7f5be": {
 "city": "Springfield",
@@ -24524,19 +23510,6 @@
 "soc": "119111",
 "title": "Care Management Clinician Team Lead"
 },
-"586087301666": {
-"city": "Florence",
-"employer": "Elderberry Square",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Dining",
-"type": "Other"
-},
 "5879f37fbd1c": {
 "city": "Creswell",
 "closed": "2026-10-28",
@@ -25000,19 +23973,6 @@
 "soc": "436014",
 "title": "Office Coordinators"
 },
-"5a0b11cd7805": {
-"city": "Florence",
-"employer": "C & M Stables",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Application (PDF)",
-"type": "Other"
-},
 "5a161b79c8e5": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -25068,19 +24028,6 @@
 "source": "ulta",
 "title": "Task Managers",
 "type": "Transportation & logistics"
-},
-"5a521034620a": {
-"city": "Springfield",
-"employer": "Acosta Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Brand Ambassador OR– Consumer Electronics Retailer Continuity Program",
-"type": "Retail & sales"
 },
 "5a580e4ab7be": {
 "city": "Springfield",
@@ -26119,19 +25066,6 @@
 "soc": "412031",
 "title": "Front End Entry Level"
 },
-"5deebb1e4f30": {
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Retail Stores",
-"type": "Retail & sales"
-},
 "5df1d9a5f1be": {
 "city": "Springfield",
 "employer": "Walgreens",
@@ -26295,19 +25229,6 @@
 "misses": 18,
 "soc": "291141",
 "title": "Detox Registered Nurses"
-},
-"5e5c0bfe367a": {
-"city": "Eugene",
-"employer": "Aaron's",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Saved jobs (0)",
-"type": "Other"
 },
 "5e61a2861728": {
 "city": "Eugene",
@@ -27368,32 +26289,6 @@
 "title": "Shift Operators",
 "type": "Manufacturing"
 },
-"61a43e406d58": {
-"city": "Eugene",
-"employer": "Waterford Grand",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Dining Services Do rewarding work that feeds people, body and soul.",
-"type": "Other"
-},
-"61a9b5224460": {
-"city": "Springfield",
-"employer": "Dave's Hot Chicken",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "$19.90*/HR - Closing Team Member - Dave's Hot Chicken (1047)",
-"type": "Other"
-},
 "61aef1feac54": {
 "city": "Springfield",
 "employer": "Best Buy",
@@ -28214,19 +27109,6 @@
 "source": "simplyhired",
 "title": "Behavior Intervention Assistants",
 "type": "Childcare & education"
-},
-"6497641b0ec9": {
-"city": "Cottage Grove",
-"employer": "Craig Oil",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Internships Gain real-world experience.",
-"type": "Other"
 },
 "64987dd0764c": {
 "city": "Lane County",
@@ -30045,19 +28927,6 @@
 "soc": "291021",
 "title": "Dentists"
 },
-"6b9dc7b86826": {
-"city": "Eugene",
-"employer": "Aurorahousing LP",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "APPLYING FOR HOUSING",
-"type": "Other"
-},
 "6bad43fd2131": {
 "city": "Cottage Grove",
 "closed": "2026-10-18",
@@ -30345,19 +29214,6 @@
 "title": "Prior Authorization Specialists",
 "type": "Office & customer service"
 },
-"6cc06da5c5a7": {
-"city": "Eugene",
-"employer": "Eugene Wetlands",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Veterans",
-"type": "Other"
-},
 "6cc0927d1caf": {
 "city": "Eugene",
 "closed": "2026-10-12",
@@ -30612,19 +29468,6 @@
 "misses": 18,
 "soc": "273091",
 "title": "School Sign Language Interpreters"
-},
-"6d9d5b1af4be": {
-"city": "Junction City",
-"employer": "Mat Transportation",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "CAREERS AT SWIFT",
-"type": "Other"
 },
 "6db08bed42e8": {
 "city": "Eugene",
@@ -31035,19 +29878,6 @@
 "soc": "",
 "title": "Certified Nursing Assistant (CNA) - Days"
 },
-"6ee4455725d7": {
-"city": "Eugene",
-"employer": "Zoomcare",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Patient Support View Jobs",
-"type": "Healthcare & human services"
-},
 "6ee811232415": {
 "city": "Eugene",
 "employer": "Willakenzie Animal Clinic",
@@ -31188,19 +30018,6 @@
 "source": "indeed",
 "title": "CDL-A Truck Drivers",
 "type": "Transportation & logistics"
-},
-"6fb2830d20d3": {
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Yogi Tea",
-"type": "Other"
 },
 "6fb526836f0f": {
 "city": "Eugene",
@@ -32482,19 +31299,6 @@
 "title": "Customer Service Advocates",
 "type": "Office & customer service"
 },
-"741c48798568": {
-"city": "Eugene",
-"employer": "Eugene Country Club",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Greenskeeper",
-"type": "Other"
-},
 "74259fd7a2f6": {
 "city": "Eugene",
 "employer": "",
@@ -32662,19 +31466,6 @@
 "source": "Employer direct",
 "title": "Part-Time Nursing Assistant Program Director and Instructor",
 "type": "Childcare & education"
-},
-"74a4e3338f29": {
-"city": "Eugene",
-"employer": "Rexius Forest By-Products",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "",
-"type": "Other"
 },
 "74b7dfe2aab3": {
 "city": "Eugene",
@@ -33623,19 +32414,6 @@
 "title": "Clinical Research Coordinators",
 "type": "Management & business"
 },
-"77a5428c7b71": {
-"city": "Springfield",
-"employer": "Dave's Hot Chicken",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "$19.90*/HR Prep Team Member Dave's Hot Chicken (1047)",
-"type": "Other"
-},
 "77a89e8c825e": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -33970,19 +32748,6 @@
 "source": "Employer direct",
 "title": "Prime Vendor Analyst",
 "type": "Management & business"
-},
-"78839e76d780": {
-"city": "Springfield",
-"employer": "Springfield Museum",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Brainfuse JobNow",
-"type": "Other"
 },
 "788aa0ce9ba7": {
 "city": "Springfield",
@@ -34391,19 +33156,6 @@
 "source": "simplyhired",
 "title": "Fine Jewelry Sales Associates",
 "type": "Retail & sales"
-},
-"79ef49f22b44": {
-"city": "Eugene",
-"employer": "Audiology Professionals A",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Learn more.",
-"type": "Other"
 },
 "79f0a2fd9df0": {
 "city": "Eugene",
@@ -35267,19 +34019,6 @@
 "soc": "499098",
 "title": "Maintenance Worker 1 / 2"
 },
-"7cccd0281703": {
-"city": "Eugene",
-"employer": "Roto-Rooter Plbg-Water Cleanup",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Why Roto-Rooter",
-"type": "Other"
-},
 "7ccddf6e651f": {
 "city": "Cottage Grove",
 "employer": "",
@@ -35410,19 +34149,6 @@
 "misses": 16,
 "soc": "372012",
 "title": "Facility Housekeeper"
-},
-"7d7513c82f85": {
-"city": "Eugene",
-"employer": "Convoy Supply",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "FIND YOUR CAREER",
-"type": "Other"
 },
 "7d81ad21ef21": {
 "city": "Eugene",
@@ -36128,19 +34854,6 @@
 "title": "Sr Director, Global Customer Services - (USA REMOTE)",
 "type": "Management & business"
 },
-"8066d6570bc6": {
-"city": "Eugene",
-"employer": "Bath & Body Works",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Search Open Roles",
-"type": "Other"
-},
 "8067aa5dd5bb": {
 "city": "Eugene",
 "employer": "Alsco",
@@ -36189,19 +34902,6 @@
 "source": "successfactors",
 "title": "Technical Support Engineers",
 "type": "Technology"
-},
-"809c335c9745": {
-"city": "Springfield",
-"employer": "UnitedHealth Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "NP or PA - Per Diem - Optum, Skilled Nursing Facilities - Lane Co., OR",
-"type": "Healthcare & human services"
 },
 "80a3c6623b35": {
 "city": "Eugene",
@@ -37056,32 +35756,6 @@
 "soc": "533032",
 "title": "Regional CDL-A Truck Drivers"
 },
-"83b003d2665d": {
-"city": "Eugene",
-"employer": "Abeton",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Browse open job listings",
-"type": "Other"
-},
-"83c645c29085": {
-"city": "Eugene",
-"employer": "Convoy Supply",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Career Paths",
-"type": "Other"
-},
 "83ea5e74805f": {
 "city": "Eugene",
 "closed": "2026-10-21",
@@ -37518,19 +36192,6 @@
 "source": "OED",
 "title": "Radiology Tech, Pool - McKenzie Surgery Center",
 "type": "Healthcare & human services"
-},
-"854d8c3e8c23": {
-"city": "Eugene",
-"employer": "Buffalo Exchange",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "111021",
-"source": "Employer direct",
-"title": "Associate Store Manager – Nashville (East) Associate Store Manager Full Time Nashville Tennessee More Details",
-"type": "Management & business"
 },
 "854eb2994d0d": {
 "city": "Springfield",
@@ -38107,19 +36768,6 @@
 "soc": "291229",
 "title": "Gastroenterology Physicians/Gastroenterologists"
 },
-"87346df5ac0e": {
-"city": "Noti",
-"employer": "Tradesmen International, Inc.",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Millwright",
-"type": "Construction & trades"
-},
 "873abbcd2a2a": {
 "city": "Eugene",
 "employer": "",
@@ -38606,19 +37254,6 @@
 "soc": "414012",
 "title": "Sales Representatives"
 },
-"8919f4785b05": {
-"city": "Eugene",
-"employer": "Metro By T-Mobile",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Sr Mobile Expert",
-"type": "Other"
-},
 "8920906eba78": {
 "city": "Springfield",
 "closed": "2026-10-23",
@@ -38992,32 +37627,6 @@
 "misses": 16,
 "soc": "359011",
 "title": "Food and Beverage General Managers"
-},
-"8a069ec3d7d1": {
-"city": "Eugene",
-"employer": "Legacy Laboratory Eugene",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Life at Legacy",
-"type": "Other"
-},
-"8a1829e204a2": {
-"city": "Eugene",
-"employer": "Payne West Insurance",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Start a Career",
-"type": "Other"
 },
 "8a1ac5e6b314": {
 "city": "Eugene",
@@ -39586,19 +38195,6 @@
 "soc": "434051",
 "title": "Customer Service Specialists"
 },
-"8be662ea4197": {
-"city": "Lowell",
-"employer": "Fall Creek Farm & Nursery",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Our Locations",
-"type": "Other"
-},
 "8be8ba0f0353": {
 "city": "Eugene",
 "employer": "Cascade Health",
@@ -39986,19 +38582,6 @@
 "misses": 18,
 "soc": "352021",
 "title": "Meat - Seafood Clerk"
-},
-"8d43c54bc367": {
-"city": "Cottage Grove",
-"employer": "Strata Information Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Ellucian Colleague Contractors (1099)",
-"type": "Other"
 },
 "8d515b63e469": {
 "city": "Cottage Grove",
@@ -40402,19 +38985,6 @@
 "title": "HVAC TECHNICAL FIELD LEADER",
 "type": "Construction & trades"
 },
-"8e8264291b86": {
-"city": "Eugene",
-"employer": "Pods",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Saved jobs (0)",
-"type": "Other"
-},
 "8e85d1a9db7b": {
 "city": "Eugene",
 "employer": "Lane County",
@@ -40520,19 +39090,6 @@
 "misses": 22,
 "soc": "119051",
 "title": "General Managers"
-},
-"8ebd96a8174a": {
-"city": "Eugene",
-"employer": "Emerald Insurance Agcy KS City",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Read more about our benefits",
-"type": "Other"
 },
 "8ec7022c34d9": {
 "city": "Springfield",
@@ -40679,19 +39236,6 @@
 "source": "Employer direct",
 "title": "Clinician View Jobs Connect with a recruiter",
 "type": "Healthcare & human services"
-},
-"8f67e453a659": {
-"city": "Eugene",
-"employer": "Anheuser-Busch",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Early Career Opportunities",
-"type": "Other"
 },
 "8f6caa368ba2": {
 "city": "Eugene",
@@ -40919,19 +39463,6 @@
 "title": "2027 Forestry Field Office Internship – Emerging Talent Summer Experience Program",
 "type": "Natural resources"
 },
-"9034134b956a": {
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Who We Are",
-"type": "Other"
-},
 "90426e1b45ff": {
 "city": "Springfield",
 "employer": "Walmart",
@@ -41137,19 +39668,6 @@
 "misses": 18,
 "soc": "412031",
 "title": "Front End Entry Level"
-},
-"90ea3d2ba768": {
-"city": "Eugene",
-"employer": "Dave's Hot Chicken",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "$19.90*/HR - Team Member - Dave's Hot Chicken (1060)",
-"type": "Other"
 },
 "90eea014ed41": {
 "city": "Eugene",
@@ -41418,19 +39936,6 @@
 "source": "simplyhired",
 "title": "Leasing Agents",
 "type": "Retail & sales"
-},
-"920b6bfd9597": {
-"city": "Springfield",
-"employer": "COIT Cleaning & Restoration",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "LOAD MORE",
-"type": "Other"
 },
 "9213011932a4": {
 "city": "Eugene",
@@ -42490,19 +40995,6 @@
 "soc": "411011",
 "title": "Mechanical Department Managers"
 },
-"9597422c1a51": {
-"city": "Springfield",
-"employer": "Numotion",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Next Page",
-"type": "Other"
-},
 "9598633eeb92": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -42661,19 +41153,6 @@
 "title": "COMMERCIAL LINES Sales Intern – Summer 2027 Salt Lake City",
 "type": "Retail & sales"
 },
-"95df4d1111a4": {
-"city": "Florence",
-"employer": "Elderberry Square",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Memory Care",
-"type": "Other"
-},
 "95e35b85bf7b": {
 "city": "Lane County",
 "employer": "Lane County",
@@ -42732,19 +41211,6 @@
 "source": "indeed",
 "title": "Staff Pharmacists",
 "type": "Healthcare & human services"
-},
-"960d952eff57": {
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Corporate Headquarters",
-"type": "Other"
 },
 "9611562ec2d7": {
 "city": "Florence",
@@ -42883,19 +41349,6 @@
 "soc": "411011",
 "title": "Managers"
 },
-"96507c3e9ed0": {
-"city": "Springfield",
-"employer": "Crunch",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Spanish",
-"type": "Other"
-},
 "9664479475ed": {
 "city": "Junction City",
 "closed": "2026-10-28",
@@ -42931,19 +41384,6 @@
 "source": "National Labor Exchange",
 "title": "Substitute School Bus Driver",
 "type": "Childcare & education"
-},
-"96745f21e863": {
-"city": "Eugene",
-"employer": "Hub International",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Personal Lines Concierge",
-"type": "Other"
 },
 "96746dad3ad0": {
 "city": "Eugene",
@@ -43172,19 +41612,6 @@
 "misses": 25,
 "soc": "435061",
 "title": "Scheduling Clerks"
-},
-"97268590575b": {
-"city": "Eugene",
-"employer": "Dave's Hot Chicken",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "$19.90*/HR Prep Team Member Dave's Hot Chicken (1060)",
-"type": "Other"
 },
 "972d937f32c6": {
 "city": "Eugene",
@@ -44090,19 +42517,6 @@
 "soc": "537065",
 "title": "Grocery/Bulk Department Managers"
 },
-"99790fa98ae9": {
-"city": "Eugene",
-"employer": "Civil Air Patrol Oregon Wing",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Job Postings",
-"type": "Other"
-},
 "9984c08f9728": {
 "city": "Florence",
 "closed": "2026-10-28",
@@ -44296,19 +42710,6 @@
 "source": "oraclecloud",
 "title": "Digital Executive Producers",
 "type": "Creative & media"
-},
-"9a1e957431db": {
-"city": "Eugene",
-"employer": "UnitedHealth Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "NP or PA - Per Diem - Optum, Skilled Nursing Facilities - Lane Co., OR",
-"type": "Healthcare & human services"
 },
 "9a30a284bf83": {
 "city": "Eugene",
@@ -44525,19 +42926,6 @@
 "soc": "291031",
 "title": "Dietitians"
 },
-"9ae5c6762ea6": {
-"city": "Eugene",
-"employer": "Selectemp",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "How to Be a Rockstar Employee: Your No-Nonsense Guide",
-"type": "Other"
-},
 "9ae8332e7d05": {
 "city": "Florence",
 "employer": "PeaceHealth",
@@ -44617,19 +43005,6 @@
 "title": "Patient Access Representatives",
 "type": "Healthcare & human services"
 },
-"9b2061bf3bce": {
-"city": "Eugene",
-"employer": "Roto-Rooter Plbg-Water Cleanup",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "WATER DAMAGE CLEANUP",
-"type": "Other"
-},
 "9b32d59f4e63": {
 "city": "Eugene",
 "closed": "2026-10-20",
@@ -44652,19 +43027,6 @@
 "source": "simplyhired",
 "title": "Prep Cooks",
 "type": "Hospitality & leisure"
-},
-"9b35f6ba8d82": {
-"city": "Springfield",
-"employer": "Parr Lumber Springfield",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Lumber Contractor Sales",
-"type": "Retail & sales"
 },
 "9b382c2784da": {
 "city": "Eugene",
@@ -46239,19 +44601,6 @@
 "title": "Mechanical Engineers",
 "type": "Engineering & science"
 },
-"a0186d88fec1": {
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Requisition programs",
-"type": "Other"
-},
 "a02993f81ad7": {
 "city": "Eugene",
 "employer": "Lithia Motors",
@@ -46836,19 +45185,6 @@
 "soc": "292053",
 "title": "Resident Care Associates"
 },
-"a1d83eb00dea": {
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "KVAL",
-"type": "Other"
-},
 "a1fd674b4da4": {
 "city": "Eugene",
 "employer": "City of Eugene",
@@ -47180,19 +45516,6 @@
 "soc": "",
 "source": "National Labor Exchange",
 "title": "Cardiac Cath Tech",
-"type": "Other"
-},
-"a2acc75d4ac4": {
-"city": "Eugene",
-"employer": "Anheuser-Busch",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "EXPLORE BENEFITS",
 "type": "Other"
 },
 "a2b50e4c0d02": {
@@ -47675,19 +45998,6 @@
 "title": "Patient Care Technician - PCT",
 "type": "Healthcare & human services"
 },
-"a498864b0ed9": {
-"city": "Cottage Grove",
-"employer": "UnitedHealth Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "NP or PA - Per Diem - Optum, Skilled Nursing Facilities - Lane Co., OR",
-"type": "Healthcare & human services"
-},
 "a49d5b3d58c9": {
 "city": "Springfield",
 "closed": "2026-10-23",
@@ -47964,19 +46274,6 @@
 "source": "sharecare",
 "title": "Caregivers",
 "type": "Healthcare & human services"
-},
-"a5b04a86a401": {
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "#img-usy4x06wz1sd6bysuit9ssw7",
-"type": "Other"
 },
 "a5b1e173003d": {
 "city": "Eugene",
@@ -48387,19 +46684,6 @@
 "soc": "537065",
 "title": "Overnight Stock Associate"
 },
-"a6ffb627077f": {
-"city": "Springfield",
-"employer": "Springfield High School",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Career and Technical Education",
-"type": "Childcare & education"
-},
 "a7080b07b1d1": {
 "city": "Eugene",
 "closed": "2026-10-10",
@@ -48591,19 +46875,6 @@
 "soc": "372011",
 "source": "paycomonline",
 "title": "Custodians",
-"type": "Other"
-},
-"a7ca2445dce1": {
-"city": "Junction City",
-"employer": "Holt Homes-Rolling Meadows",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Expression Of Interest (Future Roles)",
 "type": "Other"
 },
 "a7d15fec7085": {
@@ -48967,19 +47238,6 @@
 "source": "Employer direct",
 "title": "Full-Time Physical Therapist",
 "type": "Healthcare & human services"
-},
-"a8cc4aba6980": {
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Internships & Early Career",
-"type": "Other"
 },
 "a8d5328dc326": {
 "city": "Eugene",
@@ -49553,19 +47811,6 @@
 "title": "Seasonal Retail Commission Sales Associate - Fine Jewelry, Eugene Valley River Center",
 "type": "Retail & sales"
 },
-"aa313ef7e7b2": {
-"city": "Eugene",
-"employer": "Sherwin-Williams",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "2026 Management & Sales Training Program (Cascade)",
-"type": "Retail & sales"
-},
 "aa4d920493d4": {
 "city": "Eugene",
 "closed": "2026-10-12",
@@ -49846,19 +48091,6 @@
 "misses": 11,
 "soc": "",
 "title": "Student Employment - Specialist I, Interior Design"
-},
-"ab63d3941c75": {
-"city": "Springfield",
-"employer": "Brookdale Springfield Brrwd",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "EXPLORE CAREERS AT EMERITUS",
-"type": "Other"
 },
 "ab68ee091948": {
 "city": "Eugene",
@@ -50658,19 +48890,6 @@
 "title": "Raw Materials Buyers",
 "type": "Management & business"
 },
-"ada2490c7137": {
-"city": "Eugene",
-"employer": "Staffing Partners",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Refer a Friend",
-"type": "Other"
-},
 "adb008b72a87": {
 "city": "Eugene",
 "employer": "",
@@ -50769,19 +48988,6 @@
 "misses": 13,
 "soc": "396012",
 "title": "Community Assistants"
-},
-"adf061a6eae3": {
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Service Delivery",
-"type": "Transportation & logistics"
 },
 "ae02c7cb26f1": {
 "city": "Lane County",
@@ -50970,19 +49176,6 @@
 "misses": 13,
 "soc": "113012",
 "title": "Business Office Managers"
-},
-"ae9b50b6b614": {
-"city": "Eugene",
-"employer": "Diamond Parking",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "here",
-"type": "Other"
 },
 "ae9dc2316a3a": {
 "city": "Eugene",
@@ -52073,19 +50266,6 @@
 "soc": "537064",
 "title": "Feeders"
 },
-"b2d63b562385": {
-"city": "Eugene",
-"employer": "Eugene Wetlands",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Careers in BLM",
-"type": "Other"
-},
 "b2e89cf37c15": {
 "city": "Eugene",
 "employer": "Dollar General",
@@ -52968,19 +51148,6 @@
 "soc": "",
 "title": "Business Operations Specialist II - Lokahi HCM Project (Leave), 606660 (2026-03808)"
 },
-"b5d9d42c2aeb": {
-"city": "Eugene",
-"employer": "Caliber Collision",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Saved Jobs (0)",
-"type": "Other"
-},
 "b5e87bf59397": {
 "city": "Springfield",
 "employer": "Chipotle",
@@ -53432,19 +51599,6 @@
 "soc": "291171",
 "title": "OHSU Clinical APP Associate / APP-Outpatient/Ambulatory (Located in Eugene, OR)"
 },
-"b77d0bd0398b": {
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Buying & Planning Offices",
-"type": "Office & customer service"
-},
 "b77e486ac005": {
 "city": "Florence",
 "closed": "2026-10-15",
@@ -53615,19 +51769,6 @@
 "misses": 15,
 "soc": "",
 "title": "Echocardiography Instructor"
-},
-"b86642903af0": {
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Data Logic",
-"type": "Technology"
 },
 "b866f303829e": {
 "city": "Eugene",
@@ -53833,19 +51974,6 @@
 "title": "Merchandiser/Stocker - Hub",
 "type": "Transportation & logistics"
 },
-"b8fe62b8a293": {
-"city": "Eugene",
-"employer": "Convoy Supply",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Why Convoy",
-"type": "Other"
-},
 "b90de9e14128": {
 "city": "Eugene",
 "employer": "Lane County",
@@ -53953,19 +52081,6 @@
 "source": "indeed",
 "title": "Community Health Workers",
 "type": "Healthcare & human services"
-},
-"b96ac8df0674": {
-"city": "Florence",
-"employer": "Elderberry Square",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Sales & Marketing",
-"type": "Retail & sales"
 },
 "b96ca212e704": {
 "city": "Eugene",
@@ -54097,19 +52212,6 @@
 "source": "indeed",
 "title": "Certified Nursing Assistants",
 "type": "Healthcare & human services"
-},
-"b9d5742c60cd": {
-"city": "Eugene",
-"employer": "Honorable Mustafa T Kasubhai",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Openings",
-"type": "Other"
 },
 "b9de0373e351": {
 "city": "Springfield",
@@ -54454,32 +52556,6 @@
 "source": "OED",
 "title": "Christmas Kettle Worker",
 "type": "Manufacturing"
-},
-"baccc8d1e0ec": {
-"city": "Oakridge",
-"employer": "Ray's Food Place",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Employment Application",
-"type": "Other"
-},
-"bae24d3b6051": {
-"city": "Eugene",
-"employer": "Honorable Mustafa T Kasubhai",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Your Employee Rights",
-"type": "Other"
 },
 "bae330355f79": {
 "city": "Eugene",
@@ -55179,32 +53255,6 @@
 "soc": "131151",
 "title": "Sales Enablement Managers"
 },
-"bdd0a7315223": {
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Get an internship",
-"type": "Other"
-},
-"bdd2a03787a4": {
-"city": "Eugene",
-"employer": "Gates Sheridan",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "RESOURCES",
-"type": "Other"
-},
 "bdf1526ed25b": {
 "city": "Eugene",
 "employer": "Hillside Heights Rehabilitation Center",
@@ -55521,19 +53571,6 @@
 "soc": "433071",
 "title": "Tellers"
 },
-"bed24eba8d31": {
-"city": "Eugene",
-"employer": "Dave's Hot Chicken",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": true,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "$19.90/HR Closing Shift Team Member Dave's Hot Chicken (1060)",
-"type": "Other"
-},
 "bed68b65eade": {
 "city": "Eugene",
 "employer": "Robert Half",
@@ -55696,19 +53733,6 @@
 "title": "Vans: Seasonal Sales Associate - Valley River Center",
 "type": "Retail & sales"
 },
-"bf6d5a35f481": {
-"city": "Eugene",
-"employer": "Hiv Alliance",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Careers & Internships",
-"type": "Other"
-},
 "bf72b50b5bea": {
 "city": "Lane County",
 "closed": "2026-10-21",
@@ -55728,19 +53752,6 @@
 "misses": 20,
 "soc": "319091",
 "title": "Dental Assistants"
-},
-"bf7b2bb4414f": {
-"city": "Eugene",
-"employer": "Rotech Healthcare",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "JOB OPPORTUNITIES",
-"type": "Other"
 },
 "bf8b210441fd": {
 "city": "Eugene",
@@ -56844,19 +54855,6 @@
 "title": "Seasonal Associates",
 "type": "Manufacturing"
 },
-"c2b288386142": {
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Veteran Career Transition",
-"type": "Other"
-},
 "c2b419bb556e": {
 "city": "Eugene",
 "employer": "Fresenius Kidney Care",
@@ -57204,19 +55202,6 @@
 "soc": "499052",
 "title": "Splicers"
 },
-"c416c58563f8": {
-"city": "Eugene",
-"employer": "Honorable Mustafa T Kasubhai",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Applying to E-File in Your Case",
-"type": "Other"
-},
 "c42a024ff439": {
 "city": "Eugene",
 "closed": "2026-10-23",
@@ -57333,19 +55318,6 @@
 "source": "Employer direct",
 "title": "Sales Associate (Seasonal)",
 "type": "Retail & sales"
-},
-"c48e78ee3b6f": {
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "#img-emb9t5j5e0pj8lnk1vop7uha",
-"type": "Other"
 },
 "c499f7fa2cee": {
 "city": "Springfield",
@@ -57942,19 +55914,6 @@
 "title": "Store Managers",
 "type": "Retail & sales"
 },
-"c66d6e029e7a": {
-"city": "Springfield",
-"employer": "Dave's Hot Chicken",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "$19.90*/HR - Team Member - Dave's Hot Chicken (1047)",
-"type": "Other"
-},
 "c66e29efa35d": {
 "city": "Coburg",
 "closed": "2026-10-28",
@@ -58405,19 +56364,6 @@
 "title": "BUSINESS DEVELOPMENT W3 Intern – Summer 2027 St. Petersburg",
 "type": "Other"
 },
-"c7cb09abfc09": {
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Resources and related links",
-"type": "Other"
-},
 "c7de9cc3314e": {
 "city": "Eugene",
 "employer": "CDM Smith",
@@ -58515,19 +56461,6 @@
 "source": "Employer direct",
 "title": "Receiving Supervisor",
 "type": "Management & business"
-},
-"c82695649136": {
-"city": "Cottage Grove",
-"employer": "Strata Information Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Ellucian Banner Contractor (1099)",
-"type": "Other"
 },
 "c826c9a0ad0b": {
 "city": "Eugene",
@@ -58702,19 +56635,6 @@
 "misses": 13,
 "soc": "195012",
 "title": "Health and Safety Coordinators"
-},
-"c8b741d2b43c": {
-"city": "Eugene",
-"employer": "Oregon Association-Clean Water",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Wastewater Treatment",
-"type": "Other"
 },
 "c8b763a04f49": {
 "city": "Eugene",
@@ -59118,19 +57038,6 @@
 "title": "Pre-Services Coordinators",
 "type": "Office & customer service"
 },
-"c975d26b1417": {
-"city": "Springfield",
-"employer": "Flynn Applebee's",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Carside",
-"type": "Other"
-},
 "c9822911ef07": {
 "city": "Eugene",
 "employer": "",
@@ -59477,19 +57384,6 @@
 "source": "Employer direct",
 "title": "Custodian, Temporary",
 "type": "Other"
-},
-"ca5f9af0c3c9": {
-"city": "Eugene",
-"employer": "Farwest Steel Corporation",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Warehouse Person - Rebar",
-"type": "Transportation & logistics"
 },
 "ca640aea0bc0": {
 "city": "Eugene",
@@ -59856,19 +57750,6 @@
 "title": "Front Desk Representatives",
 "type": "Other"
 },
-"cba07a0d75e0": {
-"city": "Eugene",
-"employer": "Zoomcare",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Join Us",
-"type": "Other"
-},
 "cba2b03b8180": {
 "city": "Eugene",
 "employer": "PeaceHealth",
@@ -60103,19 +57984,6 @@
 "soc": "412031",
 "title": "Internet Sales Assistants"
 },
-"cc53b1a7f813": {
-"city": "Cottage Grove",
-"employer": "Ata Black Belt & Academy",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Full Job Posting",
-"type": "Other"
-},
 "cc57d29be2a9": {
 "city": "Springfield",
 "closed": "2026-10-18",
@@ -60267,19 +58135,6 @@
 "misses": 21,
 "soc": "999999",
 "title": "Victim Advocates"
-},
-"ccc9041268f7": {
-"city": "Cottage Grove",
-"employer": "Craig Oil",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Early-career opportunities for graduates Start your career with purpose.",
-"type": "Other"
 },
 "cccb6b8c2070": {
 "city": "Eugene",
@@ -60597,19 +58452,6 @@
 "soc": "435061",
 "title": "Sales Appointment Setters"
 },
-"ce2ea48472b5": {
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Distribution Centers",
-"type": "Other"
-},
 "ce31707cd435": {
 "city": "Springfield",
 "employer": "PeaceHealth",
@@ -60847,19 +58689,6 @@
 "misses": 31,
 "soc": "339032",
 "title": "Unarmed Security Officers"
-},
-"cecf6f78b2b0": {
-"city": "Eugene",
-"employer": "Honorable Mustafa T Kasubhai",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Pro Bono Program",
-"type": "Other"
 },
 "ced5887905d3": {
 "city": "Eugene",
@@ -61507,19 +59336,6 @@
 "title": "Teller",
 "type": "Finance & accounting"
 },
-"d0bf5eda4283": {
-"city": "Eugene",
-"employer": "Components Handling",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "SEE OUR OPENINGS",
-"type": "Other"
-},
 "d0c373e9a0eb": {
 "city": "Eugene",
 "employer": "CVS Health",
@@ -61532,19 +59348,6 @@
 "source": "National Labor Exchange",
 "title": "Temporary Pharmacist in Charge",
 "type": "Healthcare & human services"
-},
-"d0c739b22094": {
-"city": "Eugene",
-"employer": "Elwood Staffing",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Job Seeker FAQ",
-"type": "Other"
 },
 "d0cf5e8aaa89": {
 "city": "Eugene",
@@ -61802,19 +59605,6 @@
 "soc": "533051",
 "source": "indeed",
 "title": "School Bus Drivers",
-"type": "Transportation & logistics"
-},
-"d19d151440ff": {
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Jet Expedited Delivery",
 "type": "Transportation & logistics"
 },
 "d1a3fcef47f0": {
@@ -62189,19 +59979,6 @@
 "source": "indeed",
 "title": "Data Center Technicians",
 "type": "Technology"
-},
-"d2b80b70ae43": {
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Corporate Function",
-"type": "Other"
 },
 "d2ba5cf671ee": {
 "city": "Eugene",
@@ -63179,19 +60956,6 @@
 "title": "Bridge & Structures Designer (Engineer 1)",
 "type": "Construction & trades"
 },
-"d5f8127e27fd": {
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Beauty Services",
-"type": "Other"
-},
 "d604fad51283": {
 "city": "Eugene",
 "employer": "The Home Depot",
@@ -63606,19 +61370,6 @@
 "soc": "291051",
 "title": "Staff Pharmacist"
 },
-"d72633470471": {
-"city": "Springfield",
-"employer": "COIT Cleaning & Restoration",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "WATCH THE VIDEO",
-"type": "Other"
-},
 "d72686e75ebc": {
 "city": "Eugene",
 "employer": "Mvh",
@@ -63783,19 +61534,6 @@
 "misses": 29,
 "soc": "291171",
 "title": "Psychiatric Nurse Practitioners"
-},
-"d7e82a02f1f7": {
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Knight Library",
-"type": "Other"
 },
 "d7e984397e56": {
 "city": "Lane County",
@@ -64009,19 +61747,6 @@
 "misses": 26,
 "soc": "291141",
 "title": "Cardiac Surgeons"
-},
-"d8babda7d62b": {
-"city": "Eugene",
-"employer": "Anheuser-Busch",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "EXPLORE MORE",
-"type": "Other"
 },
 "d8c995c0fa07": {
 "city": "Lane County",
@@ -64341,19 +62066,6 @@
 "soc": "119111",
 "title": "Patient Access Supervisors"
 },
-"d9da3b687696": {
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Sales",
-"type": "Retail & sales"
-},
 "d9e2ebdc5e53": {
 "city": "Springfield",
 "employer": "Sunglass Hut",
@@ -64403,19 +62115,6 @@
 "title": "Laborer-Industrial Cleaning Tech",
 "type": "Construction & trades"
 },
-"da114d14f1df": {
-"city": "Eugene",
-"employer": "New Dream Child Care Ctr",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Employee Resources",
-"type": "Other"
-},
 "da21e89b3f35": {
 "city": "Springfield",
 "employer": "Chick-fil-A Springfield (Gateway)",
@@ -64424,19 +62123,6 @@
 "misses": 2,
 "soc": "",
 "title": "Show all open positions"
-},
-"da28c8977a8f": {
-"city": "Eugene",
-"employer": "Civil Air Patrol Oregon Wing",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Employment Opportunities RSS",
-"type": "Other"
 },
 "da3daa65d9ef": {
 "city": "Eugene",
@@ -65734,19 +63420,6 @@
 "soc": "434141",
 "title": "Relationship Banker II - Eugene (Mohawk-Northgate), OR (30hrs)"
 },
-"deae3b51e4d3": {
-"city": "Florence",
-"employer": "Elderberry Square",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Healthcare",
-"type": "Healthcare & human services"
-},
 "deb0e4929a88": {
 "city": "Eugene",
 "employer": "Lane County",
@@ -66308,19 +63981,6 @@
 "title": "Geotechnical Engineer 5",
 "type": "Engineering & science"
 },
-"e05a7d90b88b": {
-"city": "Springfield",
-"employer": "Firehouse Subs",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Job opportunities",
-"type": "Other"
-},
 "e05d8a99fad3": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -66376,19 +64036,6 @@
 "source": "Employer direct",
 "title": "Tax Reviewer - Seasonal Part Time Eugene Office",
 "type": "Office & customer service"
-},
-"e0a5ccdc97b6": {
-"city": "Eugene",
-"employer": "Selectemp",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "6 Tips For Writing a Resume That Brings Results",
-"type": "Other"
 },
 "e0ab095efd92": {
 "city": "Eugene",
@@ -67230,19 +64877,6 @@
 "title": "Account Manager I, Commercial Lines",
 "type": "Finance & accounting"
 },
-"e3c4bcfbfe62": {
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "#img-zjnu22784ra8owxfsw83w43s",
-"type": "Other"
-},
 "e3cd5dfa0005": {
 "city": "Eugene",
 "employer": "WorkSource Oregon",
@@ -67592,19 +65226,6 @@
 "title": "Meat-Seafood Managers",
 "type": "Retail & sales"
 },
-"e4dffc091c20": {
-"city": "Cottage Grove",
-"employer": "Tool Tech Lic",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Begin A New Work Journey",
-"type": "Other"
-},
 "e4f8956321c0": {
 "city": "Springfield",
 "employer": "",
@@ -67778,19 +65399,6 @@
 "misses": 29,
 "soc": "119051",
 "title": "Dining Services District Manager"
-},
-"e58e98ae6446": {
-"city": "Springfield",
-"employer": "Albertsons",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "412031",
-"source": "Employer direct",
-"title": "Retail Sales and Store Support",
-"type": "Retail & sales"
 },
 "e5907fbf8482": {
 "city": "Eugene",
@@ -67990,19 +65598,6 @@
 "soc": "119033",
 "title": "Graduate Program Coordinator"
 },
-"e624ff59bbb4": {
-"city": "Eugene",
-"employer": "Kinder Morgan-Eugene Terminal",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "#img-k5b25u0aqe26q6lhgvbcwz0v",
-"type": "Other"
-},
 "e63c9d462806": {
 "city": "Springfield",
 "closed": "2026-10-23",
@@ -68024,19 +65619,6 @@
 "soc": "414012",
 "source": "indeed",
 "title": "Neuroscience Account Managers",
-"type": "Retail & sales"
-},
-"e64b39026405": {
-"city": "Eugene",
-"employer": "Banter By Piercing Pagoda",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "412031",
-"source": "Employer direct",
-"title": "Sales Associate / Key Sales / Seasonal Opportunities - Banter by Piercing Pagoda - Valley River Center - Eugene, OR",
 "type": "Retail & sales"
 },
 "e6555a7100d2": {
@@ -68716,19 +66298,6 @@
 "title": "Psychiatric Nurse Practitioner",
 "type": "Healthcare & human services"
 },
-"e892c96b9c9e": {
-"city": "Springfield",
-"employer": "Ross Dress For Less",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Supply Chain & Distribution",
-"type": "Other"
-},
 "e89c193f7b72": {
 "city": "Cottage Grove",
 "closed": "2026-10-13",
@@ -68947,19 +66516,6 @@
 "soc": "472152",
 "title": "Drain Technicians"
 },
-"e9511db6f82f": {
-"city": "Eugene",
-"employer": "Dave's Hot Chicken",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "$23.50*/HR - Shift Manager - Dave's Hot Chicken (1060)",
-"type": "Management & business"
-},
 "e95ffd12d047": {
 "city": "Coburg",
 "closed": "2026-10-26",
@@ -69015,19 +66571,6 @@
 "misses": 27,
 "soc": "493023",
 "title": "Lead Automotive Technicians"
-},
-"e9a137e53d21": {
-"city": "Eugene",
-"employer": "Sinclair Broadcast Group",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "News Anchor - Reporter (Weekends)",
-"type": "Transportation & logistics"
 },
 "e9af65cb151a": {
 "city": "Eugene",
@@ -69231,19 +66774,6 @@
 "misses": 14,
 "soc": "272022",
 "title": "Varsity Head Coaches"
-},
-"ea1a2478954a": {
-"city": "Eugene",
-"employer": "Convoy Supply",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Health & Safety",
-"type": "Healthcare & human services"
 },
 "ea1aba82eecd": {
 "city": "Eugene",
@@ -69562,19 +67092,6 @@
 "misses": 4,
 "soc": "",
 "title": "Open & Accepting Applications"
-},
-"eb0e7a6ee7b9": {
-"city": "Florence",
-"employer": "Elderberry Square",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Administrative",
-"type": "Office & customer service"
 },
 "eb1b45b015ed": {
 "city": "Eugene",
@@ -69977,19 +67494,6 @@
 "title": "UM Coordinator I (Tuesday-Saturday)",
 "type": "Healthcare & human services"
 },
-"ecb581e323f4": {
-"city": "Eugene",
-"employer": "Oregon Ceiling & Acoustics",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Benson",
-"type": "Other"
-},
 "ecb95398638e": {
 "city": "Eugene",
 "closed": "2026-10-24",
@@ -70025,19 +67529,6 @@
 "source": "simplyhired",
 "title": "Premium Auditors",
 "type": "Finance & accounting"
-},
-"ecef24343121": {
-"city": "Eugene",
-"employer": "US General Svc Administration",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Elevate your professional career",
-"type": "Other"
 },
 "ecf3976c9434": {
 "city": "Coburg",
@@ -70086,19 +67577,6 @@
 "soc": "372011",
 "source": "simplyhired",
 "title": "Janitorial Cleaners",
-"type": "Other"
-},
-"ed2760fbbf56": {
-"city": "Springfield",
-"employer": "Budget Blinds",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "English (Canada)",
 "type": "Other"
 },
 "ed2e7e6554d7": {
@@ -70908,19 +68386,6 @@
 "title": "Scientist I, Manufacturing",
 "type": "Engineering & science"
 },
-"f019e775b765": {
-"city": "Eugene",
-"employer": "Ricoh Americas",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "University Programs",
-"type": "Other"
-},
 "f01af73ad216": {
 "city": "Springfield",
 "employer": "",
@@ -71118,19 +68583,6 @@
 "misses": 16,
 "soc": "292061",
 "title": "Licensed Practical Nurses/Care Coordinators"
-},
-"f0ced7470336": {
-"city": "Eugene",
-"employer": "Eugene Wetlands",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Find the best person to contact",
-"type": "Other"
 },
 "f0cf7bbf9c46": {
 "city": "Springfield",
@@ -73385,19 +70837,6 @@
 "title": "Shuttle Drivers",
 "type": "Transportation & logistics"
 },
-"f7f169ef6407": {
-"city": "Springfield",
-"employer": "ULTA Beauty",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Benefits and Career Development",
-"type": "Other"
-},
 "f7fe20e0880f": {
 "city": "Eugene",
 "closed": "2026-10-28",
@@ -73417,19 +70856,6 @@
 "misses": 20,
 "soc": "311131",
 "title": "Certified Nurse Aides"
-},
-"f808c2543338": {
-"city": "Eugene",
-"employer": "Eugene Springs Youth Orchestra",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Scholarship Application",
-"type": "Other"
 },
 "f80e73816006": {
 "city": "Eugene",
@@ -74144,19 +71570,6 @@
 "title": "Sonographer MFM",
 "type": "Other"
 },
-"fa12abf0ab14": {
-"city": "Eugene",
-"employer": "Roto-Rooter Plbg-Water Cleanup",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Veterans",
-"type": "Other"
-},
 "fa14a306dcb7": {
 "city": "Eugene",
 "employer": "",
@@ -74471,19 +71884,6 @@
 "soc": "311131",
 "title": "Certified Nursing Assistants"
 },
-"faf118de3bcd": {
-"city": "Cottage Grove",
-"employer": "Craig Oil",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Skilled craft Focus your skills. Build real projects.",
-"type": "Other"
-},
 "faf1a04a2a27": {
 "city": "Eugene",
 "closed": "2026-10-19",
@@ -74703,19 +72103,6 @@
 "misses": 24,
 "soc": "412031",
 "title": "Seasonal Retail Associates"
-},
-"fb70cd839d3b": {
-"city": "Eugene",
-"employer": "Oregon Association-Clean Water",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Clean Water Services website",
-"type": "Other"
 },
 "fb7f0aeba0e0": {
 "city": "Eugene",
@@ -75119,19 +72506,6 @@
 "soc": "311133",
 "title": "Mental Health Associates"
 },
-"fca7b0d899d6": {
-"city": "Eugene",
-"employer": "Flynn Applebee's",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "National Labor Exchange",
-"title": "Carside",
-"type": "Other"
-},
 "fcae57421bb5": {
 "city": "Eugene",
 "employer": "Bethel Schools",
@@ -75381,19 +72755,6 @@
 "misses": 27,
 "soc": "519199",
 "title": "Machine Operator I (6:00PM - 6:00AM) $22.50/hr. + $1.00/hr. Shift Differential"
-},
-"fd31fc5c84bc": {
-"city": "Eugene",
-"employer": "Thermo Fisher Scientific",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "Job Scams",
-"type": "Other"
 },
 "fd3339c75016": {
 "city": "Eugene",
@@ -75910,19 +73271,6 @@
 "misses": 28,
 "soc": "319097",
 "title": "Phlebotomists"
-},
-"fe9d462e5088": {
-"city": "Eugene",
-"employer": "Amnesty",
-"first_seen": "2026-10-29",
-"last_seen": "2026-10-29",
-"misses": 0,
-"posted_pay": false,
-"route": "Employer's hiring site",
-"soc": "",
-"source": "Employer direct",
-"title": "OUR VALUES",
-"type": "Other"
 },
 "fea7d70d4696": {
 "city": "Eugene",

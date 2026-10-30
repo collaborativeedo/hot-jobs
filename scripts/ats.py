@@ -71,6 +71,43 @@ _SOCIAL = re.compile(r"^(bluesky|facebook|instagram|linkedin|twitter|x|youtube|t
                      r"freshman .*|benefits (&|and) perks|careers blog|join our talent community|chair for rent|"
                      r"clinical|corporate|behavioral health operations|working at .*|federal benefits|"
                      r"general application.*|talent (community|network)|career (opportunities|fairs?)|our culture)$", re.I)
+_JOB_WORD = re.compile(r"\b(manager|manger|assistant|associate|technician|tech|specialist|coordinator|director|engineer|nurse|"
+                       r"driver|operator|officer|clerk|cleaner|custodian|janitor|coach|teacher|instructor|faculty|professor|"
+                       r"designer|developer|analyst|consultant|supervisor|lead|foreman|superintendent|cook|chef|server|"
+                       r"cashier|stylist|barber|therapist|counselor|aide|worker|laborer|attendant|representative|rep|agent|"
+                       r"advisor|adviser|planner|scientist|mlt|mls|medic|deputy|guard|security|leader|intern|apprentice|"
+                       r"orthodontist|dentist|hygienist|physician|surgeon|pharmacist|accountant|bookkeeper|recruiter|"
+                       r"receptionist|mechanic|electrician|plumber|carpenter|painter|welder|machinist|installer|inspector|"
+                       r"estimator|buyer|police|firefighter|paramedic|emt|trainer|caregiver|housekeeper|dishwasher|"
+                       r"bartender|barista|host|hostess|valet|porter|courier|loader|handler|picker|packer|stocker|"
+                       r"merchandiser|teller|banker|underwriter|adjuster|administrator|executive|president|officer|"
+                       r"head|chief|crew|staff|member|helper|apprentice|journeyman|journeyworker|lineman|operator|"
+                       r"veterinarian|groomer|kennel|lifeguard|librarian|paralegal|attorney|lawyer|editor|writer|"
+                       r"producer|photographer|artist|architect|surveyor|drafter|programmer|administrator|navigator|"
+                       r"educator|tutor|interpreter|translator|dispatcher|scheduler|estimator|controller|auditor|"
+                       r"para|paraeducator|substitute|nanny|provider|clinician|psychologist|social worker|"
+                       r"phlebotomist|radiologic|sonographer|respiratory|cna|lpn|rn|np|pa-c|dds|dmd|md|pathologist|childcare|"
+                       r"crewmember|teammate|entry level|folder|feeder|assessor|archaeologist|biologist|chemist|technologist|"
+                       r"interpreter|provider|producer|maker|shopper|reviewer|scholar|postdoc|in charge|baker|butcher|"
+                       r"professional|nutritionist|dietitian|\w+ologist)s?\b", re.I)
+_NOT_JOB = re.compile(r"^#|\(\d+\)|^(here|click here|learn more|apply|apply now|load more|view all|see all|"
+                      r"full job posting|saved jobs?|job areas|our locations|locations|who we are|equal opportunity|"
+                      r"job scams?|military|veterans|students|university programs|launch your career|start a career|"
+                      r"explore .*|search .*|career map|benefits( (and|&) (perks|career development))?|life at .*|.* careers?)\.?$|"
+                      r"\btips\b|\bsign up\b", re.I)
+
+
+def looks_like_job(title):
+    """True when a link's text reads like a job title rather than a menu item, heading or article."""
+    t = (title or "").strip()
+    if not t or _NOT_JOB.search(t) or _SOCIAL.match(t) or len(t.split()) > 14:
+        return False
+    if _JOB_WORD.search(t):
+        return True
+    import enrich  # a title the occupation rules recognize ("Server", "Welder") is a job too
+    return bool(enrich.soc_for_title(t, {}))
+
+
 _NOT_HERE = re.compile(r"\b(remote|portland|seattle|boise|sacramento|san francisco|los angeles|new york|chicago|denver|"
                         r"phoenix|dallas|houston|atlanta|boston|calgary|winnipeg|vancouver|toronto|montreal|edmonton|"
                         r"ottawa|bend|medford|salem|corvallis|albany|beaverton|hillsboro|tigard|gresham)\b|"
@@ -458,6 +495,8 @@ def pull_careers_page(f, src, browser):
             if (not t or len(t) < 4 or len(t) > 120 or _NAV.match(t) or not re.search(r"[A-Za-z]{3}", t)
                     or _JUNK.search(t) or _ELSEWHERE.search(t)):
                 continue
+            if not looks_like_job(t):
+                continue  # menu items, headings, articles ("Our Locations", "6 Tips for Writing a Resume")
             seen.add(h)
             rows.append({"title": t, "url": h, "loc": l["row"], "days": None})
             if len(rows) >= 60:
