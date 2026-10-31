@@ -351,5 +351,53 @@
     "minutes": 0.0
    }
   ]
+ },
+ {
+  "date": "2026-10-31T13:43+00:00",
+  "ok": true,
+  "notes": [
+   "QualityInfo: 2177 listings from 218 pages (reported 2176).",
+   "NLx: 869 postings read, 869 in Lane County towns, 25 new links followed, 2 still pointing at NLx, 0 outside Lane County.",
+   "NLx: 869 Lane County postings, 332 already on QualityInfo, 537 added; 305 QualityInfo postings got their employer name from NLx.",
+   "WorkSource pages: 2 read tonight, 0 failed, 453 on file.",
+   "Employer posting pages: 51 read tonight, 1 failed, 291 of 713 on file state pay.",
+   "Out of area: dropped 22 postings whose titles name another place (e.g. 'Real Estate Associate Agent (1099) - Bandon/Coos Bay').",
+   "Bus-stop tags: 1145 near, 174 not near, 1738 unknown (1634 without an employer address); geocoded 0/0 new addresses; 1135 LTD stops; 0s.",
+   "Fewer barriers: near bus 1144, no degree 1278, training 230, fair chance 31 of 3057 postings.",
+   "Dead links: checked 2306, dropped 194 ({'gone': 144, 'page says the job is closed': 49, 'redirected to a general page': 1}).",
+   "Employers to trace: 297 seen only secondhand (749 openings); 0 hiring systems added from their links.",
+   "Dashboard: 689 employers hiring, 1348 sources.",
+   "Widget: 1316 shown of 2863 postings."
+  ],
+  "steps": [
+   {
+    "step": "QualityInfo",
+    "minutes": 6.4
+   },
+   {
+    "step": "National Labor Exchange",
+    "minutes": 6.5
+   },
+   {
+    "step": "Employer hiring sites",
+    "minutes": 51.3
+   },
+   {
+    "step": "Posting pages (pay, details)",
+    "minutes": 0.3
+   },
+   {
+    "step": "Barrier tags",
+    "minutes": 0.1
+   },
+   {
+    "step": "Dead-link check",
+    "minutes": 0.5
+   },
+   {
+    "step": "Dashboard and archive",
+    "minutes": 0.0
+   }
+  ]
  }
 ]
