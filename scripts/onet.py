@@ -128,21 +128,35 @@ def build():
                     out.append(k)
             occ[s]["k"] = out[:60]
 
-    # Title index: every job title O*NET knows, kept only when it points to one occupation.
-    idx = defaultdict(set)
+    # Title index: every job title O*NET knows. A title O*NET lists under several occupations goes to the one whose
+    # workers reported it (O*NET's "sample of reported titles"), or failing that the occupation listing it most often;
+    # it's left out when that still doesn't single one out.
+    votes = defaultdict(Counter)
     for r in job_titles:
         s = soc6(r["O*NET-SOC Code"])
         for t in (r.get("Job Title"), r.get("Short Title")):
             if t:
-                idx[norm(t)].add(s)
+                votes[norm(t)][s] += 1
+    reported = defaultdict(set)
     for r in get("sample_of_reported_titles"):
-        idx[norm(r["Reported Job Title"])].add(soc6(r["O*NET-SOC Code"]))
+        reported[norm(r["Reported Job Title"])].add(soc6(r["O*NET-SOC Code"]))
     for s, o in occ.items():
         t = norm(o["t"])
-        idx[t].add(s)
+        reported[t].add(s)
         if t.endswith("s"):
-            idx[t[:-1]].add(s)  # "Pharmacy Technicians" -> "pharmacy technician"
-    titles = {t: next(iter(v)) for t, v in idx.items() if t and len(v) == 1}
+            reported[t[:-1]].add(s)  # "Pharmacy Technicians" -> "pharmacy technician"
+    titles = {}
+    for t in set(votes) | set(reported):
+        if not t:
+            continue
+        if len(reported.get(t, ())) == 1:
+            titles[t] = next(iter(reported[t]))
+            continue
+        c = votes.get(t)
+        if c:
+            top = c.most_common(2)
+            if len(top) == 1 or top[0][1] >= 2 * top[1][1]:
+                titles[t] = top[0][0]
     return {"version": VERSION, "credit": ("This page includes information from the O*NET 31.0 Database by the U.S. "
             "Department of Labor, Employment and Training Administration (USDOL/ETA). Used under the CC BY 4.0 license. "
             "O*NET® is a trademark of USDOL/ETA. Hot Jobs has modified the information; USDOL/ETA has not approved, "
