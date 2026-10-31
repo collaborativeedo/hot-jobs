@@ -95,24 +95,29 @@ def build():
     # Terms people search by: software and important skills/knowledge by name, plus the most distinctive words
     # in each occupation's task statements (TF-IDF), e.g. "forklift", "pallets", "spreadsheets", "patients".
     terms = defaultdict(list)
+    office = ("11", "13", "15", "17", "19", "21", "23", "25", "27", "29", "41", "43")  # software matters in these
     for r in get("software_skills"):
         s = soc6(r["O*NET-SOC Code"])
-        if r.get("Hot Technology") == "Y" or r.get("In Demand") == "Y":
+        if s[:2] in office and r.get("Hot Technology") == "Y":
             terms[s].append(r["Workplace Example"])
     for name in ("essential_skills", "transferable_skills", "knowledge"):
         for r in get(name):
             if r.get("Scale ID") == "IM" and float(r.get("Data Value") or 0) >= 3.5 and r.get("Recommend Suppress") != "Y":
                 terms[soc6(r["O*NET-SOC Code"])].append(r["Element Name"])
-    words = defaultdict(Counter)
-    for r in get("task_statements"):
-        for w in re.findall(r"[a-z][a-z-]{3,}", r["Task"].lower()):
-            if w not in STOP:
-                words[soc6(r["O*NET-SOC Code"])][w] += 1
-    df = Counter(w for c in words.values() for w in c)
-    n = len(words) or 1
-    for s, c in words.items():
-        scored = sorted(c, key=lambda w: -c[w] * math.log(n / df[w]))
-        terms[s] += scored[:25]
+    job_titles = get("job_titles")
+
+    def distinctive(rows, field, top):
+        words = defaultdict(Counter)
+        for r in rows:
+            for w in re.findall(r"\b[a-z]{4,}\b", (r.get(field) or "").lower()):
+                if w not in STOP:
+                    words[soc6(r["O*NET-SOC Code"])][w] += 1
+        df = Counter(w for c in words.values() for w in c)
+        n = len(words) or 1
+        for s, c in words.items():
+            terms[s] += sorted(c, key=lambda w: -c[w] * math.log(n / df[w]))[:top]
+    distinctive(job_titles, "Job Title", 15)        # "forklift", "reach", "phlebotomist"
+    distinctive(get("task_statements"), "Task", 25)  # "pallets", "spreadsheets", "patients"
     for s, t in terms.items():
         if s in occ:
             out, seen = [], set()
@@ -125,7 +130,7 @@ def build():
 
     # Title index: every job title O*NET knows, kept only when it points to one occupation.
     idx = defaultdict(set)
-    for r in get("job_titles"):
+    for r in job_titles:
         s = soc6(r["O*NET-SOC Code"])
         for t in (r.get("Job Title"), r.get("Short Title")):
             if t:
