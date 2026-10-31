@@ -30,7 +30,7 @@ OVERLAY = r"""
     transition:transform .7s cubic-bezier(.4,0,.2,1);transform:translate(640px,360px)}
   #tour-cur.tap{animation:tourTap .4s}
   @keyframes tourTap{0%{box-shadow:0 0 0 0 rgba(234,88,12,.6)}100%{box-shadow:0 0 0 22px rgba(234,88,12,0)}}
-  .tour-ring{outline:4px solid #ea580c !important;outline-offset:4px !important;border-radius:8px;transition:outline .2s}
+  .tour-ring{outline:4px solid #ea580c !important;outline-offset:3px !important;box-shadow:0 0 0 9px rgba(234,88,12,.22) !important;border-radius:8px}
   #tour-card{position:fixed;inset:0;z-index:2147483647;display:flex;flex-direction:column;align-items:center;justify-content:center;
     background:linear-gradient(135deg,#0f3d5e,#155e75);color:#fff;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
     opacity:0;transition:opacity .5s;pointer-events:none;text-align:center;padding:40px}
@@ -66,9 +66,10 @@ class Clip:
     def cap(self, text, ms=3200):
         self.p.evaluate("t => __tour.cap(t)", text)
         self.step += 1
+        self.wait(600)
         self.p.screenshot(path=str(OUT / f"clip-{self.n}-step-{self.step:02d}.png"))
         self.log.append({"clip": self.n, "step": self.step, "caption": text})
-        self.wait(ms)
+        self.wait(max(ms - 600, 300))
 
     def card(self, kicker, title, sub="", ms=3000):
         self.p.evaluate("([k,t,s]) => __tour.card(k,t,s)", [kicker, title, sub])
@@ -79,7 +80,7 @@ class Clip:
     def ring(self, sel, i=0):
         self.p.evaluate("([s,i]) => __tour.ring(s,i)", [sel, i])
 
-    def scroll_to(self, sel, i=0, offset=140):
+    def scroll_to(self, sel, i=0, offset=230):
         self.p.evaluate("""([s,i,o]) => { const e = document.querySelectorAll(s)[i]; if (!e) return;
             window.scrollTo({top: e.getBoundingClientRect().top + window.scrollY - o, behavior: 'smooth'}); }""", [sel, i, offset])
         self.wait(900)
@@ -130,7 +131,8 @@ def open_page(browser, n):
             except Exception:
                 pass
     page.evaluate(OVERLAY)
-    page.evaluate("() => { const r = document.querySelector('.lchj'); if (r) window.scrollTo({top: r.getBoundingClientRect().top + window.scrollY - 20}); }")
+    # The LWP site keeps its menu bar on screen: leave room for it when scrolling.
+    page.evaluate("() => { document.documentElement.style.scrollPaddingTop = '120px'; const r = document.querySelector('.lchj'); if (r) window.scrollTo({top: r.getBoundingClientRect().top + window.scrollY - 100}); }")
     page.wait_for_timeout(800)
     return ctx, page
 
@@ -203,26 +205,35 @@ def clip2(c, page):
 
 def clip3(c, page):
     c.card("Hot Jobs tutorial · 3 of 4", "Reading a listing", "What each line tells you")
-    i = page.evaluate("""() => [...document.querySelectorAll('.lchj-jobs li')].findIndex(li =>
-        li.querySelector('.lchj-pay:not(.typ)') && li.querySelector('.lchj-trust'))""")
-    i = max(i, 0)
-    sel = ".lchj-jobs li"
-    c.scroll_to(sel, i, offset=200)
-    c.ring(sel, i)
-    c.cap("Each listing shows the job, the employer, the town and the hours.")
-    c.ring(f"{sel}:nth-of-type({i + 1}) .lchj-pay")
+    find_posted = """() => { const li = [...document.querySelectorAll('.lchj-jobs li')].find(li =>
+        li.querySelector('.lchj-pay:not(.typ)') && li.querySelector('.lchj-trust') && li.querySelector('.lchj-via'));
+        return li ? li.dataset.id : null; }"""
+    pid = page.evaluate(find_posted)
+    for _ in range(6):  # look further down the list if needed
+        if pid:
+            break
+        page.locator(".lchj-more").click()
+        page.wait_for_timeout(500)
+        pid = page.evaluate(find_posted)
+    tid = page.evaluate("""() => { const li = [...document.querySelectorAll('.lchj-jobs li')].find(li =>
+        li.querySelector('.lchj-pay.typ')); return li ? li.dataset.id : null; }""")
+    card = f'.lchj-jobs li[data-id="{pid}"]'
+    c.scroll_to(card)
+    c.ring(card)
+    c.cap("Each listing shows the job, the employer, the town and the hours.", 3600)
+    c.ring(card + " .lchj-pay")
     c.cap('"Pay:" means the employer posted this pay.')
-    j = page.evaluate("() => [...document.querySelectorAll('.lchj-jobs li')].findIndex(li => li.querySelector('.lchj-pay.typ'))")
-    if j >= 0:
-        c.scroll_to(sel, j, offset=200)
-        c.ring(f"{sel}:nth-of-type({j + 1}) .lchj-pay")
-        c.cap('"Pay not listed" shows the Lane County average for that kind of job, clearly marked.', 4000)
-        c.scroll_to(sel, i, offset=200)
-    c.ring(f"{sel}:nth-of-type({i + 1}) .lchj-trust")
-    c.cap('"Link checked" means we opened the posting and it was still up.', 3600)
-    c.ring(f"{sel}:nth-of-type({i + 1}) .lchj-act")
-    c.cap("View and apply opens the original posting. The note says where the application goes.", 4000)
-    c.ring(f"{sel}:nth-of-type({i + 1}) .lchj-when")
+    if tid:
+        tcard = f'.lchj-jobs li[data-id="{tid}"]'
+        c.scroll_to(tcard)
+        c.ring(tcard + " .lchj-pay")
+        c.cap('"Pay not listed" shows the Lane County average for that kind of job, clearly marked.', 4200)
+        c.scroll_to(card)
+    c.ring(card + " .lchj-trust")
+    c.cap('"Link checked" means we opened the posting and it was still up.', 3800)
+    c.ring(card + " .lchj-act")
+    c.cap("View and apply opens the original posting. The note says where the application goes.", 4200)
+    c.ring(card + " .lchj-when")
     c.cap("And this shows how long ago the job was posted.")
     c.ring("")
     c.cap("")
