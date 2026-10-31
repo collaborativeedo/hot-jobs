@@ -45,6 +45,19 @@ SOURCES = ROOT / "data" / "sources.json"        # hiring systems learned automat
 DOMAIN_NAMES = ROOT / "data" / "domain-names.json"  # employer names read from careers sites' own pages
 SOURCES_CSV = ROOT / "docs" / "sources.csv"
 EMPLOYER_SITES = ROOT / "data" / "employer-sites.json"  # employers found by name, with their careers pages
+# Hiring systems the nightly run finds on its own (trace step) go in their own file, so the run never edits the
+# hand-kept list above and a staff change made while the run is going can't be overwritten when results are saved.
+EMPLOYER_SITES_FOUND = ROOT / "data" / "employer-sites-found.json"
+
+
+def registry_sites():
+    """The hand-kept registry plus hiring systems the nightly run found; the hand-kept entry wins."""
+    sites = json.loads(EMPLOYER_SITES.read_text()) if EMPLOYER_SITES.exists() else []
+    have = {(e.get("careers_url") or "").lower().rstrip("/") for e in sites}
+    if EMPLOYER_SITES_FOUND.exists():
+        sites += [e for e in json.loads(EMPLOYER_SITES_FOUND.read_text())
+                  if (e.get("careers_url") or "").lower().rstrip("/") not in have]
+    return sites
 RUNLOG = ROOT / "data" / "run-log.json"    # what each nightly run did, including errors
 WAGES = ROOT / "data" / "wages.json"            # average pay by occupation for Lane County and Oregon (QualityInfo)
 OED_DETAILS = ROOT / "data" / "oed-details.json"  # hours, pay and description from WorkSource Oregon listing pages
@@ -371,8 +384,7 @@ def known_employer_names(jobs):
     """Employer names to look for in posting text: the registry, plus employers already named on tonight's postings."""
     names = [j["employer"] for j in jobs if j.get("employer")]
     try:
-        reg = json.loads((ROOT / "data" / "employer-sites.json").read_text())
-        names += [e["employer"] for e in (reg if isinstance(reg, list) else reg.get("employers", [])) if e.get("employer")]
+        names += [e["employer"] for e in registry_sites() if e.get("employer")]
     except Exception:  # noqa: BLE001
         pass
     return names
@@ -594,7 +606,7 @@ def pull_direct(qi_jobs, fetcher, today):
             src["employer"] = rules.TENANT_NAMES[t]
     # Employers found by name: add each careers page as a source. A page on a known hiring system uses that
     # system's connector; any other page is read with the browser reader.
-    sites = json.loads(EMPLOYER_SITES.read_text()) if EMPLOYER_SITES.exists() else []
+    sites = registry_sites()
     for site in sites:
         url = site.get("careers_url") or ""
         if not url or re.search(r"governmentjobs\.com|schooljobs\.com", url, re.I):
@@ -893,7 +905,8 @@ def trace_employers(jobs, today, log):
     hiring system we can read; one found is added to the registry, so the employer is read directly from the next
     night on. Written to docs/employers-to-trace.csv for the registry sheet."""
     sources = json.loads(SOURCES.read_text()) if SOURCES.exists() else {}
-    reg = json.loads(EMPLOYER_SITES.read_text()) if EMPLOYER_SITES.exists() else []
+    reg = registry_sites()
+    found_file = json.loads(EMPLOYER_SITES_FOUND.read_text()) if EMPLOYER_SITES_FOUND.exists() else []
     direct_names = {_first_word(s.get("employer")) for s in sources.values() if s.get("employer")}
     direct_names |= {_first_word(e.get("employer")) for e in reg if e.get("careers_url")}
     direct_names |= {_first_word(j["employer"]) for j in jobs if j.get("direct") and j["employer"]}
@@ -926,14 +939,16 @@ def trace_employers(jobs, today, log):
             if key in sources:
                 g["status"] = f"Hiring system already read ({src['platform']}); its jobs here go under another name"
             else:
-                reg.append({"employer": g["name"], "careers_url": u, "local": True, "home": "", "found": today,
-                            "list": "Found from postings (trace)"})
+                entry = {"employer": g["name"], "careers_url": u, "local": True, "home": "", "found": today,
+                         "list": "Found from postings (trace)"}
+                reg.append(entry)
+                found_file.append(entry)
                 added.append(g["name"])
                 g["status"] = f"Added tonight: {src['platform']}, read directly from the next run"
         else:
             g["status"] = "No readable hiring-system link seen yet"
     if added:
-        EMPLOYER_SITES.write_text(json.dumps(reg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        EMPLOYER_SITES_FOUND.write_text(json.dumps(found_file, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     with TRACE_EMP_CSV.open("w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
         w.writerow(["Employer", "Lane openings seen secondhand", "Seen via", "Status", "Example posting", "Date"])

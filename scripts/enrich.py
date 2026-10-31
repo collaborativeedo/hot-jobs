@@ -183,7 +183,7 @@ _ROLE = re.compile(r"\b(?:wanted|representative|caregiver|dispatcher|driver|tech
 _NOT_EMPLOYERS = {n.lower() for n in """Adoption Client Clients Collaboration Others Other They Weekends Sponsors Policy
 Florence Eugene Springfield Oregon Finance Research Workplace Dayforce GetHired.com Ghr Prt Sparinc Myoccu
 Indeed SimplyHired ZipRecruiter LinkedIn Glassdoor Monster Workday Paylocity Paychex iCIMS UKG""".split()} | {
-    "worksource oregon", "oregon employment department", "national labor exchange",
+    "worksource oregon", "oregon employment department", "national labor exchange", "military.com job board",
     "finance and administration", "research administration", "workplace type", "human resources", "talent acquisition",
     "who we are", "about us", "our company", "equal opportunity employer"}
 
@@ -200,7 +200,7 @@ def clean_employer(name):
     name = " ".join(words)
     if (len(name) < 3 or name.lower() in _NOT_EMPLOYERS or _HEADING.search(name) or _CODE.search(name)
             or (_ROLE.search(name) and not re.search(r"\b(?:inc|llc|group|company|services|staffing)\b", name, re.I))
-            or len(words) > 7 or words[0] in _BAD_FIRST):
+            or len(words) > 9 or words[0] in _BAD_FIRST):
         return ""
     return name
 
@@ -498,8 +498,9 @@ _NO_DEGREE = re.compile(r"\bno (college )?degree (is )?(required|needed|necessar
 _TRAINING = re.compile(r"\bpaid training\b|\btraining (is )?(provided|available|included)\b|\bwe (will|'ll) train\b|"
                        r"\bwill train\b|\bon[- ]the[- ]job training\b|\bapprentice(ship)?s?\b|\bearn while you learn\b|"
                        r"\bfull training\b|\btrain you\b", re.I)
-_FAIR_CHANCE = re.compile(r"\bfair[- ]chance\b|\bsecond[- ]chance (employer|hiring|program|friendly)\b|"
-                          r"\bbackground[- ]friendly\b|\bfelony[- ]friendly\b|\bjustice[- ]involved\b|"
+_FAIR_CHANCE = re.compile(r"\bfair[- ]chance\b(?! (ordinance|initiative|act\b|law\b|hiring (ordinance|law)))(?![^.;]{0,60}\b(ordinance|los angeles|san francisco|philadelphia|new york|chicago)\b)|\bsecond[- ]chance (employer|hiring|program|friendly)\b|"
+                          r"\bbackground[- ]friendly\b|\bfelony[- ]friendly\b|"
+                          r"\bjustice[- ]involved (applicants|candidates|individuals|people)[^.;]{0,40}\b(encouraged|welcome)|"
                           r"\bre-?entry (program|friendly|candidates|population)\b|"
                           r"\bcriminal (history|record|background)[^.;]{0,40}\bnot (an )?(automatic|automatically)[^.;]{0,20}disqualif|"
                           r"\bconviction[^.;]{0,40}\bnot (an )?(automatic|automatically)[^.;]{0,20}(bar|disqualif)|"
