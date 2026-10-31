@@ -1,0 +1,32 @@
+name: Refresh O*NET occupation data
+
+on:
+  schedule:
+    - cron: "11 16 2 1,4,7,10 *"   # quarterly, when O*NET publishes; bump VERSION in scripts/onet.py for a new release
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: onet
+  cancel-in-progress: false
+
+jobs:
+  onet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Download O*NET database files and build data/onet.json
+        run: python scripts/onet.py
+      - name: Save
+        run: |
+          git config user.name "hot-jobs-bot"
+          git config user.email "hot-jobs-bot@users.noreply.github.com"
+          git add data/onet.json
+          git diff --cached --quiet || (git commit -m "O*NET occupation data" && git pull --rebase origin main && git push)
