@@ -1,16 +1,5 @@
-index 403 153
-[]
-== occupation_data 200 268030 | O*NET-SOC Code,Title,Description | 11-1011.00,Chief Executives,"Determine and formulate policies and provide overall direction of companies or private and public sector organizations within guidelines set up by a board of directors or 
-== alternate_titles 404 153 | <html> | <head><title>404 Not Found</title></head>
-== job_titles 200 4504432 | O*NET-SOC Code,Title,Job Title,Short Title,Source(s) | 11-1011.00,Chief Executives,Aeronautics Commission Director,,08
-== sample_of_reported_titles 200 601127 | O*NET-SOC Code,Title,Reported Job Title,Shown in My Next Move | 11-1011.00,Chief Executives,CEO (Chief Executive Officer),Y
-== related_occupations 200 2051148 | O*NET-SOC Code,Title,Related O*NET-SOC Code,Related Title,Relatedness Tier,Index | 11-1011.00,Chief Executives,11-1021.00,General and Operations Managers,Primary-Short,1
-== job_zones 200 59908 | O*NET-SOC Code,Title,Job Zone,Date,Domain Source | 11-1011.00,Chief Executives,5,08/2023,Analyst
-== technology_skills 404 153 | <html> | <head><title>404 Not Found</title></head>
-== software_skills 200 3557545 | O*NET-SOC Code,Title,Workplace Example,Element ID,Element Name,Hot Technology,In Demand | 11-1011.00,Chief Executives,Adobe Acrobat,2.E.5.b,Document management software,Y,N
-== tools_used 404 153 | <html> | <head><title>404 Not Found</title></head>
-== skills 404 153 | <html> | <head><title>404 Not Found</title></head>
-== knowledge 200 8013560 | O*NET-SOC Code,Title,Element ID,Element Name,Scale ID,Scale Name,Data Value,N,Standard Error,Lower CI Bound,Upper CI Bound,Recommend Suppress,Not Relevant,Date,Domain Source | 11-1011.00,Chief Executives,2.C.1.a,Administration and Management,IM,Importance,4.78,28,0.1102,4.5564,5.0000,N,,08/2023,Incumbent
-== essential_skills 200 2328135 | O*NET-SOC Code,Title,Element ID,Element Name,Scale ID,Scale Name,Data Value,N,Standard Error,Lower CI Bound,Upper CI Bound,Recommend Suppress,Not Relevant,Date,Domain Source | 11-1011.00,Chief Executives,2.A.1.a,Reading Comprehension,IM,Importance,4.12,8,0.1250,3.8800,4.3700,N,,08/2023,Analyst
-== transferable_skills 200 6081245 | O*NET-SOC Code,Title,Element ID,Element Name,Scale ID,Scale Name,Data Value,N,Standard Error,Lower CI Bound,Upper CI Bound,Recommend Suppress,Not Relevant,Date,Domain Source | 11-1011.00,Chief Executives,2.B.1.a,Social Perceptiveness,IM,Importance,4.12,8,0.1250,3.8800,4.3700,N,,08/2023,Analyst
-== task_statements 200 3461375 | O*NET-SOC Code,Title,Task ID,Task,Task Type,Incumbents Responding,Date,Domain Source | 11-1011.00,Chief Executives,8823,"Direct or coordinate an organization's financial or budget activities to fund operations, maximize investments, or increase efficiency.",Core,95,08/2023,Incumbent
+errors []
+about 11 similar 11
+entry chip Entry level392
+credit True
+pallets: 3 of 1316 openings skill-labeled 3
