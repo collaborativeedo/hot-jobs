@@ -109,7 +109,19 @@ def open_page(browser, n):
     ctx.route("**/*workers.dev/**", lambda r: r.abort())
     page = ctx.new_page()
     page.goto(PAGE, wait_until="domcontentloaded", timeout=60000)
-    page.wait_for_selector(".lchj-jobs li", timeout=60000)
+    page.wait_for_selector(".lchj-jobs li", state="attached", timeout=60000)
+    page.wait_for_timeout(1500)
+    # The page may hold more than one copy of the widget (one hidden, for another screen size): keep the one shown.
+    info = page.evaluate("""() => { const roots = [...document.querySelectorAll('.lchj')];
+        const vis = roots.filter(r => r.getClientRects().length && r.getBoundingClientRect().height > 50);
+        roots.filter(r => !vis.includes(r)).forEach(r => r.remove());
+        if (vis[0]) vis[0].scrollIntoView();
+        return {roots: roots.length, visible: vis.length,
+                frames: [...document.querySelectorAll('iframe')].map(f => f.src).slice(0, 5)}; }""")
+    print("page", n, info, flush=True)
+    if not info["visible"]:
+        page.screenshot(path=str(OUT / f"clip-{n}-page.png"), full_page=True)
+        raise RuntimeError(f"no visible widget on the page: {info}")
     for txt in ("Decline", "Reject", "Deny", "Necessary only", "Close"):  # privacy-preserving choice on any banner
         b = page.get_by_role("button", name=txt)
         if b.count():
