@@ -139,6 +139,10 @@
   "checked": "2026-10-28",
   "name": "ABM US"
  },
+ "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX": {
+  "checked": "2026-10-30",
+  "name": "Securitas Security Services"
+ },
  "https://ekxm.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX": {
   "checked": "2026-10-28",
   "name": "COTTON ON"
@@ -283,6 +287,10 @@
   "checked": "2026-10-12",
   "name": "Southern Glazers Wine and Spirits"
  },
+ "reimaginedcareers.pinpointhq.com": {
+  "checked": "2026-10-30",
+  "name": "Reimagined Parking"
+ },
  "talentally.com": {
   "checked": "2026-10-13",
   "name": ""
@@ -290,6 +298,10 @@
  "www.att.jobs": {
   "checked": "2026-10-19",
   "name": "AT&T Careers: Shape the future of connectivity"
+ },
+ "www.azubi.de": {
+  "checked": "2026-10-30",
+  "name": ""
  },
  "www.careercircle.com": {
   "checked": "2026-10-12",
@@ -318,6 +330,14 @@
  "www.jobsinlogistics.com": {
   "checked": "2026-10-12",
   "name": "JobsInLogistics.com"
+ },
+ "www.jsfirm.com": {
+  "checked": "2026-10-30",
+  "name": "JSFirm"
+ },
+ "www.kaiserpermanentejobs.org": {
+  "checked": "2026-10-30",
+  "name": "Working at Kaiser Permanente"
  },
  "www.mcsewon.com": {
   "checked": "2026-10-19",

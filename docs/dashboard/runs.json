@@ -1,89 +1,249 @@
 {
-"updated": "2026-10-30T15:17+00:00",
+"updated": "2026-10-31T00:38+00:00",
 "workflows": [
 {
 "workflow": "Refresh and publish",
 "about": "Nightly: pulls every Lane County posting, checks links, publishes the widget and dashboards",
 "last": {
-"started": "2026-10-30 06:59",
-"minutes": 77.9,
-"result": "running",
-"trigger": "by hand",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41067937135"
+"started": "2026-10-30 17:25",
+"minutes": 13.4,
+"result": "waiting",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41150056447"
 },
 "failures": 0,
-"finished": 8,
-"median_minutes": 0.8,
+"finished": 4,
+"median_minutes": 0.9,
 "runs": [
 {
-"started": "2026-10-30 06:59",
-"minutes": 77.9,
-"result": "running",
-"trigger": "by hand",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41067937135"
-},
-{
-"started": "2026-10-30 06:54",
-"minutes": 4.8,
-"result": "success",
+"started": "2026-10-30 17:25",
+"minutes": 13.4,
+"result": "waiting",
 "trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41067232725"
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41150056447"
 },
 {
-"started": "2026-10-29 21:21",
-"minutes": 0.8,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41002485033"
-},
-{
-"started": "2026-10-29 21:17",
-"minutes": 1.1,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41002026497"
-},
-{
-"started": "2026-10-29 20:58",
-"minutes": 0.7,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41000275273"
-},
-{
-"started": "2026-10-29 20:41",
-"minutes": 0.8,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40998810418"
-},
-{
-"started": "2026-10-29 20:40",
-"minutes": 0.8,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40998740368"
-},
-{
-"started": "2026-10-29 20:39",
-"minutes": 0.8,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40998640679"
-},
-{
-"started": "2026-10-29 20:39",
-"minutes": 0.7,
+"started": "2026-10-30 17:20",
+"minutes": 5.2,
 "result": "cancelled",
 "trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40998576969"
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41149587520"
 },
 {
-"started": "2026-10-29 20:38",
-"minutes": 1.4,
+"started": "2026-10-30 17:14",
+"minutes": 5.2,
+"result": "cancelled",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41149108806"
+},
+{
+"started": "2026-10-30 17:10",
+"minutes": 4.8,
+"result": "cancelled",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41148660253"
+},
+{
+"started": "2026-10-30 16:56",
+"minutes": 13.3,
+"result": "cancelled",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41147410621"
+},
+{
+"started": "2026-10-30 16:39",
+"minutes": 59.1,
+"result": "running",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41145765117"
+},
+{
+"started": "2026-10-30 16:38",
+"minutes": 0.9,
 "result": "success",
 "trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40998515733"
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41145660380"
+},
+{
+"started": "2026-10-30 16:36",
+"minutes": 0.9,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41145514600"
+},
+{
+"started": "2026-10-30 13:47",
+"minutes": 0.7,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41125950121"
+},
+{
+"started": "2026-10-30 13:37",
+"minutes": 4.1,
+"result": "success",
+"trigger": "code change",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41124706239"
+}
+]
+},
+{
+"workflow": "Probe (staff debugging)",
+"about": "",
+"last": {
+"started": "2026-10-30 17:20",
+"minutes": 3.5,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41149586752"
+},
+"failures": 0,
+"finished": 10,
+"median_minutes": 1.2,
+"runs": [
+{
+"started": "2026-10-30 17:20",
+"minutes": 3.5,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41149586752"
+},
+{
+"started": "2026-10-30 17:14",
+"minutes": 3.5,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41149108521"
+},
+{
+"started": "2026-10-30 17:10",
+"minutes": 3.6,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41148674237"
+},
+{
+"started": "2026-10-30 16:56",
+"minutes": 1.8,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41147424392"
+},
+{
+"started": "2026-10-30 16:38",
+"minutes": 0.6,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41145683715"
+},
+{
+"started": "2026-10-30 16:37",
+"minutes": 0.6,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41145545005"
+},
+{
+"started": "2026-10-30 16:20",
+"minutes": 0.7,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41143846143"
+},
+{
+"started": "2026-10-30 13:36",
+"minutes": 2.5,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41124602562"
+},
+{
+"started": "2026-10-30 13:35",
+"minutes": 0.7,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41124395849"
+},
+{
+"started": "2026-10-30 13:00",
+"minutes": 0.6,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41119898315"
+}
+]
+},
+{
+"workflow": "Save a sample page (debugging a parser)",
+"about": "",
+"last": {
+"started": "2026-10-30 10:43",
+"minutes": 12.3,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41101008284"
+},
+"failures": 0,
+"finished": 1,
+"median_minutes": 12.3,
+"runs": [
+{
+"started": "2026-10-30 10:43",
+"minutes": 12.3,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41101008284"
+}
+]
+},
+{
+"workflow": "Test a hiring-system connector",
+"about": "",
+"last": {
+"started": "2026-10-30 08:19",
+"minutes": 0.3,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41079689469"
+},
+"failures": 0,
+"finished": 5,
+"median_minutes": 0.3,
+"runs": [
+{
+"started": "2026-10-30 08:19",
+"minutes": 0.3,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41079689469"
+},
+{
+"started": "2026-10-30 08:19",
+"minutes": 0.2,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/41079684262"
+},
+{
+"started": "2026-10-29 20:32",
+"minutes": 0.6,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40997994754"
+},
+{
+"started": "2026-10-29 20:32",
+"minutes": 0.5,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40997936143"
+},
+{
+"started": "2026-10-29 20:28",
+"minutes": 0.3,
+"result": "success",
+"trigger": "by hand",
+"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40997537024"
 }
 ]
 },
@@ -142,43 +302,6 @@
 "result": "success",
 "trigger": "by hand",
 "url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40927911786"
-}
-]
-},
-{
-"workflow": "Test a hiring-system connector",
-"about": "",
-"last": {
-"started": "2026-10-29 20:32",
-"minutes": 0.6,
-"result": "success",
-"trigger": "by hand",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40997994754"
-},
-"failures": 0,
-"finished": 3,
-"median_minutes": 0.5,
-"runs": [
-{
-"started": "2026-10-29 20:32",
-"minutes": 0.6,
-"result": "success",
-"trigger": "by hand",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40997994754"
-},
-{
-"started": "2026-10-29 20:32",
-"minutes": 0.5,
-"result": "success",
-"trigger": "by hand",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40997936143"
-},
-{
-"started": "2026-10-29 20:28",
-"minutes": 0.3,
-"result": "success",
-"trigger": "by hand",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40997537024"
 }
 ]
 },
@@ -260,8 +383,8 @@
 "url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40935570328"
 },
 "failures": 0,
-"finished": 6,
-"median_minutes": 1.4,
+"finished": 2,
+"median_minutes": 0.7,
 "runs": [
 {
 "started": "2026-10-29 11:57",
@@ -283,34 +406,6 @@
 "result": "cancelled",
 "trigger": "code change",
 "url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40927899855"
-},
-{
-"started": "2026-10-28 17:21",
-"minutes": 1.6,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40793568585"
-},
-{
-"started": "2026-10-28 17:19",
-"minutes": 1.6,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40793345043"
-},
-{
-"started": "2026-10-28 17:14",
-"minutes": 1.5,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40792701993"
-},
-{
-"started": "2026-10-28 17:12",
-"minutes": 1.2,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40792502538"
 }
 ]
 },
@@ -336,83 +431,44 @@
 "url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40928409698"
 }
 ]
-},
-{
-"workflow": "Read QualityInfo employer database",
-"about": "Reads the QualityInfo employer database",
-"last": {
-"started": "2026-10-28 19:46",
-"minutes": 160.3,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40808292412"
-},
-"failures": 0,
-"finished": 1,
-"median_minutes": 160.3,
-"runs": [
-{
-"started": "2026-10-28 19:46",
-"minutes": 160.3,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40808292412"
-}
-]
-},
-{
-"workflow": "Find careers pages",
-"about": "Looks for careers pages of named employers",
-"last": {
-"started": "2026-10-28 19:39",
-"minutes": 1.0,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40807638035"
-},
-"failures": 0,
-"finished": 5,
-"median_minutes": 1.5,
-"runs": [
-{
-"started": "2026-10-28 19:39",
-"minutes": 1.0,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40807638035"
-},
-{
-"started": "2026-10-28 19:36",
-"minutes": 1.5,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40807381652"
-},
-{
-"started": "2026-10-28 19:33",
-"minutes": 2.9,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40807053486"
-},
-{
-"started": "2026-10-28 19:29",
-"minutes": 1.5,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40806614137"
-},
-{
-"started": "2026-10-28 19:26",
-"minutes": 2.3,
-"result": "success",
-"trigger": "code change",
-"url": "https://github.com/collaborativeedo/hot-jobs/actions/runs/40806345471"
-}
-]
 }
 ],
 "nightly": [
+{
+"date": "2026-10-30 16:39",
+"ok": true,
+"steps": [
+{
+"step": "QualityInfo",
+"minutes": 6.6
+},
+{
+"step": "National Labor Exchange",
+"minutes": 6.6
+},
+{
+"step": "Employer hiring sites",
+"minutes": 40.4
+},
+{
+"step": "Posting pages (pay, details)",
+"minutes": 4.7
+},
+{
+"step": "Barrier tags",
+"minutes": 0.1
+},
+{
+"step": "Dead-link check",
+"minutes": 0.3
+},
+{
+"step": "Dashboard and archive",
+"minutes": 0.0
+}
+],
+"warnings": []
+},
 {
 "date": "2026-10-30 07:00",
 "ok": true,
@@ -523,12 +579,6 @@
 },
 {
 "date": "2026-10-28 07:44",
-"ok": true,
-"steps": [],
-"warnings": []
-},
-{
-"date": "2026-10-28 07:15",
 "ok": true,
 "steps": [],
 "warnings": []

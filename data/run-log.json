@@ -303,5 +303,53 @@
     "minutes": 0.0
    }
   ]
+ },
+ {
+  "date": "2026-10-30T23:39+00:00",
+  "ok": true,
+  "notes": [
+   "QualityInfo: 2228 listings from 223 pages (reported 2227).",
+   "NLx: 872 postings read, 872 in Lane County towns, 8 new links followed, 2 still pointing at NLx, 0 outside Lane County.",
+   "NLx: 872 Lane County postings, 346 already on QualityInfo, 526 added; 315 QualityInfo postings got their employer name from NLx.",
+   "WorkSource pages: 28 read tonight, 0 failed, 458 on file.",
+   "Employer posting pages: 472 read tonight, 0 failed, 283 of 715 on file state pay.",
+   "Out of area: dropped 26 postings whose titles name another place (e.g. 'Account Manager, Client Development & Renewals (Chicago / Mi').",
+   "Bus-stop tags: 1150 near, 189 not near, 1767 unknown (1665 without an employer address); geocoded 0/0 new addresses; 1135 LTD stops; 0s.",
+   "Fewer barriers: near bus 1149, no degree 1304, training 235, fair chance 50 of 3106 postings.",
+   "Dead links: checked 2352, dropped 198 ({'gone': 145, 'page says the job is closed': 52, 'redirected to a general page': 1}).",
+   "Employers to trace: 315 seen only secondhand (810 openings); 14 hiring systems added from their links (Dungarvin, Rock Family of Companies, Thirdchannel Inc, Domino's, Farwest).",
+   "Dashboard: 704 employers hiring, 1335 sources.",
+   "Widget: 1365 shown of 2908 postings."
+  ],
+  "steps": [
+   {
+    "step": "QualityInfo",
+    "minutes": 6.6
+   },
+   {
+    "step": "National Labor Exchange",
+    "minutes": 6.6
+   },
+   {
+    "step": "Employer hiring sites",
+    "minutes": 40.4
+   },
+   {
+    "step": "Posting pages (pay, details)",
+    "minutes": 4.7
+   },
+   {
+    "step": "Barrier tags",
+    "minutes": 0.1
+   },
+   {
+    "step": "Dead-link check",
+    "minutes": 0.3
+   },
+   {
+    "step": "Dashboard and archive",
+    "minutes": 0.0
+   }
+  ]
  }
 ]

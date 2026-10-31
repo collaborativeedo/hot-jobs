@@ -4,6 +4,26 @@
   "cache_rows": [
    {
     "city": "Eugene",
+    "days": 0,
+    "info": "Full Time Regular",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Director Commerce Marketing",
+    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=14d82ad4-a15d-4ade-81ef-220cc098e730&ccId=19000101_000001&jobId=9201270836419_1&lang=en_US"
+   },
+   {
+    "city": "Eugene",
+    "days": 0,
+    "info": "Full Time Regular",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Machine Operator A Shift",
+    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=14d82ad4-a15d-4ade-81ef-220cc098e730&ccId=19000101_000001&jobId=9201263993056_1&lang=en_US"
+   },
+   {
+    "city": "Eugene",
     "days": 9,
     "info": "Full Time Regular",
     "org": "",
@@ -98,7 +118,7 @@
   "first_seen": "2026-10-29",
   "home": "Eugene",
   "host": "workforcenow.adp.com",
-  "lane_openings": 9,
+  "lane_openings": 11,
   "last_run": "2026-10-30",
   "local": false,
   "named": true,
@@ -503,16 +523,6 @@
     "remote": false,
     "snippet": "",
     "title": "Superintendent, Construction",
-    "url": "https://ausland.bamboohr.com/careers/190"
-   },
-   {
-    "city": "Eugene",
-    "days": null,
-    "info": "Full-Time",
-    "org": "",
-    "remote": false,
-    "snippet": "",
-    "title": "Superintendent, Construction",
     "url": "https://ausland.bamboohr.com/careers/191"
    },
    {
@@ -550,7 +560,7 @@
   "first_seen": "2026-10-29",
   "home": "Eugene",
   "host": "ausland.bamboohr.com",
-  "lane_openings": 5,
+  "lane_openings": 4,
   "last_run": "2026-10-30",
   "local": "maybe",
   "named": true,
@@ -805,13 +815,23 @@
     "snippet": "",
     "title": "Assistant Project Superintendent",
     "url": "https://essexgc.bamboohr.com/careers/73"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "Full-Time",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "INTERN: Project Engineer",
+    "url": "https://essexgc.bamboohr.com/careers/79"
    }
   ],
   "employer": "Essex General Construction",
   "first_seen": "2026-10-29",
   "home": "Eugene",
   "host": "essexgc.bamboohr.com",
-  "lane_openings": 2,
+  "lane_openings": 3,
   "last_run": "2026-10-30",
   "local": "maybe",
   "named": true,
@@ -1157,13 +1177,23 @@
     "snippet": "",
     "title": "Swim Instructor",
     "url": "https://willamalanedistrict.bamboohr.com/careers/361"
+   },
+   {
+    "city": "Springfield",
+    "days": null,
+    "info": "Full Time NBU",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Supervisor - Adult Recreation and Community Services",
+    "url": "https://willamalanedistrict.bamboohr.com/careers/362"
    }
   ],
   "employer": "Willamalane Park and Recreation District",
   "first_seen": "2026-10-28",
   "home": "Springfield",
   "host": "willamalanedistrict.bamboohr.com",
-  "lane_openings": 10,
+  "lane_openings": 11,
   "last_run": "2026-10-30",
   "local": true,
   "named": true,
@@ -1406,6 +1436,16 @@
     "remote": false,
     "snippet": "Join Our Team as a Medical Assistant in Eugene, OR! Oak Street Medical Primary Care , of Praxis Health, would like to invite reliable, friendly and energetic Medical Assistants with outstanding people skills to join our team.&nbsp; We are excited to share with you a short video that shows why the Pr",
     "title": "Medical Assistant, Eugene OR",
+    "url": "https://job-boards.greenhouse.io/praxis-health/jobs/4330351009"
+   },
+   {
+    "city": "Eugene",
+    "days": 1,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "Join Our Team as a Medical Assistant in Eugene, OR! Oak Street Medical Primary Care , of Praxis Health, would like to invite reliable, friendly and energetic Medical Assistants with outstanding people skills to join our team.&nbsp; We are excited to share with you a short video that shows why the Pr",
+    "title": "Medical Assistant, Eugene OR",
     "url": "https://job-boards.greenhouse.io/praxis-health/jobs/4414156009"
    },
    {
@@ -1417,16 +1457,6 @@
     "snippet": "Join Our Team as a Medical Assistant in Eugene, OR! Oak Street Medical Primary Care , of Praxis Health, would like to invite reliable, friendly and energetic Medical Assistants with outstanding people skills to join our team.&nbsp; We are excited to share with you a short video that shows why the Pr",
     "title": "Medical Assistant, Eugene OR",
     "url": "https://job-boards.greenhouse.io/praxis-health/jobs/4426386009"
-   },
-   {
-    "city": "Eugene",
-    "days": 1,
-    "info": "",
-    "org": "",
-    "remote": false,
-    "snippet": "Join Our Team as a Medical Assistant in Eugene, OR! Oak Street Medical Primary Care , of Praxis Health, would like to invite reliable, friendly and energetic Medical Assistants with outstanding people skills to join our team.&nbsp; We are excited to share with you a short video that shows why the Pr",
-    "title": "Medical Assistant, Eugene OR",
-    "url": "https://job-boards.greenhouse.io/praxis-health/jobs/4330351009"
    },
    {
     "city": "Springfield",
@@ -1472,6 +1502,645 @@
   "rotate": true,
   "status": "ok",
   "token": "praxis-health",
+  "weekly": false
+ },
+ "greenhouse:sentinellabs": {
+  "cache_date": "2026-10-30",
+  "cache_rows": [
+   {
+    "city": "Remote",
+    "days": 17,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Account Executive, SMB (North / Northeast)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7993160003"
+   },
+   {
+    "city": "Remote",
+    "days": 8,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Account Executive, SMB (West)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7993234003"
+   },
+   {
+    "city": "Remote",
+    "days": 4,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Account Manager, Client Development & Renewals (Chicago / Midwest)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8039732003"
+   },
+   {
+    "city": "Remote",
+    "days": 4,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Account Manager, Client Development & Renewals (East Coast / Mid-Atlantic)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8039734003"
+   },
+   {
+    "city": "Remote",
+    "days": 4,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Account Manager, Client Development & Renewals (Texas)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8039728003"
+   },
+   {
+    "city": "Remote",
+    "days": 21,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Director, Commercial Sales",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7994513003"
+   },
+   {
+    "city": "Remote",
+    "days": 8,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Director, Marketing AI & GTM Automation",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8008264003"
+   },
+   {
+    "city": "Remote",
+    "days": 2,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Director, Product Management",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8040890003"
+   },
+   {
+    "city": "Remote",
+    "days": 1,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Enterprise Account Executive - SLED (Carolinas)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8034939003"
+   },
+   {
+    "city": "Remote",
+    "days": 7,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Enterprise Account Executive - SLED, Higher Ed (South)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7992633003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Federal Account Executive - DOD / IC",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7993065003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Federal Account Executive - Healthcare / Treasury",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7993100003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Future Opportunity: Enterprise Sales Representative",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=6342042003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Future Opportunity: Sales Development Representative",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=6643099003"
+   },
+   {
+    "city": "Remote",
+    "days": 29,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Integrated Campaign Manager",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8000858003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Legal Director, Strategic Deals",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8004567003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Marketing Operations Specialist (Data & Systems)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7996643003"
+   },
+   {
+    "city": "Remote",
+    "days": 23,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "MSSP Project Manager",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8012006003"
+   },
+   {
+    "city": "Remote",
+    "days": 23,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "MSSP Revenue Assurance Analyst",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8011965003"
+   },
+   {
+    "city": "Remote",
+    "days": 28,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Partner Development Manager (MSSP), Acquisition",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8008221003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Principal Account Executive, Commercial (California)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7994465003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Principal Account Executive, Commercial (Midwest)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7994193003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Principal Account Executive, Commercial (Northeast)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7994217003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Principal Account Executive, Commercial (South)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7994370003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Principal Account Executive, Commercial (Southeast)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7994364003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Principal Account Executive, Commercial (West)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7994504003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Principal AI Engineering Architect",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7551201003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Principal Software Engineer, AI SIEM",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7814850003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Senior Backend Software Engineer, ObservoAI",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7704693003"
+   },
+   {
+    "city": "Remote",
+    "days": 9,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Senior Counsel, Technology & Strategic Partnerships",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8040296003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Senior Manager, Customer Strategy & Operations (East Coast)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8005682003"
+   },
+   {
+    "city": "Remote",
+    "days": 17,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Senior Manager, Solutions Engineering, MSSP",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8017568003"
+   },
+   {
+    "city": "Remote",
+    "days": 23,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Senior MSSP Partner Contracts Manager",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8011875003"
+   },
+   {
+    "city": "Remote",
+    "days": 23,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Senior MSSP Revenue Assurance Analyst",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8011930003"
+   },
+   {
+    "city": "Remote",
+    "days": 15,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Senior Product Marketing Manager, MSSP",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8016031003"
+   },
+   {
+    "city": "Remote",
+    "days": 17,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Senior Solutions Engineer, MSSP Ecosystem Partner",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8017884003"
+   },
+   {
+    "city": "Remote",
+    "days": 17,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Senior Solutions Engineer, MSSP Partner",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8017858003"
+   },
+   {
+    "city": "Remote",
+    "days": 28,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Senior Technical Program Manager, Services Operations",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8008762003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Senior Technical Success Manager, Public Sector",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8002796003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Solutions Engineer, SLED (North)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7997163003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Solutions Engineer, SLED (South)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7997067003"
+   },
+   {
+    "city": "Remote",
+    "days": 7,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Sr. Director, Revenue Operations - AMER",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8043096003"
+   },
+   {
+    "city": "Remote",
+    "days": 21,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Sr. Director, Sales Systems & Processes",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8014689003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Sr. GTM Engineer, Inbound",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7996659003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Sr. GTM Engineer, Outbound",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7996686003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Sr. Solutions Engineer, Commercial (South/Southeast)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7997001003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Sr. Solutions Engineer, Commercial (TOLA)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7997004003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Sr. Solutions Engineer, Enterprise (TOLA)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7998187003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Sr. Solutions Engineer, Federal",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7997006003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Sr. Technical Success Executive",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7853875003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Sr. Technical Success Executive, Public Sector",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7853960003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Staff AI Platform Engineer",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7805775003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Staff AI Platform Engineer, Infrastructure Services",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7823203003"
+   },
+   {
+    "city": "Remote",
+    "days": 17,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Staff Backend Engineer - Prompt Security (Node.js / TypeScript)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8031985003"
+   },
+   {
+    "city": "Remote",
+    "days": 15,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Staff Backend Software Engineer - Agent Platform (Go/Python)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7819844003"
+   },
+   {
+    "city": "Remote",
+    "days": 15,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Staff Backend Software Engineer - Agent Platform (Python/Go)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7818963003"
+   },
+   {
+    "city": "Remote",
+    "days": 15,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Staff Forward Deploy Engineer (Fullstack - Java/React)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7733958003"
+   },
+   {
+    "city": "Remote",
+    "days": 30,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Staff Site Reliability Engineer, Government",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7966022003"
+   },
+   {
+    "city": "Remote",
+    "days": 24,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Staff Solutions Architect (Midwest/Great Lakes)",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7997681003"
+   },
+   {
+    "city": "Remote",
+    "days": 17,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Staff Solutions Engineer, MSSP Ecosystem Partner",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8017779003"
+   },
+   {
+    "city": "Remote",
+    "days": 17,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Staff Solutions Engineer, MSSP Partner",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8017832003"
+   },
+   {
+    "city": "Remote",
+    "days": 15,
+    "info": "",
+    "org": "",
+    "remote": true,
+    "snippet": "Our Purpose At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect gl",
+    "title": "Technical Marketing Manager",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=8019226003"
+   }
+  ],
+  "employer": "SentinelOne",
+  "first_seen": "2026-10-30",
+  "home": "",
+  "host": "job-boards.greenhouse.io",
+  "lane_openings": 62,
+  "last_run": "2026-10-30",
+  "local": false,
+  "named": true,
+  "platform": "Greenhouse",
+  "remote_ok": true,
+  "rotate": false,
+  "status": "ok",
+  "token": "sentinellabs",
   "weekly": false
  },
  "greenhouse:stratainformationgroup": {
@@ -1676,26 +2345,6 @@
   "cache_date": "2026-10-30",
   "cache_rows": [
    {
-    "city": "Blue River",
-    "days": null,
-    "info": "",
-    "org": "",
-    "remote": false,
-    "snippet": "",
-    "title": "Behavioral Health Clinician (24 hours w/sign-on bonus)",
-    "url": "https://orchidhealth.applytojob.com/apply/UI5w2idkHD/Behavioral-Health-Clinician-24-Hours-Wsignon-Bonus"
-   },
-   {
-    "city": "Oakridge",
-    "days": null,
-    "info": "",
-    "org": "",
-    "remote": false,
-    "snippet": "",
-    "title": "Behavioral Health Clinician (32 hours w/sign-on bonus)",
-    "url": "https://orchidhealth.applytojob.com/apply/fuLP8ZNmPx/Behavioral-Health-Clinician-32-Hours-Wsignon-Bonus"
-   },
-   {
     "city": "Oakridge",
     "days": null,
     "info": "",
@@ -1780,7 +2429,7 @@
   "first_seen": "2026-10-28",
   "home": "Oakridge",
   "host": "orchidhealth.applytojob.com",
-  "lane_openings": 10,
+  "lane_openings": 8,
   "last_run": "2026-10-30",
   "local": true,
   "named": true,
@@ -2536,11 +3185,11 @@
   "employer": "",
   "first_seen": "2026-10-09",
   "host": "www.governmentjobs.com",
-  "lane_openings": 56,
+  "lane_openings": 0,
   "last_run": "2026-10-30",
   "multi": true,
   "platform": "NEOGOV",
-  "status": "ok"
+  "status": "error: ConnectTimeout"
  },
  "neogov:www.schooljobs.com": {
   "cache_date": "2026-10-30",
@@ -2894,6 +3543,15 @@
  "oracle:eofd.fa.us6.oraclecloud.com/cx_1001": {
   "cache_date": "2026-10-30",
   "cache_rows": [
+   {
+    "city": "Eugene",
+    "days": 0,
+    "info": "   ",
+    "org": "",
+    "snippet": "1500 COBURG RD 97401 EUGENE,OR LANE UNITED STATES",
+    "title": "Front End Entry Level",
+    "url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/787290"
+   },
    {
     "city": "Eugene",
     "days": 1,
@@ -3313,7 +3971,7 @@
   "first_seen": "2026-10-09",
   "home": "",
   "host": "eofd.fa.us6.oraclecloud.com",
-  "lane_openings": 46,
+  "lane_openings": 47,
   "last_run": "2026-10-30",
   "local": false,
   "named": true,
@@ -4337,6 +4995,8 @@
   "weekly": true
  },
  "page:https://alliant.com/about/careers": {
+  "cache_date": "2026-10-30",
+  "cache_rows": [],
   "employer": "Alliant Insurance Services",
   "first_seen": "2026-10-30",
   "home": "Eugene",
@@ -4348,7 +5008,7 @@
   "platform": "Careers page",
   "remote_ok": false,
   "rotate": false,
-  "status": "error: TimeoutError",
+  "status": "ok",
   "url": "https://alliant.com/about/careers/",
   "weekly": false
  },
@@ -4591,7 +5251,7 @@
   "weekly": true
  },
  "page:https://bellevuehealthcare.com/about-bhc/careers": {
-  "cache_date": "2026-10-29",
+  "cache_date": "2026-10-30",
   "cache_rows": [],
   "employer": "Bellevue Healthcare",
   "first_seen": "2026-10-29",
@@ -4604,7 +5264,7 @@
   "platform": "Careers page",
   "remote_ok": false,
   "rotate": true,
-  "status": "error: TimeoutError",
+  "status": "ok",
   "url": "https://bellevuehealthcare.com/about-bhc/careers/",
   "weekly": false
  },
@@ -5556,6 +6216,105 @@
   "rotate": true,
   "status": "skipped: site shows a human-verification challenge",
   "url": "https://careers.consoreng.com/",
+  "weekly": false
+ },
+ "page:https://careers.costco.com/jobs?location=eugene%2c%20or": {
+  "cache_date": "2026-10-30",
+  "cache_rows": [
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Stocker",
+    "url": "https://careers.costco.com/jobs/2449?lang=en-us&previousLocale=en-US"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Forklift Driver",
+    "url": "https://careers.costco.com/jobs/67029?lang=en-us&previousLocale=en-US"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Membership Clerk",
+    "url": "https://careers.costco.com/jobs/67022?lang=en-us&previousLocale=en-US"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Receiving Clerk",
+    "url": "https://careers.costco.com/jobs/64341?lang=en-us&previousLocale=en-US"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Maintenance Assistant",
+    "url": "https://careers.costco.com/jobs/64340?lang=en-us&previousLocale=en-US"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Food Service Assistant",
+    "url": "https://careers.costco.com/jobs/67278?lang=en-us&previousLocale=en-US"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Loss Prevention Clerk",
+    "url": "https://careers.costco.com/jobs/64337?lang=en-us&previousLocale=en-US"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Maintenance Clerk",
+    "url": "https://careers.costco.com/jobs/64339?lang=en-us&previousLocale=en-US"
+   }
+  ],
+  "employer": "Costco Wholesale",
+  "first_seen": "2026-10-30",
+  "home": "Eugene",
+  "host": "careers.costco.com",
+  "lane_openings": 8,
+  "last_run": "2026-10-30",
+  "local": true,
+  "named": true,
+  "platform": "Careers page",
+  "remote_ok": true,
+  "rotate": false,
+  "status": "ok",
+  "url": "https://careers.costco.com/jobs?location=Eugene%2C%20OR",
   "weekly": false
  },
  "page:https://careers.dutchbros.com/us/en": {
@@ -6520,8 +7279,8 @@
     "org": "",
     "remote": false,
     "snippet": "",
-    "title": "Medic",
-    "url": "https://www.cascadehealth.org/careers/7jdsc6xr98khtg2-3t7zy-7dze4-jk1q4-s432e-EzsyG-hSJq7-3dnYG-vdQ4V-wctel-q4Zxt-ledsc-P2Ijh-2vqyx-a42k3-6tn7r-64wlb"
+    "title": "Unit clerk",
+    "url": "https://www.cascadehealth.org/careers/jxe56s8yne6tbxy-FBbBH-kwl5d-7psrk-fk65k-bjn8z-7m4cs-n388a-kbt87-7j9cr-gFCHr-hj8p9"
    },
    {
     "city": "Eugene",
@@ -6530,8 +7289,8 @@
     "org": "",
     "remote": false,
     "snippet": "",
-    "title": "Staff RN",
-    "url": "https://www.cascadehealth.org/careers/jxe56s8yne6tbxy-FBbBH-kwl5d-7psrk-fk65k-bjn8z-7m4cs-n388a-fr8s3-lsxe4"
+    "title": "Medic",
+    "url": "https://www.cascadehealth.org/careers/7jdsc6xr98khtg2-3t7zy-7dze4-jk1q4-s432e-EzsyG-hSJq7-3dnYG-vdQ4V-wctel-q4Zxt-ledsc-P2Ijh-2vqyx-a42k3-6tn7r-64wlb"
    },
    {
     "city": "Eugene",
@@ -7589,6 +8348,55 @@
   "rotate": true,
   "status": "ok",
   "url": "https://elderhealthandliving.com/employment/",
+  "weekly": false
+ },
+ "page:https://emergence.applicantpool.com/jobs": {
+  "cache_date": "2026-10-30",
+  "cache_rows": [
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Bilingual (Spanish) Relief Counselor - Substance Use Disorder (SUD)",
+    "url": "https://emergence.applicantpool.com/jobs/1018725"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "BILINGUAL (SPANISH/ENGLISH) SUDS COUNSELOR",
+    "url": "https://emergence.applicantpool.com/jobs/850867"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Relief Counselor - Substance Use Disorder (SUD)",
+    "url": "https://emergence.applicantpool.com/jobs/1065331"
+   }
+  ],
+  "employer": "Emergence Addiction and Behavioral Therapies",
+  "first_seen": "2026-10-30",
+  "home": "Eugene",
+  "host": "emergence.applicantpool.com",
+  "lane_openings": 3,
+  "last_run": "2026-10-30",
+  "local": true,
+  "named": true,
+  "platform": "Careers page",
+  "remote_ok": true,
+  "rotate": false,
+  "status": "ok",
+  "url": "https://emergence.applicantpool.com/jobs/",
   "weekly": false
  },
  "page:https://emi-ndt.com/careers": {
@@ -9523,6 +10331,16 @@
     "org": "",
     "remote": false,
     "snippet": "",
+    "title": "Instructor Pool - Writing",
+    "url": "https://jobs.lanecc.edu/postings/13713"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
     "title": "Instructor Pool - Music",
     "url": "https://jobs.lanecc.edu/postings/13712"
    },
@@ -9731,7 +10549,7 @@
   "first_seen": "2026-10-28",
   "home": "Eugene",
   "host": "jobs.lanecc.edu",
-  "lane_openings": 21,
+  "lane_openings": 22,
   "last_run": "2026-10-30",
   "local": true,
   "named": true,
@@ -10582,6 +11400,26 @@
     "org": "",
     "remote": false,
     "snippet": "",
+    "title": "RCC Social Service Assistant",
+    "url": "https://lookingglass.applicantpool.com/jobs/1338778"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "RCC Social Service Assistant - Relief",
+    "url": "https://lookingglass.applicantpool.com/jobs/1338780"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
     "title": "Riverfront - College and Career Readiness Specialist",
     "url": "https://lookingglass.applicantpool.com/jobs/1336608"
    }
@@ -10590,7 +11428,7 @@
   "first_seen": "2026-10-28",
   "home": "Eugene",
   "host": "lookingglass.applicantpool.com",
-  "lane_openings": 4,
+  "lane_openings": 6,
   "last_run": "2026-10-30",
   "local": true,
   "named": true,
@@ -13361,7 +14199,7 @@
   "weekly": true
  },
  "page:https://securityofficerhq.com/security-guard-job-interview": {
-  "cache_date": "2026-10-29",
+  "cache_date": "2026-10-30",
   "cache_rows": [],
   "employer": "Mccourt T Randolph",
   "first_seen": "2026-10-29",
@@ -13374,7 +14212,7 @@
   "platform": "Careers page",
   "remote_ok": false,
   "rotate": true,
-  "status": "error: TimeoutError",
+  "status": "ok",
   "url": "https://securityofficerhq.com/security-guard-job-interview",
   "weekly": false
  },
@@ -16373,7 +17211,7 @@
   "platform": "Careers page",
   "remote_ok": false,
   "rotate": true,
-  "status": "error: TimeoutError",
+  "status": "skipped: site shows a human-verification challenge",
   "url": "https://www.bendparksandrec.org/about/employment/",
   "weekly": false
  },
@@ -17472,7 +18310,7 @@
   "platform": "Careers page",
   "remote_ok": false,
   "rotate": true,
-  "status": "error: TimeoutError",
+  "status": "skipped: site shows a human-verification challenge",
   "url": "https://www.coburgcharter.org/employment",
   "weekly": false
  },
@@ -17840,7 +18678,7 @@
   "platform": "Careers page",
   "remote_ok": false,
   "rotate": false,
-  "status": "error: TimeoutError",
+  "status": "skipped: site shows a human-verification challenge",
   "url": "https://www.csrow.com/careers",
   "weekly": false
  },
@@ -20316,7 +21154,7 @@
   "platform": "Careers page",
   "remote_ok": false,
   "rotate": false,
-  "status": "error: TimeoutError",
+  "status": "skipped: site shows a human-verification challenge",
   "url": "https://www.kclengineering.com/careers",
   "weekly": false
  },
@@ -20807,7 +21645,7 @@
   "platform": "Careers page",
   "remote_ok": false,
   "rotate": true,
-  "status": "skipped: site shows a human-verification challenge",
+  "status": "error: TimeoutError",
   "url": "https://www.lowellorfire.gov/job-openings",
   "weekly": false
  },
@@ -21866,6 +22704,26 @@
   "cache_date": "2026-10-30",
   "cache_rows": [
    {
+    "city": "Junction City",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Parts Painter Machine Shop",
+    "url": "https://nwstaff.com/job/2182-parts-painter-machine-shop-junction-city-or/"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Welder",
+    "url": "https://nwstaff.com/job/2161-welder-swing-springfield/"
+   },
+   {
     "city": "Springfield",
     "days": null,
     "info": "",
@@ -21874,43 +22732,13 @@
     "snippet": "",
     "title": "Shipping & Receiving Clerk",
     "url": "https://nwstaff.com/job/1619-shipping-receiving-clerk-springfield-or/"
-   },
-   {
-    "city": "Eugene",
-    "days": null,
-    "info": "",
-    "org": "",
-    "remote": false,
-    "snippet": "",
-    "title": "Temporary Receptionist/Office Support",
-    "url": "https://nwstaff.com/job/2181-temporary-receptionist-must-be-bi-lingual/"
-   },
-   {
-    "city": "Eugene",
-    "days": null,
-    "info": "",
-    "org": "",
-    "remote": false,
-    "snippet": "",
-    "title": "Receiving & Material Handler",
-    "url": "https://nwstaff.com/job/1662-receiving-material-handler/"
-   },
-   {
-    "city": "Junction City",
-    "days": null,
-    "info": "",
-    "org": "",
-    "remote": false,
-    "snippet": "",
-    "title": "Entry Level Machine Operator",
-    "url": "https://nwstaff.com/job/1858-entry-level-machine-operator-junction-city-or/"
    }
   ],
   "employer": "Northwest Industrial Staffing",
   "first_seen": "2026-10-28",
   "home": "Eugene",
   "host": "www.nwstaff.com",
-  "lane_openings": 4,
+  "lane_openings": 3,
   "last_run": "2026-10-30",
   "local": true,
   "named": true,
@@ -24244,33 +25072,12 @@
  },
  "page:https://www.starrentals.com/employment": {
   "cache_date": "2026-10-30",
-  "cache_rows": [
-   {
-    "city": "Springfield",
-    "days": null,
-    "info": "",
-    "org": "",
-    "remote": false,
-    "snippet": "",
-    "title": "Everett Class A CDL Driver",
-    "url": "https://www.starrentals.com/galleryupload/webdoc/jobs/Everett%20Class%20A%20CDL%20Driver.pdf"
-   },
-   {
-    "city": "Springfield",
-    "days": null,
-    "info": "",
-    "org": "",
-    "remote": false,
-    "snippet": "",
-    "title": "Wenatchee Service Technician",
-    "url": "https://www.starrentals.com/galleryupload/webdoc/jobs/Wenatchee%20Service%20Technician.pdf"
-   }
-  ],
+  "cache_rows": [],
   "employer": "Star Rentals",
   "first_seen": "2026-10-29",
   "home": "Springfield",
   "host": "www.starrentals.com",
-  "lane_openings": 2,
+  "lane_openings": 0,
   "last_run": "2026-10-30",
   "local": "maybe",
   "named": true,
@@ -24477,6 +25284,105 @@
   "url": "https://www.supernovahaireugene.com/join-the-team",
   "weekly": false
  },
+ "page:https://www.svdp.us/employment": {
+  "cache_date": "2026-10-30",
+  "cache_rows": [
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Community Outreach Specialist",
+    "url": "https://www.svdp.us/apply/?position=Community%20Outreach%20Specialist"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Family Support Specialist",
+    "url": "https://www.svdp.us/apply/?position=Family%20Support%20Specialist"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Logistics Coordinator-Egan Warming Centers",
+    "url": "https://www.svdp.us/apply/?position=Logistics%20Coordinator-Egan%20Warming%20Centers"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Property Surveillance Monitor-Graveyard",
+    "url": "https://www.svdp.us/apply/?position=Property%20Surveillance%20Monitor-Graveyard"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Senior Accountant",
+    "url": "https://www.svdp.us/apply/?position=Senior%20Accountant"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Shelter Support Staff – Graveyard",
+    "url": "https://www.svdp.us/apply/?position=Shelter%20Support%20Staff%20%26%238211%3B%20Graveyard"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "SSVF Case Manager",
+    "url": "https://www.svdp.us/apply/?position=SSVF%20Case%20Manager%C2%A0"
+   },
+   {
+    "city": "Eugene",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Assistant Controller",
+    "url": "https://www.svdp.us/apply/?position=Assistant%20Controller"
+   }
+  ],
+  "employer": "St. Vincent de Paul Society of Lane County",
+  "first_seen": "2026-10-30",
+  "home": "Eugene",
+  "host": "www.svdp.us",
+  "lane_openings": 8,
+  "last_run": "2026-10-30",
+  "local": true,
+  "named": true,
+  "platform": "Careers page",
+  "remote_ok": true,
+  "rotate": false,
+  "status": "ok",
+  "url": "https://www.svdp.us/employment/",
+  "weekly": false
+ },
  "page:https://www.systemswestengineers.com/careers": {
   "cache_date": "2026-10-30",
   "cache_rows": [],
@@ -24564,6 +25470,8 @@
   "weekly": false
  },
  "page:https://www.tecequipment.com/careers": {
+  "cache_date": "2026-10-30",
+  "cache_rows": [],
   "employer": "TEC Equipment",
   "first_seen": "2026-10-29",
   "home": "Coburg",
@@ -24575,7 +25483,7 @@
   "platform": "Careers page",
   "remote_ok": false,
   "rotate": true,
-  "status": "error: TimeoutError",
+  "status": "ok",
   "url": "https://www.tecequipment.com/careers/",
   "weekly": false
  },
@@ -25098,7 +26006,7 @@
   "platform": "Careers page",
   "remote_ok": false,
   "rotate": true,
-  "status": "error: TimeoutError",
+  "status": "skipped: site shows a human-verification challenge",
   "url": "https://www.umpquaroofing.com/careers",
   "weekly": false
  },
@@ -25662,6 +26570,65 @@
   "url": "https://www.woodcraft.com/pages/woodcraft-careers",
   "weekly": true
  },
+ "page:https://www.workstream.us/j/c34dd5f8/chick-fil-a/positions?locale=en": {
+  "cache_date": "2026-10-30",
+  "cache_rows": [
+   {
+    "city": "Springfield",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Back of House Team Member",
+    "url": "https://www.workstream.us/j/c34dd5f8/chick-fil-a/springfield-96070/back-of-house-team-member-d3fa8c91?locale=en"
+   },
+   {
+    "city": "Springfield",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "FOH Shift Lead",
+    "url": "https://www.workstream.us/j/c34dd5f8/chick-fil-a/springfield-96070/foh-shift-lead-90474d87?locale=en"
+   },
+   {
+    "city": "Springfield",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Front of House Team Member",
+    "url": "https://www.workstream.us/j/c34dd5f8/chick-fil-a/springfield-96070/front-of-house-team-member-8efa064b?locale=en"
+   },
+   {
+    "city": "Springfield",
+    "days": null,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Overnight Back of House Team Member",
+    "url": "https://www.workstream.us/j/c34dd5f8/chick-fil-a/springfield-96070/overnight-back-of-house-team-member-8f0189f7?locale=en"
+   }
+  ],
+  "employer": "Chick-fil-A Gateway",
+  "first_seen": "2026-10-30",
+  "home": "Springfield",
+  "host": "www.workstream.us",
+  "lane_openings": 4,
+  "last_run": "2026-10-30",
+  "local": true,
+  "named": true,
+  "platform": "Careers page",
+  "remote_ok": true,
+  "rotate": false,
+  "status": "ok",
+  "url": "https://www.workstream.us/j/c34dd5f8/chick-fil-a/positions?locale=en",
+  "weekly": false
+ },
  "page:https://www.worthingtonchamber.org/jobs": {
   "cache_date": "2026-10-30",
   "cache_rows": [
@@ -25915,7 +26882,7 @@
   "platform": "Careers page",
   "remote_ok": false,
   "rotate": false,
-  "status": "ok",
+  "status": "error: TimeoutError",
   "url": "https://ziplyfiber.com/careers",
   "weekly": false
  },
@@ -26038,6 +27005,95 @@
   "rotate": true,
   "status": "ok",
   "token": "6223fb49-2223-4875-97f3-fa1be8e4c92a",
+  "weekly": false
+ },
+ "paylocity:74250a42-2de1-439f-8d9c-cbcc19b81f01": {
+  "cache_date": "2026-10-30",
+  "cache_rows": [
+   {
+    "city": "Eugene",
+    "days": 42,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "Nexus Family Healing is looking to hire a Residential Program Manager to join our newest Youth Psychiatric Res",
+    "title": "Residential Program Manager",
+    "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4519852"
+   },
+   {
+    "city": "Eugene",
+    "days": 78,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "Nexus Family Healing is looking to add an Youth Care Professional 3rd Shift to join our newest Youth Psychiatr",
+    "title": "Youth Care Professional 3rd Shift",
+    "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4417249"
+   },
+   {
+    "city": "Eugene",
+    "days": 78,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "Nexus Family Healing is looking to add a Registered Nurse to join our newest Youth Psychiatric Residential Tre",
+    "title": "Registered Nurse",
+    "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4417186"
+   },
+   {
+    "city": "Eugene",
+    "days": 78,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "Nexus Family Healing is looking to add a Temporary Relief Youth Care Professional to join our newest Youth Psy",
+    "title": "Temporary Relief Youth Care Professional",
+    "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4417197"
+   },
+   {
+    "city": "Eugene",
+    "days": 78,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "Nexus Family Healing is looking to hire a 3rd Shift Milieu Supervisor to join our newest Youth Psychiatric Res",
+    "title": "Milieu Supervisor - 3rd Shift",
+    "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4417177"
+   },
+   {
+    "city": "Eugene",
+    "days": 78,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "Nexus Family Healing is looking to add a Mental Health Therapist to join our newest Youth Psychiatric Resident",
+    "title": "Mental Health Therapist",
+    "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4417162"
+   },
+   {
+    "city": "Eugene",
+    "days": 108,
+    "info": "",
+    "org": "",
+    "remote": false,
+    "snippet": "Nexus Family Healing is looking to add several PRN Registered Nurses to our residential program in Portland, O",
+    "title": "PRN Registered Nurse",
+    "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4331095"
+   }
+  ],
+  "employer": "Nexus Family Healing",
+  "first_seen": "2026-10-30",
+  "home": "",
+  "host": "recruiting.paylocity.com",
+  "lane_openings": 7,
+  "last_run": "2026-10-30",
+  "local": true,
+  "named": true,
+  "platform": "Paylocity",
+  "remote_ok": true,
+  "rotate": false,
+  "status": "ok",
+  "token": "74250a42-2de1-439f-8d9c-cbcc19b81f01",
   "weekly": false
  },
  "paylocity:768a9b7d-a635-4e27-9c86-174b2ea197a8": {
@@ -26921,6 +27977,24 @@
   "cache_rows": [
    {
     "city": "Eugene",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Gentle Dental is immediately hiring for a full-time Orthodontist in our Albany, Corvallis, Lebanon and Eugene, Oregon offices.",
+    "title": "Orthodontist",
+    "url": "https://recruiting2.ultipro.com/int1061idsc/JobBoard/01e1ba61-9460-43b1-988f-67da092f4d32/OpportunityDetail?opportunityId=d63c48a6-fdcb-4f08-8ebe-3c3c2b9a9e3a"
+   },
+   {
+    "city": "Eugene",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Come Practice at the Top of Your Licensure in Eugene, OR!",
+    "title": "Dental Therapist",
+    "url": "https://recruiting2.ultipro.com/int1061idsc/JobBoard/01e1ba61-9460-43b1-988f-67da092f4d32/OpportunityDetail?opportunityId=a8969a4f-030f-4b49-9d69-40f7dc93541b"
+   },
+   {
+    "city": "Eugene",
     "days": 3,
     "hours": "Full-time",
     "org": "",
@@ -26972,24 +28046,6 @@
     "snippet": "At Gentle Dental, we value our teammate’s smile as much as our patient’s smile.",
     "title": "Treatment Coordinator - Temporary",
     "url": "https://recruiting2.ultipro.com/int1061idsc/JobBoard/01e1ba61-9460-43b1-988f-67da092f4d32/OpportunityDetail?opportunityId=a43741b6-fbbf-440f-ba2c-3906964c4a7b"
-   },
-   {
-    "city": "Eugene",
-    "days": 28,
-    "hours": "Full-time",
-    "org": "",
-    "snippet": "Come Practice at the Top of Your Licensure in Eugene, OR!",
-    "title": "Dental Therapist",
-    "url": "https://recruiting2.ultipro.com/int1061idsc/JobBoard/01e1ba61-9460-43b1-988f-67da092f4d32/OpportunityDetail?opportunityId=4e11ea17-7400-4fec-b4df-abba2a2c69db"
-   },
-   {
-    "city": "Eugene",
-    "days": 32,
-    "hours": "Full-time",
-    "org": "",
-    "snippet": "Gentle Dental is immediately hiring for a full-time Orthodontist in our Albany, Corvallis, Lebanon and Eugene, Oregon offices.",
-    "title": "Orthodontist",
-    "url": "https://recruiting2.ultipro.com/int1061idsc/JobBoard/01e1ba61-9460-43b1-988f-67da092f4d32/OpportunityDetail?opportunityId=a8d0ad99-8ed6-4733-b5f9-56a9fc90bc35"
    }
   ],
   "employer": "Gentle Dental",
@@ -27155,25 +28211,16 @@
   "cache_rows": [
    {
     "city": "Eugene",
-    "days": 30,
+    "days": 0,
     "hours": "Full-time",
     "org": "",
-    "snippet": "The Assistant Project Manager will be trained in the duties of project management; they will be shadowed and mentored by a full Project Manager. Throughout their training they will assist in providing overall supervision and technical management on construction project sites from bid preparation thr",
-    "title": "Electrical Construction Assistant Project Manager",
-    "url": "https://everus.rec.pro.ukg.net/mdu1500mduc/JobBoard/f9402b82-d385-4067-ab64-4e65b88ce602/OpportunityDetail?opportunityId=e3ea0c81-df93-4930-9530-678960e64076"
+    "snippet": "The Project Engineer supports the project team in various functions, including but not limited to job cost tracking, schedule tracking, change orders, RFI’s and submittals",
+    "title": "Electrical Construction Project Engineer",
+    "url": "https://everus.rec.pro.ukg.net/mdu1500mduc/JobBoard/f9402b82-d385-4067-ab64-4e65b88ce602/OpportunityDetail?opportunityId=0558dd0a-061d-4c5e-8b29-a9d7eb2ead50"
    },
    {
     "city": "Eugene",
-    "days": 30,
-    "hours": "Full-time",
-    "org": "",
-    "snippet": "The Senior Project Manager is responsible for providing overall project management support for several small to medium projects or on one very large project. Provide overall supervision and technical management on construction project sites from bid preparation through job close out documentation to",
-    "title": "Electrical Construction Senior Project Manager",
-    "url": "https://everus.rec.pro.ukg.net/mdu1500mduc/JobBoard/f9402b82-d385-4067-ab64-4e65b88ce602/OpportunityDetail?opportunityId=18b60767-19fd-42c3-b6a8-22fd229c6519"
-   },
-   {
-    "city": "Eugene",
-    "days": 30,
+    "days": 0,
     "hours": "Full-time",
     "org": "",
     "snippet": "The Project Manager is responsible for providing overall supervision and technical management on construction project sites from bid preparation through job close out documentation to the customer.",
@@ -27182,12 +28229,21 @@
    },
    {
     "city": "Eugene",
-    "days": 30,
+    "days": 0,
     "hours": "Full-time",
     "org": "",
-    "snippet": "The Project Engineer supports the project team in various functions, including but not limited to job cost tracking, schedule tracking, change orders, RFI’s and submittals",
-    "title": "Electrical Construction Project Engineer",
-    "url": "https://everus.rec.pro.ukg.net/mdu1500mduc/JobBoard/f9402b82-d385-4067-ab64-4e65b88ce602/OpportunityDetail?opportunityId=0558dd0a-061d-4c5e-8b29-a9d7eb2ead50"
+    "snippet": "The Senior Project Manager is responsible for providing overall project management support for several small to medium projects or on one very large project. Provide overall supervision and technical management on construction project sites from bid preparation through job close out documentation to",
+    "title": "Electrical Construction Senior Project Manager",
+    "url": "https://everus.rec.pro.ukg.net/mdu1500mduc/JobBoard/f9402b82-d385-4067-ab64-4e65b88ce602/OpportunityDetail?opportunityId=18b60767-19fd-42c3-b6a8-22fd229c6519"
+   },
+   {
+    "city": "Eugene",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "The Assistant Project Manager will be trained in the duties of project management; they will be shadowed and mentored by a full Project Manager. Throughout their training they will assist in providing overall supervision and technical management on construction project sites from bid preparation thr",
+    "title": "Electrical Construction Assistant Project Manager",
+    "url": "https://everus.rec.pro.ukg.net/mdu1500mduc/JobBoard/f9402b82-d385-4067-ab64-4e65b88ce602/OpportunityDetail?opportunityId=e3ea0c81-df93-4930-9530-678960e64076"
    }
   ],
   "employer": "OEG (Everus)",
@@ -27205,25 +28261,16 @@
   "cache_rows": [
    {
     "city": "Eugene",
-    "days": 30,
+    "days": 0,
     "hours": "Full-time",
     "org": "",
-    "snippet": "The Assistant Project Manager will be trained in the duties of project management; they will be shadowed and mentored by a full Project Manager. Throughout their training they will assist in providing overall supervision and technical management on construction project sites from bid preparation thr",
-    "title": "Electrical Construction Assistant Project Manager",
-    "url": "https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/OpportunityDetail?opportunityId=e3ea0c81-df93-4930-9530-678960e64076"
+    "snippet": "The Project Engineer supports the project team in various functions, including but not limited to job cost tracking, schedule tracking, change orders, RFI’s and submittals",
+    "title": "Electrical Construction Project Engineer",
+    "url": "https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/OpportunityDetail?opportunityId=0558dd0a-061d-4c5e-8b29-a9d7eb2ead50"
    },
    {
     "city": "Eugene",
-    "days": 30,
-    "hours": "Full-time",
-    "org": "",
-    "snippet": "The Senior Project Manager is responsible for providing overall project management support for several small to medium projects or on one very large project. Provide overall supervision and technical management on construction project sites from bid preparation through job close out documentation to",
-    "title": "Electrical Construction Senior Project Manager",
-    "url": "https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/OpportunityDetail?opportunityId=18b60767-19fd-42c3-b6a8-22fd229c6519"
-   },
-   {
-    "city": "Eugene",
-    "days": 30,
+    "days": 0,
     "hours": "Full-time",
     "org": "",
     "snippet": "The Project Manager is responsible for providing overall supervision and technical management on construction project sites from bid preparation through job close out documentation to the customer.",
@@ -27232,12 +28279,21 @@
    },
    {
     "city": "Eugene",
-    "days": 30,
+    "days": 0,
     "hours": "Full-time",
     "org": "",
-    "snippet": "The Project Engineer supports the project team in various functions, including but not limited to job cost tracking, schedule tracking, change orders, RFI’s and submittals",
-    "title": "Electrical Construction Project Engineer",
-    "url": "https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/OpportunityDetail?opportunityId=0558dd0a-061d-4c5e-8b29-a9d7eb2ead50"
+    "snippet": "The Senior Project Manager is responsible for providing overall project management support for several small to medium projects or on one very large project. Provide overall supervision and technical management on construction project sites from bid preparation through job close out documentation to",
+    "title": "Electrical Construction Senior Project Manager",
+    "url": "https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/OpportunityDetail?opportunityId=18b60767-19fd-42c3-b6a8-22fd229c6519"
+   },
+   {
+    "city": "Eugene",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "The Assistant Project Manager will be trained in the duties of project management; they will be shadowed and mentored by a full Project Manager. Throughout their training they will assist in providing overall supervision and technical management on construction project sites from bid preparation thr",
+    "title": "Electrical Construction Assistant Project Manager",
+    "url": "https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/OpportunityDetail?opportunityId=e3ea0c81-df93-4930-9530-678960e64076"
    }
   ],
   "employer": "Oregon Electric Group",
@@ -27356,6 +28412,15 @@
   "cache_rows": [
    {
     "city": "Eugene",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Yard / Utility Person",
+    "title": "Yard / Utility Person",
+    "url": "https://recruiting2.ultipro.com/pap1001/JobBoard/7297d137-c573-4bf4-8ab4-09ad7dac6ec8/OpportunityDetail?opportunityId=c1679a5c-af75-401a-9bc2-33af2e0a2f2a"
+   },
+   {
+    "city": "Eugene",
     "days": 10,
     "hours": "Full-time",
     "org": "",
@@ -27368,7 +28433,7 @@
   "first_seen": "2026-10-09",
   "home": "Eugene",
   "host": "recruiting2.ultipro.com",
-  "lane_openings": 1,
+  "lane_openings": 2,
   "last_run": "2026-10-30",
   "local": false,
   "name_checked": "2026-10-28",
@@ -27403,6 +28468,195 @@
   "board": "03176428-96f4-412f-8077-fe5445cc40f6",
   "cache_date": "2026-10-30",
   "cache_rows": [
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Part-time",
+    "org": "",
+    "snippet": "Lead Vascular Tech - McKenzie Vascular Group Oversees vascular imaging daily operations, ensuring adherence to vascular imaging quality assurance standards. Works collaboratively with vascular surgeons, clinicians and administrative team. Responsible for imaging procedures, evaluates, and tracks dat",
+    "title": "Registered Vascular Technologist - McKenzie Medical Group Vascular Surgery",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=08f6456c-3ddf-4c77-831f-d3392a76cca1"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Scheduling Clerk - McKenzie Medical Group - Vascular Surgery Hourly Base Rate: $19.05 – $26.67 Shift: Day Shift Hours Per Week: Full Time; Monday-Friday",
+    "title": "Scheduling Clerk / Advanced Surgery Scheduler - McKenzie Vascular Group",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=6abdf6aa-f05d-42a4-a075-7d48973fb222"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Paramedic (ED TECH) - Emergency - Evenings McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers offeri",
+    "title": "Paramedic (ED TECH) - Emergency - Evenings",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=b737dabd-102d-41fa-be35-35aef9bfb8f8"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Part-time",
+    "org": "",
+    "snippet": "Paramedic (ED TECH) - Emergency - Evenings-Part Time McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregiv",
+    "title": "Paramedic (ED TECH) - Emergency - Evenings-Part Time",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=a37d8a92-59e2-4ec7-b4d4-a13a272128fa"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Paramedic (ED TECH) - Emergency - Evenings McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers offeri",
+    "title": "Paramedic (ED TECH) - Emergency - Evenings",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=035b943d-6952-4402-9626-e7658d3555b3"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Part-time",
+    "org": "",
+    "snippet": "Paramedic (ED TECH) - Emergency -Mid Shift-Part Time McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregiv",
+    "title": "Paramedic (ED TECH) - Emergency - Mid Shift-Part Time",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=504f04eb-60dc-4e97-b63c-8893d3384a00"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Unit Secretary - Emergency - Evenings McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers offering ca",
+    "title": "Unit Secretary - Emergency - Evenings",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=ec4e6393-ec34-4918-89fa-9383a854ea69"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Patient Access Clerk - Patient Registration Under immediate supervision of the Lead patient Access Clerk performs a variety of registration, admission, public relations, financial and medical service functions. Performs interviews for the purpose of initiating accounts.",
+    "title": "Patient Access Clerk - Patient Registration",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=584dcbfb-6fc3-4959-9f81-05862f1df746"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Sterile Processing Tech McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers offering care to our larg",
+    "title": "Sterile Processing Tech",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=d4d38aac-edf6-4151-8e8e-3cb21b0e27c8"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Sterile Processing Tech McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers offering care to our larg",
+    "title": "Sterile Processing Tech",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=20bd49bc-0641-49e3-89bc-f9dfa6216b2d"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Registered Nurse - Critical Care Unit - Days McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers offe",
+    "title": "Registered Nurse - Critical Care Unit - Days",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=6f40435c-9659-447e-b5b3-90c242f3e95b"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "RN - Surgical Care Unit - Part Time Nights McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers offeri",
+    "title": "RN - Surgical Care Unit - Part Time Nights",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=9c5b66ff-36c6-4571-ae53-11644cd0833f"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Part-time",
+    "org": "",
+    "snippet": "Registered Nurse - Medical Care Unit West - Nights McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregiver",
+    "title": "Registered Nurse - Medical Care Unit West - Nights",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=13dd8c85-e56b-4484-9c41-44a34bbd96d1"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Part-time",
+    "org": "",
+    "snippet": "Registered Nurse - Critical Care Unit - Nights McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers of",
+    "title": "Registered Nurse - Critical Care Unit - Nights",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=7c41dff3-415d-41a1-af8d-6750680fb27d"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Supervises the design, development and safety testing of biomedical equipment. Ensures that the biomedical equipment is in compliance with applicable regulatory requirements, implements quality control standards, maintains budget and vendor relationships. Supervises BMET 1, BMET 2 and BMET leads in ",
+    "title": "Supervisor Bio Med",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=58bda64c-a34b-419c-bf8d-156e0746a3a2"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Part-time",
+    "org": "",
+    "snippet": "Patient Access Clerk - Patient Registration - PRN McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers",
+    "title": "Patient Access Clerk - Patient Registration - PRN",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=67267dc6-b7d6-4e71-ab9f-6a4d135eba27"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Registered Nurse - Medical Care Unit West - Days McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers ",
+    "title": "Registered Nurse - Medical Care Unit West - Days",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=8c8a04dc-1984-4151-91b5-edbed96c9cbb"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Part-time",
+    "org": "",
+    "snippet": "Registered Nurse - Critical Care Unit - Nights McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers of",
+    "title": "Registered Nurse - Critical Care Unit - Nights",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=633560a0-4768-4dc3-8bcb-ef9e8810f620"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Part-time",
+    "org": "",
+    "snippet": "RN - Cardiovascular Prep & Recovery - Charge Nurse - PT McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of care",
+    "title": "RN - Cardiovascular Prep & Recovery - Charge Nurse - PT",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=830b9602-04d1-4fe1-bb81-0955fd83cda4"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "RN - Cardiovascular Prep & Recovery - Charge Nurse - FT McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of care",
+    "title": "RN - Cardiovascular Prep & Recovery - Charge Nurse - FT",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=3734cd74-0928-4452-afdc-e16966a91563"
+   },
+   {
+    "city": "Springfield",
+    "days": 0,
+    "hours": "Full-time",
+    "org": "",
+    "snippet": "Under the supervision of the physician and department management team, participates in or assists with all routine and therapeutic angiographic or catheterization procedures and other invasive procedures as required. Responsible for planning, coordinating, implementing and evaluating all aspects of ",
+    "title": "CATH LAB - CATH LAB PROCEDURAL RN - FT",
+    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=dd92a6cd-5732-4023-8d7c-9eb2b74d5fa3"
+   },
    {
     "city": "Springfield",
     "days": 9,
@@ -27519,15 +28773,6 @@
     "snippet": "Registered Vascular Technologist - McKenzie Medical Group Vascular Surgery Works collaboratively with vascular surgeons, clinicians and administrative team. Responsible for imaging procedures, evaluates, and tracks data, information and images used by the physician in all clinical decision making.",
     "title": "Registered Vascular Technologist - McKenzie Medical Group Vascular Surgery",
     "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=238f96a8-7ab5-416d-9ab2-877f83f188c4"
-   },
-   {
-    "city": "Springfield",
-    "days": 16,
-    "hours": "Full-time",
-    "org": "",
-    "snippet": "Registered Nurse - Critical Care Unit - Days McKenzie-Willamette Medical Center is your community medical provider, serving the Willamette Valley and its residents. Our 113-bed hospital offers inpatient, outpatient, diagnostic, medical, surgical and emergency care. We are a family of caregivers offe",
-    "title": "Registered Nurse - Critical Care Unit - Days",
-    "url": "https://recruiting2.ultipro.com/qhc1000qhcs/JobBoard/03176428-96f4-412f-8077-fe5445cc40f6/OpportunityDetail?opportunityId=71c0205a-ae77-4f7a-8005-482afaa8d5ed"
    },
    {
     "city": "Springfield",
@@ -27803,7 +29048,7 @@
   "employer": "McKenzie-Willamette Medical Center",
   "first_seen": "2026-10-09",
   "host": "recruiting2.ultipro.com",
-  "lane_openings": 44,
+  "lane_openings": 64,
   "last_run": "2026-10-30",
   "platform": "UKG (UltiPro)",
   "status": "ok",
@@ -27862,21 +29107,11 @@
  "ukg:sch1011sstl/02ac23c5-914c-4ab4-9851-dc1bc7bd9c94": {
   "board": "02ac23c5-914c-4ab4-9851-dc1bc7bd9c94",
   "cache_date": "2026-10-30",
-  "cache_rows": [
-   {
-    "city": "Eugene",
-    "days": 73,
-    "hours": "Full-time",
-    "org": "",
-    "snippet": "The NF Commercial Manager oversees all aspects relative to purchasing and inventory management of nonferrous metals in support of a specific region or a designated geographical area. Incumbent works in concert with Regional Accounts Managers, the Recycling Operations Director, General Managers, and ",
-    "title": "Non-Ferrous Commercial Manager",
-    "url": "https://recruiting2.ultipro.com/sch1011sstl/JobBoard/02ac23c5-914c-4ab4-9851-dc1bc7bd9c94/OpportunityDetail?opportunityId=9e83437f-807a-4342-a9fb-9c1cb61e2897"
-   }
-  ],
+  "cache_rows": [],
   "employer": "",
   "first_seen": "2026-10-09",
   "host": "recruiting2.ultipro.com",
-  "lane_openings": 1,
+  "lane_openings": 0,
   "last_run": "2026-10-30",
   "name_checked": "2026-10-30",
   "platform": "UKG (UltiPro)",
@@ -27889,12 +29124,12 @@
   "cache_rows": [
    {
     "city": "Eugene",
-    "days": 2,
+    "days": 0,
     "hours": "Full-time",
     "org": "",
-    "snippet": "Are you ‘bread’ for success? Come make $ dough $ with us!",
-    "title": "Bakery Maint Engineer",
-    "url": "https://bakeryportal.rec.pro.ukg.net/uni1118ubake/JobBoard/5324de7a-568a-4c02-b992-14593e5888be/OpportunityDetail?opportunityId=827da57a-6f98-4064-93ff-c3f789078d23"
+    "snippet": "We are seeking a Sanitation & Food Safety Manger to join our hard working and fast-paced team in Springfield, OR!",
+    "title": "Sanitation and Food Safety Manager",
+    "url": "https://bakeryportal.rec.pro.ukg.net/uni1118ubake/JobBoard/5324de7a-568a-4c02-b992-14593e5888be/OpportunityDetail?opportunityId=ec6e33dc-0014-4138-909d-df7c210243c5"
    },
    {
     "city": "Eugene",
@@ -27902,8 +29137,8 @@
     "hours": "Full-time",
     "org": "",
     "snippet": "Are you ‘bread’ for success? Come make $ dough $ with us!",
-    "title": "Human Resources Generalist",
-    "url": "https://bakeryportal.rec.pro.ukg.net/uni1118ubake/JobBoard/5324de7a-568a-4c02-b992-14593e5888be/OpportunityDetail?opportunityId=f2c4475b-b941-4f8b-8b7d-aaaf37c75d74"
+    "title": "Bakery Maint Engineer",
+    "url": "https://bakeryportal.rec.pro.ukg.net/uni1118ubake/JobBoard/5324de7a-568a-4c02-b992-14593e5888be/OpportunityDetail?opportunityId=827da57a-6f98-4064-93ff-c3f789078d23"
    },
    {
     "city": "Eugene",
@@ -28183,22 +29418,12 @@
  },
  "workday:airliquidehr/airgasexternalcareer": {
   "cache_date": "2026-10-30",
-  "cache_rows": [
-   {
-    "city": "Eugene",
-    "days": 7,
-    "org": "",
-    "remote": false,
-    "snippet": "",
-    "title": "District Manager",
-    "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirgasExternalCareer/job/Eugene-OR/District-Manager_R10101127"
-   }
-  ],
+  "cache_rows": [],
   "employer": "Airgas Store",
   "first_seen": "2026-10-29",
   "home": "Springfield",
   "host": "airliquidehr.wd3.myworkdayjobs.com",
-  "lane_openings": 1,
+  "lane_openings": 0,
   "last_run": "2026-10-30",
   "local": "maybe",
   "named": true,
@@ -28992,6 +30217,15 @@
   "cache_rows": [
    {
     "city": "Junction City",
+    "days": 0,
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "School Bus Monitor",
+    "url": "https://firststudent.wd1.myworkdayjobs.com/firststudent/job/JUNCTION-CITY-OR/School-Bus-Monitor_JR14833"
+   },
+   {
+    "city": "Junction City",
     "days": 4,
     "org": "",
     "remote": false,
@@ -29003,7 +30237,7 @@
   "employer": "First Student",
   "first_seen": "2026-10-09",
   "host": "firststudent.wd1.myworkdayjobs.com",
-  "lane_openings": 1,
+  "lane_openings": 2,
   "last_run": "2026-10-30",
   "platform": "Workday",
   "site": "firststudent",
@@ -29406,15 +30640,6 @@
    },
    {
     "city": "Eugene",
-    "days": 28,
-    "org": "",
-    "remote": false,
-    "snippet": "",
-    "title": "Pharmacy Technician - Fulfillment (Full-time)",
-    "url": "https://guardianpharmacy.wd5.myworkdayjobs.com/guardian_pharmacy/job/Eugene-Oregon/Pharmacy-Technician---Fulfillment--Full-time-_R16307-1"
-   },
-   {
-    "city": "Eugene",
     "days": 30,
     "org": "",
     "remote": false,
@@ -29427,7 +30652,7 @@
   "first_seen": "2026-10-09",
   "home": "",
   "host": "guardianpharmacy.wd5.myworkdayjobs.com",
-  "lane_openings": 4,
+  "lane_openings": 3,
   "last_run": "2026-10-30",
   "local": false,
   "named": true,
@@ -29909,15 +31134,6 @@
     "org": "",
     "remote": false,
     "snippet": "",
-    "title": "Service Advisor",
-    "url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Eugene-CDJRF-Eugene-OR-97401/Service-Advisor_R117111"
-   },
-   {
-    "city": "Eugene",
-    "days": 30,
-    "org": "",
-    "remote": false,
-    "snippet": "",
     "title": "Snowflake Data Engineer",
     "url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Lithia-Innovation-Hub-Tigard-OR-97223/Snowflake-Data-Engineer_R114290-1"
    }
@@ -29925,7 +31141,7 @@
   "employer": "Lithia Motors",
   "first_seen": "2026-10-09",
   "host": "lithia.wd504.myworkdayjobs.com",
-  "lane_openings": 9,
+  "lane_openings": 8,
   "last_run": "2026-10-30",
   "platform": "Workday",
   "site": "LithiaCareers",
@@ -29935,6 +31151,15 @@
  "workday:lowes/lws_external_cs": {
   "cache_date": "2026-10-30",
   "cache_rows": [
+   {
+    "city": "Eugene",
+    "days": 0,
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "In-Home Sales Specialist",
+    "url": "https://lowes.wd5.myworkdayjobs.com/lws_external_cs/job/Eugene-OR-W-Eugene-2940/In-Home-Sales-Specialist_JR-02654894"
+   },
    {
     "city": "Eugene",
     "days": 14,
@@ -30002,7 +31227,7 @@
   "employer": "Lowe's",
   "first_seen": "2026-10-09",
   "host": "lowes.wd5.myworkdayjobs.com",
-  "lane_openings": 7,
+  "lane_openings": 8,
   "last_run": "2026-10-30",
   "platform": "Workday",
   "site": "lws_external_cs",
@@ -30540,6 +31765,15 @@
   "cache_rows": [
    {
     "city": "Springfield",
+    "days": 0,
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Provider Network Data Maintenance Associate",
+    "url": "https://pacificsource.wd5.myworkdayjobs.com/pacificsource/job/Springfield-OR/Provider-Network-Data-Maintenance-Associate_2026-1356-1"
+   },
+   {
+    "city": "Springfield",
     "days": 2,
     "org": "",
     "remote": false,
@@ -30629,17 +31863,17 @@
     "url": "https://pacificsource.wd5.myworkdayjobs.com/pacificsource/job/Springfield-OR/PACE-Clinic-Registered-Nurse--RN--Casual_2026-998-1"
    }
   ],
-  "employer": "Pacificsource Health Plans",
+  "employer": "PacificSource",
   "first_seen": "2026-10-12",
   "home": "Springfield",
   "host": "pacificsource.wd5.myworkdayjobs.com",
-  "lane_openings": 10,
+  "lane_openings": 11,
   "last_run": "2026-10-30",
-  "local": "maybe",
+  "local": true,
   "named": true,
   "platform": "Workday",
-  "remote_ok": false,
-  "rotate": true,
+  "remote_ok": true,
+  "rotate": false,
   "site": "pacificsource",
   "status": "ok",
   "tenant": "pacificsource",
@@ -31280,15 +32514,6 @@
     "org": "",
     "remote": false,
     "snippet": "",
-    "title": "Customer Service Representative",
-    "url": "https://uhaul.wd1.myworkdayjobs.com/uhauljobs/job/Eugene-Oregon/Customer-Service-Representative_R250420"
-   },
-   {
-    "city": "Eugene",
-    "days": 7,
-    "org": "",
-    "remote": false,
-    "snippet": "",
     "title": "Reservation Manager",
     "url": "https://uhaul.wd1.myworkdayjobs.com/uhauljobs/job/Eugene-Oregon/Reservation-Manager_R253928-1"
    },
@@ -31342,7 +32567,7 @@
   "first_seen": "2026-10-09",
   "home": "",
   "host": "uhaul.wd1.myworkdayjobs.com",
-  "lane_openings": 7,
+  "lane_openings": 6,
   "last_run": "2026-10-30",
   "local": false,
   "named": true,
@@ -31357,6 +32582,15 @@
  "workday:usbank/us_bank_careers": {
   "cache_date": "2026-10-30",
   "cache_rows": [
+   {
+    "city": "Springfield",
+    "days": 0,
+    "org": "",
+    "remote": false,
+    "snippet": "",
+    "title": "Float Sr. Relationship Banker - Springfield (Mohawk - Northgate), OR",
+    "url": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Springfield-OR/Float-Client-Relationship-Consultant-4--Banker----Springfield-and-Eugene--OR_2026-0022593"
+   },
    {
     "city": "Eugene",
     "days": 2,
@@ -31425,7 +32659,7 @@
   "first_seen": "2026-10-09",
   "home": "Eugene",
   "host": "usbank.wd1.myworkdayjobs.com",
-  "lane_openings": 7,
+  "lane_openings": 8,
   "last_run": "2026-10-30",
   "local": "maybe",
   "named": true,
