@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hot Jobs Counselor Guide</title>
+<meta name="description" content="A self-paced guide to Lane County Hot Jobs for career counselors and job developers: four one-minute videos, hands-on practice in the live tool, and a quick check.">
+<style>
+  :root{--ink:#16232e;--mu:#52606d;--line:#dde3e8;--bg:#f6f8f9;--card:#fff;--a:#0f5e4c;--a2:#e7f2ef;--hl:#ea580c;--ok:#15803d;--no:#b42318}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  a{color:var(--a)}
+  header{background:linear-gradient(135deg,#0f3d5e,#0f5e4c);color:#fff;padding:36px 16px 30px}
+  header .in,main{max-width:1280px;margin:0 auto}
+  .kick{font-size:13px;letter-spacing:.09em;text-transform:uppercase;opacity:.85;font-weight:700}
+  h1{font-size:clamp(28px,4vw,40px);line-height:1.15;margin:6px 0 10px}
+  header p{margin:0;max-width:720px;font-size:18px;opacity:.95}
+  nav.steps{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+  nav.steps a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+  nav.steps a.done{background:rgba(255,255,255,.18)}
+  nav.steps a.done::before{content:"✓ "}
+  main{display:grid;grid-template-columns:minmax(0,1fr) 520px;gap:28px;padding:28px 16px 60px;align-items:start}
+  section.m{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;margin-bottom:22px;scroll-margin-top:16px}
+  section.m h2{margin:0 0 4px;font-size:24px}
+  .num{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--a);color:#fff;font-size:15px;font-weight:700;margin-right:8px;vertical-align:3px}
+  .lead{color:var(--mu);margin:0 0 14px}
+  video{width:100%;border-radius:10px;background:#0b1620;display:block;aspect-ratio:16/9}
+  .pts{margin:16px 0 0;padding-left:20px}
+  .pts li{margin:6px 0}
+  .try{margin-top:16px;background:var(--a2);border-radius:10px;padding:14px 16px}
+  .try b{display:block;margin-bottom:4px}
+  .try label{display:flex;gap:8px;align-items:center;margin-top:10px;font-weight:600;cursor:pointer}
+  .try input{width:18px;height:18px;accent-color:var(--a)}
+  .tip{font-size:14px;color:var(--mu);margin-top:8px}
+  aside{position:sticky;top:16px}
+  aside .box{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  aside .bar{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:12px 16px;border-bottom:1px solid var(--line);background:#fbfcfc}
+  aside .bar b{font-size:15px}
+  aside .bar a{font-size:14px}
+  aside .tool{max-height:calc(100vh - 90px);overflow:auto;padding:8px 12px}
+  .quiz .q{border-top:1px solid var(--line);padding:16px 0}
+  .quiz .q:first-of-type{border-top:0}
+  .quiz p{margin:0 0 8px;font-weight:600}
+  .quiz button{display:block;width:100%;text-align:left;font:inherit;background:#fff;border:1px solid var(--line);border-radius:8px;padding:9px 12px;margin:6px 0;cursor:pointer;color:var(--ink)}
+  .quiz button:hover{border-color:var(--a)}
+  .quiz button.right{border-color:var(--ok);background:#ecfdf3}
+  .quiz button.wrong{border-color:var(--no);background:#fef3f2}
+  .quiz .why{font-size:14px;color:var(--mu);margin-top:6px}
+  .score{font-weight:700;margin-top:10px}
+  footer{max-width:1280px;margin:0 auto;padding:0 16px 40px;color:var(--mu);font-size:14px}
+  .practice-link{display:none}
+  @media (max-width:1000px){
+    main{grid-template-columns:1fr}
+    aside{position:static}
+    aside .tool{max-height:none}
+    .practice-link{display:inline-block;margin-top:10px;font-weight:600}
+  }
+</style>
+</head>
+<body>
+<header><div class="in">
+  <div class="kick">Lane County Hot Jobs · Counselor guide</div>
+  <h1>Help job seekers find real openings, fast</h1>
+  <p>Four one-minute videos, hands-on practice in the live tool, and a quick check. About 10 minutes, at your own pace.</p>
+  <nav class="steps" aria-label="Guide sections">
+    <a href="#m1" data-step="1">1 · Search and filters</a>
+    <a href="#m2" data-step="2">2 · Fewer barriers</a>
+    <a href="#m3" data-step="3">3 · Reading a listing</a>
+    <a href="#m4" data-step="4">4 · Share and report</a>
+    <a href="#check" data-step="5">Check yourself</a>
+  </nav>
+</div></header>
+
+<main>
+<div>
+  <section class="m" id="m1">
+    <h2><span class="num">1</span>Search and filters</h2>
+    <p class="lead">Start broad, then narrow. Every filter shows how many openings it would add.</p>
+    <video controls preload="metadata" playsinline poster="clips/clip-1.jpg" aria-describedby="m1pts">
+      <source src="clips/clip-1.mp4" type="video/mp4">
+    </video>
+    <ul class="pts" id="m1pts">
+      <li><b>Search</b> matches job titles, skills and employers: "CDL," "bilingual," "PeaceHealth." Spacing and punctuation don't matter.</li>
+      <li><b>Town, type of work, kind of employer and hours</b> combine. The count at the top always shows how many openings match.</li>
+      <li><b>Clear all filters</b> starts over. Remote jobs are a separate "Where you'd work" choice and never mixed into Lane County counts.</li>
+    </ul>
+    <div class="try"><b>Try it</b>Find part-time jobs in Springfield in Retail &amp; sales. How many are there right now?
+      <label><input type="checkbox" data-done="1"> I did it</label>
+      <a class="practice-link" href="#practice">Go to the live tool ↓</a></div>
+  </section>
+
+  <section class="m" id="m2">
+    <h2><span class="num">2</span>Fewer barriers</h2>
+    <p class="lead">Four filters for the things that most often stand between a client and a job.</p>
+    <video controls preload="metadata" playsinline poster="clips/clip-2.jpg" aria-describedby="m2pts">
+      <source src="clips/clip-2.mp4" type="video/mp4">
+    </video>
+    <ul class="pts" id="m2pts">
+      <li><b>Near an LTD bus stop:</b> the workplace is about a quarter mile or less from a Lane Transit District stop.</li>
+      <li><b>No degree needed:</b> the posting doesn't ask for a college degree. <b>Training provided:</b> paid or on-the-job training, or an apprenticeship.</li>
+      <li><b>Fair-chance employer:</b> the employer has a confirmed fair-chance policy, or the posting says a record won't automatically rule someone out. Unlike the other filters, these narrow <i>together</i>: a job must match every one you pick.</li>
+    </ul>
+    <div class="try"><b>Try it</b>A client has no car and no degree. Find full-time jobs that fit both.
+      <label><input type="checkbox" data-done="2"> I did it</label>
+      <a class="practice-link" href="#practice">Go to the live tool ↓</a></div>
+  </section>
+
+  <section class="m" id="m3">
+    <h2><span class="num">3</span>Reading a listing</h2>
+    <p class="lead">Each line tells you something you'd otherwise have to click through to learn.</p>
+    <video controls preload="metadata" playsinline poster="clips/clip-3.jpg" aria-describedby="m3pts">
+      <source src="clips/clip-3.mp4" type="video/mp4">
+    </video>
+    <ul class="pts" id="m3pts">
+      <li><b>"Pay:"</b> is the employer's own posted pay. <b>"Pay not listed"</b> shows the Lane County average for that kind of job, clearly marked as an average.</li>
+      <li><b>"Link checked"</b> means Hot Jobs opened the posting and it was still up. <b>"Posted by the employer"</b> means the link goes to the employer's own hiring site.</li>
+      <li><b>View and apply</b> opens the original posting; the note beside it says where the application goes. Listings show how long ago they were posted, and Hot Jobs refreshes every night.</li>
+    </ul>
+    <div class="try"><b>Try it</b>Find a listing that shows the employer's own pay, and one that shows the local average. What's the difference in how they're labeled?
+      <label><input type="checkbox" data-done="3"> I did it</label>
+      <a class="practice-link" href="#practice">Go to the live tool ↓</a></div>
+  </section>
+
+  <section class="m" id="m4">
+    <h2><span class="num">4</span>Share a list, report a problem</h2>
+    <p class="lead">Hand a client their own short list, and help keep the listings accurate.</p>
+    <video controls preload="metadata" playsinline poster="clips/clip-4.jpg" aria-describedby="m4pts">
+      <source src="clips/clip-4.mp4" type="video/mp4">
+    </video>
+    <ul class="pts" id="m4pts">
+      <li><b>Make a list for someone:</b> pick up to 12 jobs, then copy a link, show a QR code, or print a one-page list. The link always shows the latest status of each job.</li>
+      <li><b>Let us know</b> (at the bottom of the list) reports a closed job, a broken link or wrong details. Nothing personal is collected.</li>
+      <li>Missing an employer you know is hiring? Send its careers page to the Hot Jobs team and it's added to the nightly search.</li>
+    </ul>
+    <div class="try"><b>Try it</b>Pick three jobs for a pretend client and show the QR code. (You don't need to send anything.)
+      <label><input type="checkbox" data-done="4"> I did it</label>
+      <a class="practice-link" href="#practice">Go to the live tool ↓</a></div>
+  </section>
+
+  <section class="m quiz" id="check">
+    <h2><span class="num">✓</span>Check yourself</h2>
+    <p class="lead">Five quick questions. Pick an answer to see why.</p>
+    <div id="quiz"></div>
+    <div class="score" id="score" aria-live="polite"></div>
+  </section>
+</div>
+
+<aside id="practice" aria-label="Live Hot Jobs tool for practice">
+  <div class="box">
+    <div class="bar"><b>Practice in the live tool</b><a href="https://laneworkforce.org/hot-jobs/" target="_blank" rel="noopener">Open on laneworkforce.org ↗</a></div>
+    <div class="tool"><script src="../widget.js" defer></script></div>
+  </div>
+</aside>
+</main>
+
+<footer>
+  Lane County Hot Jobs is a public beta built by Collaborative Economic Development Oregon with Lane Workforce Partnership.
+  Share it with job seekers at <a href="https://laneworkforce.org/hot-jobs/">laneworkforce.org/hot-jobs</a>.
+</footer>
+
+<script>
+(function () {
+  var KEY = "hj-guide-done";
+  var done = {};
+  try { done = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { done = {}; }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {} }
+  function paint() {
+    document.querySelectorAll("nav.steps a").forEach(function (a) { a.classList.toggle("done", !!done[a.dataset.step]); });
+  }
+  document.querySelectorAll("input[data-done]").forEach(function (c) {
+    c.checked = !!done[c.dataset.done];
+    c.addEventListener("change", function () { done[c.dataset.done] = c.checked; save(); paint(); });
+  });
+  // Mark a video's step as watched when it ends.
+  document.querySelectorAll("section.m video").forEach(function (v, i) {
+    v.addEventListener("ended", function () { var b = v.closest("section").querySelector("input[data-done]"); if (b && !b.checked) { b.checked = true; done[i + 1] = true; save(); paint(); } });
+  });
+
+  var Q = [
+    { q: "A listing says “Pay not listed. Average for this occupation in Lane County: $24.10 an hour.” What does that mean?",
+      a: ["The employer will pay $24.10", "The employer didn't post pay; $24.10 is the local average for that kind of job", "The job pays at least $24.10"], c: 1,
+      why: "When the employer doesn't post pay, Hot Jobs shows the Lane County average for that occupation and labels it as an average." },
+    { q: "You pick “Near an LTD bus stop” and “No degree needed.” Which jobs show?",
+      a: ["Jobs that match either one", "Only jobs that match both", "All jobs, sorted by those two"], c: 1,
+      why: "Fewer barriers filters narrow together: a job must match every one you pick. The other filters (type of work, kind of employer, hours) widen instead." },
+    { q: "What does “Link checked” on a listing tell you?",
+      a: ["The employer confirmed the job is open by phone", "Hot Jobs opened the posting recently and it was still up", "Someone applied successfully"], c: 1,
+      why: "Hot Jobs opens posting links every night and drops ones that are gone or say the job is closed." },
+    { q: "Are remote jobs counted in the Lane County openings total?",
+      a: ["Yes", "No, they're a separate choice under “Where you'd work”"], c: 1,
+      why: "Remote roles from employers with a Lane County presence are listed, but kept out of Lane County counts." },
+    { q: "Your client wants to look at jobs later on their phone. What's quickest?",
+      a: ["Screenshot each listing", "Make a list for someone, then show the QR code", "Email them the Hot Jobs home page"], c: 1,
+      why: "A list holds up to 12 jobs, and the QR code or link always shows each job's latest status." }
+  ];
+  var box = document.getElementById("quiz"), right = 0, answered = 0;
+  Q.forEach(function (item, qi) {
+    var d = document.createElement("div"); d.className = "q";
+    d.innerHTML = "<p>" + (qi + 1) + ". " + item.q + "</p>";
+    item.a.forEach(function (txt, ai) {
+      var b = document.createElement("button"); b.type = "button"; b.textContent = txt;
+      b.addEventListener("click", function () {
+        if (d.dataset.done) return;
+        d.dataset.done = "1"; answered++;
+        if (ai === item.c) { b.classList.add("right"); right++; } else { b.classList.add("wrong"); d.querySelectorAll("button")[item.c].classList.add("right"); }
+        var w = document.createElement("div"); w.className = "why"; w.textContent = (ai === item.c ? "Right. " : "Not quite. ") + item.why; d.appendChild(w);
+        if (answered === Q.length) {
+          document.getElementById("score").textContent = right + " of " + Q.length + " right. " + (right === Q.length ? "You're ready to use Hot Jobs with clients." : "Rewatch any section above, then try again any time.");
+          done[5] = true; save(); paint();
+        }
+      });
+      d.appendChild(b);
+    });
+    box.appendChild(d);
+  });
+  paint();
+})();
+</script>
+</body>
+</html>
