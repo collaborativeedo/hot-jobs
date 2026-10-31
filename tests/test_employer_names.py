@@ -43,3 +43,12 @@ def test_fair_chance_wording():
           "We encourage people with lived experience of recovery to apply.", "Must pass a criminal background check."]
     assert all(enrich.text_flags(t)["fair_chance"] for t in yes)
     assert not any(enrich.text_flags(t)["fair_chance"] for t in no)
+
+
+def test_onet_titles():
+    if not enrich.onet().get("titles"):
+        return  # data/onet.json not built in this checkout
+    assert enrich.onet_soc("Forklift Operator") == "537051"
+    assert enrich.onet_soc("Experienced Forklift Operator - Swing Shift") == "537051"
+    assert enrich.onet_soc("Director") == ""
+    assert enrich.onet_soc("Head Chef") == "351011"

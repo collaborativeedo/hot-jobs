@@ -86,3 +86,14 @@ python scripts/refresh.py --fixture tests/fixture_page.html
 ```
 
 That run writes to `tests/out/` and leaves the real data alone.
+
+## O*NET occupation data
+
+`scripts/onet.py` (workflow "Refresh O*NET occupation data", quarterly) downloads the free O*NET database files and
+writes `data/onet.json`. The nightly run uses it to code postings whose titles the other rules miss, to tag
+"Entry level" (O*NET job zones 1 and 2, excluding senior, lead and management titles), and to write
+`docs/occupations.json`, which the widget reads for "About this kind of job", "Similar jobs hiring now" and search by
+skills, tools and tasks. Credit, as the license requires: This page includes information from the O*NET 31.0
+Database by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA). Used under the CC BY 4.0
+license. O*NET® is a trademark of USDOL/ETA. Hot Jobs has modified the information; USDOL/ETA has not approved,
+endorsed, or tested these modifications.

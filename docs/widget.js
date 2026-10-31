@@ -52,6 +52,10 @@
       count: function (n, m) { return n + " of " + m + " openings"; },
       none: "No openings match. Try fewer filters or", more: "Show more jobs",
       noEmp: "Employer not listed", pay: "Pay: ", noPay: "Pay not listed. ", apply: "View and apply",
+      about: "About this kind of job", prep: "Preparation: ", zone: ["", "little or none", "some", "medium", "considerable", "extensive"],
+      similar: "Similar jobs hiring now:", similarTo: function (t) { return "Similar to " + t; },
+      skillHit: function (q) { return "Shown because this kind of job involves \u201c" + q + "\u201d"; },
+      onet: "Job descriptions, preparation levels and similar jobs come from the O*NET 31.0 Database by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), used under the CC BY 4.0 license and modified by Hot Jobs; USDOL/ETA has not approved, endorsed, or tested these modifications. O*NET\u00ae is a trademark of USDOL/ETA.",
       when: function (d, dated) {
         var w = d <= 0 ? "today" : d === 1 ? "1 day ago" : d + " days ago";
         return dated === false ? "Added " + w : w.charAt(0).toUpperCase() + w.slice(1);
@@ -94,6 +98,10 @@
       count: function (n, m) { return n + " de " + m + " vacantes"; },
       none: "No hay vacantes que coincidan. Pruebe con menos filtros o", more: "Ver más empleos",
       noEmp: "Empleador no indicado", pay: "Pago: ", noPay: "Pago no indicado. ", apply: "Ver y solicitar",
+      about: "Sobre este tipo de empleo", prep: "Preparación: ", zone: ["", "poca o ninguna", "alguna", "media", "considerable", "extensa"],
+      similar: "Empleos similares con vacantes:", similarTo: function (t) { return "Similares a " + t; },
+      skillHit: function (q) { return "Se muestra porque este tipo de empleo incluye \u201c" + q + "\u201d"; },
+      onet: "Las descripciones de empleos, los niveles de preparación y los empleos similares provienen de la base de datos O*NET 31.0 del Departamento de Trabajo de EE. UU., Administración de Empleo y Capacitación (USDOL/ETA), usada bajo la licencia CC BY 4.0 y modificada por Hot Jobs; USDOL/ETA no ha aprobado, respaldado ni probado estas modificaciones. O*NET\u00ae es una marca registrada de USDOL/ETA. Las descripciones están en inglés.",
       when: function (d, dated) {
         var w = d <= 0 ? "hoy" : d === 1 ? "hace 1 día" : "hace " + d + " días";
         return dated === false ? "Agregado " + w : w.charAt(0).toUpperCase() + w.slice(1);
@@ -143,18 +151,20 @@
     "Staffing agency": "Agencia de empleo", "Remote": "Remoto", "Public safety & security": "Seguridad pública y protección", "Cleaning & grounds": "Limpieza y mantenimiento de áreas verdes",
     "Full-time": "Tiempo completo", "Part-time": "Medio tiempo", "Temporary or seasonal": "Temporal o de temporada", "Not stated": "No indicado"
   };
-  var EASE = ["bus", "no_degree", "training", "fair_chance"];
+  var EASE = ["bus", "no_degree", "entry", "training", "fair_chance"];
   var EASE_LABEL = {
-    en: { bus: "Near an LTD bus stop", no_degree: "No degree needed", training: "Training provided", fair_chance: "Fair-chance employer" },
-    es: { bus: "Cerca de una parada de LTD", no_degree: "No se requiere título", training: "Ofrecen capacitación", fair_chance: "Empleador de segunda oportunidad" }
+    en: { bus: "Near an LTD bus stop", no_degree: "No degree needed", entry: "Entry level", training: "Training provided", fair_chance: "Fair-chance employer" },
+    es: { bus: "Cerca de una parada de LTD", no_degree: "No se requiere título", entry: "Nivel de entrada", training: "Ofrecen capacitación", fair_chance: "Empleador de segunda oportunidad" }
   };
   var EASE_TIP = {
     en: { bus: "The employer's address is within about a quarter mile of a Lane Transit District stop",
           no_degree: "The posting doesn't ask for a college degree, and says so or is in an occupation that usually needs a high school diploma or less",
+          entry: "O*NET rates this kind of job as needing little or some preparation (usually a high school diploma or less and up to a year of experience or training), and it isn't a senior, lead or management role",
           training: "The posting mentions paid or on-the-job training, an apprenticeship, or that they will train you",
           fair_chance: "The employer has a confirmed fair-chance hiring policy, or the posting says a criminal record won't automatically rule you out" },
     es: { bus: "La dirección del empleador está a menos de un cuarto de milla de una parada de Lane Transit District",
           no_degree: "El anuncio no pide un título universitario y lo indica, o es una ocupación que por lo general requiere diploma de preparatoria o menos",
+          entry: "O*NET califica este tipo de empleo como de poca o alguna preparación (por lo general diploma de preparatoria o menos y hasta un año de experiencia o capacitación), y no es un puesto superior, de líder ni de gerencia",
           training: "El anuncio menciona capacitación pagada o en el trabajo, un aprendizaje o que lo capacitarán",
           fair_chance: "El empleador tiene una política confirmada de segunda oportunidad, o el anuncio dice que tener antecedentes penales no lo descalifica automáticamente" }
   };
@@ -201,6 +211,9 @@
     ".lchj a.lchj-apply{display:inline-block;font-size:14px;font-weight:600;background:var(--a);color:#fff;text-decoration:none;border-radius:8px;padding:6px 14px}",
     ".lchj a.lchj-apply:hover{filter:brightness(1.12);color:#fff}",
     ".lchj .lchj-via{font-size:12px;color:var(--mu)}",
+    ".lchj .lchj-about{font-size:13px;color:var(--mu);margin-top:2px}.lchj .lchj-about summary{cursor:pointer;color:var(--a);width:max-content;max-width:100%}.lchj .lchj-about p{margin:4px 0 0}",
+    ".lchj .lchj-sim{font-size:13px;color:var(--mu);display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;margin-top:2px}.lchj .lchj-sim button{font:inherit;font-size:13px;background:none;border:0;padding:0;color:var(--a);text-decoration:underline;cursor:pointer}",
+    ".lchj .lchj-skill{font-size:12px;color:var(--mu);font-style:italic}",
     ".lchj .lchj-trust{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--mu);margin-top:2px}",
     ".lchj .lchj-trust span{display:inline-flex;align-items:center;gap:4px;cursor:help}",
     ".lchj .lchj-trust .ok::before{content:'\\2713';color:#1a7f37;font-weight:700}",
@@ -279,9 +292,15 @@
   root.querySelector(".lchj-h").textContent = opt.title || t("title");
   root.querySelector(".lchj-count").textContent = t("loading");
 
+  var OCC = {}, OCC_CREDIT = "", occReady = null;  // O*NET details by occupation code (docs/occupations.json)
   fetch(base + "jobs.json", { cache: "no-cache" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(draw)
+    .then(function (data) {
+      draw(data);
+      fetch(base + "occupations.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (o) { if (o && o.occ) { OCC = o.occ; OCC_CREDIT = o.credit || ""; if (occReady) occReady(); } })
+        .catch(function () {});
+    })
     .catch(function () {
       root.querySelector(".lchj-count").textContent = "";
       root.appendChild(el("p", "lchj-empty", t("down")));
@@ -318,13 +337,17 @@
       q: "", city: opt.city || "All", shown: 15,
       type: list(opt.type),
       place: list(opt.workplace || OLD_INDUSTRY[opt.industry] || opt.industry),
-      hours: list(opt.hours), ease: [],
+      hours: list(opt.hours), ease: [], occ: [],  // occ: "Similar jobs" picked from a listing
       shared: hashIds(),      // a list someone picked, opened from a link
       picking: false, picked: [], qrOpen: false, copied: false, linkShown: false,
       ask: null, answered: {},  // "Was this job still open?"
       reporting: false, reported: false, recent: []  // "See a problem?" form; jobs opened this visit
     };
     if (st.shared.length) signal("shortlist", { act: "open", n: st.shared.length });
+    occReady = function () {
+      jobs.forEach(function (j) { var o = OCC[j.soc]; j._skills = o ? fold(o.t + " " + (o.k || []).join(" ")) : ""; });
+      if ($(".lchj-filters")) build();
+    };
 
     function tally(arr, get) {
       var c = {}; arr.forEach(function (j) { get(j).forEach(function (v) { if (v) c[v] = (c[v] || 0) + 1; }); });
@@ -354,7 +377,8 @@
       $(".lchj-filters").style.cssText = "display:flex;flex-direction:column;gap:12px";
       $(".lchj-q").value = st.q;
       cityOptions();
-      $(".lchj-foot").innerHTML = t("foot")(upd && !isNaN(upd) ? esc(upd.toLocaleDateString(lang === "es" ? "es-US" : "en-US", { month: "short", day: "numeric", year: "numeric" })) : "");
+      $(".lchj-foot").innerHTML = t("foot")(upd && !isNaN(upd) ? esc(upd.toLocaleDateString(lang === "es" ? "es-US" : "en-US", { month: "short", day: "numeric", year: "numeric" })) : "") +
+        (Object.keys(OCC).length ? " " + esc(t("onet")) : "");
       $(".lchj-q").addEventListener("input", function (e) { st.q = e.target.value; refresh(); });
       $(".lchj-city").addEventListener("change", function (e) { st.city = e.target.value; refresh(); });
       refresh();
@@ -369,14 +393,18 @@
       if (flat && j._flat.indexOf(flat) > -1) return true;
       return q.split(/\s+/).every(function (w) { return j._hay.indexOf(w) > -1 || j._flat.indexOf(w.replace(/[^a-z0-9]/g, "")) > -1; });
     }
-    function match(j, skip) {
+    function skillFound(j, q) {
+      return !!j._skills && q.split(/\s+/).every(function (w) { return w.length > 2 && j._skills.indexOf(w) > -1; });
+    }
+    function match(j, skip, bySkill) {
       var q = fold(st.q.trim());
       return (skip === "type" || !st.type.length || st.type.indexOf(j.type) > -1) &&
         (skip === "place" || !st.place.length || j.workplaces.some(function (w) { return st.place.indexOf(w) > -1; })) &&
         (skip === "hours" || !st.hours.length || st.hours.indexOf(j.hoursKey) > -1) &&
         (skip === "ease" || st.ease.every(function (e) { return j.eases.indexOf(e) > -1; })) &&
         (st.city === "All" || j.city === st.city) &&
-        (!q || found(j, q));
+        (!st.occ.length || st.occ.indexOf(j.soc) > -1) &&
+        (!q || (bySkill ? !found(j, q) && skillFound(j, q) : found(j, q)));
     }
     function group(g, values, get, label, all) {
       var box = $('.lchj-chips[data-g="' + g + '"]');
@@ -401,6 +429,7 @@
       if (st.city !== "All") parts.push(st.city);
       [st.type, st.place, st.hours].forEach(function (a) { if (a.length) parts.push(a.map(V).join(t("or"))); });
       if (st.ease.length) parts.push(st.ease.map(function (v) { return EASE_LABEL[lang][v]; }).join(t("and")));
+      if (st.occ.length && OCC[st.occ[0]]) parts.push(t("similarTo")(OCC[st.occ[0]].t));
       $(".lchj-active").hidden = !parts.length;
       $(".lchj-sum").textContent = parts.length ? t("showing") + parts.join(" · ") : "";
     }
@@ -422,10 +451,23 @@
       return '<li class="lchj-job' + (on && st.picking ? " on" : "") + '" data-id="' + esc(j.id || "") + '">' + pick +
         '<a class="lchj-t" href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + "</a>" +
         '<div class="lchj-who">' + who + "</div>" + pay +
-        (j.snippet ? '<div class="lchj-snip">' + esc(j.snippet) + "…</div>" : "") + trust(j) +
+        (j.snippet ? '<div class="lchj-snip">' + esc(j.snippet) + "…</div>" : "") + trust(j) + occInfo(j) +
         '<div class="lchj-act"><a class="lchj-apply" href="' + esc(j.url) + '" target="_blank" rel="noopener" aria-label="' + esc(t("apply")) + ": " + esc(j.title) + '">' + esc(t("apply")) + "</a>" +
         (via ? '<span class="lchj-via">' + esc(via) + "</span>" : "") +
         '<span class="lchj-when">' + esc(t("when")(j.days, j.dated)) + "</span></div>" + ask + "</li>";
+    }
+    function occInfo(j) {
+      var o = OCC[j.soc];
+      if (!o) return "";
+      var out = j._why ? '<div class="lchj-skill">' + esc(t("skillHit")(j._why)) + "</div>" : "";
+      var sims = (o.rel || []).map(function (c) {
+        var n = jobs.filter(function (x) { return x.soc === c; }).length;
+        return n && OCC[c] ? '<button type="button" data-sim="' + esc(c) + '">' + esc(OCC[c].t) + " (" + n + ")</button>" : "";
+      }).filter(Boolean).slice(0, 3);
+      if (sims.length && !st.picking) out += '<div class="lchj-sim"><span>' + esc(t("similar")) + "</span>" + sims.join("") + "</div>";
+      if (o.d) out += '<details class="lchj-about"><summary>' + esc(t("about")) + "</summary><p><b>" + esc(o.t) + ":</b> " + esc(o.d) +
+        (o.z ? " " + esc(t("prep")) + esc(t("zone")[o.z] || "") + "." : "") + "</p></details>";
+      return out;
     }
     function shortDate(iso) {
       var d = new Date(iso + "T12:00:00");
@@ -493,7 +535,13 @@
         $(".lchj-make").hidden = true;
         $(".lchj-count").textContent = "";
       } else {
-        f = jobs.filter(function (j) { return match(j); });
+        f = jobs.filter(function (j) { j._why = ""; return match(j); });
+        // Few direct hits: add jobs whose kind of work involves the words searched (O*NET skills, tools, tasks),
+        // after the direct hits and labeled, e.g. "forklift" also finds Industrial Truck Operators.
+        var q0 = st.q.trim();
+        if (q0 && f.length < 15 && Object.keys(OCC).length) {
+          f = f.concat(jobs.filter(function (j) { var m = match(j, null, true); if (m) j._why = q0; return m; }));
+        }
         banner.hidden = true;
         $(".lchj-filters").hidden = false;
         $(".lchj-make").hidden = false;
@@ -568,9 +616,15 @@
         var a = st[b.dataset.g], i = a.indexOf(b.dataset.v);
         if (i > -1) a.splice(i, 1); else a.push(b.dataset.v);
       } else if (b.classList.contains("lchj-clear")) {
-        st.q = ""; st.city = "All"; st.type = []; st.place = []; st.hours = []; st.ease = [];
+        st.q = ""; st.city = "All"; st.type = []; st.place = []; st.hours = []; st.ease = []; st.occ = [];
         $(".lchj-q").value = ""; cityOptions();
       } else if (b.classList.contains("lchj-more")) { st.shown += 15; render(); return; }
+      else if (b.dataset.sim) {
+        st.occ = [b.dataset.sim]; st.q = ""; $(".lchj-q").value = "";
+        refresh();
+        try { root.scrollIntoView({ behavior: "smooth", block: "start" }); } catch (x) { root.scrollIntoView(); }
+        return;
+      }
       else if (b.classList.contains("lchj-lang")) {
         lang = lang === "es" ? "en" : "es"; store("lchj-lang", lang); build(); $(".lchj-lang").focus(); return;
       } else if (b.classList.contains("lchj-make")) {

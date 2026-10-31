@@ -83,6 +83,7 @@ MISSES_TO_CLOSE = 3  # a job closes after this many nightly runs without appeari
 PAUSE = 1.0          # seconds between page requests, to be polite
 SHOW_DAYS = 14       # the widget shows postings up to this many days old; older ones are often already filled
 KNOWN_NAMES = []        # filled in add_details
+ADD_DETAILS_LOG = []
 SHOW_DAYS_CHECKED = 45  # ...or up to this many days old when checked live in the last few nights (not job-board reposts)
 CHECKED_WITHIN = 4      # days: a "Checked" date this recent counts as live (matches the saved-read limit)
 SKIP_HOSTS = ("indeed.com", "simplyhired.com")  # reposts here are often expired or behind a "confirm you're human" check
@@ -380,6 +381,23 @@ def read_posting_pages(jobs, fetcher, today, log):
                f"{sum(1 for v in cache.values() if v.get('pay'))} of {len(cache)} on file state pay.")
 
 
+def write_occupations(show):
+    """docs/occupations.json: O*NET details for the occupations of the jobs shown, for the widget's "About this kind
+    of job", "Similar jobs hiring now" and skill search. Related occupations are kept only when they're hiring."""
+    occ = enrich.onet().get("occ") or {}
+    here = Counter(j.get("soc") for j in show if j.get("soc"))
+    out = {}
+    for s in here:
+        o = occ.get(s)
+        if not o:
+            continue
+        out[s] = {"t": o["t"], "d": o.get("d", ""), "z": o.get("z"), "k": o.get("k", [])[:30],
+                  "rel": [r for r in o.get("rel", []) if r in here and r != s][:4]}
+    path = OUT.parent / "occupations.json"
+    path.write_text(json.dumps({"credit": enrich.onet().get("credit", ""), "occ": out}, ensure_ascii=False,
+                               separators=(",", ":")), encoding="utf-8")
+
+
 def known_employer_names(jobs):
     """Employer names to look for in posting text: the registry, plus employers already named on tonight's postings."""
     names = [j["employer"] for j in jobs if j.get("employer")]
@@ -394,10 +412,17 @@ def add_details(jobs, wages):
     """Employer, pay, hours and kind of workplace for each posting."""
     global KNOWN_NAMES
     KNOWN_NAMES = known_employer_names(jobs)
+    coded = 0
     for j in jobs:  # reference numbers come off the shown title; the full title is kept (and searchable)
         clean = enrich.display_title(j["title"])
         if clean != j["title"]:
             j["title_full"], j["title"] = j["title"], clean
+        if not j.get("soc"):  # no occupation from QualityInfo or the title rules: try O*NET's job titles
+            s = enrich.onet_soc(j.get("title_full") or j["title"])
+            if s:
+                j["soc"], j["type"], j["soc_src"] = s, rules.type_of_work(s), "onet"
+                coded += 1
+    ADD_DETAILS_LOG.append(f"O*NET: {coded} postings matched to an occupation by their title.")
     for j in jobs:
         oed = j.pop("oed", None) or {}
         desc = oed.get("description", "")
@@ -446,6 +471,10 @@ def drop_out_of_area(jobs, log):
     return keep
 
 
+_SENIOR = re.compile(r"\b(senior|sr\.?|lead|leader|manager|mgr|director|supervisor|chief|head|principal|"
+                     r"superintendent|foreman|forewoman|captain|ii|iii|iv|journey\w*|master|specialist [2-9])\b", re.I)
+
+
 def tag_barriers(jobs, log, offline=False):
     """Labels for the "Fewer barriers" filters: near an LTD stop, no degree needed, training, fair chance."""
     levels, no_degree = {}, (lambda soc, lv: None)
@@ -469,8 +498,13 @@ def tag_barriers(jobs, log, offline=False):
                                   None if j.get("remote") else j.get("near_bus"))
         if "fair_chance" not in j["eases"] and any(rx.search(j.get("employer") or "") for rx in fair):
             j["eases"].append("fair_chance")
+        # Entry level: O*NET rates the occupation job zone 1 or 2 (little or some preparation), and the title isn't a
+        # senior, lead or management role.
+        z = (enrich.onet().get("occ") or {}).get(j.get("soc") or "", {}).get("z")
+        if z and z <= 2 and not _SENIOR.search(j.get("title_full") or j["title"]):
+            j["eases"].append("entry")
     n = lambda k: sum(1 for j in jobs if k in j["eases"])  # noqa: E731
-    log.append(f"Fewer barriers: near bus {n('bus')}, no degree {n('no_degree')}, training {n('training')}, "
+    log.append(f"Fewer barriers: near bus {n('bus')}, no degree {n('no_degree')}, entry level {n('entry')}, training {n('training')}, "
                f"fair chance {n('fair_chance')} of {len(jobs)} postings.")
 
 
@@ -1030,6 +1064,7 @@ def main():
         read_posting_pages(jobs, fetcher, today, log)
         mark("Posting pages (pay, details)")
     add_details(jobs, wages)
+    log.extend(ADD_DETAILS_LOG)
     jobs = drop_out_of_area(jobs, log)
     tag_barriers(jobs, log, offline=bool(args.fixture))
     mark("Barrier tags")
@@ -1105,6 +1140,7 @@ def main():
                  | {"snippet": j["snippet"][:160]} for j in show],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
+    write_occupations(show)
     STATE.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")

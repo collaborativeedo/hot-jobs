@@ -6,6 +6,7 @@ without a source. When a detail is not stated, it is left blank so the widget ca
 import html as _html
 import json
 import re
+from pathlib import Path
 
 from bs4 import BeautifulSoup
 
@@ -580,3 +581,63 @@ def display_title(title):
     t = re.sub(r"\s*[-–,/|]\s*$", "", t).strip()
     return t or (title or "").strip()
 
+
+
+# ---- O*NET (free database files, CC BY 4.0; built by scripts/onet.py into data/onet.json) -----------------
+
+_ONET = None
+_LEVEL = re.compile(r"\b(i{1,3}|iv|v|[1-5]|sr|senior|jr|junior|part[- ]?time|full[- ]?time|per diem|prn|relief|temporary|"
+                    r"temp|seasonal|entry[- ]level|trainee|float|on[- ]?call|days?|nights?|evenings?|weekends?|"
+                    r"swing|graveyard|overnight|shift|hourly|ft|pt|remote|hybrid|bilingual|spanish)\b", re.I)
+
+
+def onet():
+    """O*NET occupation data, or {} when data/onet.json isn't there yet."""
+    global _ONET
+    if _ONET is None:
+        try:
+            _ONET = json.loads((Path(__file__).resolve().parent.parent / "data" / "onet.json").read_text(encoding="utf-8"))
+        except Exception:  # noqa: BLE001
+            _ONET = {}
+    return _ONET
+
+
+def _onet_norm(t):
+    t = re.sub(r"\(.*?\)", " ", (t or "").lower())
+    return re.sub(r"[^a-z0-9]+", " ", t).strip()
+
+
+_GENERIC = set("""director manager supervisor advisor adviser specialist coordinator associate assistant executive consultant
+analyst representative technician clerk lead agent officer administrator generalist partner worker helper operator
+professional instructor trainer support aide attendant engineer designer developer producer""".split())
+
+
+def onet_soc(title):
+    """Occupation code for a job title from O*NET's 40,000+ job titles, used only when nothing else codes it.
+    Precise by design: the whole title; then its main part (before " - ", "(", "," or ":") without level and
+    schedule words; then the longest O*NET title of 2+ words ending the main part and covering all but at most one
+    of its words. Generic one-word titles ("Director", "Specialist") and O*NET's "All Other" groups don't count,
+    and titles O*NET files under more than one occupation were left out of the index."""
+    data = onet()
+    idx, occ = data.get("titles") or {}, data.get("occ") or {}
+    if not idx or not title:
+        return ""
+
+    def ok(code):
+        return code and "All Other" not in (occ.get(code, {}).get("t") or "")
+    whole = _onet_norm(title)
+    if whole in idx and (len(whole.split()) > 1 or whole not in _GENERIC) and ok(idx[whole]):
+        return idx[whole]
+    head = re.split(r"\s[-–|/]\s|\(|,|:", title)[0]
+    words = re.sub(r"\s+", " ", _LEVEL.sub(" ", _onet_norm(head))).strip().split()
+    if not words:
+        return ""
+    core = " ".join(words)
+    for cand in (core, core[:-1] if core.endswith("s") else ""):
+        if cand and cand in idx and (len(words) > 1 or cand not in _GENERIC) and ok(idx[cand]):
+            return idx[cand]
+    if len(words) >= 3:  # drop one leading modifier: "Experienced Forklift Operator" -> "forklift operator"
+        k = " ".join(words[1:])
+        if k in idx and ok(idx[k]):
+            return idx[k]
+    return ""
