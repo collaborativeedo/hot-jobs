@@ -612,6 +612,14 @@ analyst representative technician clerk lead agent officer administrator general
 professional instructor trainer support aide attendant engineer designer developer producer""".split())
 
 
+# Titles used across many kinds of work, where O*NET's single answer is often wrong for a given employer.
+_BROAD_TITLES = {"customer service associate", "account executive", "sales associate", "associate", "team member",
+                 "crew member", "general laborer", "laborer", "specialist", "coordinator", "assistant", "technician",
+                 "account manager", "operations associate", "service associate", "support specialist",
+                 "program coordinator", "program assistant", "office assistant", "administrative specialist",
+                 "commercial specialist", "business analyst", "consultant", "representative", "intern"}
+
+
 def onet_soc(title):
     """Occupation code for a job title from O*NET's 40,000+ job titles, used only when nothing else codes it.
     Precise by design: the whole title; then its main part (before " - ", "(", "," or ":") without level and
@@ -626,6 +634,9 @@ def onet_soc(title):
     def ok(code):
         return code and "All Other" not in (occ.get(code, {}).get("t") or "")
     whole = _onet_norm(title)
+    if re.sub(r"\b(senior|sr|junior|jr|regional|i{1,3}|[1-3])\b", " ", whole).split() and \
+            " ".join(re.sub(r"\b(senior|sr|junior|jr|regional|i{1,3}|[1-3])\b", " ", whole).split()) in _BROAD_TITLES:
+        return ""
     if whole in idx and (len(whole.split()) > 1 or whole not in _GENERIC) and ok(idx[whole]):
         return idx[whole]
     head = re.split(r"\s[-–|/]\s|\(|,|:", title)[0]

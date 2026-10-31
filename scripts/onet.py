@@ -149,14 +149,12 @@ def build():
     for t in set(votes) | set(reported):
         if not t:
             continue
-        if len(reported.get(t, ())) == 1:
-            titles[t] = next(iter(reported[t]))
-            continue
-        c = votes.get(t)
-        if c:
-            top = c.most_common(2)
-            if len(top) == 1 or top[0][1] >= 2 * top[1][1]:
-                titles[t] = top[0][0]
+        score = Counter(votes.get(t, Counter()))
+        for s in reported.get(t, ()):
+            score[s] += 3  # workers in that occupation reported the title
+        top = score.most_common(2)
+        if top and (len(top) == 1 or top[0][1] > top[1][1]):
+            titles[t] = top[0][0]
     return {"version": VERSION, "credit": ("This page includes information from the O*NET 31.0 Database by the U.S. "
             "Department of Labor, Employment and Training Administration (USDOL/ETA). Used under the CC BY 4.0 license. "
             "O*NET® is a trademark of USDOL/ETA. Hot Jobs has modified the information; USDOL/ETA has not approved, "
