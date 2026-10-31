@@ -35,9 +35,9 @@ OVERLAY = r"""
     background:linear-gradient(135deg,#0f3d5e,#155e75);color:#fff;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
     opacity:0;transition:opacity .5s;pointer-events:none;text-align:center;padding:40px}
   #tour-card.on{opacity:1}
-  #tour-card .k{font:600 22px/1.2 inherit;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
-  #tour-card .t{font:800 56px/1.15 inherit;margin:14px 0}
-  #tour-card .s{font:500 26px/1.4 inherit;opacity:.92;max-width:900px}`;
+  #tour-card .k{font-size:22px;line-height:1.2;font-weight:600;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
+  #tour-card .t{font-size:60px;line-height:1.15;font-weight:800;margin:16px 0}
+  #tour-card .s{font-size:28px;line-height:1.4;font-weight:500;opacity:.92;max-width:900px}`;
   document.head.appendChild(css);
   const cap = Object.assign(document.createElement('div'), {id: 'tour-cap'});
   const cur = Object.assign(document.createElement('div'), {id: 'tour-cur'});
