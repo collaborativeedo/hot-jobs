@@ -48,7 +48,9 @@ def test_fair_chance_wording():
 def test_onet_titles():
     if not enrich.onet().get("titles"):
         return  # data/onet.json not built in this checkout
-    assert enrich.onet_soc("Forklift Operator") == "537051"
-    assert enrich.onet_soc("Experienced Forklift Operator - Swing Shift") == "537051"
+    assert enrich.onet_soc("Dishwasher") == "359021"
+    assert enrich.onet_soc("Certified Veterinary Technician") == "292056"
+    assert enrich.onet_soc("Customer Service Associate") == ""
+    assert enrich.rule_soc("Sterile Processing Tech") == "319093"
     assert enrich.onet_soc("Director") == ""
     assert enrich.onet_soc("Head Chef") == "351011"

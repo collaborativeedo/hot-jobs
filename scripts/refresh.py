@@ -418,7 +418,8 @@ def add_details(jobs, wages):
         if clean != j["title"]:
             j["title_full"], j["title"] = j["title"], clean
         if not j.get("soc"):  # no occupation from QualityInfo or the title rules: try O*NET's job titles
-            s = enrich.onet_soc(j.get("title_full") or j["title"])
+            raw = j.get("title_full") or j["title"]
+            s = enrich.rule_soc(raw) or enrich.onet_soc(raw)
             if s:
                 j["soc"], j["type"], j["soc_src"] = s, rules.type_of_work(s), "onet"
                 coded += 1

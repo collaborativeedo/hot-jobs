@@ -393,7 +393,7 @@ _TITLE_SOC = [(re.compile(p, re.I), c) for p, c in [
     (r"housekeep", "372012"), (r"janitor|custodian|custodial", "372011"), (r"groundskeep|landscap", "373011"),
     (r"\b(cna|certified nursing assistant|nursing assistant)\b", "311131"),
     (r"caregiver|home care aide|personal care (aide|assistant)|direct support professional|\bdsp\b", "311122"),
-    (r"\b(registered nurse|rn)\b", "291141"), (r"\b(lpn|licensed practical nurse)\b", "292061"),
+    (r"sterile processing|central (sterile|supply) tech", "319093"), (r"\b(registered nurse|rn)\b", "291141"), (r"\b(lpn|licensed practical nurse)\b", "292061"),
     (r"medical assistant", "319092"), (r"dental hygienist", "292021"), (r"dental assistant", "319091"),
     (r"pharmacy tech", "292052"), (r"community health worker|\bchw\b", "211094"),
     (r"behavioral health clinician|mental health (therapist|counselor|clinician)|\b(lpc|lcsw|qmhp)\b", "211018"),
@@ -618,6 +618,14 @@ _BROAD_TITLES = {"customer service associate", "account executive", "sales assoc
                  "account manager", "operations associate", "service associate", "support specialist",
                  "program coordinator", "program assistant", "office assistant", "administrative specialist",
                  "commercial specialist", "business analyst", "consultant", "representative", "intern"}
+
+
+def rule_soc(title):
+    """Occupation from the hand-written title rules alone."""
+    for rx, code in _TITLE_SOC:
+        if rx.search(title or ""):
+            return code
+    return ""
 
 
 def onet_soc(title):
